@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "ars_nouveau:magebloom" }
+  ],
+  "tool": {
+    "item": "concatenationcore:cutting_tool"
+  },
+  "result": [
+    {
+      "item": "ars_nouveau:magebloom_fiber",
+      "count": 4
+    }
+  ]
+}

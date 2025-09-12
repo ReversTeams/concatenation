@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "thermal:electrum_plate" }
+  ],
+  "tool": {
+    "tag": "concatenation:hammers"
+  },
+  "result": [
+    {
+      "item": "createaddition:electrum_wire",
+      "count": 3
+    }
+  ]
+}

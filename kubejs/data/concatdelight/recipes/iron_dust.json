@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "concatenationcore:crushed_iron" }
+  ],
+  "tool": {
+    "tag": "concatenation:hammers"
+  },
+  "result": [
+    {
+      "item": "createmetallurgy:iron_dust",
+      "count": 1
+    }
+  ]
+}

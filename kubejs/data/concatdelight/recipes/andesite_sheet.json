@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "create:andesite_alloy_block" }
+  ],
+  "tool": {
+    "tag": "concatenation:hammers"
+  },
+  "result": [
+    {
+      "item": "createdeco:andesite_sheet",
+      "count": 1
+    }
+  ]
+}

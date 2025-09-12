@@ -21,7 +21,8 @@ ServerEvents.tags('item', event => {
 
     add('concatenation:hammers', [
         'concatenationcore:hammer',
-        'concatenationcore:ironclad_hammer'
+        'concatenationcore:ironclad_hammer',
+        'concatenationcore:calralite_hammer'
     ]);
 
     add('concatenation:firing_item', [

@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "minecraft:iron_nugget" },
+    { "item": "minecraft:iron_nugget" }
+  ],
+  "tool": {
+    "tag": "concatenation:hammers"
+  },
+  "result": [
+    {
+      "item": "concatenationcore:crushed_iron",
+      "count": 1
+    }
+  ]
+}

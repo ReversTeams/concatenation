@@ -17708,6 +17708,7 @@
 			dependencies: [
 				"7363621391F2E8EC"
 				"4551222320CBAE77"
+				"01514A831E1895F9"
 			]
 			dependency_requirement: "one_completed"
 			hide_text_until_complete: false
@@ -17785,7 +17786,7 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["1203CDC5DF26F779"]
+			dependencies: ["524067700E07EB06"]
 			id: "01514A831E1895F9"
 			rewards: [{
 				id: "630AC479BCEAE296"
@@ -18033,6 +18034,7 @@
 						]
 					}
 				}
+				title: "Any Salad"
 				type: "item"
 			}]
 			x: -5.0d

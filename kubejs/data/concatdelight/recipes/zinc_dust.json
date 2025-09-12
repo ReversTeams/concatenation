@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "concatenationcore:crushed_zinc" }
+  ],
+  "tool": {
+    "tag": "concatenation:hammers"
+  },
+  "result": [
+    {
+      "item": "createmetallurgy:zinc_dust",
+      "count": 1
+    }
+  ]
+}
