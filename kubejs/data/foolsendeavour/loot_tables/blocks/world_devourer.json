@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "concatenationcore:world_devourer",
+          "weight": 999
+        },
+        {
+          "type": "minecraft:item",
+          "name": "concatenationcore:exalted_world_devourer",
+          "weight": 1
+        }
+      ]
+    },
+
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "foolsendeavour:chests/devoured_world"
+        }
+      ]
+    }
+  ]
+}

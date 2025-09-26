@@ -1,0 +1,3413 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/archevoker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/string/dirt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/desert_pyramid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/pufferfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/food"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/igloo_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/mule"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/abandoned_temple/abandoned_temple_top"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/skeleton_horse"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:entities/thrown_element_crystal/watercrystal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_galley/illager_galley_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/chiefpirate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/squid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/plague_asylum/plague_asylum_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_cast_iron_autocannon_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_village_butcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/glow_squid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_galley/illager_galley_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/mummy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mechanical_nest/mechanical_nest_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:taiga_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/ravager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:ruin/glacial/junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdoors:entities/mask"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/phantom"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_bastion_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/tropical_fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/enderman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:miner/lucky_ore2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:miner/lucky_ore3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:miner/lucky_ore4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:miner/lucky_ore5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:miner/lucky_ore1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ars_nouveau:entities/wilden_hunter"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/donkey"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/additional_ancient_city_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/great_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/mason"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/plague_asylum/plague_asylum_potions"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sniffer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/decent_alchemy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/skeleton_demoman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/archevoker_logbook"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/underwater_ruin_small"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/zombie_fisherman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/mountain_tower/ice_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/keep_kayra/keep_kayra_garden_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/red"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/mason_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/foundry/foundry_lava_pit"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_campsite/illager_campsite_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/smith/expert"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/white"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/entrance_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/armory"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_towers"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/seared_spirit_not_despawn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/igloo_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/ancient_city"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/zombified_piglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/scroll_pouch"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/merchant_campsite/merchant_campsite_tent"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rftoolsdim:entities/dimensional_blob_rare"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mines_treasure_small"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:ruin/glacial/main_cs"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/smith/novice"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/medium_fire"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/glutton_fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/catacombs/armory_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/jungle_temple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/flint/soul_sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_mines/mushroom_mines_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/wither_skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:spire/rare"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_room_table"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/phantom"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/husk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/cartographer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/shepherd_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mechanical_nest/mechanical_nest_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/iron/dirt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/cat_morning_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/echo_shard"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/zombie_bruiser"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/cartographer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/creeper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_house/mushroom_house_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/silverfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/foundry/foundry_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/pig_tallow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/end_city_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/blaze"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/red_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_top_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/aqua"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/supreme_bonescaller_stage_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/green"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/stronghold_library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/cave_spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:elementalcraft/pipe_upgrades/element_pump"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_large_steel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/corpse_fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/drownedpirate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/husk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/fletcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/potion_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/fisherman_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/test_gems"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/small_water"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/diamond/gravel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:ring_gen_all_schools"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:chests/courier_package"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/smith/expert"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/ice"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_rooms"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:entities/thrown_element_crystal/aircrystal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/black"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/camel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/greenwood_pub/greenwood_pub_barrels_hallways"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/attic"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_corsair/illager_corsair_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/vegetation"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/mason"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_snowy_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/chicken"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_village/bandit_village_tents"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/aviary/aviary_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/ghast"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/smith/novice"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/random_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "thermal:entities/basalz"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/abandoned_mineshaft"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/pig"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/stronghold_corridor"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_towers/bandit_towers_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/netherite_ingot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/swarmer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/merchant_campsite/merchant_campsite_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/mangrove_hut/hidden_potion_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_fletcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/light_gray_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/catacombs/wall_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/guardian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:chests/nature_coven_crow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_small_nethersteel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/phantom_creeper_copy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/monastery/monastery_bridges"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_towers/bandit_towers_rooms"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/frog"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zoglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/buried_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_bronze_autocannon_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_towers/bandit_towers_gardens"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:chests/supplyship"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/cryomancer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:igloo"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/pumpkin_dunce"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:mansion_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/skeleton_thrasher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/bastion_bridge"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/end_city_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "tconstruct:entities/terracube"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_steel_screw_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/keep_kayra/keep_kayra_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/string/sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/cod"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_end_city_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/green_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_windmill/illager_windmill_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/inject"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/greenwood_pub/greenwood_pub_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/diamond"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/purple_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/parrot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/nightmare_stalker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/evoker_fort/guard_tower"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/zoglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/flint/gravel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/stray"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/keep_kayra/keep_kayra_library_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/construction"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:archaeology/desert_well"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_taiga_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/sewer_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/villager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/giant_mushroom/twin_giant_mushroom"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/additional_blaze_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/bookshelf_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:witch_hut"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/nether_bridge"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/dolphin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/magma_cube"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_normal_upper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/dead_king"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/zombie_villager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_steel_sliding_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_village/mushroom_village_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/archerbarbarian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/woodland_mansion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/bastion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_campsite/illager_campsite_tent"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/pyromancer_tower/burnt_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:archaeology/trail_ruins_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/simple_blacksmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/bone_imp"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/farmer_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/elder_guardian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/blue_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/string/gravel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/mason_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/zombie_villager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/leatherworker_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/lime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/iron/sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/keep_kayra/keep_kayra_library_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:desert_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:scroll_gen_fire"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/dark_vortex"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:entities/thrown_element_crystal/earthcrystal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/blue"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/flint/sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:archaeology/ocean_ruin_warm"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/gravel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bathhouse/bathhouse_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/slime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/great_ink"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/battleground/piglin_camp"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/salmon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/pillager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/farm_tools"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/norsemenchief"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_cast_iron_autocannon_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/firewell_d"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_village_snowy_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/light_gray"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/pufferfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/pink_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/mother_spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/creeper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_40"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_house/mushroom_house_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_10"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_20"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/guardian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/allay"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_room_forge"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/decent_ink"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_very_large_nethersteel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/emerald"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:pillager_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zombie_horse"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/skeleton_horse"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_68"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/bat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/turtle"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/vindicator"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/evoker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zombie_villager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/archevoker_logbook_translated"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_room_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/hoglin_tallow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/monastery/monastery_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_shepherd"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/cartographer_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/bee"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/farm_drop"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/fishing/treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bathhouse/bathhouse_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/simple_armoury"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/blaze_ash"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_mines/mushroom_mines_ores"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/butcher_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "lootr:chests/elytra"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/ocelot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/stray"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/weaponsmith_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_small_steel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/black_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/additional_evoker_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_very_large_steel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/diamond_termite"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/wandering_trader"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/butcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:mage/barracks"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/iron/gravel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "celestisynth:entities/traverser"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/buried_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/polar_bear"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/iron_golem"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/ancient_city_ice_box"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/wood_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/pyromancer_tower/fire_ale_trove"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/magic_bookshelf_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/cat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_fort/illager_fort_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/small_fire"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/monastery/monastery_map"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/illusioner"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/fallen_chaos_knight"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/magenta"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:snowy_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/paper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/guardian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/bloody_gadfly"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_simple_dungeon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/keep_kayra/keep_kayra_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/shipwreck_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/stronghold_corridor"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/witch"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/lime_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/coal_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zombified_piglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "celestisynth:chests/underground_dungeons"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:ring_gen_break_me"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/archer_chest2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/foundry/foundry_passage_exterior"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/redstone"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/ender_dragon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/generic_low"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/scorched_mines/scorched_mines_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/weaponsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_room_bookshelf"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/toolsmith_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/shipwreck_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/cod"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/cow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/axolotl"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_bronze_sliding_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/abandoned_mineshaft"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/mr_pumpkin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/iron_ingot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/evoker_fort"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/enchanting_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/mines/ore_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/plague_asylum/plague_asylum_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/shipwreck_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/tnt_minecart"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:mansion_junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/small_blimp/small_blimp_redstone_chamber"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/light_blue_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/small_yacht/small_yacht_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_cast_iron_cannon_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:elementalcraft/pipe_upgrades/element_valve"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_village/mushroom_village_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_tannery"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/spawn_bonus_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "lootr:trophy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/gold_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/strider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_cast_iron_autocannon_recoil_spring"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rftoolsdim:entities/dimensional_blob_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/small_prairie_house/small_prairie_house_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/catacombs/coffin_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:mansion_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/piglin_bartering"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/simple_dungeon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/mason"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/village/village_weaponsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:patchouli_book"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/small_blimp/small_blimp_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/small_earth"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/fishing/junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/shipwreck_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdoors:dispenser_potion_arrows"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:mage/treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/ceryneian_hind/ceryneian_hind_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_ruined_portal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/sugar"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/abandoned_temple/abandoned_temple_map"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/cartographer_librarian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/orange"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/slime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/zombie_clown"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/norsemenarcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/mines/food_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "celestisynth:entities/tempest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/iron_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_shipwreck_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/snow_golem"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_village_taiga_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/foundry/foundry_passage_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:entities/thrown_element_crystal/firecrystal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/scorched_mines/scorched_mines_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/zombie_clown_not_despawn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_mines/mushroom_mines_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/ingredients"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_house/mushroom_house_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/citadel_keeper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_fort/illager_fort_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_normal_lower"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/restless_spirit"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/armorer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/fishing/fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_butcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/tropical_fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/infernal_spirit"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/pyromancer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/greenwood_pub/greenwood_pub_barrels_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/lord_pumpkinhead_head"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/bastion_other"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/small_air"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/blaze"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_steel_autocannon_recoil_spring"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_bastion_hoglin_stable"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/giant"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:elementalcraft/pipe_upgrades/pipe_priority_rings"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/vex"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/warden"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:elementalcraft/pipe_upgrades/element_beam"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_mason"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zombie"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/fish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/pumpkin_bruiser"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/dread_hound"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdoors:dispenser_splash_potions"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/decent_smithy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/food_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_gardens"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_fisher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/end_crystal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/pumpkin_spirit"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/wheat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/nether"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/catacombs/crypt_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/necromancer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/zombified_piglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/drowned"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/pyromancer_tower/pyromancer_basic_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/shulker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/bonescaller_not_despawn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/salmon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/generic"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ars_nouveau:entities/wilden_guardian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/small_prairie_house/small_prairie_house_ruined"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/armorer_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/additional_stray_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/mines_key"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/packed_ice"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/lighthouse/lighthouse_top"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/large_bottle"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/farm_parts"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_galley/illager_galley_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/leatherworker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/creeper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/thornborn_towers/thornborn_towers_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/bat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "realmrpg_wyrms:entities/ender_wyrm"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/fletcher_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mechanical_nest/mechanical_nest_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/toolsmith_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/archermummy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/rabbit"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/enderman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/barrel_zombie"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/axolotl"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/armor_stand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/toolsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/elder_guardian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/diamond/sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_armorer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:mage/extras"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:scroll_gen"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdoors:removed_rift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "railways:entities/conductor"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_rooms"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/flint/dirt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/drowned"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/additional_generic_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_bronze_cannon_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/apothecarist"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_rider/heavenly_rider_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/fox"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/krampus"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/blaze"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mines_treasure_big"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_cartographer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/generic"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/chiefbarbarian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/jungle_temple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/shulker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:underground/giant_bee_hive"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/mountain_tower/mountain_tower"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/piglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/lapis_lazuli"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_village_savanna_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/smith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/spirit_guide"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/corpse_fly"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/squid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:entities/crow_pickpocket_villager"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:archaeology/desert_pyramid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:chests/nature_coven_herbs"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/silverfish"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:plains_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_towers/bandit_towers_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/ghast"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/copper_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/tadpole"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_temple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/farmer_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_village/bandit_village_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/pirate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/ruined_portal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/butcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_medium_nethersteel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/enchanter5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/enchanter4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/enchanter3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/enchanter2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/enchanter1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "celestisynth:entities/veilguard"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/tavern_downstairs"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/cultist"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_room_garden"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_8"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_6"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:other/randomize_9"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mines_treasure_medium"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/resources"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/snow_golem"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_abandoned_mineshaft"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/magenta_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/cave_spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/infested_temple/infested_temple_room_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/diamond/dirt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/magma_cube"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:spire/common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/mangrove_hut"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/player"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mechanical_nest/mechanical_nest_equipment"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/wheat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/aviary/aviary_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/bonus4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/bonus5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/bonus1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/bonus2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/bonus3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:entities/gladiator_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rftoolsdim:chests/hut_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/yellow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/endermite"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/fishing"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/random_potion_or_elixir"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/lifestealer_true_form"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:chests/supplycamp"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_bronze_cannon_chamber"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/amazonchief"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/plague_asylum/plague_asylum_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mushroom_mines/mushroom_mines_tools"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:spire/junk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/mangrove_hut/potion_ingredient_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/maggot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/fisherman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_fort/illager_fort_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:fisherman/treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:archaeology/trail_ruins_rare"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/poor_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_cast_iron_sliding_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/crafting"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/trader_llama"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:savanna_common"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/gold_ingot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/baby_spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/medium_water"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/additional_nether_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/pillager_outpost"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_easy_structures:chests/epic_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/amazonspearman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/senor_pumpkin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:archaeology/ocean_ruin_cold"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/sniffer_digging"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/white_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/bone_imp_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/mines/mine_key_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/husk"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/iron/soul_sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/wither_skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_savanna_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/generic_low"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/glow_squid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/decrepit_skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/pink"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_large_nethersteel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/cleric_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "celestisynth:chests/vanilla_nether_structures"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/chests/stronghold_crossing"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/additional_treasure_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ars_nouveau:entities/wilden_boss"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/door_knight"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/decent_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:lodge_drinkables"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_enchants"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/pumpkinhead"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_easy_structures:chests/common_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:chests/dark_coven_coffer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/slime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_pillager_outpost"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/food"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "underground_bunkers:chests/underground_bunker/underground_bunker_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/bastion_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/foundry/foundry_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/door_knight_not_despawn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_toolsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/shipwreck_map"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/cyan_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "immersive_weathering:injects/weaponsmith_gift"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/hoglin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/all_focuses"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/good_ink"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/zombie_lumberjack"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:chests/world_devourer_container"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdoors:dungeon_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dimdoors:dispenser_projectiles"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/plague_asylum/plague_asylum_cells"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/archerpirate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/enderman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/attic"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_bronze_autocannon_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_steel_autocannon_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/glass_bottle"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/llama"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_village_plains_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/nether_bridge"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/shiraz_palace/shiraz_palace_library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/horse"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/zombie"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_very_small_nethersteel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/small_yacht/small_yacht_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/mooshroom"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "tconstruct:entities/ender_slime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/netherworker/trip2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/netherworker/trip1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/battleground/burial_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/netherworker/trip5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/netherworker/trip4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/netherworker/trip3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/shieldmaiden"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/goat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/mechanism_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/slime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "tconstruct:entities/sky_slime"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:underground/chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "underground_bunkers:chests/underground_bunker/underground_bunker_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/impaled_icebreaker/food_barrel"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/wither_skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/pharao"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_corsair/illager_corsair_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/missioner"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/bastion_hoglin_stable"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_medium_steel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_very_small_steel_cannon_layer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/crypt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/stray"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/seared_spirit"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/drownedarcherpirate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/merchant_campsite/merchant_campsite_map"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/giant_mushroom/red_giant_mushroom"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_rider/heavenly_rider_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/treasure/golem"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:ring_gen"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_village/bandit_village_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/light_blue"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/priest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/zombie"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/orange_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/desert/archer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/tnt"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_campsite/illager_campsite_map"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/additional_hoglin_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/mines/decent_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/shepherd"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_towers/bandit_towers_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mining_system/mining_system_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_desert_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/tavern_upstairs"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/thornborn_towers/thornborn_towers_rooms"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/component_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/chest_level_1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/chest_level_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/small_yacht/small_yacht_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/chest_level_3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/ender_pearl"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/wither"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/stronghold_library"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_corsair/illager_corsair_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_weaponsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_towers/bandit_towers_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:chests/nature_coven_coffer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/gray"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/stone_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:scroll_gen_magic_missile"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/polar_bear"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/krampus_henchman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/impaled_icebreaker/captain_quarters"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "revampedvillages:professions/fisherman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ati_structures:chests/minerals"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/mines/smithy_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/smith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/generic_magic_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/coal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/magma_cube"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/foundry/foundry_chains"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/cookie"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/fisherman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/scorched_mines/scorched_mines_housing"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/small_prairie_house/small_prairie_house_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/drownedchiefpirate"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/dread_hound_not_despawn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/jungle_tree_house/jungle_tree_house_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "celestisynth:entities/star_monolith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/basic_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/stronghold_crossing"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/catacombs/hidden_trough_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/gray_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/brown"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/pyromancer_tower/fire_ale_cask"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "hexerei:chests/dark_coven_basic"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/plague_asylum/plague_asylum_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/poor_ink"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:desert_outpost"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/missionary_raider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/treasure/emerald"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_nethersteel_screw_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "thermal:gameplay/fishing/deep"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/basic_curios"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/barbarian"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/pyromancer_tower/old_cask"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/bonescaller"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/small_blimp/small_blimp_coal_storage"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/goat"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/shater"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/treasure/diamond"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/bandit_village/bandit_village_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "reliquary:inject/entities/witch"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/ghast"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "ars_nouveau:entities/wilden_stalker"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/typhon/typhon_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_plains_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/medium_air"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/cave_spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/spiritof_chaos"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "thermal:entities/blizz"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_bronze_autocannon_recoil_spring"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/yellow_dye"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/skeleton_thrasher_not_despawn"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/archer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/firelight"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/desert_pyramid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "thermal:entities/blitz"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "tconstruct:gameplay/starting_book"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "true_ending:drop/copper_ingot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/underwater_ruin_big"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/cyan"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/diamond/soul_sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/fishing_hut/fishing_hut_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/dolphin"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/butcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/iron_golem"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/thornshell_crab"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:magic_items/random_elixir"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:spire/treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "realmrpg_wyrms:entities/red_wyrm"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/wolf"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/scorched_mines/scorched_mines_hub"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/mining_system/mining_system_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "born_in_chaos_v1:entities/dire_hound_leader"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/jungle_temple_dispenser"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/sheep/purple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/citadel/wall_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:village/fortified/food"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:recipes/string/soul_sand"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "terralith:royal_jelly"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:inject/entities/squid"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "underground_bunkers:chests/underground_bunker/underground_bunker_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_steel_autocannon_breech"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/simple_dungeon/potion_ingredients"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "create_easy_structures:chests/rare_chest"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecolonies:entities/amazon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloodmagic:chests/standard_dungeon/strong_alchemy"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:entities/additional_dragon_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/filler_storage_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/piglin_brute"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "elementalcraft:chests/altar/medium_earth"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "rftoolsdim:entities/dimensional_blob_legendary"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/illager_windmill/illager_windmill_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/aviary/aviary_barrels"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/panda"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "farmersdelight:chests/fd_village_desert_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/priest_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "createbigcannons:boring_scrap/unbored_cast_iron_cannon_chamber"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "irons_spellbooks:chests/additional_good_loot"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_supply"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "dungeons_arise:chests/scorched_mines/scorched_mines_normal"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:gameplay/hero_of_the_village/librarian_gift"
+				}
+			]
+		}
+	]
+}

@@ -18,18 +18,18 @@
             {
               "function": "minecraft:set_loot_table",
               "type": "minecraft:chest",
-              "name": "foolsendeavour:chests/world_devourer"
+              "name": "foolsendeavour:chests/exalted_devoured_world"
             }
           ]
         }
       ]
     },
     {
-      "rolls": 16,
+      "rolls": 8,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "foolsendeavour:chests/devoured_world"
+          "name": "foolsendeavour:chests/exalted_devoured_world"
         }
       ]
     }
