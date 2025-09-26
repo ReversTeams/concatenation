@@ -182,7 +182,7 @@ ServerEvents.recipes(event => {
                         'ABA'
                 ],
                 {
-                        C: 'create_dd:bore_block',
+                        C: 'createdeco:andesite_hull',
                         A: 'concatenationcore:gold_paper',
                         D: 'tarotcards:the_hermit',
                         B: 'create:flywheel'

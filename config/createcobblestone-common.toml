@@ -15,6 +15,10 @@
 	#(Can be overridden by custom generator types)
 	#Range: > 1
 	maxGeneratorStorage = 256
+	#.
+	#Log information that may be usefull for reporting a problem and debugging it.
+	#THIS WILL SPAM YOUR LOGS
+	enableDebugLogging = false
 
 	#.
 	#Cobblestone generator types

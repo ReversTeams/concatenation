@@ -20,10 +20,10 @@ ServerEvents.recipes(event => {
             "AFA"
         ],
         {
-            E: "create_dd:music_disc_waltz_of_the_flowers",
+            E: "celestisynth:solar_crystal",
             B: "elementalcraft:fine_air_gem",
             A: "concatenationcore:gold_paper",
-            C: "minecraft:nether_star",
+            C: "#concatenation:wither_ingredient",
             D: "tarotcards:the_magician",
             F: "elementalcraft:fine_earth_gem"
         }

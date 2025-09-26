@@ -31,11 +31,11 @@ ItemEvents.modification(event => {
 		["psi:psimetal_sword", 6],
 
 		// create DD golded rose
-		2850,
-		["create_dd:gilded_rose_pickaxe", 5],
-		["create_dd:gilded_rose_shovel", 5.5],
-		["create_dd:gilded_rose_axe", 11],
-		["create_dd:gilded_rose_sword", 7],
+		// 2850,
+		// ["create_dd:gilded_rose_pickaxe", 5],
+		// ["create_dd:gilded_rose_shovel", 5.5],
+		// ["create_dd:gilded_rose_axe", 11],
+		// ["create_dd:gilded_rose_sword", 7],
 
 		// blood magic sentient tools
 		// (doesn't work)

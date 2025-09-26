@@ -120,6 +120,23 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:the_chariot')
         event.shaped(
+                Item.of('concatenationcore:full_wands',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                ),
+                [
+                        'ABA',
+                        'CDE',
+                        'ABA'
+                ],
+                {
+                        A: '#forge:coins/gold',
+                        E: 'create:brass_hand',
+                        D: '#concatenation:middle_cards',
+                        C: 'constructionwand:diamond_wand',
+                        B: 'ars_nouveau:source_gem'
+                }
+        ).keepIngredient('#concatenation:middle_cards')
+        event.shaped(
                 Item.of(
                         "concatenationcore:full_wands",
                         '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
@@ -132,18 +149,20 @@ ServerEvents.recipes(event => {
                 {
                         B: 'mekanism:ingot_refined_glowstone',
                         C: 'mekanism:meka_tool',
-                        A: 'thermal:gold_coin'
+                        A: '#forge:coins/gold'
                 }
         ).keepIngredient('mekanism:meka_tool')
         event.shaped(
-                Item.of('concatenationcore:full_wands'),
+                Item.of('concatenationcore:full_wands',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+                ),
                 [
                         'ABA',
                         'CDE',
                         'AFA'
                 ],
                 {
-                        A: 'createdeco:gold_coin',
+                        A: '#forge:coins/gold',
                         E: 'tarotcards:the_magician',
                         C: 'tarotcards:judgement',
                         D: 'constructionwand:diamond_wand',

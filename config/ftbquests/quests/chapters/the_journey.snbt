@@ -237,11 +237,36 @@
 			}
 			id: "524067700E07EB06"
 			invisible: true
-			rewards: [{
-				id: "37C0B3648EEE3AC7"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "37C0B3648EEE3AC7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					auto: "invisible"
+					command: "/curios set curio Mitemi 4"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								EyeInventory: {
+									Items: [ ]
+									Size: 2
+								}
+							}
+						}
+						id: "projecte:mercurial_eye"
+						tag: { }
+					}
+					id: "7173247262F8CEC8"
+					ignore_reward_blocking: true
+					silent: true
+					title: "+4 Curio Slots"
+					type: "command"
+				}
+			]
 			size: 1.25d
 			subtitle: "Every possibility"
 			tasks: [{
@@ -8004,6 +8029,8 @@
 			dependencies: ["54D2E4556B238BE4"]
 			description: [
 				"The &4Moon Pathway&r delves further into the occult rather than witchcraft."
+				""
+				"Chorus fruit needed for this card can be found in structures around the world."
 				"{@pagebreak}"
 				"It is adjacent to the &cTemperance Pathway&r and &fStar Pathway&r."
 			]
@@ -8294,19 +8321,6 @@
 					type: "item"
 				}
 				{
-					id: "06A122A70FB1B87F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "create_dd:fluid_reservoir"
-					}
-					type: "item"
-				}
-				{
 					id: "33F35AB402604076"
 					item: {
 						Count: 1
@@ -8316,19 +8330,6 @@
 							}
 						}
 						id: "create:item_vault"
-					}
-					type: "item"
-				}
-				{
-					id: "34E49949A07459DE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "create_dd:item_stockpile"
 					}
 					type: "item"
 				}

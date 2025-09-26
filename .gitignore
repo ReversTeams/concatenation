@@ -37,6 +37,9 @@ patchouli_data.json
 /config/**/*client.json
 /config/**/*client.toml
 /config/inventoryprofilesnext
+/config/chunky/
 Distant_Horizons_server_data
 welcomescreen_cache.json
 .mixin.out
+journeymap/server
+debug

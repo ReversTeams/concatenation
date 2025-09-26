@@ -78,7 +78,7 @@ ServerEvents.tags('item', event => {
         'asr:ender_giant_sword',
         'bloodmagic:soulsword',
         'reliquary:magicbane',
-        'create_dd:gilded_rose_sword'
+        //'create_dd:gilded_rose_sword'
     ]);
 
     const cultist = [
@@ -162,7 +162,7 @@ ServerEvents.tags('item', event => {
         "mekanismtools:refined_obsidian_pickaxe",
         "mekanismtools:steel_pickaxe",
         "psi:psimetal_pickaxe",
-        "create_dd:gilded_rose_pickaxe",
+        //"create_dd:gilded_rose_pickaxe",
         "bloodmagic:soulpickaxe",
         "tfmg:steel_pickaxe"
     ]);
@@ -175,7 +175,7 @@ ServerEvents.tags('item', event => {
         "mekanismtools:refined_obsidian_shovel",
         "mekanismtools:steel_shovel",
         "psi:psimetal_shovel",
-        "create_dd:gilded_rose_shovel",
+        //"create_dd:gilded_rose_shovel",
         "bloodmagic:soulshovel",
         "tfmg:steel_shovel"
     ]);
@@ -188,7 +188,7 @@ ServerEvents.tags('item', event => {
         "mekanismtools:refined_obsidian_axe",
         "mekanismtools:steel_axe",
         "psi:psimetal_axe",
-        "create_dd:gilded_rose_axe",
+        //"create_dd:gilded_rose_axe",
         "bloodmagic:soulaxe",
         "tfmg:steel_axe"
     ]);
@@ -201,7 +201,7 @@ ServerEvents.tags('item', event => {
         "mekanismtools:refined_obsidian_sword",
         "mekanismtools:steel_sword",
         "psi:psimetal_sword",
-        "create_dd:gilded_rose_sword",
+        //"create_dd:gilded_rose_sword",
         "bloodmagic:soulsword",
         "tfmg:steel_sword",
         "ars_nouveau:enchanters_sword"
@@ -238,4 +238,23 @@ ServerEvents.tags('item', event => {
     // ]);
     // event.add('forge:dusts/zinc', 'concatenationcore:crushed_zinc');
     // event.add('forge:dusts/iron', 'concatenationcore:crushed_iron');
+
+    add('concatenation:wither_ingredient', [
+        'minecraft:nether_star',
+        'minecraft:wither_rose'
+    ]);
+
+    add('forge:coins', [
+        'createdeco:gold_coin',
+        'createdeco:netherite_coin',
+        'createdeco:brass_coin',
+        'createdeco:iron_coin',
+        'createdeco:copper_coin',
+        'createdeco:industrial_iron_coin',
+        'createdeco:zinc_coin'
+    ]);
+
+    add('forge:coins/gold', [
+        'createdeco:gold_coin'
+    ]);
 });

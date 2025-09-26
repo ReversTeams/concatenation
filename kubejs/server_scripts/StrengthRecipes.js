@@ -25,27 +25,27 @@ ServerEvents.recipes(event => {
                 event.remove({ output: item })
         })
 
-       const ids = [
-    "casing_12_gauge_recipe",
-    "casing_46x_30_recipe",
-    "casing_50_ae_recipe",
-    "casing_57x_28_recipe",
-    "casing_58x_42_recipe",
-    "casing_68x_51fury_recipe",
-    "casing_308_recipe",
-    "recipe_338_lapua_recipe",
-    "casing_357_magnum_recipe",
-    "casing_556x_45mm_recipe",
-    "casing_762x_25_recipe",
-    "casing_762x_39mm_recipe",
-    "casing_762x_54_recipe",
-    "casing_3060_recipe",
-    "casing_9mm_recipe"
-  ];
+        const ids = [
+                "casing_12_gauge_recipe",
+                "casing_46x_30_recipe",
+                "casing_50_ae_recipe",
+                "casing_57x_28_recipe",
+                "casing_58x_42_recipe",
+                "casing_68x_51fury_recipe",
+                "casing_308_recipe",
+                "recipe_338_lapua_recipe",
+                "casing_357_magnum_recipe",
+                "casing_556x_45mm_recipe",
+                "casing_762x_25_recipe",
+                "casing_762x_39mm_recipe",
+                "casing_762x_54_recipe",
+                "casing_3060_recipe",
+                "casing_9mm_recipe"
+        ];
 
-  ids.forEach(id => {
-    event.remove({ id: `createtaczauto:${id}` });
-  });
+        ids.forEach(id => {
+                event.remove({ id: `createtaczauto:${id}` });
+        });
 
         event.forEachRecipe({ mod: 'createtaczauto' }, r => console.log('ID ->', r.getId()));
 
@@ -500,6 +500,20 @@ ServerEvents.recipes(event => {
                         A: 'createmetallurgy:steel_ingot',
                         C: 'concatenationcore:full_wands',
                         B: 'thermal:machine_crafter'
+                }
+        ).keepIngredient('concatenationcore:full_wands')
+        event.shaped(
+                Item.of('psi:programmer'),
+                [
+                        'DBD',
+                        'ACA',
+                        'AAA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        C: 'concatenationcore:full_wands',
+                        B: 'elementalcraft:focus',
+                        D: 'elementalcraft:springaline_shard'
                 }
         ).keepIngredient('concatenationcore:full_wands')
 });

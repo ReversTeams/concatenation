@@ -74,10 +74,10 @@
     "modId": "ars_scalaes",
     "version": "1.20.1-1.10.7c"
   },
-  "ars_technica-1.20.1-1.2.1.jar": {
-    "jarName": "ars_technica-1.20.1-1.2.1.jar",
+  "ars_technica-1.20.1-1.4.2.jar": {
+    "jarName": "ars_technica-1.20.1-1.4.2.jar",
     "modId": "ars_technica",
-    "version": "1.20.1-1.2.1"
+    "version": "1.20.1-1.4.2"
   },
   "AsgardShieldReloaded-1.20.1-0.2.jar": {
     "jarName": "AsgardShieldReloaded-1.20.1-0.2.jar",
@@ -113,11 +113,6 @@
     "jarName": "BetterAdvancements-Forge-1.20.1-0.4.2.25.jar",
     "modId": "betteradvancements",
     "version": "0.4.2.25"
-  },
-  "betterchunkloading-1.20.1-5.4.jar": {
-    "jarName": "betterchunkloading-1.20.1-5.4.jar",
-    "modId": "betterchunkloading",
-    "version": "1.20.1-5.4"
   },
   "betterfpsdist-1.20.1-6.0.jar": {
     "jarName": "betterfpsdist-1.20.1-6.0.jar",
@@ -229,6 +224,11 @@
     "modId": "collective",
     "version": "8.3"
   },
+  "comforts-forge-6.4.0+1.20.1.jar": {
+    "jarName": "comforts-forge-6.4.0+1.20.1.jar",
+    "modId": "comforts",
+    "version": "6.4.0+1.20.1"
+  },
   "CommonCapabilities-1.20.1-2.9.7.jar": {
     "jarName": "CommonCapabilities-1.20.1-2.9.7.jar",
     "modId": "commoncapabilities",
@@ -264,10 +264,10 @@
     "modId": "controlling",
     "version": "12.0.2"
   },
-  "copycats-2.1.4+mc.1.20.1-forge.jar": {
-    "jarName": "copycats-2.1.4+mc.1.20.1-forge.jar",
+  "copycats-3.0.2+mc.1.20.1-forge.jar": {
+    "jarName": "copycats-3.0.2+mc.1.20.1-forge.jar",
     "modId": "copycats",
-    "version": "2.1.4+mc.1.20.1-forge"
+    "version": "3.0.2+mc.1.20.1-forge"
   },
   "coroutil-forge-1.20.1-1.3.7.jar": {
     "jarName": "coroutil-forge-1.20.1-1.3.7.jar",
@@ -294,11 +294,6 @@
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
   },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "version": "1.0.2"
-  },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "jarName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
     "modId": "craftingtweaks",
@@ -314,65 +309,55 @@
     "modId": "craterlib",
     "version": "2.1.5"
   },
-  "create-1.20.1-0.5.1.j.jar": {
-    "jarName": "create-1.20.1-0.5.1.j.jar",
+  "create-1.20.1-6.0.6.jar": {
+    "jarName": "create-1.20.1-6.0.6.jar",
     "modId": "create",
-    "version": "0.5.1.j"
+    "version": "6.0.6"
   },
-  "Create-DnDesire-1.20.1-0.1b.Release-Early-Dev.jar": {
-    "jarName": "Create-DnDesire-1.20.1-0.1b.Release-Early-Dev.jar",
-    "modId": "create_dd",
-    "version": "0.1b.Release-Early-Dev"
-  },
-  "create_connected-0.9.3-mc1.20.1-all.jar": {
-    "jarName": "create_connected-0.9.3-mc1.20.1-all.jar",
+  "create_connected-1.1.7-mc1.20.1-all.jar": {
+    "jarName": "create_connected-1.1.7-mc1.20.1-all.jar",
     "modId": "create_connected",
-    "version": "0.9.3-mc1.20.1"
+    "version": "1.1.7-mc1.20.1"
   },
-  "create_easy_structures-0.1.2-forge-1.20.1.jar": {
-    "jarName": "create_easy_structures-0.1.2-forge-1.20.1.jar",
+  "create_easy_structures-0.2-forge-1.20.1.jar": {
+    "jarName": "create_easy_structures-0.2-forge-1.20.1.jar",
     "modId": "create_easy_structures",
-    "version": "0.1.2"
+    "version": "0.2"
   },
-  "create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar": {
-    "jarName": "create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar",
+  "create_enchantment_industry-1.3.3-for-create-6.0.6.jar": {
+    "jarName": "create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
     "modId": "create_enchantment_industry",
-    "version": "1.2.9.d"
+    "version": "1.3.3-for-create-6.0.6"
   },
-  "Create_Questing-FORGE-1.20.1-1.0.0.jar": {
-    "jarName": "Create_Questing-FORGE-1.20.1-1.0.0.jar",
-    "modId": "create_questing",
-    "version": "1.0.0"
-  },
-  "createaddition-1.20.1-1.2.5.jar": {
-    "jarName": "createaddition-1.20.1-1.2.5.jar",
+  "createaddition-1.20.1-1.3.2.jar": {
+    "jarName": "createaddition-1.20.1-1.3.2.jar",
     "modId": "createaddition",
-    "version": "1.20.1-1.2.5"
+    "version": "1.20.1-1.3.2"
   },
-  "createbigcannons-5.8.2-mc.1.20.1-forge.jar": {
-    "jarName": "createbigcannons-5.8.2-mc.1.20.1-forge.jar",
+  "createbigcannons-5.9.1-mc.1.20.1-forge.jar": {
+    "jarName": "createbigcannons-5.9.1-mc.1.20.1-forge.jar",
     "modId": "createbigcannons",
-    "version": "5.8.2"
+    "version": "5.9.1"
   },
-  "createcobblestone-1.4.3+forge-1.20.1-87.jar": {
-    "jarName": "createcobblestone-1.4.3+forge-1.20.1-87.jar",
+  "createcobblestone-1.4.5+forge-1.20.1-106.jar": {
+    "jarName": "createcobblestone-1.4.5+forge-1.20.1-106.jar",
     "modId": "createcobblestone",
-    "version": "1.4.3+forge-1.20.1-87"
+    "version": "1.4.5+forge-1.20.1-106"
   },
-  "createdeco-2.0.1-1.20.1-forge.jar": {
-    "jarName": "createdeco-2.0.1-1.20.1-forge.jar",
+  "createdeco-2.0.3-1.20.1-forge.jar": {
+    "jarName": "createdeco-2.0.3-1.20.1-forge.jar",
     "modId": "createdeco",
-    "version": "2.0.1-1.20.1-forge"
+    "version": "2.0.3-1.20.1-forge"
   },
-  "createmetallurgy-0.0.6-1.20.1.jar": {
-    "jarName": "createmetallurgy-0.0.6-1.20.1.jar",
+  "createmetallurgy-0.0.7-HF-1.20.1.jar": {
+    "jarName": "createmetallurgy-0.0.7-HF-1.20.1.jar",
     "modId": "createmetallurgy",
-    "version": "0.0.6-1.20.1"
+    "version": "0.0.7-HF-1.20.1"
   },
-  "createtaczauto-1.3.7-forge-1.20.1.jar": {
-    "jarName": "createtaczauto-1.3.7-forge-1.20.1.jar",
+  "createtaczauto-1.5.1-forge-1.20.1.jar": {
+    "jarName": "createtaczauto-1.5.1-forge-1.20.1.jar",
     "modId": "createtaczauto",
-    "version": "1.3.7"
+    "version": "1.5.1"
   },
   "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar": {
     "jarName": "CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
@@ -604,10 +589,10 @@
     "modId": "gpu_tape",
     "version": "1.0.5"
   },
-  "guideme-20.1.12.jar": {
-    "jarName": "guideme-20.1.12.jar",
+  "guideme-20.1.13.jar": {
+    "jarName": "guideme-20.1.13.jar",
     "modId": "guideme",
-    "version": "20.1.12"
+    "version": "20.1.13"
   },
   "HammerLib-1.20.1-20.1.50.jar": {
     "jarName": "HammerLib-1.20.1-20.1.50.jar",
@@ -761,11 +746,6 @@
     "jarName": "lithostitched-forge-1.20.1-1.4.11.jar",
     "modId": "lithostitched",
     "version": "1.4.11"
-  },
-  "littlecontraptions-forge-1.20.1.2.jar": {
-    "jarName": "littlecontraptions-forge-1.20.1.2.jar",
-    "modId": "littlecontraptions",
-    "version": "1.20.1.2"
   },
   "littlelogistics-mc1.20.1-v1.20.1.2.jar": {
     "jarName": "littlelogistics-mc1.20.1-v1.20.1.2.jar",
@@ -1115,10 +1095,10 @@
     "modId": "starterkit",
     "version": "7.4"
   },
-  "Steam_Rails-1.6.7+forge-mc1.20.1.jar": {
-    "jarName": "Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+  "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar": {
+    "jarName": "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar",
     "modId": "railways",
-    "version": "1.6.7+forge-mc1.20.1"
+    "version": "1.6.13-alpha+forge-mc1.20.1"
   },
   "StorageDrawers-forge-1.20.1-12.11.6.jar": {
     "jarName": "StorageDrawers-forge-1.20.1-12.11.6.jar",
@@ -1165,10 +1145,10 @@
     "modId": "terralith",
     "version": "2.5.4"
   },
-  "tfmg-0.9.3-1.20.1.jar": {
-    "jarName": "tfmg-0.9.3-1.20.1.jar",
+  "tfmg-1.0.2c.jar": {
+    "jarName": "tfmg-1.0.2c.jar",
     "modId": "tfmg",
-    "version": "0.9.3-1.20.1"
+    "version": "1.0.2c"
   },
   "thermal_cultivation-1.20.1-11.0.1.24.jar": {
     "jarName": "thermal_cultivation-1.20.1-11.0.1.24.jar",
@@ -1235,10 +1215,10 @@
     "modId": "towntalk",
     "version": "1.1.0"
   },
-  "trading_floor-1.1.7+forge-1.20.1.jar": {
-    "jarName": "trading_floor-1.1.7+forge-1.20.1.jar",
+  "trading_floor-forge-1.20.1-2.0.5.jar": {
+    "jarName": "trading_floor-forge-1.20.1-2.0.5.jar",
     "modId": "trading_floor",
-    "version": "1.1.7+forge-1.20.1"
+    "version": "2.0.5"
   },
   "tru.e-ending-v1.1.0c.jar": {
     "jarName": "tru.e-ending-v1.1.0c.jar",
@@ -1285,10 +1265,10 @@
     "modId": "watut",
     "version": "1.20.1-1.2.3"
   },
-  "Waves-1.20.1-1.5.1.jar": {
-    "jarName": "Waves-1.20.1-1.5.1.jar",
+  "Waves-1.20.1-1.6.jar": {
+    "jarName": "Waves-1.20.1-1.6.jar",
     "modId": "waves",
-    "version": "1.5.1"
+    "version": "1.6"
   },
   "waystones-forge-1.20.1-14.1.17.jar": {
     "jarName": "waystones-forge-1.20.1-14.1.17.jar",

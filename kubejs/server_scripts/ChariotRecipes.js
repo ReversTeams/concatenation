@@ -287,20 +287,20 @@ ServerEvents.recipes(event => {
                         A: 'minecraft:iron_ingot'
                 }
         )
-        event.shaped(
-                Item.of('littlecontraptions:contraption_barge'),
-                [
-                        '   ',
-                        'ABA',
-                        'CDC'
-                ],
-                {
-                        D: 'hpm:smallhull',
-                        A: 'create:brass_ingot',
-                        C: 'minecraft:iron_ingot',
-                        B: 'create:andesite_casing'
-                }
-        )
+        // event.shaped(
+        //         Item.of('littlecontraptions:contraption_barge'),
+        //         [
+        //                 '   ',
+        //                 'ABA',
+        //                 'CDC'
+        //         ],
+        //         {
+        //                 D: 'hpm:smallhull',
+        //                 A: 'create:brass_ingot',
+        //                 C: 'minecraft:iron_ingot',
+        //                 B: 'create:andesite_casing'
+        //         }
+        // )
         event.shaped(
                 Item.of('littlelogistics:barge'),
                 [
