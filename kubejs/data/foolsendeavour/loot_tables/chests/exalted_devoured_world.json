@@ -5581,6 +5581,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:chests/devoured_world"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "oreberriesreplanted:blocks/nickel_oreberry_bush"
 				},
 				{
@@ -6482,6 +6486,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "tfmg:blocks/slag_bricks_wall"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "buildinggadgets2:blocks/render_block"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -9785,6 +9793,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:chests/exalted_world_devourer_container"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "createdeco:blocks/industrial_iron_window"
 				},
 				{
@@ -11738,6 +11750,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/polished_deepslate_stairs"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:chests/exalted_devoured_world"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -13993,6 +14009,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "concatenationcore:blocks/exalted_world_devourer"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "tfmg:blocks/heavy_casing_encased_shaft"
 				},
 				{
@@ -14046,6 +14066,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "farmersdelight:blocks/canvas_sign"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "buildinggadgets2:blocks/template_manager"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -18249,6 +18273,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:blocks/exalted_world_devourer"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "dungeons_arise:chests/mushroom_mines/mushroom_mines_tools"
 				},
 				{
@@ -19433,6 +19461,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "concatenationcore:blocks/world_devourer"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "minecraft:blocks/crimson_nylium"
 				},
 				{
@@ -19782,6 +19814,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "industrialforegoing:blocks/pity_black_hole_tank"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "foolsendeavour:blocks/world_devourer"
 				},
 				{
 					"type": "minecraft:loot_table",
