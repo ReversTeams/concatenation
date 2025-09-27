@@ -689,7 +689,7 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:aeon',
                         A: 'concatenationcore:gold_paper',
                         E: 'projecte:red_matter',
-                        C: 'create:shadow_steel',
+                        C: 'hpm:corvette_steamship_item',
                         B: 'tarotcards:the_fool'
                 }
         )

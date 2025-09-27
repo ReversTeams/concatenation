@@ -178,6 +178,18 @@ ServerEvents.recipes(event => {
                         'concatenationcore:descran'
                 ]
         )
+        event.shaped(
+                Item.of('dimdoors:rift_remover'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: 'reliquary:nebulous_heart',
+                        A: 'createmetallurgy:gold_dust'
+                }
+        )
 
         // Lovers
         event.shaped(

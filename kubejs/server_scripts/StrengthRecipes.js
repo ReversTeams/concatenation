@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
                 'mcore:steel_leggings',
                 'mcore:steel_boots',
                 'psi:cad_assembler',
+                'psi:programmer'
         ]
 
         remove.forEach(item => {
@@ -46,8 +47,6 @@ ServerEvents.recipes(event => {
         ids.forEach(id => {
                 event.remove({ id: `createtaczauto:${id}` });
         });
-
-        event.forEachRecipe({ mod: 'createtaczauto' }, r => console.log('ID ->', r.getId()));
 
         event.shaped(
                 Item.of('tarotcards:strength'),

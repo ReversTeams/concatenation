@@ -43,3 +43,4 @@ welcomescreen_cache.json
 .mixin.out
 journeymap/server
 debug
+user-prefs.json

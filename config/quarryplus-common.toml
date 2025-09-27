@@ -139,13 +139,13 @@
 		#Range: 0.0 ~ 1.0E9
 		maxEnergy = 100000.0
 		#Range: 0.0 ~ 1.0E9
-		makeFrame = 15.0
+		makeFrame = 30.0
 		#Range: 0.0 ~ 1.0E9
-		breakBlockBase = 10.0
+		breakBlockBase = 20.0
 		#Range: 0.0 ~ 1.0E9
 		breakBlockFluid = 125.0
 		#Range: 0.0 ~ 1.0E9
-		moveHeadBase = 1.0
+		moveHeadBase = 2.0
 		#Range: 0.0 ~ 1.0E9
 		expCollect = 2.5
 		#Range: 0.0 ~ 1.0E9

@@ -820,12 +820,13 @@ ServerEvents.recipes(event => {
                 [
                         'A  ',
                         'BC ',
-                        '   '
+                        'D  '
                 ],
                 {
                         A: 'minecraft:glowstone_dust',
                         C: 'minecraft:yellow_dye',
-                        B: 'minecraft:torch'
+                        B: 'minecraft:torch',
+                        D: 'concatenationcore:galvanized_iron'
                 }
         )
         event.shaped(
@@ -1605,6 +1606,18 @@ ServerEvents.recipes(event => {
                         A: 'minecraft:iron_ingot',
                         B: 'thermal:lead_gear',
                         C: 'minecraft:blast_furnace'
+                }
+        )
+        event.shaped(
+                Item.of('ae2:meteorite_compass'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: 'minecraft:compass',
+                        A: 'concatenationcore:galvanized_iron_nugget'
                 }
         )
 

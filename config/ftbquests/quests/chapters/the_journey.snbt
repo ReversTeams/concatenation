@@ -2585,11 +2585,19 @@
 				"The meteor stone itself is often overlooked, but it's still a robust atmosphere-defying material that is worth collecting for future endeavours."
 			]
 			id: "7DD14D1827FF575E"
-			rewards: [{
-				id: "7698FDC6CF823F85"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0897A2240DEFAE1F"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "01039C25B52E22A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3D8A93A0719526F7"
 				item: {
@@ -2817,9 +2825,10 @@
 			]
 			id: "050A151DEB4BAF79"
 			rewards: [{
-				id: "5316E937BFACFE9A"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "221A609DDE9BDC1F"
+				item: "ae2:fluix_crystal"
+				type: "item"
 			}]
 			tasks: [{
 				id: "279C1883E3442340"
@@ -2896,9 +2905,10 @@
 			]
 			id: "05C3E83BCCEF20A2"
 			rewards: [{
-				id: "42C76942955AFB0F"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "5C5CCFC4751CD968"
+				item: "minecraft:glass"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -2966,9 +2976,13 @@
 			]
 			id: "55380CDFDB4EB17C"
 			rewards: [{
-				id: "47848D1E2DC7E15D"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "183ED23281F84CCE"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_16k"
+					tag: { }
+				}
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -7050,7 +7064,7 @@
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
-			description: ["Blood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did to, fora while. Your stomach learns to accept it, after a while..."]
+			description: ["Blood provided essential spiritual power for ancient witchcraft, but can also provide physical nutrition, should you have enough to spare. Some ancient witches even had a diet entirely comprised of blood, and I did too, for a while. Your stomach learns to accept it, after a while..."]
 			icon: "hexerei:blood_sigil"
 			id: "0CC91D0458ACB827"
 			rewards: [{
@@ -9029,9 +9043,8 @@
 			dependencies: ["1704DE3E7DDE8A77"]
 			description: ["Engines intake a matching fuel and exhaust carbon dioxide."]
 			id: "5A2127E1FA8C7DE3"
-			rewards: [{
-				count: 8
-				id: "7B832C76709F5008"
+			tasks: [{
+				id: "13778B014AEE52C2"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -9039,38 +9052,10 @@
 							cs.aquaSkin: 0
 						}
 					}
-					id: "tfmg:engine_chamber"
+					id: "tfmg:exhaust"
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "71DE4E8C2498CFD7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "tfmg:engine_base"
-					}
-					type: "item"
-				}
-				{
-					id: "13778B014AEE52C2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "tfmg:exhaust"
-					}
-					type: "item"
-				}
-			]
 			title: "The Age of Engines"
 			x: -10.5d
 			y: 24.5d
@@ -10834,16 +10819,9 @@
 			id: "405495BB2F379536"
 			rewards: [
 				{
+					count: 4
 					id: "69631D8A598D88BD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "industrialforegoing:machine_frame_simple"
-					}
+					item: "industrialforegoing:machine_frame_simple"
 					type: "item"
 				}
 				{
@@ -12050,7 +12028,7 @@
 			]
 			id: "4289386C093E7AE9"
 			rewards: [{
-				count: 16
+				count: 32
 				id: "73CE3A6D5930477B"
 				item: "thermal:energy_duct"
 				type: "item"
@@ -12159,9 +12137,10 @@
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "6BDF163C7FC006CB"
 			rewards: [{
-				id: "738F878FFD8FC53F"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 16
+				id: "7131B519D098DEA7"
+				item: "minecraft:blaze_rod"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1739695A7CE198AF"
@@ -12183,9 +12162,10 @@
 			dependencies: ["6BDF163C7FC006CB"]
 			id: "4A0E8159A5427A76"
 			rewards: [{
-				id: "626ED0A9538A30BB"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 64
+				id: "0CF7A9C5AB59897D"
+				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2BBC5CFD563BF745"
@@ -12209,11 +12189,19 @@
 				"107A1E1AB9252A58"
 			]
 			id: "4A8A1D4B99AB1DCA"
-			rewards: [{
-				id: "34B9065C40F1053C"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "45B160C8E04EBCD6"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+				{
+					id: "2234A5AB5126944C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "540DA6F9E7F973B6"
@@ -12440,21 +12428,28 @@
 		{
 			dependencies: ["10A7F0DA56020A8C"]
 			id: "4C8C2AA343360B7D"
-			rewards: [{
-				id: "130BF690D42A79AF"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "130BF690D42A79AF"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "46B135063B7F7307"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "297F1DB9458EBF1E"
@@ -12599,9 +12594,10 @@
 			dependency_requirement: "one_completed"
 			id: "58D41204FAEC60DF"
 			rewards: [{
-				id: "4E27C141D9DF25AB"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "5CB0F278122BB7EE"
+				item: "integrateddynamics:menril_log"
+				type: "item"
 			}]
 			tasks: [{
 				id: "505FA5BB368AD9CE"
@@ -12622,6 +12618,12 @@
 		{
 			dependencies: ["58D41204FAEC60DF"]
 			id: "56FEA16D484FB227"
+			rewards: [{
+				count: 4
+				id: "1E58109591D283BE"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24920A32EBE26222"
 				item: {
@@ -12666,6 +12668,12 @@
 		{
 			dependencies: ["58D41204FAEC60DF"]
 			id: "073D163854FFBC13"
+			rewards: [{
+				count: 8
+				id: "328F6F70034D8399"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7630993F0148269F"
 				item: {
@@ -12737,6 +12745,12 @@
 		{
 			dependencies: ["073D163854FFBC13"]
 			id: "4BB411537A24527C"
+			rewards: [{
+				count: 16
+				id: "62E04B0A010A9E37"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "05D206C2254D3EA8"
@@ -12784,6 +12798,11 @@
 		{
 			dependencies: ["58D41204FAEC60DF"]
 			id: "34C946042296AB2B"
+			rewards: [{
+				id: "2B7E3D790CBA7244"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3E7C68B771CF893D"
 				item: {
@@ -12804,9 +12823,10 @@
 			dependencies: ["4C8C2AA343360B7D"]
 			id: "4E44852EB1DA116A"
 			rewards: [{
-				id: "552CA9AEDA7AB0BB"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "5703F74EC4E1F362"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
 			}]
 			tasks: [{
 				id: "067A5D8A20B01E13"
@@ -12885,11 +12905,19 @@
 			]
 			hide_dependency_lines: true
 			id: "44CF40523871B36F"
-			rewards: [{
-				id: "20BBE78E1D3D2548"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "60B3BE7B4DB8BE7A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "3F372BDF70304347"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "262E6413A40FDC56"
 				item: {
@@ -15068,6 +15096,7 @@
 				title: "Any Iron or Lead Jetpack"
 				type: "item"
 			}]
+			title: "Jetpack"
 			x: -18.0d
 			y: -3.5d
 		}
@@ -15075,6 +15104,12 @@
 			dependencies: ["662F8F7426A07A9D"]
 			hide_until_deps_complete: true
 			id: "137E5079D198BF5C"
+			rewards: [{
+				count: 4
+				id: "7EDDADB7B5CE1076"
+				item: "oreberriesreplanted:osmium_oreberry_bush"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4439131F8691DB5B"
 				item: {
@@ -15143,6 +15178,12 @@
 		{
 			dependencies: ["137E5079D198BF5C"]
 			id: "3900C73EA601F27C"
+			rewards: [{
+				count: 8
+				id: "4B8D872ABC7FEAC1"
+				item: "ae2:silicon"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C6F89EFB3504D12"
 				item: {
@@ -15398,6 +15439,12 @@
 		{
 			dependencies: ["3900C73EA601F27C"]
 			id: "1974390B046B7B6A"
+			rewards: [{
+				count: 8
+				id: "633D488CE2FD48CE"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "612DEA6824CE4179"
 				item: {
@@ -15417,6 +15464,11 @@
 		{
 			dependencies: ["1974390B046B7B6A"]
 			id: "47C95E5CB83C274D"
+			rewards: [{
+				id: "42151A9855FF4D40"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3F0FBB4C963EC6A7"
@@ -15442,6 +15494,7 @@
 						}
 						id: "ae2:1k_crafting_storage"
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -15450,6 +15503,7 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			dependency_requirement: "one_started"
 			id: "293F8BB2AE925A83"
 			tasks: [
 				{
@@ -15507,6 +15561,37 @@
 				"2DAE9E3C66B44CC1"
 			]
 			id: "39AE05BD2C306FB0"
+			rewards: [
+				{
+					id: "7A7EFDA44B0CCA92"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_plate_carrier_heavy"
+						tag: {
+							CurioAttributeModifiers: [{
+								Amount: 8
+								AttributeName: "generic.armor"
+								Name: "generic.armor"
+								Operation: 0
+								Slot: "body"
+								UUID: [I;
+									-1049641899
+									-1698279708
+									-1222758712
+									1471568110
+								]
+							}]
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77AA55010B9575C3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [
 				{
 					id: "6E77AF1D37826AA8"
@@ -15570,6 +15655,7 @@
 				"26F4EC84DAFCC788"
 				"385412AAA1631FFF"
 			]
+			dependency_requirement: "one_completed"
 			id: "2B825471FE41A521"
 			rewards: [
 				{
@@ -15607,7 +15693,13 @@
 				"0EAA48E8F905201B"
 				"490912716C7BB2C6"
 			]
+			dependency_requirement: "one_started"
 			id: "258CC7EECC8A710B"
+			rewards: [{
+				id: "7FB71ACAC9EA9616"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "32A1D5283EF35B68"
 				item: {
@@ -15844,6 +15936,12 @@
 		{
 			dependencies: ["1974390B046B7B6A"]
 			id: "3B61EAE34CD43049"
+			rewards: [{
+				count: 8
+				id: "06FDC02F49BC5AE8"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "34C59970417BC788"
@@ -15878,6 +15976,11 @@
 		{
 			dependencies: ["1974390B046B7B6A"]
 			id: "6388E411C2170378"
+			rewards: [{
+				id: "5EA801FFFFC74DC3"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "10CBE8FF1BE83135"
@@ -15915,6 +16018,7 @@
 				"6388E411C2170378"
 				"27969F43280BFA18"
 			]
+			dependency_requirement: "one_started"
 			id: "4880C58AEB23BEEC"
 			rewards: [{
 				count: 4
@@ -15977,6 +16081,7 @@
 		}
 		{
 			dependencies: ["4880C58AEB23BEEC"]
+			dependency_requirement: "one_started"
 			id: "2BA18EB25877001F"
 			rewards: [{
 				id: "37001723E1AD50C8"
@@ -16039,6 +16144,7 @@
 		}
 		{
 			dependencies: ["2BA18EB25877001F"]
+			dependency_requirement: "one_started"
 			id: "44AED22C9749FFD7"
 			rewards: [{
 				id: "05A4A7134E7FB332"
@@ -16102,6 +16208,12 @@
 		{
 			dependencies: ["47C95E5CB83C274D"]
 			id: "10D5749A4FAE6E9D"
+			rewards: [{
+				count: 4
+				id: "6AB19045E363D09D"
+				item: "thermal:diamond_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26D7D243930DE3A3"
 				item: {
@@ -16120,7 +16232,13 @@
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
+			dependency_requirement: "one_started"
 			id: "27969F43280BFA18"
+			rewards: [{
+				id: "3A2320CA2C76A0AA"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11B08EC924F7E60D"
 				item: {
@@ -16218,9 +16336,10 @@
 			]
 			id: "25E533314EFCD83A"
 			rewards: [{
-				id: "235E767B34DD9F1D"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 4
+				id: "1AB12F77B8FCE93A"
+				item: "concatenationcore:circuit"
+				type: "item"
 			}]
 			size: 0.8d
 			tasks: [{
@@ -16245,6 +16364,12 @@
 				"25E533314EFCD83A"
 			]
 			id: "41D8AA5320AF6FE8"
+			rewards: [{
+				count: 4
+				id: "6D802B76850FF45C"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "4999CF6E01894912"
@@ -16269,6 +16394,12 @@
 				"2DFD2B7661869743"
 			]
 			id: "3A78E41998ACBC84"
+			rewards: [{
+				count: 4
+				id: "07E005D5BE645491"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "741288ACBB1C6025"
@@ -16469,11 +16600,19 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "64BEF811F139E0CB"
-			rewards: [{
-				id: "44A2590085B60A2D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3E74EB9BB59E84D8"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+				{
+					id: "602605B3EFBB5463"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "7DE6AE780CCF6AD2"
@@ -16540,9 +16679,10 @@
 			]
 			id: "19FDA9AB1906E74C"
 			rewards: [{
-				id: "3610CB494E308964"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 3
+				id: "216D95DEBD98E3AF"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
 			}]
 			tasks: [{
 				id: "129B8FEAA1D9F21C"
@@ -16591,11 +16731,18 @@
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
 			id: "1F63B99669BB1002"
-			rewards: [{
-				id: "311AD2A6574BE448"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "5CC66150446DD7F2"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+				{
+					id: "11D237CFDA3B4DFC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.2d
 			tasks: [
 				{
@@ -16615,11 +16762,6 @@
 					id: "453D553A56314682"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -16644,6 +16786,7 @@
 							]
 						}
 					}
+					title: "Ore or Fluid Laser Base"
 					type: "item"
 				}
 			]
@@ -16975,7 +17118,14 @@
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
+			dependency_requirement: "one_started"
 			id: "490912716C7BB2C6"
+			rewards: [{
+				count: 8
+				id: "14A4EA4875830522"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0418859AE26C0035"
@@ -17281,6 +17431,7 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			dependency_requirement: "one_started"
 			description: ["Refined glowstone is considered a holy material."]
 			id: "648919584EBC4E4D"
 			tasks: [
@@ -17455,7 +17606,13 @@
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
+			dependency_requirement: "one_started"
 			id: "35AEE847FE74A61B"
+			rewards: [{
+				id: "1A160AAACEB59180"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4F5629333B561E98"
 				item: {
@@ -17475,6 +17632,11 @@
 		{
 			dependencies: ["35AEE847FE74A61B"]
 			id: "62BC3A7199373305"
+			rewards: [{
+				id: "2242AB31291D3895"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "46C9ED5058905397"
 				item: {
@@ -17537,13 +17699,21 @@
 				"3F86C492412EBA3F"
 				"2157576FC7005917"
 			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&3The Hand of Wands&r is a minor arcana that can be accesed by the &eMagician&r, &6Sun&r, &7Tower&r, and &dHermit&r pathways. It delves into adding together magic and technology by performing spellcasting through the more convenient handgun format. It is an art in its own right."
+				"{@pagebreak}"
+				"While I did not delve into rifled spellcating myself, I have met on my travels a curious wizard by the name of &3Van&r. He left me these notes you can subsequently read. He seems to be one of the co-authors of the &3Encylopaedia Psionica&r. Do not trust his every word. I may have drank from my own blood and performed cultist rituals, but it seems rifled spellcasting is the discipline that truly renders mages mad."
+				"{@pagebreak}"
+				"&3Van&r, take these pills, you must be crazy."
+			]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			id: "679D7B535BE7E8B2"
 			rewards: [{
-				id: "4F1FA52B077C21EB"
-				type: "xp_levels"
-				xp_levels: 3
+				count: 3
+				id: "32D0E5B19EDA1B60"
+				item: "farmersdelight:melon_juice"
+				type: "item"
 			}]
 			size: 1.15d
 			tasks: [{
@@ -17564,11 +17734,12 @@
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
+			description: ["&3By channeling magic through a technological framework, I strive to push the arcane arts further than it's ever gone before. This machine will allow me to create what I call a Casting Assistant Device, or CAD, which should allow me to start taking advantage of Psi Energy.&r"]
 			id: "4B37E82CEEAACF03"
 			rewards: [{
-				count: 3
-				id: "30DC4F1C0AE7F06A"
-				item: "psi:psimetal"
+				count: 16
+				id: "7DB7C9CF81BF5475"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			tasks: [{
@@ -17584,12 +17755,18 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 25.5d
+			x: 7.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
+			dependency_requirement: "one_started"
 			id: "6DFC344CA7197EEF"
+			rewards: [{
+				id: "15CAC539C2F58BD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "3B577BFDAAE12EF4"
@@ -17624,6 +17801,11 @@
 		{
 			dependencies: ["490912716C7BB2C6"]
 			id: "2DAE9E3C66B44CC1"
+			rewards: [{
+				id: "6713EE5FA1336F33"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5812201EAA2D2F51"
 				item: {
@@ -17826,6 +18008,7 @@
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
+			dependency_requirement: "one_started"
 			id: "5D51BC92697C39DD"
 			tasks: [{
 				id: "6789C7FFEE3C6D4F"
@@ -18116,7 +18299,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"The cutting board is generally used to cut meat and vegetables for recipes."
+				"The cutting board is generally used to cut meat and vegetables for recipes. High-quality cutting boards can be manufactured by Empress card holders, but you can also find any laying around in the world."
 				""
 				"A hammer can also be used with some materials to be flattered more easily on a sturdy surface."
 			]
@@ -19248,7 +19431,7 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 13.5d
 		}
 		{
@@ -21381,11 +21564,18 @@
 				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
 			]
 			id: "47F28365AC7EE987"
-			rewards: [{
-				id: "2EC646FE7FB8E297"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "295896F611E18162"
+					item: "ironchest:crystal_chest"
+					type: "item"
+				}
+				{
+					id: "5504CD916F60B662"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 0.9d
 			tasks: [
 				{
@@ -21871,6 +22061,632 @@
 			title: "&6The World"
 			x: 0.0d
 			y: -15.75d
+		}
+		{
+			dependencies: ["679D7B535BE7E8B2"]
+			description: ["&3I finally got my hands on a Psidust sample. If I use a basic CAD made of just an assembly and nothing else, I can channel Psi Energy into redstone dust and create Psidust. It’s... interesting. I can’t quite explain the reaction when I mixed redstone dust with Psi Energy, but the results are undeniable. I’ve used it to create unique tools and spell components.&r"]
+			id: "56209781BEA94B72"
+			rewards: [{
+				count: 16
+				id: "4135156968CDB616"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF8B10201AA7B2F"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4B37E82CEEAACF03"]
+			description: ["&3This one’s a bit tricky. After months of tweaking and soldering, I managed to create a usable CAD core. It’s simple compared to what I want, but it’s a start. Without a socket to put spell bullets in, without a battery to power the whole thing, I’m just spitting into the void. But I’ve figured out one thing: Psi Energy doesn’t care about mana. It’s untethered, wild, and as long as my CAD can handle it, I can cast.&r"]
+			id: "0C1EF43A36DDC399"
+			rewards: [{
+				count: 8
+				id: "263A4E206D008A8D"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61A28C850A7D6437"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							ForgeCaps: {
+								Parent: {
+									Battery: 0
+									Memory: [ ]
+									Time: 115
+								}
+							}
+							id: "psi:cad"
+							tag: {
+								CapabilityData: {
+									Battery: 0
+									Memory: [ ]
+									Time: 114
+								}
+								componentASSEMBLY: {
+									Count: 1b
+									id: "psi:cad_assembly_iron"
+								}
+							}
+						}]
+					}
+				}
+				title: "Any CAD"
+				type: "item"
+			}]
+			title: "Casting Assistant Device"
+			x: 6.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["56209781BEA94B72"]
+			description: ["&3With a Spell Programmer I can create my spells, and save them inside of Spell Bullets to put inside of my CAD in order to start spellslinging. That is, as long as my CAD is able to handle it. The logic was a little tricky to get my head around at first, but it got more intuitive as I went along. I've written down guides in the Encyclopaedia Psionica for future reference.&r"]
+			icon: "psi:programmer"
+			id: "73A155D280F7D78D"
+			rewards: [{
+				count: 8
+				id: "78648027A2F979FF"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CBAF35508EB74A4"
+					item: "psi:programmer"
+					type: "item"
+				}
+				{
+					id: "5E8FFD2FE943CF99"
+					item: {
+						Count: 1
+						id: "psi:spell_bullet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["56209781BEA94B72"]
+			description: ["&3I’ve even managed to add a little flair to my spells: colors! It's not strictly necessary, but... What's spellcasting without a little flair? Adding another component to the CAD to make sure my spells come out in a pretty colour is absolutely a good use of my time.&r"]
+			id: "57223394F396BEA0"
+			rewards: [{
+				id: "3472AC3126D4A15D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3BE59C45C520EE3E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_white"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_orange"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_magenta"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_light_blue"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_yellow"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_lime"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_pink"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_gray"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_light_gray"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_cyan"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_purple"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_brown"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_green"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_red"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_black"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_rainbow"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_psi"
+							}
+							{
+								Count: 1b
+								id: "psi:cad_colorizer_empty"
+							}
+						]
+					}
+				}
+				title: "Any Colorizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 26.5d
+		}
+		{
+			dependencies: [
+				"73A155D280F7D78D"
+				"0C1EF43A36DDC399"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&3I’ve managed to create something truly terrifying with the Psimetal I extracted from an ancient ruin. I was able to replicate some with my usual infusion process. It’s alive, pulsing with a power that defies comprehension. I don’t even know how to control it, but I can feel its potential. With this, I could bend reality itself, reshape the world in my image.&r"
+				"{@pagebreak}"
+				"&3But I’m scared. This power isn’t just a tool, it’s a curse. If anyone finds out what I’ve done, they’ll come for me. They’ll lock me up, experiment on me, turn me into something less than human. But I can’t stop. The CAD calls to me, whispers in my mind, promising greatness beyond my wildest imagination.&r"
+			]
+			id: "19A4CACDAF0086ED"
+			rewards: [{
+				count: 8
+				id: "16304F152B455EFF"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "073C5011807BFA83"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["19A4CACDAF0086ED"]
+			description: ["&3I took my pills. Today is a good day. A more powerful CAD means more powerful infusions. With the Greater Infusion trick I can create Psigems out of diamonds, opening up a lot more options for the use of Psi Energy outside of just making CAD components.&r"]
+			id: "449B017FEE0378C4"
+			rewards: [{
+				count: 8
+				id: "2C6FE2EA9A04D290"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C1F44F139F083F5"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "27D8B699B2EE5400"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Battery: 0
+								Memory: [ ]
+								Time: 0
+							}
+						}
+						id: "psi:cad"
+						tag: {
+							CapabilityData: {
+								Battery: 0
+								Memory: [ ]
+								Time: 0
+							}
+							componentASSEMBLY: {
+								Count: 1b
+								id: "psi:cad_assembly_psimetal"
+							}
+							componentBATTERY: {
+								Count: 1b
+								id: "psi:cad_battery_extended"
+							}
+							componentCORE: {
+								Count: 1b
+								id: "psi:cad_core_overclocked"
+							}
+							componentSOCKET: {
+								Count: 1b
+								id: "psi:cad_socket_signaling"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["449B017FEE0378C4"]
+			description: ["&3By making tools out of Psi-infused materials, I can slot in spell bullets and automatically cast spells whenever I use them.&r"]
+			id: "143903A4CBF5AFB2"
+			rewards: [
+				{
+					count: 4
+					id: "6AC95A2CF4601E83"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "12ACCFFCFE635E0B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "100DCCE463A46676"
+					item: {
+						Count: 1
+						id: "psi:psimetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F0DFFB9A25A3AB0"
+					item: {
+						Count: 1
+						id: "psi:psimetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2A30DFBCFAE1F8"
+					item: {
+						Count: 1
+						id: "psi:psimetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "559267F836111F5D"
+					item: {
+						Count: 1
+						id: "psi:psimetal_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["449B017FEE0378C4"]
+			description: ["&3By making armour out of Psi-infused materials, I can slot in spell bullets and automatically cast spells when certain conditions are met. Crafting sensors to put in the exosuit will help with detecting when spells need to be cast.&r"]
+			id: "52D8E97D4CA4346C"
+			rewards: [
+				{
+					count: 4
+					id: "45EF2ABA8F2B62DB"
+					item: "psi:psigem"
+					type: "item"
+				}
+				{
+					id: "588CEB98754A5651"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "5C70645FE0740642"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18BE33B15453A0FE"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64AD988D14672BDA"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D979D5B3ECE2A07"
+					item: {
+						Count: 1
+						id: "psi:psimetal_exosuit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["449B017FEE0378C4"]
+			description: [
+				"&3I’ve finally managed to integrate the Ebony and Ivory fragments into the CAD. It’s like having a supercharged version of Psi Energy, one that thrives on chaos and destruction. I don’t even know what it’s capable of, but I don’t want to find out. This power is dangerous, unpredictable, and if I use it wrong, it could consume me.&r"
+				"{@pagebreak}"
+				"&3But I can’t stop. The CAD demands more, craves more, and I’m only too happy to oblige. With this, I’ve unlocked a whole new level of spellcasting, one that defies logic and common sense. The world is a canvas, and I’m the brush. Let the madness begin.&r"
+			]
+			id: "3660FD519AD9E251"
+			rewards: [{
+				id: "33AC092573E7D3BE"
+				item: "born_in_chaos_v1:chaos_icon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103BD53D7403E48A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "psi:ebony_substance"
+							}
+							{
+								Count: 1b
+								id: "psi:ivory_substance"
+							}
+						]
+					}
+				}
+				title: "Ebony or Ivory Substance"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3660FD519AD9E251"]
+			description: ["&3I’ve done it. I’ve created a feedback loop, a cycle of power that sustains itself. With the Ebony fragment at my side, I’ve managed to create something that feels almost alive. The Psi Energy flows through the CAD, amplifying every spell, every command. It’s like having a permanent spellbook, one that never wears out.&r"]
+			id: "3B10FF9B870238A4"
+			rewards: [
+				{
+					count: 64
+					id: "7389919210508286"
+					item: "psi:psidust"
+					type: "item"
+				}
+				{
+					id: "5670E6BF114804B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "365C6D02948F2BF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Battery: 264
+							Memory: [ ]
+							Time: 22
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						CapabilityData: {
+							Battery: 264
+							Memory: [ ]
+							Time: 22
+						}
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_ebony_psimetal"
+						}
+						componentBATTERY: {
+							Count: 1b
+							id: "psi:cad_battery_ultradense"
+						}
+						componentCORE: {
+							Count: 1b
+							id: "psi:cad_core_hyperclocked"
+						}
+						componentSOCKET: {
+							Count: 1b
+							id: "psi:cad_socket_transmissive"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ebony CAD"
+			x: 4.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["3660FD519AD9E251"]
+			description: ["&3Unfortunately I can't have everything in one CAD. I have to make tradeoffs for each component, but it should serve me well enough. I'm now free to experiment with the Spell Programming System as much as I please, with as few restrictions as possible.&r"]
+			id: "6BE0B478621DC602"
+			rewards: [
+				{
+					count: 64
+					id: "36C9E63774D1E41D"
+					item: "psi:psidust"
+					type: "item"
+				}
+				{
+					id: "011D9F362B272310"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4A1337843046DCFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						CapabilityData: {
+							Battery: 0
+							Memory: [ ]
+							Time: 0
+						}
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_ivory_psimetal"
+						}
+						componentBATTERY: {
+							Count: 1b
+							id: "psi:cad_battery_ultradense"
+						}
+						componentCORE: {
+							Count: 1b
+							id: "psi:cad_core_hyperclocked"
+						}
+						componentSOCKET: {
+							Count: 1b
+							id: "psi:cad_socket_transmissive"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ivory CAD"
+			x: 3.5d
+			y: 29.5d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Found some ancient blueprints from my nether adventures and saved them for later. I've borrowed an interesting book in a dwarven library with a note on the cover:"
+				""
+				"&oIn practice, it is rather good at resource processing, being able to make materials the regular smeltery cannot. But the foundry cannot alloy molten metals together for some strange reason&r"
+			]
+			hide_dependency_lines: true
+			id: "45869F0B994655D8"
+			rewards: [
+				{
+					id: "06C1F3591536E536"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+				{
+					id: "0F3BF332AFBA502C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3507E1E26124F2F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "tconstruct:foundry_controller"
+							tag: {
+								texture: "tconstruct:scorched_stone"
+							}
+						}]
+					}
+				}
+				title: "Any Foundry Controller"
+				type: "item"
+			}]
+			title: "The Fantastic Foundry"
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3AF5EB2526EAD40C"]
+			id: "7A4DEEAD97A49B3F"
+			rewards: [{
+				count: 2
+				id: "2A1EF35C9959E0FD"
+				item: "concatenationcore:galvanized_iron"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "52923FDD4379853A"
+				item: "quarryplus:workbench"
+				type: "item"
+			}]
+			x: -24.375d
+			y: 6.0d
 		}
 	]
 	title: "The Journey"

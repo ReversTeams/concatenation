@@ -139,15 +139,20 @@
     "modId": "born_in_chaos_v1",
     "version": "1.7.2"
   },
-  "borninconfiguration-3.0.3.jar": {
-    "jarName": "borninconfiguration-3.0.3.jar",
+  "borninconfiguration-3.1-all.jar": {
+    "jarName": "borninconfiguration-3.1-all.jar",
     "modId": "borninconfiguration",
-    "version": "3.0.3"
+    "version": "3.1"
   },
   "BotanyPots-Forge-1.20.1-13.0.41.jar": {
     "jarName": "BotanyPots-Forge-1.20.1-13.0.41.jar",
     "modId": "botanypots",
     "version": "13.0.41"
+  },
+  "buildinggadgets2-1.0.8.jar": {
+    "jarName": "buildinggadgets2-1.0.8.jar",
+    "modId": "buildinggadgets2",
+    "version": "1.0.8"
   },
   "caelus-forge-3.2.0+1.20.1.jar": {
     "jarName": "caelus-forge-3.2.0+1.20.1.jar",
@@ -234,15 +239,18 @@
     "modId": "commoncapabilities",
     "version": "2.9.7"
   },
-  "concatenationcore-1.0.7-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.0.7-forge-1.20.1.jar",
+  "concatenationcore-1.0.8-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.0.8-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.0.7"
+    "version": "1.0.8"
   },
   "connectivity-1.20.1-7.1.jar": {
     "jarName": "connectivity-1.20.1-7.1.jar",
     "modId": "connectivity",
     "version": "1.20.1-7.1"
+  },
+  "Connector-1.0.0-beta.46+1.20.1.jar": {
+    "jarName": "Connector-1.0.0-beta.46+1.20.1.jar"
   },
   "consecration-forge-7.0.2+1.20.1.jar": {
     "jarName": "consecration-forge-7.0.2+1.20.1.jar",
@@ -614,10 +622,10 @@
     "modId": "iceberg",
     "version": "1.1.25"
   },
-  "ImmediatelyFast-Forge-1.5.1+1.20.4.jar": {
-    "jarName": "ImmediatelyFast-Forge-1.5.1+1.20.4.jar",
+  "ImmediatelyFast-Forge-1.5.2+1.20.4.jar": {
+    "jarName": "ImmediatelyFast-Forge-1.5.2+1.20.4.jar",
     "modId": "immediatelyfast",
-    "version": "1.5.1+1.20.4"
+    "version": "1.5.2+1.20.4"
   },
   "immersive_aircraft-1.4.0+1.20.1-forge.jar": {
     "jarName": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
@@ -821,6 +829,11 @@
     "jarName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
     "modId": "melody",
     "version": "1.0.2"
+  },
+  "midnightlib-forge-1.4.2.jar": {
+    "jarName": "midnightlib-forge-1.4.2.jar",
+    "modId": "midnightlib",
+    "version": "1.4.2"
   },
   "minecolonies-1.20.1-1.1.1029-snapshot.jar": {
     "jarName": "minecolonies-1.20.1-1.1.1029-snapshot.jar",

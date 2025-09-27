@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "tfmg:silicon_ingot" }
+  ],
+  "tool": {
+    "tag": "concatenation:cutting_tool"
+  },
+  "result": [
+    {
+      "item": "ae2:silicon",
+      "count": 1
+    }
+  ]
+}

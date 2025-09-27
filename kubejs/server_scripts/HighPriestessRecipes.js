@@ -158,6 +158,7 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
         event.remove({ output: 'tconstruct:rose_gold_ingot', type: 'thermal:smelter' })
         event.remove({ output: 'integrateddynamics:variable', type: 'minecraft:crafting_shaped' })
+        //event.remove({ output: 'mekanism:basic_control_circuit'})
 
         event.shaped(
                 Item.of('tarotcards:the_high_priestess'),
