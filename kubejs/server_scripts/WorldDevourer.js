@@ -46,4 +46,27 @@ ServerEvents.customCommand("genworlddevourer", () => {
 	});
 
 	Utils.server.runCommand("/say [WDEVR] Wrote loot table");
+});
+
+// recipe
+ServerEvents.recipes(event => {
+	event.shaped(
+		Item.of("concatenationcore:world_devourer"),
+		[
+			"BTC",
+			"tWL",
+			"rER"
+		],
+		{
+			T: "projecte:transmutation_tablet",
+			B: "rftoolsdim:dimension_builder",
+			t: "rftoolsdim:realized_dimension_tab",
+			r: "rftoolsutility:matter_receiver",
+			R: "projecte:relay_mk3",
+			L: "projecte:catalytic_lens",
+			C: "projecte:condenser_mk2",
+			E: "rftoolsdim:legendary_essence",
+			W: "tarotcards:the_world"
+		}
+	).keepIngredient("tarotcards:the_world")
 })
