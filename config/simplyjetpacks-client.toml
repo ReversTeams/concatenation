@@ -20,13 +20,13 @@
 	#GUI Configurations
 	[simplyjetpacks-client.gui]
 		#Show the Throttle value in the Jetpack HUD.
-		showThrottle = true
+		showThrottle = false
 		#Show the exact energy of the Jetpack in the HUD.
 		showExactEnergy = false
 		#This sets whether or not Jetpack state messages will show.
 		enableStateMessages = true
 		#This sets whether or not the Jetpack HUD will be visible.
-		enableJetpackHud = true
+		enableJetpackHud = false
 		#Show the Hover State in the HUD.
 		showHoverState = true
 		#Show the Emergency Hover State in the HUD.

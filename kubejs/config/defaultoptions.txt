@@ -44,7 +44,7 @@ biomeBlendRadius:2
 renderClouds:"true"
 resourcePacks:["vanilla","tacz_resources","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","resources/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","resources/LowOnFire_1.20.1.zip","resources/Stay_True_1.20.zip","resources/cubic-sun-moon-v1.8.1a.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip"]
 incompatibleResourcePacks:["builtin/towntalk","resources/Nobushleaves.zip","resources/Icon Journey 1.1.zip","resources/Old+Iron+Chest.zip","resources/ReApplied.zip","resources/Soleil-Roumain-Tips.zip"]
-lastServer:noh.notourhardware.com
+lastServer:concat.playcdu.co
 lang:en_us
 soundDevice:""
 chatVisibility:0

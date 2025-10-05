@@ -113,7 +113,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/info-temperance.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/temperanceinfographic.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Witches of the &cTemperance pathway&r adhere to researching the occult and an isolated lifestyle, growing their various herbs in peace. Their peers are often jealous of their multiple trinkets: the flying broom, large coffer replacing the backpack, magic-resistant armour, etc. "
 				""
@@ -6395,6 +6395,7 @@
 				title: "Any Archwood Log"
 				type: "item"
 			}]
+			title: "Archwood Log"
 			x: 11.0d
 			y: 13.900000000000002d
 		}
@@ -10553,7 +10554,7 @@
 				type: "checkmark"
 			}]
 			title: "&ePreface"
-			x: 0.25d
+			x: 0.35d
 			y: -0.5d
 		}
 		{
@@ -10570,7 +10571,7 @@
 				""
 				"&e- Mitemi and Tikup, Modpack Authors&r"
 			]
-			icon: "concatenationcore:gold_paper"
+			icon: "concatenationcore:experienced_paper"
 			id: "1EFB1193B63BA522"
 			size: 0.7d
 			subtitle: "The Journey"
@@ -10580,8 +10581,8 @@
 				type: "checkmark"
 			}]
 			title: "&eMod Author's Note"
-			x: 0.25d
-			y: 0.5d
+			x: 0.0d
+			y: 0.35d
 		}
 		{
 			dependencies: [
@@ -10640,11 +10641,6 @@
 			hide_until_deps_visible: true
 			id: "3EA4408A8F86B825"
 			invisible: true
-			rewards: [{
-				id: "6F1CC98384BB487D"
-				item: "concatenationcore:woven_pearl"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0921696421E8B6DA"
 				item: "concatenationcore:woven_pearl"
@@ -12689,6 +12685,11 @@
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
+			description: [
+				"The squeezer can be used to extract more out of a resource such as ores or more commonly, menril chunks."
+				""
+				"The manual squeezer can be actioned by placing a block or item inside and repeatedly jumping on it, flattening it and squeezing out materials."
+			]
 			id: "4C8C2AA343360B7D"
 			rewards: [
 				{
@@ -12750,7 +12751,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Menryl trees can be found scattered throughout the world. They will usually be harvested for their titular menryl."
+				"Menril trees can be found scattered throughout the world. They will usually be harvested for their titular menril."
 				""
 				"If you have trouble finding such trees, it is possible to artificially grow a sapling using the blast chiller."
 			]
@@ -12811,6 +12812,7 @@
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
+			description: ["The mechanical squeezer automates the squeezing process with RF power."]
 			id: "47C008A8A80FCEE1"
 			rewards: [{
 				id: "70755773691BE8B4"
@@ -12854,6 +12856,11 @@
 				"4C8C2AA343360B7D"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Crystalized menril chunks can be obtained by breaking enriched menril logs, present within menril trees naturally. "
+				""
+				"Another method is by pressing menril wood into a mechanical squeezer, thus industrializing the process."
+			]
 			id: "58D41204FAEC60DF"
 			rewards: [{
 				count: 4
@@ -13084,6 +13091,7 @@
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
+			description: ["Popped chorus fruit can be squeezed into crystalized chorus fruit, which can be used to make logic directors."]
 			id: "4E44852EB1DA116A"
 			rewards: [{
 				count: 4
@@ -14794,9 +14802,9 @@
 			description: ["If one were to restore the entirety of the Cycle of Eldritch Scribings, it is likely it would allow one to develop the true ancient arts of Alchemy and Artifice. I regrettably never managed to find the entirety of the ancient knowledge, but it was of no matter since fully-formed alchemical implements do exist, somewhere in the world..."]
 			id: "301D160C2B3F2B79"
 			rewards: [{
-				id: "4FF61749CEFF7627"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "4424841C11CCF47F"
+				item: "reliquary:salamander_eye"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -23897,12 +23905,18 @@
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
+			description: [
+				"Kestrel is a special sword that can be acquired more easily by witches of the Temperance pathway. It can be used to teleport."
+				""
+				"This sword will attempt to not teleport you into a wall, therefore the teleportation will be cancelled if it would suffocate you into one. It is recommended to jump or look up before teleporting."
+			]
 			hide_dependency_lines: true
 			id: "47DF6B172E0C500B"
 			rewards: [{
-				id: "239563DDA08C2453"
-				type: "xp_levels"
-				xp_levels: 3
+				count: 16
+				id: "440D8BCBE5B22CB3"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1D2CAF06BE694B1D"
@@ -23917,6 +23931,20 @@
 			}]
 			x: 13.5d
 			y: -7.5d
+		}
+		{
+			description: ["{image:concatenationcore:textures/pathway.png width:170 height:120 align:center}"]
+			icon: "concatenationcore:gold_paper"
+			id: "3BE6CBA88F786861"
+			size: 0.7d
+			tasks: [{
+				id: "3C9725840DF9A986"
+				title: "Pathway Progression"
+				type: "checkmark"
+			}]
+			title: "&ePathway Progression"
+			x: 0.7d
+			y: 0.35d
 		}
 	]
 	title: "The Journey"
