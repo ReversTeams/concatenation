@@ -56,6 +56,9 @@
     "postbox.requested": true,
     "stash.requested": true
   },
+  "mekanismcovers": {
+    "cover_component": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

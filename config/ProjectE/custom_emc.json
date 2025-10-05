@@ -3,6 +3,94 @@
     {
       "item": "projecte:alchemical_coal",
       "emc": 8196
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "immersive_weathering:snowy_cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "immersive_weathering:sandy_cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:smooth_stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:mossy_stone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "immersive_weathering:sandy_stone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:deepslate",
+      "emc": 2
+    },
+    {
+      "item": "minecraft:end_stone_bricks",
+      "emc": 1
+    },
+    {
+      "item": "thermal:rose_gold_ingot",
+      "emc": 1088
+    },
+    {
+      "item": "thermal:signalum_ingot",
+      "emc": 288
+    },
+    {
+      "item": "thermal:lumium_ingot",
+      "emc": 512
+    },
+    {
+      "item": "thermal:enderium_ingot",
+      "emc": 2368
+    },
+    {
+      "item": "concatenationcore:gold_stick",
+      "emc": 15872
+    },
+    {
+      "item": "minecraft:packed_ice",
+      "emc": 9
+    },
+    {
+      "item": "minecraft:blue_ice",
+      "emc": 81
+    },
+    {
+      "item": "concatenationcore:crushed_zinc",
+      "emc": 70
+    },
+    {
+      "item": "concatenationcore:crushed_iron",
+      "emc": 140
+    },
+    {
+      "item": "concatenationcore:pyrite",
+      "emc": 9216
+    },
+    {
+      "item": "concatenationcore:protean_glass",
+      "emc": 565
+    },
+    {
+      "item": "concatenationcore:transplant",
+      "emc": 56
+    },
+    {
+      "item": "concatenationcore:galvanized_iron",
+      "emc": 2064
     }
   ]
 }

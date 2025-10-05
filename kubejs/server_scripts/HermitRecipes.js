@@ -577,4 +577,31 @@ ServerEvents.recipes(event => {
                         'concatenationcore:hammer'
                 ]
         )
+
+        event.recipes.minecraft.smelting(
+                'create:zinc_ingot',
+                'createmetallurgy:zinc_dust'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'create:zinc_ingot',
+                'createmetallurgy:zinc_dust'
+        ).xp(0.1).cookingTime(100);
+
+        event.recipes.minecraft.blasting(
+                'minecraft:glowstone_dust',
+                'thermal:glowstone_mushroom_spores'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'minecraft:gunpowder',
+                'thermal:gunpowder_mushroom_spores'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'minecraft:redstone',
+                'thermal:redstone_mushroom_spores'
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'minecraft:slime_ball',
+                'thermal:slime_mushroom_spores'
+        ).xp(0.1).cookingTime(100);
+
 });

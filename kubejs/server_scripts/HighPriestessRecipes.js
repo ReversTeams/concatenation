@@ -53,7 +53,9 @@ ServerEvents.recipes(event => {
                 'thermal:upgrade_augment_1',
                 'enderstorage:ender_chest',
                 'enderstorage:ender_tank',
-                'rftoolspower:blazing_agitator'
+                'rftoolspower:blazing_agitator',
+                'mekanism:enriched_iron',
+                'mekanism:enriched_redstone'
         ]
 
         remove.forEach(item => {
@@ -1008,6 +1010,32 @@ ServerEvents.recipes(event => {
                         A: 'thermal:steel_plate'
                 }
         )
+        event.shaped(
+                Item.of('mekanismgenerators:fission_reactor_casing', 8),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'mekanism:alloy_infused',
+                        C: 'industrialforegoing:machine_frame_advanced',
+                        A: 'thermal:lead_plate'
+                }
+        )
+        event.shaped(
+                Item.of('mekanismgenerators:fusion_reactor_frame', 8),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'mekanism:alloy_atomic',
+                        B: 'mekanism:pellet_polonium',
+                        C: 'industrialforegoing:machine_frame_advanced'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])
@@ -1025,7 +1053,8 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(25000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
-        event.recipes.mekanism.enriching('concatenationcore:primed_calculation_processor', 'mekanism:basic_control_circuit')
+        event.recipes.mekanism.enriching('mekanism:enriched_iron', 'minecraft:iron_ingot')
+        event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'minecraft:redstone')
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],

@@ -821,7 +821,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('concatenationcore:gold_stick'),
+                Item.of('concatenationcore:gold_stick', 2),
                 [
                         'ABC',
                         '   ',
