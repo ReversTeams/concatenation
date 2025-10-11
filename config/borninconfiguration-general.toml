@@ -534,7 +534,7 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			KRAMPUS_HENCHMAN_SPEED = 0.29
 			#.
-			KRAMPUS_HENCHMAN_SPAWNING_ENABLED = true
+			KRAMPUS_HENCHMAN_SPAWNING_ENABLED = false
 
 		[Weapons.Mobs.Krampus]
 			#.
@@ -556,7 +556,7 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			KRAMPUS_SPEED = 0.26
 			#.
-			KRAMPUS_SPAWNING_ENABLED = true
+			KRAMPUS_SPAWNING_ENABLED = false
 
 		[Weapons.Mobs.Lifestealer]
 			#Days till Lifestealer spawns

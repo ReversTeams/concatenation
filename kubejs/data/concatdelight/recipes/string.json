@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "celestisynth:solar_crystal" }
+  ],
+  "tool": {
+    "item": "concatenationcore:cutting_tool"
+  },
+  "result": [
+    {
+      "item": "minecraft:string",
+      "count": 4
+    },
+    {
+      "item": "minecraft:string",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:string",
+      "count": 1,
+      "chance": 0.25
+    }
+  ]
+}

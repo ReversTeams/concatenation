@@ -1366,7 +1366,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         D: 'minecraft:iron_nugget',
-                        C: 'thermal:steel_ingot',
+                        C: 'createmetallurgy:steel_ingot',
                         A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
@@ -1602,6 +1602,20 @@ ServerEvents.recipes(event => {
                 {
                         B: 'minecraft:compass',
                         A: 'concatenationcore:galvanized_iron_nugget'
+                }
+        )
+        event.shaped(
+                Item.of('minecraft:grass_block'),
+                [
+                        'ADC',
+                        'BCB',
+                        'CBC'
+                ],
+                {
+                        A: 'concatenationcore:mixing_tool',
+                        B: 'minecraft:dirt',
+                        C: 'minecraft:wheat_seeds',
+                        D: 'elementalcraft:weak_earth_shard'
                 }
         )
 

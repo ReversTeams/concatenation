@@ -577,6 +577,19 @@ ServerEvents.recipes(event => {
                         'concatenationcore:hammer'
                 ]
         )
+        event.shaped(
+                Item.of('minecraft:enchanted_book').enchant('veinmining:vein_mining', 1),
+                [
+                        'AB ',
+                        'BCB',
+                        ' B '
+                ],
+                {
+                        B: 'thermal:electrum_block',
+                        A: 'tarotcards:the_hermit',
+                        C: 'minecraft:enchanted_book'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

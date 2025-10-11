@@ -48,7 +48,7 @@
 	tinBushDensity = 2
 	#Aluminum Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	aluminumBushDensity = 2
+	aluminumBushDensity = 1
 	#Lead Bush Density [Default: 1]
 	#Range: 1 ~ 32
 	leadBushDensity = 1
@@ -69,5 +69,5 @@
 	silverBushDensity = 1
 	#Essence Bush Density [Default: 2]
 	#Range: 1 ~ 32
-	essenceBushDensity = 2
+	essenceBushDensity = 3
 

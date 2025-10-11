@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "tag": "concatenation:scrolls"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:consumables/experience_3"
+    },
+    {
+      "tag": "forge:consumables/experience_3"
+    }
+  ],
+  "output": {
+    "item": "summonerscrolls:piglin_summoner_scroll"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "fluidLevelsConsumed": 400
+}

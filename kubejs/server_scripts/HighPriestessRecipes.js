@@ -63,7 +63,8 @@ ServerEvents.recipes(event => {
                 'simplyjetpacks:jetpack_te1_armored',
                 'simplyjetpacks:jetpack_te2_armored',
                 'simplyjetpacks:jetpack_te3_armored',
-                'simplyjetpacks:jetpack_te4_armored'
+                'simplyjetpacks:jetpack_te4_armored',
+                'rftoolspower:cell2'
         ]
 
         remove.forEach(item => {
@@ -1090,6 +1091,149 @@ ServerEvents.recipes(event => {
                 {
                         B: 'mcore:steel_sheet',
                         A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:nuke_tnt'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate',
+                        B: 'mekanism:ingot_uranium'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:earth_tnt', 1),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:tnt',
+                        B: 'thermal:signalum_nugget',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:lightning_tnt', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate',
+                        B: 'thermal:lightning_charge'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:ice_tnt', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'thermal:ice_charge',
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:ice_tnt', 8),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:tnt',
+                        B: 'concatenationcore:ice_shard',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:fire_tnt', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:fire_charge',
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:fire_tnt', 8),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'ars_nouveau:fire_essence',
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:slime_tnt', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:tnt',
+                        B: 'tconstruct:earth_slime_grass_seeds',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:redstone_tnt', 8),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'concatenationcore:stickyredstone',
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:glowstone_tnt', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:glowstone_dust',
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:ender_tnt', 4),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'minecraft:tnt',
+                        A: 'thermal:steel_plate',
+                        B: 'thermal:enderium_ingot'
                 }
         )
 

@@ -5,7 +5,6 @@
         },
         "highlight_foused_items_foreground": false,
         "highlight_foused_items_bg_color": "#01B60B32",
-        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
@@ -35,6 +34,93 @@
         },
         "audio_replace_failed_notification": {
             "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "throw_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "apply_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "next_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "prev_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_1": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_2": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_3": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "save_as_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "global_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "local_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_global_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_local_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "copy_nbt": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "copy_item_id": {
+            "main": {
+                "keys": ""
+            }
         }
     }
 }

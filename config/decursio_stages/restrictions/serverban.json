@@ -1,0 +1,49 @@
+{
+  "Restriction Data": {
+    "stage": "server_ban",
+    "itemList": [
+      {
+        "item": "industrialforegoing:infinity_nuke"
+      },
+      {
+        "item": "hpm:hand_cannon"
+      },
+      {
+        "item": "projecte:watch_of_flowing_time"
+      },
+      {
+        "item": "projecte:nova_catalyst"
+      },
+      {
+        "item": "projecte:nova_cataclysm"
+      },
+      {
+        "item": "projecte:catalytic_lens"
+      },
+      {
+        "item": "projecte:hyperkinetic_lens"
+      },
+      {
+        "item": "projecte:destruction_catalyst"
+      },
+      {
+        "item": "thermal:nuke_tnt"
+      },
+      {
+        "item": "hpm:hand_cannon"
+      },
+      {
+        "item": "hpm:hand_cannon"
+      }
+    ]
+  },
+
+  "Settings": {
+    "dropItemsFromInventory": true,
+    "canPickupItems": false,
+    "itemsPickupDelay": 15, 
+    "canUseItems": false,
+    "canBreakBlocks": true,
+    "canRightClickBlocks": false
+  }
+}

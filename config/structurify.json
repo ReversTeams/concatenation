@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-10-07_11-05-37",
+  "config_datetime": "2025-10-11_10-47-17",
   "general": {
     "min_structure_distance_from_world_center": 140,
     "disable_all_structures": false,
@@ -36,7 +36,7 @@
     {
       "name": "create_easy_structures:big_1",
       "salt": 878977526,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -44,7 +44,7 @@
     {
       "name": "create_easy_structures:big_2",
       "salt": 878785151,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -52,7 +52,7 @@
     {
       "name": "create_easy_structures:camp_1",
       "salt": 541139603,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -60,7 +60,7 @@
     {
       "name": "create_easy_structures:camp_2",
       "salt": 540177731,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -68,7 +68,7 @@
     {
       "name": "create_easy_structures:camp_3",
       "salt": 539985357,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -76,7 +76,7 @@
     {
       "name": "create_easy_structures:camp_4",
       "salt": 540562480,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -84,7 +84,7 @@
     {
       "name": "create_easy_structures:camp_5",
       "salt": 540370106,
-      "frequency": 0.79999995,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -92,7 +92,7 @@
     {
       "name": "create_easy_structures:factory_1",
       "salt": 991993825,
-      "frequency": 0.7,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -100,7 +100,7 @@
     {
       "name": "create_easy_structures:factory_2",
       "salt": 991801451,
-      "frequency": 0.7,
+      "frequency": 0.45,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -108,7 +108,7 @@
     {
       "name": "create_easy_structures:foresttracks",
       "salt": 1204635669,
-      "frequency": 0.9,
+      "frequency": 0.55,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -116,7 +116,7 @@
     {
       "name": "create_easy_structures:freight_station",
       "salt": 1354297359,
-      "frequency": 0.84999996,
+      "frequency": 0.55,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 50,
       "separation": 25
@@ -124,7 +124,7 @@
     {
       "name": "create_easy_structures:house_2",
       "salt": 1601847478,
-      "frequency": 0.84999996,
+      "frequency": 0.5,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -132,7 +132,7 @@
     {
       "name": "create_easy_structures:house_3",
       "salt": 1600885606,
-      "frequency": 0.84999996,
+      "frequency": 0.5,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
@@ -140,15 +140,23 @@
     {
       "name": "create_easy_structures:house_4",
       "salt": 1600693231,
-      "frequency": 0.79999995,
+      "frequency": 0.55,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 25
     },
     {
+      "name": "create_easy_structures:undergroundtrain",
+      "salt": 1719461658,
+      "frequency": 0.7,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 50,
+      "separation": 15
+    },
+    {
       "name": "create_easy_structures:windmill",
       "salt": 353987075,
-      "frequency": 0.79999995,
+      "frequency": 0.5,
       "override_global_spacing_and_separation_modifier": false,
       "spacing": 60,
       "separation": 15

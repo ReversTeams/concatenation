@@ -31,7 +31,8 @@ ServerEvents.recipes(event => {
                 'reliquary:salamander_eye',
                 'reliquary:magicbane',
                 'concatenationcore:gold_stick',
-                'ars_nouveau:thread_undying'
+                'ars_nouveau:thread_undying',
+                'reliquary:rod_of_lyssa'
         ]
 
         remove.forEach(item => {
@@ -450,6 +451,12 @@ ServerEvents.recipes(event => {
                         'ars_nouveau:magebloom_block'
                 ]
         )
+        event.shapeless(
+                Item.of('elementalcraft:small_container'),
+                [
+                        'elementalcraft:small_container'
+                ]
+        )
         event.recipes.ars_nouveau.imbuement(
                 'concatenationcore:mundane_silver',
                 'concatenationcore:sourcesilver',
@@ -865,4 +872,20 @@ ServerEvents.recipes(event => {
                         A: 'reliquary:witherless_rose'
                 }
         ).keepIngredient('reliquary:witherless_rose')
+        event.shaped(
+                Item.of('reliquary:rod_of_lyssa'),
+                [
+                        ' A ',
+                        'BCD',
+                        'EFE'
+                ],
+                {
+                        F: 'tarotcards:the_hanged_man',
+                        A: 'reliquary:bat_wing',
+                        C: 'minecraft:fishing_rod',
+                        E: 'concatenationcore:ice_shard',
+                        B: 'concatenationcore:nebulous_handle',
+                        D: 'reliquary:infernal_claw'
+                }
+        ).keepIngredient('tarotcards:the_hanged_man')
 });

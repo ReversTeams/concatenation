@@ -1,0 +1,757 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gate_to_perdition"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "concatenationcore:broken_rift_blade"
+	id: "5523786A41BD0730"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&2Dimensional doors once beloved by cultists have suddenly disappeared from the entire world. On a sudden day, all of the rift blades throughout the entire world shattered.&r"
+				""
+				"&2It is upon myself that befalls the responsability of investigating this most critical issue. I will surpass Eleonore!&r"
+			]
+			icon: "concatenationcore:broken_rift_blade"
+			id: "2506899A5890205D"
+			rewards: [{
+				id: "749A7E996AE62E4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4383FC8A037AD1E2"
+				title: "Gate to Perdition"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Gate to Perdition is a pack-wide event with limited time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
+				""
+				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
+				"{@pagebreak}"
+				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
+			]
+			icon: "concatenationcore:experienced_paper"
+			id: "42F701FC987C6C99"
+			size: 0.75d
+			tasks: [{
+				id: "0817051F0190E4D5"
+				title: "Event Details"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2506899A5890205D"]
+			description: ["&2Perhaps it is in another dimension - the end that I may find answers? Or maybe substitutes can do the trick. While waiting for a full moon, I can always hunt down an enderman, take their skull and dissect it for a clue. I'll have to borrow my Tinkerer friend's cleaver for this.&r"]
+			hide_until_deps_complete: false
+			id: "70F04E6D5DF827D1"
+			rewards: [{
+				count: 4
+				id: "2B9A51AA14E64C66"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "75BF9D02C81F1510"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:moon_dust"
+							}
+							{
+								Count: 1b
+								id: "minecraft:end_stone"
+							}
+							{
+								Count: 1b
+								id: "tconstruct:enderman_head"
+							}
+						]
+					}
+				}
+				title: "Moon Dust or Endstone or Enderman Head"
+				type: "item"
+			}]
+			title: "Investigate the End"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2506899A5890205D"]
+			description: ["&2There are still remnants of these dimensional rifts in the old world. Perhaps I should investigate the stone itself for clues?&r"]
+			hide_until_deps_complete: false
+			id: "4E39E9390716E9BA"
+			rewards: [{
+				id: "70C9D4CED698769D"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 48L
+					id: "64EC07F39304CF1D"
+					item: { Count: 48, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "62021AB80E77063E"
+					item: { Count: 8, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+			]
+			title: "Carved in Stone?"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2506899A5890205D"]
+			description: ["&2Fabric! Fabric! Fabric! Yes, yes, yes, this is what I need! I can only take a look at the closest thing that ressembles otherwordly fabric though.&r"]
+			hide_until_deps_complete: false
+			id: "6683DAA505FE70B2"
+			rewards: [{
+				id: "494682E0CE6FCEBF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "06004B5BA7749CE5"
+					item: "minecraft:black_wool"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "5D7DD937B7B19A58"
+					item: { Count: 3, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			title: "Dark Fabric"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E39E9390716E9BA"]
+			description: ["&2All of the previous rift blades shattered, and people have largely forgotten how to make them. I think it might be like this. These materials look close enough. I'll try making another rift blade myself.&r"]
+			id: "0DED704791B360E1"
+			rewards: [{
+				id: "42E9222B7A8A0364"
+				item: "createmetallurgy:gold_dust"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "287FE95E60298A4A"
+					item: "concatenationcore:gold_handle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "28718249D0B63537"
+					item: { Count: 2, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			title: "Rift Blade"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6683DAA505FE70B2"]
+			description: ["&2I've seen the image of crimson cloth in a Reliquerer's book before. It seems special... Maybe I can investigate this next? It looks soft...&r"]
+			id: "5CE9C6ECB42E22FB"
+			rewards: [{
+				id: "079C5A79C55A1580"
+				item: {
+					Count: 1
+					id: "summonerscrolls:spider_summoner_scroll"
+					tag: {
+						Damage: 0
+						cost: 1
+						count: 1
+						damageAmount: 1
+						summon: "summonerscrolls:spider_summon"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BA0DA8F4D7390E7"
+				item: "reliquary:crimson_cloth"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5CE9C6ECB42E22FB"]
+			description: ["&2The crimson cloth yielded no important research, it's just fabric. Next, perhaps I could take take my research to academic studies. I have to get my hands on a worn notebook! It's so old, so it should have knowledge of dimensions before the shattering, right?&r"]
+			id: "26EF74B1DFA8036F"
+			rewards: [{
+				count: 3
+				id: "2144B5FE1837DC5D"
+				item: "concatenationcore:sourcesilver"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6AF661DC4A74C5DA"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70F04E6D5DF827D1"]
+			description: ["&2This tablet is odd. It's not like the pyrite tablet we write our occult callings on. It's glowing? And the writings change? And engineers tell me this is technology? Strange, man.&r"]
+			id: "742178DDE479E5CB"
+			rewards: [{
+				id: "3932612F0C5F3E0D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "74DA8937FDD2E799"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26EF74B1DFA8036F"]
+			description: ["&2What is this book? It calls to me. Have I been a bad person throughout my life? No? This is an old book that seems to have fallen from another world. It can greatly increase my power, but I can only envision it in my mind. I'll have to physically render it with scrolls and leather.&r"]
+			icon: "concatenationcore:blood_soaked_fabric"
+			id: "7A0F6E78038E096E"
+			rewards: [{
+				id: "7D0BF162F401DB1A"
+				item: {
+					Count: 1
+					id: "concatenationcore:karma_tome"
+					tag: {
+						CurioAttributeModifiers: [
+							{
+								Amount: 2
+								AttributeName: "generic.max_health"
+								Name: "generic.max_health"
+								Operation: 0
+								Slot: "spellbook"
+								UUID: [I;
+									-1605032591
+									847855802
+									-2040756365
+									-1132726418
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "spellbook"
+								UUID: [I;
+									517687221
+									-421444519
+									-1852455481
+									2080195476
+								]
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "2A8D3A4130279164"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "irons_spellbooks:scroll"
+								tag: {
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:abyssal_shroud"
+											index: 0
+											level: 1
+											locked: 1b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 0b
+									}
+								}
+							}]
+						}
+					}
+					title: "3x Any Scroll"
+					type: "item"
+				}
+				{
+					id: "76AB7F342FF94F1E"
+					item: "concatenationcore:blood_soaked_fabric"
+					type: "item"
+				}
+			]
+			title: "Tome of Karma"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6683DAA505FE70B2"
+				"70F04E6D5DF827D1"
+			]
+			description: ["&2Meteorite is otherwordly in nature, so a clump of it should be a big enough quantity to analyze. I'll have to borrow some from my Hierophant friend though.&r"]
+			id: "579C1F64E7465881"
+			rewards: [{
+				count: 3
+				id: "200A57B26F5A02BB"
+				item: "concatenationcore:alclad"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ADE38547B955A94"
+				item: "concatenationcore:meteorite_clump"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A681A23C7760093"]
+			description: ["&2The Corvette Steamship is a marvel of engineering, although I'm not sure how to really make one. With this, I can efficiently sail the seas for answers! The ship of my dreams and desires!&r"]
+			id: "0478373C20BD550A"
+			rewards: [{
+				id: "159199CEA8EE7D19"
+				item: {
+					Count: 1
+					id: "concatenationcore:rython"
+					tag: {
+						CurioAttributeModifiers: [{
+							Amount: 2
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 0
+							Slot: "charm"
+							UUID: [I;
+								-1049641899
+								-1698279708
+								-1222758712
+								1471568110
+							]
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1A4021E46A5C7226"
+				item: "hpm:corvette_steamship_item"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["579C1F64E7465881"]
+			description: ["&2I got it! The undead have the answer! People say dead men tell no tales but that's obviously not true! Look at those ships that have raided countless cities!&r"]
+			id: "7A681A23C7760093"
+			rewards: [{
+				count: 2
+				id: "694757B7CC3428A3"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A2918CFDB26E2BB"
+				structure: "dungeons_arise:undead_pirate_ship"
+				title: "Find an undead pirate ship"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4E39E9390716E9BA"
+				"0DED704791B360E1"
+			]
+			description: ["&2Or perhaps I should investigate arcane debris instead? It is a theorized component of Fortune Fragments after all. Perhaps fate will guide me.&r"]
+			id: "561BCAD1A8D0C9FD"
+			rewards: [{
+				id: "49700417001E03F8"
+				item: "concatenationcore:silver_paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36AB39BCE54CBD27"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			title: "Or perhaps?"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DED704791B360E1"]
+			description: [
+				"&2Noo! I held it in my hands for a few seconds! As I swung my blade to open a rift, it simply broke! Was it a divine force that prevented me from opening it?&r"
+				""
+				"&2It seems like I can still use this broken rift blade to randomly teleport myself in a short area. Not very useful though...&r"
+			]
+			icon: "concatenationcore:broken_rift_blade"
+			id: "440A4A21E04AB25F"
+			rewards: [{
+				id: "2720B2D901867CF9"
+				item: "concatenationcore:broken_rift_blade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DF3DBA4D3618733"
+				title: "No Success"
+				type: "checkmark"
+			}]
+			title: "It Broke!"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["742178DDE479E5CB"]
+			description: ["&2Going to the end, I can try to produce some ivory substance. This is quite a dangerous ritual due to the journey it entails, but perhaps I can get answers.&r"]
+			id: "34F14B1B556BDBD9"
+			rewards: [{
+				id: "3984503DA8551061"
+				item: "concatenationcore:glowing_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1444E5E213A8D612"
+				item: "psi:ivory_substance"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5CE9C6ECB42E22FB"]
+			description: ["&2I can see &lEVERYTHING!&r &2I just have to divine the answer as to why the link between our world and limbo closed!&r&r"]
+			id: "57EE1F9566685598"
+			rewards: [{
+				id: "7CBEC3560CB0139D"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DEC60F79D72DA50"
+				item: "bloodmagic:seersigil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57EE1F9566685598"]
+			description: [
+				"&2Shucks. Divination is not all powerful after all. There are some questions that return empty answers.&r"
+				""
+				"&2I know what is all powerful though! A mighty giant sword! It has to be made out of living metal, like the old times! Although, I can't seem to get what this livingmetal material of old is, so I'll substitute it for bloodstained steel.&r"
+			]
+			id: "4728C1708A84DAF9"
+			rewards: [{
+				id: "2B392005E69DA1A1"
+				item: {
+					Count: 1
+					id: "concatenationcore:bloody_living_giant_sword"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 12
+								AttributeName: "generic.attack_damage"
+								Name: "generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-513130152
+									566053759
+									-2075885196
+									-607104510
+								]
+							}
+							{
+								Amount: 1
+								AttributeName: "generic.attack_speed"
+								Name: "generic.attack_speed"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									544014363
+									-38516229
+									-1585965233
+									-426489813
+								]
+							}
+							{
+								Amount: 4
+								AttributeName: "generic.max_health"
+								Name: "generic.max_health"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									1815160898
+									1160073178
+									-1247081854
+									-605985969
+								]
+							}
+						]
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7FA28BF0959EDD7C"
+					item: {
+						Count: 1
+						id: "asr:diamond_giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "35CB5EAEBDF09B53"
+					item: "concatenationcore:bloodstained_steel"
+					type: "item"
+				}
+			]
+			title: "Divination is not all powerful."
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70F04E6D5DF827D1"]
+			description: [
+				"&2Dimensional shards are dimensional in nature! It's in the name! Enderpearls were once related to dimensional doors, perhaps there is a link to be made?&r"
+				"{@pagebreak}"
+				"&2Through my experimentation, I have found that small bits of dimensional shards can be turned to netherite by using diamonds or enderpearls as a catalyst. I do believe most elementists already know of this, though.&r"
+			]
+			id: "3A7470055B794739"
+			rewards: [
+				{
+					id: "27E92D9A0957294F"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "6E8F6E99204ABEC4"
+					item: "elementalcraft:fire_shard"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06B0FD7EC48CD719"
+				item: "rftoolsbase:infused_enderpearl"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A7470055B794739"]
+			description: ["&2What is this? A divine pearl? But it was divine force that prevented me from opening a rift earlier, wasn't it? I should get my hands on that. Reading books to get information is getting tiring.&r"]
+			id: "4BFC1FCBDBE2EE6E"
+			rewards: [{
+				count: 3
+				id: "7186BDBE88B878FA"
+				item: "thermal:lightning_charge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BD003C865C4F945"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BFC1FCBDBE2EE6E"]
+			description: ["&2I can weave this pearl, I know for sure this was used in the making of rifts, dimensional doors and other limbo uses. However, without the right knowledge or link to another world, this seems to be useless. Or perhaps I am just not intelligent enough to theorize about its uses?&r"]
+			id: "3D2BABF4619BDA4F"
+			rewards: [{
+				id: "798AE48F78AA6F6D"
+				item: {
+					Count: 1
+					id: "concatenationcore:woven_pearl"
+					tag: {
+						AttributeModifiers: [{
+							Amount: 2
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 0
+							UUID: [I;
+								-567412426
+								1347569481
+								-1298628478
+								-763275478
+							]
+						}]
+						display: {
+							Name: "{\"text\":\"Woven Pearl\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A616F0029D9882C"
+				item: {
+					Count: 1
+					id: "concatenationcore:cutting_tool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Weave the Pearl"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0DED704791B360E1"
+				"6683DAA505FE70B2"
+			]
+			description: ["&2The sword Kestrel has a similar handle to Rift Blades. I've heard it's also able to teleport. Since people are still using it for travel and it hasn't shattered, perhaps I should procure one for myself for research.&r"]
+			id: "63CF929506AFDB34"
+			rewards: [{
+				count: 6
+				id: "09F7BFF1921FC0E4"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "707EFB1BB9BCAD95"
+				item: {
+					Count: 1
+					id: "concatenationcore:kestrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63CF929506AFDB34"]
+			description: ["&2It's useless! These are two distinct blades, with no link between them. Of course, the rift blade's blade has a greener shade compared to the black of the Kestrel. At least I have one for my personal use now. I'll make some fruit salad...&r"]
+			icon: "farmersdelight:fruit_salad"
+			id: "5D75B69CDCBEDDBC"
+			rewards: [{
+				count: 3
+				id: "6D8A172A7F627ED1"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AF2B36ED4C08889"
+				title: "Bears No Fruit"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["561BCAD1A8D0C9FD"]
+			description: ["&2No success! While not linked to limbo, I have found out through experimenting that Netherite is considered unbreakable to holders of the Magician Card! I guess it's because it contains gold inside?&r"]
+			id: "48BE394A817F29FF"
+			rewards: [{
+				count: 4
+				id: "3989ED4F390C0CD2"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "36686AEF43C26122"
+				item: {
+					Count: 1
+					id: "tarotcards:the_magician"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Netherite is Unbreakable!"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34F14B1B556BDBD9"]
+			description: ["&2No luck in figuring out anything dimensional with ivory or ebony substance. One thing I learned though, is that glowing gold can beb produced very easily through rifled spellcasting.&r"]
+			icon: "concatenationcore:glowing_gold"
+			id: "59A4545D571821B3"
+			rewards: [{
+				id: "41FBADEA2F20CFE6"
+				item: "concatenationcore:silver_paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79C537F4DAB2B5ED"
+				title: "No Luck"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+	]
+	subtitle: ["Limited Event"]
+	title: "Gate to Perdition"
+}

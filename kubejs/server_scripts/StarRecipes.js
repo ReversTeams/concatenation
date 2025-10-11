@@ -10,6 +10,12 @@ ServerEvents.recipes(event => {
 
     ].forEach(item => event.remove({ output: item }));
 
+    event.replaceInput(
+                { output: 'projecte:gem_leggings' },
+                'projecte:watch_of_flowing_time',
+                'projecte:life_stone'
+        );
+
 
     // star card
     event.shaped(
