@@ -1,0 +1,16 @@
+
+[search-cost]
+	#When enabled, adding items to the compass inventory costs experience levels.
+	search_xp_cost = false
+	#XP costs for searching specific items.
+	#Format: "modid:item=consumed_levels/required_levels"
+	# - consumed_levels: XP levels consumed when adding the item
+	# - required_levels: minimum player level required to add the item
+	#Example: ["minecraft:diamond_ore=4/20", "minecraft:ancient_debris=20/40"]
+	items_search_cost = []
+	#Defines XP costs for adding items or blocks based on tags.
+	#Works for both item tags and block tags.
+	#If an item has a cost defined both in 'items_search_cost' and here, the 'items_search_cost' value takes priority.
+	#Example: ["minecraft:planks=1/3"]
+	tags_search_cost = []
+

@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "summonerscrolls:skeleton_summoner_scroll"
+    },
+    {
+      "item": "summonerscrolls:spider_summoner_scroll"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:consumables/experience_3"
+    },
+    {
+      "tag": "forge:consumables/experience_3"
+    }
+  ],
+  "output": {
+    "item": "summonerscrolls:spider_jockey_summoner_scroll"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "fluidLevelsConsumed": 400
+}

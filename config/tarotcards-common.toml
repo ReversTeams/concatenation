@@ -89,5 +89,5 @@
 		the_world_slownessamplifier = 3
 		#How much luck (not fortune) is added to the player
 		#Range: 0.0 ~ 100.0
-		wheel_of_fortune_luckbonus = 5.0
+		wheel_of_fortune_luckbonus = 2.0
 

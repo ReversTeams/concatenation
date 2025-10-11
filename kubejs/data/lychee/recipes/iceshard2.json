@@ -11,12 +11,8 @@
     },
     "post": [
         {
-            "type": "drop_item",
-            "item": "concatenationcore:ice_shard"
-        },
-        {
             "type": "place",
-            "block": "*"
+            "block": "minecraft:blue_ice"
         }
     ]
 }

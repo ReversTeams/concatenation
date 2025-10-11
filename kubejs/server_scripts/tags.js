@@ -222,7 +222,24 @@ ServerEvents.tags('item', event => {
         'asr:gilded_netherquartz_shield',
         'asr:gilded_ender_shield',
         'asr:gilded_diamond_shield',
-        'minecolonies:assistanthammer_gold'
+        'minecolonies:assistanthammer_gold',
+        'minecraft:netherite_shovel',
+        'minecraft:netherite_axe',
+        'minecraft:netherite_pickaxe',
+        'minecraft:netherite_hoe',
+        'minecraft:netherite_sword',
+        'minecraft:netherite_helmet',
+        'minecraft:netherite_chestplate',
+        'minecraft:netherite_leggings',
+        'minecraft:netherite_boots',
+        'irons_spellbooks:netherite_mage_helmet',
+        'irons_spellbooks:netherite_mage_chestplate',
+        'irons_spellbooks:netherite_leggings',
+        'irons_spellbooks:netherite_mage_boots',
+        'create:netherite_diving_helmet',
+        'create:netherite_diving_boots',
+        'farmersdelight:netherite_knife',
+        'mekanismtools:netherite_paxel',
     ]);
 
     const sublime = [
@@ -247,6 +264,12 @@ ServerEvents.tags('item', event => {
     ];
     add('curios:curio', fullSets);
     add('tarotcards:tarot_cards', fullSets);
+    add('curios:charm', [
+        'concatenationcore:rython',
+    ]);
+    add('curios:spellbook', [
+        'concatenationcore:karma_tome',
+    ]);
 
     add('curios:body', [
         'marbledsarsenal:black_plate_carrier_light',
@@ -363,5 +386,17 @@ ServerEvents.tags('item', event => {
         'elementalcraft:swift_alloy_ingot',
         'industrialforegoing:plastic',
         'concatenationcore:pyrite'
+    ])
+
+    add('concatenation:high_compasses', [
+        'minecraft:recovery_compass',
+        'irons_spellbooks:wayward_compass',
+        'ae2:meteorite_compass'
+    ])
+
+    add('concatenation:scrolls', [
+        'concatenationcore:occult_calling',
+        'elementalcraft:scroll',
+        'irons_spellbooks:scroll'
     ])
 });

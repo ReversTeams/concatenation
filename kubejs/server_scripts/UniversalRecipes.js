@@ -11,7 +11,8 @@ ServerEvents.recipes(event => {
                 'born_in_chaos_v1:dark_metal_block',
                 'born_in_chaos_v1:dark_grid',
                 'farmersdelight:cutting_board',
-                'concatenationcore:gold_paper'
+                'concatenationcore:gold_paper',
+                'travelerscompass:travelerscompass'
         ]
 
         remove.forEach(item => {
@@ -261,7 +262,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'concatenationcore:gold_paper',
-                        B: 'thermal:silver_ingot',
+                        B: 'thermal:silver_block',
                         A: 'concatenationcore:glowing_gold'
                 }
         )
@@ -761,4 +762,69 @@ ServerEvents.recipes(event => {
                         A: 'immersive_weathering:moss_clump'
                 }
         ).keepIngredient('tarotcards:the_world')
+        event.shaped(
+                Item.of('minecraft:string', 4),
+                [
+                        'AB ',
+                        '   ',
+                        '   '
+                ],
+                {
+                        A: 'concatenationcore:cutting_tool',
+                        B: 'minecraft:white_wool'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:wheel_of_fortune'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        F: 'minecraft:rabbit_foot',
+                        E: 'minecraft:heart_of_the_sea',
+                        B: 'minecraft:end_stone',
+                        C: 'minecraft:sculk_catalyst',
+                        A: 'concatenationcore:gold_paper',
+                        D: 'concatenationcore:silver_paper'
+                }
+        )
+        event.shaped(
+                Item.of('travelerscompass:travelerscompass'),
+                [
+                        'AAA',
+                        'ABA',
+                        'ACA'
+                ],
+                {
+                        A: 'concatenationcore:fortune_fragment',
+                        C: 'minecraft:lodestone',
+                        B: '#concatenation:high_compasses'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:fortune_fragment'),
+                [
+                        'ABB',
+                        'BB ',
+                        '   '
+                ],
+                {
+                        A: 'concatenationcore:cutting_tool',
+                        B: 'ars_nouveau:caster_tome'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:fortune_fragment'),
+                [
+                        'ABB',
+                        'BB ',
+                        '   '
+                ],
+                {
+                        B: '#irons_spellbooks:salvageable_curio',
+                        A: 'concatenationcore:cutting_tool'
+                }
+        )
 });

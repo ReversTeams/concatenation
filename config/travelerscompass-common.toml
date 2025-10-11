@@ -1,0 +1,118 @@
+
+[general]
+	#Allows the compass to locate specific blocks in the world.
+	enable_blocks_search = true
+	#Allows the compass to locate fluid blocks (water, lava, etc.).
+	enable_fluids_search = true
+	#Allows the compass to locate all container types based on their contents.
+	enable_containers_search = true
+	#Allows searching for villagers based on their trades.
+	enable_villagers_search = true
+	#Allows the compass to locate spawners by their mob type.
+	enable_spawners_search = true
+	#Allows the compass to locate specific mobs by their spawn eggs.
+	enable_mobs_search = true
+	#Allows the compass to locate Entities based on items in their inventory.
+	enable_inventories_search = true
+	#Allows the compass to locate players based on items in their inventory.
+	enable_players_inventories_search = true
+	#Allows the compass to locate dropped items on the ground.
+	enable_item_entities_search = true
+	#Allows the compass to locate mobs based on their potential loot drops.
+	enable_drops_search = true
+	#Allows the compass to search inside block containers (chests, furnaces, barrels, etc.).
+	#Requires 'enable_containers_search' to be enabled.
+	enable_block_containers_search = true
+
+[behavior]
+	#Maximum search radius in chunks from the player.
+	#Applies to any block scanning search mode
+	#Range: > 0
+	chunk_search_range = 10
+	#Maximum search radius in blocks from the player.
+	#Applies to any entity
+	#Range: > 0
+	entities_search_range = 200
+	#Maximum search radius in chunks from the player.
+	#Applies to any block
+	#Range: > 0
+	wide_search_range = 16
+	#Delay in ticks between search updates (20 ticks = 1 second).
+	#Range: > 1
+	search_interval = 40
+	#Maximum number of chunk scan operations per tick, shared across all players on the server (or just one in singleplayer).
+	#This value has a direct impact on server performance.
+	#Range: 0 ~ 199
+	chunks_scans_per_tick_on_server = 8
+	#Maximum chunk scans per compass per search cycle.
+	#Limits individual compass performance impact.
+	#Range: 0 ~ 199
+	chunks_scans_per_compass = 3
+	#Maximum new chunks that can be generated or loaded per tick during search.
+	#Set to 0 to disable searching in ungenerated chunks.
+	#High values may cause lag spikes.
+	#Range: 0 ~ 199
+	force_chunk_generation_limit = 2
+	#Limits how many matching locations per compass will be stored after scanning.
+	#Only the closest or most relevant targets will be cached, based on priority and distance.
+	#Range: > 0
+	max_cached_locations = 180
+
+[search-filters]
+	#Filter mode for mod namespaces.
+	#Allowed Values: WHITELIST, BLACKLIST
+	mods_filter_type = "BLACKLIST"
+	#List of mod namespaces to filter.
+	#Example: ["minecraft", "ae2", "alexscaves"]
+	mods_filter = []
+	#Filter mode for specific items.
+	#Allowed Values: WHITELIST, BLACKLIST
+	items_filter_type = "BLACKLIST"
+	#List of item IDs to filter.
+	#Example: ["minecraft:carrot", "minecraft:diamond_ore"]
+	items_filter = []
+	#Filter mode for item tags.
+	#Allowed Values: WHITELIST, BLACKLIST
+	item_tags_filter_type = "BLACKLIST"
+	#List of item tags to filter.
+	#Example: ["minecraft:logs", "c:ores"]
+	item_tags_filter = []
+	#Filter mode for entities.
+	#Allowed Values: WHITELIST, BLACKLIST
+	entities_filter_type = "BLACKLIST"
+	#List of entity IDs to filter.
+	#Example: ["minecraft:enderman", "aether:valkyrie"]
+	entities_filter = []
+
+[hud]
+	#Enables the compass HUD overlay.
+	enable_hud = true
+	#Shows target coordinates in the HUD.
+	hud_show_coords = true
+	#Base x hud offset in px
+	#Range: > -2147483648
+	default_x_hud_offset = 0
+	#Base x hud offset in px
+	#Range: > -2147483648
+	default_y_hud_offset = 0
+	#Default hud scale
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	default_hud_scale = 1.0
+
+[compatibility]
+	#Enables Lootr containers searching when Lootr mod is installed.
+	enable_lootr_search = true
+	#Lootr search behavior
+	#Allowed Values: CLOSED, OPENED, ALL
+	lootr_search_mode = "ALL"
+	#Enable dragging items from the JEI panel into Compass inventory
+	jei_compatibility = true
+	#Enable dragging items from the REI panel into Compass inventory
+	rei_compatibility = true
+	#Enable dragging items from the EMI panel into Compass inventory
+	emi_compatibility = true
+	#Enable displaying Block/Entity search info in the Jade info panel
+	jade_compatibility = true
+	#Enable displaying Block/Entity search info in the TOP info panel
+	the_one_probe_compatibility = true
+

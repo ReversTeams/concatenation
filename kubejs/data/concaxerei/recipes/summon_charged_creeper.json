@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "ingredients": [
+    {
+      "item": "summonerscrolls:creeper_summoner_scroll"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "reliquary:catalyzing_gland"
+    },
+    {
+      "item": "reliquary:eye_of_the_storm"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "forge:consumables/experience_3"
+    },
+    {
+      "tag": "forge:consumables/experience_3"
+    }
+  ],
+  "output": {
+    "item": "summonerscrolls:charged_creeper_summoner_scroll"
+  },
+  "liquidOutput": {
+    "fluid": "hexerei:blood_fluid"
+  },
+  "fluidLevelsConsumed": 400
+}

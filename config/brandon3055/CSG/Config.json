@@ -1,0 +1,9 @@
+{
+  "inventory": {
+    "0:1": "{Count:1b,id:\"concatenationcore:pathway_chooser\",tag:{Damage:0}}",
+    "0:7": "{Count:1b,id:\"usefulbackpacks:backpack_medium\"}",
+    "0:8": "{Count:9b,id:\"minecraft:pumpkin_pie\"}",
+    "0:0": "{Count:1b,id:\"mekanismtools:stone_paxel\",tag:{Damage:0}}"
+  },
+  "wipeBlacklist": []
+}

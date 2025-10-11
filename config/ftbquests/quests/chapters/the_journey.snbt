@@ -265,9 +265,9 @@
 			subtitle: "Every possibility"
 			tasks: [{
 				id: "37655A529CD6B9F4"
-				stat: "minecraft:walk_one_cm"
+				stat: "minecraft:total_world_time"
 				type: "stat"
-				value: 500
+				value: 5000
 			}]
 			title: "Fool Pathway"
 			x: 0.25d
@@ -661,7 +661,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Solid Fuel Quarry is a marvel of engineering, but is an extremely outdated design. It is powered by simple fossil fuels and sports impressive range - all the way to bedrock, but unlucky quarrying can result in a lack of self-sustainability in coal. "
+				"The Solid Fuel Quarry is a marvel of engineering, but is an extremely outdated design. It is powered by simple fossil fuels and sports impressive range - all the way to bedrock, but unlucky quarrying can result in a lack of self-sustainability in coal. It deposits the materials it has mined in adjacent chests."
 				"{@pagebreak}"
 				"It is possible to mitigate power issues by digging not at the surface of the world and making a hole through several layers of just stone and dirt, but to quarry underground, closer to the more resourceful layers of the earth."
 				"{@pagebreak}"
@@ -699,6 +699,14 @@
 				"0BD5BADADC18CC3D"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The &eWheel of Fortune Pathway&r explores the world, leaving things to fate, whether it's their gains made from looting, or their inevitable death. Everyone has a little bit of an explorer in them."
+				""
+				"I've explored quite many structures for myself as well. Above are my notes on some of my travels."
+				"{@pagebreak}"
+				"The &eWheel of Fortune&r card used to be a lot more powerful, granting luck manipulation of higher potency, but it seems to have shrunk with the discovery of the Traveler's Compass. Perhaps the strength of the Wheel of Fortune depends on the global luck levels of the entire population?"
+			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "tarotcards:wheel_of_fortune"
@@ -1089,7 +1097,7 @@
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
-			description: ["The two main things you will want to transport over a distance is either items or liquids. A chest or barrel barge or train car attached to a steam tug or locomotive will transport items and deposit items using docks."]
+			description: ["The two main things you will want to transport over a distance are either items or liquids. A chest or barrel barge or train car attached to a steam tug or locomotive will transport items and deposit items using docks."]
 			id: "2B597187BD3904C8"
 			rewards: [{
 				id: "394C0EF3C8A02936"
@@ -1267,42 +1275,6 @@
 		{
 			dependencies: ["73F4AAF2267BB33B"]
 			hide_dependency_lines: true
-			id: "2D48F3383A2E965F"
-			rewards: [{
-				id: "382333FC267B3390"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-						}
-						type: "building_kit"
-					}
-				}
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "3CDFBF4103C29056"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hpm:smallhull"
-				}
-				type: "item"
-			}]
-			x: -8.55d
-			y: 2.6999999999999997d
-		}
-		{
-			dependencies: ["73F4AAF2267BB33B"]
-			hide_dependency_lines: true
 			id: "589E2464D577E345"
 			rewards: [{
 				id: "23F7015E27BB8794"
@@ -1333,13 +1305,13 @@
 				}
 				type: "item"
 			}]
-			x: -9.450000000000001d
+			x: -5.85d
 			y: 1.7999999999999998d
 		}
 		{
 			dependencies: [
-				"2D48F3383A2E965F"
 				"589E2464D577E345"
+				"1D9002F6E0272ABC"
 			]
 			id: "73C5D7FC9AB3E5F8"
 			rewards: [{
@@ -1361,7 +1333,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.450000000000001d
+			x: -7.6499999999999995d
 			y: 2.6999999999999997d
 		}
 		{
@@ -1419,89 +1391,29 @@
 				}
 				type: "item"
 			}]
-			x: -10.350000000000001d
-			y: 3.5999999999999996d
-		}
-		{
-			dependencies: ["4493DC75D8CE4857"]
-			id: "0AE56603B8AE581E"
-			rewards: [{
-				id: "2BE78EFA804D1682"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-						}
-						type: "building_kit"
-					}
-				}
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "19BC493ECC9288E5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hpm:largehull"
-				}
-				type: "item"
-			}]
-			x: -9.45d
-			y: 4.05d
-		}
-		{
-			dependencies: ["4493DC75D8CE4857"]
-			id: "31D6AD3F17AFD9E5"
-			rewards: [{
-				id: "45D297E6885C9D18"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-						}
-						type: "building_kit"
-					}
-				}
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "380B61D11C2620CE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hpm:largemast"
-				}
-				type: "item"
-			}]
-			x: -10.8d
+			x: -9.0d
 			y: 2.6999999999999997d
 		}
 		{
 			dependencies: [
-				"0AE56603B8AE581E"
-				"31D6AD3F17AFD9E5"
+				"2990E1C06FD1E413"
+				"3502EBD994DE89A2"
+				"73C5D7FC9AB3E5F8"
 			]
 			id: "396320452B50120B"
 			rewards: [{
-				id: "762BC65E3B108ADC"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "32FA2AC6EAFA776D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
 			}]
 			size: 0.9d
 			tasks: [{
@@ -1517,8 +1429,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.25d
-			y: 4.5d
+			x: -10.35d
+			y: 2.6999999999999997d
 		}
 		{
 			dependencies: ["396320452B50120B"]
@@ -1542,8 +1454,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.15d
-			y: 5.4d
+			x: -11.249999999999998d
+			y: 3.15d
 		}
 		{
 			dependencies: [
@@ -1570,11 +1482,16 @@
 				}
 				type: "item"
 			}]
-			x: -13.049999999999999d
-			y: 6.3d
+			x: -12.149999999999999d
+			y: 3.6d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
+			description: [
+				"The Spanner is used to dismantle ships and debris."
+				""
+				"It can pick up ships by hitting one a few times with the spanner."
+			]
 			id: "346288110C3DBEF5"
 			rewards: [{
 				id: "61C39BD08E8E613C"
@@ -1598,8 +1515,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.549999999999999d
-			y: 3.5999999999999996d
+			x: -8.1d
+			y: 1.7999999999999998d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1623,8 +1540,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.25d
-			y: 5.8500000000000005d
+			x: -10.799999999999999d
+			y: 4.050000000000001d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1663,17 +1580,17 @@
 					type: "item"
 				}
 			]
-			x: -12.6d
-			y: 4.5d
+			x: -11.699999999999998d
+			y: 2.25d
 		}
 		{
 			dependencies: ["31750A18D07A8904"]
 			description: ["Seared Bricks, resistant to heat and molten liquids, forms the basis of the smeltery used for casting, alloying and processing ores."]
 			id: "5F7CEE33D11A352F"
 			rewards: [{
-				id: "0CA9481A30DF8016"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "29650DD45715DAD1"
+				item: "minecraft:diamond"
+				type: "item"
 			}]
 			tasks: [{
 				id: "75254FC88ACB2D0C"
@@ -1725,7 +1642,7 @@
 			description: [
 				"The Smeltery is used for ore processing, alloying and further advancement in tinkering. It's a multiblock apparatus requiring a square or rectangular seared bricks structure, also using seared tanks to hold lava required for melting ores."
 				"{@pagebreak}"
-				"Any ore processed through the smeltery instead of simply smelted in a furnace will produce greater yield. Therefore, it's an hallmark of any Hermit card holder to automate this process. Faucets will automatically cast with a redstone signal, and hoppers under a casting table or basin will extract the casted material or tool part."
+				"Any ore processed through the smeltery instead of being simply smelted in a furnace will produce greater yield. Therefore, it's an hallmark of any Hermit card holder to automate this process. Faucets will automatically cast with a redstone signal, and hoppers under a casting table or basin will extract the casted material or tool part."
 				"{@pagebreak}"
 				"More advanced alloys can be produced through the smeltery, such as brass or andesite alloy commonly used by the holders of the Tower card. Beware of smelting many different kinds of ores at once, as you may end up with unwanted alloys."
 				"{@pagebreak}"
@@ -1856,26 +1773,22 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 10.5d
+			x: -8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
-				"06A4BEEE42830A85"
-				"73F4AAF2267BB33B"
 				"51211E92BC865FDC"
-				"2E2A38A96D401883"
-				"54BE967A3164579C"
 				"6AABF2BA290CD429"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"The Simple Machine Frame is the base for High Priestess pathway machines. It works well as a template for contained machine blocks, as the frame already contains basic electronics and a sturdy casing."
 				"{@pagebreak}"
 				"Later on, the High Priestess pathway has its distinctive and more efficient method of manufacturing these machine frames."
 			]
-			hide_dependency_lines: true
 			id: "36318C8D65509470"
-			min_required_dependencies: 3
+			min_required_dependencies: 1
 			rewards: [
 				{
 					id: "63C183473E8D438D"
@@ -1914,8 +1827,8 @@
 				type: "item"
 			}]
 			title: "&bSimple Machine Frame"
-			x: -17.25d
-			y: 0.1750000000000007d
+			x: -15.0d
+			y: 9.375d
 		}
 		{
 			dependencies: [
@@ -2106,7 +2019,7 @@
 			}]
 			title: "Shrike"
 			x: -4.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -2117,21 +2030,28 @@
 			]
 			icon: "minecraft:echo_shard"
 			id: "73CD8163D268BA95"
-			rewards: [{
-				count: 9
-				id: "1315E72E54579D6F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					count: 9
+					id: "1315E72E54579D6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "minecraft:gold_ingot"
 					}
-					id: "minecraft:gold_ingot"
+					team_reward: false
+					type: "item"
 				}
-				team_reward: false
-				type: "item"
-			}]
+				{
+					id: "12D7B5B823CA2B87"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3B334FC5549D837F"
 				item: {
@@ -2146,8 +2066,8 @@
 				type: "item"
 			}]
 			title: "Find an Ancient City"
-			x: -1.0d
-			y: -8.5d
+			x: -3.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["58CFB61E7D4DE729"]
@@ -2759,7 +2679,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 0.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -2810,7 +2730,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["2104737FF0D2E4E7"]
@@ -3014,7 +2934,11 @@
 		}
 		{
 			dependencies: ["58500620F2876A16"]
-			description: ["The small element container is the basis for any small elemental system. Most elemental instruments need to be placed on top of a container, such as the elemental extractor. When broken, it will retain most of the element inside. Pipes can be attached to its sides, which then can be toggled  to output element."]
+			description: [
+				"The small element container is the basis for any small elemental system. Most elemental instruments need to be placed on top of a container, such as the elemental extractor. When broken, it will retain most of the element inside. "
+				""
+				"Pipes can be attached to its sides, which then can be toggled  to output element by &a(right click)&r tapping on them, to transfer to other containers."
+			]
 			id: "42EF54B7ABFC5789"
 			rewards: [{
 				count: 16
@@ -3041,10 +2965,11 @@
 		{
 			dependencies: ["42EF54B7ABFC5789"]
 			description: [
-				"To start your proper elemental setup, you will want to either find an elemental source in the wild - floating circles of colour depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. I would recommend finding a source instead, as it's more reliable. Finding all four sources in one place is miraculous though. Noting down the location of the new sources found is crucial. "
+				"To start your proper elemental setup, you will want to either find an &lelemental source&r in the wild - floating circles of colour depending on the element - or make use of an element evaporator to evaporate raw or powerful natural shards into elemental power. "
 				""
+				"I would recommend finding a source instead, as it's more reliable. Finding all four sources in one place is miraculous though. Noting down the location of the new sources found is crucial. "
 				"{@pagebreak}"
-				"Then, place down an elemental container two blocks from the source and an extractor right below it to start the extraction process. Beware that these sources are very fragile."
+				"Then, place down an elemental container below two blocks from the source and an extractor right below it to start the extraction process. Beware that these sources are very fragile and any blocks placed on them will destroy them."
 			]
 			icon: "elementalcraft:extractor"
 			id: "1F58B572150DAE32"
@@ -3236,7 +3161,11 @@
 				"539A664D885AAA1C"
 				"4E9AB3BBC0D575C4"
 			]
-			description: ["The shrine is the base for various utility shrines that use elemental power to perform various tasks."]
+			description: [
+				"The shrine is the base for various utility shrines that use elemental power to perform various tasks."
+				""
+				"By itself, it does nothing. It serves as a crafting ingredient for specialized shrines."
+			]
 			id: "3B824E760CC7B14B"
 			tasks: [{
 				id: "79AFF8EA6573FA70"
@@ -3943,9 +3872,18 @@
 			description: ["Jewels can be applied to tools and armour for special effects. This will consume the corresponding element the jewel requires, from an element holder on the person."]
 			id: "0FEAAED9134BC54E"
 			rewards: [{
-				id: "5F78F78F1B9F84FB"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "2AE6548C3B799825"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "47FCC76BFC961B52"
@@ -4383,9 +4321,10 @@
 			hide_dependency_lines: true
 			id: "22412430101B4977"
 			rewards: [{
-				id: "54A0182F8E26EFE4"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 2
+				id: "1BE60D889EFEBF0F"
+				item: "concatenationcore:botanic_jar"
+				type: "item"
 			}]
 			tasks: [{
 				id: "35136D97CBD9CCE2"
@@ -6774,17 +6713,24 @@
 				"Witches of the Temperance pathway will especially find these structures useful to gather materials and magical ingredients."
 			]
 			id: "0F56E99C05BFF14A"
-			rewards: [{
-				id: "3179F5426DB12847"
-				item: {
-					Count: 1
-					id: "hexerei:warhammer"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "3179F5426DB12847"
+					item: {
+						Count: 1
+						id: "hexerei:warhammer"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0D36412A14A6D0B3"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					icon: {
@@ -6840,8 +6786,8 @@
 				}
 			]
 			title: "Find the Witch Covens"
-			x: 1.5d
-			y: -8.5d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -9240,7 +9186,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -10057,8 +10003,8 @@
 				}
 			]
 			title: "Steel Making"
-			x: -18.75d
-			y: 0.6750000000000007d
+			x: -16.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -10078,7 +10024,7 @@
 				}
 				type: "item"
 			}]
-			size: 0.8d
+			size: 1.0d
 			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [
 				{
@@ -10152,8 +10098,8 @@
 				}
 			]
 			title: "Hierophant's Way"
-			x: -17.95d
-			y: -0.625d
+			x: -13.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -10239,8 +10185,8 @@
 				}
 			]
 			title: "High Priestess' Way"
-			x: -19.3d
-			y: 1.9250000000000007d
+			x: -17.2d
+			y: 10.0d
 		}
 		{
 			dependencies: ["33BA0ACE3EA7C44B"]
@@ -10314,13 +10260,9 @@
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"51F0251F529BE03C"
-				"36318C8D65509470"
-			]
+			dependencies: ["51F0251F529BE03C"]
 			dependency_requirement: "one_completed"
 			description: ["The &bHigh Priestess&r pathway is the traditional technological path based on automation of modular single machines usually contained within a block of space, united together into an entire facility."]
-			hide_dependency_lines: true
 			id: "4AE782719D5A61F7"
 			rewards: [
 				{
@@ -10361,8 +10303,8 @@
 				type: "item"
 			}]
 			title: "&bThe High Priestess"
-			x: -20.875d
-			y: 3.424999999999997d
+			x: -19.8d
+			y: 9.0d
 		}
 		{
 			dependencies: ["61F2F0F9E0158106"]
@@ -10826,22 +10768,29 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			tasks: [{
-				id: "1725A15B12D0D31C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "1725A15B12D0D31C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "concatenationcore:shrike"
+						tag: {
+							Damage: 0
 						}
 					}
-					id: "concatenationcore:shrike"
-					tag: {
-						Damage: 0
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "07275C832376E837"
+					item: "concatenationcore:experience_orb"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 5.5d
 		}
@@ -11066,8 +11015,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.25d
-			y: -0.3249999999999993d
+			x: -15.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["405495BB2F379536"]
@@ -11169,11 +11118,11 @@
 				title: "Any Non-Stirling Dynamo"
 				type: "item"
 			}]
-			x: -20.125d
-			y: -1.875d
+			x: -15.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["3A27EA4C48429EA7"]
+			dependencies: ["65C1B6B2B147028E"]
 			description: [
 				"I have written down the materials required for a &dHermit&r to craft the Simple Machine Frame of the &bHigh Priestess&r pathway. "
 				""
@@ -11183,7 +11132,6 @@
 				"{@pagebreak}"
 				"You will also need to cast bronze into a gear cast to manufacture the bronze gears required."
 			]
-			hide_dependency_lines: true
 			id: "6AABF2BA290CD429"
 			rewards: [{
 				count: 3
@@ -11201,7 +11149,7 @@
 				}
 				type: "item"
 			}]
-			size: 0.8d
+			size: 1.0d
 			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [
 				{
@@ -11267,8 +11215,8 @@
 				}
 			]
 			title: "Hermit's Way"
-			x: -16.35d
-			y: 0.5749999999999993d
+			x: -11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -11559,7 +11507,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 0.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -11584,7 +11532,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 0.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -11613,7 +11561,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 0.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -11934,8 +11882,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 1.4250000000000007d
+			x: -16.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11989,8 +11937,8 @@
 					type: "item"
 				}
 			]
-			x: -16.625d
-			y: 1.6750000000000007d
+			x: -16.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -12019,13 +11967,12 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
-			y: 2.4250000000000007d
+			x: -18.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
 			description: ["The Redstone Furnaces uses RF power to cook and smelt items instead of regular fuels."]
-			hide_dependency_lines: true
 			id: "333D89A47DCEEC3D"
 			rewards: [{
 				id: "187C7059B809018A"
@@ -12045,8 +11992,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 2.4250000000000007d
+			x: -14.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -12055,6 +12002,7 @@
 				"64655F5EE797B52B"
 			]
 			dependency_requirement: "one_completed"
+			description: ["The &4Death Pathway&r delves into all sorts of dangers posed by chaotic entities. Classifying and identifying these beings and their weaknesses is one fascinating aspect of this path, but very much overlooked by the unique gear this pathway provides, forged from various monster parts. This even includes a tiny bit of necromancy."]
 			id: "0D70725FEAF0DC7B"
 			rewards: [{
 				id: "77E2888BB0C5675C"
@@ -12072,8 +12020,8 @@
 				type: "item"
 			}]
 			title: "&4Death"
-			x: 5.1d
-			y: -10.924999999999999d
+			x: 7.6d
+			y: -10.424999999999999d
 		}
 		{
 			dependencies: ["59D783372A16F858"]
@@ -12213,8 +12161,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: 4.425000000000001d
+			x: -21.0d
+			y: 7.875d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -12239,8 +12187,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.125d
-			y: 0.125d
+			x: -18.6d
+			y: 14.3d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -12265,8 +12213,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.125d
-			y: 0.625d
+			x: -19.6d
+			y: 15.3d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -12290,8 +12238,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.25d
-			y: 1.5d
+			x: -20.6d
+			y: 15.800000000000002d
 		}
 		{
 			dependencies: [
@@ -12331,8 +12279,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.625d
-			y: 6.125d
+			x: -22.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -12356,11 +12304,11 @@
 				}
 				type: "item"
 			}]
-			x: -24.25d
-			y: 7.125d
+			x: -24.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["4D66CC58CC466767"]
+			dependencies: ["36318C8D65509470"]
 			description: ["The powercell is the first form of storing RF power. It can be set to accept an input or with the right click of the smart wrench on one of its faces."]
 			icon: "rftoolspower:cell1"
 			id: "2638CC10E4FF66C1"
@@ -12383,8 +12331,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.299999999999997d
-			y: 2.724999999999998d
+			x: -14.85d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -12441,7 +12389,7 @@
 				}
 			]
 			x: -27.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
@@ -12465,8 +12413,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.5d
-			y: 6.0d
+			x: -28.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -12502,8 +12450,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.125d
-			y: 8.625d
+			x: -25.799999999999997d
+			y: 6.6d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -12516,12 +12464,19 @@
 			]
 			hide_dependency_lines: true
 			id: "7923120C58E4B567"
-			rewards: [{
-				count: 4
-				id: "534A87495B9BE500"
-				item: "concatenationcore:transplant"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "534A87495B9BE500"
+					item: "concatenationcore:transplant"
+					type: "item"
+				}
+				{
+					id: "4BB5726D06D1C3FA"
+					item: "concatenationcore:botanic_jar"
+					type: "item"
+				}
+			]
 			size: 0.85d
 			tasks: [{
 				id: "1FE055F622DF81EE"
@@ -12536,8 +12491,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.125d
-			y: 7.299999999999999d
+			x: -19.55d
+			y: 11.049999999999999d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -12562,11 +12517,11 @@
 				}
 				type: "item"
 			}]
-			x: -23.625d
-			y: 3.75d
+			x: -21.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["55E53ED9BDDE16AA"]
+			dependencies: ["33F8735D8322AFE6"]
 			description: ["The blast chiller is used to cool various liquids."]
 			id: "7EB335BB570C5F7F"
 			rewards: [{
@@ -12587,13 +12542,12 @@
 				}
 				type: "item"
 			}]
-			x: -19.625d
-			y: 5.625d
+			x: -18.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
 			description: ["The Sequential Fabricator is an automatic crafting machine."]
-			hide_dependency_lines: true
 			id: "4D5CBC1FE2A1E72B"
 			rewards: [{
 				id: "3E74A26752C8B47E"
@@ -12614,13 +12568,12 @@
 				}
 				type: "item"
 			}]
-			x: -20.825d
-			y: 6.449999999999999d
+			x: -21.25d
+			y: 9.35d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
 			description: ["The sawmill can cut various blocks."]
-			hide_dependency_lines: true
 			id: "4C5A2566E0BD8D23"
 			rewards: [{
 				id: "20A3605A8B4684C0"
@@ -12640,8 +12593,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: 3.4250000000000007d
+			x: -13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -12667,8 +12620,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -26.625d
-			y: 10.125d
+			x: -28.749999999999996d
+			y: 8.049999999999999d
 		}
 		{
 			dependencies: ["4D66CC58CC466767"]
@@ -12709,8 +12662,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -16.65d
-			y: 5.25d
+			x: -16.75d
+			y: 5.3999999999999995d
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
@@ -12770,8 +12723,8 @@
 					type: "item"
 				}
 			]
-			x: -15.625d
-			y: 6.825000000000001d
+			x: -17.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -12836,8 +12789,8 @@
 				title: "Any Menril Wood"
 				type: "item"
 			}]
-			x: -17.125d
-			y: 6.825000000000001d
+			x: -18.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -12876,8 +12829,8 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
-			y: 5.5d
+			x: -16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -12910,8 +12863,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.125d
-			y: 8.325000000000001d
+			x: -19.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12935,8 +12888,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.125d
-			y: 9.825000000000001d
+			x: -20.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -12960,8 +12913,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.625d
-			y: -0.375d
+			x: -18.6d
+			y: 16.300000000000004d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12985,17 +12938,26 @@
 				}
 				type: "item"
 			}]
-			x: -17.125d
-			y: 9.825000000000001d
+			x: -20.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
 			description: ["The Swords is a minor arcana under the Judgement pathway, specializing into the manufacturing of highly durable military-grade armour, whatever that means."]
 			id: "6CC9A41A95921C52"
 			rewards: [{
-				id: "3ACCED049E01FB49"
-				type: "xp_levels"
-				xp_levels: 3
+				id: "1B638B0B9ED65EC4"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
 			}]
 			size: 1.15d
 			tasks: [{
@@ -13091,8 +13053,8 @@
 					type: "item"
 				}
 			]
-			x: -17.125d
-			y: 11.325000000000003d
+			x: -21.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -13115,8 +13077,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.25d
-			y: 9.625d
+			x: -19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -13141,8 +13103,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.25d
-			y: 8.625d
+			x: -17.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["4E44852EB1DA116A"]
@@ -13165,8 +13127,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.25d
-			y: 10.125d
+			x: -18.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -13240,8 +13202,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -17.5d
-			y: -2.5d
+			x: -17.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -15150,7 +15112,7 @@
 		{
 			dependencies: ["6D27277DA055DFBC"]
 			description: [
-				"I personally believe time is a precious resource. While you may not be in the same circumstances ans I am, surely you do too. The ritual diviner is an indispensable tool for this cause, as it builds up the structure of rituals automatically using the stones on your person. After that, you'll need an activation crystal to open the ritual's structure up to your personal life essence."
+				"I personally believe time is a precious resource. While you may not be in the same circumstances as I am, surely you do too. The ritual diviner is an indispensable tool for this cause, as it builds up the structure of rituals automatically using the stones on your person. After that, you'll need an activation crystal to open the ritual's structure up to your personal life essence."
 				""
 				"At this point, you may want to challenge the gateway to what lies beyond: The Hidden Realm."
 			]
@@ -15560,8 +15522,8 @@
 				type: "item"
 			}]
 			title: "Jetpack"
-			x: -18.0d
-			y: -3.5d
+			x: -17.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
@@ -15585,8 +15547,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.625d
-			y: 12.125d
+			x: -30.299999999999997d
+			y: 9.7d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -15634,8 +15596,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
-			y: -3.5d
+			x: -16.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
@@ -15664,8 +15626,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.625d
-			y: 13.125d
+			x: -31.299999999999997d
+			y: 10.7d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -15694,8 +15656,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.625d
-			y: 4.625d
+			x: -24.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -15934,8 +15896,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.0d
-			y: 12.125d
+			x: -32.25d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -15974,8 +15936,8 @@
 					type: "item"
 				}
 			]
-			x: -32.0d
-			y: 11.125d
+			x: -33.25d
+			y: 8.0d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -16015,8 +15977,8 @@
 					type: "item"
 				}
 			]
-			x: -33.25d
-			y: 15.625d
+			x: -36.3d
+			y: 13.2d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -16052,8 +16014,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.75d
-			y: 18.625d
+			x: -37.55d
+			y: 16.7d
 		}
 		{
 			dependencies: [
@@ -16146,8 +16108,8 @@
 					type: "item"
 				}
 			]
-			x: -28.125d
-			y: 16.125d
+			x: -30.924999999999997d
+			y: 15.2d
 		}
 		{
 			dependencies: [
@@ -16185,8 +16147,8 @@
 				type: "item"
 			}]
 			title: "&2Justice"
-			x: -33.65d
-			y: 17.224999999999998d
+			x: -36.449999999999996d
+			y: 15.299999999999997d
 		}
 		{
 			dependencies: [
@@ -16213,8 +16175,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.625d
-			y: 13.125d
+			x: -28.799999999999997d
+			y: 11.7d
 		}
 		{
 			dependencies: [
@@ -16318,8 +16280,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.125d
-			y: 5.125d
+			x: -25.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -16343,8 +16305,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.125d
-			y: 5.125d
+			x: -22.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -16374,8 +16336,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.125d
-			y: 5.625d
+			x: -22.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -16402,8 +16364,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.125d
-			y: 6.125d
+			x: -23.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -16431,8 +16393,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.25d
-			y: 7.625d
+			x: -25.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -16476,8 +16438,8 @@
 					type: "item"
 				}
 			]
-			x: -33.25d
-			y: 11.625d
+			x: -34.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -16516,8 +16478,8 @@
 					type: "item"
 				}
 			]
-			x: -30.625d
-			y: 10.125d
+			x: -31.875d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -16582,8 +16544,8 @@
 					type: "item"
 				}
 			]
-			x: -31.625d
-			y: 8.625d
+			x: -32.875d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4880C58AEB23BEEC"]
@@ -16645,8 +16607,8 @@
 					type: "item"
 				}
 			]
-			x: -32.625d
-			y: 7.625d
+			x: -33.875d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2BA18EB25877001F"]
@@ -16708,8 +16670,8 @@
 					type: "item"
 				}
 			]
-			x: -33.75d
-			y: 6.625d
+			x: -35.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
@@ -16733,8 +16695,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.75d
-			y: 10.625d
+			x: -34.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
@@ -16758,8 +16720,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.125d
-			y: 10.125d
+			x: -33.375d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6EA8FF0A2426916D"]
@@ -16783,8 +16745,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.125d
-			y: 4.125d
+			x: -26.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C2CD34C769A34FC"]
@@ -16808,8 +16770,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.125d
-			y: 3.125d
+			x: -26.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C1996BF7424D743"]
@@ -16833,11 +16795,11 @@
 				}
 				type: "item"
 			}]
-			x: -30.125d
-			y: 2.125d
+			x: -27.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["33F8735D8322AFE6"]
+			dependencies: ["51302FFECDC0E0A7"]
 			description: [
 				"This box of invar filled with electronics is used to upgrade some thermal machinery."
 				""
@@ -16864,8 +16826,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.525d
-			y: 0.5250000000000004d
+			x: -18.400000000000002d
+			y: 12.4d
 		}
 		{
 			dependencies: [
@@ -16894,8 +16856,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.725d
-			y: 1.3250000000000002d
+			x: -19.200000000000003d
+			y: 13.200000000000001d
 		}
 		{
 			dependencies: [
@@ -16925,8 +16887,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.925d
-			y: 2.125d
+			x: -19.900000000000002d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2EDD432C547674F0"]
@@ -16950,8 +16912,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: -3.5d
+			x: -15.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -17003,8 +16965,8 @@
 				title: "Any Capacity Upgrade"
 				type: "item"
 			}]
-			x: -21.125d
-			y: -0.875d
+			x: -17.35d
+			y: 13.4d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -17065,17 +17027,17 @@
 				title: "Any Other Upgrade"
 				type: "item"
 			}]
-			x: -21.625d
-			y: -1.875d
+			x: -16.450000000000003d
+			y: 14.3d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
 			hide_dependency_lines: true
 			id: "6FBF6EB0E0A69B9E"
 			rewards: [{
-				id: "7936F56332C6087C"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "069F9B55488E4ED5"
+				item: "concatenationcore:botanic_jar"
+				type: "item"
 			}]
 			size: 0.85d
 			tasks: [
@@ -17106,8 +17068,8 @@
 					type: "item"
 				}
 			]
-			x: -19.55d
-			y: 8.15d
+			x: -20.4d
+			y: 11.9d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -17186,8 +17148,8 @@
 					type: "item"
 				}
 			]
-			x: -23.625d
-			y: 10.125d
+			x: -26.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -17219,8 +17181,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.125d
-			y: 11.625d
+			x: -26.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -17248,7 +17210,7 @@
 				type: "item"
 			}]
 			x: -21.25d
-			y: 7.299999999999999d
+			y: 11.049999999999999d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -17313,8 +17275,8 @@
 					type: "item"
 				}
 			]
-			x: -24.625d
-			y: 11.125d
+			x: -27.0d
+			y: 8.4d
 		}
 		{
 			dependencies: ["1F63B99669BB1002"]
@@ -17337,8 +17299,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.125d
-			y: 12.125d
+			x: -27.799999999999997d
+			y: 10.2d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -17428,8 +17390,8 @@
 				}
 			]
 			title: "Addons"
-			x: -26.625d
-			y: 8.625d
+			x: -28.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -17453,8 +17415,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.625d
-			y: 9.125d
+			x: -25.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -17490,8 +17452,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -22.125d
-			y: 10.625d
+			x: -25.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -17557,8 +17519,8 @@
 				}
 			]
 			title: "Infinity Tools"
-			x: -21.125d
-			y: 10.125d
+			x: -24.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -17628,8 +17590,8 @@
 				}
 			]
 			title: "Infinity Weapons"
-			x: -21.125d
-			y: 9.125d
+			x: -23.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -17679,8 +17641,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -20.125d
-			y: 10.925d
+			x: -24.599999999999998d
+			y: 12.6d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -17699,8 +17661,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.725d
-			y: 11.725000000000001d
+			x: -29.499999999999996d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -17741,8 +17703,8 @@
 					type: "item"
 				}
 			]
-			x: -27.625d
-			y: 13.125d
+			x: -30.299999999999997d
+			y: 12.2d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -17760,8 +17722,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.625d
-			y: 14.125d
+			x: -32.8d
+			y: 11.7d
 		}
 		{
 			dependencies: ["6B8090BCBDEE94FD"]
@@ -17799,8 +17761,8 @@
 					type: "item"
 				}
 			]
-			x: -31.625d
-			y: 15.125d
+			x: -34.3d
+			y: 13.2d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -17989,8 +17951,8 @@
 				}
 			]
 			title: "Steel Armor"
-			x: -17.5d
-			y: -4.5d
+			x: -17.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -18018,8 +17980,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.625d
-			y: 11.125d
+			x: -29.299999999999997d
+			y: 9.2d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -18196,8 +18158,8 @@
 				}
 			]
 			title: "Refined Armour"
-			x: -32.125d
-			y: 13.625d
+			x: -34.8d
+			y: 11.7d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -18221,8 +18183,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.125d
-			y: 14.125d
+			x: -28.799999999999997d
+			y: 13.2d
 		}
 		{
 			dependencies: ["35AEE847FE74A61B"]
@@ -18245,8 +18207,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.125d
-			y: 15.125d
+			x: -27.799999999999997d
+			y: 14.2d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -18265,8 +18227,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.125d
-			y: 15.625d
+			x: -32.8d
+			y: 13.2d
 		}
 		{
 			dependencies: [
@@ -18287,8 +18249,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.125d
-			y: 15.125d
+			x: -31.799999999999997d
+			y: 14.2d
 		}
 		{
 			dependencies: [
@@ -18391,8 +18353,8 @@
 					type: "item"
 				}
 			]
-			x: -27.125d
-			y: 14.625d
+			x: -29.299999999999997d
+			y: 14.2d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -18415,8 +18377,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.125d
-			y: 14.125d
+			x: -30.299999999999997d
+			y: 13.7d
 		}
 		{
 			dependencies: [
@@ -18562,8 +18524,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.974999999999998d
-			y: 6.875d
+			x: -20.4d
+			y: 10.2d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -18596,8 +18558,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.5d
-			y: 16.5d
+			x: -35.3d
+			y: 14.575d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -18625,8 +18587,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.0d
-			y: 17.5d
+			x: -34.8d
+			y: 15.575d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -18655,8 +18617,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.125d
-			y: 16.625d
+			x: -33.925d
+			y: 14.7d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -18680,8 +18642,8 @@
 				}
 				type: "item"
 			}]
-			x: -35.875d
-			y: 19.625d
+			x: -38.675d
+			y: 17.7d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -18706,8 +18668,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.0d
-			y: 19.0d
+			x: -34.8d
+			y: 17.075d
 		}
 		{
 			dependencies: ["1221A32C145FCE8B"]
@@ -18731,8 +18693,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.5d
-			y: 20.0d
+			x: -33.3d
+			y: 18.075d
 		}
 		{
 			dependencies: ["2638CC10E4FF66C1"]
@@ -18763,8 +18725,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.125d
-			y: 3.75d
+			x: -15.4d
+			y: 12.1d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -18797,8 +18759,8 @@
 					type: "item"
 				}
 			]
-			x: -19.125d
-			y: 4.199999999999999d
+			x: -16.2d
+			y: 12.6d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -18847,8 +18809,8 @@
 				}
 			]
 			title: "Tablet"
-			x: -18.125d
-			y: 4.75d
+			x: -15.299999999999999d
+			y: 13.049999999999999d
 		}
 		{
 			dependencies: [
@@ -18858,9 +18820,9 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"&5The Empress pathway&r delves into agriculture, animal husbandry, aquaculture, every single food endeavour imagineable. "
+				"&5The Empress Pathway&r delves into agriculture, animal husbandry, aquaculture, every single food endeavour imagineable. "
 				""
-				"Unfortunately, I haven't quite found a person that truly emboed this pathway and thus I haven't been able to learn more than the basics of cooking, much less processed food production."
+				"Unfortunately, I haven't quite found a person that truly embodied this pathway and thus I haven't been able to learn more than the basics of cooking, much less processed food production."
 			]
 			hide_text_until_complete: false
 			id: "1203CDC5DF26F779"
@@ -18898,7 +18860,7 @@
 				type: "item"
 			}]
 			title: "&5The Empress"
-			x: -4.449999999999999d
+			x: -6.949999999999999d
 			y: -10.924999999999999d
 		}
 		{
@@ -18943,7 +18905,7 @@
 				}
 			]
 			title: "Cooking Instruments"
-			x: -4.0d
+			x: -6.5d
 			y: -9.5d
 		}
 		{
@@ -18972,7 +18934,7 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: -9.5d
 		}
 		{
@@ -18998,7 +18960,7 @@
 				type: "item"
 			}]
 			title: "Family of Knives"
-			x: -7.0d
+			x: -9.5d
 			y: -10.5d
 		}
 		{
@@ -19022,7 +18984,7 @@
 				type: "advancement"
 			}]
 			title: "Wild Seeds"
-			x: -3.0d
+			x: -5.5d
 			y: -10.5d
 		}
 		{
@@ -19078,7 +19040,7 @@
 				type: "item"
 			}]
 			title: "Cutting Berries"
-			x: -7.0d
+			x: -8.0d
 			y: -8.0d
 		}
 		{
@@ -19125,7 +19087,7 @@
 				type: "item"
 			}]
 			title: "Drinks"
-			x: -4.5d
+			x: -7.0d
 			y: -13.0d
 		}
 		{
@@ -19193,7 +19155,7 @@
 				type: "item"
 			}]
 			title: "Comforting Food"
-			x: -5.5d
+			x: -8.0d
 			y: -12.5d
 		}
 		{
@@ -19228,7 +19190,7 @@
 				type: "item"
 			}]
 			title: "Salads"
-			x: -6.0d
+			x: -8.5d
 			y: -11.5d
 		}
 		{
@@ -19320,7 +19282,7 @@
 				type: "item"
 			}]
 			title: "Nourishing Food"
-			x: -6.5d
+			x: -9.0d
 			y: -14.0d
 		}
 		{
@@ -19342,7 +19304,7 @@
 				type: "advancement"
 			}]
 			title: "Wild Butcher"
-			x: -8.0d
+			x: -10.5d
 			y: -11.5d
 		}
 		{
@@ -19369,7 +19331,7 @@
 				type: "advancement"
 			}]
 			title: "Planting Rice"
-			x: -3.5d
+			x: -6.0d
 			y: -12.0d
 		}
 		{
@@ -19391,7 +19353,7 @@
 				type: "advancement"
 			}]
 			title: "Crop Rotation"
-			x: -3.5d
+			x: -6.0d
 			y: -13.5d
 		}
 		{
@@ -19412,8 +19374,8 @@
 				item: "born_in_chaos_v1:seedof_chaos"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -10.5d
+			x: 6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -19432,8 +19394,8 @@
 				type: "advancement"
 			}]
 			title: "Dark Metal"
-			x: 6.0d
-			y: -9.5d
+			x: 8.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -19473,8 +19435,8 @@
 				}
 			]
 			title: "Dark Metal \\& Dense Alloy"
-			x: 6.0d
-			y: -12.5d
+			x: 8.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -19494,8 +19456,8 @@
 				item: "born_in_chaos_v1:dark_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -13.5d
+			x: 9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["6E6759704F7023AB"]
@@ -19553,8 +19515,8 @@
 				}
 			]
 			title: "Dark Metal Armour"
-			x: 7.0d
-			y: -14.5d
+			x: 9.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -19584,8 +19546,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -12.0d
+			x: 10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
@@ -19643,8 +19605,8 @@
 				}
 			]
 			title: "Nightmare Armour"
-			x: 8.5d
-			y: -13.0d
+			x: 11.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -19694,8 +19656,8 @@
 				type: "item"
 			}]
 			title: "Dark Metal Weapons"
-			x: 5.5d
-			y: -14.0d
+			x: 8.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
@@ -19752,8 +19714,8 @@
 				type: "item"
 			}]
 			title: "Nightmare Weapons"
-			x: 9.0d
-			y: -12.0d
+			x: 11.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -19796,8 +19758,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -11.0d
+			x: 11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -19836,8 +19798,8 @@
 				value: 1L
 			}]
 			title: "The Nightmare Stalker"
-			x: 4.5d
-			y: -9.5d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3F53C388105917F6"]
@@ -20193,9 +20155,18 @@
 			hide_dependency_lines: true
 			id: "45DF5B6D709F2D85"
 			rewards: [{
-				id: "01352CE535EC7C0D"
-				type: "xp_levels"
-				xp_levels: 3
+				id: "62818024939A7A4E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "175F68708550F5A1"
@@ -20394,9 +20365,18 @@
 			]
 			id: "6FF3E0F49A96AC0C"
 			rewards: [{
-				id: "0735677766088AB0"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "21A33DB20AB18CBC"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
 			}]
 			tasks: [{
 				id: "535E5619CFF590FB"
@@ -22226,8 +22206,8 @@
 				item: "rftoolsbuilder:shape_card_quarry"
 				type: "item"
 			}]
-			x: -37.0d
-			y: 20.5d
+			x: -39.8d
+			y: 18.575d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -22249,8 +22229,8 @@
 					type: "item"
 				}
 			]
-			x: -36.0d
-			y: 17.5d
+			x: -38.8d
+			y: 15.575d
 		}
 		{
 			dependencies: ["108E54D33D1F4ECB"]
@@ -22260,8 +22240,8 @@
 				item: "rftoolsdim:dimlet_workbench"
 				type: "item"
 			}]
-			x: -37.0d
-			y: 16.5d
+			x: -39.8d
+			y: 14.575d
 		}
 		{
 			dependencies: ["4395BDCE434949CB"]
@@ -22284,8 +22264,8 @@
 					type: "item"
 				}
 			]
-			x: -38.0d
-			y: 15.5d
+			x: -40.8d
+			y: 13.575d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -22300,8 +22280,8 @@
 				item: "rftoolsbuilder:shield_block1"
 				type: "item"
 			}]
-			x: -36.5d
-			y: 18.5d
+			x: -39.3d
+			y: 16.575d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -22311,8 +22291,8 @@
 				item: "rftoolsutility:spawner"
 				type: "item"
 			}]
-			x: -34.5d
-			y: 20.0d
+			x: -37.3d
+			y: 18.075d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -22348,8 +22328,8 @@
 					type: "item"
 				}
 			]
-			x: -33.5d
-			y: 19.5d
+			x: -36.3d
+			y: 17.575d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -22462,11 +22442,19 @@
 							items: [
 								{
 									Count: 1b
+									id: "tconstruct:seared_table"
+								}
+								{
+									Count: 1b
+									id: "tconstruct:scorched_table"
+								}
+								{
+									Count: 1b
 									id: "tconstruct:seared_basin"
 								}
 								{
 									Count: 1b
-									id: "tconstruct:modifier_worktable"
+									id: "tconstruct:scorched_basin"
 								}
 							]
 						}
@@ -22539,8 +22527,8 @@
 					type: "item"
 				}
 			]
-			x: -25.0d
-			y: 2.5d
+			x: -21.6d
+			y: 16.800000000000004d
 		}
 		{
 			dependencies: ["7E1C64AA0AA235C2"]
@@ -22945,8 +22933,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -2.5d
+			x: -16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -22956,7 +22944,6 @@
 				"Witches of the Temperance Pathway can use this to share their knowledge and use of the Book of Shadows and their iconic mixing cauldron with their friends."
 			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "524B8C88541F6833"
 			rewards: [{
 				id: "596310A4502C1F00"
@@ -23019,8 +23006,8 @@
 				item: "solarflux:sp_8"
 				type: "item"
 			}]
-			x: -29.0d
-			y: 21.0d
+			x: -31.799999999999997d
+			y: 19.075d
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
@@ -23031,6 +23018,7 @@
 			]
 			id: "5DC19F5250D0CF9D"
 			rewards: [{
+				count: 6
 				id: "409D74CA46DCE953"
 				item: "concatenationcore:pyrite"
 				type: "item"
@@ -23211,8 +23199,8 @@
 				item: "born_in_chaos_v1:eternal_candy"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -12.5d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -23267,7 +23255,7 @@
 			}]
 			title: "&6The World"
 			x: 0.0d
-			y: -15.75d
+			y: -18.25d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -23369,9 +23357,9 @@
 			description: ["&3I’ve even managed to add a little flair to my spells: colors! It's not strictly necessary, but... What's spellcasting without a little flair? Adding another component to the CAD to make sure my spells come out in a pretty colour is absolutely a good use of my time.&r"]
 			id: "57223394F396BEA0"
 			rewards: [{
-				id: "3472AC3126D4A15D"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "1639DB1C4D9B9F60"
+				item: "concatenationcore:botanic_jar"
+				type: "item"
 			}]
 			tasks: [{
 				id: "3BE59C45C520EE3E"
@@ -23893,8 +23881,8 @@
 				item: "quarryplus:workbench"
 				type: "item"
 			}]
-			x: -24.375d
-			y: 6.0d
+			x: -23.625d
+			y: 5.625d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -23940,11 +23928,15 @@
 				item: "industrialforegoing:machine_frame_supreme"
 				type: "item"
 			}]
-			x: -28.0d
-			y: 10.0d
+			x: -30.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0F3237156DE95B07"]
+			description: [
+				""
+				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
+			]
 			hide_until_deps_complete: true
 			id: "6DDF28A484792887"
 			tasks: [{
@@ -23953,7 +23945,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -17.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -24000,6 +23992,7 @@
 		}
 		{
 			dependencies: ["6DDF28A484792887"]
+			description: ["{image:ftbquests:block/barrier_open width:100 height:100 align:center}"]
 			id: "1A53753CE273B8EB"
 			tasks: [{
 				id: "2C95485AED56EF1E"
@@ -24007,7 +24000,729 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -18.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Fortune Fragments are a mysterious material. Their appearance is ever-changing to most people. Some say they look like iron tickets, some believe they ressemble festival paper and some say it looks like nothing."
+				"{@pagebreak}"
+				"A reliable way of obtaining Fortune Fragments is by grinding down spellbooks and trinkets made with Arcane Debris you may find around the world."
+			]
+			id: "6E13AC3068943762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67601F186C2FDE2B"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33D761B00B560789"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6E13AC3068943762"]
+			description: [
+				"The Traveler's Compass is a powerful artifact, capable to locating nearly anything in existence, whether it is a structure, being, or block. "
+				""
+				"You may have to get a little creative in what you are asking for it to search, such as specific blocks or loot known to be in structures."
+			]
+			id: "272EF70CED6D9AD7"
+			rewards: [{
+				id: "254E402EEED33462"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "1082279FE6F042EB"
+				item: {
+					Count: 1
+					id: "travelerscompass:travelerscompass"
+					tag: {
+						found_position_x: 0
+						found_position_y: 0
+						found_position_z: 0
+						position_is_valid: 0b
+						priority_item_found: 0b
+						state: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Underground Bunkers are extremely rare throughout the world. They seem to feature very high grade technology that we can't quite understand yet, along with military vehicles from the future!"
+				""
+				"There is nothing much in the way of outstanding loot as we cannot decipher most of the technology down there to something useable, but it is a fascinating experience."
+			]
+			id: "3A82D89B99E5D124"
+			rewards: [
+				{
+					count: 7
+					id: "29B191996ACEB5C8"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "60C0C79CCABFB65C"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_plate_carrier_light"
+						tag: {
+							CurioAttributeModifiers: [{
+								Amount: 4
+								AttributeName: "generic.armor"
+								Name: "generic.armor"
+								Operation: 0
+								Slot: "body"
+								UUID: [I;
+									-1049641899
+									-1698279708
+									-1222758712
+									1471568110
+								]
+							}]
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "marbledsarsenal:un_military_beret"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43489CB8BA6ED617"
+				structure: "underground_bunkers:underground_bunker"
+				title: "Find the Underground Bunker"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Through my travels, I came across a castle inhabited by a mage, a technician, an engineer and a cultist. They shared various floors of the castle, although it was quickly falling into disrepair."
+				""
+				"I wondered why the centerpiece chandelier at the central staircase had bits taken out of it. All of them kept screaming at their Hierophant to not use the chandelier for glowstone!"
+			]
+			id: "166CA90C1CE3BC09"
+			rewards: [
+				{
+					id: "7D92FF5DCF644D10"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "04FC13D8C5A4F48F"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:brick"
+				id: "3040732C13E57C4D"
+				structure: "ati_structures:granite_fort"
+				title: "Find the Granite Castle"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: ["I have come across a windmill built by an engineer and his friend. It doubled as a greenhouse and a windmill, letting them cultivate year-round crops. Their basement was filled to the brim with oreberries, cultivated for their metals, but also their experience."]
+			id: "424203823967AE99"
+			rewards: [{
+				id: "4C6285232595F00A"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:white_sail"
+				id: "576A03530B7C3590"
+				structure: "create_easy_structures:windmill"
+				title: "Find an Engineer's Windmill"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"I came across an Apprentice Technician in a run-down house falling to ruins. They said to me that they once were a powerful archmage, but they left behind their knowledge and life to learn that which they had never bothered to know: technology."
+				"{@pagebreak}"
+				"I asked them, \"But why in an ice-cold place like this?\" They answered, \"It builds character.\""
+			]
+			id: "6A6731CB2AED5CA3"
+			rewards: [{
+				id: "2CE5B1127AC99682"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:mechanical_piston"
+				id: "0085C34F6E7A3240"
+				structure: "create_easy_structures:house_4"
+				title: "Find the Apprentice's House"
+				type: "structure"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Nether Fortresses were all the more terrifying before the Sparkon High Council decided to cast a most powerful worldwide spell to cause all monoliths inside to decay. "
+				""
+				"Prior to this, monoliths would keep summoning traversers, deadly monsters doing sick acrobatics and overwhelming adventurers with their large numbers. Now, monoliths decay with time, limiting the amountt of traversers they can summon."
+			]
+			id: "1FAB3CAA90A95383"
+			rewards: [{
+				id: "6FB814695D993557"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "71D884CA0C101689"
+				structure: "minecraft:fortress"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"There are plenty of inhabited villages, towns, and cities scattered throughout the world. While you may often find the lonely house, you may also find sprawling cities."
+				""
+				"These cities have plenty of &mloot&r opportunities for trade!"
+			]
+			id: "5FB472DF1ACE7FF4"
+			rewards: [{
+				id: "61C66C259534476E"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:oak_door"
+				id: "58C85A63179F8505"
+				structure: "#minecraft:village"
+				title: "Find a Township"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Spooky! This pumpkin leaves off an eerie aura, signaling the start of a bossfight!"
+				""
+				"As I broke the pumpkin, Sir Pumpkinhead was summoned from hell and rose out of the ground and slashed at me, prompting battle."
+				"{@pagebreak}"
+				"Lord Pumpkinhead may appear in Sir Pumpkinhead's place, by summoning him with a transmuting elixir instead of simply breaking the pumpkin."
+			]
+			id: "08B9A3B8958B397C"
+			rewards: [{
+				id: "51DBB20F3FE66AA3"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin"
+				id: "6E13011BFF309ABE"
+				structure: "born_in_chaos_v1:infernal_pumpkin"
+				title: "Find the Infernal Pumpkin"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The Mechanical Nest is a floating city powered by RF power. It houses a mechanical hivemind, the most civilized folk I have encoutered, with higher technology than even some of the larger cities I've traveled to. "
+				""
+				"Unfortunately, they are hostile to everything organic, even capturing some lifeforms and experimenting on them."
+			]
+			id: "75E8D9F05E7CC783"
+			rewards: [
+				{
+					count: 2
+					id: "439B449195D1319A"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "6472E77180D2AE71"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Hivemind"
+			tasks: [{
+				icon: "minecraft:cut_copper"
+				id: "4A1FDD8A256DDDD1"
+				structure: "dungeons_arise:mechanical_nest"
+				title: "Find a Mechanical Nest"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Left behind by an ancient civilization that have been theorized to be the Endermen's ancestors, underground Strongholds are sprawling mazes of fortifications."
+				""
+				"They house important end portals to enter the End. Be warned that the guardian dragon of the End is not friendly to outsiders and especially dangerous."
+			]
+			id: "407BC866E1868568"
+			rewards: [{
+				id: "4C4FAEA9EC26E73D"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "28A984FC8386E2CC"
+				structure: "minecraft:stronghold"
+				title: "Find a Stronghold"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"A couple of adventurers turned mages had taken over a mushroom village and called it home. I walked up the giant mushroom at the center of the village to find they had turned it into a majestic magetower inside."
+				"{@pagebreak}"
+				"I asked about the original inhabitants' fates. They did not respond. Throughout my travels, I have found more of these mycelial colonies along with pigshroom people. They were always hostile to outsiders."
+			]
+			id: "370BE5636BBC9719"
+			rewards: [{
+				id: "08D73C34D3DC58DA"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:red_mushroom_block"
+				id: "37A242CB945A7205"
+				structure: "dungeons_arise:mushroom_village"
+				title: "Find a Mushroom Village"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"I have yet to find this rumored palace, but I have heard of plenty of legends and rumors about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
+				""
+				"All that I know is that it seems to be a gigantic desert palace."
+				"{@pagebreak}"
+				"I found something close, but not the rumored Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord that normally lived on a complex on a sky island."
+			]
+			id: "7C43A27C9882C9F2"
+			rewards: [
+				{
+					count: 2
+					id: "470B7B5D0036167B"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "27069D39C2E95108"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Villa"
+			tasks: [{
+				icon: "minecraft:sandstone"
+				id: "7D324E4AFE5B39E6"
+				structure: "dungeons_arise:shiraz_palace"
+				title: "Find a Shiraz Palace"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Wilden Dens are a sign of danger as they house the wilden. They are wild magical beasts that will not pose a serious threat to most battle-hardened warriors. For mages though, they view them as a rare resource. "
+				"{@pagebreak}"
+				"Mages have almost brought the once-widely spread Wilden to extinction. Since then, laws have been put in place to protect this endangered species, prioritizing summoning rituals, but it is hard to enforce a law when mages can just leap out of reach in an instant."
+			]
+			id: "2E6CE7AF53415895"
+			rewards: [
+				{
+					id: "108FAE4E8FFE5821"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "5038FE4A70F35A66"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: "ars_nouveau:wilden_wing"
+				id: "1FDAFE55655DACD4"
+				structure: "#ars_nouveau:wilden_den"
+				title: "Find a Wilden Den"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Slimeballs are often used in technological parts, despite the fact they seem like they would rather have a magical use."
+				""
+				"The natural habitat of slimes are on their Earth and Sky islands, featuring a slime pond at the center."
+				"{@pagebreak}"
+				"For Elementists of the Magician Pathway, slimes are a surprisingly good source of elemental shards, while for Apprentice Technicans of the Hierophant Pathway, they will need a large quantity of slime to produce sticky redstone."
+			]
+			id: "0F86E584D13882B6"
+			rewards: [{
+				count: 2
+				id: "64284384A0A4E8C7"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "minecraft:slime_ball"
+					id: "55CBB747768B101F"
+					structure: "tconstruct:earth_slime_island"
+					title: "Visit an Earthslime Island"
+					type: "structure"
+				}
+				{
+					icon: "tconstruct:sky_slime_ball"
+					id: "624B8C04DCF4D3FF"
+					structure: "tconstruct:sky_slime_island"
+					title: "Visit a Skyslime Island"
+					type: "structure"
+				}
+			]
+			title: "Visit the Slime Islands"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The Windswept Hills are a breathtaking yet dark piece of landscape. The fusion between eroded mountains, vast swathes of blackstone, magma and lava coexisting with water is truly fascinating."
+				"{@pagebreak}"
+				"It is a biome most filled with exposed ore, a true treasure trove for anyone that may find one."
+			]
+			id: "50FDBBA56E5DEFB2"
+			rewards: [
+				{
+					id: "7027D37C59DC616F"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "004DC0F436ECE7F7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				biome: "minecraft:windswept_hills"
+				icon: "minecraft:blackstone"
+				id: "368945701965513F"
+				title: "Visit the Windswept Hills"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: ["Yellowstone is a semi-frequent biome, quite beautiful with hotsprings."]
+			id: "5CCEB21A364AD9AE"
+			rewards: [{
+				id: "358534F470FA5584"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "terralith:yellowstone"
+				icon: "minecraft:yellow_terracotta"
+				id: "7811BD93F29201E2"
+				title: "Visit Yellowstone"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: ["During my time at sea, I've encountered plenty of ships of various origins, sizes and different crews. Most of them included fancy loot to take."]
+			id: "7BC0331FFB836295"
+			rewards: [{
+				count: 2
+				id: "012EABD68523A1C3"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "hpm:cuttermilitariseditem"
+				id: "15471F5F5BB1A6F1"
+				structure: "dungeons_arise_seven_seas:corsair_corvette"
+				title: "Find a Corsair Corvette"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			id: "3502EBD994DE89A2"
+			size: 0.8d
+			tasks: [{
+				id: "5E97D8BCC9D5F7C9"
+				item: "hpm:largehull"
+				type: "item"
+			}]
+			x: -9.6d
+			y: 2.0d
+		}
+		{
+			id: "2990E1C06FD1E413"
+			size: 0.8d
+			tasks: [{
+				id: "17A44B4D90AC1A4E"
+				item: "hpm:largemast"
+				type: "item"
+			}]
+			x: -9.6d
+			y: 3.4d
+		}
+		{
+			dependencies: ["5D6BE53739B45840"]
+			description: [
+				"Temperance Card holders can craft summoning scrolls using a base to write on, mystical ingredients born from various monster parts, and experience orbs purged from oneself with Shrike."
+				""
+				"The scrolls can be used to summon mobs from the dead, with an experience and durability cost."
+				"{@pagebreak}"
+				"Some scrolls may be improved with the Enhancement Scroll, which can be rarely found around the world as the recipe to produce them has been lost to time. The improved scrolls produced by the Enhancement Scroll can still manually be made."
+				"{@pagebreak}"
+				"Summons are all the more powerful when you consider that they ignore the concept of 'holiness', bypassing the undead's weaknesses of holy materials or fire."
+			]
+			id: "0AE5DAE5A25FE559"
+			rewards: [{
+				id: "7B0D6B13560F6BD1"
+				item: "summonerscrolls:enhancement_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "617E15131639F160"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonerscrolls:zombie_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 1
+									count: 1
+									damageAmount: 1
+									summon: "summonerscrolls:zombie_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:spider_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 1
+									count: 1
+									damageAmount: 1
+									summon: "summonerscrolls:spider_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:spider_jockey_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 3
+									count: 1
+									damageAmount: 1
+									summon: "summonerscrolls:spider_jockey_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:skeleton_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 2
+									count: 1
+									damageAmount: 2
+									summon: "summonerscrolls:skeleton_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:bee_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 3
+									count: 5
+									damageAmount: 5
+									summon: "summonerscrolls:bee_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:husk_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 2
+									count: 1
+									damageAmount: 5
+									summon: "summonerscrolls:husk_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:stray_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 4
+									count: 1
+									damageAmount: 5
+									summon: "summonerscrolls:stray_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:cave_spider_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 3
+									count: 3
+									damageAmount: 5
+									summon: "summonerscrolls:cave_spider_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:enderman_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 4
+									count: 1
+									damageAmount: 5
+									summon: "summonerscrolls:enderman_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:piglin_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 3
+									count: 1
+									damageAmount: 10
+									summon: "summonerscrolls:piglin_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:creeper_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 4
+									count: 1
+									damageAmount: 10
+									summon: "summonerscrolls:creeper_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:charged_creeper_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 5
+									count: 1
+									damageAmount: 15
+									summon: "summonerscrolls:charged_creeper_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:piglin_brute_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 5
+									count: 1
+									damageAmount: 10
+									summon: "summonerscrolls:piglin_brute_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:shulkerman_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 5
+									count: 1
+									damageAmount: 10
+									summon: "summonerscrolls:shulkerman_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:iron_golem_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 5
+									count: 1
+									damageAmount: 10
+									summon: "summonerscrolls:iron_golem_summon"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Summoning Scroll"
+				type: "item"
+			}]
+			title: "Summoning Scrolls"
+			x: 13.5d
+			y: 5.0d
 		}
 	]
 	title: "The Journey"

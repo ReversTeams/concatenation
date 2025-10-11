@@ -11,7 +11,6 @@ resourcepacks
 saves
 /options.txt
 /screenshots
-/servers.dat
 /servers.dat_old
 /minecraftinstance.json
 /usercache.json
@@ -44,3 +43,4 @@ welcomescreen_cache.json
 journeymap/server
 debug
 user-prefs.json
+/mods/.connector

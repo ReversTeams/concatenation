@@ -1,0 +1,80 @@
+{
+  "TECHNICAL": {
+    "VERSION_DO_NOT_EDIT": 1,
+    "FORCE_RESET": false
+  },
+
+  // This config file uses a custom defined parser. That's why there are comments here, they wouldn't be valid in any other .json file.
+  //    To add a comment yourself, just start a line with // like I did here
+  //    (although their main use is explaining you what the entries do)
+
+  // CATEGORY: SCROLLS
+  "scrolls": {
+    // Level cost to add a scroll to an item in an anvil
+    "anvil_xp_cost": 60,
+
+    // Summon costs
+    "zombie": {
+      "xp_cost": 1,
+      "durability_cost": 1
+    },
+    "spider": {
+      "xp_cost": 1,
+      "durability_cost": 1
+    },
+    "spider_jockey": {
+      "xp_cost": 3,
+      "durability_cost": 1
+    },
+    "skeleton": {
+      "xp_cost": 2,
+      "durability_cost": 2
+    },
+    "bee": {
+      "xp_cost": 3,
+      "durability_cost": 5
+    },
+
+    "husk": {
+      "xp_cost": 2,
+      "durability_cost": 5
+    },
+    "stray": {
+      "xp_cost": 4,
+      "durability_cost": 5
+    },
+    "cave_spider": {
+      "xp_cost": 3,
+      "durability_cost": 5
+    },
+    "enderman": {
+      "xp_cost": 4,
+      "durability_cost": 5
+    },
+    "piglin": {
+      "xp_cost": 3,
+      "durability_cost": 10
+    },
+
+    "creeper": {
+      "xp_cost": 4,
+      "durability_cost": 10
+    },
+    "piglin_brute": {
+      "xp_cost": 5,
+      "durability_cost": 10
+    },
+    "shulkerman": {
+      "xp_cost": 5,
+      "durability_cost": 10
+    },
+    "iron_golem": {
+      "xp_cost": 5,
+      "durability_cost": 10
+    },
+    "charged_creeper": {
+      "xp_cost": 5,
+      "durability_cost": 15
+    }
+  }
+}
