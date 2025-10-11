@@ -222,7 +222,6 @@ ServerEvents.tags('item', event => {
         'asr:gilded_netherquartz_shield',
         'asr:gilded_ender_shield',
         'asr:gilded_diamond_shield',
-        'minecolonies:assistanthammer_gold',
         'minecraft:netherite_shovel',
         'minecraft:netherite_axe',
         'minecraft:netherite_pickaxe',
