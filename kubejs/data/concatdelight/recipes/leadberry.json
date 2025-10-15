@@ -9,7 +9,8 @@
   "result": [
     {
       "item": "thermal:lead_dust",
-      "count": 1
+      "count": 1,
+      "chance": 0.8
     },
     {
       "item": "thermal:lead_dust",

@@ -241,6 +241,34 @@
 		#ProjectE-Integration Recipe Mapper for Applied Energistics Inscriber Mapper. Required Mods: [ae2]
 		enabled = true
 
+	[CraftingMapper.ChippedMechanistWorkbenchMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Mechanist Workbench Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedMasonTableMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Mason Table Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedLoomTableMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Loom Table Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedGlassblowerMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Glassblower Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedCarpentersTableMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Carpenters Table Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedBotanistWorkbenchMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Botanist Workbench Mapper. Required Mods: [chipped]
+		enabled = true
+
+	[CraftingMapper.ChippedAlchemyBenchMapper]
+		#ProjectE-Integration Recipe Mapper for Chipped Alchemy Bench Mapper. Required Mods: [chipped]
+		enabled = true
+
 [enabledMappers]
 	#Set EMC=0 for everything in the forge:raw_materials tag
 	RawOresBlacklistMapper = true

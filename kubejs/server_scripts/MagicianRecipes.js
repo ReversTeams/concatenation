@@ -32,7 +32,10 @@ ServerEvents.recipes(event => {
                 'reliquary:magicbane',
                 'concatenationcore:gold_stick',
                 'ars_nouveau:thread_undying',
-                'reliquary:rod_of_lyssa'
+                'reliquary:rod_of_lyssa',
+                'reliquary:void_tear',
+                'reliquary:salamander_eye',
+                'reliquary:hero_medallion'
         ]
 
         remove.forEach(item => {
@@ -596,12 +599,11 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('reliquary:phoenix_down'),
                 [
-                        'ABC',
-                        'CC ',
+                        'AB ',
+                        '   ',
                         '   '
                 ],
                 {
-                        C: 'minecraft:blaze_powder',
                         A: 'reliquary:angelic_feather',
                         B: 'reliquary:angelheart_vial'
                 }
@@ -888,4 +890,44 @@ ServerEvents.recipes(event => {
                         D: 'reliquary:infernal_claw'
                 }
         ).keepIngredient('tarotcards:the_hanged_man')
+        event.shapeless(
+                Item.of('reliquary:void_tear'),
+                [
+                        'tarotcards:the_hanged_man',
+                        'minecraft:ghast_tear',
+                        'reliquary:nebulous_heart',
+                        'reliquary:slime_pearl',
+                        'minecraft:lapis_lazuli'
+                ]
+        ).keepIngredient('tarotcards:the_hanged_man')
+        event.shaped(
+                Item.of('reliquary:salamander_eye'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        C: 'reliquary:frozen_core',
+                        D: 'irons_spellbooks:energized_core',
+                        E: 'torchmaster:frozen_pearl',
+                        F: 'reliquary:pyromancer_staff',
+                        B: 'reliquary:lantern_of_paranoia',
+                        A: 'reliquary:molten_core'
+                }
+        )
+        event.shaped(
+                Item.of('reliquary:hero_medallion'),
+                [
+                        'ABA',
+                        'ACA',
+                        'ADA'
+                ],
+                {
+                        C: 'reliquary:fortune_coin',
+                        D: 'torchmaster:frozen_pearl',
+                        A: 'concatenationcore:sourcesilver',
+                        B: 'reliquary:salamander_eye'
+                }
+        )
 });

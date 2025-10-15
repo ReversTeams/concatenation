@@ -76,7 +76,7 @@
 	item_tags_filter_type = "BLACKLIST"
 	#List of item tags to filter.
 	#Example: ["minecraft:logs", "c:ores"]
-	item_tags_filter = []
+	item_tags_filter = ["forge:ores", "concatenation:oreberry_bushes"]
 	#Filter mode for entities.
 	#Allowed Values: WHITELIST, BLACKLIST
 	entities_filter_type = "BLACKLIST"

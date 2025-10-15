@@ -25,7 +25,8 @@ ServerEvents.recipes(event => {
                 'mekanismtools:stone_paxel',
                 'mekanismtools:wood_paxel',
                 'mekanismtools:iron_paxel',
-                'createbigcannons:cast_iron_block'
+                'createbigcannons:cast_iron_block',
+                'create:wrench'
         ]
 
         remove.forEach(item => {
@@ -590,6 +591,19 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:enchanted_book'
                 }
         ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('create:wrench'),
+                [
+                        'AA ',
+                        'AB ',
+                        ' C '
+                ],
+                {
+                        A: 'create:brass_sheet',
+                        C: 'minecraft:stick',
+                        B: 'create:cogwheel'
+                }
+        )
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

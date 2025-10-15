@@ -20,6 +20,7 @@ crash-reports
 logs
 .cache
 *.log
+backups
 
 # various config, caches, etc
 modernfix

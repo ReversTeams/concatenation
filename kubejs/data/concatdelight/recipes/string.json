@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    { "item": "celestisynth:solar_crystal" }
+    { "tag": "minecraft:wool" }
   ],
   "tool": {
     "item": "concatenationcore:cutting_tool"

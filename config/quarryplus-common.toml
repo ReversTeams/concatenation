@@ -45,7 +45,7 @@
 [machines]
 	adv_pump = true
 	adv_quarry = true
-	book_mover = true
+	book_mover = false
 	exp_module = true
 	exp_pump = true
 	filler = true
@@ -54,7 +54,7 @@
 	fuel_module_normal = true
 	mini_quarry = false
 	mining_well = false
-	mover = false
+	mover = true
 	placer_plus = false
 	pump_module = true
 	pump_plus = true

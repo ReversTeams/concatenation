@@ -64,12 +64,15 @@ ServerEvents.recipes(event => {
                 'simplyjetpacks:jetpack_te2_armored',
                 'simplyjetpacks:jetpack_te3_armored',
                 'simplyjetpacks:jetpack_te4_armored',
-                'rftoolspower:cell2'
+                'rftoolspower:cell2',
+                'hammerlib:gears'
         ]
 
         remove.forEach(item => {
                 event.remove({ output: item })
         })
+
+        event.remove({ mod: 'hammerlib' })
 
         const replaceCasing = [
                 'thermal:machine_pyrolyzer',
@@ -157,6 +160,11 @@ ServerEvents.recipes(event => {
                 { mod: 'mekanism' },
                 'minecraft:redstone',
                 'concatenationcore:stickyredstone'
+        );
+        event.replaceInput(
+                { mod: 'hpm' },
+                'hpm:hand_cannon',
+                'hpm:hand_mortar'
         );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
@@ -1294,8 +1302,14 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')
         event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.5), 'mekanism:raw_osmium')
         event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium').withChance(1.99), 'create:crushed_raw_osmium')
-        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 20000), 'thermal:ice_charge'])
-        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 20000), 'concatenationcore:ice_shard'])
+        event.recipes.thermal.pulverizer([Item.of('minecraft:cobblestone').withChance(1.2), Item.of('thermal:diamond_dust').withChance(0.01), Item.of('thermal:apatite_dust').withChance(0.1), Item.of('thermal:silver_dust').withChance(0.01)], 'perdition:marmor_exaltatus')
+        event.recipes.thermal.pulverizer([Item.of('thermal:apatite_dust').withChance(0.2), Item.of('thermal:gold_dust').withChance(0.2), Item.of('thermal:sapphire_dust').withChance(0.4), Item.of('minecraft:redstone').withChance(0.5)], 'thermal:apatite_dust')
+        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 10000), 'thermal:ice_charge'])
+        event.recipes.thermal.chiller(Item.of('integrateddynamics:menril_sapling'), [Fluid.of('minecraft:water', 10000), 'concatenationcore:ice_shard'])
+        event.recipes.thermal.chiller(Item.of('thermal:lapis_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:lapis_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:emerald_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:emerald_dust'])
+        event.recipes.thermal.chiller(Item.of('thermal:quartz_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'mekanism:dust_quartz'])
+        event.recipes.thermal.chiller(Item.of('thermal:diamond_gear'), [Fluid.of('integrateddynamics:menril_resin', 1000), 'thermal:diamond_dust'])
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(8000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(55000)
         event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
@@ -1305,6 +1319,93 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
         event.recipes.mekanism.enriching('mekanism:enriched_iron', 'minecraft:iron_ingot')
         event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'minecraft:redstone')
+
+        const oreberries = [
+                { berry: 'tin', result: 'thermal:tin_nugget', ore: 'thermal:tin_ore', deepslate: 'thermal:deepslate_tin_ore' },
+                { berry: 'aluminum', result: 'tfmg:aluminum_nugget', ore: 'tfmg:bauxite', deepslate: 'tfmg:aluminum_block' },
+                { berry: 'nickel', result: 'thermal:nickel_nugget', ore: 'thermal:nickel_ore', deepslate: 'thermal:deepslate_nickel_ore' },
+                { berry: 'lead', result: 'thermal:lead_nugget', ore: 'thermal:lead_ore', deepslate: 'thermal:deepslate_lead_ore' },
+                { berry: 'uranium', result: 'mekanism:nugget_uranium', ore: 'mekanism:uranium_ore', deepslate: 'mekanism:deepslate_uranium_ore' },
+                { berry: 'osmium', result: 'mekanism:nugget_osmium', ore: 'mekanism:osmium_ore', deepslate: 'mekanism:deepslate_osmium_ore' },
+                { berry: 'zinc', result: 'create:zinc_nugget', ore: 'create:zinc_ore', deepslate: 'create:deepslate_zinc_ore' },
+                { berry: 'silver', result: 'thermal:silver_nugget', ore: 'thermal:silver_ore', deepslate: 'thermal:deepslate_silver_ore' },
+                { berry: 'copper', result: 'thermal:copper_nugget', ore: 'minecraft:copper_ore', deepslate: 'minecraft:deepslate_copper_ore' },
+                { berry: 'gold', result: 'minecraft:gold_nugget', ore: 'minecraft:gold_ore', deepslate: 'minecraft:deepslate_gold_ore' },
+                { berry: 'iron', result: 'minecraft:iron_nugget', ore: 'minecraft:iron_ore', deepslate: 'minecraft:deepslate_iron_ore' },
+                { berry: 'essence', result: '3x concatenationcore:experience_orb', ore: 'minecraft:emerald_ore', deepslate: 'minecraft:deepslate_emerald_ore', special: true }
+        ];
+
+        oreberries.forEach(entry => {
+                const berryItem = entry.special ? `oreberriesreplanted:${entry.berry}_berry` : `oreberriesreplanted:${entry.berry}_oreberry`;
+                // const bushItem = entry.special ? `oreberriesreplanted:${entry.berry}_berry_bush` : `oreberriesreplanted:${entry.berry}_oreberry_bush`;
+                const resultItem = entry.result;
+
+                event.replaceInput({ type: 'thermal:furnace' }, berryItem, berryItem);
+                event.remove({ output: berryItem, type: 'botanypots:crop' });
+                event.recipes.thermal.furnace(resultItem, berryItem).xp(0.1);
+        });
+
+        const oreberryChance = 80;
+
+        event.recipes.botanypots.soil("thermal:lead_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("thermal:deepslate_lead_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:lead_oreberry_bush", ["thermal:lead_ore"], { block: "oreberriesreplanted:lead_oreberry_bush" }, [Item.of("oreberriesreplanted:lead_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:lead_oreberry_bush", ["thermal:deepslate_lead_ore"], { block: "oreberriesreplanted:lead_oreberry_bush" }, [Item.of("oreberriesreplanted:lead_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("mekanism:uranium_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("mekanism:deepslate_uranium_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:uranium_oreberry_bush", ["mekanism:uranium_ore"], { block: "oreberriesreplanted:uranium_oreberry_bush" }, [Item.of("oreberriesreplanted:uranium_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:uranium_oreberry_bush", ["mekanism:deepslate_uranium_ore"], { block: "oreberriesreplanted:uranium_oreberry_bush" }, [Item.of("oreberriesreplanted:uranium_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("mekanism:osmium_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("mekanism:deepslate_osmium_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:osmium_oreberry_bush", ["mekanism:osmium_ore"], { block: "oreberriesreplanted:osmium_oreberry_bush" }, [Item.of("oreberriesreplanted:osmium_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:osmium_oreberry_bush", ["mekanism:deepslate_osmium_ore"], { block: "oreberriesreplanted:osmium_oreberry_bush" }, [Item.of("oreberriesreplanted:osmium_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("create:zinc_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("create:deepslate_zinc_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:zinc_oreberry_bush", ["create:zinc_ore"], { block: "oreberriesreplanted:zinc_oreberry_bush" }, [Item.of("oreberriesreplanted:zinc_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:zinc_oreberry_bush", ["create:deepslate_zinc_ore"], { block: "oreberriesreplanted:zinc_oreberry_bush" }, [Item.of("oreberriesreplanted:zinc_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("thermal:silver_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("thermal:deepslate_silver_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:silver_oreberry_bush", ["thermal:silver_ore"], { block: "oreberriesreplanted:silver_oreberry_bush" }, [Item.of("oreberriesreplanted:silver_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:silver_oreberry_bush", ["thermal:deepslate_silver_ore"], { block: "oreberriesreplanted:silver_oreberry_bush" }, [Item.of("oreberriesreplanted:silver_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("minecraft:copper_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("minecraft:deepslate_copper_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:copper_oreberry_bush", ["minecraft:copper_ore"], { block: "oreberriesreplanted:copper_oreberry_bush" }, [Item.of("oreberriesreplanted:copper_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:copper_oreberry_bush", ["minecraft:deepslate_copper_ore"], { block: "oreberriesreplanted:copper_oreberry_bush" }, [Item.of("oreberriesreplanted:copper_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("minecraft:gold_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("minecraft:deepslate_gold_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:gold_oreberry_bush", ["minecraft:gold_ore"], { block: "oreberriesreplanted:gold_oreberry_bush" }, [Item.of("oreberriesreplanted:gold_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:gold_oreberry_bush", ["minecraft:deepslate_gold_ore"], { block: "oreberriesreplanted:gold_oreberry_bush" }, [Item.of("oreberriesreplanted:gold_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("minecraft:iron_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("minecraft:deepslate_iron_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:iron_oreberry_bush", ["minecraft:iron_ore"], { block: "oreberriesreplanted:iron_oreberry_bush" }, [Item.of("oreberriesreplanted:iron_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1);
+        event.recipes.botanypots.crop("oreberriesreplanted:iron_oreberry_bush", ["minecraft:deepslate_iron_ore"], { block: "oreberriesreplanted:iron_oreberry_bush" }, [Item.of("oreberriesreplanted:iron_oreberry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        event.recipes.botanypots.soil("minecraft:emerald_ore", { block: "minecraft:stone" }, 1.25, 0.0);
+        event.recipes.botanypots.soil("minecraft:deepslate_emerald_ore", { block: "minecraft:deepslate" }, 1.1, 0.0);
+        event.recipes.botanypots.crop("oreberriesreplanted:essence_berry_bush", ["minecraft:emerald_ore"], { block: "oreberriesreplanted:essence_berry_bush" }, [Item.of("oreberriesreplanted:essence_berry").withChance(oreberryChance).withRolls(1, 3)], 10, 1); 
+        event.recipes.botanypots.crop("oreberriesreplanted:essence_berry_bush", ["minecraft:deepslate_emerald_ore"], { block: "oreberriesreplanted:essence_berry_bush" }, [Item.of("oreberriesreplanted:essence_berry").withChance(oreberryChance).withRolls(1, 3)], 10, 1.25);
+
+        // event.recipes.minecraft.smelting(
+        //         '2x concatenationcore:experience_orb',
+        //         'oreberriesreplanted:essence_berry'
+        // ).xp(0.1).cookingTime(100);
+        // event.recipes.minecraft.blasting(
+        //         '2x concatenationcore:experience_orb',
+        //         'oreberriesreplanted:essence_berry'
+        // ).xp(0.1).cookingTime(75);
+        // event.recipes.minecraft.smoking(
+        //         '2x concatenationcore:experience_orb',
+        //         'oreberriesreplanted:essence_berry'
+        // ).xp(0.2).cookingTime(50);
+        event.recipes.thermal.furnace('3x concatenationcore:experience_orb', 'oreberriesreplanted:essence_berry').xp(0.1);
+
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
@@ -1331,7 +1432,7 @@ ServerEvents.recipes(event => {
                 100
         )
         event.recipes.industrialforegoing.dissolution_chamber(
-                ['concatenationcore:galvanized_iron_casing', 'industrialforegoing:laser_lens4', 'concatenationcore:galvanized_iron_casing', 'concatenationcore:circuit', 'concatenationcore:circuit', 'concatenationcore:galvanized_iron_casing', 'thermal:energy_cell', 'concatenationcore:galvanized_iron_casing'],
+                ['thermal:emerald_gear', 'industrialforegoing:laser_lens4', 'thermal:diamond_gear', 'concatenationcore:circuit', 'concatenationcore:circuit', 'concatenationcore:galvanized_iron_casing', 'thermal:energy_cell', 'concatenationcore:galvanized_iron_casing'],
                 'thermal:glowstone',
                 'quarryplus:workbench',
                 100

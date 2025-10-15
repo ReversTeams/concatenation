@@ -11,8 +11,28 @@
     },
     "post": [
         {
+            "type": "place",
+            "block": "*"
+        },
+        {
             "type": "drop_item",
             "item": "minecraft:glowstone"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:glowstone"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "type": "drop_item",
+            "item": "minecraft:glowstone_dust"
         }
     ]
 }

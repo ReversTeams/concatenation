@@ -1,0 +1,19 @@
+{
+  "Restriction Data": {
+    "stage": "not_allowed",
+    "modList": ["hammerlib"],
+    "exceptionList": [
+        { "tag": "forge:gears/wooden" },
+        { "tag": "forge:gears/stone" }
+] 
+  },
+
+  "Settings": {
+    "dropItemsFromInventory": true,
+    "canPickupItems": false,
+    "itemsPickupDelay": 15, 
+    "canUseItems": false,
+    "canBreakBlocks": true,
+    "canRightClickBlocks": false
+  }
+}

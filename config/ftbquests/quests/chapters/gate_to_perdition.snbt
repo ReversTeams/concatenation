@@ -751,6 +751,59 @@
 			x: -2.0d
 			y: -6.5d
 		}
+		{
+			dependencies: [
+				"4E39E9390716E9BA"
+				"579C1F64E7465881"
+			]
+			description: [
+				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
+				"{@pagebreak}"
+				"&2This is not too useful of a dimension, but perhaps I could recommend that my Hierophant friends go quarrying here instead of destroying the world constantly. I did find this travel journal lately. To the next one who finds it, I will stick a little note for you!&r"
+			]
+			hide_dependency_lines: true
+			id: "6C15F8C95DCDFB7E"
+			rewards: [
+				{
+					count: 12
+					id: "65B4B0DBAE099142"
+					item: "perdition:marmor_elevated"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2FCDA01E08718622"
+					item: "thermal:sapphire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06438328F675D4C8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72B8A51A25A27297"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3601961A56E89074"
+				item: {
+					Count: 1
+					id: "perdition:dis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dis"
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 	subtitle: ["Limited Event"]
 	title: "Gate to Perdition"

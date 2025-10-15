@@ -177,12 +177,19 @@ ServerEvents.recipes(event => {
                         A: 'hexerei:cloth'
                 }
         )
-        event.shapeless(
+        event.shaped(
                 Item.of('concatenationcore:light_totem'),
                 [
-                        'born_in_chaos_v1:fire_dust',
-                        'concatenationcore:descran'
-                ]
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:gunpowder',
+                        D: 'concatenationcore:descran',
+                        C: 'minecraft:redstone',
+                        B: 'born_in_chaos_v1:fire_dust'
+                }
         )
         // event.shaped(
         //         Item.of('dimdoors:rift_remover'),
@@ -399,7 +406,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('minecraft:glowstone_dust', 27),
+                Item.of('minecraft:glowstone_dust', 81),
                 [
                         'ABA',
                         'A A',
@@ -566,73 +573,88 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shaped(
-    Item.of('theurgy:divination_rod_t1'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        A: 'minecraft:glass',
-        B: 'concatenationcore:antimony',
-        C: 'minecraft:stick'
-    }
-)
-event.shaped(
-    Item.of('theurgy:divination_rod_t2'),
-    [
-        ' AB',
-        ' CA',
-        'D  '
-    ],
-    {
-        B: 'concatenationcore:antimony',
-        C: 'minecraft:amethyst_shard',
-        A: 'minecraft:gold_nugget',
-        D: 'minecraft:stick'
-    }
-)
-event.shaped(
-    Item.of('theurgy:divination_rod_t3'),
-    [
-        ' AB',
-        ' CA',
-        'D  '
-    ],
-    {
-        A: 'minecraft:quartz',
-        B: 'concatenationcore:antimony',
-        C: 'minecraft:diamond',
-        D: 'minecraft:stick'
-    }
-)
-event.shaped(
-    Item.of('theurgy:divination_rod_t4'),
-    [
-        ' AB',
-        ' CA',
-        'D  '
-    ],
-    {
-        B: 'concatenationcore:antimony',
-        C: 'minecraft:netherite_ingot',
-        A: 'minecraft:blaze_rod',
-        D: 'minecraft:stick'
-    }
-)
-event.shaped(
-    Item.of('theurgy:amethyst_divination_rod'),
-    [
-        ' AB',
-        ' CA',
-        'C  '
-    ],
-    {
-        A: 'minecraft:purple_dye',
-        B: 'concatenationcore:antimony',
-        C: 'minecraft:stick'
-    }
-)
+                Item.of('theurgy:divination_rod_t1'),
+                [
+                        ' AB',
+                        ' CA',
+                        'C  '
+                ],
+                {
+                        A: 'minecraft:glass',
+                        B: 'concatenationcore:antimony',
+                        C: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:divination_rod_t2'),
+                [
+                        ' AB',
+                        ' CA',
+                        'D  '
+                ],
+                {
+                        B: 'concatenationcore:antimony',
+                        C: 'minecraft:amethyst_shard',
+                        A: 'minecraft:gold_nugget',
+                        D: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:divination_rod_t3'),
+                [
+                        ' AB',
+                        ' CA',
+                        'D  '
+                ],
+                {
+                        A: 'minecraft:quartz',
+                        B: 'concatenationcore:antimony',
+                        C: 'minecraft:diamond',
+                        D: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:divination_rod_t4'),
+                [
+                        ' AB',
+                        ' CA',
+                        'D  '
+                ],
+                {
+                        B: 'concatenationcore:antimony',
+                        C: 'minecraft:netherite_ingot',
+                        A: 'minecraft:blaze_rod',
+                        D: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('theurgy:amethyst_divination_rod'),
+                [
+                        ' AB',
+                        ' CA',
+                        'C  '
+                ],
+                {
+                        A: 'minecraft:purple_dye',
+                        B: 'concatenationcore:antimony',
+                        C: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:temperance'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        B: 'perdition:marmor_exaltatus',
+                        C: 'concatenationcore:experience_orb',
+                        D: 'tarotcards:the_hierophant',
+                        A: 'concatenationcore:silver_paper',
+                        E: 'reliquary:nebulous_heart'
+                }
+        ).keepIngredient('tarotcards:the_hierophant')
 
         // Botany Pots
         event.recipes.botanypots.crop(

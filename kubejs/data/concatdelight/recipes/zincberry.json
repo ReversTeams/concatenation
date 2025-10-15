@@ -9,7 +9,8 @@
   "result": [
     {
       "item": "createmetallurgy:zinc_dust",
-      "count": 1
+      "count": 1,
+      "chance": 0.8
     },
     {
       "item": "createmetallurgy:zinc_dust",

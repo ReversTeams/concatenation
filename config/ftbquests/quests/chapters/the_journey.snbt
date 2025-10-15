@@ -1931,11 +1931,18 @@
 			dependencies: ["7BB90DEFC570E065"]
 			description: ["A small charger that can be used to infuse materials with energy. The hand crank is the most frequently used way to powering it manually, but any RF producing device can also be connected to it, such as an adjacent solar panel."]
 			id: "2104737FF0D2E4E7"
-			rewards: [{
-				id: "401E363DCA11E5AB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "401E363DCA11E5AB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5657AF967CA8C40B"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "53F61C8D83637405"
@@ -8091,11 +8098,24 @@
 			]
 			hide_dependency_lines: true
 			id: "00E41146BE22270E"
-			rewards: [{
-				id: "3F3B1CD40F452AF7"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "3F3B1CD40F452AF7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2B19E8ED35300B41"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 1.15d
 			tasks: [{
 				id: "42C01D885FBAB066"
@@ -12477,7 +12497,7 @@
 					type: "item"
 				}
 			]
-			size: 0.85d
+			size: 1.0d
 			tasks: [{
 				id: "1FE055F622DF81EE"
 				item: {
@@ -14732,21 +14752,34 @@
 			dependencies: ["14DFB74A4390006D"]
 			description: ["This table has the necessary implements to study and transcribe spell scrolls to and from a spellbook. "]
 			id: "1AFE9864E4F4DFB0"
-			rewards: [{
-				id: "25F405BF2DBF63C7"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+			rewards: [
+				{
+					id: "25F405BF2DBF63C7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
 						}
-						type: "building_kit"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2CFBAF53ABAF88A9"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "irons_spellbooks:iss_guide_book"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5DA2022930B5A27F"
 				item: {
@@ -16185,9 +16218,16 @@
 				"24A205A470740B0F"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The &4Hanged Man Pathway&r delves mainly into relics, crafting and collecting them. To do thus, a substantial amount of monster hunting is required."
+				""
+				"On my time in the City of Sparkon, I met a reliquerer of this pathway, who had evolved from an archmage, as a couple of mages do."
+				"{@pagebreak}"
+				"His name is &cSantiago&r. He left me a couple of notes, and I've also written down a couple of our dialogues. Although he's a native to Sparkon, he spent more time outside of the city out on monster hunting raids to collect the rarest of ingredients. While he is officially an archmage as well as a reliquerer, he really did the bare minimum to be able to be pass as an archmage."
+				"{@pagebreak}"
+				"It is adjacent to the &eSun Pathway&r, &fStar Pathway&r and &4Moon Pathway&r."
+			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_until_deps_complete: true
 			id: "4E4E81226BED0E7C"
 			rewards: [{
 				id: "1BF473F4724D7AFF"
@@ -17068,8 +17108,8 @@
 					type: "item"
 				}
 			]
-			x: -20.4d
-			y: 11.9d
+			x: -22.099999999999998d
+			y: 11.475d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -20654,7 +20694,12 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
+			dependencies: ["550D01E852BFE592"]
+			description: [
+				"The Tome of Alkahestry is a relic that is a gate to many riches. It was once banned and branded as an unholy relic that attracts greed and disaster. Nowadays, this is still a rare artifact for reliquerers. &cSebastian&r hasn't found one yet. Wait, that's not &chis&r name. What was it again? Does this tome cause memory issues?"
+				""
+				"The Tome is a vessel for transmutation, able to turn redstone into countless imagineable things. We can also harness its power to craft numerous staffs. "
+			]
 			id: "7D281BDB1C2472F1"
 			rewards: [{
 				count: 5
@@ -20682,11 +20727,17 @@
 				}
 				type: "item"
 			}]
-			x: 26.699999999999996d
-			y: 20.749999999999996d
+			x: 29.324999999999996d
+			y: 23.575d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
+			description: [
+				"The Angelheart Vial is a reliquerer's main trick: cheating death a countless number of times. Or at least per the amount of vials they have stacked in their pockets."
+				"{@pagebreak}"
+				"Legends say an archmage once defied a god by using this vial. For lightning and divine kill could not bring him down, or at least to death, he was thrown into the void, his corpse never to be found."
+			]
+			hide_dependency_lines: true
 			id: "483A8C4A3EE05C52"
 			rewards: [{
 				count: 9
@@ -20707,6 +20758,13 @@
 				"23F4617A86D5F64E"
 				"483A8C4A3EE05C52"
 			]
+			description: [
+				"What a cool name. That's what I think of it at least."
+				""
+				"&c\"That's just the name of the artifact.\"&r"
+				""
+				"Surely there's a deeper meaning? What are phoenixes anyways, haven't seen one of those around. Phoenix Down is created when pouring angelheart onto an angelic feather, creating a more powerful, but less stackable way of cheating death."
+			]
 			id: "3BC974F6785A43B3"
 			rewards: [{
 				count: 5
@@ -20724,6 +20782,18 @@
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
+			description: [
+				"\"This seems like a cheap knockoff of the Tower card.\""
+				""
+				"&c\"No, no, no. This is where the effect of the Tower card originates. Ancient engineers once asked an ancient reliquer king to bring this ability to light.\"&r"
+				""
+				"\"An ancient reliquerer who was a king?\""
+				"{@pagebreak}"
+				"&c\"Reliquers were rarer back in the day, you know. They didn't have their massive parties or organized society to collect rare parts as we do.\"&r"
+				""
+				"\"Don't act as if you were old enough to have lived a thousand years ago.\""
+			]
+			hide_dependency_lines: true
 			id: "23F4617A86D5F64E"
 			rewards: [{
 				id: "44A9342C1349C618"
@@ -20739,7 +20809,12 @@
 			y: 17.349999999999998d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
+			dependencies: ["550D01E852BFE592"]
+			description: [
+				"I then asked this reliquerer if he had a relic that helped him mine? Surely that's something that only Technicians or Engineers have access to."
+				"{@pagebreak}"
+				"&c\"This lil' contraption is a rather simple but effective tool. It essentially acts as a reusable smart stick of dynamite. Just put a bit of gunpowder in it, point it at a patch of ground you don't like, then blam! Instant explosion. It's actually better than an actual explosion in a couple of ways, since it doesn't hurt the user and it doesn't blow up the stuff you actually want, like ores, so that you can harvest them at your own leisure. Though, there is the flaw that it doesn't deal any damage with the explosion itself, which led to me innovating one of my favorite creations to date.\"&r"
+			]
 			id: "471939DE22B5426B"
 			rewards: [{
 				count: 128
@@ -20753,11 +20828,20 @@
 				item: "reliquary:destruction_catalyst"
 				type: "item"
 			}]
-			x: 23.4d
-			y: 23.349999999999998d
+			x: 26.549999999999997d
+			y: 22.95d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"Ah, my lucky change. This coin is actually imbued with a decent amount of luck, and that's not just a vague claim! Riches and valuable experience just seem to find me a preferable owner ever since I created this relic. Fortunately, it has a way to deactivate the effect, as I would've pissed off quite a number of powerful people that just happen to have a lot of treasures on display in their chambers, haha.\"&r"
+				"{@pagebreak}"
+				"\"I've seen this coin in the hands of many people though.\""
+				""
+				"&c\"Well.. it's not unique, but it's certainly a relic!\"&r"
+				""
+				"\"You don't seem convincing.\""
+			]
 			id: "0901394AD3A5FDAB"
 			rewards: [{
 				id: "6124B6F0F9E2A86C"
@@ -20769,8 +20853,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: 24.4d
-			y: 20.849999999999998d
+			x: 23.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20785,24 +20869,31 @@
 				item: "reliquary:glacial_staff"
 				type: "item"
 			}]
-			x: 25.4d
-			y: 22.349999999999998d
+			x: 28.099999999999998d
+			y: 24.55d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
 			id: "728B9DCC6EEF04E2"
-			rewards: [{
-				id: "4C8DC2D214EA8F61"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4C8DC2D214EA8F61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0799553BDABACDF1"
+					item: "reliquary:infernal_tear"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "74C6E160ED0AF054"
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 28.4d
-			y: 22.349999999999998d
+			x: 31.099999999999998d
+			y: 24.55d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20831,8 +20922,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.4d
-			y: 22.849999999999998d
+			x: 30.099999999999998d
+			y: 25.05d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20853,8 +20944,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.4d
-			y: 22.849999999999998d
+			x: 29.099999999999998d
+			y: 25.05d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20870,16 +20961,17 @@
 				item: "reliquary:sojourner_staff"
 				type: "item"
 			}]
-			x: 28.9d
-			y: 20.849999999999998d
+			x: 31.0d
+			y: 23.0d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
+			dependencies: ["081070F7CBF61207"]
+			description: ["&c\"As someone who dabbles in brewing from time to time in order to make specialized ammunition, in the past I had found myself wanting for particular plants that are difficult for me to get more of out in the field. So, I ended up synthesizing this particular relic to help with my supply. It instantaneously grows whatever you're looking at, and if you use it to harvest a crop it simultaneously picks the whole batch as well. Saves me quite a bit of money when I'm looking for more ingredients!\"&r"]
 			id: "6D9C35A4B03D6421"
 			rewards: [{
-				id: "344A6F9058768822"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "5A3A2B4BB54E503C"
+				item: "reliquary:fertile_essence"
+				type: "item"
 			}]
 			tasks: [{
 				id: "6B8DE248E560EF11"
@@ -20900,8 +20992,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.4d
-			y: 21.849999999999998d
+			x: 27.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
@@ -20911,13 +21003,14 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "3AE1B123A7E8BF18"
 				item: "reliquary:lantern_of_paranoia"
 				type: "item"
 			}]
-			x: 30.4d
-			y: 20.849999999999998d
+			x: 33.0d
+			y: 23.0d
 		}
 		{
 			dependencies: [
@@ -20935,49 +21028,89 @@
 				item: "reliquary:salamander_eye"
 				type: "item"
 			}]
-			x: 30.4d
-			y: 22.349999999999998d
+			x: 33.099999999999994d
+			y: 24.55d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
+			description: [
+				"\"This looks like it could be used like in those firearms of the Judgement Pathway?\""
+				""
+				"&c\"Don't let its appearance fool you, this may look like a common pistol like yours, but this baby is actually a feat of magical engineering. Because of its components, its able to accept an incredible variety of magically manufactured ammunitions without malfunctioning!\""
+				"{@pagebreak}"
+				"&c\"I've personally created magic bullets that seek enemies, concussive rounds that explode, ammo that delivers potion payloads, and many more! My go-to ranged option as a reliquer. It's joined me on many a monster hunt and I wouldn't be nearly as successful as I am on them without it!\"&r"
+				""
+				"\"Aren't you a reliquerer though, why a gun?\""
+				""
+				"&c\"Reliquer.\"&r"
+				"{@pagebreak}"
+				"&c\"...Why is it shaped like a gun? Well, unlike those stuffy wizards and sorcerors you see all over the place here, I can recognize an ergonomic design when I see one. I don't have to like the techies to understand when they've made a good design choice. Increases the modularity quite a bit too!\"&r"
+				""
+				"\"Do you think you could make it cast spells as well now?\""
+			]
 			id: "4FB2DA70942ECABD"
-			rewards: [{
-				id: "5DF2AFD74B5E9557"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5DF2AFD74B5E9557"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "791C91D5259B91A0"
+					item: {
+						Count: 1
+						id: "reliquary:magazines/neutral_magazine"
+						tag: {
+							effects: [{
+								duration: 200
+								name: "minecraft:weakness"
+								potency: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "12558DDB5323CCDB"
 				item: "reliquary:handgun"
 				type: "item"
 			}]
-			x: 23.4d
-			y: 24.849999999999998d
+			x: 26.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
 			id: "66DB777A17822FE0"
 			rewards: [{
-				count: 16
+				count: 64
 				id: "3753D444E55F6C18"
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "16A8899AB02C7516"
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
-			x: 30.4d
-			y: 19.349999999999998d
+			x: 33.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
+			description: [
+				"I asked &cSantiago&r more about his so-called relics and the starting point of a reliquerer's craft. &c\"Well, if you're interested in fabricating relics of your own, then I'd say the very first thing you should get comfortable with crafting is the Void Tear. It isn't too difficult to scrounge up the materials, only really requiring a Ghast's tear, an Enderman's heart, a Slime's Pearl, and a bit of Lapis, but you should really stock up on the materials for it, since it's used as a base for many more complicated (and useful) relics.\"&r"
+				"{@pagebreak}"
+				"&c\"Not to say that it's completely worthless by itself, it can technically store infinite items! Only one item type at a time though. Regardless, this is absolutely the rookie reliquer's first steps.\"&r"
+			]
 			id: "081070F7CBF61207"
 			rewards: [{
-				id: "665662B978FE23C2"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 3
+				id: "5A4EAB0B44351A9A"
+				item: "reliquary:nebulous_heart"
+				type: "item"
 			}]
 			tasks: [{
 				id: "290562D519F4C6F2"
@@ -20992,11 +21125,11 @@
 				}
 				type: "item"
 			}]
-			x: 26.4d
-			y: 19.349999999999998d
+			x: 26.0d
+			y: 20.5d
 		}
 		{
-			dependencies: ["7D281BDB1C2472F1"]
+			dependencies: ["7EA2E0871C6D568C"]
 			id: "34DB9EBB5C296D71"
 			rewards: [{
 				count: 3
@@ -21035,7 +21168,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4E4E81226BED0E7C"]
+			dependencies: ["0901394AD3A5FDAB"]
+			description: [
+				"Magicbane is a relic with immense potential: it increases its power with each enchantment. It however has very low durability. Fortunately, by combining this with the Magician card, this is now unbreakable, an all-around upgrade to the giant golden sword even some mages still use up to this point."
+				""
+				"It also has a higher chance of obtaining rare and exotic materials from monsters."
+			]
 			id: "21E6CA24E283AF68"
 			rewards: [
 				{
@@ -21061,11 +21199,16 @@
 				}
 				type: "item"
 			}]
-			x: 24.4d
-			y: 23.349999999999998d
+			x: 23.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["21E6CA24E283AF68"]
+			description: [
+				"Out of all of the weapons I've come across on my travels, up until now, this probably makes the top 5. It uses Kestrel as a base, harvests the power of Magicbane using a transformative flower and when swung, shoots deadly beams with the power of the rending gale, summoning lightning strikes on hit."
+				"{@pagebreak}"
+				"I can proudly say I've been the one to create this relic. I invented a relic! The first of a kind the world has never seen before!"
+			]
 			hide_dependency_lines: true
 			id: "50F5D21769C1B356"
 			rewards: [{
@@ -21085,17 +21228,24 @@
 				}
 				type: "item"
 			}]
-			x: 25.4d
-			y: 24.349999999999998d
+			x: 24.15d
+			y: 25.874999999999996d
 		}
 		{
-			dependencies: ["7D281BDB1C2472F1"]
-			hide_dependency_lines: true
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"If you ever thought that enderpearls offered a distinct lack of options in forms of teleportation, this one might be a favorable pick for you. Instead of relying on strength of arm to dictate where you end up, the Ender Staff has 3 distinct modes that allow for more controlled self teleportation. It has a basic mode which launches an enderpearl as normal, but it also has a long range mode that discharges the projectile with significantly less regard for gravity, allowing for significantly further instant transportation. \"&r"
+				"{@pagebreak}"
+				"&c\"Additionally, it features a waypoint mode, which instantly sends you to the last Wraith Node you interacted with. Overall a very solid relic.\"&r"
+				""
+				"I've innovated a bit on the concept and on my first attempt, managed to somehow create a version of this staff that doesn't consume enderpearls! I noted down the recipe above. Sebastian was dumbfounded."
+			]
 			id: "4556ED8E14FEA0D9"
 			rewards: [{
-				id: "56F9ED2E74C246E7"
-				type: "xp_levels"
-				xp_levels: 1
+				count: 2
+				id: "15FDA056A838D981"
+				item: "reliquary:bat_wing"
+				type: "item"
 			}]
 			tasks: [{
 				id: "3DF268B58CB91994"
@@ -21119,12 +21269,11 @@
 				}
 				type: "item"
 			}]
-			x: 27.4d
-			y: 18.349999999999998d
+			x: 26.5d
+			y: 18.5d
 		}
 		{
-			dependencies: ["7D281BDB1C2472F1"]
-			hide_dependency_lines: true
+			dependencies: ["5AAC92BF084F5CC7"]
 			id: "7EA2E0871C6D568C"
 			rewards: [{
 				id: "78556DFB107D88E6"
@@ -21142,8 +21291,8 @@
 				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
-			x: 30.4d
-			y: 24.349999999999998d
+			x: 35.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -21426,6 +21575,7 @@
 		{
 			dependencies: ["57D021A05869800D"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "731126727DDCAC54"
 			rewards: [{
 				id: "0B0CA4411EA0108E"
@@ -22178,13 +22328,14 @@
 				item: "projecte:medium_covalence_dust"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "2AFD44BEC7DC9058"
 				item: "projecte:interdiction_torch"
 				type: "item"
 			}]
-			x: 32.4d
-			y: 19.349999999999998d
+			x: 33.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["33FC7F10A56757CB"]
@@ -22872,7 +23023,7 @@
 			description: [
 				"The Lantern is a useful light source whenever you wish to explore during the night, or go caving far underground. You can strap your lantern to your belt if you have to juggle between too many items."
 				""
-				"&a(Shift right click with a lantern in your hands)"
+				"&a(Equip into your curio belt slot or accessory slot)"
 			]
 			id: "2E7B48B182BBD94D"
 			rewards: [{
@@ -23255,7 +23406,7 @@
 			}]
 			title: "&6The World"
 			x: 0.0d
-			y: -18.25d
+			y: -19.25d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -23720,42 +23871,8 @@
 				}
 			]
 			tasks: [{
-				id: "365C6D02948F2BF1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Battery: 264
-							Memory: [ ]
-							Time: 22
-						}
-					}
-					id: "psi:cad"
-					tag: {
-						CapabilityData: {
-							Battery: 264
-							Memory: [ ]
-							Time: 22
-						}
-						componentASSEMBLY: {
-							Count: 1b
-							id: "psi:cad_assembly_ebony_psimetal"
-						}
-						componentBATTERY: {
-							Count: 1b
-							id: "psi:cad_battery_ultradense"
-						}
-						componentCORE: {
-							Count: 1b
-							id: "psi:cad_core_hyperclocked"
-						}
-						componentSOCKET: {
-							Count: 1b
-							id: "psi:cad_socket_transmissive"
-						}
-					}
-				}
-				match_nbt: true
+				id: "61657588CE32B2EE"
+				item: "psi:cad_assembly_ebony_psimetal"
 				type: "item"
 			}]
 			title: "Ebony CAD"
@@ -23780,42 +23897,8 @@
 				}
 			]
 			tasks: [{
-				id: "4A1337843046DCFB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Battery: 0
-							Memory: [ ]
-							Time: 0
-						}
-					}
-					id: "psi:cad"
-					tag: {
-						CapabilityData: {
-							Battery: 0
-							Memory: [ ]
-							Time: 0
-						}
-						componentASSEMBLY: {
-							Count: 1b
-							id: "psi:cad_assembly_ivory_psimetal"
-						}
-						componentBATTERY: {
-							Count: 1b
-							id: "psi:cad_battery_ultradense"
-						}
-						componentCORE: {
-							Count: 1b
-							id: "psi:cad_core_hyperclocked"
-						}
-						componentSOCKET: {
-							Count: 1b
-							id: "psi:cad_socket_transmissive"
-						}
-					}
-				}
-				match_nbt: true
+				id: "3FDE672ED7E3E411"
+				item: "psi:cad_assembly_ivory_psimetal"
 				type: "item"
 			}]
 			title: "Ivory CAD"
@@ -23945,7 +24028,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -20.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -24000,7 +24083,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -21.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -24033,9 +24116,9 @@
 			]
 			id: "272EF70CED6D9AD7"
 			rewards: [{
-				id: "254E402EEED33462"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "21EB7980AE35ADBF"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
 			}]
 			size: 1.2d
 			tasks: [{
@@ -24309,7 +24392,7 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: -11.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -24723,6 +24806,334 @@
 			title: "Summoning Scrolls"
 			x: 13.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["73F4AAF2267BB33B"]
+			description: [
+				"&o&7An extra note is posted over the page for quarries&r&r"
+				""
+				"&2The realm of Dis is well suited to the Hierophants' quarries, being an external world where destroying the environment doesn't matter, but quantities of ore still generate."
+				""
+				"&2Dis is quite the spooky place, with dark water, unknown lighting and barren wastelands of marble.&r"
+				"{@pagebreak}"
+				"&2Dis is known for being a quarrying dimension, but why isn't it a mining dimension? Well, as an outsider living being, the ores of Dis will slowly infect you until your sudden demise. As quarries are machines, this does not apply to them.&r"
+				""
+				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
+				"{@pagebreak}"
+				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
+			]
+			id: "3B2374CDE5BABCE0"
+			rewards: [{
+				count: 2
+				id: "6F634AE5B179CC6B"
+				item: "oreberriesreplanted:essence_berry_bush"
+				type: "item"
+			}]
+			subtitle: "Quarrying Dimension"
+			tasks: [
+				{
+					id: "12426E9F72310B54"
+					item: {
+						Count: 1
+						id: "perdition:dis"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3932F86B266DFF71"
+					item: "perdition:marmor_elevated"
+					type: "item"
+				}
+			]
+			title: "Door to Dis"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: ["&c\"The Infernal Tear is a sort-of-sidegrade sort-of-upgrade of the Void Tear. Instead of storing infinite of one item, the thing accepts all items, but get this! It converts anything placed inside into experience points. Definitely a nice pickup for getting rid of garbage that you pick up on your journeys, but it inherits the Void Tear's applicability in other relics' recipes. That's where I'd say its true value shines.\"&r"]
+			id: "550D01E852BFE592"
+			rewards: [{
+				count: 3
+				id: "2B1ADDB9B1F426C4"
+				item: "reliquary:witch_hat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "210D062819CD9386"
+				item: "reliquary:infernal_tear"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"The Emperor's Chalice is one of my more tame creations, merely acting as an infinite source of water. Definitely useful, just not too exciting for my tastes. I personally use it for filling my Apothecary Cauldron and sip from it when I'm thirsty. Just make sure you don't leave it upside down. I didn't appreciate the hit my funds got when I almost flooded an entire district...\"&r"
+				"{@pagebreak}"
+				"\"But isn't this the same as carrying two buckets of water?\""
+				""
+				"&c\"What?\"&r"
+				""
+				"\"You know, laws of physics.\""
+			]
+			id: "4128B0BDF74E7913"
+			rewards: [{
+				id: "394382D1B424C5C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "60A3D710A6915E96"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["081070F7CBF61207"]
+			description: [
+				"&c\"Oh, this meager thing? This was one of the first relics I had ever synthesized, experimenting with the properties of the Void Tear and first figuring out what was possible. It lobs harmful snowballs in the direction you point it, which isn't a terrible effect, but it's sort of outlived its usefulness in my arsenal. Still good against blazes, but not nearly as powerful as its 'older brother', so to speak.\""
+				"{@pagebreak}"
+				"&c\"Why do I still have it then? Well, call it a bit of sentimentality, hoarding, or whatever, but I've become attached to it. Also, you never know when some tricky beastie will just snatch whatever weapon you're using straight out of your hands. Never hurts to have a backup.\"&r"
+				""
+				"\"Isn't this just a handle for more powerful staffs though?\""
+			]
+			id: "2D16C6149B35A925"
+			rewards: [{
+				id: "445DFD06391020AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+						}
+					}
+					id: "reliquary:void_tear"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60F6F7E6EDDCB90C"
+				item: "reliquary:ice_magus_rod"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4128B0BDF74E7913"]
+			description: [
+				"&c\"While I was still in-training here in the city of Sparkon, I was actually learning the practices of the apothecary. While it didn't end up being the path I had stuck with, I still implement it in my routine since the methods are a little too valuable to just forget about. Instead of haphazardly stuffing ingredients one after another like many other brewers, apothecaries first grind a mix of components into a potion essence. \""
+				"{@pagebreak}"
+				"&c\"Each ingredient can correspond to multiple different effects, but they require at least 1 shared effect in order to be concentrated into the essence. Then, we put the essence into the cauldron, add any universal reagents as desired, then throw in a bit of Nether Wart. This nets us 3 potions of significantly increased potency compared to their contemporaries!\"&r"
+			]
+			id: "30753449F4BD9E2A"
+			rewards: [{
+				id: "6DE2D735DFB6B7C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "0C448BE498DDD1B2"
+					item: "reliquary:apothecary_cauldron"
+					type: "item"
+				}
+				{
+					id: "7E1646F256B3AD04"
+					item: "reliquary:apothecary_mortar"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["272EF70CED6D9AD7"]
+			id: "135A7F936071D3C8"
+			rewards: [{
+				id: "3936F0F32C66FF79"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "335A5DD66015B900"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["272EF70CED6D9AD7"]
+			id: "4385A10ED5E8ACC7"
+			rewards: [{
+				id: "252AAF88CA7989DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2821ACB30CF05A3B"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["407BC866E1868568"]
+			hide_until_deps_complete: true
+			id: "01A3746532D27C66"
+			rewards: [{
+				id: "0C2E45E86E8FE736"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "728F91C4BFEFCFDE"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7EB335BB570C5F7F"]
+			description: [
+				"Gemstones are brittle and will shatter under the force of a multiservo press. For the longest of times, Technicians have been meticulously crafting gemstone gears by hand."
+				""
+				"A process using dust and resin to mold the gear and then cool it down has made the process viable for mass production."
+			]
+			id: "3F671ACA24E5D729"
+			rewards: [{
+				count: 3
+				id: "08E24A6999F22E8E"
+				item: "thermal:diamond_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54537C47634C87CD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:diamond_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:lapis_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:emerald_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:quartz_gear"
+							}
+						]
+					}
+				}
+				title: "Any Gemstone Gear"
+				type: "item"
+			}]
+			title: "Gemstone Gears"
+			x: -19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7923120C58E4B567"]
+			description: ["There are four kinds of very useful artificial spores that can be grown in the phytogenic insulator. These can be cooked into either redstone, glowstone, gunpowder, or slime."]
+			id: "3447434D458C536E"
+			rewards: [{
+				count: 4
+				id: "4E69CCBAF26CE80D"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ABC8C8F8CF4D201"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:redstone_mushroom_spores"
+							}
+							{
+								Count: 1b
+								id: "thermal:slime_mushroom_spores"
+							}
+							{
+								Count: 1b
+								id: "thermal:gunpowder_mushroom_spores"
+							}
+							{
+								Count: 1b
+								id: "thermal:glowstone_mushroom_spores"
+							}
+						]
+					}
+				}
+				title: "Any Spores"
+				type: "item"
+			}]
+			title: "Spores"
+			x: -20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["679D7B535BE7E8B2"]
+			id: "4D3CE32F6118801D"
+			tasks: [{
+				id: "7471D4FD52EF0352"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["7A4DEEAD97A49B3F"]
+			description: ["The Enchantment Mover is used to upgrade the quarry with enchantments. You can move enchantments from a pickaxe to the quarry."]
+			id: "4FE4558E4BE40ED1"
+			rewards: [{
+				id: "1B2D2519B22603A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0C009A38A922F53F"
+				item: "quarryplus:mover"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 4.5d
 		}
 	]
 	title: "The Journey"

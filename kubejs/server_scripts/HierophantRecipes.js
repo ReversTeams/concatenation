@@ -24,7 +24,9 @@ ServerEvents.recipes(event => {
                 'hammerlib:gears/iron',
                 'hammerlib:gears/gold',
                 'hammerlib:gears/diamond',
-                'hammerlib:gears/netherite'
+                'hammerlib:gears/netherite',
+                'perdition:marmor_elevated',
+                'perdition:dis'
 
         ]
 
@@ -54,6 +56,7 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:diamond_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:emerald_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:quartz_gear', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'thermal:bronze_ingot', type: 'minecraft:crafting_shapeless' })
 
 
         event.shaped(
@@ -1313,7 +1316,7 @@ ServerEvents.recipes(event => {
         )
 
         event.shaped(
-                Item.of('thermal:lead_gear'),
+                Item.of('thermal:lead_gear', 2),
                 [
                         'ABC',
                         'CCC',
@@ -1618,6 +1621,91 @@ ServerEvents.recipes(event => {
                         D: 'elementalcraft:weak_earth_shard'
                 }
         )
+        event.shaped(
+                Item.of('perdition:marmor_elevated', 2),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:stone',
+                        B: 'minecraft:quartz_block',
+                        C: 'minecraft:diamond'
+                }
+        )
+        event.shaped(
+                Item.of('perdition:dis'),
+                [
+                        ' A ',
+                        'BCB',
+                        ' B '
+                ],
+                {
+                        B: 'concatenationcore:galvanized_iron',
+                        A: '#concatenation:dis_catalyst',
+                        C: 'concatenationcore:alclad'
+                }
+        )
+        event.shaped(
+                Item.of('perdition:dis'),
+                [
+                        ' A ',
+                        'BCB',
+                        ' B '
+                ],
+                {
+                        C: 'minecraft:amethyst_shard',
+                        A: '#concatenation:dis_catalyst',
+                        B: 'concatenationcore:experience_orb'
+                }
+        )
+        event.shaped(
+                Item.of('tarotcards:the_tower'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'thermal:bronze_ingot',
+                        A: 'concatenationcore:gold_paper',
+                        B: 'createdeco:andesite_hull',
+                        D: 'tarotcards:the_hierophant'
+                }
+        ).keepIngredient('tarotcards:the_hierophant')
+        event.shapeless(
+                Item.of('thermal:bronze_ingot', 9),
+                [
+                        'thermal:bronze_block'
+                ]
+        )
+        event.shaped(
+                Item.of('perdition:marmor_elevated', 8),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'perdition:marmor_exaltatus',
+                        B: 'minecraft:diamond'
+                }
+        )
+        // event.shaped(
+        //         Item.of('quarryplus:mover'),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'ABA'
+        //         ],
+        //         {
+        //                 D: 'minecraft:enchanting_table',
+        //                 B: 'thermal:emerald_gear',
+        //                 A: 'tconstruct:hepatizon_ingot',
+        //                 C: 'thermal:diamond_gear'
+        //         }
+        // )
 
         event.recipes.minecraft.blasting(
                 'minecraft:glass',
