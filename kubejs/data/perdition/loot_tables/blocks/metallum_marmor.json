@@ -124,7 +124,7 @@
         {
           "type": "minecraft:item",
           "name": "thermal:raw_tin",
-          "weight": 2,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
@@ -143,13 +143,13 @@
         {
           "type": "minecraft:item",
           "name": "thermal:raw_lead",
-          "weight": 2,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 4
               }
             },
             {
@@ -181,7 +181,7 @@
         {
           "type": "minecraft:item",
           "name": "thermal:raw_nickel",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -200,13 +200,13 @@
         {
           "type": "minecraft:item",
           "name": "create:raw_zinc",
-          "weight": 2,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 5
               }
             },
             {

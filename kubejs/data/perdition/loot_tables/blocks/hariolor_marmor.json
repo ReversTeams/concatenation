@@ -23,6 +23,20 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "mekanism:raw_uranium",
           "weight": 3,
           "functions": [
@@ -30,7 +44,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 4
+                "max": 2
               }
             },
             {
@@ -43,7 +57,7 @@
         {
           "type": "minecraft:item",
           "name": "elementalcraft:inert_crystal",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
@@ -62,7 +76,7 @@
         {
           "type": "minecraft:item",
           "name": "rftoolsbase:dimensionalshard",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
@@ -81,7 +95,7 @@
         {
           "type": "minecraft:item",
           "name": "tfmg:raw_lithium",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",

@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
                 'concatenationcore:gold_paper',
                 'travelerscompass:travelerscompass',
                 'explorerscompass:explorerscompass',
-                'naturescompass:naturescompass'
+                'naturescompass:naturescompass',
+                'born_in_chaos_v1:eternal_candy'
         ]
 
         remove.forEach(item => {
@@ -459,6 +460,25 @@ ServerEvents.recipes(event => {
                         F: 'born_in_chaos_v1:bone_heart'
                 }
         ).keepIngredient('tarotcards:wheel_of_fortune')
+        event.shaped(
+                Item.of('born_in_chaos_v1:eternal_candy'),
+                [
+                        'ABC',
+                        'DEF',
+                        'GHI'
+                ],
+                {
+                        B: 'born_in_chaos_v1:chocolate_heart',
+                        F: 'born_in_chaos_v1:coffee_candy',
+                        G: 'tarotcards:the_empress',
+                        D: 'born_in_chaos_v1:mint_ice_cream',
+                        E: 'born_in_chaos_v1:transmuting_elixir',
+                        A: 'born_in_chaos_v1:caramel_pepper',
+                        H: 'minecraft:stick',
+                        C: 'born_in_chaos_v1:gummy_vampire_teeth',
+                        I: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:the_empress').keepIngredient('tarotcards:death')
 
         event.shaped(
                 Item.of('born_in_chaos_v1:dark_upgrade', 3),
@@ -785,6 +805,16 @@ ServerEvents.recipes(event => {
                         'ars_nouveau:caster_tome'
                 ]
         )
+        event.shapeless(
+                Item.of('concatenationcore:fortune_fragment'),
+                [
+                        'concatenationcore:cutting_tool',
+                        '#irons_spellbooks:salvageable_curio',
+                        '#irons_spellbooks:salvageable_curio',
+                        '#irons_spellbooks:salvageable_curio',
+                        '#irons_spellbooks:salvageable_curio'
+                ]
+        )
         event.shaped(
                 Item.of('explorerscompass:explorerscompass'),
                 [
@@ -823,5 +853,42 @@ ServerEvents.recipes(event => {
                 {
                         A: 'perdition:marmor_exaltatus'
                 }
+        )
+
+        event.shapeless(
+                Item.of(
+                        "concatenationcore:full_pentacles",
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;640975409,-1649242158,2093438149,1748160931],Slot:"curio"}]}'
+                ),
+                [
+                        'concatenationcore:full_pentacles'
+                ]
+        )
+        event.shapeless(
+                Item.of(
+                        "concatenationcore:full_swords",
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1987685943,640028002,1337522698,-174613559],Slot:"curio"}]}'
+                ),
+                [
+                        'concatenationcore:full_swords'
+                ]
+        )
+        event.shapeless(
+                Item.of(
+                        'concatenationcore:full_wands',
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1204986711,1002462118,-1782657419,420111003],Slot:"curio"}]}'
+                ),
+                [
+                        'concatenationcore:full_wands'
+                ]
+        )
+        event.shapeless(
+                Item.of(
+                        "concatenationcore:full_cups",
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;1432871981,202948320,-1124753125,99443156],Slot:"curio"}]}'
+                ),
+                [
+                        'concatenationcore:full_cups'
+                ]
         )
 });

@@ -352,6 +352,17 @@
         "value": 100
       }
     },
+    "strangematter:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "tconstruct:generic.bouncy": {
       "enabled": false,
       "min": {

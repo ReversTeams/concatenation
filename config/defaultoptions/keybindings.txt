@@ -145,6 +145,12 @@ key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown:NONE
 key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown:NONE
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:NONE
 key_ponder.keyinfo.ponder:key.keyboard.w:NONE
+key_key.clientsort.edit:key.keyboard.unknown:NONE
+key_key.clientsort.cancelAuto:key.keyboard.unknown:NONE
+key_key.clientsort.op.sort:key.mouse.middle:NONE
+key_key.clientsort.op.stackFill:key.keyboard.unknown:NONE
+key_key.clientsort.op.matchTransfer:key.keyboard.unknown:NONE
+key_key.clientsort.op.transfer:key.keyboard.unknown:NONE
 key_key.curios.open.desc:key.keyboard.unknown:NONE
 key_key.veinmining.activate.desc:key.keyboard.unknown:NONE
 key_key.createbigcannons.pitch_mode:key.keyboard.unknown:NONE
@@ -174,7 +180,7 @@ key_key.ars_nouveau.open_book:key.keyboard.n:NONE
 key_key.ars_nouveau.selection_hud:key.keyboard.x:NONE
 key_key.ars_nouveau.next_slot:key.keyboard.x:NONE
 key_key.ars_nouveau.previous_slot:key.keyboard.z:NONE
-key_key.ars_nouveau.head_curio_hotkey:key.keyboard.unknown:NONE
+key_key.ars_nouveau.head_curio_hotkey:key.keyboard.g:NONE
 key_key.ars_nouveau.qc1:key.keyboard.unknown:NONE
 key_key.ars_nouveau.qc2:key.keyboard.unknown:NONE
 key_key.ars_nouveau.qc3:key.keyboard.unknown:NONE
@@ -264,7 +270,7 @@ key_tfmg.keyinfo.transmission_shift_up:key.keyboard.v:NONE
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.c:NONE
 key_tfmg.keyinfo.custom_button:key.keyboard.b:NONE
 key_tfmg.keyinfo.engine_start:key.keyboard.i:NONE
-key_key.jade.config:key.keyboard.apostrophe:NONE
+key_key.jade.config:key.keyboard.unknown:NONE
 key_key.jade.show_overlay:key.keyboard.keypad.1:NONE
 key_key.jade.toggle_liquid:key.keyboard.unknown:NONE
 key_key.jade.show_recipes:key.keyboard.keypad.3:NONE

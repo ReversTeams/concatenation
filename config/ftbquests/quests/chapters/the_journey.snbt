@@ -240,6 +240,7 @@
 			invisible: true
 			rewards: [
 				{
+					auto: "invisible"
 					id: "37C0B3648EEE3AC7"
 					type: "xp_levels"
 					xp_levels: 1
@@ -270,7 +271,7 @@
 				value: 5000
 			}]
 			title: "Fool Pathway"
-			x: 0.25d
+			x: 0.35d
 			y: -2.5d
 		}
 		{
@@ -13080,16 +13081,28 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "3E7C68B771CF893D"
+				id: "5C654D93AB09BED5"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "integratedterminals:part_terminal_storage"
+							}
+							{
+								Count: 1b
+								id: "integratedterminals:part_terminal_crafting_job"
+							}
+							{
+								Count: 1b
+								id: "integratedscripting:part_terminal_scripting"
+							}
+						]
 					}
-					id: "integratedterminals:part_terminal_storage"
 				}
+				title: "Any Terminal"
 				type: "item"
 			}]
 			x: -19.0d
@@ -24809,11 +24822,15 @@
 				""
 				"&2The realm of Dis is well suited to the Hierophants' quarries, being an external world where destroying the environment doesn't matter, but quantities of ore still generate."
 				""
-				"&2Dis is quite the spooky place, with dark water, unknown lighting and barren wastelands of marble.&r"
+				"&2Dis is quite the spooky place, with dark water, unknown lighting and barren wastelands of marble. I made a standardized portal to enter, ressembling the netherworld's own.&r"
 				"{@pagebreak}"
 				"&2Dis is known for being a quarrying dimension, but why isn't it a mining dimension? Well, as an outsider living being, the ores of Dis will slowly infect you until your sudden demise. As quarries are machines, this does not apply to them.&r"
 				""
 				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
+				"{@pagebreak}"
+				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. The marble is still very useful, though. It can be compacted and then crushed into various powders. &r"
+				""
+				"&2The apatite powder which can be a result can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
 				"{@pagebreak}"
 				"&2How did the door to Dis open? While trying to open a rift, I seem to have pierced through some kind of barrier formed from gray fog. My rift blade broke, but I ended up in this place. With the quartz and diamonds I had, I turned some of this normal marble into an elevated one, which someone managed to turn into a portal. After years of researching how to return, I've finally done it.&r"
 			]
@@ -24991,6 +25008,7 @@
 		}
 		{
 			dependencies: ["407BC866E1868568"]
+			description: [""]
 			hide_until_deps_complete: true
 			id: "01A3746532D27C66"
 			rewards: [{

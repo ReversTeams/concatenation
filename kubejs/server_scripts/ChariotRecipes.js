@@ -13,7 +13,8 @@ ServerEvents.recipes(event => {
                 'littlelogistics:vacuum_barge',
                 'littlecontraptions:contraption_barge',
                 'littlelogistics:barge',
-                'littlelogistics:barrel_barge'
+                'littlelogistics:barrel_barge',
+                'immersive_aircraft:engine'
         ]
 
         remove.forEach(item => {

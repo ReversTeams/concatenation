@@ -1,0 +1,199 @@
+{
+  "options": {
+    "interactionInterval": 10,
+    "useServerAcceleration": true,
+    "useClientFallback": false,
+    "optimizeCreativeSorting": true,
+    "autoOpDelayPlayer": 2,
+    "autoOpDelayContainer": 2,
+    "hotbarScope": "HOTBAR",
+    "extraSlotScope": "NONE",
+    "bundlesUseLeftClick": false,
+    "alwaysMatchByType": false,
+    "typeMatchTags": [
+      "enchantable/weapon",
+      "enchantable/mining",
+      "enchantable/armor"
+    ],
+    "sortOrderStr": "creative",
+    "shiftSortOrderStr": "quantity",
+    "ctrlSortOrderStr": "alphabet",
+    "altSortOrderStr": "rawId",
+    "useStartOverrides": true,
+    "startOverrideItems": [],
+    "useEndOverrides": true,
+    "endOverrideItems": [],
+    "playSoundSort": false,
+    "playSoundOther": false,
+    "interactionSound": "minecraft:block.note_block.xylophone",
+    "soundInterval": 1,
+    "soundPitchMin": 0.5,
+    "soundPitchMax": 2.0,
+    "soundVolume": 0.2,
+    "allowSoundOverlap": true,
+    "isolateKeybinds": true,
+    "showButtons": true,
+    "firstButtonOp": "SORT",
+    "secondButtonOp": "STACK_FILL",
+    "thirdButtonOp": "MATCH_TRANSFER",
+    "fourthButtonOp": "TRANSFER",
+    "layoutOffset": {
+      "x": -27,
+      "y": -2
+    },
+    "classPolicies": {
+      "com.progwml6.ironchest.common.inventory.IronChestMenu": {
+        "className": "com.progwml6.ironchest.common.inventory.IronChestMenu",
+        "buttonOffset": {
+          "x": 2,
+          "y": 37
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "className": "com.simibubi.create.content.equipment.toolbox.ToolboxMenu",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "com.tiviacz.travelersbackpack.inventory.menu.BackpackSettingsMenu": {
+        "className": "com.tiviacz.travelersbackpack.inventory.menu.BackpackSettingsMenu",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "com.tom.storagemod.menu.CraftingTerminalMenu": {
+        "className": "com.tom.storagemod.menu.CraftingTerminalMenu",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "com.tom.storagemod.menu.StorageTerminalMenu": {
+        "className": "com.tom.storagemod.menu.StorageTerminalMenu",
+        "sortPolicy": "NONE",
+        "stackFillPolicy": "NONE",
+        "matchTransferPolicy": "NONE",
+        "transferPolicy": "NONE",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "info.u_team.useful_backpacks.menu.BackpackMenu": {
+        "className": "info.u_team.useful_backpacks.menu.BackpackMenu",
+        "buttonOffset": {
+          "x": 2,
+          "y": -4
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "moze_intel.projecte.gameObjs.container.AlchChestContainer": {
+        "className": "moze_intel.projecte.gameObjs.container.AlchChestContainer",
+        "buttonOffset": {
+          "x": 3,
+          "y": -3
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "net.minecraft.world.entity.player.Inventory": {
+        "className": "net.minecraft.world.entity.player.Inventory",
+        "buttonOffset": {
+          "x": 2,
+          "y": -4
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND",
+        "matchTransferPolicy": "KEYBIND",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "net.minecraft.world.inventory.ChestMenu": {
+        "className": "net.minecraft.world.inventory.ChestMenu",
+        "buttonOffset": {
+          "x": 1,
+          "y": -14
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "net.minecraft.world.inventory.HopperMenu": {
+        "className": "net.minecraft.world.inventory.HopperMenu",
+        "sortPolicy": "KEYBIND",
+        "stackFillPolicy": "KEYBIND",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "net.minecraft.world.inventory.HorseInventoryMenu": {
+        "className": "net.minecraft.world.inventory.HorseInventoryMenu",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND",
+        "matchTransferPolicy": "KEYBIND",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": [
+          0
+        ]
+      },
+      "net.minecraft.world.inventory.PlayerEnderChestContainer": {
+        "className": "net.minecraft.world.inventory.PlayerEnderChestContainer",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "net.minecraft.world.inventory.ShulkerBoxMenu": {
+        "className": "net.minecraft.world.inventory.ShulkerBoxMenu",
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      },
+      "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity": {
+        "className": "net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity",
+        "buttonOffset": {
+          "x": 36,
+          "y": -14
+        },
+        "sortPolicy": "KEYBIND_BUTTON",
+        "stackFillPolicy": "KEYBIND_BUTTON",
+        "matchTransferPolicy": "KEYBIND_BUTTON",
+        "transferPolicy": "KEYBIND_BUTTON",
+        "autoOpOther": false,
+        "ignoredSlots": []
+      }
+    }
+  }
+}

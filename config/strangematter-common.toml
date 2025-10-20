@@ -1,0 +1,406 @@
+
+#World Generation Settings
+[worldgen]
+
+	#Anomaly Spawn Configuration
+	#Enable/disable individual anomaly types and configure their spawn rarity.
+	#Rarity values represent 1/N chance per chunk (higher = rarer).
+	#For example, rarity of 500 means 1 in 500 chunks will spawn this anomaly.
+	[worldgen.anomalies]
+		#Enable Gravity Anomaly world generation
+		enableGravityAnomaly = true
+		#Gravity Anomaly spawn rarity (1/N chance per chunk)
+		#Range: 1 ~ 100000
+		gravityAnomalyRarity = 500
+		#Enable Temporal Bloom world generation
+		enableTemporalBloom = true
+		#Temporal Bloom spawn rarity (1/N chance per chunk)
+		#Range: 1 ~ 100000
+		temporalBloomRarity = 500
+		#Enable Warp Gate world generation
+		enableWarpGate = true
+		#Warp Gate spawn rarity (1/N chance per chunk)
+		#Range: 1 ~ 100000
+		warpGateRarity = 400
+		#Enable Energetic Rift world generation
+		enableEnergeticRift = true
+		#Energetic Rift spawn rarity (1/N chance per chunk)
+		#Range: 1 ~ 100000
+		energeticRiftRarity = 500
+		#Enable Echoing Shadow world generation
+		enableEchoingShadow = true
+		#Echoing Shadow spawn rarity (1/N chance per chunk)
+		#Range: 1 ~ 100000
+		echoingShadowRarity = 600
+		#Enable Thoughtwell world generation
+		enableThoughtwell = true
+		#Thoughtwell spawn rarity (1/N chance per chunk)
+		#Range: 1 ~ 100000
+		thoughtwellRarity = 500
+
+	#Ore Generation Configuration
+	[worldgen.ores]
+		#Enable Resonite Ore world generation
+		enableResoniteOre = false
+		#Number of Resonite Ore veins to attempt to generate per chunk
+		#Range: 0 ~ 64
+		resoniteOreVeinsPerChunk = 0
+
+	#Terrain Modification Configuration
+	#Settings for how anomalies modify the terrain around them
+	[worldgen.terrain]
+		#Enable Anomalous Grass generation around anomalies
+		enableAnomalousGrass = true
+		#Chance (0.0-1.0) for Resonite Ore to spawn near anomalies
+		#Range: 0.0 ~ 1.0
+		resoniteOreSpawnChanceNearAnomaly = 0.1
+		#Chance (0.0-1.0) for Anomaly Shard Ore to spawn near anomalies
+		#Range: 0.0 ~ 1.0
+		shardOreSpawnChanceNearAnomaly = 0.01
+
+#Anomaly Effects Configuration
+#Control the behavior and strength of anomaly effects
+[anomaly_effects]
+
+	#Gravity Anomaly Effect Settings
+	[anomaly_effects.gravity_anomaly]
+		#Enable Gravity Anomaly effects (levitation)
+		enableEffects = true
+		#Levitation effect radius in blocks
+		#Range: 1.0 ~ 32.0
+		levitationRadius = 24.0
+		#Levitation force strength (higher = stronger)
+		#Range: 0.01 ~ 1.0
+		levitationForce = 0.5
+		#Research points granted when scanned
+		#Range: 1 ~ 1000
+		researchPoints = 10
+
+	#Temporal Bloom Effect Settings
+	[anomaly_effects.temporal_bloom]
+		#Enable Temporal Bloom effects (crop growth/mob transformation)
+		enableEffects = true
+		#Effect radius in blocks
+		#Range: 1.0 ~ 32.0
+		effectRadius = 24.0
+		#Maximum crop growth stages to add/remove (±N)
+		#Range: 1 ~ 10
+		cropGrowthStages = 2
+		#Cooldown between crop effects in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 1200
+		cropCooldown = 100
+		#Cooldown between mob transformations in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 1200
+		mobCooldown = 200
+		#Research points granted when scanned
+		#Range: 1 ~ 1000
+		researchPoints = 10
+
+	#Energetic Rift Effect Settings
+	[anomaly_effects.energetic_rift]
+		#Enable Energetic Rift effects (lightning/zapping)
+		enableEffects = true
+		#Entity zap radius in blocks
+		#Range: 1.0 ~ 32.0
+		zapRadius = 24.0
+		#Lightning rod detection radius in blocks
+		#Range: 1.0 ~ 32.0
+		lightningRadius = 8.0
+		#Zap damage in half-hearts (2.0 = 1 heart)
+		#Range: 0.5 ~ 20.0
+		zapDamage = 1.0
+		#Cooldown between zaps in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 1200
+		zapCooldown = 40
+		#Cooldown between lightning strikes in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 1200
+		lightningCooldown = 200
+		#Research points granted when scanned
+		#Range: 1 ~ 1000
+		researchPoints = 10
+
+	#Warp Gate Effect Settings
+	[anomaly_effects.warp_gate]
+		#Enable Warp Gate effects (teleportation)
+		enableEffects = true
+		#Teleport activation radius in blocks
+		#Range: 0.5 ~ 16.0
+		teleportRadius = 2.0
+		#Cooldown between teleports in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 1200
+		teleportCooldown = 100
+		#Research points granted when scanned
+		#Range: 1 ~ 1000
+		researchPoints = 10
+
+	#Echoing Shadow Effect Settings
+	[anomaly_effects.echoing_shadow]
+		#Enable Echoing Shadow effects (light absorption/mob spawning)
+		enableEffects = true
+		#Effect radius in blocks
+		#Range: 1.0 ~ 32.0
+		effectRadius = 16.0
+		#Light absorption strength (0.0 = none, 1.0 = full)
+		#Range: 0.0 ~ 1.0
+		lightAbsorption = 0.8
+		#Mob spawn rate multiplier in shadow area
+		#Range: 1.0 ~ 10.0
+		mobSpawnBoost = 1.5
+		#Research points granted when scanned
+		#Range: 1 ~ 1000
+		researchPoints = 10
+
+	#Thoughtwell Effect Settings
+	[anomaly_effects.thoughtwell]
+		#Enable Thoughtwell effects (confusion)
+		enableEffects = true
+		#Effect radius in blocks
+		#Range: 1.0 ~ 32.0
+		effectRadius = 28.0
+		#Confusion effect duration in ticks (20 ticks = 1 second)
+		#Range: 20 ~ 1200
+		confusionDuration = 100
+		#Research points granted when scanned
+		#Range: 1 ~ 1000
+		researchPoints = 10
+
+#Energy System Configuration
+#Control energy generation, consumption, and storage for machines
+[energy]
+
+	#Resonant Burner Settings
+	[energy.resonant_burner]
+		#Energy generated per tick (RE/t)
+		#Range: 1 ~ 10000
+		energyPerTick = 20
+		#Internal energy storage capacity (RE)
+		#Range: 100 ~ 1000000
+		energyStorage = 10000
+		#Energy transfer rate to adjacent blocks per tick (RE/t)
+		#Range: 1 ~ 100000
+		transferRate = 1000
+
+	#Resonance Condenser Settings
+	[energy.resonance_condenser]
+		#Energy consumed per tick (RE/t)
+		#Range: 1 ~ 1000
+		energyPerTick = 2
+		#Internal energy storage capacity (RE)
+		#Range: 100 ~ 100000
+		energyStorage = 1000
+		#Ticks required to progress shard generation (lower = faster)
+		#Range: 1 ~ 600
+		progressSpeed = 15
+
+	#Paradoxical Energy Cell Settings
+	[energy.paradoxical_energy_cell]
+		#Energy transfer rate to adjacent blocks per tick (RE/t)
+		#Range: 1 ~ 100000
+		transferRate = 1000
+
+	#Reality Forge Settings
+	[energy.reality_forge]
+		#Crafting time in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 1200
+		craftTime = 100
+
+	[energy.riftStabilizer]
+		#Energy generated per tick
+		#Range: 1 ~ 10000
+		energyPerTick = 100
+		#Maximum energy storage
+		#Range: 1000 ~ 1000000
+		energyStorage = 100000
+		#Energy transfer rate per tick
+		#Range: 1 ~ 10000
+		transferRate = 1000
+		#Radius to detect Energetic Rift anomalies
+		#Range: 1.0 ~ 64.0
+		radius = 16.0
+		#Maximum number of Rift Stabilizers that can be powered by a single Energetic Rift
+		#Range: 1 ~ 10
+		maxPerRift = 3
+
+	#Resonant Conduit Settings
+	[energy.resonant_conduit]
+		#Energy transfer rate per tick through conduits (RE/t)
+		#Range: 1 ~ 100000
+		transferRate = 500
+		#Network cache update interval in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 600
+		networkUpdateInterval = 20
+		#Maximum network size before performance optimization kicks in
+		#Range: 4 ~ 1000
+		maxNetworkSize = 64
+		#Energy transfer penalty per block distance (0.0 = no penalty, 0.1 = 10% loss per block)
+		#Range: 0.0 ~ 1.0
+		distancePenalty = 0.05
+
+#Research System Configuration
+#Control research costs and progression
+[research]
+	#Global multiplier for all research node costs (1.0 = default, 0.5 = half cost, 2.0 = double cost)
+	#Range: 0.0 ~ 10.0
+	costMultiplier = 1.2
+
+	#Individual Research Node Costs
+	#Override costs for specific research nodes. Set to -1 to use default values.
+	#Each node can require multiple research types. Values are point costs.
+	[research.node_costs]
+		#Anomaly Resonator total cost (-1 for default: Energy 10, Space 10)
+		#Range: -1 ~ 10000
+		anomalyResonator = -1
+		#Resonance Condenser total cost (-1 for default: Energy 25, Space 15)
+		#Range: -1 ~ 10000
+		resonanceCondenser = -1
+		#Containment Basics total cost (-1 for default: Energy 20, Shadow 15)
+		#Range: -1 ~ 10000
+		containmentBasics = -1
+		#Echoform Imprinter total cost (-1 for default: Shadow 25, Cognition 20)
+		#Range: -1 ~ 10000
+		echoformImprinter = -1
+		#Reality Forge total cost (-1 for default: Energy 5, Space 5, Time 5)
+		#Range: -1 ~ 10000
+		realityForge = -1
+		#Warp Gun total cost (-1 for default: Space 15, Energy 10)
+		#Range: -1 ~ 10000
+		warpGun = -1
+		#Graviton Hammer total cost (-1 for default: Gravity 15, Energy 10)
+		#Range: -1 ~ 10000
+		gravitonHammer = -1
+		#Charge time for level 1 in ticks (20 ticks = 1 second)
+		#Range: 1 ~ 200
+		gravitonHammerChargeLevel1Time = 20
+		#Charge time for level 2 in ticks (40 ticks = 2 seconds)
+		#Range: 1 ~ 200
+		gravitonHammerChargeLevel2Time = 40
+		#Charge time for level 3 in ticks (60 ticks = 3 seconds)
+		#Range: 1 ~ 200
+		gravitonHammerChargeLevel3Time = 60
+		#Tunnel depth for charge level 1
+		#Range: 1 ~ 50
+		gravitonHammerTunnelDepthLevel1 = 3
+		#Tunnel depth for charge level 2
+		#Range: 1 ~ 50
+		gravitonHammerTunnelDepthLevel2 = 6
+		#Tunnel depth for charge level 3
+		#Range: 1 ~ 50
+		gravitonHammerTunnelDepthLevel3 = 9
+		#Stasis Projector total cost (-1 for default: Gravity 5, Time 5)
+		#Range: -1 ~ 10000
+		stasisProjector = -1
+		#Rift Stabilizer total cost (-1 for default: Energy 20, Space 10)
+		#Range: -1 ~ 10000
+		riftStabilizer = -1
+		#Gravity Anomalies research cost (-1 for default: Gravity 5)
+		#Range: -1 ~ 10000
+		gravityAnomalies = -1
+		#Temporal Anomalies research cost (-1 for default: Time 5)
+		#Range: -1 ~ 10000
+		temporalAnomalies = -1
+		#Spatial Anomalies research cost (-1 for default: Space 5)
+		#Range: -1 ~ 10000
+		spatialAnomalies = -1
+		#Energy Anomalies research cost (-1 for default: Energy 5)
+		#Range: -1 ~ 10000
+		energyAnomalies = -1
+		#Shadow Anomalies research cost (-1 for default: Shadow 5)
+		#Range: -1 ~ 10000
+		shadowAnomalies = -1
+		#Cognitive Anomalies research cost (-1 for default: Cognition 5)
+		#Range: -1 ~ 10000
+		cognitiveAnomalies = -1
+		#Levitation Pad total cost (-1 for default: Gravity 15, Energy 10)
+		#Range: -1 ~ 10000
+		levitationPad = -1
+		#Levitation Pad maximum beam height in blocks (default: 16)
+		#Range: 1 ~ 64
+		levitationPadMaxHeight = 16
+
+#Research Minigame Configuration
+#Control difficulty and behavior of research minigames
+[minigames]
+	#Enable minigame requirement (false = instant unlock when inserting research note)
+	enableMinigames = true
+
+	#Instability System Settings
+	#More active minigames = SLOWER instability increase (more time to balance multiple aspects).
+	[minigames.instability]
+		#Instability decrease rate per tick when all minigames are stable
+		#Range: 1.0E-4 ~ 0.1
+		decreaseRate = 0.004
+		#Base instability increase rate when minigames are unstable
+		#Actual rate = baseRate / number_of_active_minigames
+		#More active minigames = slower increase = more time to stabilize
+		#Range: 1.0E-4 ~ 0.1
+		baseIncreaseRate = 0.001
+
+	#Energy Minigame Settings (Wave Alignment)
+	[minigames.energy]
+		#Ticks required to maintain alignment for success (20 ticks = 1 second)
+		#Range: 20 ~ 1200
+		requiredAlignmentTicks = 100
+		#Ticks before parameters start drifting (increases difficulty over time)
+		#Range: 60 ~ 2400
+		driftDelayTicks = 600
+		#Amplitude adjustment step size per button press
+		#Range: 0.01 ~ 0.5
+		amplitudeStep = 0.05
+		#Period adjustment step size per button press
+		#Range: 0.01 ~ 0.5
+		periodStep = 0.05
+
+	#Space Minigame Settings (Image Unwarp)
+	[minigames.space]
+		#How close to 0 warp is considered stable (lower = harder)
+		#Range: 0.01 ~ 1.0
+		stabilityThreshold = 0.1
+		#Ticks before warp starts drifting
+		#Range: 20 ~ 1200
+		driftDelayTicks = 100
+		#Warp adjustment step size per button press
+		#Range: 0.01 ~ 0.5
+		warpAdjustment = 0.05
+
+	#Time Minigame Settings (Clock Speed Matching)
+	[minigames.time]
+		#Speed difference threshold for stability (lower = harder)
+		#Range: 0.01 ~ 1.0
+		speedThreshold = 0.15
+		#Ticks before speed starts drifting
+		#Range: 20 ~ 1200
+		driftDelayTicks = 200
+		#Speed adjustment step size per button press
+		#Range: 0.01 ~ 1.0
+		speedAdjustment = 0.1
+
+	#Gravity Minigame Settings (Balance Scale)
+	[minigames.gravity]
+		#Balance threshold for stability (lower = harder)
+		#Range: 0.01 ~ 1.0
+		balanceThreshold = 0.1
+		#Ticks before balance starts drifting
+		#Range: 20 ~ 1200
+		driftDelayTicks = 200
+
+	#Shadow Minigame Settings (Light Routing)
+	[minigames.shadow]
+		#Alignment threshold for stability (lower = harder)
+		#Range: 1.0 ~ 50.0
+		alignmentThreshold = 10.0
+		#Ticks before mirrors start drifting
+		#Range: 20 ~ 1200
+		driftDelayTicks = 200
+		#Mirror rotation step size per button press (degrees)
+		#Range: 1.0 ~ 90.0
+		rotationStep = 15.0
+
+	#Cognition Minigame Settings (Symbol Matching)
+	[minigames.cognition]
+		#Ticks symbols stay visible before changing
+		#Range: 20 ~ 600
+		matchDuration = 50
+		#Number of symbols to match (higher = harder)
+		#Range: 2 ~ 8
+		difficulty = 3
+
