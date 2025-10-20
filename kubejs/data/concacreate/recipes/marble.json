@@ -1,0 +1,32 @@
+
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "perdition:compacted_marmor"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.75,
+      "count": 1,
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "chance": 0.01,
+      "count": 1,
+      "item": "thermal:diamond_dust"
+    },
+    {
+      "chance": 0.1,
+      "count": 1,
+      "item": "thermal:apatite_dust"
+    },
+    {
+      "chance": 0.05,
+      "count": 1,
+      "item": "thermal:silver_dust"
+    }
+  ]
+}

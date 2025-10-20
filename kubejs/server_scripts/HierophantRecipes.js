@@ -1727,7 +1727,10 @@ ServerEvents.recipes(event => {
         //                 C: 'thermal:diamond_gear'
         //         }
         // )
-
+        event.recipes.minecraft.smelting(
+                'thermal:sapphire',
+                'thermal:sapphire_dust'
+        ).xp(0.1).cookingTime(100);
         event.recipes.minecraft.blasting(
                 'minecraft:glass',
                 'minecraft:sand'

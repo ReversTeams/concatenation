@@ -27,11 +27,11 @@ ServerEvents.recipes(event => {
         ],
         {
             E: "celestisynth:solar_crystal",
-            B: "elementalcraft:fine_air_gem",
+            B: "elementalcraft:pristine_air_gem",
             A: "concatenationcore:gold_paper",
             C: "#concatenation:wither_ingredient",
             D: "tarotcards:the_magician",
-            F: "elementalcraft:fine_earth_gem"
+            F: "elementalcraft:pristine_earth_gem"
         }
     ).keepIngredient("tarotcards:the_magician")
     event.shaped(
