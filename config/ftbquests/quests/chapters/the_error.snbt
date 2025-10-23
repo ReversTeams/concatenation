@@ -1,0 +1,2105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_error"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "the_deep_void:void_filled_sponge"
+	id: "615516865AC048F7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "4E62B2BDC912CCA1"
+			rewards: [{
+				count: 2
+				id: "59F7B2C5BBA33A38"
+				item: "the_deep_void:rotten_bone"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "the_deep_void:deep_void"
+				icon: "the_deep_void:block_of_bone_pile"
+				id: "00BB869923B519A3"
+				title: "Enter the Deep Void"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			hide_until_deps_visible: false
+			id: "13E34EDD951B61F9"
+			rewards: [{
+				id: "6DFAE2549D083202"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7F3B6B9E041B4C17"
+					item: "the_deep_void:onyx"
+					type: "item"
+				}
+				{
+					id: "640A88F7A4B2A234"
+					item: "the_deep_void:lavendite"
+					type: "item"
+				}
+			]
+			title: "Onyx \\& Lavendite"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["13E34EDD951B61F9"]
+			id: "0E766B6E883A49CB"
+			rewards: [{
+				id: "64D3FCECF40F76C5"
+				item: {
+					Count: 1
+					id: "the_deep_void:void_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "246F8B5C3614520A"
+				item: {
+					Count: 1
+					id: "the_deep_void:void_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Exit the Deep Void"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			id: "5645C4B5F7C63262"
+			rewards: [{
+				id: "62615F309762F74A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				biome: "the_deep_void:drifting_monoliths"
+				icon: "the_deep_void:seer"
+				id: "078A9D73FBC05CF4"
+				title: "The Drifting Monoliths"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			id: "1D1398D93B1EED36"
+			rewards: [{
+				id: "0B9488E6784E6B3B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				biome: "the_deep_void:windswept_hollow"
+				icon: "the_deep_void:ashen_void_fern"
+				id: "23EEEC01CBBF36F8"
+				title: "The Windswept Hollow"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			hide_dependent_lines: true
+			id: "3EA067C20E4ED59E"
+			rewards: [{
+				id: "3491AF599E53B846"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "107E19F2328419D0"
+				item: "the_deep_void:black_moss"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			id: "10348477C6AD7322"
+			rewards: [{
+				count: 2
+				id: "7D20A0457207709B"
+				item: "the_deep_void:disturbing_root"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ACD234F12D142DB"
+				item: "the_deep_void:disturbing_root"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5645C4B5F7C63262"]
+			id: "037DC2CEAEB2F5CB"
+			rewards: [{
+				id: "60554570A41412DB"
+				item: "the_deep_void:cinnabar_roll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F032FE02D4798D6"
+				item: "the_deep_void:refined_cinnabar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D1398D93B1EED36"]
+			hide_dependent_lines: true
+			id: "1DD98931BFA84784"
+			rewards: [{
+				id: "2F3DBDE3144D8D53"
+				item: "the_deep_void:grimberry_juice"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AB9BD7EE2AF992E"
+					item: "the_deep_void:grim_gem"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "058597DB8988B1AA"
+					item: { Count: 64, id: "the_deep_void:desolate_soil" }
+					type: "item"
+				}
+			]
+			title: "Grim Gem \\& Desolate Soil"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"10348477C6AD7322"
+				"6B96137C28502D97"
+			]
+			hide_dependent_lines: true
+			id: "21353923BC4CD93E"
+			rewards: [{
+				id: "6ABCD200821811BB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0B26F1661FD09040"
+				item: "the_deep_void:rooter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			id: "6B96137C28502D97"
+			rewards: [{
+				id: "24D41E2B33AE241C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "28C2AA6D0CE4C6C3"
+				item: "the_deep_void:liquid_void_bucket"
+				type: "item"
+			}]
+			title: "Liquid Void"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"13E34EDD951B61F9"
+				"037DC2CEAEB2F5CB"
+			]
+			id: "76D7A6B494BCAABC"
+			rewards: [{
+				id: "50E79D17798348F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "668CFB37EB6DA75E"
+				item: "the_deep_void:refined_onyx"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B96137C28502D97"]
+			icon: "the_deep_void:void_matter"
+			id: "2F507B7274D8E006"
+			rewards: [
+				{
+					id: "2A4C6ED79ADAFDB7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1A75D7CF0CD81BA3"
+					item: "the_deep_void:eye_lantern"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28639AC4A1FEBA22"
+					item: "the_deep_void:void_matter"
+					type: "item"
+				}
+				{
+					id: "7F103384A26CB69D"
+					item: "the_deep_void:onyx_needle"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "The Nightmare"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1DD98931BFA84784"
+				"6B96137C28502D97"
+				"13E34EDD951B61F9"
+				"0D61335A0B07300D"
+			]
+			id: "7BB92B0F64862D0C"
+			rewards: [{
+				count: 3
+				id: "5536CC030BE1B5C7"
+				item: "theurgy:alchemical_sulfur_gems_precious"
+				type: "item"
+			}]
+			tasks: [{
+				id: "259A0678B9316E2C"
+				item: "the_deep_void:ancient_onyx"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			id: "7CFABDA77781489E"
+			rewards: [{
+				id: "1DDABEBB2D18C89B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				biome: "the_deep_void:crawler_nest"
+				icon: "the_deep_void:bone_crawler_egg"
+				id: "6AA8B46E4DA2F2C7"
+				title: "The Crawler Nest"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CFABDA77781489E"]
+			id: "1472186B0F51F01B"
+			rewards: [
+				{
+					id: "31B515E86F599FCD"
+					item: "the_deep_void:the_haunt"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3859D3EFB863C997"
+					item: "the_deep_void:bone_crawler_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15589AA10CC1F74B"
+				item: "the_deep_void:primordial_crawler_treasure_bag"
+				type: "item"
+			}]
+			title: "The Primordial Bone Crawler"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1472186B0F51F01B"]
+			hide_dependent_lines: true
+			id: "0B537A934EDDE900"
+			rewards: [{
+				count: 64
+				id: "215B3947AD1EDDBD"
+				item: "the_deep_void:block_of_bone_pile"
+				type: "item"
+			}]
+			tasks: [{
+				id: "738C9FBD2EB1CB48"
+				item: "the_deep_void:call_upon_the_hive"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			id: "0A48C85C5B513BA6"
+			rewards: [{
+				id: "20BEB69FAC4DD6D6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					biome: "the_deep_void:gloomy_deathgrounds"
+					icon: "the_deep_void:flesh_block"
+					id: "7468ACDC55AC26B9"
+					optional_task: true
+					title: "The Gloomy Deathgrounds"
+					type: "biome"
+				}
+				{
+					biome: "the_deep_void:staring_hills"
+					icon: "the_deep_void:big_red_eye"
+					id: "603E37BEDDB08E14"
+					optional_task: true
+					title: "The Staring Hills"
+					type: "biome"
+				}
+			]
+			title: "The Flesh Infection"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A48C85C5B513BA6"]
+			id: "152DC73801813764"
+			rewards: [
+				{
+					id: "0360BD067923A020"
+					item: "the_deep_void:pitch_black"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3948CF348E6901B6"
+					item: "the_deep_void:flesh_chunk"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EF6B75ADAB4C723"
+				item: "the_deep_void:misanthropic_hivemind_treasure_bag"
+				type: "item"
+			}]
+			title: "The Misanthropic Hivemind"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["152DC73801813764"]
+			hide_dependent_lines: true
+			id: "0F7A647082ED4B76"
+			rewards: [{
+				id: "5A0C47724B3150A7"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C7F7108E6BA9975"
+				item: "the_deep_void:heart_of_the_mind"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7BB92B0F64862D0C"
+				"2F507B7274D8E006"
+			]
+			hide_dependent_lines: true
+			id: "41407FE4EE0E464F"
+			rewards: [{
+				id: "0805DE0E46EEFEEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3C844D33AC342A85"
+				item: "the_deep_void:void_mirror"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0F7A647082ED4B76"
+				"41407FE4EE0E464F"
+				"0B537A934EDDE900"
+				"21353923BC4CD93E"
+				"0D61335A0B07300D"
+			]
+			dependency_requirement: "one_completed"
+			id: "55895AB2924ABAFC"
+			rewards: [
+				{
+					id: "0CE4B64C2FFC1C39"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "1AE22928D15CED27"
+					item: "the_deep_void:ambrosia"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32C8A58C650A0737"
+				item: "concatenationcore:the_error"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"55895AB2924ABAFC"
+				"3EA067C20E4ED59E"
+			]
+			id: "0F8C0FC726A93C13"
+			rewards: [
+				{
+					id: "1BC9E4F34AAE2FC0"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BA86173D73DF13E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D466DA6F168683D"
+				item: {
+					Count: 1
+					id: "the_deep_void:reinforced_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["55895AB2924ABAFC"]
+			hide_dependency_lines: true
+			id: "19E4A89845D3BF5D"
+			rewards: [
+				{
+					id: "189958AB746AB776"
+					item: "the_deep_void:chainsaw"
+					type: "item"
+				}
+				{
+					id: "73488DBAF6F12985"
+					item: "the_deep_void:hexed_doll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57AB056529AA3546"
+				item: "the_deep_void:apostle_of_catastrophe_treasure_bag"
+				type: "item"
+			}]
+			title: "The Apostle of Catastrophe"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19E4A89845D3BF5D"]
+			id: "30BA63BCE8DAD0DE"
+			rewards: [
+				{
+					id: "422D36C5EA7109B6"
+					item: "the_deep_void:darkmare"
+					type: "item"
+				}
+				{
+					id: "43013418975C4461"
+					item: "the_deep_void:hexed_doll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AEA9008443F9E2E"
+				item: "the_deep_void:weaver_of_souls_treasure_bag"
+				type: "item"
+			}]
+			title: "The Weaver of Souls"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0F8C0FC726A93C13"
+				"19E4A89845D3BF5D"
+			]
+			id: "4E2F07927BA41118"
+			rewards: [{
+				count: 4
+				id: "09377AF59ECD93A2"
+				item: "the_deep_void:rough_voidrium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25BC490329AC38D7"
+				item: "the_deep_void:voidrium_gem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30BA63BCE8DAD0DE"]
+			id: "6516D88B029F38F1"
+			rewards: [{
+				id: "6D6403096D89F2C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:soul_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "542C9BBFC74687DF"
+				item: "the_deep_void:soul_fused_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6516D88B029F38F1"]
+			id: "0E5251536D5AE77B"
+			rewards: [{
+				count: 4
+				id: "04B0B7359D977C8C"
+				item: "immersive_weathering:enchanted_golden_moss_clump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "549CDC679F8994C1"
+				item: "the_deep_void:voodoo_doll"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E62B2BDC912CCA1"]
+			description: ["The most important thing to remember in the Deep Void is that you're always being watched. Always. The most dangerous of these observers is something I've dubbed \"The Stalker\". If you're away from light for too long, it'll see you as vulnerable and attack you. It's one of the more powerful entities down here, so I'd recommend avoiding it at all costs. It's afraid of light, but it'll still try to attack you if its committed to the act already. In this scenario, I've found a makeshift bait consisting of rotted flesh and bones to be somewhat effective in luring it away."]
+			icon: "the_deep_void:watching_stalker_spawn_egg"
+			id: "245B905EE8E73588"
+			rewards: [{
+				count: 64
+				id: "225D619DC92AF74F"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAE958909DB8C48"
+				item: "the_deep_void:stalker_treat"
+				type: "item"
+			}]
+			title: "The Stalker"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"245B905EE8E73588"
+				"3EA067C20E4ED59E"
+			]
+			id: "65CB9CD3F0B5D8F1"
+			rewards: [{
+				count: 2
+				id: "1F5E8B974D3A5CCA"
+				item: "the_deep_void:black_moss"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11435B9C076FC422"
+				item: {
+					Count: 1
+					id: "the_deep_void:onyx_flare_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65CB9CD3F0B5D8F1"]
+			hide_dependent_lines: true
+			id: "1BF61381E548269C"
+			rewards: [
+				{
+					id: "25666D2142B21AC3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0AF8CF6EFA29506B"
+					item: "the_deep_void:lurking_music_disc"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F3E17B39E71B957"
+				item: {
+					Count: 1
+					id: "the_deep_void:stalker_scythe_claw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dealing with The Stalker"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13E34EDD951B61F9"]
+			id: "193F6528069D5771"
+			rewards: [{
+				count: 15
+				id: "3372E69BF55DFFEF"
+				item: "the_deep_void:ferryman_lantern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53C5CE26BD66427E"
+				item: "the_deep_void:ferryman_lantern"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A48C85C5B513BA6"]
+			id: "0F5CCEE2D5E2401F"
+			rewards: [{
+				count: 2
+				id: "76A6FF577B3C7A80"
+				item: "the_deep_void:devourer_tendril"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7120701EDB1D0B0A"
+				item: "the_deep_void:licker_hook"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0F5CCEE2D5E2401F"
+				"4CD0892FB0841A42"
+				"3EA067C20E4ED59E"
+			]
+			id: "666D367401134D05"
+			rewards: [{
+				count: 4
+				id: "32D684F6A0F1E922"
+				item: "the_deep_void:grim_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2053CB05D8DBDCC4"
+				item: "the_deep_void:grim_licker_hook"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"666D367401134D05"
+				"30BA63BCE8DAD0DE"
+			]
+			id: "655F9A90ABEB10D7"
+			rewards: [{
+				id: "2AFB207A72F408A9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5FA102CC8C394232"
+				item: "the_deep_void:vengeful_licker_hook"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["76D7A6B494BCAABC"]
+			id: "3DCD55C7193F6D98"
+			rewards: [{
+				id: "55A2FC91E0E42ED4"
+				item: {
+					Count: 1
+					id: "the_deep_void:onyx_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69518DC90EAD9765"
+				item: {
+					Count: 1
+					id: "the_deep_void:gravedigger_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["76D7A6B494BCAABC"]
+			id: "5D09B87AB03E158A"
+			rewards: [{
+				id: "1C5A44F7776E1F64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "229CC807FF47A40E"
+				item: "the_deep_void:smithing_template_lavendite"
+				type: "item"
+			}]
+			title: "Lavendite Upgrade"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13E34EDD951B61F9"]
+			id: "1ABE9FAFB4F4EE1A"
+			rewards: [{
+				id: "22AEE022E5A2326C"
+				item: "the_deep_void:death_vulture_spawn_egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DC5836BACAAFAB4"
+					item: "the_deep_void:vulture_muzzle"
+					type: "item"
+				}
+				{
+					id: "38ED29CD23CBC3F0"
+					item: "the_deep_void:riding_crop"
+					type: "item"
+				}
+			]
+			title: "Taming a Death Vulture"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CFABDA77781489E"]
+			id: "591730D31542CF21"
+			rewards: [{
+				count: 32
+				id: "47429D4E8491086B"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F392E13823DC47"
+				item: "the_deep_void:hatching_enzyme"
+				type: "item"
+			}]
+			title: "Hatching a Bone Crawler"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76D7A6B494BCAABC"]
+			hide_dependent_lines: true
+			id: "4894336464C21319"
+			rewards: [{
+				id: "1CBE05AEBDBFE2EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "703DB3AF21299B41"
+					item: {
+						Count: 1
+						id: "the_deep_void:onyx_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "692778EB671396C2"
+					item: {
+						Count: 1
+						id: "the_deep_void:onyx_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74448A46DE5CDEE0"
+					item: {
+						Count: 1
+						id: "the_deep_void:onyx_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13E48EDE0704805C"
+					item: {
+						Count: 1
+						id: "the_deep_void:onyx_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Onyx Armor"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["76D7A6B494BCAABC"]
+			id: "0A133081436C4565"
+			rewards: [{
+				id: "4F8D381ECDA6B13D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "48B0A4B2F6A36ED7"
+				item: "the_deep_void:smithing_template_rot"
+				type: "item"
+			}]
+			title: "Rot Upgrade"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76D7A6B494BCAABC"]
+			id: "0E8E4A69675A9BD1"
+			rewards: [{
+				id: "4DCCC89501194A92"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "3E64DAA26DE9E441"
+					item: {
+						Count: 1
+						id: "the_deep_void:hunters_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11CE0760F63C73EC"
+					item: {
+						Count: 1
+						id: "the_deep_void:hunters_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5733EAA6358F8856"
+					item: {
+						Count: 1
+						id: "the_deep_void:hunters_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B861F1AE782E4F3"
+					item: {
+						Count: 1
+						id: "the_deep_void:hunters_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hunter's Armor"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F507B7274D8E006"]
+			id: "7880266B7CA4F2BE"
+			rewards: [{
+				id: "53F5C741F7A0753A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:black_hole"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1507F7BF0235EDDD"
+					item: {
+						Count: 1
+						id: "the_deep_void:cruel_stiletto"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6065C85E359CEA"
+					item: {
+						Count: 1
+						id: "the_deep_void:void_cloak_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B004C728AF3CAB"
+					item: {
+						Count: 1
+						id: "the_deep_void:shadestorm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Void Matter Gear"
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1472186B0F51F01B"
+				"4CD0892FB0841A42"
+			]
+			id: "6C7C01AE978AB479"
+			rewards: [{
+				count: 6
+				id: "27F96D9E8A3E8D16"
+				item: "the_deep_void:hatching_enzyme"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BD92BA275F5F147"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_royalty_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "384B6D8449C740E9"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_royalty_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48FB57F74650EEB4"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_royalty_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A536454B31DC724"
+					item: {
+						Count: 1
+						id: "the_deep_void:crawler_royalty_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Crawler Royalty Armor"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["037DC2CEAEB2F5CB"]
+			hide_dependency_lines: true
+			id: "61522FEF5D8B8203"
+			rewards: [{
+				count: 8
+				id: "360BEADC433E2051"
+				item: "the_deep_void:bismuth"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72E928BE8909FFF8"
+				item: "the_deep_void:refined_bismuth"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"76D7A6B494BCAABC"
+				"152DC73801813764"
+			]
+			id: "04FB6C65AF290FFC"
+			rewards: [{
+				id: "6F20B29C9DBD031C"
+				item: "the_deep_void:hard_flesh_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B583F7FE59040AA"
+				item: "the_deep_void:hard_flesh_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04FB6C65AF290FFC"]
+			id: "36C2236494B0E680"
+			rewards: [{
+				id: "795B97258F184FAD"
+				item: "the_deep_void:chasms_music_disc"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "143835F60113570F"
+					item: {
+						Count: 1
+						id: "the_deep_void:hard_flesh_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DF4136DCDF458C4"
+					item: {
+						Count: 1
+						id: "the_deep_void:animosity"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B439EC99C1B129B"
+					item: {
+						Count: 1
+						id: "the_deep_void:sentient_chainsaw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1808364E3BE679AF"
+					item: "the_deep_void:necronomicon"
+					type: "item"
+				}
+			]
+			title: "Hard Flesh Weapons"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["152DC73801813764"]
+			id: "4E07CE357CD33060"
+			rewards: [{
+				id: "0EDE3216ADC0235D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7F7752513E902783"
+				item: "the_deep_void:eyekin_saddle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E2F07927BA41118"
+				"61522FEF5D8B8203"
+				"4894336464C21319"
+			]
+			id: "4D1B42691B5299A0"
+			rewards: [{
+				id: "7D49951C3BA5E5E2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "4987B5A368EB6245"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53090765B225A393"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "233A76D4B9FDA71E"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73778168296CD098"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Voidrium Armor"
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4E2F07927BA41118"]
+			id: "1C5018478399258F"
+			rewards: [
+				{
+					id: "25E31C92141542D0"
+					item: "the_deep_void:sins_and_sinners"
+					type: "item"
+				}
+				{
+					id: "0D8CEDE8199DFD0F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					id: "3139E75D985223A4"
+					item: {
+						Count: 1
+						id: "the_deep_void:weaver_mask_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F259A2AAAFAB200"
+					item: {
+						Count: 1
+						id: "the_deep_void:weaver_robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E377BB33AF83EA9"
+					item: {
+						Count: 1
+						id: "the_deep_void:weaver_leggings_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F8FD4C45BBE4EB1"
+					item: {
+						Count: 1
+						id: "the_deep_void:weaver_boots_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Garments of the Weaver of Souls"
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4E2F07927BA41118"]
+			id: "40DE00C16BC62FF4"
+			rewards: [{
+				id: "2396DD605B702322"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "3C78164358E4B56B"
+					item: {
+						Count: 1
+						id: "the_deep_void:soul_cleaver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E280831BD831D6"
+					item: {
+						Count: 1
+						id: "the_deep_void:judgement"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66BB1C6F4784D325"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F1A5B8ED5CA4086"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_bulwark"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Voidrium Weaponry"
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"6516D88B029F38F1"
+				"1BF61381E548269C"
+			]
+			id: "3D80AEF0244B0032"
+			rewards: [
+				{
+					id: "5BE909F10DEA07D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1C50B78F81BFC5E5"
+					item: {
+						Count: 1
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "the_deep_void:stalker"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "519E2CBE260455BB"
+				item: {
+					Count: 1
+					id: "the_deep_void:the_harvest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6516D88B029F38F1"]
+			id: "34FC8FB5298EF4AE"
+			rewards: [{
+				id: "11CD76EA6B46AD37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5924833B93B8FDC3"
+				item: {
+					Count: 1
+					id: "the_deep_void:tombstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"4D1B42691B5299A0"
+				"6516D88B029F38F1"
+			]
+			id: "339AA31E7ADE6E60"
+			rewards: [{
+				id: "0D190F4612DC9D67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "396F7E0E65ABFAC1"
+					item: {
+						Count: 1
+						id: "the_deep_void:sacred_voidrium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BFC789B6888728A"
+					item: {
+						Count: 1
+						id: "the_deep_void:sacred_voidrium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2443FECDA0389709"
+					item: {
+						Count: 1
+						id: "the_deep_void:sacred_voidrium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "611C80A0E7C87E7C"
+					item: {
+						Count: 1
+						id: "the_deep_void:sacred_voidrium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Soul-Fused Voidrium Armor"
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"1C5018478399258F"
+				"6516D88B029F38F1"
+			]
+			id: "0A0A755E23C5569B"
+			rewards: [{
+				id: "05116AAAD54BBB42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "469758B461866B2F"
+				item: {
+					Count: 1
+					id: "the_deep_void:harvester_mask_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6516D88B029F38F1"]
+			id: "451D6A41D0695AF9"
+			rewards: [{
+				id: "5A5BBD73D392BD8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "03647B31E69140C7"
+				item: "the_deep_void:soul_wings_chestplate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6516D88B029F38F1"]
+			id: "36E1BA9A10678554"
+			rewards: [
+				{
+					id: "0436FB1BD0A040AA"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "3C9FB64C875AABD4"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22B855A29C3A1219"
+				item: "the_deep_void:voidrium_glass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4E2F07927BA41118"
+				"61522FEF5D8B8203"
+			]
+			id: "1F51A3A5B52E797C"
+			rewards: [{
+				id: "5D1B7C24EB36DAC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "76F4CBF43C384B3C"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28FFFC6122C2110E"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49F000D252CB5A61"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BE3E17FC46DBCC8"
+					item: {
+						Count: 1
+						id: "the_deep_void:voidrium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Voidrium Tools"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1DD98931BFA84784"]
+			id: "4CD0892FB0841A42"
+			rewards: [{
+				id: "1163EC598CC76964"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "340202B148FB8EE6"
+				item: "the_deep_void:smithing_template_grim"
+				type: "item"
+			}]
+			title: "Grim Upgrade"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["152DC73801813764"]
+			id: "0DC391823089161D"
+			rewards: [{
+				id: "3533F1DD05F47FD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "33EBF5DAED9FCA7D"
+				item: {
+					Count: 1
+					id: "the_deep_void:bloody_rib_cage_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BB92B0F64862D0C"]
+			id: "1A328744FCF2A6E1"
+			rewards: [{
+				id: "0CD424559BA93B5C"
+				item: {
+					Count: 1
+					id: "the_deep_void:void_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FAD9753ECBAED3C"
+				item: "the_deep_void:void_core"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E2F07927BA41118"]
+			id: "4886ADAECCD988A0"
+			rewards: [{
+				id: "5B60981C296253A3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_arrow"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CAE315C844D49FF"
+				item: "the_deep_void:endless_quiver"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19E4A89845D3BF5D"]
+			id: "1AEE8AF4DEFF8B68"
+			rewards: [{
+				id: "74BF074E761EBC8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "71C35B94EBCDACAA"
+				item: "the_deep_void:heresy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19E4A89845D3BF5D"]
+			id: "07C2A42D2B5A9DD7"
+			rewards: [{
+				id: "2C87AEC016432ECC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "41BAC67D7F66BD96"
+				item: {
+					Count: 1
+					id: "the_deep_void:knife_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1472186B0F51F01B"]
+			id: "6F1751E8462B0DD1"
+			rewards: [{
+				id: "6D3B7C9DA2904251"
+				item: {
+					Count: 1
+					id: "the_deep_void:rotten_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28E4EABD5D69F1B5"
+				item: {
+					Count: 1
+					id: "the_deep_void:claw_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B96137C28502D97"]
+			id: "3BD3CD4C08226DEB"
+			rewards: [{
+				count: 8
+				id: "3CE2F31912F834DF"
+				item: "littlelogistics:rapid_hopper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56DC0B2410885DC0"
+				item: "the_deep_void:attractor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7BB92B0F64862D0C"
+				"2F507B7274D8E006"
+			]
+			id: "33DA4DA060345DC6"
+			rewards: [{
+				id: "158623BF1DD48CF6"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C249D282D79A2B"
+				item: {
+					Count: 1
+					id: "the_deep_void:forbidden_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D1398D93B1EED36"]
+			id: "59AAF970EE1F397B"
+			rewards: [{
+				count: 4
+				id: "69AAC36FBE8B0A70"
+				item: "the_deep_void:grimberry_pie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56D87F9EC5E9C4FD"
+				item: "the_deep_void:grimberry_pie"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4E2F07927BA41118"
+				"30BA63BCE8DAD0DE"
+			]
+			id: "19A78469CE01B2BE"
+			rewards: [{
+				id: "384661014876885C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "311D894B2D8DAF5C"
+				item: "the_deep_void:void_effigy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["10348477C6AD7322"]
+			id: "57A7B8C6DF37C7EB"
+			rewards: [{
+				id: "29E8DDD16606A26B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:root"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38DD0C5B11D40D2D"
+				item: {
+					Count: 1
+					id: "the_deep_void:rooting_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76D7A6B494BCAABC"]
+			id: "7EC3331E715D12E8"
+			rewards: [{
+				id: "57172B13A62ADF4C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "5EA655F2C4B42EDB"
+					item: {
+						Count: 1
+						id: "the_deep_void:lavendite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "441A3ACE7CA453E5"
+					item: {
+						Count: 1
+						id: "the_deep_void:eye_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26F842ED7C0BCC1F"
+					item: {
+						Count: 1
+						id: "the_deep_void:devourer_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Specialty Shields"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5645C4B5F7C63262"]
+			id: "56D3007AA4FEC1F4"
+			rewards: [{
+				id: "6F5C49736ACF51ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "the_deep_void:its_alive"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "the_deep_void:forgotten_token"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4C77D28F2697C545"
+				title: "Creating an Overseer"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04FB6C65AF290FFC"]
+			id: "5CEBC12ED782F3A7"
+			rewards: [{
+				id: "5AC4F8FF7F2C3129"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "50B5CB1A0A9F71ED"
+					item: {
+						Count: 1
+						id: "the_deep_void:flesh_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "746579F6A0B6B711"
+					item: {
+						Count: 1
+						id: "the_deep_void:flesh_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D4717AAB4206116"
+					item: {
+						Count: 1
+						id: "the_deep_void:flesh_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A039F71D7F4790E"
+					item: {
+						Count: 1
+						id: "the_deep_void:flesh_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hard Flesh Armor"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CFABDA77781489E"]
+			id: "560BA5EF2B92EC13"
+			tasks: [{
+				id: "3F1051BF22D97A2A"
+				item: "the_deep_void:crawler_omelette"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+	]
+	title: "The Error"
+}

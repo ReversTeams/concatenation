@@ -291,16 +291,16 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:soleipse'
                 }
         )
-        event.shapeless(
-                Item.of(
-                        "concatenationcore:the_error",
-                        '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
-                ),
-                [
-                        'tarotcards:the_lovers',
-                        'concatenationcore:concatenator'
-                ]
-        ).keepIngredient('concatenationcore:concatenator')
+        // event.shapeless(
+        //         Item.of(
+        //                 "concatenationcore:the_error",
+        //                 '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+        //         ),
+        //         [
+        //                 'tarotcards:the_lovers',
+        //                 'concatenationcore:concatenator'
+        //         ]
+        // ).keepIngredient('concatenationcore:concatenator')
 
         event.shaped(
                 Item.of('tarotcards:the_hierophant'),

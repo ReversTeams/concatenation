@@ -1,0 +1,76 @@
+
+["Generation&World"]
+	#Whether the Cult Temple will be place at 0,0 or not
+	PlaceCultTemple = true
+	#Whether Players will teleport to the Deep Void when jumping in the Void or not
+	PlayersTeleportInVoid = true
+	#Whether Players will teleport to the Deep Void when falling in the Void in the End or not (If PlayersTeleportInVoid is false, this will automatically be false)
+	PlayersTeleportInEnd = true
+	#At which depth does the Player teleport to the dimension (Default -70)
+	TeleportHeight = -70.0
+	#If the Deep Void should have fog or not
+	DeepVoidFog = true
+	#If blocks under specific biomes should generate plants on top of them to make the cave biome (this depends on random tick speed). If the server lags a lot, set this to true
+	StopActiveBlockGeneration = false
+	#If the old structure with the hole to the void should generate in the overworld instead of the new version
+	OldHoleStructure = false
+	#At which Y level should the structure in the Overworld generate (this needs to be at the deepest layer where bedrock generates)
+	HoleStructureY = -64.0
+	#If crumbling bedrock should generate in the overworld
+	CrumblingBedrockGenerate = false
+
+[Spawns]
+	#Whether Abductors will spawn in the Overworld or not
+	SpawnAbductors = true
+	#If corpses should fall from the sky in the Deep Void
+	SpawnFallingCorpse = true
+	#If falling corpses should place a corpse on impact
+	PlaceCorpseOnImpact = false
+	#If the Stalker should spawn or not
+	StalkerSpawns = true
+	#If Stalking Stalkers should spawn or not
+	StalkingStalkerSpawns = true
+	#The time it takes for the Stalker to spawn in ticks (Default = 1,200 ticks)
+	StalkerSpawnTimer = 1200.0
+	#If Bone Cages should be placed by Masked Hunters
+	SpawnMaskedHunters = true
+	#The cooldown before a Masked Hunter can spawn naturally (In ticks)
+	MaskedHunterCooldown = 108000.0
+
+[Misc]
+	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
+	SeekLightWarning = true
+	#Whether light sources should be destroyed in the Deep Void or not
+	DestroyLightSources = true
+	#How long the Void Blessing effect should last when entering the Deep Void (In ticks)
+	VoidBlessingTimer = 600.0
+	#Should players teleport to the Deep Void when falling in the void in any dimension
+	AllowOtherWorldTp = false
+	#Should Soul light sources not get destroyed
+	AllowSoulLight = false
+	#If players should hallucinate below y=1 or not
+	PlayerHallucinates = true
+	#Should the Stalker be able to break certain blocks
+	StalkerBreaksBlocks = true
+	#If Darkness should attack the Player below y=0 while still keeping Hallucinate
+	Darkness = true
+	#Should players be teleported to the top of the dimension when falling in the void in the Deep Void
+	DeepVoidTp = true
+	#Should players be able to mine Primordial Stone with the Shatterbone Pickaxe
+	AllowMiningPrimordialStone = false
+
+["Gameplay Changes"]
+	#When a player dies, they get sent to the Deep Void
+	Hell = false
+	#The player spawns in the Deep Void
+	EndlessAbyss = false
+	#Like Hell, but when the player dies in the Deep Void, they stay in the Deep Void
+	Purgatory = false
+	#If torches should be given to players that respawn in the Deep Void (through Hell or Purgatory)
+	GiveTorches = true
+
+["Critical Changes"]
+	#If true, the old structure containing the Weaver Of Souls will be overwritten by the new one (this WILL destroy anything around it)
+	OverwriteWithSepulcher = false
+	OverwriteWithTemple = false
+
