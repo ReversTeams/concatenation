@@ -4,7 +4,7 @@
   "bullet": {
     "life": 0.65,
     "bullet_amount": 1,
-    "damage": 6.5,
+    "damage": 4.5,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.025,

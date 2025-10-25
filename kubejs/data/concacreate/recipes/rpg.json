@@ -1,0 +1,10 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "tfmg:cast_iron_ingot" },
+    { "item": "tfmg:cast_iron_ingot" }
+  ],
+  "results": [
+    { "item": "createtaczauto:casing_rpg" }
+  ]
+}

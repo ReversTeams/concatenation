@@ -2492,7 +2492,7 @@
 				type: "item"
 			}]
 			title: "Crushing Berries"
-			x: -9.5d
+			x: -9.0d
 			y: -7.5d
 		}
 		{
@@ -10920,6 +10920,7 @@
 				"59D783372A16F858"
 				"4FA1B8DD76B592DD"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"The &6Strength Pathway&r is a mighty fusion of the &eMagician&r and &dHermit&r pathways, with the ability to produce some of the most powerful weapon in the land, along with decent but not specialized armour sets."
 				"{@pagebreak}"
@@ -12565,32 +12566,6 @@
 			}]
 			x: -18.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["55E53ED9BDDE16AA"]
-			description: ["The Sequential Fabricator is an automatic crafting machine."]
-			id: "4D5CBC1FE2A1E72B"
-			rewards: [{
-				id: "3E74A26752C8B47E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			size: 0.85d
-			tasks: [{
-				id: "5A0FB0B408F5E349"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "thermal:machine_crafter"
-				}
-				type: "item"
-			}]
-			x: -21.25d
-			y: 9.35d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -18556,7 +18531,7 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["4D5CBC1FE2A1E72B"]
+			dependencies: ["55E53ED9BDDE16AA"]
 			id: "7BAC3AE0CD4FC36D"
 			rewards: [{
 				id: "3EF3991EEE65453D"
@@ -18577,8 +18552,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.4d
-			y: 10.2d
+			x: -21.25d
+			y: 9.35d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -18913,8 +18888,8 @@
 				type: "item"
 			}]
 			title: "&5The Empress"
-			x: -6.949999999999999d
-			y: -10.924999999999999d
+			x: -7.949999999999999d
+			y: -11.424999999999999d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18958,8 +18933,8 @@
 				}
 			]
 			title: "Cooking Instruments"
-			x: -6.5d
-			y: -9.5d
+			x: -7.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18987,8 +18962,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -9.5d
+			x: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["01514A831E1895F9"]
@@ -19000,6 +18975,7 @@
 				item: "farmersdelight:minced_beef"
 				type: "item"
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "53DF70ADB14D7580"
 				item: {
@@ -19013,8 +18989,8 @@
 				type: "item"
 			}]
 			title: "Family of Knives"
-			x: -9.5d
-			y: -10.5d
+			x: -10.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -19037,13 +19013,13 @@
 				type: "advancement"
 			}]
 			title: "Wild Seeds"
-			x: -5.5d
-			y: -10.5d
+			x: -6.5d
+			y: -11.0d
 		}
 		{
 			dependencies: [
-				"45EBD68510E9742C"
 				"01514A831E1895F9"
+				"69E9C5DEC5F5C313"
 			]
 			description: ["One of the ways to process ore berries is by cutting them using a knife and a cutting board. This way, each ore berry is cut to dust and can be smelted to produce one ingot per ore berry. This is a more tedious process, but more rewarding."]
 			id: "1A4F94909BAEF4FE"
@@ -19093,8 +19069,8 @@
 				type: "item"
 			}]
 			title: "Cutting Berries"
-			x: -8.0d
-			y: -8.0d
+			x: -10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -19103,6 +19079,7 @@
 				""
 				"Bottling milk can be an easier way to transport and drink milk, clearing effects when drunk. Hot Cocoa only clears harmful effects. Apple Cider grants absorption for a minute while Melon Juice restores some of your health."
 			]
+			hide_dependency_lines: true
 			id: "65459A4FC403ECCC"
 			rewards: [{
 				id: "7CEC9475FDD885E0"
@@ -19140,18 +19117,18 @@
 				type: "item"
 			}]
 			title: "Drinks"
-			x: -7.0d
-			y: -13.0d
+			x: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
 			description: ["Comforting food enables your natural regeneration even when you're still hungry."]
+			hide_dependency_lines: true
 			id: "6FA676418967B7F8"
 			rewards: [{
 				count: 32
-				id: "4CD428F99FABA448"
-				item: "minecraft:pumpkin_pie"
-				team_reward: false
+				id: "451558C9D7A92C15"
+				item: "create_central_kitchen:mulberry_pie_slice"
 				type: "item"
 			}]
 			tasks: [{
@@ -19208,12 +19185,13 @@
 				type: "item"
 			}]
 			title: "Comforting Food"
-			x: -8.0d
-			y: -12.5d
+			x: -11.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
 			description: ["Salads are a great way of turning smaller foods into a more nourishing and healthy meal. So healthy in fact, it will help you regenerate."]
+			hide_dependency_lines: true
 			id: "6BAF5CA877FE5287"
 			rewards: [{
 				id: "5200D5388D388C76"
@@ -19243,18 +19221,18 @@
 				type: "item"
 			}]
 			title: "Salads"
-			x: -8.5d
-			y: -11.5d
+			x: -11.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
 			description: ["Nourishment functions as extra satiation. It will take longer before someone grows hungry from jumping or running."]
+			hide_dependency_lines: true
 			id: "210A3840AB892F5E"
 			rewards: [{
 				count: 64
-				id: "152CD646D486FBE3"
-				item: "minecraft:pumpkin_pie"
-				team_reward: false
+				id: "564F24BF3B76CD6E"
+				item: "create_central_kitchen:passion_fruit_cake_slice"
 				type: "item"
 			}]
 			tasks: [{
@@ -19335,8 +19313,8 @@
 				type: "item"
 			}]
 			title: "Nourishing Food"
-			x: -9.0d
-			y: -14.0d
+			x: -13.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["11F3F832B62CA7D8"]
@@ -19350,6 +19328,7 @@
 				team_reward: false
 				type: "item"
 			}]
+			size: 0.9d
 			tasks: [{
 				advancement: "farmersdelight:main/get_ham"
 				criterion: ""
@@ -19357,8 +19336,8 @@
 				type: "advancement"
 			}]
 			title: "Wild Butcher"
-			x: -10.5d
-			y: -11.5d
+			x: -11.7d
+			y: -10.799999999999999d
 		}
 		{
 			dependencies: ["4551222320CBAE77"]
@@ -19377,6 +19356,7 @@
 				item: "farmersdelight:rice"
 				type: "item"
 			}]
+			size: 0.9d
 			tasks: [{
 				advancement: "farmersdelight:main/plant_rice"
 				criterion: ""
@@ -19384,21 +19364,25 @@
 				type: "advancement"
 			}]
 			title: "Planting Rice"
-			x: -6.0d
-			y: -12.0d
+			x: -6.75d
+			y: -12.6d
 		}
 		{
-			dependencies: ["07216B5B04E8B927"]
-			description: [""]
+			dependencies: ["1203CDC5DF26F779"]
+			description: [
+				"Crop rotation is an important mastery of the land. Different crops growing next to each other will grow faster than everything neatly arranged in a single line, as they will naturally coexist and mutually benefit each other in symbiosis."
+				""
+				"To truly learn the ways of the plant, we may plant one of each crop at least once in our lives. Then, we can truly learn the power of four hundredfold saturation."
+			]
 			disable_toast: true
+			hide_dependency_lines: true
 			id: "38EFD638C974B3E6"
 			rewards: [{
-				count: 64
-				id: "73D8179E0198FB1A"
-				item: "minecraft:pumpkin_pie"
-				team_reward: false
+				id: "4C8DBD725F889E34"
+				item: "concatenationcore:allcandy"
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "farmersdelight:main/plant_all_crops"
 				criterion: ""
@@ -19406,8 +19390,8 @@
 				type: "advancement"
 			}]
 			title: "Crop Rotation"
-			x: -6.0d
-			y: -13.5d
+			x: -12.65d
+			y: -18.7d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -20871,6 +20855,13 @@
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"With the power of the Tome of Alkahestry, I managed to borrow some of the properties of transmutation to create a version of the famed Glacial Staff that doesn't require snowballs. It does require more materials to make than normal, though."
+				""
+				"&cSebastian&r was bewildered at my progress, clutching his own staff and praising it as a bastion of tradition against this strange new magic."
+				"{@pagebreak}"
+				"The Glacial Staff is an interesting weapon, able to fire surprisingly strong mystical snowballs of the ice element, especially stronger against fire-type creatures such as blazes. It also freezes enemies momentarily."
+			]
 			id: "641652D8289A2AF2"
 			rewards: [{
 				id: "09A4993D7B812057"
@@ -20962,6 +20953,13 @@
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
+			description: [
+				"Keeping in line with my newlyfound rudimentary transmutation knowledge, I managed to craft a more expensive but more useful version of the standard Sojourner Staff reliquerers use! They say relics are unique to their wielders, is this a part of it?"
+				""
+				"The Sojourner Staff is used to place down ethereal torches wherever you go. With my unique model however, you don't need to keep torches with you!"
+				"{@pagebreak}"
+				"&cSebastian&r tried replicating my recipe and it didn't work for him, unfortunately. A few other reliquerers also tried their hand and failed. I leave the recipe I used as a note, but beware that this may not work to make the transmutation unique variant of the Sojourner Staff."
+			]
 			id: "6FE18A64BEAF0A08"
 			rewards: [{
 				count: 64
@@ -21010,6 +21008,7 @@
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
+			description: ["The Lantern of Paranoia is used to spread torches over a dark area."]
 			id: "2A6F7A84B94F1B7F"
 			rewards: [{
 				id: "63F4FEE0FBE7BA37"
@@ -21095,6 +21094,7 @@
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
+			description: ["The Interdiction Torch makes use of mystical fire using fragments of a nebulous heart as eternal fuel to repel hostile entities from an area."]
 			id: "66DB777A17822FE0"
 			rewards: [{
 				count: 64
@@ -22334,6 +22334,7 @@
 				"66DB777A17822FE0"
 				"09811FE8990DC377"
 			]
+			description: ["The Banishment Torch is a stronger version of the Interdiction Torch using medium convalence dust as an enhancement ingredient to light up more potent mystical fire. It has greater range than the interdiction torch and can be made in great numbers."]
 			id: "03C07C1AE7AC4E1A"
 			rewards: [{
 				count: 4
@@ -23419,7 +23420,7 @@
 			}]
 			title: "&6The World"
 			x: 0.0d
-			y: -19.25d
+			y: -20.25d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -24041,7 +24042,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -21.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -24096,7 +24097,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -22.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -24833,7 +24834,7 @@
 				""
 				"&2Do not go mining in Dis. Nothing good will happen to you. Except perhaps large fortunes.&r"
 				"{@pagebreak}"
-				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. The marble is still very useful, though. It can be compacted and then crushed into various powders. &r"
+				"&2There are vast black seas in Dis, and ores are most commonly found under sea level. One great benefit of Dis is that both overworld and &lnether ores&r&2 are found there. The marble is still very useful, though. It can be compacted and then crushed into various powders.&r"
 				""
 				"&2The apatite powder which can be a result can then be crushed even further into other kinds of powders. There are faint traces of diamonds in the marble of Dis.&r"
 				"{@pagebreak}"
@@ -25152,6 +25153,588 @@
 			}]
 			x: -23.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["5A609181C445CAAB"]
+			id: "3B9EADE8349BEDF6"
+			rewards: [
+				{
+					id: "45810E41A33F48E9"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "7ABB0D5150B5F2F0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 0.8d
+			tasks: [
+				{
+					id: "147C7FFCA1488014"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					id: "1A53B14CC0685D34"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
+			x: -23.4d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4551222320CBAE77"]
+			description: [
+				"Rich soil is formed through the natural decomposition of compost into a chuck of soil propice for life."
+				""
+				"It helps plants grow through the nutrients stored withiin."
+			]
+			id: "565F7E0737D7967C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12EDD4A332A1B1A0"
+				table_id: 6800703616788188502L
+				type: "choice"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "03B2375A12DCF5B3"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: -5.85d
+			y: -12.149999999999999d
+		}
+		{
+			dependencies: ["07216B5B04E8B927"]
+			description: ["Cooked Rice brings a comforting warmth to many of the people of the East I've encountered. It can be produced in great quantity with the bountiful harvests of rice. The different varieties of rice can be grown throughout most seasons and climates."]
+			id: "7F194ED55E59D20F"
+			rewards: [{
+				count: 3
+				id: "7A96EBA75752FCB4"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4367E23A3E12ADDA"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: -6.3d
+			y: -13.5d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			description: [
+				"The Tomato is a wonderful fruit. Or is it a vegetable? Out of the produce I've come across on my travels, their global versatility is unparalleled—peeled, sliced, sautéed, or raw, tomatoes enhance dishes from pizzas to stews. "
+				""
+				"It's the one ingredient I've craved the most in its various forms while traveling."
+			]
+			id: "2CF98745A049E7E3"
+			rewards: [{
+				id: "5AC5E454E5BE2008"
+				item: "thermal:tomato_sauce"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53C5DF07898E20D3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 1b
+								id: "thermal:tomato"
+							}
+							{
+								Count: 1b
+								id: "minecolonies:tomato"
+							}
+						]
+					}
+				}
+				title: "Tomato"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2CF98745A049E7E3"]
+			description: [
+				"While living as a Hierophant, automatic fishing barges were a staple, providing great quantities of fish. One one of the dishes that can be prepared with tasty salmon is barbecue. Stick a stick into it and it's suddenly very portable, although the preservation aspect is questionable. "
+				""
+				"This simple barbecue grew on me, first as a ration in time of need and then as an ever-present food even out of dire times."
+			]
+			id: "6B9C854C208F6A93"
+			rewards: [{
+				count: 16
+				id: "5AA5F6ABB97B6396"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37CC73C708A6E780"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			hide_dependency_lines: true
+			id: "3C277EABAB73C9F3"
+			rewards: [{
+				count: 64
+				id: "19CCF294010F985C"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecolonies:blockhutcowboy"
+				id: "5F1693E2AC3554C7"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 250
+			}]
+			x: -8.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2CF98745A049E7E3"]
+			description: ["Cake is a food that lends itself to being shared. It fosters a sense of community, but is also the host of thieves. Countless tales tell of cake thieves stealing slices without anyone looking."]
+			id: "4E912C726E35BFB0"
+			rewards: [{
+				id: "3F5BA4439FADE43D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "minecraft:cake"
+				id: "0CE9AD71DF4E8C7B"
+				stat: "minecraft:eat_cake_slice"
+				type: "stat"
+				value: 7
+			}]
+			x: -9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D347AB89C552DDA"]
+			description: ["The automatisation of food processes was a great boon to humanity, although not widespread in all parts of the world yet. I did not meet such a person well-wersed in the arts of the food industry, but I can make my resonable guesses that this would have to be someone of both the Hermit and Empress pathways."]
+			id: "3AF4E40C0C27D04B"
+			rewards: [{
+				count: 3
+				id: "707DE64F66DC831B"
+				item: "concatenationcore:yumpearls"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB9A98A755BB154"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							ForgeCaps: {
+								Parent: { }
+							}
+							id: "create_central_kitchen:cooking_guide"
+						}]
+					}
+				}
+				title: "Any Cooking Guide"
+				type: "item"
+			}]
+			title: "Centralized Kitchen"
+			x: -11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6B9C854C208F6A93"]
+			description: [
+				"On my travels to the East, this delicacy was one that had spread as far as the West goes. Despite using a simple staple crop, it manages to utilize the annoying kelp we find around oceans into something edible."
+				""
+				"While dining at a high-end kelp roll shop in the middle of a river, this is where I was offered my first high-quality cutting board - the same one I still use to cut the very rolls I crave every night."
+			]
+			id: "1A0B3BD634038F87"
+			rewards: [{
+				count: 9
+				id: "3F637BB9E7A09F2A"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "4C30C840968F5BDA"
+				item: { Count: 9, id: "farmersdelight:kelp_roll_slice" }
+				type: "item"
+			}]
+			title: "Sushi"
+			x: -6.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["4E912C726E35BFB0"]
+			description: [
+				"The humble pumpkin pie is one of the contenders in a great war over food. The advocates of the golden carrot pledge that their preferred food is the most optimal. Pumpkin pie isn't even second to the golden carrot. "
+				""
+				"However, it can easily be mass-produced for minimal effort once the setup is ready. There are plenty of cheap, mass-produced pumpkin pie slices sold in stalls and in general stores."
+			]
+			id: "7C08CDE9CCF30255"
+			rewards: [{
+				id: "009187D10D26056A"
+				item: "chipped:overjoyed_carved_pumpkin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "06B142D52E9A93F5"
+				item: { Count: 64, id: "create_central_kitchen:pumpkin_pie_slice" }
+				type: "item"
+			}]
+			title: "Pumpkin Pie"
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["7D347AB89C552DDA"]
+			description: [
+				"This girl I had met was intrigued by me the most of all travelers and invited me in and offered me a holiday candy. Although the recipe was long lost to most, she had some pieces of a recipe book she could try to use. One day, she had did it, but she never published the fruits of her cuisine. She did it not for glory, money or out of tradition. She did it because she wanted to be the only one that knows how."
+				"{@pagebreak}"
+				"I kept one of the candies and managed to pin down the recipe  after many nights licking small torn off parts of a holiday candy."
+			]
+			id: "2345602C410E1787"
+			rewards: [{
+				id: "09C1C8D22362C2EA"
+				item: "born_in_chaos_v1:magical_holiday_candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43766335577F334B"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2345602C410E1787"]
+			description: [
+				"The coffee candy and the shiny eclair both make great use of chocolate to provide a rush of energy to their users. Sadly, with the size of these treats, this rush is very temporary, lasting a dozen of seconds or so. "
+				""
+				"This did not stop athletes from eating some of these coffee candies in a rush or miners from spurgling on an eclair every once in a while."
+			]
+			id: "558BEACDBAF84964"
+			rewards: [{
+				count: 5
+				id: "29497434A92C29C3"
+				item: "concatenationcore:spicy_drop"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "054F071F23B8E76B"
+					item: "born_in_chaos_v1:coffee_candy"
+					type: "item"
+				}
+				{
+					id: "342363223FDB7F67"
+					item: "concatenationcore:shiny_eclair"
+					type: "item"
+				}
+			]
+			title: "Speedy Pastries"
+			x: -11.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1203CDC5DF26F779"]
+			description: [
+				"Various special candies can be found either around the world or held by the undead - the recipe long forgotten and their powers desired. All of the Death card holders I've met were practically hunting anything that did not live and kept looking under carved pumpkins for candy."
+				"{@pagebreak}"
+				"I have met one girl on my travels in a small obscure town in the autumn countryside who had claimed the recipe of some candies from her grandmother and reverse-engineered it to give it mystical power."
+				"{@pagebreak}"
+				"She spoke of her grandmother, who once served a powerful vampire lord, the only thing missing in his life was of sugar and spice. Legends say that he tasked one of his chefs and one of his mages with creating a mystical candy that even a vampire would crave. This girl that I met was the granddaughter of an apprentice of an apprentice of one of these chefs."
+			]
+			id: "7D347AB89C552DDA"
+			rewards: [{
+				count: 9
+				id: "67DF060FF10F25FC"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DEFAF9F9AF3A5C6"
+					item: "concatenationcore:sugarbase"
+					type: "item"
+				}
+				{
+					id: "728B32725280B85B"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4E912C726E35BFB0"]
+			description: ["I entered a fancy-looking but desolate restaurant in Sparkon named \"L'Honey Home\". It's the most deserted restaurant in the city, but I have faith. Oddly, there is no menu as bees fly around the small shop. I am handed a bottle of honey. Curious, I ask what this is. They recognize I am not from here, and explain that this is a honeyed drink, sweet and nearly as nutritious as a meal. Well, not enough to replace it, which is why they also served some sweet bread with it."]
+			id: "685901ABFE713594"
+			rewards: [{
+				count: 6
+				id: "57E8F5FD0B2FC4D2"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E22E653C10F4FAF"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6B9C854C208F6A93"]
+			description: ["I was surprised to find that this engineer living in his windmill subsisted entirely off mushrooms. He ground down mushrooms he had grown in great quantities, at first through the use of colonies and then through artificial processes, to then suck it down as a very nutritious paste. It tasted terrible, but it had clearly sustained him and his friends long enough to pass on the recipe. I do not want to write it down."]
+			id: "43C5AE6CEA539F0D"
+			rewards: [{
+				id: "6DD3D23F25227514"
+				item: "mekanism:nutritional_paste_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+				id: "12ADC79B1FECFCC6"
+				title: "Fungus Colony"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1A0B3BD634038F87"]
+			description: [
+				"Also frequently found in the East, noodle soup is recomforting and helps kick down any diseases and unwellness."
+				""
+				"I enjoy dipping my favourite cut of meat: lamb into the soup, despite it feeling quite unorthodox. They just don't know a delicacy when they see it."
+			]
+			id: "5B6678771CE97E00"
+			rewards: [{
+				count: 32
+				id: "6E527192CD7E671A"
+				item: "farmersdelight:cooked_mutton_chops"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D319A770FDDFE2"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2345602C410E1787"]
+			description: ["River mint is sometimes found growing by the side of rivers. Barrel zombies occasionally rip some accidentally. Over time, as this was the preferred harvest method for mint, the stocks of river mint have depleted. Now, we must use regular mint and sugar to satisfy the same taste."]
+			id: "5FDF2E31341789BD"
+			rewards: [{
+				count: 6
+				id: "0CC11E713B3A6781"
+				item: "concatenationcore:sugarbase"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63344381C74650B9"
+				item: "born_in_chaos_v1:river_mint"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5FDF2E31341789BD"]
+			description: ["Minty treats don't have the nicest of effects but have simpler recipes and great taste. If you're ever bored in the kitchen but have some mint to spare, then these recipes are for you. I noted down the recipe for mint ice cream and mint candy above, although they are fairly common recipes a lot of people already know about."]
+			id: "52FF52CA3FE3F403"
+			rewards: [{
+				count: 3
+				id: "28F6511F5E72E80E"
+				item: "concatenationcore:yumpearls"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42EBAC650A6241E1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:mint_ice_cream"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:mint_candy"
+							}
+						]
+					}
+				}
+				title: "Any Mint Flavor"
+				type: "item"
+			}]
+			title: "Mint Flavored Treats"
+			x: -13.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["558BEACDBAF84964"]
+			description: ["A valentine treat? For me? You must be mistaken, this has the effectiveness of melon juice with the taste and consistency of chocolate. Clearly, this is more fit for military rations than as a gift. "]
+			id: "34A6A8935CE03BAE"
+			rewards: [{
+				count: 13
+				id: "466969C68960572F"
+				item: "born_in_chaos_v1:gummy_vampire_teeth"
+				type: "item"
+			}]
+			tasks: [{
+				id: "029CBC1C65FD8931"
+				item: "born_in_chaos_v1:chocolate_heart"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5B6678771CE97E00"]
+			description: ["Did I mention I enjoy lamb and mutton? Oh yes I did. It is quite a tender and juicy meat when cooked perfectly. Shepherd pie is quite the mix between a simple and fancy meal but is most savory when fresh. This isn't often the case though, as I tend to use fresh mutton for other recipes."]
+			id: "4EC6DA569E476416"
+			rewards: [{
+				count: 12
+				id: "70A50EE75574EC08"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4123F90BC8A2E745"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7C08CDE9CCF30255"]
+			description: [
+				"The chocolate pies of Reon were so renowned throughout the world that I just had to go out of my way on my journey to make my way to the City of Chocolate."
+				""
+				"Historically, the first batch of cocoa arrived to the port city of Reon in the middle of a continent-spanning war. As enemy fleets clashed on the coast, the inhabitants of Reon rejoiced in figuring out how to process chocolate. Their joy as short lived and turned to contempt and hatred as their rivals in Parlan invented hot chocolate."
+			]
+			id: "6A5C4A594E622245"
+			rewards: [{
+				count: 5
+				id: "14E943695B3FFCF2"
+				item: "concatenationcore:yumpearls"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27AD03DD2F4A896F"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["5FDF2E31341789BD"]
+			description: [
+				"An apple on a stick with melting mint cream on top does not sound like the sweetest treat one can make for themselves, but this is surprisingly a favourite in a few zealots. I would dare say that it was these mages that imbued the recipe with some of the steps as ritual practice to feel more hearty."
+				"{@pagebreak}"
+				"The Caramel Square comboes nicely with the mint apple, as you might feel a sharp pain in your guts from eating the mint apple. Might as well finish the clogging of your arteries. Wait, you're not meant to swallow the entire caramelized apple in one go?"
+			]
+			id: "40654ACC4DCE92B2"
+			rewards: [
+				{
+					count: 5
+					id: "402C7BFAE3CF0E59"
+					item: "concatenationcore:mint_apple"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2488B48A9248BD53"
+					item: "concatenationcore:caramel_square"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2013CDBCE7EC87CF"
+					item: "concatenationcore:mint_apple"
+					type: "item"
+				}
+				{
+					id: "3CCC895534CCAF0A"
+					item: "concatenationcore:caramel_square"
+					type: "item"
+				}
+			]
+			title: "Caramel and Apple"
+			x: -13.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5B6678771CE97E00"]
+			description: [
+				"Who doesn't like pizza? It is a fun food, both to make and to eat, as well as making use of the delicious tomato."
+				""
+				"Unfortunately, most traditional pizza makers have turned to modern appliances to continue their art. I can't seem to find a single traditional pizza anymore! Are these even edible? They look like a mechanician's cardboard."
+			]
+			id: "35F15AA6282203DA"
+			rewards: [{
+				count: 9
+				id: "2FF625E60CF9817F"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B22F7AD05FB2D6A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "refurbished_furniture:meatlovers_pizza_slice"
+							}
+							{
+								Count: 1b
+								id: "refurbished_furniture:vegetable_pizza_slice"
+							}
+						]
+					}
+				}
+				title: "Pizza"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -17.5d
 		}
 	]
 	title: "The Journey"

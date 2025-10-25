@@ -1,0 +1,315 @@
+{
+  "profession": "dynamicvillage:hydraulic_engineer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "create:copper_sheet",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:hydraulic_engineer_copper_sheet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:dried_kelp",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:hydraulic_engineer_emerald_for_dried_kelp"
+    },
+    {
+      "offer": {
+        "itemKey": "create:fluid_pipe",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 28,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:hydraulic_engineer_fluid_pipe_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:copper_ingot",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:hydraulic_engineer_emerald_for_copper_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "create:copper_diving_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "tradeExp": 24,
+      "maxUses": 3,
+      "priceMultiplier": 0.04,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:hydraulic_engineer_copper_diving_helmet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:copper_casing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:hydraulic_engineer_copper_casing_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:spout",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:hydraulic_engineer_spout_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:fluid_tank",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 18,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:hydraulic_engineer_fluid_tank_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:mechanical_pump",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:hydraulic_engineer_mechanical_pump_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:copper_casing",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:hydraulic_engineer_emerald_for_copper_casing"
+    },
+    {
+      "offer": {
+        "itemKey": "create:fluid_tank",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 48,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:hydraulic_engineer_fluid_tank_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:mechanical_mixer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 64,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:hydraulic_engineer_mechanical_mixer_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:fluid_valve",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 4,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:hydraulic_engineer_fluid_valve_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:large_water_wheel",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:hydraulic_engineer_large_water_wheel_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:honeyed_apple",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 3,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:hydraulic_engineer_honeyed_apple_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:copper_diving_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 3,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:hydraulic_engineer_copper_diving_boots_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:copper_backtank",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 3,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:hydraulic_engineer_copper_backtank_for_emerald"
+    }
+  ]
+}

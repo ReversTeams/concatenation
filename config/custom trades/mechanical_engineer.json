@@ -1,0 +1,367 @@
+{
+  "profession": "dynamicvillage:mechanical_engineer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "create:andesite_alloy",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:mechanical_engineer_andesite_alloy_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:andesite",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:mechanical_engineer_emerald_for_andesite"
+    },
+    {
+      "offer": {
+        "itemKey": "create:iron_sheet",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:mechanical_engineer_iron_sheet_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:raw_zinc",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:mechanical_engineer_emerald_for_raw_zinc"
+    },
+    {
+      "offer": {
+        "itemKey": "create:wrench",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 24,
+      "maxUses": 3,
+      "priceMultiplier": 0.04,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:mechanical_engineer_wrench_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:mechanical_bearing",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:mechanical_engineer_mechanical_bearing_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:goggles",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 18,
+        "priceModifier": 0
+      },
+      "tradeExp": 32,
+      "maxUses": 3,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:mechanical_engineer_goggles_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:cogwheel",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:mechanical_engineer_emerald_for_cogwheel"
+    },
+    {
+      "offer": {
+        "itemKey": "create:water_wheel",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:mechanical_engineer_water_wheel_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:basin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:mechanical_engineer_basin_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:depot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:mechanical_engineer_depot_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:belt_connector",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:mechanical_engineer_emerald_for_belt_connector"
+    },
+    {
+      "offer": {
+        "itemKey": "create:stressometer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 3,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:mechanical_engineer_stressometer_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:speedometer",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 38,
+      "maxUses": 4,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:mechanical_engineer_speedometer_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:large_water_wheel",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 6,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:mechanical_engineer_emerald_for_large_water_wheel"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:chute",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:mechanical_engineer_emerald_for_chute"
+    },
+    {
+      "offer": {
+        "itemKey": "create:crushing_wheel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 54,
+        "priceModifier": 0
+      },
+      "tradeExp": 28,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:mechanical_engineer_crushing_wheel_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:mechanical_roller",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 19,
+        "priceModifier": 0
+      },
+      "tradeExp": 24,
+      "maxUses": 2,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:mechanical_engineer_mechanical_roller_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:mechanical_arm",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 40,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 3,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:mechanical_engineer_mechanical_arm_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:mechanical_crafter",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:mechanical_engineer_mechanical_crafter_for_emerald"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 20,
+    "tag": "mekanism:redstone"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "output": {
+    "item": "concatenationcore:primed_calculation_circuit"
+  }
+}

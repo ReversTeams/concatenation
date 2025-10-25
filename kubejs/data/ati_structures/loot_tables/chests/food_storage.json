@@ -1,0 +1,184 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:16701501,CustomPotionEffects:[{Id:24,Duration:2400},{Id:1,Duration:2400,Amplifier:2},{Id:23,Duration:2400,Amplifier:1},{Id:5,Duration:2400,Amplifier:1},{Id:9,Duration:2400}],display:{Name:'[\"\",{\"text\":\"Piwko \",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"Tesco\",\"italic\":false,\"color\":\"red\"}]',Lore:['[\"\",{\"text\":\"Very scrumptious\",\"italic\":false,\"color\":\"#ffffcc\"}]']}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"A magical Carrot\",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"<\",\"italic\":false}]'},Enchantments:[{lvl:3,id:unbreaking}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"An expired pringle\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[\"\",{\"text\":\"Very delicious\",\"italic\":false,\"color\":\"#996600\"}]']},Enchantments:[{lvl:3,id:lure}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:16351261,CustomPotionEffects:[{Id:2,Duration:2400,Amplifier:2},{Id:23,Duration:2400,Amplifier:9},{Id:6,Duration:2400,Amplifier:2}],display:{Name:'[\"\",{\"text\":\"CaseOh \",\"italic\":false,\"color\":\"dark_aqua\"},{\"text\":\"Drink\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"Provides you with 100,000 calories\",\"italic\":false,\"color\":\"aqua\"}]']}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 6
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_cod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 6
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:11546150,CustomPotionEffects:[{Id:19,Duration:1200,Amplifier:1},{Id:17,Duration:1200,Amplifier:1}],display:{Name:'[\"\",{\"text\":\"Gnome \",\"italic\":false,\"color\":\"red\"},{\"text\":\"in a bottle\",\"italic\":false,\"color\":\"green\"}]',Lore:['[\"\",{\"text\":\"Quite a dangerous creature\",\"italic\":false,\"color\":\"dark_green\"}]']},Enchantments:[{lvl:3,id:unbreaking}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    }
+  ]
+}

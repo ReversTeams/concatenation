@@ -35,6 +35,8 @@ ServerEvents.recipes(event => {
 
         event.remove({ output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped' })
         // event.remove({ output: 'create:shaft', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'tfmg:coal_coke', type: 'minecraft:crafting_shapeless' })
+        event.remove({ output: 'create:industrial_iron_block', type: 'minecraft:stonecutting' })
         event.remove({ output: 'thermal:electrum_ingot', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:bronze_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:tin_gear', type: 'minecraft:crafting_shaped' })

@@ -58,6 +58,16 @@
 		#Range: 0.0 ~ 1.0
 		shardOreSpawnChanceNearAnomaly = 0.01
 
+	#Villager Structure Configuration
+	#Control the generation of custom villager structures
+	[worldgen.villager_structures]
+		#Enable Anomaly Scientist Lab generation in villages
+		enableAnomalyScientistHouse = true
+		#Weight for Anomaly Scientist Lab in village generation (higher = more common)
+		#Default village houses have weights around 1-10, with 5 being moderately common
+		#Range: 1 ~ 100
+		anomalyScientistHouseWeight = 6
+
 #Anomaly Effects Configuration
 #Control the behavior and strength of anomaly effects
 [anomaly_effects]
@@ -316,6 +326,15 @@
 		#Levitation Pad maximum beam height in blocks (default: 16)
 		#Range: 1 ~ 64
 		levitationPadMaxHeight = 16
+		#Hoverboard total cost (-1 for default: Gravity 10, Energy 15)
+		#Range: -1 ~ 10000
+		hoverboard = -1
+		#Hoverboard maximum speed (default: 0.8)
+		#Range: 0.1 ~ 2.0
+		hoverboardMaxSpeed = 0.8
+		#Hoverboard acceleration (default: 0.03)
+		#Range: 0.01 ~ 0.2
+		hoverboardAcceleration = 0.03
 
 #Research Minigame Configuration
 #Control difficulty and behavior of research minigames
@@ -373,6 +392,9 @@
 		#Speed adjustment step size per button press
 		#Range: 0.01 ~ 1.0
 		speedAdjustment = 0.1
+		#Speed difference threshold for auto-snapping main hand to faded hand
+		#Range: 0.01 ~ 0.5
+		snapThreshold = 0.05
 
 	#Gravity Minigame Settings (Balance Scale)
 	[minigames.gravity]

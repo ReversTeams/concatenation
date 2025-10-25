@@ -11,10 +11,10 @@
   "bullet": {
     "life": 0.8,
     "bullet_amount": 1,
-    "damage": 12,
+    "damage": 10,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.15,
+      "armor_ignore": 0.075,
       "head_shot_multiplier": 1.5,
       "damage_adjust": [
         {"distance": 35, "damage": 12},

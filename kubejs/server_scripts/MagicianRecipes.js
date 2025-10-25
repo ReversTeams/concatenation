@@ -35,7 +35,10 @@ ServerEvents.recipes(event => {
                 'reliquary:rod_of_lyssa',
                 'reliquary:void_tear',
                 'reliquary:salamander_eye',
-                'reliquary:hero_medallion'
+                'reliquary:hero_medallion',
+                'torchmaster:feral_flare_lantern',
+                'torchmaster:frozen_pearl',
+                'reliquary:shears_of_winter'
         ]
 
         remove.forEach(item => {
@@ -928,6 +931,46 @@ ServerEvents.recipes(event => {
                         D: 'torchmaster:frozen_pearl',
                         A: 'concatenationcore:sourcesilver',
                         B: 'reliquary:salamander_eye'
+                }
+        )
+        event.shaped(
+                Item.of('torchmaster:frozen_pearl'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:blue_ice',
+                        C: 'minecraft:ender_pearl',
+                        A: 'elementalcraft:springaline_shard'
+                }
+        )
+        event.shaped(
+                Item.of('torchmaster:feral_flare_lantern'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        C: 'elementalcraft:swift_alloy_ingot',
+                        B: 'minecraft:glowstone',
+                        D: 'elementalcraft:springaline_lantern'
+                }
+        )
+        event.shaped(
+                Item.of('reliquary:shears_of_winter'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'ars_nouveau:water_essence',
+                        A: 'elementalcraft:springaline_shard',
+                        C: 'minecraft:shears'
                 }
         )
 });

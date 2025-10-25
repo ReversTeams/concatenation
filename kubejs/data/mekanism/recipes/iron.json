@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 20,
+    "tag": "mekanism:carbon"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "output": {
+    "item": "mekanism:enriched_iron"
+  }
+}

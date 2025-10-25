@@ -440,7 +440,7 @@ mobDropsEnabled = true
 		timeInMinutes = 1
 		#Maximum time variance in minutes. A random part of it gets added to the Time in minutes.
 		#Range: 0 ~ 15
-		maximumTimeVarianceInMinutes = 5
+		maximumTimeVarianceInMinutes = 3
 		#Light level that the altar outputs while active
 		#Range: 0 ~ 16
 		outputLightLevelWhileActive = 16

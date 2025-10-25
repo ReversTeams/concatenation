@@ -1,0 +1,277 @@
+{
+  "profession": "dynamicvillage:train_mechanic",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:train_mechanic_iron_ingot_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:train_door",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:train_mechanic_train_door_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:steam_whistle",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "dynamicvillage:train_mechanic_steam_whistle_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:track",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.02,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:train_mechanic_track_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:track_station",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:train_mechanic_track_station_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:display_board",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "dynamicvillage:train_mechanic_display_board_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "create:track",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:train_mechanic_emerald_for_track"
+    },
+    {
+      "offer": {
+        "itemKey": "create:display_link",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 10,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:train_mechanic_display_link_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:schedule",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 4,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:train_mechanic_schedule_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:placard",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 16,
+      "maxUses": 3,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "dynamicvillage:train_mechanic_placard_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:controls",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 4,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:train_mechanic_controls_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:railway_casing",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "dynamicvillage:train_mechanic_railway_casing_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:portable_storage_interface",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:train_mechanic_portable_storage_interface_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:item_vault",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 19,
+        "priceModifier": 0
+      },
+      "tradeExp": 24,
+      "maxUses": 2,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:train_mechanic_item_vault_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "create:sturdy_sheet",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 44,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.01,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "dynamicvillage:train_mechanic_sturdy_sheet_for_emerald"
+    }
+  ]
+}

@@ -18,6 +18,7 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('mcore:steel_sheet', 'Hadfield Steel Sheet');
   event.renameItem('mcore:titanium_sheet', 'Vultanium Sheet');
   event.renameItem('tfmg:coal_coke', 'Precursor Coke');
+    event.renameItem('projecte:interdiction_torch', 'Banishment Torch');
 
   event.renameItem('thermal:onion', 'Ishikura Onion');
   event.renameItem('thermal:rice', 'Precoce Rice');

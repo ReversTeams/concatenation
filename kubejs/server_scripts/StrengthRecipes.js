@@ -46,7 +46,8 @@ ServerEvents.recipes(event => {
                 "casing_762x_39mm_recipe",
                 "casing_762x_54_recipe",
                 "casing_3060_recipe",
-                "casing_9mm_recipe"
+                "casing_9mm_recipe",
+                "casing_rpg_recipe"
         ];
 
         const celesids = [

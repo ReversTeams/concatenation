@@ -1,5 +1,5 @@
 {
-  "pack.tacz.tacz_default_gun.name": "TAC Zero Default Pack",
+  "pack.tacz.tacz_default_gun.name": "Judgement",
   "pack.tacz.tacz_default_gun.desc": "That this nation, under God, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.",
 
 
@@ -236,9 +236,9 @@
   "tacz.attachment.stock_ripstock.name": "CMMG RipStock Stock",
   "tacz.attachment.stock_m4ss.name": "M4SS Stock",
 
-  "tacz.block.gun_smith_table.name": "TaCZ Gun Smith Table",
-  "tacz.block.ammo_workbench.name": "TaCZ Ammo Assembly Table",
-  "tacz.block.attachment_workbench.name": "TaCZ Attachment Table",
+  "tacz.block.gun_smith_table.name": "Gun Smith Table",
+  "tacz.block.ammo_workbench.name": "Ammo Assembly Table",
+  "tacz.block.attachment_workbench.name": "Attachment Table",
 
   "tacz.block.gun_smith_table.desc": "Where it all began",
   "tacz.block.ammo_workbench.desc": "Gunpowder Glitter",

@@ -1,0 +1,194 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 2
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 4,
+            "max": 8
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:protection"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{pattern:host,material:iron},display:{Name:'[\"\",{\"text\":\"Gladiator Helm\",\"italic\":false,\"color\":\"gold\"}]',Lore:['[\"\",{\"text\":\"Relaible\",\"italic\":false,\"color\":\"#996600\"}]']},Enchantments:[{lvl:2,id:blast_protection},{lvl:2,id:fire_protection},{lvl:2,id:projectile_protection},{lvl:2,id:protection},{lvl:8,id:unbreaking}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{pattern:wayfinder,material:quartz},display:{Name:'[\"\",{\"text\":\"Diamond Shell\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[\"\",{\"text\":\"A shell from diamonds\",\"italic\":false,\"color\":\"dark_aqua\"}]']},Enchantments:[{lvl:1,id:aqua_affinity},{lvl:4,id:protection},{lvl:3,id:respiration},{lvl:3,id:unbreaking}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Trim:{pattern:silence,material:quartz},display:{Name:'[\"\",{\"text\":\"Frozen Boots\",\"italic\":false,\"color\":\"#ccffff\"}]',Lore:['[\"\",{\"text\":\"made from\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"10000 year old\",\"italic\":false,\"color\":\"white\"}]','[\"\",{\"text\":\"ice blocks\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{lvl:2,id:depth_strider},{lvl:2,id:feather_falling},{lvl:2,id:frost_walker},{lvl:2,id:soul_speed}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Reinforced Golden Axe\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[\"\",{\"text\":\"Way stronger and\",\"italic\":false,\"color\":\"#999900\"}]','[\"\",{\"text\":\"actually useful\",\"italic\":false,\"color\":\"#999900\"}]']},Enchantments:[{lvl:6,id:efficiency},{lvl:10,id:unbreaking}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[\"\",{\"text\":\"Iron Katana\",\"italic\":false,\"color\":\"#99ccff\"}]',Lore:['[\"\",{\"text\":\"A strong weapon\",\"italic\":false,\"color\":\"dark_aqua\"}]','[\"\",{\"text\":\"(not made from stone)\",\"italic\":false,\"color\":\"dark_aqua\"}]']},Enchantments:[{lvl:3,id:knockback},{lvl:3,id:sharpness},{lvl:3,id:unbreaking}]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 0,
+            "max": 30
+          }
+        }
+      ]
+    }
+  ]
+}

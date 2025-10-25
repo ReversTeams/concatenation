@@ -1501,20 +1501,20 @@ ServerEvents.recipes(event => {
                 }
         )
 
-        event.shaped(
-                Item.of('thermal:enderium_gear'),
-                [
-                        'ABC',
-                        'CCC',
-                        'CD '
-                ],
-                {
-                        D: 'minecraft:iron_nugget',
-                        C: 'thermal:enderium_ingot',
-                        A: '#concatenation:hammers',
-                        B: 'createmetallurgy:graphite_gear_mold'
-                }
-        )
+        // event.shaped(
+        //         Item.of('thermal:enderium_gear'),
+        //         [
+        //                 'ABC',
+        //                 'CCC',
+        //                 'CD '
+        //         ],
+        //         {
+        //                 D: 'minecraft:iron_nugget',
+        //                 C: 'thermal:enderium_ingot',
+        //                 A: '#concatenation:hammers',
+        //                 B: 'createmetallurgy:graphite_gear_mold'
+        //         }
+        // )
 
         event.shaped(
                 Item.of('thermal:lapis_gear'),
