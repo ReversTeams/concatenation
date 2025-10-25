@@ -18,6 +18,20 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('concatenationcore:the_error')
     event.shaped(
+                Item.of('the_deep_void:glutton_block'),
+                [
+                        'ADA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        D: 'concatenationcore:the_error',
+                        C: 'the_deep_void:block_of_ancient_flesh',
+                        B: 'projecte:dark_matter_block',
+                        A: 'the_deep_void:soul_fused_ingot'
+                }
+        ).keepIngredient('concatenationcore:the_error')
+    event.shaped(
                 Item.of(
                         "concatenationcore:the_error",
                         '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
