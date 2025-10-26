@@ -356,13 +356,23 @@ ServerEvents.tags('item', event => {
     add('forge:tools/knives', knives);
     add('farmersdelight:tools/knives', knives);
     add('farmersdelight:straw_harvesters', knives);
+    add('concatenation:knives', knives);
+
+    add('concatenation:knives', [
+        'farmersdelight:flint_knife',
+        'farmersdelight:iron_knife',
+        'farmersdelight:golden_knife',
+        'farmersdelight:diamond_knife',
+        'farmersdelight:netherite_knife',
+        'refurbished_furniture:knife',
+    ]);
 
     add('concatenation:lightning', [
         'minecraft:lightning_rod',
         'thermal:lightning_charge',
         'ars_nouveau:glyph_lightning',
         'reliquary:rending_gale',
-        'minecraft:trident',
+        'minecraft:trident'
     ]);
 
     // add('forge:dusts', [

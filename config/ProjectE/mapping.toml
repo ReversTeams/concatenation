@@ -5,7 +5,7 @@
 	#Want to take a look at the internals of EMC Calculation? Enable this to write all the conversions and setValue-Commands to config/ProjectE/mappingdump.json
 	dumpEverythingToFile = false
 	#Log known EMC Exploits. This can not and will not find all possible exploits. This will only find exploits that result in fixed/custom emc values that the algorithm did not overwrite. Exploits that derive from conversions that are unknown to ProjectE will not be found.
-	logEMCExploits = true
+	logEMCExploits = false
 
 [CraftingMapper]
 
