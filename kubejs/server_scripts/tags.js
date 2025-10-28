@@ -77,6 +77,7 @@ ServerEvents.tags('item', event => {
         'thermal:machine_frame'
     ]);
     //event.add('thermal:crafting/dies', 'concatenationcore:copper_lead_coil');
+    event.add('thermal:crafting/dies', 'concatenationcore:hierophant_die');
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb');
 
     add('minecraft:swords', [
@@ -466,5 +467,9 @@ ServerEvents.tags('item', event => {
         'strangematter:shade_shard',
         'elementalcraft:fine_air_gem',
         'elementalcraft:pristine_air_gem'
+    ]);
+
+    add('lychee:fire_immune', [
+        'minecraft:glowstone'
     ]);
 });

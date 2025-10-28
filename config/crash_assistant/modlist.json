@@ -139,6 +139,11 @@
     "modId": "betteradvancements",
     "version": "0.4.2.25"
   },
+  "BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar": {
+    "jarName": "BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar",
+    "modId": "bcc",
+    "version": "4.0.8"
+  },
   "betterfpsdist-1.20.1-6.0.jar": {
     "jarName": "betterfpsdist-1.20.1-6.0.jar",
     "modId": "betterfpsdist",

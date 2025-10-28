@@ -33,7 +33,7 @@
     "item": "perdition:planeswalker_potion"
   },
   "liquidOutput": {
-    "fluid": "hexerei:blood_fluid"
+    "fluid": "minecraft:water"
   },
   "fluidLevelsConsumed": 1000
 }

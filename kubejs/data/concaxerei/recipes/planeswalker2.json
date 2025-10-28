@@ -32,5 +32,8 @@
   "output": {
     "item": "perdition:planeswalker_potion"
   },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
   "fluidLevelsConsumed": 1000
 }

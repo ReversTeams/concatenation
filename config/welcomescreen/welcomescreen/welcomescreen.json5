@@ -17,5 +17,5 @@
   // new important features, important bug fixes, etc.
   //  
   // Requires BCC to be installed! https://modrinth.com/mod/better-compatibility-checker
-  "update_screen_enabled": false
+  "update_screen_enabled": true
 }

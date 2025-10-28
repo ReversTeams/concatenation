@@ -1370,23 +1370,35 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shapeless(
-    Item.of('simplyjetpacks:jetpack_vanilla1'),
-    [
-        'simplyjetpacks:jetpack_vanilla1_armored'
-    ]
-)
-event.shapeless(
-    Item.of('simplyjetpacks:jetpack_te1'),
-    [
-        'simplyjetpacks:jetpack_te1_armored'
-    ]
-)
-
+                Item.of('simplyjetpacks:jetpack_vanilla1'),
+                [
+                        'simplyjetpacks:jetpack_vanilla1_armored'
+                ]
+        )
+        event.shapeless(
+                Item.of('simplyjetpacks:jetpack_te1'),
+                [
+                        'simplyjetpacks:jetpack_te1_armored'
+                ]
+        )
+        event.shaped(
+                Item.of('concatenationcore:hierophant_die'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'thermal:constantan_plate',
+                        C: 'tarotcards:the_hierophant'
+                }
+        ).keepIngredient('tarotcards:the_hierophant')
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
-        event.recipes.thermal.press('concatenationcore:compressed_sky_stone', ['9x ae2:sky_stone_block', 'thermal:press_packing_3x3_die'])
-        event.recipes.thermal.press('concatenationcore:galvanized_iron', ['9x concatenationcore:galvanized_iron_nugget', 'thermal:press_packing_3x3_die'])
+        event.recipes.thermal.press('concatenationcore:compressed_sky_stone', ['9x ae2:sky_stone_block', 'concatenationcore:hierophant_die'])
+        event.recipes.thermal.press('concatenationcore:galvanized_iron', ['9x concatenationcore:galvanized_iron_nugget', 'concatenationcore:hierophant_die'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(0.5), 'thermal:signalum_plate')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')

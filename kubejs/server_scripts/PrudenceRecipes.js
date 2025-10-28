@@ -13,12 +13,6 @@ ServerEvents.recipes(event => {
         'concatenationcore:stickyredstone'
     );
 
-    event.remove({ output: 'strangematter:resonite_ingot', type: 'minecraft:smelting' })
-    event.remove({ output: 'strangematter:resonite_ingot', type: 'minecraft:blasting' })
-    event.remove({ input: 'strangematter:raw_resonite', type: 'minecraft:smelting' })
-    event.remove({ input: 'strangematter:raw_resonite', type: 'minecraft:smelting' })
-
-
     // Prudence
     event.shaped(
         Item.of(
@@ -131,6 +125,18 @@ ServerEvents.recipes(event => {
             'strangematter:resonant_circuit'
         ]
     ).keepIngredient('concatenationcore:prudence')
+    event.shaped(
+        Item.of('concatenationcore:woven_pearl'),
+        [
+            'AB ',
+            '   ',
+            '   '
+        ],
+        {
+            B: 'minecraft:ender_pearl',
+            A: 'perdition:halcyon'
+        }
+    )
     // event.shaped(
     //     Item.of('strangematter:raw_resonite', 1),
     //     [
@@ -194,12 +200,12 @@ ServerEvents.recipes(event => {
     )
 
     event.recipes.minecraft.smelting(
-                'strangematter:resonite_ingot',
-                'strangematter:raw_resonite'
-        ).xp(0.1).cookingTime(100);
-        event.recipes.minecraft.blasting(
-                'strangematter:resonite_ingot',
-                'strangematter:raw_resonite'
-        ).xp(0.1).cookingTime(50);
+        'strangematter:resonite_ingot',
+        'strangematter:raw_resonite'
+    ).xp(0.1).cookingTime(100);
+    event.recipes.minecraft.blasting(
+        'strangematter:resonite_ingot',
+        'strangematter:raw_resonite'
+    ).xp(0.1).cookingTime(50);
 
 });

@@ -1134,6 +1134,17 @@
 			x: -10.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "7F142F16CEB3F2BC"
+			tasks: [{
+				id: "0B8D8B82F9BDFB75"
+				item: "perdition:limbo_berries"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
 	]
 	title: "Gate to Perdition"
 }

@@ -7,16 +7,7 @@
 	id: "482D038EC4A5B53B"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "0AC71CD263AF6CF7"
-		tasks: [{
-			id: "31CD4DE879F62066"
-			title: "Comet Sighted"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [ ]
 	subtitle: ["Limited Event"]
 	title: "The Economy, Fools!"
 }
