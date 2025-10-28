@@ -25688,14 +25688,33 @@
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
+			description: [
+				"&0“Testing… 1, 2, 1, 2… Can you hear me…”"
+				"{@pagebreak}"
+				"&7“Hello. If you are hearing this, then you have found my audio log for my expedition into the Deep Void. My name is"
+				"{\"text\":\"Bernard\",\"obfuscated\":true}. "
+				"&7I intend to chronicle my experiences here so that anyone else who finds themselves in this dimension may have some semblance of an idea on what they can expect to encounter in this dangerous place, and what measures one may take to combat them.”"
+				"{@pagebreak}"
+				"&7“Since you have found this log, then you will also know how you got here, but for the sake of completeness, I will list the ways that one can arrive here. The most common way is for one to fall into the void, which is lurking beneath every other dimension, but is most visible within the End. If you did not fall into the void, then you were taken by an Abductor, and you have my sincerest condolences. That could not have been a pleasant experience.”"
+				"{@pagebreak}"
+				"&7“As for why I have come down to these depths, I am seeking to recover my compatriot, Koby, from this place. He was taken by an Abductor right before my eyes, so I am hoping to find him down here and return to the Overworld safely. As I am exploring previously undocumented territory, I decided to record what you are listening to now as to prevent any unnecessary tragedies unfolding as a result of this place.”"
+			]
 			hide_dependent_lines: true
 			id: "4E62B2BDC912CCA1"
-			rewards: [{
-				count: 2
-				id: "59F7B2C5BBA33A38"
-				item: "the_deep_void:rotten_bone"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "59F7B2C5BBA33A38"
+					item: "the_deep_void:rotten_bone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0C37EDEEACC3615D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
 			size: 1.1d
 			tasks: [{
 				dimension: "the_deep_void:deep_void"
@@ -25709,6 +25728,11 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: [
+				"&7“When entering a new dimension for the first time, many people would default to mining the same way they would anywhere else to sample the new realm’s materials. You can still do that here in the Deep Void, but it’s not nearly as effective as it is in other, less hostile dimensions. For one, the darkness below the surface is actually constricting, choking the life out of anyone not in the light. In addition to this, ore veins do not appear the same way here in comparison to other places.”"
+				"{@pagebreak}"
+				"&7“In my case, I had no luck getting any new minerals until I fell into a vast cave network, in which the dimension’s treasures had revealed themselves. Minerals are easy to find lining the walls of rock and bone. Onyx and Lavendite are some of the most common gems in the Deep Void, but are nonetheless important for processing its more valuable materials.”"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			id: "13E34EDD951B61F9"
@@ -25735,6 +25759,15 @@
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
+			description: [
+				"&7“One night (or as close as you could call a night within this place with no sense of time), I asked Nyxil if there was a way to leave this place. She expressed surprise at the fact that I had not asked earlier, since every other visitor to this place she came across was always looking for a way out as soon as they got there. Apparently, by fashioning together a pendant of bone and onyx, one could leave rather easily.”"
+				"{@pagebreak}"
+				"&7“I asked her why she hadn’t left yet, and she replied as such: &b‘Not only is this the only home I’ve ever known, I was cursed the moment I was born. Cultists of the Weaver are marked by him at birth and can only leave with his permission.’ &7I asked why she left the cult, and apparently she was due to be sacrificed for the advancement of her parents’ magic abilities. She managed to run away, but she can’t go to the surface due to her mark. Thus, she had sworn revenge against the cult that wanted to kill her for their own gain. She’s seeking out power in order to bring the cult to its knees.”"
+				"{@pagebreak}"
+				"&7“...She asked me why I hadn’t left yet, and I told her that I was looking for my friend who was taken here by a cult. She looked away and said no more. "
+				"{@pagebreak}"
+				"&7\"Please be okay, Kory. I’ll get you back.”"
+			]
 			id: "0E766B6E883A49CB"
 			rewards: [{
 				id: "64D3FCECF40F76C5"
@@ -25764,6 +25797,13 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: [
+				"&7“...I do not like this place. I am currently passing through ancient ruins within a desert of black sand. The iconography of these ruins greatly resemble the Monoliths of Limbo, which was also lost when all the doors shut. Even though I did not dabble much with the occult myself, I am still familiar with these red eyes due to Koby showing me pictures that he had taken on his own travels… I feel like I am being watched.”"
+				"{@pagebreak}"
+				"&7“Occasionally, a creature embedded in the stone will leap out and attack me, only to retreat back into its shell whenever it is not being observed. The monolithic stone that it uses to cover its body is impervious to traditional weaponry, but in return they are vulnerable to being attacked with a pickaxe.”"
+				"{@pagebreak}"
+				"&7“...Even though I know these things are watching me, I still feel someone else’s gaze upon me.”"
+			]
 			hide_until_deps_complete: true
 			id: "5645C4B5F7C63262"
 			rewards: [{
@@ -25783,6 +25823,11 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: [
+				"&7“The Windswept Hollow is a barren wasteland of Void Ash containing ancient ruins and covered fossils. It’s host to a variety of valuable resources and is one of the only places where you could find Sulfur.\""
+				"{@pagebreak}"
+				"&7\"Yet, these treasures aren’t unguarded; I recommend that you watch where you step, as there are multiple types of ambush predators lurking in the ash. The biome’s true value, however, is what lies beneath its surface. Under the ashen dunes are the Desolate Caves, which is full of a morbid soil that can cultivate the growth of rare minerals.”"
+			]
 			id: "1D1398D93B1EED36"
 			rewards: [{
 				id: "0B9488E6784E6B3B"
@@ -25801,6 +25846,13 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: [
+				"&7“There’s a number of monsters down here, so I’ve been examining their bodies’ properties after killing them. A lot of them share similar compositions, those being rotten bones and necrosed skin, but a couple of them have a more interesting drop.\""
+				"{@pagebreak}"
+				"&7\"The Fool Eater, which masquerades as the Damned eyes that remove lights, is primarily made of a strange black moss. I’ve also obtained this material from the passive Wanderers, but only when they make contact and sink into the earth.”"
+				"{@pagebreak}"
+				"&7“It seems like these creatures had grown used to living in the dark, so why is the sky so bright here? It doesn’t make much sense. Perhaps this is a recent development.”"
+			]
 			hide_dependent_lines: true
 			id: "3EA067C20E4ED59E"
 			rewards: [{
@@ -25818,6 +25870,11 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: [
+				"&7“Recently, I came across a mockery of a forest down here. All of its trees were petrified and creaking, with their inhabitants clearly observing my every move. As I made my way through the undergrowth, I was ambushed by plant-like creatures I have dubbed the &8Rooted&7.\""
+				"{@pagebreak}"
+				"&7\"They are capable of blinding their prey and creating illusions of themselves in order to avoid attacks. Even after I had killed them all, I could feel their judgemental stares through their inanimate roots.”"
+			]
 			hide_until_deps_complete: true
 			id: "10348477C6AD7322"
 			rewards: [{
@@ -25836,6 +25893,7 @@
 		}
 		{
 			dependencies: ["5645C4B5F7C63262"]
+			description: ["&b“Cinnabar isn’t really useful on its own. It needs to be paired with other materials to realize any potential from it. One of the more conventional means of refining it is combining it with Sulfur to condense it into an ingot.”"]
 			hide_until_deps_complete: true
 			id: "037DC2CEAEB2F5CB"
 			rewards: [{
@@ -25853,6 +25911,13 @@
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
+			description: [
+				"&7“I’m not a professional at the alchemical processes that these materials are so relevant to, so I’ll leave the explanation to Nyxil.”"
+				"{@pagebreak}"
+				"&b“...So what, I just speak here?” "
+				"&7“Yeah, say what you said just now again.”"
+				"&b“...Desolate Soil is drenched in the residual energy of the void, allowing for alchemical reactions that can produce certain gems. The more common reaction is Grim Shards, which can be combined with Cinnabar to create a Grim Gem, which is useful for a number of things.”"
+			]
 			hide_until_deps_complete: true
 			id: "1DD98931BFA84784"
 			rewards: [{
@@ -25882,6 +25947,7 @@
 				"10348477C6AD7322"
 				"6B96137C28502D97"
 			]
+			description: ["&7“With some help from Nyxil, I was able to create a device that harnesses the power of the Rooted. When powered by redstone, this block will, as per its name implies, root everything around it. Do take note that it’s indiscriminate in its effect and will blind you if you power it yourself!”"]
 			hide_dependent_lines: true
 			id: "21353923BC4CD93E"
 			rewards: [{
@@ -25899,6 +25965,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: ["&7“There isn’t a single droplet of water in the Deep Void. Instead, the essence of darkness flows here and there, that being Liquid Void. Liquid Void can be found in pools underground or within the Befouled Marsh. Making contact with the liquid is rather not recommended, as it quickly causes harsh hallucinations that can lead to madness.”"]
 			hide_until_deps_complete: true
 			id: "6B96137C28502D97"
 			rewards: [{
@@ -25920,6 +25987,12 @@
 				"13E34EDD951B61F9"
 				"037DC2CEAEB2F5CB"
 			]
+			description: [
+				"&b“Refined Onyx is one of the most ubiquitous resources I’ve had the opportunity to work with. It’s a necessary component of many recipes.”"
+				"{@pagebreak}"
+				"&7“...Don’t you have more to say?”"
+				"&b“No, not really. It’s just good.”"
+			]
 			id: "76D7A6B494BCAABC"
 			rewards: [{
 				id: "50E79D17798348F7"
@@ -25936,6 +26009,11 @@
 		}
 		{
 			dependencies: ["6B96137C28502D97"]
+			description: [
+				"&7“The &fNightmare &7is a unique creature in the Deep Void, as you cannot simply find it walking around or within a specific biome. It is a creature that only corporealizes as one goes insane, feasting on the psyche of those unfortunate enough to go mad.\""
+				"{@pagebreak}"
+				"&7\"Apparently, if an individual wanted to lure it out and kill it for the matter it consists of, they could also perform a ritual that summons it, involving stabbing oneself in Void Liquid with an Onyx Needle. Its combat tactics revolve around mass hallucinations, making it difficult to pinpoint exactly where it is. A very tricky creature indeed.”"
+			]
 			icon: "the_deep_void:void_matter"
 			id: "2F507B7274D8E006"
 			rewards: [
@@ -25973,6 +26051,14 @@
 				"13E34EDD951B61F9"
 				"0D61335A0B07300D"
 			]
+			description: [
+				"&b“...Is this thing on?” "
+				"&7“Yes.” "
+				"&b“Ok.”"
+				"&b“Onyx is a common material in the Deep Void, but in times before it used to grow even more virulently. These larger, more jagged crystals are valuable for creating tools and weapons.\" "
+				"{@pagebreak}"
+				"&b\"Ancient Onyx requires the Alchemical Niter of other precious gems, 4 pieces of Onyx, Void Liquid, and Desolate Soil as a catalyst.”"
+			]
 			hide_until_deps_complete: true
 			id: "7BB92B0F64862D0C"
 			rewards: [{
@@ -25992,6 +26078,7 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: ["&7“Of course. No dimension full of terrible monsters and amalgamations and undead would be complete without a nest full of creepy crawlies. &4!%^*. #@^*@! &7I don’t like it here. Every third step aggravates some Bone Crawler that was hiding beneath the ground, which disturbs the eggs around them, which hatch into more Bone Crawlers, and overall it’s just terrible. The air smells of somehow even worse rot than everywhere else and the ground is made out of bug goop. If I ever come here again, with a large emphasis on the IF, I'll bring a way to fly. Hell no to this entire place.”"]
 			id: "7CFABDA77781489E"
 			rewards: [{
 				id: "1DDABEBB2D18C89B"
@@ -26010,6 +26097,16 @@
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
+			description: [
+				"&7“At the center of this horrible place, the mother of all goo balls contains the Primordial Bone Crawler. Since we were unable to break through the incredibly fast-regenerating goop, we had to fight our way from the bottom of the ball to the top where the beast was.\""
+				"&7\"Have I mentioned I hate Bone Crawlers?”"
+				"{@pagebreak}"
+				"&b“I think they’re cute.”"
+				"&7“You have the right to your opinion even if it’s wrong. Anyhow, the queen of all crawlers is deceptively intelligent, using her environment to her advantage by burrowing and slamming up slime projectiles. Killing the Primordial Bone Crawler rewarded us with Bone Crawler Molt Pieces, of which I gave to Nyxil. I do not need these.”"
+				"{@pagebreak}"
+				"&b“...The armor you can make with this is really rather good.”"
+				"&7“I do not want to wear the Bone Crawlers’ skin.”"
+			]
 			hide_until_deps_complete: true
 			id: "1472186B0F51F01B"
 			rewards: [
@@ -26036,6 +26133,11 @@
 		}
 		{
 			dependencies: ["1472186B0F51F01B"]
+			description: [
+				"&b“...Hey. I borrowed "
+				"{\"text\":\"Bernard\",\"obfuscated\":true}"
+				"&b’s recording device in order to document this, because despite his adversity to everything Bone Crawler, they can be used to great advantage. By forming a false egg out of the molt pieces, I’ve created a tool that allows me to travel across bone blocks in the blink of an eye. It even covers my escape with a bunch of baby Bone Crawlers!”"
+			]
 			hide_dependent_lines: true
 			id: "0B537A934EDDE900"
 			rewards: [{
@@ -26054,6 +26156,11 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
+			description: [
+				"&7“You’d think that after traversing through miles of bone and dust, that I’d be grateful to see a more lively landscape down here. On the contrary; I think that this place is a lot more alive than I’d like it to be.\""
+				"{@pagebreak}"
+				"&7\"According to my traveling companion, at some point in this dimension’s past, a great and terrible creature died here, causing an infection of flesh to spread across patches of the land, repurposing the dead to further its desires. Even the Stalker doesn’t dare step foot in this place, and for good reason; every creature here is designed to bleed you dry and assimilate you with the landscape. Be on your guard.”"
+			]
 			hide_until_deps_complete: true
 			id: "0A48C85C5B513BA6"
 			rewards: [{
@@ -26081,10 +26188,17 @@
 			]
 			title: "The Flesh Infection"
 			x: 33.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
+			description: [
+				"&7“Deep within the heart of the Flesh Infection, we encountered a chamber that was uncomfortably well constructed considering where we were. Within, there was a throbbing brain in the center of the room. After we attacked it, a horrible moan rang out, and from the ground a vaguely humanoid amalgamation of flesh and bone appeared.\" "
+				"{@pagebreak}"
+				"&7\"The &4Misanthropic Hivemind &7doesn’t have much in the way of movement, but it summons its Fleshkin to attack on its behalf. It also attacked with jaws that emerged from the flesh, holding whatever it grabbed in place until the fangs were destroyed.”"
+				"{@pagebreak}"
+				"&7“As a last ditch effort, it can absorb all of the living Fleshkin to regain its health, so be sure to end it quickly or without any other mobs being on the field. Its unique drops are Fleshy Bones, which can be used to craft objects that wield the strength of the Flesh Infection.”"
+			]
 			hide_until_deps_complete: true
 			id: "152DC73801813764"
 			rewards: [
@@ -26111,6 +26225,7 @@
 		}
 		{
 			dependencies: ["152DC73801813764"]
+			description: ["{image:the_deep_void:block/big_yellow_eye_animated width:100 height:100 align:center}"]
 			hide_dependent_lines: true
 			id: "0F7A647082ED4B76"
 			rewards: [{
@@ -26130,6 +26245,13 @@
 			dependencies: [
 				"7BB92B0F64862D0C"
 				"2F507B7274D8E006"
+			]
+			description: [
+				"&7“I have been running low on supplies recently, so I was considering going back to the surface to restock all of my equipment. My main concern is that I wouldn’t know how to return to where I was previously, meaning that I would be leaving Nyxil behind with no way to find her afterwards.\" "
+				"{@pagebreak}"
+				"&7\"She alleviated this worry when, after we had defeated the Nightmare, created an upgraded version of the Void Pendant called the Void Mirror. With this, I could travel between the Overworld and the Deep Void as I pleased, and if I recalled where I was when I returned to the surface, I could return to the exact coordinate I was when I had left.”"
+				"{@pagebreak}"
+				"&7“...In the past, Nyxil had used the Void Mirror to peer into the Overworld and check on the visitors she helped escape. I hope that one day she could go there too.”"
 			]
 			hide_dependent_lines: true
 			id: "41407FE4EE0E464F"
@@ -26155,7 +26277,13 @@
 				"0D61335A0B07300D"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{image:the_deep_void:block/big_yellow_eye_animated width:100 height:100 align:center}"]
+			description: [
+				"&b“The pathway of the "
+				"{\"text\":\"eidolisteidolisteidolisteidolist\",\"obfuscated\":true,\"color\":\"yellow\"}"
+				"&b, which I will call the path of the Eidolist, signifies mastery over the eldritch. These unspeakable magics are your tools, these horrific creatures your allies. Nothing scares you, you are the terror.”"
+				"{@pagebreak}"
+				"&b“From what I could tell, this pathway is adjacent to The Lovers. Heh, isn’t that odd?”"
+			]
 			hide_until_deps_complete: true
 			id: "55895AB2924ABAFC"
 			rewards: [
@@ -26185,38 +26313,23 @@
 				"55895AB2924ABAFC"
 				"3EA067C20E4ED59E"
 			]
+			description: ["&7“Following the defeat of the Primordial Bone Crawler, Nyxil had a revelation that led to an increase in her abilities. Thanks to that, she was able to create the Shatterbone Pickaxe, which could destroy even Bedrock! With this, we could finally descend and crack open that Voidrium ore that was impossible to dent.”"]
 			hide_until_deps_complete: true
 			id: "0F8C0FC726A93C13"
-			rewards: [
-				{
-					id: "1BC9E4F34AAE2FC0"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:efficiency"
-								lvl: 5s
-							}]
-						}
+			rewards: [{
+				id: "2BA86173D73DF13E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
 					}
-					type: "item"
 				}
-				{
-					id: "2BA86173D73DF13E"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:mending"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D466DA6F168683D"
 				item: {
@@ -26233,6 +26346,11 @@
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
+			description: [
+				"&7“...This guy, huh?” "
+				"&b“Yes. He’s the leader of the &6Cult of Catastrophe&b and is the sole holder of Sacred Cinnabar, which we need in order to manipulate Voidrium in any meaningful way.” "
+				"&7“...Even without that, I would’ve liked to beat this guy’s head in at some point. He’s the wretch that helped that other wretch kidnap Koby. Let’s get him.”"
+			]
 			id: "19E4A89845D3BF5D"
 			rewards: [
 				{
@@ -26257,6 +26375,12 @@
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
+			description: [
+				"&7“...While we fought the Apostle of Catastrophe, he spewed nothing but mad raving, but right before I landed the killing blow, he confessed that he gave Koby to the &bWeaver of Souls&7.”"
+				"&b“He was next on our list anyhow. After defeating the Apostle and gearing up, I think we’re finally ready to take on the Weaver.”"
+				"{@pagebreak}"
+				"&7“Right. He’s in the very center of the void, underground within the Sepulchre. One more fight, then we could resurface and everything will be &ljust fine&r.”"
+			]
 			id: "30BA63BCE8DAD0DE"
 			rewards: [
 				{
@@ -26284,6 +26408,7 @@
 				"0F8C0FC726A93C13"
 				"19E4A89845D3BF5D"
 			]
+			description: ["&b“...I never thought I would be able to create one of these. The Voidrium Gem is one of the 3 pinnacle materials of the Deep Void’s cults. Its toughness is unmatched and produces an otherworldly glow. Yet, I feel like I can’t do much with it without one of the other two.”"]
 			id: "4E2F07927BA41118"
 			rewards: [{
 				count: 4
@@ -26301,16 +26426,20 @@
 		}
 		{
 			dependencies: ["30BA63BCE8DAD0DE"]
+			description: [
+				"&b“...We won. But, while we were fighting the Weaver, shadowed hands pierced through "
+				"{\"text\":\"Bernard\",\"obfuscated\":true}"
+				"&band now he’s in a coma. I can’t remember his name anymore… whenever I try to say it, I feel like I lose control of my body for the entire word. They stole his name. My only friend…”"
+				"{@pagebreak}"
+				"&b“With the Soul Forge, I combined the Soul Shards synthesized by the Weaver and combined it with Netherite, which is a material that can only be found outside of this dimension. He just happened to have it on his person…”"
+				"{@pagebreak}"
+				"&b&o“I don’t know what to do now.”&r"
+			]
 			id: "6516D88B029F38F1"
 			rewards: [{
-				id: "6D6403096D89F2C8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: { }
-					}
-					id: "projecte:soul_stone"
-				}
+				count: 8
+				id: "3EA1ABAA98AD8D9D"
+				item: "chipped:iron_bowl_soul_lantern"
 				type: "item"
 			}]
 			tasks: [{
@@ -26323,6 +26452,13 @@
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
+			description: [
+				"&b“After agonizing over it for what feels like a decade, I’ve made up my mind. The closest facsimile I've made to returning his soul is this Voodoo Doll, which is undoubtedly an artifact of great power, but it’s not enough.\""
+				"{@pagebreak}"
+				"&b\"I… I avoided thinking about going to the Overworld without him as a guide. But it looks like I’m going to have to search outside of the Deep Void for an answer on how to resuscitate him. This place only knows how to take precious things, not give them back.”"
+				"{@pagebreak}"
+				"&b“Since I believe it was his wish, I’ll be scattering as many copies of this record across the dimension as I can. Hopefully it was of use to you. Goodbye.”"
+			]
 			id: "0E5251536D5AE77B"
 			rewards: [{
 				count: 4
@@ -26340,7 +26476,13 @@
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
-			description: ["The most important thing to remember in the Deep Void is that you're always being watched. Always. The most dangerous of these observers is something I've dubbed \"The Stalker\". If you're away from light for too long, it'll see you as vulnerable and attack you. It's one of the more powerful entities down here, so I'd recommend avoiding it at all costs. It's afraid of light, but it'll still try to attack you if its committed to the act already. In this scenario, I've found a makeshift bait consisting of rotted flesh and bones to be somewhat effective in luring it away."]
+			description: [
+				"&7“One of the most important things to take note of in the Deep Void is that it is very, very dark. Despite the blinding white obscuring the sky, it does not provide any illumination upon the dimension’s surface. You’re obviously encouraged to light it up due to the issue of not being able to see, but I assure you there’s more incentive than just that. Staying in the dark for too long is a surefire way to invite an incredibly powerful existence to rip you apart.”"
+				"{@pagebreak}"
+				"&7“If you’ve felt like you’re being watched, then you are correct. The floating eyes in the darkness that break your torches aren’t the only thing observing you. The &3Stalker&7, as I’ve dubbed it, is an intelligent hunter that prowls almost everywhere in the Deep Void. If you are outside of the range of a light source for too long, it will mark you for death, as its only weakness is the light. It is very fast and very deadly, so unless you are prepared for such an encounter I’d highly advise remaining outside of its interests.”"
+				"{@pagebreak}"
+				"&7“I’ve found a few alternatives to stave off the Stalker. One of them is to distract it with the strong scent of a cadaver. By fashioning together some rotten bones and flesh, I managed to turn the Stalker away for a few key moments by throwing it in the opposite direction I was. This does not fool it for long though, so as I have stated before: stay in the light.”"
+			]
 			hide_until_deps_complete: true
 			icon: "the_deep_void:watching_stalker_spawn_egg"
 			id: "245B905EE8E73588"
@@ -26862,6 +27004,7 @@
 			dependencies: [
 				"76D7A6B494BCAABC"
 				"152DC73801813764"
+				"43593B9FF0498E58"
 			]
 			id: "04FB6C65AF290FFC"
 			rewards: [{
@@ -27703,6 +27846,15 @@
 		}
 		{
 			dependencies: ["5645C4B5F7C63262"]
+			description: [
+				"&7“While I was mining a particularly large vein of Cinnabar, I heard a crash behind me. When I had turned to look, there was an Overseer, entirely exposed, with the corpse of one of its fellows right next to it. I looked directly at it, then it began shambling away. Curious to see why this one didn’t hide or attack me like its kin, I followed behind it at a safe distance.”"
+				"{@pagebreak}"
+				"&7“Imagine my surprise when, after a few minutes of walking, I saw the glow of a lantern! There was another person here! After confirming that they had no hostile intentions, I learned that her name was &bNyxil&7, and that she had been living down here for her entire life. Of course, I had a lot of questions, like how she’d been surviving, were there other sentient peoples here, etcetera, but due to her somewhat timid appearance and the fact that she clearly extended the invitation intentionally, I decided against asking about them all at once out of courtesy.”"
+				"{@pagebreak}"
+				"&7“Instead, I simply deigned to ask how she managed to tame one of the Overseers, since through my experience they’ve been rather hostile from my experience. In response, she stated that she had created them herself. By placing the monolithic stone and seer in the form of an Overseer and using an Eye of the Abyss on it, she animated the Overseer under her command. Quite a frightful power!”"
+				"{@pagebreak}"
+				"&7“...I’m not sure if I could trust her completely, but she’s the first person I’ve talked to in a week. I am planning to travel with her since she seems to know these lands better than I ever could, during which I will try to discern her intentions.”"
+			]
 			id: "56D3007AA4FEC1F4"
 			rewards: [{
 				id: "6F5C49736ACF51ED"
@@ -28049,6 +28201,22 @@
 			}]
 			x: 13.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["0A48C85C5B513BA6"]
+			description: [
+				"&7“Within the Flesh Infection, one could find certain aberrations of flesh that are entirely immobile. When stripping this wavy flesh from the ground, you can find pockets of crystalized flesh that can be utilized in a variety of ways.”"
+				"&b“...It makes a good snack in a pinch.”"
+				"&7“I’m going to pretend I didn’t hear that. If you really want to consume it, crafting it into an Ambrosia is entirely safe and, in fact, recommended! It tastes really good considering where it comes from and has restorative properties.”"
+			]
+			id: "43593B9FF0498E58"
+			tasks: [{
+				id: "4D92913C3968F5F3"
+				item: "the_deep_void:flesh_chunk"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 2.0d
 		}
 	]
 	title: "The Journey"

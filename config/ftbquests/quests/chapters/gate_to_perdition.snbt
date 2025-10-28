@@ -741,6 +741,11 @@
 		}
 		{
 			dependencies: ["26EF74B1DFA8036F"]
+			description: [
+				"&2When Limbo was cut off from this world, I think we all internally heaved a sigh of relief, since that horrifying dimension was rather unpleasant to be stuck in, even though losing the dimensional doors was still rather unfortunate. Yet, it seems like another, more malicious dimension has detected its absence and has appended itself to the fabric of our world! "
+				"{@pagebreak}"
+				"&2While trying to tear open a rift in the End, I was teleported above the void and fell. I thought it was the end for me! Fortunately (or unfortunately, depending on how you look at it), I found myself in a landscape consisting of corpses! I quickly teleported back to a waypoint I had set for myself; who knows what terrible things are living there!"
+			]
 			hide_dependency_lines: true
 			id: "08A77DC76CA4CD87"
 			tasks: [{
