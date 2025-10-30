@@ -16194,6 +16194,15 @@
 				"20B05E0586A665F7"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"&3The Lovers Pathway&r delves into alchemical practices and transmutation. In essence, the processes of alchemy allow the conversion of any material into a completely different material, given enough time and resources."
+				""
+				"On my way to the city of Sparkon, I happened upon an airship full of alchemists that happened to be heading in the same direction that I was, so I hitched a ride with them."
+				"{@pagebreak}"
+				"As I was particularly interested in their quest of pursuing the Philosopher’s Stone, I proposed an exchange. I would give them pointers regarding the magics that I had mastered up until that point, and in return they would train me in the art of alchemy. I’d say that it was a worthwhile trade, even if some of their methods seemed archaic compared to some of the more industrious pathways."
+				"{@pagebreak}"
+				"The Lovers is adjacent to &eThe Sun Pathway, &fThe Star Pathway, &7and &4The Moon Pathway."
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "0D61335A0B07300D"
@@ -16231,8 +16240,8 @@
 				type: "item"
 			}]
 			title: "&3The Lovers"
-			x: 27.9d
-			y: 10.85d
+			x: 27.5d
+			y: 10.625d
 		}
 		{
 			dependencies: [
@@ -21260,6 +21269,7 @@
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
+			description: ["Sal Ammoniac is a rather common crystal of dusty pink hue. Similar to Inert Crystals, I believed they were similarly worthless until being taught the art of alchemy. By placing the crystal into its corresponding accumulator along with some water, you get concentrated Sal Ammoniac fluid, which is integral for a number of alchemical processes."]
 			id: "3763D07C9E3EBB04"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -21279,11 +21289,16 @@
 					type: "item"
 				}
 			]
-			x: 29.9d
-			y: 10.35d
+			x: 32.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
+			description: [
+				"The pyromantic brazier is a simple apparatus that can be used to power other alchemical devices. It acts similar to a furnace, consuming fuels like coal or logs in order to bring life to the machine that it is placed under."
+				"{@pagebreak}"
+				"The alchemists I was travelling with derided it as “barbaric”, since they had advanced to a point where a more elegant fuel source is made available, but if you’re starting from scratch the brazier is necessary to get going."
+			]
 			id: "18842926F8B1C64D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -21296,11 +21311,12 @@
 				item: "theurgy:pyromantic_brazier"
 				type: "item"
 			}]
-			x: 29.4d
-			y: 11.85d
+			x: 29.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
+			description: ["Liquefication allows the extraction of Alchemical Sulfur from materials. By using Sal Ammoniac as a solvent, the Liquefication Cauldron dissolves any inputted matter and evaporates the solvent, leaving behind the corresponding sulfur."]
 			id: "196E58EC65B8C401"
 			rewards: [{
 				id: "0EF92EE3258D753B"
@@ -21312,11 +21328,12 @@
 				item: "theurgy:liquefaction_cauldron"
 				type: "item"
 			}]
-			x: 31.4d
-			y: 12.85d
+			x: 31.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
+			description: ["A peculiarly shaped device that extracts Alchemical Mercury from matter. The mercury distiller accepts a wide range of basic materials and converts them into mercury shards, but the rate at which it does this depends on the value of the inputted object. For example, you’d need 15 blocks of gravel to get 1 shard, but if you place a diamond inside, you’d receive 10 shards of mercury."]
 			id: "082867418C58A3F7"
 			rewards: [{
 				id: "29BFDA873AFBE123"
@@ -21328,11 +21345,12 @@
 				item: "theurgy:distiller"
 				type: "item"
 			}]
-			x: 29.9d
-			y: 13.35d
+			x: 30.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
+			description: ["Calcination is the process in which Alchemical Salt is extracted from matter. To do this, you need the calcination oven, which allows for a controlled heating of inputted material to convert it into salt. From my understanding, the high density of drenched iron within the apparatus is what allows this to occur."]
 			id: "0BFFCDA557C3AC9C"
 			rewards: [{
 				id: "7512A513F71F0A5C"
@@ -21344,11 +21362,16 @@
 				item: "theurgy:calcination_oven"
 				type: "item"
 			}]
-			x: 30.9d
-			y: 11.35d
+			x: 31.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0BFFCDA557C3AC9C"]
+			description: [
+				"Salt represents the “body” or “physical matter” of an object. Types of salt are classified by the materials used to make them, those being Strata (rock, soil, and the like), Minerals (all ingots and gems fall under this category), and Crops. "
+				"{@pagebreak}"
+				"It is one third of the ingredients required for the Incubation process."
+			]
 			id: "55CA3D58EE9C883B"
 			rewards: [{
 				id: "1D8A873E0D816FE1"
@@ -21381,11 +21404,12 @@
 				type: "item"
 			}]
 			title: "Salt"
-			x: 32.4d
-			y: 11.85d
+			x: 32.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["082867418C58A3F7"]
+			description: ["Mercury represents the “spirit” or “energy” contained within matter. The alchemists I had communicated with expressed that it’s an incredibly useful source of power that they use for a vast majority of their practices. It is one third of the ingredients required for the Incubation process."]
 			id: "73BE1AB671E9C173"
 			rewards: [{
 				id: "77EB15E47A34A83A"
@@ -21397,11 +21421,20 @@
 				item: "theurgy:mercury_shard"
 				type: "item"
 			}]
-			x: 31.4d
-			y: 14.35d
+			x: 32.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["18842926F8B1C64D"]
+			dependencies: [
+				"55CA3D58EE9C883B"
+				"73BE1AB671E9C173"
+				"5432F56480D8CCC3"
+			]
+			description: [
+				"Incubation is the process of recombining the Principles of Matter back into actual objects. The Incubator has 3 different vessels to hold each ingredient; one for salt, one for mercury, and one for sulfur. After the process is completed, the object as dictated by the sulfur is deposited into the central chamber."
+				"{@pagebreak}"
+				"This is one of the most important practices in alchemy, since incubation is how you turn all of the esoteric components back into something that you want."
+			]
 			id: "16E1267D485886E8"
 			rewards: [{
 				id: "4460464332398FE5"
@@ -21413,11 +21446,21 @@
 				item: "theurgy:incubator"
 				type: "item"
 			}]
-			x: 33.4d
-			y: 13.85d
+			x: 34.5d
+			y: 14.5d
 		}
 		{
-			dependencies: ["5432F56480D8CCC3"]
+			dependencies: [
+				"5432F56480D8CCC3"
+				"0EC44F3645ABD596"
+			]
+			description: [
+				"The last process critical to the practice of alchemy is reformation. With a completed Reformation Array, an alchemist can duplicate any Alchemical Sulfur they have, given that the products being used to recreate it are of equivalent value."
+				"{@pagebreak}"
+				"To set up a Reformation Array, you will need a target pedestal, a result pedestal, and at least 1 source pedestal. When all of the pedestals are powered by a Sulfuric Flux Emitter, the objects in the source pedestal will be consumed, creating exact replicas of the sulfur in the target pedestal and placing them in the result pedestal."
+				"{@pagebreak}"
+				"I believe this process is the closest that the alchemists have shown me to their goal, the Philosopher’s Stone. I’ll be researching it further in the city of Sparkon."
+			]
 			id: "4CC297E5C35D87F8"
 			rewards: [{
 				count: 5
@@ -21448,13 +21491,19 @@
 					item: "theurgy:reformation_result_pedestal"
 					type: "item"
 				}
+				{
+					id: "32110A6E023B1D8D"
+					item: "theurgy:sulfuric_flux_emitter"
+					type: "item"
+				}
 			]
 			title: "Reformation"
-			x: 35.9d
-			y: 14.999999999999998d
+			x: 36.8d
+			y: 14.374999999999998d
 		}
 		{
 			dependencies: ["73BE1AB671E9C173"]
+			description: ["The Mercury Catalyst converts mercury shards into mercury flux, which can be utilized to power every manner of alchemical device to great success. By pairing it with a Caloric Flux Emitter, one can power their apparatuses from a distance."]
 			id: "0EC44F3645ABD596"
 			rewards: [{
 				id: "316EF980F407C72A"
@@ -21473,11 +21522,16 @@
 					type: "item"
 				}
 			]
-			x: 32.9d
-			y: 15.35d
+			x: 34.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["5432F56480D8CCC3"]
+			description: [
+				"Alchemical digestion is the process of exaltation, which is the act of increasing a material’s “tier”. For example, by combining 4 Niters obtained from a common metal, like copper, the digestion vat would return a Niter that corresponds to abundant metals, like iron and zinc."
+				"{@pagebreak}"
+				"This process first requires the creation of Purified Gold, which is created by digesting gold with an alchemical salt. By purifying gold, its reactions with other elements are removed, making it an excellent catalyst for digestion. Despite this, Purified Gold is rather worthless outside of the realm of alchemy…"
+			]
 			id: "29AB1C13F14D1962"
 			rewards: [{
 				count: 64
@@ -21497,8 +21551,8 @@
 					type: "item"
 				}
 			]
-			x: 35.4d
-			y: 13.35d
+			x: 35.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -21627,7 +21681,15 @@
 			y: 16.849999999999998d
 		}
 		{
-			dependencies: ["16E1267D485886E8"]
+			dependencies: [
+				"196E58EC65B8C401"
+				"3763D07C9E3EBB04"
+			]
+			description: [
+				"Sulfur represents the “soul” or “essence” of a physical thing. The type of sulfur that you get from liquefaction depends on the object you put in the cauldron, with the quantity depending on the refinement of the material. "
+				"{@pagebreak}"
+				"This is the ingredient of the Incubation process that dictates what object you receive as a result."
+			]
 			id: "5432F56480D8CCC3"
 			rewards: [{
 				count: 9
@@ -21654,8 +21716,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Sulfur"
-			x: 34.4d
-			y: 14.35d
+			x: 33.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
@@ -28217,6 +28279,27 @@
 			}]
 			x: 33.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["5432F56480D8CCC3"]
+			description: [
+				"Alchemical fermentation is the process of converting Sulfur into Niter. Alchemical Niter represents an even more abstract version of what a Sulfur represents. For example, both diamond sulfur and emerald sulfur would convert into the Alchemical Niter for precious gems. "
+				"{@pagebreak}"
+				"This practice is very useful for transmutating material and is crucial for the process of exaltation, which is the act of increasing an object’s “tier”."
+			]
+			id: "2F953F62B573DF35"
+			rewards: [{
+				id: "0245493C741D0884"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "546AD0B71EB62696"
+				item: "theurgy:fermentation_vat"
+				type: "item"
+			}]
+			x: 36.5d
+			y: 12.5d
 		}
 	]
 	title: "The Journey"
