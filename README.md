@@ -35,6 +35,9 @@ Each mod is represented by a pathway and its corresponding tarot cards, each of 
 - Mitemi - Lead Developer
 - Tikup - Developer
 
+- Gravitegg - Playtester
+- Skillode - Playtester
+
 #### Concatenation Division
 - SporiumCorium - Pack Developer
 - Waayzii - Wiki Editor

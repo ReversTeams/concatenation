@@ -1,5 +1,5 @@
 {
-	consume_items: true
+	autofocus_id: "2506899A5890205D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gate_to_perdition"
@@ -7,7 +7,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "concatenationcore:broken_rift_blade"
 	id: "5523786A41BD0730"
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,6 +16,8 @@
 				"&2Dimensional doors once beloved by cultists have suddenly disappeared from the entire world. On a sudden day, all of the rift blades throughout the entire world shattered.&r"
 				""
 				"&2It is upon myself that befalls the responsability of investigating this most critical issue. I will surpass Eleonore!&r"
+				""
+				"&a(The next quests are hidden until you complete the next ones)&r"
 			]
 			icon: "concatenationcore:broken_rift_blade"
 			id: "2506899A5890205D"
@@ -31,25 +33,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			description: [
-				"Gate to Perdition is a pack-wide event with limited time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
-				""
-				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
-				"{@pagebreak}"
-				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
-			]
-			icon: "concatenationcore:experienced_paper"
-			id: "42F701FC987C6C99"
-			size: 0.75d
-			tasks: [{
-				id: "0817051F0190E4D5"
-				title: "Event Details"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["2506899A5890205D"]
@@ -218,7 +201,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "6AF661DC4A74C5DA"
 				item: "ars_nouveau:worn_notebook"
 				type: "item"
@@ -236,6 +219,7 @@
 				xp_levels: 3
 			}]
 			tasks: [{
+				consume_items: true
 				id: "74DA8937FDD2E799"
 				item: {
 					Count: 1
@@ -255,45 +239,13 @@
 			icon: "concatenationcore:blood_soaked_fabric"
 			id: "7A0F6E78038E096E"
 			rewards: [{
-				id: "7D0BF162F401DB1A"
-				item: {
-					Count: 1
-					id: "concatenationcore:karma_tome"
-					tag: {
-						CurioAttributeModifiers: [
-							{
-								Amount: 2
-								AttributeName: "generic.max_health"
-								Name: "generic.max_health"
-								Operation: 0
-								Slot: "spellbook"
-								UUID: [I;
-									-1605032591
-									847855802
-									-2040756365
-									-1132726418
-								]
-							}
-							{
-								Amount: 4
-								AttributeName: "generic.attack_damage"
-								Name: "generic.attack_damage"
-								Operation: 0
-								Slot: "spellbook"
-								UUID: [I;
-									517687221
-									-421444519
-									-1852455481
-									2080195476
-								]
-							}
-						]
-					}
-				}
+				id: "4254652BBECC22F3"
+				item: "concatenationcore:concatenator"
 				type: "item"
 			}]
 			tasks: [
 				{
+					consume_items: false
 					count: 3L
 					id: "2A8D3A4130279164"
 					item: {
@@ -323,6 +275,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "76AB7F342FF94F1E"
 					item: "concatenationcore:blood_soaked_fabric"
 					type: "item"
@@ -346,6 +299,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "0ADE38547B955A94"
 				item: "concatenationcore:meteorite_clump"
 				type: "item"
@@ -416,11 +370,13 @@
 			description: ["&2Or perhaps I should investigate arcane debris instead? It is a theorized component of Fortune Fragments after all. Perhaps fate will guide me.&r"]
 			id: "561BCAD1A8D0C9FD"
 			rewards: [{
-				id: "49700417001E03F8"
-				item: "concatenationcore:silver_paper"
+				count: 7
+				id: "37BD6D1D3CFFBD60"
+				item: "thermal:silver_ingot"
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "36AB39BCE54CBD27"
 				item: "irons_spellbooks:arcane_salvage"
 				type: "item"
@@ -462,6 +418,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "1444E5E213A8D612"
 				item: "psi:ivory_substance"
 				type: "item"
@@ -479,6 +436,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "3DEC60F79D72DA50"
 				item: "bloodmagic:seersigil"
 				type: "item"
@@ -495,59 +453,13 @@
 			]
 			id: "4728C1708A84DAF9"
 			rewards: [{
-				id: "2B392005E69DA1A1"
-				item: {
-					Count: 1
-					id: "concatenationcore:bloody_living_giant_sword"
-					tag: {
-						AttributeModifiers: [
-							{
-								Amount: 12
-								AttributeName: "generic.attack_damage"
-								Name: "generic.attack_damage"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									-513130152
-									566053759
-									-2075885196
-									-607104510
-								]
-							}
-							{
-								Amount: 1
-								AttributeName: "generic.attack_speed"
-								Name: "generic.attack_speed"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									544014363
-									-38516229
-									-1585965233
-									-426489813
-								]
-							}
-							{
-								Amount: 4
-								AttributeName: "generic.max_health"
-								Name: "generic.max_health"
-								Operation: 0
-								Slot: "mainhand"
-								UUID: [I;
-									1815160898
-									1160073178
-									-1247081854
-									-605985969
-								]
-							}
-						]
-						Damage: 0
-					}
-				}
+				id: "1BE97694327320FA"
+				item: "concatenationcore:concatenator"
 				type: "item"
 			}]
 			tasks: [
 				{
+					consume_items: true
 					id: "7FA28BF0959EDD7C"
 					item: {
 						Count: 1
@@ -559,6 +471,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 2L
 					id: "35CB5EAEBDF09B53"
 					item: "concatenationcore:bloodstained_steel"
@@ -591,6 +504,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				id: "06B0FD7EC48CD719"
 				item: "rftoolsbase:infused_enderpearl"
 				type: "item"
@@ -609,6 +523,7 @@
 				type: "item"
 			}]
 			tasks: [{
+				consume_items: true
 				id: "4BD003C865C4F945"
 				item: "irons_spellbooks:divine_pearl"
 				type: "item"
@@ -621,29 +536,9 @@
 			description: ["&2I can weave this pearl, I know for sure this was used in the making of rifts, dimensional doors and other limbo uses. However, without the right knowledge or link to another world, this seems to be useless. Or perhaps I am just not intelligent enough to theorize about its uses?&r"]
 			id: "3D2BABF4619BDA4F"
 			rewards: [{
-				id: "798AE48F78AA6F6D"
-				item: {
-					Count: 1
-					id: "concatenationcore:woven_pearl"
-					tag: {
-						AttributeModifiers: [{
-							Amount: 2
-							AttributeName: "generic.max_health"
-							Name: "generic.max_health"
-							Operation: 0
-							UUID: [I;
-								-567412426
-								1347569481
-								-1298628478
-								-763275478
-							]
-						}]
-						display: {
-							Name: "{\"text\":\"Woven Pearl\",\"color\":\"yellow\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
-						}
-					}
-				}
-				type: "item"
+				id: "052A2A02B221FC8A"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			tasks: [{
 				consume_items: false
@@ -739,8 +634,9 @@
 			icon: "concatenationcore:glowing_gold"
 			id: "59A4545D571821B3"
 			rewards: [{
-				id: "41FBADEA2F20CFE6"
-				item: "concatenationcore:silver_paper"
+				count: 7
+				id: "5B7D117408D48515"
+				item: "thermal:silver_ingot"
 				type: "item"
 			}]
 			tasks: [{
@@ -790,21 +686,828 @@
 				}
 			]
 			tasks: [{
-				id: "3601961A56E89074"
+				id: "50996039FC70C676"
+				item: "perdition:marmor_exaltatus"
+				type: "item"
+			}]
+			title: "Enter Dis"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"255F91EE26FB166D"
+				"3D2BABF4619BDA4F"
+			]
+			description: ["An enhancement to the idea of a weapon that slices through the metaphysical, this blade will allow you to make use of the old art of dimensional doors. Beware, though, it seems the alternate plane these doors channel through has suffered some kind of damage since the old days... It's best if you stick to bridging locations outside of the eerie black void, unless you intend to banish people to limbo."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3EA4408A8F86B825"
+			invisible: true
+			tasks: [{
+				id: "0921696421E8B6DA"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
+			title: "Rift Blade"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EA4408A8F86B825"]
+			description: ["Sometimes there are rifts. Sometimes those rifts are undesireable."]
+			id: "2480B881634C80B7"
+			tasks: [{
+				id: "2F27CCB78C503376"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
+			title: "Rift Remover"
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EA4408A8F86B825"]
+			description: ["These tools allow you to bridge two points in space, forming a rift between them, which you can then stabilise into proper channels using dimensional doors. Rift signatures also seem to be affected by enchantments, which may allow you to make them last a little longer."]
+			id: "5C35A413987F2EC6"
+			tasks: [{
+				id: "2DF35B5D800E6DE1"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
+			title: "Rift Signature"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26EF74B1DFA8036F"]
+			description: [
+				"&2When Limbo was cut off from this world, I think we all internally heaved a sigh of relief, since that horrifying dimension was rather unpleasant to be stuck in, even though losing the dimensional doors was still rather unfortunate. Yet, it seems like another, more malicious dimension has detected its absence and has appended itself to the fabric of our world! "
+				"{@pagebreak}"
+				"&2While trying to tear open a rift in the End, I was teleported above the void and fell. I thought it was the end for me! Fortunately (or unfortunately, depending on how you look at it), I found myself in a landscape consisting of corpses! I quickly teleported back to a waypoint I had set for myself; who knows what terrible things are living there!"
+			]
+			hide_dependency_lines: true
+			id: "08A77DC76CA4CD87"
+			tasks: [{
+				dimension: "the_deep_void:deep_void"
+				icon: "the_deep_void:block_of_bone_pile"
+				id: "04DAA2669C7EFD90"
+				title: "Enter the Deep Void"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6683DAA505FE70B2"
+				"4E39E9390716E9BA"
+				"0C64E78CC80EFAB5"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2Purgatory is a fascinating dimension, filled with mystical ingredients and various anomalies.&r"
+				""
+				"&2I have noted down the various ingredients found and their uses below. Traveling through the dark lands, you will need a lantern to see more than 2 feet in front of you.&r"
+				""
+				"&a(Purgatory is still a dimension in development and is subject to changes in the future updates.)&r"
+			]
+			hide_dependency_lines: true
+			id: "063E19D727E344F1"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "6F5D768AC32F8D2A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.35d
+			tasks: [{
+				dimension: "perdition:purgatory"
+				icon: "perdition:perditio"
+				id: "2B2D003DF13D695F"
+				title: "Enter Purgatory"
+				type: "dimension"
+			}]
+			x: -7.875d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2506899A5890205D"]
+			description: ["&2Resonite is an anomalous material, with various strange properties that should not belong to a metal such as this, if it can be classified as such. There are various means to produce raw resonite or its substitutes, which then has to be charged to exhibit most of its exotic nature.&r"]
+			hide_until_deps_complete: false
+			id: "0A883B806B498A9C"
+			rewards: [{
+				count: 8
+				id: "448C8DBDA151F079"
+				item: "strangematter:resonite_nugget"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "14076BEB182953DF"
+					item: "strangematter:raw_resonite"
+					type: "item"
+				}
+				{
+					id: "57EEBD32FA10E9CA"
+					item: "strangematter:resonite_ingot"
+					type: "item"
+				}
+			]
+			title: "Resonite"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A883B806B498A9C"]
+			description: [
+				"&2The &bPrudence Pathway&r &2delves into research of the anomalous, properties that can be research by both technology and magic alike. Inheriting various traditions from the witches of the &4Temperance Pathway&r&2, they have stuck to fabricating various gadgets that become the envy of their peers with their findings.&r"
+				""
+				"&2The core of the pathway is the research tablet, a very useful tool developed to research anomalies. &nIt is the only way to attain the recipes and knowledge to some objects.&r&r"
+				""
+				"{@pagebreak}"
+				"&2It is a culmination of &9The Hierophant&r&2 and &4Temperance&r&2, much like how &6Strength&r&2 is a culmination of &dThe Hermit&r&2 and &eThe Magician&r"
+			]
+			hide_until_deps_complete: false
+			id: "125252660A518C4F"
+			rewards: [{
+				id: "23095223728EEE8B"
+				item: "strangematter:research_tablet"
+				type: "item"
+			}]
+			size: 1.15d
+			tasks: [{
+				id: "702E36629FFECC6A"
+				item: "concatenationcore:prudence"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&bPrudence Pathway&r"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: ["&2The stabilized core is the heart that powers anomalous technology.&r"]
+			id: "4A6D8F599B559457"
+			rewards: [{
+				count: 12
+				id: "602297EFE81E13EA"
+				item: "strangematter:resonite_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1702D31ACED99E2E"
+				item: "strangematter:stabilized_core"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: [
+				"&2Anomalous energy, a hybdrid of technological and magical power, flows through this circuit to power anomalous technology.&r"
+				""
+				"&2It can either be produced from scratch or by augmenting an existing circuit.&r"
+			]
+			id: "77BF0E69B60C197E"
+			rewards: [{
+				count: 32
+				id: "213EE341FFB428D1"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684DF17D260A15D0"
+				item: "strangematter:resonant_circuit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: [
+				"&2While anomalies can still be found frequently in our world, they are most common in Purgatory, theorized to be one of the sources of these anomalies.&r"
+				""
+				"&2The two most common ways to enter Purgatory lay in the Halcyon sword and the Planeswalker potion.&r"
+			]
+			id: "0C64E78CC80EFAB5"
+			rewards: [{
+				id: "2403CA8AAC00FDE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "73BF2A81F8C8E174"
 				item: {
 					Count: 1
-					id: "perdition:dis"
+					id: "perdition:halcyon"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "Dis"
-			x: 0.0d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["749ECE54FE00D79F"]
+			description: [
+				"&2The reality forge can be used to manufacture many useful tools, gadgets and instruments stemming from anomalous technology. &r"
+				""
+				"&2The subsequent recipes require research to be done before they can be known, noted down through the research tablet.&r"
+			]
+			id: "7DDCF64BACE5F05A"
+			rewards: [{
+				count: 8
+				id: "0FFB1483CCDF85F6"
+				item: "strangematter:resonite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F010036347E5A0"
+				item: "strangematter:reality_forge"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"77BF0E69B60C197E"
+				"4A6D8F599B559457"
+			]
+			description: ["&2The Research Machine can be used to concretize research gained from analyzing anomalies. This process can be quite complicated at times, requiring many attempts to draw out any instability.&r"]
+			id: "749ECE54FE00D79F"
+			rewards: [{
+				id: "1F94405D03F21B68"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5B1D4559E2717A73"
+				item: "strangematter:research_machine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: ["&2Anomalous Shards, much like resonite ore, can be found crystalizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with annomalous technology.&r"]
+			id: "622A83A7012371BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B6DA332E14C5B29"
+					table_id: 7380857982058536773L
+					type: "random"
+				}
+				{
+					id: "33FF1E2D87DC2567"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "73474F5B8324A105"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "strangematter:gravitic_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:chrono_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:spatial_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:shade_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:insight_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:energetic_shard"
+							}
+						]
+					}
+				}
+				title: "Any Anomalous Shard"
+				type: "item"
+			}]
+			title: "Anomalous Shards"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "744F7C808A6A3BD3"
+			rewards: [{
+				id: "24EB2DB6CC44EB9D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1C43245E70202568"
+				item: "strangematter:hoverboard"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about this process in the research tablet through your own research.&r&r"]
+			id: "277D7A5F68DCD7CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1532AA57D15CFF60"
+				table_id: 7380857982058536773L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "118ED2E5763005A8"
+					item: "strangematter:containment_capsule"
+					type: "item"
+				}
+				{
+					id: "24382F5F4E7549E6"
+					item: {
+						Count: 1
+						id: "strangematter:echo_vacuum"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42C4969BD0389488"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_gravity"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_energetic"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_echoing_shadow"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_temporal_bloom"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_thoughtwell"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_warp_gate"
+								}
+							]
+						}
+					}
+					title: "Any Contained Anomaly"
+					type: "item"
+				}
+			]
+			title: "Containment of Anomalies"
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "57FF5EA8B13C041C"
+			rewards: [{
+				id: "401C5F2C029D6340"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1262393D3FD3E174"
+				item: "strangematter:graviton_hammer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "45CF4BCEAC7E1A3C"
+			rewards: [{
+				id: "379E7716E63C00ED"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "24E05855A44E497C"
+				item: {
+					Count: 1
+					id: "strangematter:warp_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: [
+				"&2Various anomalies have appeared around the world ever since the link to Purgatory was established from our world. These strange calamities have to be studied and we can gather a lot from these. Many have taken to research tablets to document their findings and share it with far-away researchers.&r"
+				""
+				"&2The field scanner can analyze an anomaly, providing research material.&r"
+			]
+			id: "1982249FC850C8A8"
+			rewards: [{
+				id: "7D30BFDC1F5ABCED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "13023230505E4188"
+				item: {
+					Count: 1
+					id: "strangematter:field_scanner"
+					tag: {
+						scan_cooldown: 1761534958438L
+						scanning: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about this machine in the research tablet through your own research.&r&r"]
+			id: "44B66416F9E8103D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08DDFEFDC05DC531"
+				table_id: 7380857982058536773L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E65A003903C8954"
+				item: "strangematter:resonance_condenser"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about this machine in the research tablet through your own research.&r&r"]
+			id: "7C8A82023B373DF9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F38925FA5B0416E"
+					table_id: 7380857982058536773L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20C395F292D43A22"
+					table_id: 7380857982058536773L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5C09D321F1EDEB82"
+				item: "strangematter:rift_stabilizer"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["622A83A7012371BE"]
+			description: ["&2The Anomaly Resonator can calibrate itself to an anomaly to help you find new ones or get to know more about the status of one you have found.&r"]
+			id: "553C0E6637920EC0"
+			rewards: [{
+				id: "0ECBE886B573DD81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7C5DBAB6E9415DC4"
+				item: "strangematter:anomaly_resonator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about these machines in the research tablet through your own research.&r&r"]
+			id: "6EB11A383E30AA74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5080BDE74285BE0F"
+				table_id: 7380857982058536773L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6812F94B0C0F3FDB"
+					item: "strangematter:stasis_projector"
+					type: "item"
+				}
+				{
+					id: "50CB3C36F69687EB"
+					item: "strangematter:levitation_pad"
+					type: "item"
+				}
+			]
+			title: "Eccentricities"
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1982249FC850C8A8"]
+			description: ["Research notes gained from studying anomalies and reflecting in the tablet can be studied in a research machine."]
+			id: "339176B06391F198"
+			rewards: [{
+				id: "56814E5D1759994A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "strangematter:the_researcher"
+				criterion: ""
+				id: "3DF92EE9F86E3397"
+				type: "advancement"
+			}]
+			title: "Research"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44B66416F9E8103D"]
+			description: ["&2The resonant conduit makes use of anomalous technology to transfer large amounts of RF power.&r"]
+			id: "104FF0E35B945E17"
+			rewards: [{
+				id: "3D527537DF441E96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "32A72DAF486B93BB"
+				item: "strangematter:resonant_conduit"
+				type: "item"
+			}]
+			x: -11.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "744FAFE8E9E3222C"
+			tasks: [{
+				id: "63E99757572EC298"
+				item: "perdition:corruptite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			description: [
+				"&2Limbo Berries contain elemental purities within them, the plant crystalizing them into their fruit. These berries can thus be turned into inert crystal, providing a renewable source.&r"
+				""
+				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
+			]
+			id: "7F142F16CEB3F2BC"
+			rewards: [{
+				id: "06D753DE0B82FBF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0B8D8B82F9BDFB75"
+				item: "perdition:limbo_berries"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EE6AE43F9620AB2"]
+			id: "74D57E22FB028173"
+			tasks: [{
+				id: "45A70CBF3FE1ACCD"
+				item: {
+					Count: 1
+					id: "perdition:dis_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "366257C485C91809"
+			tasks: [{
+				id: "0730B6BB2F397AFE"
+				item: "perdition:resin"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "6D14C091169DFCF5"
+			tasks: [{
+				id: "5A630EF4AF51F5DC"
+				item: "perdition:scintillating_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "6720B17A072F72A0"
+			tasks: [{
+				id: "6078445B8E42FF5B"
+				item: "concatenationcore:woven_pearl"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6D14C091169DFCF5"
+				"6720B17A072F72A0"
+			]
+			id: "3EF9889808839F07"
+			tasks: [{
+				id: "3464581694E8A213"
+				item: "hexerei:moon_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"64C5A9EB5083A520"
+				"3EF9889808839F07"
+			]
+			id: "32B51219253BDC23"
+			tasks: [{
+				id: "3387029BD08B5D84"
+				item: "bloodmagic:demonitegravel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			id: "64C5A9EB5083A520"
+			tasks: [
+				{
+					id: "16D9B4078913BCB8"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "79FD944287FE8B5D"
+					item: "concatenationcore:pyrite"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"64C5A9EB5083A520"
+				"622A83A7012371BE"
+			]
+			id: "144D573939DC382B"
+			tasks: [{
+				id: "70F32FDF23C9097D"
+				item: "elementalcraft:swift_alloy_nugget"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["622A83A7012371BE"]
+			description: ["&2Some anomalous shards possess elemental affinities, which can be solified with resonite to form gems.&r"]
+			id: "4482ACBA1E30B083"
+			tasks: [{
+				id: "0610783DC5FC64F6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:crude_fire_gem"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:crude_water_gem"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:crude_earth_gem"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:crude_air_gem"
+							}
+						]
+					}
+				}
+				title: "Any Crude Gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D14C091169DFCF5"]
+			id: "5EE6AE43F9620AB2"
+			tasks: [{
+				id: "1EAC4C24F17388F5"
+				item: "perdition:dis_gem"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7FE36C7E48D2715B"
+				"622A83A7012371BE"
+			]
+			id: "46F134472373EB87"
+			tasks: [{
+				id: "6D402AEA3C1790AD"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["366257C485C91809"]
+			id: "7FE36C7E48D2715B"
+			size: 0.8d
+			tasks: [{
+				id: "3378B1B725D9A3D2"
+				item: "perdition:rough_compound"
+				type: "item"
+			}]
+			x: -5.2d
+			y: 6.0d
+		}
 	]
-	subtitle: ["Limited Event"]
 	title: "Gate to Perdition"
 }

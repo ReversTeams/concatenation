@@ -581,7 +581,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'minecraft:glass',
-                        B: 'concatenationcore:antimony',
+                        B: 'concatenationcore:pyrite',
                         C: 'minecraft:stick'
                 }
         )
@@ -593,7 +593,7 @@ ServerEvents.recipes(event => {
                         'D  '
                 ],
                 {
-                        B: 'concatenationcore:antimony',
+                        B: 'concatenationcore:pyrite',
                         C: 'minecraft:amethyst_shard',
                         A: 'minecraft:gold_nugget',
                         D: 'minecraft:stick'
@@ -608,7 +608,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'minecraft:quartz',
-                        B: 'concatenationcore:antimony',
+                        B: 'concatenationcore:descran',
                         C: 'minecraft:diamond',
                         D: 'minecraft:stick'
                 }
@@ -636,7 +636,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'minecraft:purple_dye',
-                        B: 'concatenationcore:antimony',
+                        B: 'concatenationcore:pyrite',
                         C: 'minecraft:stick'
                 }
         )

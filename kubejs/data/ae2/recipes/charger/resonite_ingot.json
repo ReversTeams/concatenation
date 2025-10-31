@@ -1,0 +1,9 @@
+{
+  "type": "ae2:charger",
+  "ingredient": {
+    "item": "strangematter:raw_resonite"
+  },
+  "result": {
+    "item": "strangematter:resonite_ingot"
+  }
+}

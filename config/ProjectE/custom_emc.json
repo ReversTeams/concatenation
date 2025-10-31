@@ -187,6 +187,14 @@
     {
       "item": "minecraft:netherite_ingot",
       "emc": 0
+    },
+    {
+      "item": "elementalcraft:elemental_firefuel{Damage:0}",
+      "emc": 0
+    },
+    {
+      "item": "createmetallurgy:steel_ingot",
+      "emc": 392
     }
   ]
 }

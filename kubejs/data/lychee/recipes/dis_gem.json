@@ -1,0 +1,17 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "perdition:rough_compound"
+    },
+    "block_in": "perdition:scintillating_keystone",
+    "post": [
+        {
+            "type": "place",
+            "block": "*"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:dis_gem"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "tag": "minecraft:pickaxes"
+    },
+    "block_in": "perdition:scintillating_keystone",
+    "post": [
+        {
+            "type": "place",
+            "block": "*"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:scintillating_dust"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "strangematter:anomalous_grass" }
+  ],
+  "tool": {
+    "item": "concatenationcore:mixing_tool"
+  },
+  "result": [
+    {
+      "item": "minecraft:coarse_dirt",
+      "count": 1,
+      "chance": 0.9
+    },
+    {
+      "item": "elementalcraft:earthcrystal",
+      "count": 1,
+      "chance": 0.75
+    },
+    {
+      "item": "elementalcraft:earthcrystal",
+      "count": 1,
+      "chance": 0.2
+    }
+  ]
+}

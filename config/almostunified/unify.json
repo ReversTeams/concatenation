@@ -7,7 +7,9 @@
     "createmetallurgy",
     "thermal",
     "mekanism",
-    "createdeco"
+    "createdeco",
+    "concatenationcore",
+    "perdition"
   ],
   "stoneStrata": [
     "stone",
@@ -31,7 +33,9 @@
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
-    "forge:coins/{material}"
+    "forge:coins/{material}",
+    "forge:rubber",
+    "forge:plastic"
   ],
   "materials": [
     "aeternium",
@@ -71,6 +75,9 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
+    "pyrite",
+    "plastic",
+    "rubber",
     "ruby",
     "sapphire",
     "signalum",

@@ -1,0 +1,35 @@
+{
+	id: "3FCE6C893B181A17"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 8, item: "minecolonies:bell_pepper" }
+		{ count: 8, item: "minecolonies:cabbage" }
+		{ count: 16, item: "minecolonies:durum" }
+		{ count: 8, item: "minecolonies:eggplant" }
+		{ count: 8, item: "minecolonies:garlic" }
+		{ count: 8, item: "minecolonies:onion" }
+		{ count: 8, item: "minecolonies:tomato" }
+		{ count: 8, item: "minecolonies:rice" }
+		{ count: 16, item: "minecolonies:corn" }
+		{ count: 3, item: "minecraft:honey_bottle" }
+		{ count: 8, item: "minecolonies:large_milk_bottle" }
+		{ count: 16, item: "minecraft:egg" }
+		{ count: 16, item: "minecraft:sugar" }
+		{ count: 16, item: "minecraft:wheat" }
+		{ count: 3, item: "minecolonies:manchet_dough" }
+		{ count: 3, item: "minecolonies:muffin_dough" }
+		{ count: 8, item: "minecolonies:butternut_squash" }
+		{ count: 8, item: "minecolonies:peas" }
+		{ count: 8, item: "minecraft:carrot" }
+		{ count: 8, item: "minecraft:apple" }
+		{ count: 8, item: "minecraft:beetroot" }
+		{ count: 8, item: "minecraft:cooked_mutton" }
+		{ count: 8, item: "minecraft:cooked_chicken" }
+		{ count: 8, item: "minecraft:cooked_beef" }
+		{ count: 8, item: "minecraft:cod" }
+		{ count: 8, item: "minecraft:cooked_salmon" }
+		{ count: 8, item: "minecraft:bread" }
+	]
+	title: "Choice Food"
+}

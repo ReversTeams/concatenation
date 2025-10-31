@@ -7,3 +7,4 @@ Platform.mods.integratedterminals.name = 'Integrated Terminals';
 Platform.mods.oreberriesreplanted.name = 'Oreberries';
 Platform.mods.ftbquests.name = 'Eleonore\'s Travels';
 Platform.mods.ars_scalaes.name = 'Hexerei';
+Platform.mods.lychee.name = 'Lychee';

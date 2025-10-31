@@ -1,0 +1,14 @@
+{
+	id: "44D355363D3500BF"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 8, item: "minecraft:potato" }
+		{ count: 8, item: "minecraft:kelp" }
+		{ count: 8, item: "minecraft:dandelion" }
+		{ count: 3, item: "minecraft:golden_apple" }
+		{ count: 8, item: "minecraft:carrot" }
+		{ count: 3, item: "minecraft:honey_bottle" }
+	]
+	title: "Choice Hospital"
+}

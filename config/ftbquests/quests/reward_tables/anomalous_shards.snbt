@@ -1,0 +1,14 @@
+{
+	id: "666E133AAE349F45"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "strangematter:gravitic_shard" }
+		{ item: "strangematter:chrono_shard" }
+		{ item: "strangematter:spatial_shard" }
+		{ item: "strangematter:shade_shard" }
+		{ item: "strangematter:insight_shard" }
+		{ item: "strangematter:energetic_shard" }
+	]
+	title: "Anomalous Shards"
+}

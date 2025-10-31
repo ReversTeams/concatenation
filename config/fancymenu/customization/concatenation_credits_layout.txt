@@ -221,7 +221,7 @@ element {
 
 element {
   interactable = true
-  source = ^^^%n%**Credits:**%n%%n%Mitemi - Lead Developer%n%Tikup - Developer%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer%n%Waayzii - Wiki Editor%n%^^^
+  source = ^^^%n%**Credits:**%n%%n%Mitemi - Lead Developer%n%Tikup - Developer%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer%n%Waayzii - Wiki Editor%n%^^^
   source_mode = direct
   shadow = true
   scale = 0.75

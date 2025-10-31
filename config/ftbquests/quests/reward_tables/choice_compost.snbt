@@ -1,0 +1,13 @@
+{
+	id: "7ACE4BD2F80103E3"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "minecolonies:barrel_block" }
+		{ count: 16, item: "minecolonies:compost" }
+		{ count: 64, item: "minecraft:oak_leaves" }
+		{ count: 64, item: "minecraft:wheat_seeds" }
+		{ count: 16, item: "minecraft:bone_meal" }
+	]
+	title: "Choice Compost"
+}

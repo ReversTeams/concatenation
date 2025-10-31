@@ -1,7 +1,7 @@
 {
 	id: "0FDAD6B3F9A8AB65"
 	loot_size: 1
-	order_index: 3
+	order_index: 6
 	rewards: [
 		{ item: "born_in_chaos_v1:dark_atrium" }
 		{

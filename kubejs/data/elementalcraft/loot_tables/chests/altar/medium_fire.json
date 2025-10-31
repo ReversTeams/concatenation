@@ -420,7 +420,7 @@
             }
           ],
           "name": "minecraft:gold_ingot",
-          "weight": 15
+          "weight": 17
         },
         {
           "type": "minecraft:item",
@@ -436,7 +436,7 @@
             }
           ],
           "name": "elementalcraft:swift_alloy_ingot",
-          "weight": 10
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -452,18 +452,18 @@
             }
           ],
           "name": "elementalcraft:swift_alloy_nugget",
-          "weight": 15
+          "weight": 18
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "element_type": "fire",
+              "element_type": "air",
               "function": "elementalcraft:random_spell"
             }
           ],
           "name": "elementalcraft:scroll",
-          "weight": 15
+          "weight": 17
         },
         {
           "type": "minecraft:item",
@@ -474,7 +474,7 @@
             }
           ],
           "name": "elementalcraft:rune",
-          "weight": 10
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -485,12 +485,12 @@
             }
           ],
           "name": "elementalcraft:rune",
-          "weight": 5
+          "weight": 7
         },
         {
           "type": "minecraft:item",
           "name": "elementalcraft:purecrystal",
-          "weight": 2
+          "weight": 1
         }
       ],
       "name": "advanced",

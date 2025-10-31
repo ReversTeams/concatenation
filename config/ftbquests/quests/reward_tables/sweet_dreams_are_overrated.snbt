@@ -1,7 +1,7 @@
 {
 	id: "176987536B9A7AC0"
 	loot_size: 1
-	order_index: 2
+	order_index: 5
 	rewards: [
 		{ item: "born_in_chaos_v1:bone_heart" }
 		{

@@ -1,0 +1,21 @@
+{
+	id: "6BECD56C7F7B27C5"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 6, item: "minecraft:poppy" }
+		{ count: 6, item: "minecraft:dandelion" }
+		{ count: 6, item: "minecraft:blue_orchid" }
+		{ count: 6, item: "minecraft:allium" }
+		{ count: 6, item: "minecraft:azure_bluet" }
+		{ count: 6, item: "minecraft:red_tulip" }
+		{ count: 6, item: "minecraft:orange_tulip" }
+		{ count: 6, item: "minecraft:white_tulip" }
+		{ count: 6, item: "minecraft:pink_tulip" }
+		{ count: 6, item: "minecraft:oxeye_daisy" }
+		{ count: 6, item: "minecraft:cornflower" }
+		{ count: 6, item: "minecraft:lily_of_the_valley" }
+		{ count: 6, item: "minecraft:sunflower" }
+	]
+	title: "Choice Flowers"
+}

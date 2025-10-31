@@ -1,0 +1,29 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "tag": "minecraft:axes"
+    },
+    "block_in": "perdition:petrified_log",
+    "post": [
+        {
+            "type": "place",
+            "block": "*"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        }
+    ]
+}

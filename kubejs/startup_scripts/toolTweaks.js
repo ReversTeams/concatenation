@@ -73,6 +73,15 @@ ItemEvents.modification(event => {
 		4500, ["mekanismtools:refined_obsidian_paxel", 8, paxelPenalty(1.1)],
 		1200, ["mekanismtools:steel_paxel", 6, paxelPenalty(1)],
 
+		// deep void weapons
+		2456, 
+		["the_deep_void:claw_blade", 8],
+		["the_deep_void:animosity", 10],
+		["the_deep_void:the_harvest", 13],
+		3461,
+		["the_deep_void:voidrium_sword", 9],
+		["the_deep_void:lavendite_voidrium_sword", 8],
+
 		//
 		// armor
 		//
@@ -117,6 +126,14 @@ ItemEvents.modification(event => {
 		// ["hexerei:mushroom_witch_helmet", 3],
 		// 400, ["hexerei:witch_chestplate", 3],
 		// 325, ["hexerei:witch_boots", 3],
+
+		// deep void armor
+		1740, ["the_deep_void:harvester_mask_helmet", 6],
+		1000, ["the_deep_void:bloody_rib_cage_chestplate", 10],
+		715, ["the_deep_void:flesh_armor_helmet", 5],
+		1040, ["the_deep_void:flesh_armor_chestplate", 7],
+		975, ["the_deep_void:flesh_armor_leggings", 6],
+		845, ["the_deep_void:flesh_armor_boots", 4],
 
 		// Juggernaut
 		10000,

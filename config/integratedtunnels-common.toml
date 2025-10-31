@@ -3,9 +3,9 @@
 
 	[general.general]
 		#The base energy usage for the energy importer.
-		importerEnergyBaseConsumption = 1
+		importerEnergyBaseConsumption = 0
 		#The base energy usage for the item importer.
-		importerItemBaseConsumption = 1
+		importerItemBaseConsumption = 0
 		#The base energy usage for the world item exporter when it has a variable.
 		exporterWorldItemBaseConsumptionEnabled = 32
 		#The base energy usage for the item interface.
@@ -13,7 +13,7 @@
 		#The base energy usage for the world item importer when it has a variable.
 		importerWorldItemBaseConsumptionEnabled = 32
 		#The base energy usage for the fluid importer.
-		importerFluidBaseConsumption = 1
+		importerFluidBaseConsumption = 0
 		#The base energy usage for the fluid interface.
 		interfaceFluidBaseConsumption = 0
 		#The base energy usage for the player simulator when it does not have a variable.
@@ -25,9 +25,9 @@
 		#The base energy usage for the world block importer when it has a variable.
 		importerWorldBlockBaseConsumptionEnabled = 32
 		#The base energy usage for the energy exporter.
-		exporterEnergyBaseConsumption = 1
+		exporterEnergyBaseConsumption = 0
 		#The base energy usage for the item exporter.
-		exporterItemBaseConsumption = 1
+		exporterItemBaseConsumption = 0
 		#The base energy usage for the world fluid importer when it does not have a variable.
 		importerWorldFluidBaseConsumptionDisabled = 1
 		#The base energy usage for the world energy importer when it has a variable.
@@ -37,7 +37,7 @@
 		#The base energy usage for the world block importer when it does not have a variable.
 		importerWorldBlockBaseConsumptionDisabled = 1
 		#The base energy usage for the fluid exporter.
-		exporterFluidBaseConsumption = 1
+		exporterFluidBaseConsumption = 0
 		#The base energy usage for the world energy exporter when it has a variable.
 		exporterWorldEnergyBaseConsumptionEnabled = 32
 		#The base energy usage for the world fluid exporter when it has a variable.

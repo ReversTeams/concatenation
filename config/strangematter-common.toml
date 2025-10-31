@@ -11,32 +11,44 @@
 		enableGravityAnomaly = true
 		#Gravity Anomaly spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		gravityAnomalyRarity = 500
+		gravityAnomalyRarity = 1000
 		#Enable Temporal Bloom world generation
 		enableTemporalBloom = true
 		#Temporal Bloom spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		temporalBloomRarity = 500
+		temporalBloomRarity = 1000
 		#Enable Warp Gate world generation
 		enableWarpGate = true
 		#Warp Gate spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		warpGateRarity = 400
+		warpGateRarity = 800
 		#Enable Energetic Rift world generation
 		enableEnergeticRift = true
 		#Energetic Rift spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		energeticRiftRarity = 500
+		energeticRiftRarity = 1000
 		#Enable Echoing Shadow world generation
 		enableEchoingShadow = true
 		#Echoing Shadow spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		echoingShadowRarity = 600
+		echoingShadowRarity = 1200
 		#Enable Thoughtwell world generation
 		enableThoughtwell = true
 		#Thoughtwell spawn rarity (1/N chance per chunk)
 		#Range: 1 ~ 100000
-		thoughtwellRarity = 500
+		thoughtwellRarity = 1000
+		#Dimensions where Gravity Anomalies can spawn (empty list = all dimensions)
+		gravityAnomalyDimensions = ["minecraft:overworld", "perdition:purgatory"]
+		#Dimensions where Temporal Blooms can spawn (empty list = all dimensions)
+		temporalBloomDimensions = ["minecraft:overworld", "perdition:purgatory"]
+		#Dimensions where Warp Gates can spawn (empty list = all dimensions)
+		warpGateDimensions = ["minecraft:overworld", "perdition:purgatory"]
+		#Dimensions where Energetic Rifts can spawn (empty list = all dimensions)
+		energeticRiftDimensions = ["minecraft:overworld", "perdition:purgatory"]
+		#Dimensions where Echoing Shadows can spawn (empty list = all dimensions)
+		echoingShadowDimensions = ["minecraft:overworld", "perdition:purgatory"]
+		#Dimensions where Thoughtwells can spawn (empty list = all dimensions)
+		thoughtwellDimensions = ["minecraft:overworld", "perdition:purgatory"]
 
 	#Ore Generation Configuration
 	[worldgen.ores]
@@ -62,11 +74,11 @@
 	#Control the generation of custom villager structures
 	[worldgen.villager_structures]
 		#Enable Anomaly Scientist Lab generation in villages
-		enableAnomalyScientistHouse = true
+		enableAnomalyScientistHouse = false
 		#Weight for Anomaly Scientist Lab in village generation (higher = more common)
 		#Default village houses have weights around 1-10, with 5 being moderately common
 		#Range: 1 ~ 100
-		anomalyScientistHouseWeight = 6
+		anomalyScientistHouseWeight = 1
 
 #Anomaly Effects Configuration
 #Control the behavior and strength of anomaly effects
@@ -74,21 +86,23 @@
 
 	#Gravity Anomaly Effect Settings
 	[anomaly_effects.gravity_anomaly]
-		#Enable Gravity Anomaly effects (levitation)
+		#Enable all Gravity Anomaly effects (master toggle)
 		enableEffects = true
 		#Levitation effect radius in blocks
 		#Range: 1.0 ~ 32.0
-		levitationRadius = 24.0
+		levitationRadius = 6.0
 		#Levitation force strength (higher = stronger)
 		#Range: 0.01 ~ 1.0
-		levitationForce = 0.5
+		levitationForce = 1.0
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable levitation effect on nearby entities
+		enableLevitation = true
 
 	#Temporal Bloom Effect Settings
 	[anomaly_effects.temporal_bloom]
-		#Enable Temporal Bloom effects (crop growth/mob transformation)
+		#Enable all Temporal Bloom effects (master toggle)
 		enableEffects = true
 		#Effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -105,10 +119,14 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable crop growth/regression effects
+		enableCropGrowth = true
+		#Enable mob transformation (baby/adult) effects
+		enableMobTransform = true
 
 	#Energetic Rift Effect Settings
 	[anomaly_effects.energetic_rift]
-		#Enable Energetic Rift effects (lightning/zapping)
+		#Enable all Energetic Rift effects (master toggle)
 		enableEffects = true
 		#Entity zap radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -128,10 +146,14 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable entity zapping effect
+		enableZap = true
+		#Enable lightning rod striking effect
+		enableLightning = true
 
 	#Warp Gate Effect Settings
 	[anomaly_effects.warp_gate]
-		#Enable Warp Gate effects (teleportation)
+		#Enable all Warp Gate effects (master toggle)
 		enableEffects = true
 		#Teleport activation radius in blocks
 		#Range: 0.5 ~ 16.0
@@ -142,10 +164,12 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable teleportation effect
+		enableTeleport = true
 
 	#Echoing Shadow Effect Settings
 	[anomaly_effects.echoing_shadow]
-		#Enable Echoing Shadow effects (light absorption/mob spawning)
+		#Enable all Echoing Shadow effects (master toggle)
 		enableEffects = true
 		#Effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -159,10 +183,14 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable light absorption effect
+		enableLightAbsorption = true
+		#Enable mob spawn rate boost effect
+		enableMobSpawnBoost = true
 
 	#Thoughtwell Effect Settings
 	[anomaly_effects.thoughtwell]
-		#Enable Thoughtwell effects (confusion)
+		#Enable all Thoughtwell effects (master toggle)
 		enableEffects = true
 		#Effect radius in blocks
 		#Range: 1.0 ~ 32.0
@@ -173,6 +201,10 @@
 		#Research points granted when scanned
 		#Range: 1 ~ 1000
 		researchPoints = 10
+		#Enable nausea/confusion effect on nearby players
+		enableNausea = true
+		#Enable mob disguise effect on nearby mobs
+		enableMobDisguise = true
 
 #Energy System Configuration
 #Control energy generation, consumption, and storage for machines
@@ -182,10 +214,10 @@
 	[energy.resonant_burner]
 		#Energy generated per tick (RE/t)
 		#Range: 1 ~ 10000
-		energyPerTick = 20
+		energyPerTick = 70
 		#Internal energy storage capacity (RE)
 		#Range: 100 ~ 1000000
-		energyStorage = 10000
+		energyStorage = 100000
 		#Energy transfer rate to adjacent blocks per tick (RE/t)
 		#Range: 1 ~ 100000
 		transferRate = 1000
@@ -217,7 +249,7 @@
 	[energy.riftStabilizer]
 		#Energy generated per tick
 		#Range: 1 ~ 10000
-		energyPerTick = 100
+		energyPerTick = 120
 		#Maximum energy storage
 		#Range: 1000 ~ 1000000
 		energyStorage = 100000
@@ -235,7 +267,7 @@
 	[energy.resonant_conduit]
 		#Energy transfer rate per tick through conduits (RE/t)
 		#Range: 1 ~ 100000
-		transferRate = 500
+		transferRate = 50000
 		#Network cache update interval in ticks (20 ticks = 1 second)
 		#Range: 1 ~ 600
 		networkUpdateInterval = 20
@@ -244,14 +276,19 @@
 		maxNetworkSize = 64
 		#Energy transfer penalty per block distance (0.0 = no penalty, 0.1 = 10% loss per block)
 		#Range: 0.0 ~ 1.0
-		distancePenalty = 0.05
+		distancePenalty = 0.03
 
 #Research System Configuration
 #Control research costs and progression
 [research]
 	#Global multiplier for all research node costs (1.0 = default, 0.5 = half cost, 2.0 = double cost)
 	#Range: 0.0 ~ 10.0
-	costMultiplier = 1.2
+	costMultiplier = 1.0
+	#Hide Strange Matter recipes in JEI/REI/EMI recipe viewers
+	#When enabled, recipes will only be visible in the Research Tablet.
+	#This encourages players to use the research system to discover recipes.
+	#Defaults to false (recipes visible in recipe viewers)
+	hideRecipesInRecipeViewers = true
 
 	#Individual Research Node Costs
 	#Override costs for specific research nodes. Set to -1 to use default values.
@@ -352,7 +389,7 @@
 		#Actual rate = baseRate / number_of_active_minigames
 		#More active minigames = slower increase = more time to stabilize
 		#Range: 1.0E-4 ~ 0.1
-		baseIncreaseRate = 0.001
+		baseIncreaseRate = 0.005
 
 	#Energy Minigame Settings (Wave Alignment)
 	[minigames.energy]

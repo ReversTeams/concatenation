@@ -1,0 +1,15 @@
+{
+	id: "11DC90A8AF7A34C3"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 64, item: "minecraft:stone" }
+		{ count: 64, item: "minecraft:andesite" }
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:deepslate" }
+		{ count: 64, item: "minecraft:sandstone" }
+		{ count: 64, item: "minecraft:cobblestone" }
+	]
+	title: "Choice Stone"
+}

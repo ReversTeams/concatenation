@@ -308,7 +308,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "thermal:laser_diode",
+          "name": "concatenationcore:laser_diode",
           "functions": [
             {
               "function": "minecraft:set_count",

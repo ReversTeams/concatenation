@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_economy_fools"
+	group: "4AEECD5B848DA3A1"
+	icon: "thermal:enderium_coin"
+	id: "482D038EC4A5B53B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Limited Event"]
+	title: "The Economy, Fools!"
+}

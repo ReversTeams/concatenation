@@ -24,6 +24,10 @@ ServerEvents.tags('item', event => {
         'tarotcards:the_moon',
         'tarotcards:the_star'
     ]);
+    add('concatenation:top_cards', [
+        'tarotcards:the_hierophant',
+        'tarotcards:temperance'
+    ]);
 
     add('concatenation:hammers', [
         'concatenationcore:hammer',
@@ -73,6 +77,7 @@ ServerEvents.tags('item', event => {
         'thermal:machine_frame'
     ]);
     //event.add('thermal:crafting/dies', 'concatenationcore:copper_lead_coil');
+    event.add('thermal:crafting/dies', 'concatenationcore:hierophant_die');
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb');
 
     add('minecraft:swords', [
@@ -266,6 +271,7 @@ ServerEvents.tags('item', event => {
 
     const fullSets = [
         'concatenationcore:the_error',
+        'concatenationcore:prudence',
         'concatenationcore:full_cups',
         'concatenationcore:full_wands',
         'concatenationcore:full_pentacles',
@@ -355,13 +361,23 @@ ServerEvents.tags('item', event => {
     add('forge:tools/knives', knives);
     add('farmersdelight:tools/knives', knives);
     add('farmersdelight:straw_harvesters', knives);
+    add('concatenation:knives', knives);
+
+    add('concatenation:knives', [
+        'farmersdelight:flint_knife',
+        'farmersdelight:iron_knife',
+        'farmersdelight:golden_knife',
+        'farmersdelight:diamond_knife',
+        'farmersdelight:netherite_knife',
+        'refurbished_furniture:knife',
+    ]);
 
     add('concatenation:lightning', [
         'minecraft:lightning_rod',
         'thermal:lightning_charge',
         'ars_nouveau:glyph_lightning',
         'reliquary:rending_gale',
-        'minecraft:trident',
+        'minecraft:trident'
     ]);
 
     // add('forge:dusts', [
@@ -428,5 +444,52 @@ ServerEvents.tags('item', event => {
         'oreberriesreplanted:gold_oreberry_bush',
         'oreberriesreplanted:iron_oreberry_bush',
         'oreberriesreplanted:essence_berry_bush'
+    ]);
+
+    add('concatenation:oreberry', [
+        'oreberriesreplanted:tin_oreberry',
+        'oreberriesreplanted:aluminum_oreberry',
+        'oreberriesreplanted:nickel_oreberry',
+        'oreberriesreplanted:lead_oreberry',
+        'oreberriesreplanted:uranium_oreberry',
+        'oreberriesreplanted:osmium_oreberry',
+        'oreberriesreplanted:zinc_oreberry',
+        'oreberriesreplanted:silver_oreberry',
+        'oreberriesreplanted:copper_oreberry',
+        'oreberriesreplanted:gold_oreberry',
+        'oreberriesreplanted:iron_oreberry',
+        'oreberriesreplanted:essence_berry'
+    ]);
+
+    add('concatenation:perditio_shards', [
+        'strangematter:spatial_shard',
+        'strangematter:shade_shard',
+        'elementalcraft:fine_air_gem',
+        'elementalcraft:pristine_air_gem'
+    ]);
+
+    add('lychee:fire_immune', [
+        'minecraft:glowstone',
+        'minecraft:glowstone_dust',
+        'minecraft:lava_bucket',
+        'minecraft:bucket',
+        'elementalcraft:aircrystal'
+    ]);
+
+    add('minecraft:flowers', [
+        'hexerei:belladonna_flowers',
+        'hexerei:belladonna_berries',
+        'hexerei:mugwort_leaves',
+        'hexerei:sage',
+        'hexerei:mandrake_root',
+        'hexerei:mugwort_flowers'
+    ]);
+
+    add('forge:ingots/pyrite', [
+        'concatenationcore:pyrite'
+    ]);
+
+    add('perdition:limbo_bush_growable', [
+        'elementalcraft:pure_rock'
     ]);
 });

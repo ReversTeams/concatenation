@@ -1,0 +1,37 @@
+{
+  "type": "strangematter:reality_forge",
+  "pattern": [
+    "ESE",
+    "RCR",
+    "IAI"
+  ],
+  "key": {
+    "E": {
+      "item": "strangematter:energetic_shard"
+    },
+    "S": {
+      "item": "strangematter:stabilized_core"
+    },
+    "R": {
+      "item": "strangematter:resonant_circuit"
+    },
+    "C": {
+      "item": "strangematter:resonant_coil"
+    },
+    "I": {
+      "item": "strangematter:resonite_ingot"
+    },
+    "A": {
+      "item": "perdition:blackened_resin"
+    }
+  },
+  "shards": {
+    "energetic": 2
+  },
+  "required_research": "rift_stabilizer",
+  "result": {
+    "item": "strangematter:rift_stabilizer",
+    "count": 1
+  }
+}
+

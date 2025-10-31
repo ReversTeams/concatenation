@@ -1,0 +1,20 @@
+{
+    "type": "lychee:lightning_channeling",
+    "item_in": {
+        "item": "perdition:dis_gem"
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "perdition:cut_dis_gem"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        },
+        {
+            "type": "drop_item",
+            "item": "perdition:resin"
+        }
+    ]
+}

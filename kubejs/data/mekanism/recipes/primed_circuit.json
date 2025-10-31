@@ -10,6 +10,6 @@
     }
   },
   "output": {
-    "item": "concatenationcore:primed_calculation_circuit"
+    "item": "concatenationcore:primed_calculation_processor"
   }
 }

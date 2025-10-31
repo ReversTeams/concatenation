@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "halloween_2025"
+	group: "4AEECD5B848DA3A1"
+	icon: "chipped:silly_carved_pumpkin"
+	id: "3CCC0B7FE48E71BD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CEDBC536409D424"]
+			description: [
+				"It's the season of pumpkins and scares! "
+				""
+				"I should carve out a pumpkin to decorate my home, it's the basis of the holiday, after all."
+			]
+			icon: "minecraft:carved_pumpkin"
+			id: "283ECA512AD79F99"
+			rewards: [{
+				id: "69CDF74A8BD53D6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "18AA0484CA5A42B7"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			title: "Halloween 2025"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"196E0D0D6DAC32D4"
+				"40D76EF46649BDA5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Lord Pumpkinhead's origins stem from another world. A sinister lord that is fully battle-ready when summoned and poses a serious threat."]
+			id: "24E489456D23186C"
+			rewards: [{
+				id: "494F7D52544EEBAB"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "09AAA08986DF9F7C"
+				type: "advancement"
+			}]
+			title: "Lord Pumpkinhead"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["24E489456D23186C"]
+			id: "79AEE8B7AA20CA72"
+			rewards: [{
+				count: 13
+				id: "03D74563F9978B26"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "351A193890708E6B"
+				item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24E489456D23186C"]
+			id: "5F9863BB30BC1127"
+			rewards: [{
+				count: 13
+				id: "46D64C46062CAB5C"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "57ABDD3013739288"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:pumpkinhandgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4228A468C7D1F13B"
+					item: "born_in_chaos_v1:pumpkin_bullet"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24E489456D23186C"]
+			id: "3889FEDBAFC63C87"
+			rewards: [{
+				count: 13
+				id: "695D48BC89EC5703"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "047790F717F50675"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["43DD1C96FCD92EC2"]
+			description: [
+				"Eleonore had once written: \"As precursory paths to the Alchemists of The Lover and The Devil, witches and cultists may have some ingredients that near in power to the transmutating elixir and would prove to be great substitutes.\" However, she had never written down the recipe for this transmutating elixir if she did succeed in her endeavors. "
+				""
+				"Maybe with a little bit of luck from the spooky month, I can aim for the substitute recipe."
+			]
+			id: "196E0D0D6DAC32D4"
+			rewards: [{
+				id: "2EA4B05C636A5D06"
+				item: "born_in_chaos_v1:transmuting_elixir"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5E84644FEDCF424D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenationcore:light_totem"
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:blood_powder"
+							}
+							{
+								Count: 1b
+								id: "theurgy:purified_gold"
+							}
+						]
+					}
+				}
+				title: "Transmutation Precusor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43DD1C96FCD92EC2"]
+			description: ["The transmutating elixir is a crude vessel for transmutation, not as elaborate as the alchemists who had specialized into it. However, it still possesses vital power and most vitally this season: providing a purer link to the other world and summoning a more direct avatar of 'His'."]
+			id: "40D76EF46649BDA5"
+			rewards: [{
+				id: "55579A36C84BF03F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "29FF2DFBDC2EE8B7"
+				item: "born_in_chaos_v1:transmuting_elixir"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["283ECA512AD79F99"]
+			description: ["A drink needs a feast! Stuffed pumpkin can nourish the whole party! Or family. Although none of my friends drink, sharing food is a great part of the celebrations. I'll prepare a spooky stuffed pumpkin for the party."]
+			id: "66F5DF8953139DE7"
+			rewards: [{
+				count: 32
+				id: "09D1041D34D651C0"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2528626BA24179C3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:stuffed_pumpkin_block"
+							}
+							{
+								Count: 1b
+								id: "thermal:stuffed_pumpkin"
+							}
+						]
+					}
+				}
+				title: "Any Stuffed Pumpkin"
+				type: "item"
+			}]
+			title: "Stuffed Pumpkin"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66F5DF8953139DE7"]
+			description: ["It's a traditional meal of the season. For the next party, I could show off my sick cooking skills! I can handle a knife for more than just butchering and hunting!"]
+			id: "4536D47F7E857264"
+			rewards: [{
+				count: 128
+				id: "4A4FE7E6574B0F09"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0265F06A3DFC8F84"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66F5DF8953139DE7"]
+			description: ["The little ones are going to come knocking and I'm going to need some candy as per tradition. Caramel squares are both a sweet treat and will give them a small boost."]
+			id: "6BA830D7E656FCA6"
+			rewards: [{
+				count: 16
+				id: "767F00343251FCBD"
+				item: "concatenationcore:caramel_square"
+				type: "item"
+			}]
+			tasks: [{
+				id: "796667CCDB442745"
+				item: "concatenationcore:caramel_square"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BA830D7E656FCA6"]
+			description: ["More candy is needed! Mint Apples are the best! I can't exactly hand them out in a bag but I can hand them out!"]
+			id: "62CDA7F3F5E1F359"
+			rewards: [{
+				count: 12
+				id: "77F7D7539127605F"
+				item: "concatenationcore:mint_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "050F2B03DE057AC4"
+				item: "born_in_chaos_v1:magical_holiday_candy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62CDA7F3F5E1F359"]
+			description: ["A treat for me. I've been on a search for the Allcandy for years, to make the elusive eternal candy. It is said to fulfill a man's hunger for the rest of eternity, since time immemorial. "]
+			id: "31921734283B3CAA"
+			rewards: [{
+				id: "2016CFC3C5B56C21"
+				item: "concatenationcore:concatenator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C37B2DD35A4180A"
+				item: "concatenationcore:allcandy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["283ECA512AD79F99"]
+			description: [
+				"Some children in the village have asked for an iron golem. They're fun-looking, and hand flowers to the children. They're great protectors of the borders. However, they're a bit expensive per model. The mayor didn't seem interested but perhaps I can make one of my own."
+				""
+				"A spectral golem could do, wouldn't it? They're even more effective against the undead! I could ask my witch friend, but they would need a base to work on. Objective: make a regular golem to obtain a golem summoning scroll."
+			]
+			id: "509C6AA6FDB042C9"
+			rewards: [{
+				id: "4F7BCC35B01F082C"
+				item: {
+					Count: 1
+					id: "summonerscrolls:iron_golem_summoner_scroll"
+					tag: {
+						Damage: 0
+						cost: 5
+						count: 1
+						damageAmount: 10
+						summon: "summonerscrolls:iron_golem_summon"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "7C772D78C049B644"
+				type: "advancement"
+			}]
+			title: "Hired Help"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["509C6AA6FDB042C9"]
+			description: ["Aside from the village cemetery, there are various tombs and mausoleums that can be found around the world. We can no longer clearly read out the letters on them, if they're even a language. They're quite interesting ruins though."]
+			id: "48A3A1D7F2CF80C0"
+			rewards: [{
+				id: "5D8A4A15B20BC3AD"
+				item: "born_in_chaos_v1:elixir_of_vampirism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "648128844BE06E10"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_2003wise"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_orion"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_derivas"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_fubuki_banzai"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_somfunambulist"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_memesus"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_tem_187"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_carrion"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_2_dling"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_euthymia"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_feral"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_mike_rory"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_d_4rkdevilx"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_rotborne"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_the_gentleman_frog"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_plug"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_nino_4416"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_dark_titan_066"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:tombstone_petasi"
+							}
+						]
+					}
+				}
+				title: "Any Tombstone"
+				type: "item"
+			}]
+			title: "Cemetery"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48A3A1D7F2CF80C0"]
+			description: ["All of these graves around the world are making me think about my own mortality. I can only dream of something that would delay the inevitable."]
+			id: "02568A35AD9181E7"
+			rewards: [{
+				id: "583823BBCCCE3148"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "born_in_chaos_v1:bury_them_all"
+				criterion: ""
+				id: "701C5C0D5EA154B7"
+				type: "advancement"
+			}]
+			title: "Bury Them All"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["509C6AA6FDB042C9"]
+			description: [
+				"Old man asked me to help him with changing out the windows around his house. He said he was going to change the windows himself, but couldn't find any ornate tinted windows. They're quite spooky, I can surely find those around this season or make them myself. Objective: obtain 3 kinds of ornate tinted windows."
+				""
+				"In the end, after helping him, old man gave me these lamps he had laying around in his attic. They're still working, although I would have thought they had burned out."
+			]
+			id: "7741E7588FE4F163"
+			rewards: [{
+				count: 16
+				id: "641F7054476AA175"
+				item: "born_in_chaos_v1:argillite_lamp"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EDE3854C70D8777"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:green_stained_glass"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:orange_stained_glass"
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:scarlet_stained_glass"
+							}
+						]
+					}
+				}
+				title: "Any Ornate Glass"
+				type: "item"
+			}]
+			title: "Glass \\& Lamps"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["509C6AA6FDB042C9"]
+			description: ["A consultant approached me one day, recognizing me as the friend of the village's witch. They asked me to procure a strong poison to kill their boss. Assassination? In broad daylight? They told me any price was good. Did they really hate their boss that much? I mean sure, some are pushy and some will stress the living hell out of people, but they're just doing their job, right? I'm glad that as a hunter, I only answer to myself."]
+			id: "40D7532B1DD96796"
+			rewards: [
+				{
+					id: "7ABF1CF864DB760B"
+					item: {
+						Count: 1
+						id: "reliquary:splash_potion"
+						tag: {
+							effects: [{
+								duration: 1
+								name: "minecraft:instant_damage"
+								potency: 0
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B13C6623712CEA4"
+					table_id: 8405090712645604397L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A271BEC1537A25C"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strong_poison"
+					}
+				}
+				type: "item"
+			}]
+			title: "Conspiration"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40D7532B1DD96796"]
+			description: ["They had a change of conscience. The poison is too much, we just need to cripple them. Alright, I can make a potion of slowness myself. I found a random potion brewer in an abandoned church while looking for dread hounds."]
+			id: "04E705554AFEFE39"
+			rewards: [{
+				count: 3
+				id: "276B8055A5B51268"
+				item: {
+					Count: 1
+					id: "reliquary:splash_potion"
+					tag: {
+						effects: [{
+							duration: 750
+							name: "minecraft:regeneration"
+							potency: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AFB048CA28D42B7"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_slowness"
+					}
+				}
+				type: "item"
+			}]
+			title: "Picky Assassin"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04E705554AFEFE39"]
+			description: [
+				"Again? Crippling them isn't right, they need to be vanished? Well at least this is just temporary. The cultists are still troubled by the sudden loss of limbo. Their poor gates aren't working anymore. Just use your legs like anyone!"
+				""
+				"I wonder what their boss did to deserve such treatment. Evidently it's not straight up torture, since they didn't want the poison in the end. I'm not finding another potion after this if it isn't want they want yet again."
+			]
+			id: "76F41877DB37813D"
+			rewards: [{
+				count: 3
+				id: "43D98CF08C9DE24D"
+				item: {
+					Count: 1
+					id: "reliquary:lingering_potion"
+					tag: {
+						effects: [{
+							duration: 1
+							name: "minecraft:saturation"
+							potency: 9
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A109C5EA9CD2D7"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "the_deep_void:long_vanishment"
+					}
+				}
+				type: "item"
+			}]
+			title: "Limbo"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["283ECA512AD79F99"]
+			description: [
+				"Sir Pumpkinhead usually requires specific summoning rituals throughout the year, but due to Death card holder or high mages being entertained by the season, rogue Sir Pumpkinheads will frequently ravage the wilderness."
+				""
+				"It is unknown whether the multiple sightings of Sir Pumpkinhead are the same entity, a weaker entity to Lord Pumpkinhead, or one of 'His' avatars. I believe they're avatars though. I should hunt one of these as my contribution to the festivities. We'll have a night of drinking once I'm back."
+			]
+			id: "43DD1C96FCD92EC2"
+			rewards: [{
+				id: "55E8134C29A8AEC3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_sir"
+				criterion: ""
+				id: "10A4A7A6B2DDB058"
+				type: "advancement"
+			}]
+			title: "Sir Pumpkinhead"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Seasonal Event"]
+	title: "Halloween 2025"
+}

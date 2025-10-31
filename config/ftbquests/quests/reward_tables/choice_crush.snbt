@@ -1,0 +1,13 @@
+{
+	id: "732BC3249916AB5F"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 16, item: "minecraft:bone_block" }
+		{ count: 16, item: "minecraft:clay" }
+		{ count: 64, item: "minecraft:gravel" }
+		{ count: 64, item: "minecraft:smooth_sandstone" }
+	]
+	title: "Choice Crush"
+}

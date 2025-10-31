@@ -16,6 +16,8 @@ saves
 /usercache.json
 /usernamecache.json
 /schematics
+/server.dat
+/knownkeys.txt
 crash-reports
 logs
 .cache
@@ -32,8 +34,6 @@ embeddium-*.json
 indigo-renderer.properties
 config/world_preview
 patchouli_data.json
-/config/oculus.properties
-/config/packetfixer.properties
 /config/**/*client.json
 /config/**/*client.toml
 /config/inventoryprofilesnext
@@ -45,3 +45,13 @@ journeymap/server
 debug
 user-prefs.json
 /mods/.connector
+essential
+ESM
+
+# why no work?
+/config/oculus.properties
+/config/packetfixer.properties
+/config/asyncparticles/*.properties
+/shaderpacks/*.zip.txt
+/journeymap/config/5.10/journeymap.fullmap.config
+/journeymap/config/5.10/journeymap.minimap.config

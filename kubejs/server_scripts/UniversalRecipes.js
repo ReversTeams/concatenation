@@ -280,16 +280,16 @@ ServerEvents.recipes(event => {
                         D: 'concatenationcore:soleipse'
                 }
         )
-        event.shapeless(
-                Item.of(
-                        "concatenationcore:the_error",
-                        '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
-                ),
-                [
-                        'tarotcards:the_lovers',
-                        'concatenationcore:concatenator'
-                ]
-        ).keepIngredient('concatenationcore:concatenator')
+        // event.shapeless(
+        //         Item.of(
+        //                 "concatenationcore:the_error",
+        //                 '{display:{Name:\'{"text":"Tarot : The Error","color":"yellow","italic":false}\'},CurioAttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:0.5,Operation:1,UUID:[I;-1049641899,-1698279708,-1222758712,1471568110],Slot:"curio"}]}'
+        //         ),
+        //         [
+        //                 'tarotcards:the_lovers',
+        //                 'concatenationcore:concatenator'
+        //         ]
+        // ).keepIngredient('concatenationcore:concatenator')
 
         event.shaped(
                 Item.of('tarotcards:the_hierophant'),
@@ -451,7 +451,7 @@ ServerEvents.recipes(event => {
         event.shapeless(
                 Item.of('concatenationcore:sugarbase'),
                 [
-                        '#forge:tools/knives',
+                        '#concatenation:knives',
                         'tarotcards:the_empress',
                         'farmersdelight:wheat_dough',
                         'minecraft:sugar',
@@ -461,7 +461,7 @@ ServerEvents.recipes(event => {
                         'minecraft:sugar',
                         'minecraft:sugar'
                 ]
-        ).keepIngredient('tarotcards:the_empress')
+        ).keepIngredient('tarotcards:the_empress').damageIngredient('#concatenation:knives')
         event.shapeless(
                 Item.of('concatenationcore:sugarbase', 2),
                 [
@@ -486,10 +486,10 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:sugar',
                         B: 'concatenationcore:sugarbase',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         C: 'born_in_chaos_v1:caramel_pepper'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:spicy_drop'),
                 [
@@ -500,10 +500,10 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:sugar',
                         B: 'concatenationcore:sugarbase',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         C: 'thermal:redstone_mushroom_spores'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:spicy_drop'),
                 [
@@ -516,9 +516,9 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:sugarbase',
                         E: 'farmersdelight:wheat_dough',
                         C: 'hexerei:blood_bottle',
-                        A: '#forge:tools/knives'
+                        A: '#concatenation:knives'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:spicy_drop', 2),
                 [
@@ -530,9 +530,9 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:sugar',
                         B: 'concatenationcore:sugarbase',
                         C: 'minecolonies:nether_pepper',
-                        A: '#forge:tools/knives'
+                        A: '#concatenation:knives'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:caramel_square', 4),
                 [
@@ -543,10 +543,10 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:sugar',
                         B: 'concatenationcore:sugarbase',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         C: 'born_in_chaos_v1:caramel_pepper'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:shiny_eclair', 2),
                 [
@@ -558,10 +558,10 @@ ServerEvents.recipes(event => {
                         E: 'minecraft:sugar',
                         B: 'concatenationcore:sugarbase',
                         D: 'farmersdelight:wheat_dough',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         C: 'minecraft:cocoa_beans'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:mint_apple', 4),
                 [
@@ -571,11 +571,11 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         B: 'concatenationcore:sugarbase',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         D: 'create:honeyed_apple',
                         C: 'born_in_chaos_v1:river_mint'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:mint_apple', 2),
                 [
@@ -586,11 +586,11 @@ ServerEvents.recipes(event => {
                 {
                         B: 'concatenationcore:sugarbase',
                         D: 'minecraft:apple',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         E: 'minecraft:honey_bottle',
                         C: 'born_in_chaos_v1:river_mint'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:yumpearls'),
                 [
@@ -602,11 +602,11 @@ ServerEvents.recipes(event => {
                         F: 'concatenationcore:mint_apple',
                         B: 'concatenationcore:sugarbase',
                         E: 'concatenationcore:caramel_square',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         C: 'concatenationcore:shiny_eclair',
                         D: 'concatenationcore:spicy_drop'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('concatenationcore:allcandy'),
                 [
@@ -629,13 +629,13 @@ ServerEvents.recipes(event => {
         event.shapeless(
                 Item.of('born_in_chaos_v1:holiday_candy', 4),
                 [
-                        '#forge:tools/knives',
+                        '#concatenation:knives',
                         'concatenationcore:sugarbase',
                         'minecraft:sugar',
                         'farmersdelight:pumpkin_slice',
                         'minecraft:honey_bottle'
                 ]
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('born_in_chaos_v1:coffee_candy', 2),
                 [
@@ -646,10 +646,10 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:sugar',
                         B: 'concatenationcore:sugarbase',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         C: 'minecraft:cocoa_beans'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('born_in_chaos_v1:river_mint'),
                 [
@@ -659,10 +659,10 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'concatenationcore:sugarbase',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         B: 'minecolonies:mint'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shaped(
                 Item.of('born_in_chaos_v1:chocolate_heart'),
                 [
@@ -674,27 +674,27 @@ ServerEvents.recipes(event => {
                         E: 'minecraft:red_dye',
                         C: 'concatenationcore:sugarbase',
                         B: 'born_in_chaos_v1:coffee_candy',
-                        A: '#forge:tools/knives',
+                        A: '#concatenation:knives',
                         D: 'minecraft:cocoa_beans'
                 }
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shapeless(
                 Item.of('born_in_chaos_v1:chocolate_heart', 2),
                 [
                         'born_in_chaos_v1:coffee_candy',
                         'hexerei:blood_bottle',
-                        '#forge:tools/knives'
+                        '#concatenation:knives'
                 ]
-        )
+        ).damageIngredient('#concatenation:knives')
         event.shapeless(
                 Item.of('born_in_chaos_v1:chocolate_heart', 3),
                 [
-                        '#forge:tools/knives',
+                        '#concatenation:knives',
                         'born_in_chaos_v1:coffee_candy',
                         'hexerei:blood_bottle',
                         'born_in_chaos_v1:holiday_candy'
                 ]
-        )
+        ).damageIngredient('#concatenation:knives')
 
         // Death
         event.shaped(
