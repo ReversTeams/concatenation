@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1A53753CE273B8EB"]
 			description: ["As you have explored, you may have encountered abandoned colonies. If you like, you can take over an abandoned colony and repair it. This can be a good way to jumpstart your colony. However, if you want the full colony experience, then it’s recommended that you find a good place to settle your colony and start the old fashioned way. Blood, sweat and tears. "]
 			id: "1BB571557F74D3A1"
 			rewards: [{

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1761774068437
+  last_edited_time = 1761874485039
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:bc7209b0-40b1-4fb7-9cd2-d06e86c42f52-1761772917843] = [groups:][instances:]
+  [loading_requirement_container_meta:fb03a530-cac9-45f0-92f4-8fdb73a459aa-1761874426192] = [groups:][instances:]
 }
 
 menu_background {
@@ -107,7 +107,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -172
-  y = -4
+  y = 0
   width = 83
   height = 11
   stretch_x = false
@@ -148,7 +148,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 42
-  y = -4
+  y = 0
   width = 63
   height = 11
   stretch_x = false
@@ -376,7 +376,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 4a8b76e3-1288-4bbd-8642-3aef5553c475-1761669977653
-  [executable_block:4a8b76e3-1288-4bbd-8642-3aef5553c475-1761669977653][type:generic] = [executables:]
+  [executable_action_instance:7a6861ba-c9b2-43fd-a984-343c419a969e-1761874431452][action_type:openlink] = https://revers.fandom.com/wiki/Concatenation/Changelogs
+  [executable_block:4a8b76e3-1288-4bbd-8642-3aef5553c475-1761669977653][type:generic] = [executables:7a6861ba-c9b2-43fd-a984-343c419a969e-1761874431452;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -415,7 +416,7 @@ element {
   x = 66
   y = 0
   width = 91
-  height = 18
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -490,7 +491,7 @@ element {
 
 element {
   interactable = true
-  source = <Empty text element body>
+  source = Prudent Prerogative is a major update for Concatenation that overhauls most of the magic side of the pack. The Temperance and Magician pathways now have access to the newly opened Purgatory dimension, source of many alternate recipes for their paths. Temperance and Hierophant can now both converge into the new Prudence Pathway, delving into anomalous technology and gadgets.%n%%n%The later The Lovers and The Devil pathways have been completed, their progression completely changed to bring about a revolutionized end to the magic tree.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -536,10 +537,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = a3b7443a-9467-4b64-9aaf-b174f4eb91b9-1761669886468
-  x = 0
-  y = 23
+  x = -1
+  y = 21
   width = 149
-  height = 46
+  height = 49
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -557,7 +558,7 @@ element {
 
 element {
   interactable = true
-  source = 10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3%n%10/19/2025 - v1.2.2
+  source = 10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -603,10 +604,10 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 60e28fe9-dd38-4f0a-890f-2ba0710b56b7-1761669371974
-  x = -5
-  y = 15
+  x = -9
+  y = 17
   width = 132
-  height = 59
+  height = 60
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -624,7 +625,7 @@ element {
 
 element {
   interactable = true
-  source = <Empty text element body>
+  source = Concatenation’s Halloween 2025 is an event adding a limited time questline in the events section of the quest book. The questline features new quests with their own story and unique rewards, taking place at the same time as Born in Chaos’ own Halloween event. The event runs from October 29th to November 9th.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -671,9 +672,9 @@ element {
   anchor_point = element
   anchor_point_element = 1eac3906-70b0-4d33-ae9d-cbbd71f25cad-1761669800699
   x = 0
-  y = 29
+  y = 22
   width = 149
-  height = 40
+  height = 46
   stretch_x = false
   stretch_y = false
   stay_on_screen = true

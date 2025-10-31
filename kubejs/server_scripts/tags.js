@@ -470,6 +470,19 @@ ServerEvents.tags('item', event => {
     ]);
 
     add('lychee:fire_immune', [
-        'minecraft:glowstone'
+        'minecraft:glowstone',
+        'minecraft:glowstone_dust',
+        'minecraft:lava_bucket',
+        'minecraft:bucket',
+        'elementalcraft:aircrystal'
+    ]);
+
+    add('minecraft:flowers', [
+        'hexerei:belladonna_flowers',
+        'hexerei:belladonna_berries',
+        'hexerei:mugwort_leaves',
+        'hexerei:sage',
+        'hexerei:mandrake_root',
+        'hexerei:mugwort_flowers'
     ]);
 });

@@ -4,10 +4,10 @@
     "modId": "forge",
     "version": "fmlloader-1.20.1-47.4.0.jar"
   },
-  "accessories-neoforge-1.0.0-beta.46+1.20.1.jar": {
-    "jarName": "accessories-neoforge-1.0.0-beta.46+1.20.1.jar",
+  "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
+    "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
     "modId": "accessories",
-    "version": "1.0.0-beta46+1.20.1"
+    "version": "1.0.0-beta48+1.20.1"
   },
   "AdditionalEnchantedMiner-1.20.1-1201.1.136.jar": {
     "jarName": "AdditionalEnchantedMiner-1.20.1-1201.1.136.jar",
@@ -1363,10 +1363,10 @@
     "modId": "strangematter",
     "version": "0.2.6"
   },
-  "structure_layout_optimizer-forge-1.0.10.jar": {
-    "jarName": "structure_layout_optimizer-forge-1.0.10.jar",
+  "structure_layout_optimizer-forge-1.0.11.jar": {
+    "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
     "modId": "structure_layout_optimizer",
-    "version": "1.0.10"
+    "version": "1.0.11"
   },
   "structurify-forge-1.0.21+mc1.20.1.jar": {
     "jarName": "structurify-forge-1.0.21+mc1.20.1.jar",

@@ -1735,6 +1735,22 @@ ServerEvents.recipes(event => {
                 'minecraft:glass',
                 'minecraft:sand'
         ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.smelting(
+                'mcore:titanium_ingot',
+                Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"mcore:titanium"}}')
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'mcore:titanium_ingot',
+                Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"mcore:titanium"}}')
+        ).xp(0.1).cookingTime(50);
+        event.recipes.minecraft.smelting(
+                'mcore:titanium_ingot',
+                Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"forge:titanium"}}')
+        ).xp(0.1).cookingTime(100);
+        event.recipes.minecraft.blasting(
+                'mcore:titanium_ingot',
+                Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"forge:titanium"}}')
+        ).xp(0.1).cookingTime(50);
 
         event.recipes.thermal.pulverizer(Item.of('createmetallurgy:zinc_dust').withChance(1.5), 'create:zinc_ingot').energy(100)
 });

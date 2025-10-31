@@ -15937,15 +15937,7 @@
 				}
 				{
 					id: "11186E907DA2D2ED"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "create:shadow_steel"
-					}
+					item: "concatenationcore:erhantahir_alloy"
 					type: "item"
 				}
 			]

@@ -33,7 +33,9 @@
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
-    "forge:coins/{material}"
+    "forge:coins/{material}",
+    "forge:rubber",
+    "forge:plastic"
   ],
   "materials": [
     "aeternium",
@@ -74,6 +76,8 @@
     "platinum",
     "potassium_nitrate",
     "pyrite",
+    "plastic",
+    "rubber",
     "ruby",
     "sapphire",
     "signalum",
