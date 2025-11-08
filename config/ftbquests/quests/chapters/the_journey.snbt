@@ -1463,12 +1463,26 @@
 				"7254694EBCAAEF0D"
 				"463EFF7D25CB7127"
 			]
+			description: ["Use the screwspinner to pick up the Corvette Steamship."]
 			id: "3A01D45D51A293BD"
-			rewards: [{
-				id: "471591051EFCBDC7"
-				type: "xp_levels"
-				xp_levels: 100
-			}]
+			rewards: [
+				{
+					id: "471591051EFCBDC7"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "68D60B1E30CF5619"
+					item: {
+						Count: 1
+						id: "concatenationcore:screwspinner"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 0.9d
 			tasks: [{
 				id: "7C1837301ED0CADD"
@@ -5723,12 +5737,18 @@
 				"The brazier is also used as a decoration piece. I was surprised to find mages lighting up ritual braziers with magelight below the columns of their temples when they weren't in use."
 			]
 			id: "3683C013E2CDB6DC"
-			rewards: [{
-				count: 2
-				id: "263BFB7174F5E9F3"
-				item: "ars_nouveau:ritual_brazier"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "263BFB7174F5E9F3"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "176151B80B71A6B8"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2BD85D3AB1DDBDA9"
 				item: {
@@ -6684,7 +6704,7 @@
 				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
 			]
 			hide_dependency_lines: true
-			icon: "minecraft:oak_hanging_sign"
+			icon: "via_romana:charting_map"
 			id: "5B1114E8AD48A9D4"
 			rewards: [
 				{

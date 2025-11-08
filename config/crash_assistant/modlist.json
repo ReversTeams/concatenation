@@ -29,10 +29,10 @@
     "modId": "aiimprovements",
     "version": "0.5.2"
   },
-  "alltheleaks-1.0.8+1.20.1-forge.jar": {
-    "jarName": "alltheleaks-1.0.8+1.20.1-forge.jar",
+  "alltheleaks-1.1.0+1.20.1-forge.jar": {
+    "jarName": "alltheleaks-1.1.0+1.20.1-forge.jar",
     "modId": "alltheleaks",
-    "version": "1.0.8+1.20.1-forge"
+    "version": "1.1.0+1.20.1-forge"
   },
   "almanac-1.20.x-forge-1.0.2.jar": {
     "jarName": "almanac-1.20.x-forge-1.0.2.jar",
@@ -149,10 +149,10 @@
     "modId": "betterfpsdist",
     "version": "1.20.1-6.0"
   },
-  "blockui-1.20.1-1.0.193.jar": {
-    "jarName": "blockui-1.20.1-1.0.193.jar",
+  "blockui-1.20.1-1.0.194.jar": {
+    "jarName": "blockui-1.20.1-1.0.194.jar",
     "modId": "blockui",
-    "version": "1.20.1-1.0.193"
+    "version": "1.20.1-1.0.194"
   },
   "bloodmagic-1.20.1-3.3.3-45.jar": {
     "jarName": "bloodmagic-1.20.1-3.3.3-45.jar",
@@ -294,10 +294,10 @@
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.2.0-1-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.2.0-1-forge-1.20.1.jar",
+  "concatenationcore-1.2.1-2-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.2.1-2-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -361,6 +361,11 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
+  },
+  "craftingstation-1.20.1-1.3.2.jar": {
+    "jarName": "craftingstation-1.20.1-1.3.2.jar",
+    "modId": "craftingstation",
+    "version": "1.20.1-1.3.2"
   },
   "craftingtweaks-forge-1.20.1-18.2.5.jar": {
     "jarName": "craftingtweaks-forge-1.20.1-18.2.5.jar",
@@ -572,10 +577,20 @@
     "modId": "emiffect",
     "version": "1.1.2+mc1.20.1"
   },
+  "EMIProfessions-forge-1.20.1-1.0.3.jar": {
+    "jarName": "EMIProfessions-forge-1.20.1-1.0.3.jar",
+    "modId": "emiprofessions",
+    "version": "1.0.3"
+  },
   "emitrades-forge-1.2.1+mc1.20.1.jar": {
     "jarName": "emitrades-forge-1.2.1+mc1.20.1.jar",
     "modId": "emitrades",
     "version": "1.2.1+mc1.20.1"
+  },
+  "enchanter_fix-1.6+mc1.20-1.21.8.jar": {
+    "jarName": "enchanter_fix-1.6+mc1.20-1.21.8.jar",
+    "modId": "enchanter_fix",
+    "version": "1.6"
   },
   "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar": {
     "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
@@ -837,6 +852,11 @@
     "modId": "journeymap",
     "version": "5.10.3"
   },
+  "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar": {
+    "jarName": "justenoughbreeding-forge-1.20-1.20.1-2.3.0.jar",
+    "modId": "justenoughbreeding",
+    "version": "2.3.0"
+  },
   "kjsindustrialforegoing-1.0.jar": {
     "jarName": "kjsindustrialforegoing-1.0.jar",
     "modId": "kjsindustrialforegoing",
@@ -874,6 +894,11 @@
     "jarName": "kubejsbotanypots-1.2.2.jar",
     "modId": "kubejsbotanypots",
     "version": "1.2.2"
+  },
+  "leaderboards-1.20.1-Forge-1.0.0.jar": {
+    "jarName": "leaderboards-1.20.1-Forge-1.0.0.jar",
+    "modId": "leaderboards",
+    "version": "1.0.0"
   },
   "letmedespawn-1.20.x-forge-1.5.0.jar": {
     "jarName": "letmedespawn-1.20.x-forge-1.5.0.jar",
@@ -944,6 +969,11 @@
     "jarName": "mcore-1.20.1-1.0.3.0.jar",
     "modId": "mcore",
     "version": "1.0.3.0"
+  },
+  "MCreatorMemFix-1.0.4.jar": {
+    "jarName": "MCreatorMemFix-1.0.4.jar",
+    "modId": "mcreator_mem_fix",
+    "version": "1.0.4"
   },
   "Mekanism-1.20.1-10.4.16.80.jar": {
     "jarName": "Mekanism-1.20.1-10.4.16.80.jar",
@@ -1075,10 +1105,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.1.0-forge-1.20.1.jar": {
-    "jarName": "perdition-1.1.0-forge-1.20.1.jar",
+  "perdition-1.1.1-forge-1.20.1.jar": {
+    "jarName": "perdition-1.1.1-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
