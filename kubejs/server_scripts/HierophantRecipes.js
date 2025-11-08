@@ -1706,6 +1706,18 @@ ServerEvents.recipes(event => {
         //                 C: 'thermal:diamond_gear'
         //         }
         // )
+        event.shaped(
+                Item.of('concatenationcore:screwspinner'),
+                [
+                        ' B ',
+                        'BCB',
+                        ' B '
+                ],
+                {
+                        B: '#forge:plates/steel',
+                        C: 'hpm:spanner'
+                }
+        )
         event.recipes.minecraft.smelting(
                 'thermal:sapphire',
                 'thermal:sapphire_dust'

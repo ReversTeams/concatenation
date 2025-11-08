@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
                     A: 'minecolonies:mint_jelly'
                 }
         )
-    event.recipes.thermal.pulverizer(Item.of('the_deep_void:disturbing_root').withChance(0.02), 'infested_rotten_log').energy(100)
+    event.recipes.thermal.pulverizer(Item.of('the_deep_void:disturbing_root').withChance(0.02), 'the_deep_void:infested_rotten_log').energy(100)
 //  event.shaped(
 //                 Item.of('the_deep_void:disturbing_root'),
 //                 [

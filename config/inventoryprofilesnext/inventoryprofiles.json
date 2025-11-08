@@ -5,9 +5,6 @@
         },
         "highlight_foused_items_foreground": false,
         "highlight_foused_items_bg_color": "#01B60B32",
-        "enable_auto_refill": {
-            "value": false
-        },
         "first_run": false
     },
     "GuiSettings": {
