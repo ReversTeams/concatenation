@@ -25962,8 +25962,6 @@
 				"&7“Recently, I came across a mockery of a forest down here. All of its trees were petrified and creaking, with their inhabitants clearly observing my every move. As I made my way through the undergrowth, I was ambushed by plant-like creatures I have dubbed the &8Rooted&7.\""
 				"{@pagebreak}"
 				"&7\"They are capable of blinding their prey and creating illusions of themselves in order to avoid attacks. Even after I had killed them all, I could feel their judgemental stares through their inanimate roots.”"
-				"{@pagebreak}"
-				"&b\"The Disturbing Roots could be recreated from similar materials when catalyzed by mercury.\""
 			]
 			hide_until_deps_complete: true
 			id: "10348477C6AD7322"
