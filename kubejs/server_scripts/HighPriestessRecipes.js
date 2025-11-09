@@ -2063,7 +2063,7 @@ ServerEvents.recipes(event => {
         ]
     )
     event.recipes.industrialforegoing.laser_drill_ore(
-        "the_deep_void:bismuth_ore", // output
+        "the_deep_void:voidrium_ore", // output
         "industrialforegoing:laser_lens10",  // catalyst
         [ //rarity, see below for more details
             {
@@ -2071,35 +2071,20 @@ ServerEvents.recipes(event => {
                     "type": "minecraft:worldgen/biome",
                     "values": []
                 },
-                "depth_max": 45,
+                "depth_max": 1,
                 "depth_min": 0,
-                "weight": 14,
+                "weight": 0,
                 "whitelist": {
                     "type": "minecraft:worldgen/biome",
                     "values": [
-                        "the_deep_void:ashen_crags",
-                        "the_deep_void:watching_undergrowth",
-                        "the_deep_void:windswept_hollow",
-                        "the_deep_void:befouled_marsh"
+                        "the_deep_void:filled_graveyard",
+                        "the_deep_void:mourning_graveyard",
+                        "the_deep_void:drifting_monoliths",
+                        "the_deep_void:gathering_grounds",
+                        "the_deep_void:gloomy_deathgrounds",
+                        "the_deep_void:staring_hills"
                     ]
                 },
-            },
-            {
-                "blacklist": {
-                    "type": "minecraft:worldgen/biome",
-                    "values": [
-                        "minecraft:the_end",
-                        "minecraft:the_void",
-                        "minecraft:small_end_islands",
-                        "minecraft:end_barrens",
-                        "minecraft:end_highlands",
-                        "minecraft:end_midlands"
-                    ]
-                },
-                "depth_max": 255,
-                "depth_min": 0,
-                "weight": 1,
-                "whitelist": {}
             }
         ]
     )
