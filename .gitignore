@@ -42,6 +42,7 @@ patchouli_data.json
 /config/chunky/
 /config/packetfixer.properties
 /config/asyncparticles/*.properties
+/config/durabilitytooltip-common.toml
 /shaderpacks/*.zip.txt
 Distant_Horizons_server_data
 welcomescreen_cache.json
@@ -59,3 +60,13 @@ ESM
 !config/oculus.properties
 !config/playerrevive-client.json
 !config/simplyjetpacks-client.toml
+!config/amendments-client.toml
+!config/ars_nouveau-client.toml
+!config/cofh_core-client.toml
+!config/create-client.toml
+!config/patchouli-client.toml
+!config/storagedrawers-client.toml
+!config/structurize-client.toml
+!config/ae2/client.json
+!config/voicechat/voicechat-client.properties
+!config/Mekanism/tools-client.toml
