@@ -62,6 +62,7 @@ key_key.hpm.fire_mortar_key:key.keyboard.unknown:NONE
 key_accessories.key.open_accessories_screen:key.keyboard.unknown:NONE
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown:NONE
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown:NONE
+key_key.openNotes:key.keyboard.n:NONE
 key_keybind.simplyjetpacks.jetpack_gui:key.keyboard.k:NONE
 key_keybind.simplyjetpacks.jetpack_engine:key.keyboard.comma:NONE
 key_keybind.simplyjetpacks.jetpack_hover:key.keyboard.h:NONE
@@ -249,6 +250,7 @@ key_key.tacz.open_config.desc:key.keyboard.t:ALT
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
 key_create.keyinfo.toolbelt:key.keyboard.left.alt:NONE
 key_create.keyinfo.rotate_menu:key.keyboard.unknown:NONE
+key_supplementaries.keybind.quiver:key.keyboard.v:NONE
 key_key.journeymap.zoom_in:key.keyboard.equal:NONE
 key_key.journeymap.zoom_out:key.keyboard.minus:NONE
 key_key.journeymap.minimap_type:key.keyboard.left.bracket:NONE

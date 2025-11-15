@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "perdition:dolomita_demiurgicus"
+    },
+    {
+      "item": "perdition:dolomita_demiurgicus"
+    },
+    {
+      "item": "perdition:dolomita_demiurgicus"
+    },
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "thermal:sulfur"
+    },
+    {
+      "item": "thermal:sulfur"
+    }
+  ],
+  "output": {
+    "item": "hexerei:selenite_shard"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 200
+}

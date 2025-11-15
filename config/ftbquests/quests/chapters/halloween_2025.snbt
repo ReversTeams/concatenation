@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2CEDBC536409D424"]
+			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"It's the season of pumpkins and scares! "
 				""

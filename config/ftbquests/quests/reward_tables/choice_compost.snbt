@@ -1,5 +1,14 @@
 {
 	id: "7ACE4BD2F80103E3"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "choice_compost"
+	}
 	loot_size: 1
 	order_index: 8
 	rewards: [

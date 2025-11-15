@@ -1,5 +1,14 @@
 {
 	id: "7207C95EDFE6DFFD"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "choice_logs"
+	}
 	loot_size: 1
 	order_index: 11
 	rewards: [

@@ -116,6 +116,9 @@
     "mortar": true,
     "cauldron": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "waystones": {
     "waystone": true
   },

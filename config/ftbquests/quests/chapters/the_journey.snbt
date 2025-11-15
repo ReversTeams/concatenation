@@ -14,7 +14,7 @@
 		x: 14.5d
 		y: 8.0d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -123,6 +123,7 @@
 				""
 				"Most witches of &cTemperance&r evolve into either arcanists of the &fStar pathway&r or cultists of the &4Moon pathway&r.  "
 			]
+			hide_dependent_lines: true
 			id: "2970C1ADE44898FF"
 			rewards: [
 				{
@@ -225,100 +226,6 @@
 			y: 1.875d
 		}
 		{
-			description: [
-				"You may have a different path ahead than mine. I am the holder of &fthe Fool&r Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
-				""
-				"&nAlmost any pathway can adhere to the following paths above.&r I've also included notes common to any path, about the understanding of this world."
-			]
-			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "tarotcards:the_fool"
-				tag: { }
-			}
-			id: "524067700E07EB06"
-			invisible: true
-			rewards: [
-				{
-					auto: "invisible"
-					id: "37C0B3648EEE3AC7"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					auto: "invisible"
-					command: "/curios set curio @s 5"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "projecte:mercurial_eye"
-						tag: { }
-					}
-					id: "7173247262F8CEC8"
-					ignore_reward_blocking: true
-					silent: true
-					team_reward: false
-					title: "+4 Curio Slots"
-					type: "command"
-				}
-			]
-			size: 1.25d
-			subtitle: "Every possibility"
-			tasks: [{
-				id: "37655A529CD6B9F4"
-				stat: "minecraft:total_world_time"
-				type: "stat"
-				value: 5000
-			}]
-			title: "Fool Pathway"
-			x: 0.35d
-			y: -2.5d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The backpack is ideal for all of your storage needs on your person. I've had to hunt many cows and chase around sheep for several days to be able to fit all of the trinkets I found on my travels."
-				""
-				"Simply equip it on your back &a(and open it with the default keybind being B)&r&f."
-			]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			id: "0BD5BADADC18CC3D"
-			rewards: [{
-				count: 2
-				id: "60DC33210E3EBB9D"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-						}
-						type: "building_kit"
-					}
-				}
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [{
-				id: "12A760AF88731FEC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "usefulbackpacks:backpack_medium"
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			x: -0.5d
-			y: -5.3d
-		}
-		{
 			dependencies: ["06A4BEEE42830A85"]
 			description: ["A guide to tinkering written by a certain Selena. If any of my journal entries cannot help you in this travel diary, then be free to explore this book."]
 			hide_dependency_lines: true
@@ -369,6 +276,7 @@
 						"patchouli:book": "elementalcraft:element_book"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 3.5d
@@ -418,139 +326,6 @@
 			}]
 			x: 5.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The shield is a key defensive piece of equipment ideal to block ranged attacks and blocks hits. Although the base one might be enough for many, it's still possible to upgrade it."
-				""
-				"The giant swords have a similar ability, being large enough to block hits, but to a much lesser degree."
-			]
-			hide_dependent_lines: true
-			id: "36F8661C6E0C53D8"
-			rewards: [{
-				id: "73765E3A5A9E81A3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "5DD9F690DA3B804F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "minecraft:shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:wooden_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:stone_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:iron_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:diamond_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:netherquartz_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:skull_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "asr:ender_shield"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
-					}
-				}
-				title: "Any Shield"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Giant Swords and Shields"
-			x: 0.5d
-			y: -5.3d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -695,51 +470,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"36F8661C6E0C53D8"
-				"0BD5BADADC18CC3D"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"The &eWheel of Fortune Pathway&r explores the world, leaving things to fate, whether it's their gains made from looting, or their inevitable death. Everyone has a little bit of an explorer in them."
-				""
-				"I've explored quite many structures for myself as well. Above are my notes on some of my travels."
-				"{@pagebreak}"
-				"The &eWheel of Fortune&r card used to be a lot more powerful, granting luck manipulation of higher potency, but it seems to have shrunk with the discovery of the Traveler's Compass. Perhaps the strength of the Wheel of Fortune depends on the global luck levels of the entire population?"
-			]
-			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "tarotcards:wheel_of_fortune"
-				tag: { }
-			}
-			id: "032A60B0D79C6ACB"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "489D9F754F134A67"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tarotcards:wheel_of_fortune"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "11F94F872F0CD45C"
-				points: true
-				type: "xp"
-				value: 1500L
-			}]
-			title: "&eWheel of Fortune"
-			x: 0.0d
-			y: -6.8d
-		}
-		{
 			dependencies: ["2157576FC7005917"]
 			description: [
 				"A dull shard of crystalline matter, without attunement to an elemental power. Its surface is cloudy, brittle, and lacks the vibrant hues of an active crystal. Alone, it serves no purpose but as raw material, awaiting restoration or containment."
@@ -798,102 +528,6 @@
 			}]
 			x: 2.0d
 			y: 4.5d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"If you happen to find many tarot cards like I do, you can store them in the Tarot Deck and still retain every effect with them inside."
-				""
-				"Applying a soulbound enchantment to a tarot deck will prove very useful. If you ever happen to lose it."
-				""
-				"{@pagebreak}"
-				"However, the minor arcana hands do not grant you extra hearts while they're inside of the Tarot Deck, despite being able to fit them inside. What a shame."
-			]
-			id: "258486DCF3CBD479"
-			rewards: [
-				{
-					id: "5737DCC9C3196B2B"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "085EA378FDA320B7"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "ars_elemental:soulbound"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1ED754487E1000F1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 22
-						}
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tarotcards:tarot_deck"
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.3d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The undead have this particularity of being a lot harder to kill, being, you know, already dead. However, they will take a lot more damage when faced with holy weapons - those made of silver or gold. Holders of the Magician card are especially effective against them."
-				""
-				"A more common trick is to light your weapon on fire &a(by equipping a torch in your offhand)&r and to set undead mobs on fire that way. Fire is super effective on the undead. Alternatively, fire aspect is as effective."
-			]
-			icon: "born_in_chaos_v1:shattered_skull"
-			id: "22157DFEF1887E78"
-			rewards: [{
-				count: 10
-				id: "50CBF8E829FFF62D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "thermal:silver_ingot"
-				}
-				team_reward: false
-				type: "item"
-			}]
-			tasks: [
-				{
-					entity: "minecraft:zombie"
-					icon: "minecraft:zombie_head"
-					id: "0B1A2E352F640724"
-					type: "kill"
-					value: 10L
-				}
-				{
-					entity: "minecraft:skeleton"
-					icon: "minecraft:skeleton_skull"
-					id: "3097F26EE10593BA"
-					type: "kill"
-					value: 10L
-				}
-			]
-			title: "Consecration"
-			x: 2.0d
-			y: -4.3d
 		}
 		{
 			dependencies: [
@@ -1336,39 +970,6 @@
 			}]
 			x: -7.6499999999999995d
 			y: 2.6999999999999997d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The raft is faster than the regular small boats, but it can still be upgraded. Although faster on open water, while regular small boats can be broken up and carried through land, this raft might be a bit too large to do so easily."
-				""
-				"{@pagebreak}"
-				"The raft has plenty of cargo space &a(shift right click to access the inventory)&r for travel. I only found this out on the return trip after a succesful &mlooting&r trading trip from a large city, with several backpacks already filled. "
-			]
-			hide_dependency_lines: true
-			id: "1A9FA3C3DD29BFDB"
-			rewards: [{
-				count: 16
-				id: "2B0423B9B2266C97"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			subtitle: "Sail the Seas"
-			tasks: [{
-				id: "0C177C5B54E555C4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hpm:raftitem"
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.8d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -2040,56 +1641,8 @@
 				type: "item"
 			}]
 			title: "Shrike"
-			x: -4.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"The underground ancient city is such a frightening place, isn't it? It's all dark, and houses the Warden. What's leftover in their coffers isn't even that good. "
-				"{@pagebreak}"
-				"However, the echo shard is a key component to craft the sword Shrike, required of the Hierophant and Temperance paths. How odd that a technological automation path and an occult path share a common sword between the two? Perhaps there's a greater link than we can see here."
-			]
-			icon: "minecraft:echo_shard"
-			id: "73CD8163D268BA95"
-			rewards: [
-				{
-					count: 9
-					id: "1315E72E54579D6F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "minecraft:gold_ingot"
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					id: "12D7B5B823CA2B87"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3B334FC5549D837F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "minecraft:echo_shard"
-				}
-				type: "item"
-			}]
-			title: "Find an Ancient City"
-			x: -3.0d
-			y: -10.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["58CFB61E7D4DE729"]
@@ -2962,12 +2515,19 @@
 				"Pipes can be attached to its sides, which then can be toggled  to output element by &a(right click)&r tapping on them, to transfer to other containers."
 			]
 			id: "42EF54B7ABFC5789"
-			rewards: [{
-				count: 16
-				id: "2DC8B29C95726C1E"
-				item: "elementalcraft:elementpipe_impaired"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2DC8B29C95726C1E"
+					item: "elementalcraft:elementpipe_impaired"
+					type: "item"
+				}
+				{
+					id: "0C50372822C62B41"
+					item: "elementalcraft:small_container"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "554E0A6558E73D43"
 				item: {
@@ -2981,8 +2541,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.625d
-			y: 5.125d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["42EF54B7ABFC5789"]
@@ -3037,8 +2597,8 @@
 				type: "item"
 			}]
 			title: "Elemental Extraction"
-			x: 4.625d
-			y: 6.125d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
@@ -3063,8 +2623,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.625d
-			y: 7.125d
+			x: 5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
@@ -3076,6 +2636,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "7CCD1A88E4F820F1"
 				item: {
@@ -3089,19 +2650,26 @@
 				}
 				type: "item"
 			}]
-			x: 6.125d
-			y: 5.125d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
 			description: ["A regular ingot with a watery texture, exhibiting the element of water, an essential material. They are manufactured through infusing regular iron ingots with water."]
 			id: "57264B7E24823F02"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4CBE8A17B788BC7C"
-				table_id: 6800703616788188502L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CBE8A17B788BC7C"
+					table_id: 6800703616788188502L
+					type: "choice"
+				}
+				{
+					id: "33CACFE777BC01A1"
+					item: "elementalcraft:small_container"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "77D3F138DE82CE24"
 				item: {
@@ -3115,8 +2683,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.625d
-			y: 8.125d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -3158,9 +2726,10 @@
 			]
 			id: "539A664D885AAA1C"
 			rewards: [{
-				id: "38CB0E424EFE7418"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "55F4B42B2FA23EC9"
+				table_id: 6780022028443877653L
+				title: "Gift of the Land"
+				type: "random"
 			}]
 			tasks: [{
 				id: "188FD3312F9B7EF1"
@@ -3202,8 +2771,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.5d
+			x: 10.625d
+			y: 8.75d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -3256,8 +2825,8 @@
 				type: "item"
 			}]
 			title: "Growth or Harvest Shrine"
-			x: 10.5d
-			y: 8.5d
+			x: 12.125d
+			y: 7.75d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -3285,8 +2854,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 9.5d
+			x: 12.125d
+			y: 8.75d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -3298,11 +2867,27 @@
 				"The most frustrating part of this shrine is that it spews its ore everywhere. You might require a vacuum shrine nearby to collect the yield."
 			]
 			id: "0BC1E2D2A0FE4141"
-			rewards: [{
-				id: "57DD32FC6016D316"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "60863144FDAEBD17"
+					item: {
+						Count: 1
+						id: "elementalcraft:pure_ore"
+						tag: {
+							elementalcraft: {
+								ore: "forge:iron"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57D18316B3A0A485"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "77A1A0A78B7563AC"
 				item: {
@@ -3316,8 +2901,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.5d
+			x: 12.125d
+			y: 9.75d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -3345,8 +2930,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 11.0d
+			x: 11.125d
+			y: 10.25d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -3370,8 +2955,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 11.0d
+			x: 10.125d
+			y: 10.25d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -3408,8 +2993,8 @@
 				title: "Tool Infusion"
 				type: "checkmark"
 			}]
-			x: 4.625d
-			y: 8.125d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4E9AB3BBC0D575C4"]
@@ -3422,7 +3007,7 @@
 			]
 			id: "4FA1B8DD76B592DD"
 			rewards: [{
-				count: 5
+				count: 10
 				id: "7883D5862BB6F6B9"
 				item: "elementalcraft:inert_crystal"
 				random_bonus: 10
@@ -3542,15 +3127,11 @@
 			]
 			title: "Improved Extraction and Containment"
 			x: 2.5d
-			y: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
-			description: [
-				"The ore purifier can multiply the yield of ores. You will need a silk touch effect to process an ore block in the ore purifier into purified ore. While most ores do not need this extra process, some ores such as regular iron and gold can be purified with their raw ore forms instead of their block."
-				"{@pagebreak}"
-				"The pure ore chunk can then be smelted."
-			]
+			description: ["The ore purifier can multiply the yield of ores. You will need a silk touch effect to process an ore block in the ore purifier into purified ore. While most ores do not need this extra process, some ores such as regular iron and gold can be purified with their raw ore forms instead of their block."]
 			id: "193DD74E480D6269"
 			rewards: [{
 				id: "72B47A815DE79850"
@@ -3571,7 +3152,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3600,27 +3181,20 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.5d
+			x: 4.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
 			description: ["The Pure Infuser requires a multiblock ritual setup, each pedestal aligned orthogonally. Each of these pedestals requires to be powered with elements."]
 			icon: "elementalcraft:pureinfuser"
 			id: "2A33F6E189A28CDF"
-			rewards: [
-				{
-					id: "15AA3AFB4CBD459E"
-					item: "elementalcraft:inert_crystal"
-					random_bonus: 15
-					type: "item"
-				}
-				{
-					id: "349BC5AA3A7BC136"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "431857C66651639C"
+				table_id: 6780022028443877653L
+				title: "Gift of the Land"
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "69DE60705338B190"
@@ -3689,7 +3263,7 @@
 				}
 			]
 			x: 3.5d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2A33F6E189A28CDF"]
@@ -3725,7 +3299,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 10.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -3755,7 +3329,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3857,7 +3431,7 @@
 			}]
 			title: "Displacement Plate"
 			x: 1.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3886,8 +3460,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 11.5d
+			x: 7.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -4165,18 +3739,24 @@
 			}]
 			title: "Jewels"
 			x: 3.0d
-			y: 13.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
 			description: ["The elementist grimoire has been used to store scrolls for the longest of times,"]
-			hide_dependency_lines: true
 			id: "6EB5A9ACC0090BC7"
-			rewards: [{
-				id: "7F8310AB724AA6B3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "01639C800422513D"
+					item: "concatenationcore:gold_paper"
+					type: "item"
+				}
+				{
+					id: "28BB298B26022306"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "39EFF219AAA904C0"
 				item: {
@@ -4190,8 +3770,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: 9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -4235,7 +3815,7 @@
 			dependencies: ["330D9AAC0CD81668"]
 			description: [
 				"Spell scrolls can be applied onto a focus with an anvil. One focus can hold multiple spells."
-				"{@pagebreak}"
+				""
 				"&aShift-scroll to switch between spells."
 			]
 			id: "578FA11F7AEEFB8D"
@@ -4257,7 +3837,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 12.0d
 		}
 		{
@@ -6697,43 +6277,6 @@
 			y: 6.1d
 		}
 		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"Anyone of any path can create man-made paths, whether they be path blocks made through a shovel interaction with the dirt, wood, stone, bricks, etc. "
-				""
-				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
-			]
-			hide_dependency_lines: true
-			icon: "via_romana:charting_map"
-			id: "5B1114E8AD48A9D4"
-			rewards: [
-				{
-					id: "4C0B630D366DB73D"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "via_romana:guide"
-						}
-					}
-					type: "item"
-				}
-			]
-			rewards: [{
-				id: "5EE1045CF5A195EC"
-				item: "minecraft:stick"
-				type: "item"
-			}]
-			subtitle: "Fast Travel Anywhere"
-			tasks: [{
-				id: "13AFB0DC1A961548"
-				item: "via_romana:charting_map"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.8d
-		}
-		{
 			dependencies: ["03F5F8D8A4E7D749"]
 			description: ["Source relays can transmit source from jars to another using a dominion wand to direct the leylines."]
 			id: "5A785E9F42A6E64E"
@@ -6757,90 +6300,6 @@
 			}]
 			x: 17.5d
 			y: 17.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"The Witch Covens are scattered throughout the world, housing gathering of witches. These come in many forms, from elaborate villages to walking houses."
-				""
-				"Witches of the Temperance pathway will especially find these structures useful to gather materials and magical ingredients."
-			]
-			id: "0F56E99C05BFF14A"
-			rewards: [
-				{
-					id: "3179F5426DB12847"
-					item: {
-						Count: 1
-						id: "hexerei:warhammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0D36412A14A6D0B3"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "hexerei:witch_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "02D3401CD427C0FE"
-					structure: "hexerei:witch_hut"
-					title: "Find a Witch hut"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "hexerei:witch_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "4F626ADE82098BF1"
-					structure: "hexerei:baba_yaga_hut"
-					title: "Find a Baba Yaga Hut"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "hexerei:mushroom_witch_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "1DBFDF594BCA3C76"
-					structure: "hexerei:nature_coven"
-					title: "Find a Nature Coven"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "hexerei:mushroom_witch_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					id: "50C3C8F97EDDB2E3"
-					structure: "hexerei:dark_coven"
-					title: "Find a Dark Coven"
-					type: "structure"
-				}
-			]
-			title: "Find the Witch Covens"
-			x: 2.5d
-			y: -9.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -7413,106 +6872,6 @@
 			}]
 			x: 12.0d
 			y: -7.5d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: ["The builder's best friend or archenemy. Some architects may say this is cheating, but filling out walls, ceilings or floor quickly is useful in any building situation."]
-			id: "4134F85EED507D7B"
-			rewards: [
-				{
-					count: 2
-					id: "52B64EC57097F4EE"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-							}
-							type: "building_kit"
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-				{
-					id: "14717A9744338FED"
-					item: "minecraft:stonecutter"
-					type: "item"
-				}
-			]
-			size: 0.8d
-			subtitle: "Build a Base, Quickly"
-			tasks: [{
-				id: "49394A1CABCCB8CC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "constructionwand:stone_wand"
-								tag: {
-									Damage: 0
-									wand_options: { }
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "constructionwand:iron_wand"
-								tag: {
-									Damage: 0
-									wand_options: { }
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "constructionwand:diamond_wand"
-								tag: {
-									Damage: 0
-									wand_options: { }
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "constructionwand:infinity_wand"
-							}
-						]
-					}
-				}
-				title: "Any Construction Wand"
-				type: "item"
-			}]
-			title: "Construction Wand"
-			x: -2.0d
-			y: -5.3d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -9563,188 +8922,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The Hot Air Balloon is a rudimentary form of aerial transportation requiring coal as fuel, but is able to travel large heights. "
-				""
-				"It is actually surprisingly fast."
-			]
-			id: "14EB6CAB3F3E9418"
-			rewards: [{
-				count: 64
-				id: "1ADEF2AD162DAE0A"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			size: 0.8d
-			subtitle: "Travel in 19th Century Fashion"
-			tasks: [{
-				id: "65E3E9C68427EC95"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:red_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:orange_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:yellow_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:lime_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:green_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:light_blue_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:cyan_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:blue_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:magenta_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:pink_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:purple_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:brown_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:white_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:light_gray_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:gray_hot_air_balloon_item"
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
-								id: "simple_hot_air_balloons:black_hot_air_balloon_item"
-							}
-						]
-					}
-				}
-				title: "Any Hot Air Balloon"
-				type: "item"
-			}]
-			title: "Hot Air Balloon"
-			x: 2.0d
-			y: -5.3d
-		}
-		{
 			dependencies: ["6CE0DB1AEB597BCE"]
 			description: ["These strangely-shaped gems can hold and stabilise demonic will within them, acting as portable reservoirs. They also automatically absorb it from kills performed with a sentient sword, which is an added bonus."]
 			id: "0D2E04D30E54E6C8"
@@ -10527,79 +9704,6 @@
 			}]
 			x: -13.5d
 			y: 22.0d
-		}
-		{
-			description: [
-				"Know that I did not set out on this journey in search of glory, nor to clash blades with some legendary foe. There are no grand achievements here. I left home in the eternal darkness, with only a lantern, the Fool card, and my trusty CZ 75 in hand. I hope you will not encounter these same circumstances. "
-				""
-				"{@pagebreak}"
-				"I write this book as I come across strange lands, experiencing different magical and technological systems. You will find observations, notes, and tasks within these pages. Quests, if you like. Some are mine, some were given to me by strangers and travellers. These may give you clues on the inner workings of this world."
-				""
-				"{@pagebreak}"
-				"The Fool is the first of the tarot, but it bears the number zero. It is the mark of the beginning with infinite possibility. It chose me. Perhaps you will choose your own."
-				""
-				"May your road ahead rise to forge your own pathway"
-				""
-				"&e- Eleonore, The Fool"
-			]
-			icon: "ftbquests:book"
-			id: "2CEDBC536409D424"
-			rewards: [{
-				id: "04C171E3E1AC8CEA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "ars_technica:spy_monocle"
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Foolish Hair Ornament\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			subtitle: "To whoever finds this"
-			tasks: [{
-				id: "02DFC16AE3D5AAD6"
-				title: "Preface"
-				type: "checkmark"
-			}]
-			title: "&ePreface"
-			x: 0.35d
-			y: -0.5d
-		}
-		{
-			description: [
-				"&aConcatenation is a modpack with diverging pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another pathway if you believe you might be in the wrong one. "
-				""
-				"{@pagebreak}"
-				"&aA starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
-				""
-				"&aMany journal entries use terminology proper to this pack. Card holders are those who choose a certain pathway. When an Hermit crafts the Tower card, they will be both a Hermit card holder and Tower card holder. The name of a pathway generally refers to a mod such as Tower being Create and its addons while Hermit is Tinkers' Construct."
-				""
-				"{@pagebreak}"
-				"&aIf you would like a deeper explanation on the preface, look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
-				""
-				"&e- Mitemi and Tikup, Modpack Authors&r"
-			]
-			icon: "concatenationcore:experienced_paper"
-			id: "1EFB1193B63BA522"
-			size: 0.7d
-			subtitle: "The Journey"
-			tasks: [{
-				id: "39D037CFA531CEB1"
-				title: "Mod Author's Note"
-				type: "checkmark"
-			}]
-			title: "&eMod Author's Note"
-			x: 0.0d
-			y: 0.35d
 		}
 		{
 			dependencies: [
@@ -11500,7 +10604,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 12.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -12091,11 +11195,19 @@
 				"{ \"text\": \"springaline shards instead.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"32679005B33A591B\" } }"
 			]
 			id: "34457CDE76EDFEAC"
-			rewards: [{
-				id: "4E4C11CD83955585"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "17E0C56647006C5C"
+					item: "elementalcraft:springaline_shard"
+					type: "item"
+				}
+				{
+					id: "34395129D3B26030"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "40537F2E8F7EC36E"
 				item: {
@@ -12109,8 +11221,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 8.0d
+			x: 11.125d
+			y: 7.25d
 		}
 		{
 			dependencies: ["34457CDE76EDFEAC"]
@@ -12128,7 +11240,7 @@
 				item: "minecraft:amethyst_cluster"
 				type: "item"
 			}]
-			size: 0.75d
+			size: 0.7d
 			tasks: [{
 				id: "11FA2227669283AC"
 				item: {
@@ -12143,7 +11255,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 7.125d
+			y: 6.75d
 		}
 		{
 			dependencies: ["4AE782719D5A61F7"]
@@ -22860,7 +21972,7 @@
 			rewards: [
 				{
 					id: "25D1626EC15F5080"
-					item: "elementalcraft:watercrystal_block"
+					item: "elementalcraft:pristine_water_gem"
 					type: "item"
 				}
 				{
@@ -22918,222 +22030,296 @@
 			]
 			title: "Frozen Ice Armor"
 			x: 1.7999999999999998d
-			y: 7.3d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: ["The megatorch prevents mobs from spawning in a large radius around itself."]
-			id: "288329048ACCA1E3"
-			rewards: [
-				{
-					id: "48DF0E6E844523A0"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-				{
-					id: "2362E1EA3E6A4227"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 0.9d
-			tasks: [{
-				id: "3767175CF3868F32"
-				item: "torchmaster:megatorch"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"Iron chests and their other material upgraded versions, can store many more items than regular chests."
-				""
-				"On the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
-				"{@pagebreak}"
-				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
-			]
-			id: "47F28365AC7EE987"
-			rewards: [
-				{
-					id: "295896F611E18162"
-					item: "ironchest:crystal_chest"
-					type: "item"
-				}
-				{
-					id: "5504CD916F60B662"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 0.9d
-			tasks: [
-				{
-					id: "0D779FDA4E0CFA35"
-					item: "ironchest:iron_chest"
-					type: "item"
-				}
-				{
-					id: "310CBAB3F86B77C3"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "storagedrawers:drawers"
-						}
-					}
-					title: "Any Drawers"
-					type: "item"
-				}
-			]
-			title: "Early Storage"
-			x: -3.0d
-			y: -5.0d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
 			description: [
+				"While these spells are mostly outclassed by the newer spells that the mages of the Sun Pathway come up with, these older spells can still be reliable and handy. Most of all, these use a separate, external mana pool than the source mages use."
+				""
+				"These scrolls need to be powered with elements on your person, through the use of element holders."
+				"{@pagebreak}"
 				"Element holders can store quite a large amount of their respective elements. They are usually filled up right at the source, and can be emptied into an element container."
 				""
-				"One of their primary uses is using the elements stored within to cast spells."
+				"One of their primary uses is using the elements stored within to cast spells. They used to be the primary method to transport and harness elements before the pipe system was developed."
 			]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "50D50468F52D7FA1"
 			rewards: [{
-				id: "056086904F87D75E"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "0EB955562EF86644"
+				table_id: 6719445286489952810L
+				title: "Gift of the Source"
+				type: "random"
 			}]
-			tasks: [{
-				id: "0FBB9BE697A5029F"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "air"
+			tasks: [
+				{
+					id: "0ACC136F2D842D21"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:repair"
+										}
 									}
 								}
-								id: "elementalcraft:element_holder_air"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "fire"
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:air_shield"
+										}
 									}
 								}
-								id: "elementalcraft:element_holder_fire"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "water"
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:animal_growth"
+										}
 									}
 								}
-								id: "elementalcraft:element_holder_water"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										element_amount: 0
-										element_capacity: 10000
-										element_type: "earth"
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:ripening"
+										}
 									}
 								}
-								id: "elementalcraft:element_holder_earth"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									Parent: {
-										air: 0
-										earth: 0
-										fire: 0
-										water: 0
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:purification"
+										}
 									}
 								}
-								id: "elementalcraft:pure_element_holder"
-							}
-						]
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:feather_spikes"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:tree_fall"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:heal"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:inferno"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:speed"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:silk_vein"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:dash"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:translocation"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:flame_cleave"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:ender_strike"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:item_pull"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:fireball"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:stonewall"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:scroll"
+									tag: {
+										elementalcraft: {
+											spell: "elementalcraft:gravelfall"
+										}
+									}
+								}
+							]
+						}
 					}
+					title: "Any Scroll"
+					type: "item"
 				}
-				title: "Any Element Holder"
-				type: "item"
-			}]
-			title: "Element Holder"
-			x: 4.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The Lantern is a useful light source whenever you wish to explore during the night, or go caving far underground. You can strap your lantern to your belt if you have to juggle between too many items."
-				""
-				"&a(Equip into your curio belt slot or accessory slot)"
+				{
+					id: "771819554F6A188F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											element_amount: 0
+											element_capacity: 10000
+											element_type: "air"
+										}
+									}
+									id: "elementalcraft:element_holder_air"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											element_amount: 0
+											element_capacity: 10000
+											element_type: "fire"
+										}
+									}
+									id: "elementalcraft:element_holder_fire"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											element_amount: 0
+											element_capacity: 10000
+											element_type: "water"
+										}
+									}
+									id: "elementalcraft:element_holder_water"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											element_amount: 0
+											element_capacity: 10000
+											element_type: "earth"
+										}
+									}
+									id: "elementalcraft:element_holder_earth"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											air: 0
+											earth: 0
+											fire: 0
+											water: 0
+										}
+									}
+									id: "elementalcraft:pure_element_holder"
+								}
+							]
+						}
+					}
+					title: "Any Elemental Holder"
+					type: "item"
+				}
 			]
-			id: "2E7B48B182BBD94D"
-			rewards: [{
-				id: "07C971455490564E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "4F2EB42EA12FAC94"
-				item: "minecraft:lantern"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"Quest Not Applicable in Lite Version. The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
-				""
-				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
-			]
-			id: "01787B3BD1903BA3"
-			rewards: [{
-				id: "75E53CC6DF992539"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "68C353B5335CCCE3"
-				item: "minecraft:beacon"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Seasons"
-			x: -3.5d
-			y: -6.0d
+			title: "Elemental Spells"
+			x: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -23425,61 +22611,6 @@
 			}]
 			x: 7.0d
 			y: -12.0d
-		}
-		{
-			dependencies: [
-				"731126727DDCAC54"
-				"2B825471FE41A521"
-				"524067700E07EB06"
-			]
-			description: [
-				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting pathway, and of time dilution around itself."
-				""
-				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
-			]
-			hide_dependency_lines: true
-			id: "0F3237156DE95B07"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/effect give @a wither 60 2"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "tarotcards:the_world"
-						tag: { }
-					}
-					id: "56088B539E3643ED"
-					silent: true
-					team_reward: false
-					title: "The Force of Ten Thousand Years"
-					type: "command"
-				}
-				{
-					auto: "no_toast"
-					command: "/tellraw @a {\"text\":\"An Eternal Aeon is born!\",\"bold\":true,\"italic\":true,\"color\":\"gold\"}"
-					elevate_perms: true
-					icon: "concatenationcore:aeon"
-					id: "10754A5E539447E9"
-					silent: true
-					title: "Birth of an Aeon"
-					type: "command"
-				}
-			]
-			size: 1.75d
-			subtitle: "Eternal Aeon"
-			tasks: [{
-				id: "4C8456E59D963D84"
-				item: {
-					Count: 1
-					id: "tarotcards:the_world"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "&6The World"
-			x: 0.0d
-			y: -20.25d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -24088,22 +23219,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["0F3237156DE95B07"]
-			description: [
-				""
-				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
-			]
-			hide_until_deps_complete: true
-			id: "6DDF28A484792887"
-			tasks: [{
-				id: "66B8EA5A1FED0F0F"
-				item: "concatenationcore:world_devourer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -22.0d
-		}
-		{
 			dependencies: ["2970C1ADE44898FF"]
 			description: [
 				"Kestrel is a special sword that can be acquired more easily by witches of the Temperance pathway. It can be used to teleport."
@@ -24131,534 +23246,6 @@
 			}]
 			x: 14.0d
 			y: -6.5d
-		}
-		{
-			description: ["{image:concatenationcore:textures/pathway.png width:170 height:120 align:center}"]
-			icon: "concatenationcore:gold_paper"
-			id: "3BE6CBA88F786861"
-			size: 0.7d
-			tasks: [{
-				id: "3C9725840DF9A986"
-				title: "Pathway Progression"
-				type: "checkmark"
-			}]
-			title: "&ePathway Progression"
-			x: 0.7d
-			y: 0.35d
-		}
-		{
-			dependencies: ["6DDF28A484792887"]
-			description: ["{image:ftbquests:block/barrier_open width:100 height:100 align:center}"]
-			id: "1A53753CE273B8EB"
-			tasks: [{
-				id: "2C95485AED56EF1E"
-				item: "concatenationcore:exalted_world_devourer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -23.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Fortune Fragments are a mysterious material. Their appearance is ever-changing to most people. Some say they look like iron tickets, some believe they ressemble festival paper and some say it looks like nothing."
-				"{@pagebreak}"
-				"A reliable way of obtaining Fortune Fragments is by grinding down spellbooks and trinkets made with Arcane Debris you may find around the world."
-			]
-			id: "6E13AC3068943762"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "67601F186C2FDE2B"
-				table_id: 8405090712645604397L
-				type: "random"
-			}]
-			tasks: [{
-				id: "33D761B00B560789"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -13.5d
-		}
-		{
-			dependencies: ["6E13AC3068943762"]
-			description: [
-				"The Traveler's Compass is a powerful artifact, capable to locating nearly anything in existence, whether it is a structure, being, or block. "
-				""
-				"You may have to get a little creative in what you are asking for it to search, such as specific blocks or loot known to be in structures."
-			]
-			id: "272EF70CED6D9AD7"
-			rewards: [{
-				id: "21EB7980AE35ADBF"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			size: 1.2d
-			tasks: [{
-				id: "1082279FE6F042EB"
-				item: {
-					Count: 1
-					id: "travelerscompass:travelerscompass"
-					tag: {
-						found_position_x: 0
-						found_position_y: 0
-						found_position_z: 0
-						position_is_valid: 0b
-						priority_item_found: 0b
-						state: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -15.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Underground Bunkers are extremely rare throughout the world. They seem to feature very high grade technology that we can't quite understand yet, along with military vehicles from the future!"
-				""
-				"There is nothing much in the way of outstanding loot as we cannot decipher most of the technology down there to something useable, but it is a fascinating experience."
-			]
-			id: "3A82D89B99E5D124"
-			rewards: [
-				{
-					count: 7
-					id: "29B191996ACEB5C8"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "60C0C79CCABFB65C"
-					item: {
-						Count: 1
-						id: "marbledsarsenal:black_plate_carrier_light"
-						tag: {
-							CurioAttributeModifiers: [{
-								Amount: 4
-								AttributeName: "generic.armor"
-								Name: "generic.armor"
-								Operation: 0
-								Slot: "body"
-								UUID: [I;
-									-1049641899
-									-1698279708
-									-1222758712
-									1471568110
-								]
-							}]
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "marbledsarsenal:un_military_beret"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "43489CB8BA6ED617"
-				structure: "underground_bunkers:underground_bunker"
-				title: "Find the Underground Bunker"
-				type: "structure"
-			}]
-			x: 1.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Through my travels, I came across a castle inhabited by a mage, a technician, an engineer and a cultist. They shared various floors of the castle, although it was quickly falling into disrepair."
-				""
-				"I wondered why the centerpiece chandelier at the central staircase had bits taken out of it. All of them kept screaming at their Hierophant to not use the chandelier for glowstone!"
-			]
-			id: "166CA90C1CE3BC09"
-			rewards: [
-				{
-					id: "7D92FF5DCF644D10"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "04FC13D8C5A4F48F"
-					item: "minecraft:echo_shard"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "minecraft:brick"
-				id: "3040732C13E57C4D"
-				structure: "ati_structures:granite_fort"
-				title: "Find the Granite Castle"
-				type: "structure"
-			}]
-			x: -1.5d
-			y: -14.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: ["I have come across a windmill built by an engineer and his friend. It doubled as a greenhouse and a windmill, letting them cultivate year-round crops. Their basement was filled to the brim with oreberries, cultivated for their metals, but also their experience."]
-			id: "424203823967AE99"
-			rewards: [{
-				id: "4C6285232595F00A"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "create:white_sail"
-				id: "576A03530B7C3590"
-				structure: "create_easy_structures:windmill"
-				title: "Find an Engineer's Windmill"
-				type: "structure"
-			}]
-			x: -1.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"I came across an Apprentice Technician in a run-down house falling to ruins. They said to me that they once were a powerful archmage, but they left behind their knowledge and life to learn that which they had never bothered to know: technology."
-				"{@pagebreak}"
-				"I asked them, \"But why in an ice-cold place like this?\" They answered, \"It builds character.\""
-			]
-			id: "6A6731CB2AED5CA3"
-			rewards: [{
-				id: "2CE5B1127AC99682"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "create:mechanical_piston"
-				id: "0085C34F6E7A3240"
-				structure: "create_easy_structures:house_4"
-				title: "Find the Apprentice's House"
-				type: "structure"
-			}]
-			x: -2.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Nether Fortresses were all the more terrifying before the Sparkon High Council decided to cast a most powerful worldwide spell to cause all monoliths inside to decay. "
-				""
-				"Prior to this, monoliths would keep summoning traversers, deadly monsters doing sick acrobatics and overwhelming adventurers with their large numbers. Now, monoliths decay with time, limiting the amountt of traversers they can summon."
-			]
-			id: "1FAB3CAA90A95383"
-			rewards: [{
-				id: "6FB814695D993557"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "minecraft:red_nether_bricks"
-				id: "71D884CA0C101689"
-				structure: "minecraft:fortress"
-				title: "Find a Nether Fortress"
-				type: "structure"
-			}]
-			x: 1.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"There are plenty of inhabited villages, towns, and cities scattered throughout the world. While you may often find the lonely house, you may also find sprawling cities."
-				""
-				"These cities have plenty of &mloot&r opportunities for trade!"
-			]
-			id: "5FB472DF1ACE7FF4"
-			rewards: [{
-				id: "61C66C259534476E"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "minecraft:oak_door"
-				id: "58C85A63179F8505"
-				structure: "#minecraft:village"
-				title: "Find a Township"
-				type: "structure"
-			}]
-			x: 0.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Spooky! This pumpkin leaves off an eerie aura, signaling the start of a bossfight!"
-				""
-				"As I broke the pumpkin, Sir Pumpkinhead was summoned from hell and rose out of the ground and slashed at me, prompting battle."
-				"{@pagebreak}"
-				"Lord Pumpkinhead may appear in Sir Pumpkinhead's place, by summoning him with a transmuting elixir instead of simply breaking the pumpkin."
-			]
-			id: "08B9A3B8958B397C"
-			rewards: [{
-				id: "51DBB20F3FE66AA3"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "born_in_chaos_v1:infernal_evil_pumpkin"
-				id: "6E13011BFF309ABE"
-				structure: "born_in_chaos_v1:infernal_pumpkin"
-				title: "Find the Infernal Pumpkin"
-				type: "structure"
-			}]
-			x: 4.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"The Mechanical Nest is a floating city powered by RF power. It houses a mechanical hivemind, the most civilized folk I have encoutered, with higher technology than even some of the larger cities I've traveled to. "
-				""
-				"Unfortunately, they are hostile to everything organic, even capturing some lifeforms and experimenting on them."
-			]
-			id: "75E8D9F05E7CC783"
-			rewards: [
-				{
-					count: 2
-					id: "439B449195D1319A"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "6472E77180D2AE71"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "The Hivemind"
-			tasks: [{
-				icon: "minecraft:cut_copper"
-				id: "4A1FDD8A256DDDD1"
-				structure: "dungeons_arise:mechanical_nest"
-				title: "Find a Mechanical Nest"
-				type: "structure"
-			}]
-			x: 2.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Left behind by an ancient civilization that have been theorized to be the Endermen's ancestors, underground Strongholds are sprawling mazes of fortifications."
-				""
-				"They house important end portals to enter the End. Be warned that the guardian dragon of the End is not friendly to outsiders and especially dangerous."
-			]
-			hide_dependency_lines: true
-			id: "407BC866E1868568"
-			rewards: [{
-				id: "4C4FAEA9EC26E73D"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "minecraft:end_portal_frame"
-				id: "28A984FC8386E2CC"
-				structure: "minecraft:stronghold"
-				title: "Find a Stronghold"
-				type: "structure"
-			}]
-			x: 0.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"A couple of adventurers turned mages had taken over a mushroom village and called it home. I walked up the giant mushroom at the center of the village to find they had turned it into a majestic magetower inside."
-				"{@pagebreak}"
-				"I asked about the original inhabitants' fates. They did not respond. Throughout my travels, I have found more of these mycelial colonies along with pigshroom people. They were always hostile to outsiders."
-			]
-			id: "370BE5636BBC9719"
-			rewards: [{
-				id: "08D73C34D3DC58DA"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "minecraft:red_mushroom_block"
-				id: "37A242CB945A7205"
-				structure: "dungeons_arise:mushroom_village"
-				title: "Find a Mushroom Village"
-				type: "structure"
-			}]
-			x: 3.0d
-			y: -10.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"I have yet to find this rumored palace, but I have heard of plenty of legends and rumors about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
-				""
-				"All that I know is that it seems to be a gigantic desert palace."
-				"{@pagebreak}"
-				"I found something close, but not the rumored Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord that normally lived on a complex on a sky island."
-			]
-			id: "7C43A27C9882C9F2"
-			rewards: [
-				{
-					count: 2
-					id: "470B7B5D0036167B"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "27069D39C2E95108"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			subtitle: "The Villa"
-			tasks: [{
-				icon: "minecraft:sandstone"
-				id: "7D324E4AFE5B39E6"
-				structure: "dungeons_arise:shiraz_palace"
-				title: "Find a Shiraz Palace"
-				type: "structure"
-			}]
-			x: -2.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Wilden Dens are a sign of danger as they house the wilden. They are wild magical beasts that will not pose a serious threat to most battle-hardened warriors. For mages though, they view them as a rare resource. "
-				"{@pagebreak}"
-				"Mages have almost brought the once-widely spread Wilden to extinction. Since then, laws have been put in place to protect this endangered species, prioritizing summoning rituals, but it is hard to enforce a law when mages can just leap out of reach in an instant."
-			]
-			id: "2E6CE7AF53415895"
-			rewards: [
-				{
-					id: "108FAE4E8FFE5821"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "5038FE4A70F35A66"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				icon: "ars_nouveau:wilden_wing"
-				id: "1FDAFE55655DACD4"
-				structure: "#ars_nouveau:wilden_den"
-				title: "Find a Wilden Den"
-				type: "structure"
-			}]
-			x: 3.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"Slimeballs are often used in technological parts, despite the fact they seem like they would rather have a magical use."
-				""
-				"The natural habitat of slimes are on their Earth and Sky islands, featuring a slime pond at the center."
-				"{@pagebreak}"
-				"For Elementists of the Magician Pathway, slimes are a surprisingly good source of elemental shards, while for Apprentice Technicans of the Hierophant Pathway, they will need a large quantity of slime to produce sticky redstone."
-			]
-			id: "0F86E584D13882B6"
-			rewards: [{
-				count: 2
-				id: "64284384A0A4E8C7"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [
-				{
-					icon: "minecraft:slime_ball"
-					id: "55CBB747768B101F"
-					structure: "tconstruct:earth_slime_island"
-					title: "Visit an Earthslime Island"
-					type: "structure"
-				}
-				{
-					icon: "tconstruct:sky_slime_ball"
-					id: "624B8C04DCF4D3FF"
-					structure: "tconstruct:sky_slime_island"
-					title: "Visit a Skyslime Island"
-					type: "structure"
-				}
-			]
-			title: "Visit the Slime Islands"
-			x: -3.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: [
-				"The Windswept Hills are a breathtaking yet dark piece of landscape. The fusion between eroded mountains, vast swathes of blackstone, magma and lava coexisting with water is truly fascinating."
-				"{@pagebreak}"
-				"It is a biome most filled with exposed ore, a true treasure trove for anyone that may find one."
-			]
-			id: "50FDBBA56E5DEFB2"
-			rewards: [
-				{
-					id: "7027D37C59DC616F"
-					item: "concatenationcore:fortune_fragment"
-					type: "item"
-				}
-				{
-					id: "004DC0F436ECE7F7"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				biome: "minecraft:windswept_hills"
-				icon: "minecraft:blackstone"
-				id: "368945701965513F"
-				title: "Visit the Windswept Hills"
-				type: "biome"
-			}]
-			x: -3.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: ["Yellowstone is a semi-frequent biome, quite beautiful with hotsprings."]
-			id: "5CCEB21A364AD9AE"
-			rewards: [{
-				id: "358534F470FA5584"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				biome: "terralith:yellowstone"
-				icon: "minecraft:yellow_terracotta"
-				id: "7811BD93F29201E2"
-				title: "Visit Yellowstone"
-				type: "biome"
-			}]
-			x: -3.5d
-			y: -13.5d
-		}
-		{
-			dependencies: ["032A60B0D79C6ACB"]
-			description: ["During my time at sea, I've encountered plenty of ships of various origins, sizes and different crews. Most of them included fancy loot to take."]
-			id: "7BC0331FFB836295"
-			rewards: [{
-				count: 2
-				id: "012EABD68523A1C3"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "hpm:cuttermilitariseditem"
-				id: "15471F5F5BB1A6F1"
-				structure: "dungeons_arise_seven_seas:corsair_corvette"
-				title: "Find a Corsair Corvette"
-				type: "structure"
-			}]
-			x: 3.5d
-			y: -13.5d
 		}
 		{
 			id: "3502EBD994DE89A2"
@@ -25031,46 +23618,6 @@
 			]
 			x: 24.5d
 			y: 24.0d
-		}
-		{
-			dependencies: ["272EF70CED6D9AD7"]
-			id: "135A7F936071D3C8"
-			rewards: [{
-				id: "3936F0F32C66FF79"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "335A5DD66015B900"
-				item: {
-					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -16.5d
-		}
-		{
-			dependencies: ["272EF70CED6D9AD7"]
-			id: "4385A10ED5E8ACC7"
-			rewards: [{
-				id: "252AAF88CA7989DC"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				id: "2821ACB30CF05A3B"
-				item: {
-					Count: 1
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.5d
-			y: -16.5d
 		}
 		{
 			dependencies: ["7EB335BB570C5F7F"]
@@ -28506,60 +27053,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0F3237156DE95B07"]
-			description: [
-				"Gate to Perdition is a pack-wide event with limited time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
-				""
-				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
-				"{@pagebreak}"
-				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "concatenationcore:experienced_paper"
-			id: "42F701FC987C6C99"
-			size: 0.75d
-			subtitle: "Event Over"
-			tasks: [{
-				id: "0817051F0190E4D5"
-				title: "Event Details"
-				type: "checkmark"
-			}]
-			title: "GtP Event Details"
-			x: 0.75d
-			y: -24.375d
-		}
-		{
-			dependencies: ["2104737FF0D2E4E7"]
-			description: ["&a(The Prudence Pathway, a culmination of Temperance and Hierophant can be accessed in the Gate to Perdition quest page.)&r"]
-			hide_dependency_lines: true
-			icon: "concatenationcore:prudence"
-			id: "23E0F8A24E47D241"
-			size: 1.15d
-			tasks: [{
-				id: "30F1678F442B7B9C"
-				title: "Prudence"
-				type: "checkmark"
-			}]
-			x: -13.224999999999998d
-			y: -9.774999999999999d
-		}
-		{
-			dependencies: ["0CC91D0458ACB827"]
-			description: ["&a(The Prudence Pathway, a culmination of Temperance and Hierophant can be accessed in the Gate to Perdition quest page.)&r"]
-			hide_dependency_lines: true
-			icon: "concatenationcore:prudence"
-			id: "020469FF6E8BFBD8"
-			size: 1.15d
-			tasks: [{
-				id: "6245C4CFD9A3A133"
-				title: "Prudence"
-				type: "checkmark"
-			}]
-			x: 14.2d
-			y: -9.774999999999999d
-		}
-		{
 			dependencies: [
 				"7E1C64AA0AA235C2"
 				"5C78A0206DEDAC4C"
@@ -28570,9 +27063,7 @@
 				""
 				"&2A strange sword that remains one of the few to open a dimensional rift to another dimension that ressembles some depictions of limbo in more religious descriptions.&r"
 				"{@pagebreak}"
-				"&2Purgatory is a strange place, and seems devoid of life at times. It does contain some materials useful to elementists.&r"
-				""
-				"&a(Right click the sword to teleport to Purgatory)&r"
+				"&2Purgatory is a strange place, and seems devoid of life at times. It does contain some materials useful to elementists, serving as great substitutes in many recipes.&r"
 			]
 			id: "3D75596C95BC3EAB"
 			rewards: [{
@@ -28600,9 +27091,16 @@
 				"&2Limbo Berries contain elemental purities within them, the plant crystalizing them into their fruit. These berries can thus be turned into inert crystal, providing a renewable source.&r"
 				""
 				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
+				"{@pagebreak}"
+				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the overworld.&r"
 			]
 			icon: "perdition:limbo_berries"
 			id: "07D743EBC4DDD625"
+			rewards: [{
+				id: "0605549CE25B2B5F"
+				item: "elementalcraft:purerock"
+				type: "item"
+			}]
 			size: 0.9d
 			tasks: [
 				{
@@ -28617,9 +27115,8 @@
 					type: "item"
 				}
 				{
-					id: "6EE280C53442B931"
-					item: "elementalcraft:purerock"
-					optional_task: true
+					id: "0E175B5BAA9963FF"
+					item: "perdition:pure_soil"
 					type: "item"
 				}
 			]
@@ -28640,23 +27137,45 @@
 			]
 			hide_dependency_lines: true
 			id: "2E25CC35003C7E0E"
-			rewards: [{
-				id: "161DBD911CFD8C66"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			size: 1.15d
-			tasks: [{
-				id: "1ABF72EC883339F0"
-				item: {
-					Count: 1
-					id: "perdition:planeswalker_potion"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "48D3A7C0E22E0BFE"
+					item: {
+						Count: 1
+						id: "perdition:planeswalker_potion"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "03EC032B9C465F1D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.15d
+			tasks: [
+				{
+					id: "1ABF72EC883339F0"
+					item: {
+						Count: 1
+						id: "perdition:planeswalker_potion"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "perdition:purgatory"
+					icon: "perdition:perditio"
+					id: "228C1DFC5120A94D"
+					title: "Visit Purgatory"
+					type: "dimension"
+				}
+			]
 			x: 13.5d
 			y: 1.5d
 		}
@@ -28753,22 +27272,6 @@
 			y: 6.375d
 		}
 		{
-			dependencies: ["407BC866E1868568"]
-			id: "45AE33EDAF0EEB9C"
-			rewards: [{
-				id: "6677175C32F6F418"
-				item: "concatenationcore:fortune_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				id: "45B2C7EB7519EAAA"
-				item: "minecraft:dragon_egg"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -11.5d
-		}
-		{
 			dependencies: ["55895AB2924ABAFC"]
 			description: ["&b\"Apparently, this tool can resuscitate beings with powerful enough souls. Don't think we'll get much use out of it though, as one has to absorb &oa lot&r &bof spirits in order to reach that point.\""]
 			id: "0F9265AD637B7FD7"
@@ -28833,6 +27336,1056 @@
 			}]
 			x: 43.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: ["&2The Anomaly Resonator can calibrate itself to an anomaly to help you find new ones or get to know more about the status of one you have found.&r"]
+			id: "553C0E6637920EC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "strangematter:shade_shard"
+				id: "3BB56A4AE9249868"
+				table_id: 7380857982058536773L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7C5DBAB6E9415DC4"
+				item: "strangematter:anomaly_resonator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1982249FC850C8A8"]
+			description: ["Research notes gained from studying anomalies and reflecting in the tablet can be studied in a research machine."]
+			id: "339176B06391F198"
+			rewards: [{
+				id: "56814E5D1759994A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "strangematter:the_researcher"
+				criterion: ""
+				id: "3DF92EE9F86E3397"
+				type: "advancement"
+			}]
+			title: "Research"
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: [
+				"&2Various anomalies have appeared around the world ever since the link to Purgatory was established from our world. These strange calamities have to be studied and we can gather a lot from these. Many have taken to research tablets to document their findings and share it with far-away researchers.&r"
+				""
+				"&2The field scanner can analyze an anomaly, providing research material.&r"
+			]
+			id: "1982249FC850C8A8"
+			rewards: [{
+				id: "7D30BFDC1F5ABCED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "13023230505E4188"
+				item: {
+					Count: 1
+					id: "strangematter:field_scanner"
+					tag: {
+						scan_cooldown: 1761534958438L
+						scanning: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			description: ["&2Anomalous Shards, much like resonite ore, can be found crystalizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with annomalous technology.&r"]
+			id: "622A83A7012371BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B6DA332E14C5B29"
+					table_id: 7380857982058536773L
+					type: "random"
+				}
+				{
+					id: "33FF1E2D87DC2567"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "73474F5B8324A105"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "strangematter:gravitic_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:chrono_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:spatial_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:shade_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:insight_shard"
+							}
+							{
+								Count: 1b
+								id: "strangematter:energetic_shard"
+							}
+						]
+					}
+				}
+				title: "Any Anomalous Shard"
+				type: "item"
+			}]
+			title: "Anomalous Shards"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"0A883B806B498A9C"
+				"2970C1ADE44898FF"
+				"73F4AAF2267BB33B"
+				"537E72C60F75AAF0"
+				"622A83A7012371BE"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"&2The &bPrudence Pathway&r &2delves into research of the anomalous, properties that can be research by both technology and magic alike. Inheriting various traditions from the witches of the &4Temperance Pathway&r&2, they have stuck to fabricating various gadgets that become the envy of their peers with their findings.&r"
+				""
+				"&2The core of the pathway is the research tablet, a very useful tool developed to research anomalies. &nIt is the only way to attain the recipes and knowledge to some objects.&r&r"
+				""
+				"{@pagebreak}"
+				"&2It is a culmination of &9The Hierophant&r&2 and &4Temperance&r&2, much like how &6Strength&r&2 is a culmination of &dThe Hermit&r&2 and &eThe Magician&r"
+			]
+			hide_until_deps_complete: false
+			id: "125252660A518C4F"
+			rewards: [{
+				id: "23095223728EEE8B"
+				item: "strangematter:research_tablet"
+				type: "item"
+			}]
+			size: 1.15d
+			tasks: [{
+				id: "702E36629FFECC6A"
+				item: "concatenationcore:prudence"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&bPrudence Pathway&r"
+			x: 0.575d
+			y: -8.049999999999999d
+		}
+		{
+			description: ["&2Resonite is an anomalous material, with various strange properties that should not belong to a metal such as this, if it can be classified as such. There are various means to produce raw resonite or its substitutes, which then has to be charged to exhibit most of its exotic nature.&r"]
+			hide_until_deps_complete: false
+			id: "0A883B806B498A9C"
+			rewards: [{
+				count: 8
+				id: "448C8DBDA151F079"
+				item: "strangematter:resonite_nugget"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				id: "14076BEB182953DF"
+				item: "strangematter:raw_resonite"
+				type: "item"
+			}]
+			title: "Resonite"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: [
+				"&2Anomalous energy, a hybdrid of technological and magical power, flows through this circuit to power anomalous technology.&r"
+				""
+				"&2It can either be produced from scratch or by augmenting an existing circuit.&r"
+			]
+			id: "77BF0E69B60C197E"
+			rewards: [{
+				count: 32
+				id: "213EE341FFB428D1"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684DF17D260A15D0"
+				item: "strangematter:resonant_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["125252660A518C4F"]
+			description: ["&2The stabilized core is the heart that powers anomalous technology.&r"]
+			id: "4A6D8F599B559457"
+			rewards: [{
+				count: 12
+				id: "602297EFE81E13EA"
+				item: "strangematter:resonite_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1702D31ACED99E2E"
+				item: "strangematter:stabilized_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1982249FC850C8A8"]
+			description: [
+				"&2While anomalies can still be found frequently in our world, they are most common in Purgatory, theorized to be one of the sources of these anomalies.&r"
+				""
+				"&2The two most common ways to enter Purgatory lay in the Halcyon sword and the Planeswalker potion.&r"
+			]
+			id: "0C64E78CC80EFAB5"
+			rewards: [{
+				id: "2403CA8AAC00FDE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "73BF2A81F8C8E174"
+				item: {
+					Count: 1
+					id: "perdition:halcyon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"77BF0E69B60C197E"
+				"4A6D8F599B559457"
+			]
+			description: ["&2The Research Machine can be used to concretize research gained from analyzing anomalies. This process can be quite complicated at times, requiring many attempts to draw out any instability.&r"]
+			id: "749ECE54FE00D79F"
+			rewards: [{
+				id: "1F94405D03F21B68"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5B1D4559E2717A73"
+				item: "strangematter:research_machine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about these machines in the research tablet through your own research.&r&r"]
+			id: "6EB11A383E30AA74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5080BDE74285BE0F"
+				table_id: 7380857982058536773L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6812F94B0C0F3FDB"
+					item: "strangematter:stasis_projector"
+					type: "item"
+				}
+				{
+					id: "50CB3C36F69687EB"
+					item: "strangematter:levitation_pad"
+					type: "item"
+				}
+			]
+			title: "Eccentricities"
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about this machine in the research tablet through your own research.&r&r"]
+			id: "7C8A82023B373DF9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F38925FA5B0416E"
+					table_id: 7380857982058536773L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20C395F292D43A22"
+					table_id: 7380857982058536773L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5C09D321F1EDEB82"
+				item: "strangematter:rift_stabilizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["749ECE54FE00D79F"]
+			description: [
+				"&2The reality forge can be used to manufacture many useful tools, gadgets and instruments stemming from anomalous technology. &r"
+				""
+				"&2The subsequent recipes require research to be done before they can be known, noted down through the research tablet.&r"
+			]
+			id: "7DDCF64BACE5F05A"
+			rewards: [{
+				count: 8
+				id: "0FFB1483CCDF85F6"
+				item: "strangematter:resonite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F010036347E5A0"
+				item: "strangematter:reality_forge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about this machine in the research tablet through your own research.&r&r"]
+			id: "44B66416F9E8103D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08DDFEFDC05DC531"
+				table_id: 7380857982058536773L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2E65A003903C8954"
+				item: "strangematter:resonance_condenser"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["44B66416F9E8103D"]
+			description: ["&2The resonant conduit makes use of anomalous technology to transfer large amounts of RF power.&r"]
+			id: "104FF0E35B945E17"
+			rewards: [{
+				id: "3D527537DF441E96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "32A72DAF486B93BB"
+				item: "strangematter:resonant_conduit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&o&7More can be known about this process in the research tablet through your own research.&r&r"]
+			id: "277D7A5F68DCD7CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1532AA57D15CFF60"
+				table_id: 7380857982058536773L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "118ED2E5763005A8"
+					item: "strangematter:containment_capsule"
+					type: "item"
+				}
+				{
+					id: "24382F5F4E7549E6"
+					item: {
+						Count: 1
+						id: "strangematter:echo_vacuum"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42C4969BD0389488"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_gravity"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_energetic"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_echoing_shadow"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_temporal_bloom"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_thoughtwell"
+								}
+								{
+									Count: 1b
+									id: "strangematter:containment_capsule_warp_gate"
+								}
+							]
+						}
+					}
+					title: "Any Contained Anomaly"
+					type: "item"
+				}
+			]
+			title: "Containment of Anomalies"
+			x: 0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "45CF4BCEAC7E1A3C"
+			rewards: [{
+				id: "379E7716E63C00ED"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "24E05855A44E497C"
+				item: {
+					Count: 1
+					id: "strangematter:warp_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "57FF5EA8B13C041C"
+			rewards: [{
+				id: "401C5F2C029D6340"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1262393D3FD3E174"
+				item: "strangematter:graviton_hammer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "744F7C808A6A3BD3"
+			rewards: [{
+				id: "24EB2DB6CC44EB9D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1C43245E70202568"
+				item: "strangematter:hoverboard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this process in the research tablet through your own research.&r&r"]
+			id: "577DFB7BC976CE10"
+			rewards: [{
+				id: "5534C9F68259C450"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "51D49AED4D4B6648"
+				item: "strangematter:echoform_imprinter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["770B8C25D934EC9B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"This leveling altar can be used to augment your proficiency in the &oknowledge of words&r."
+				""
+				"This requires a substantial amount of experience and air essences, as words travel through the air."
+			]
+			id: "08F5E41C824834DC"
+			rewards: [{
+				count: 3
+				id: "23958407EA199A3B"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B73AB6AD8490861"
+				item: "spelled:leveling_altar"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["12F6BD166085B3B5"]
+			description: [
+				"Words have power that can be unleashed with the right knowledge, akin to powerful spells. Certain words can stimulate the elemental residue within all things. This is the &oknowledge of words&r."
+				""
+				"You may come across strange words with magical residue written in a long dead language. Keep them in mind, you'll want to write them down in a specialized notebook capable of containing them. Some elementists creatively name theirs the \"Tome of All Knowledge\"."
+				"{@pagebreak}"
+				"Simply utter the right combination of words out loud &a(in chat)&r and unleash the power of spelling things correctly in their elemental form. You can add together words to customize and refined your spells."
+				""
+				"Once you find enough ancient words in different scraps and notes of ancient writings, check up on the words you've accumulated in your Tome of Knowledge."
+			]
+			id: "314ACC07FE5193DC"
+			rewards: [{
+				id: "4934E0EA604D263F"
+				item: "spelled:ancient_knowledge_tome"
+				type: "item"
+			}]
+			subtitle: "The pen is mightier than the sword."
+			tasks: [
+				{
+					id: "74D74068EA02B566"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "spelled:knowledge_tome"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "43B37B00B5C10DDB"
+					item: "spelled:ancient_knowledge_tome"
+					type: "item"
+				}
+			]
+			title: "Knowledge of Words"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FA1B8DD76B592DD"]
+			description: ["The spell book can be used to not only write down your spelled spells more concretely for usage of the &oknowledge of words&r, but also to semi-silently cast. Or at least, murmur much faster while reading out the text..."]
+			id: "770B8C25D934EC9B"
+			rewards: [{
+				id: "63CC6C2BE8D9A485"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4EBAD888D5D37E59"
+				item: "spelled:spell_book"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			description: ["&2Resonite can be charged using either a charging station"]
+			id: "537E72C60F75AAF0"
+			rewards: [{
+				id: "64AB568F62A4403A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4F8EF4E3941E48EF"
+				item: "strangematter:resonite_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["63B383DE2EEFE2F3"]
+			id: "2FFA8CB4C1FD06C7"
+			tasks: [{
+				id: "1F75F73BB8D4E736"
+				item: {
+					Count: 1
+					id: "thermal:laser_diode"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["57264B7E24823F02"]
+			description: [
+				"Elements can be weaponized according to their affinities, able to imprint special abilities on the weapons they make. The best synergy found for air seems to have been a sort of staff while a bladed throwing disk was preferable for water."
+				""
+				"Air is able to grant momentary speed and emit a piercing projectile. Water is able to grand great effects for underwater ventures."
+				"{@pagebreak}"
+				"It was once said that swords were the most common weapon of choice harness the affinities of the elements. This resulted in either rather underwhelming weapons, and in certain cases, legendary weapons unheard of before. Why this is no longer a widespread practice is lost on me."
+			]
+			hide_dependency_lines: true
+			id: "74365A137DB8ABB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11AE048741866CEC"
+				table_id: 6780022028443877653L
+				type: "random"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3AEB08D41B8BA4A1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenationcore:windflaw"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:riparian"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Air or Water Sword"
+				type: "item"
+			}]
+			title: "Light Elemental Weapons"
+			x: 1.7999999999999998d
+			y: 8.1d
+		}
+		{
+			dependencies: ["51E48EAB50B0971E"]
+			description: [
+				"In accordance with lighter weapons having a greater affinity for air and water, heavier weapons have a greater synergy with fire and earth."
+				"{@pagebreak}"
+				"The Temblor is a giant's sword made of fireite with a silver handle, harnessing the element of the earth, granting it considerable damage and durability as a melee weapon."
+				""
+				"The Earth grants it two abilities that are mutually exclusive with the same energy it uses: the first is granting a short effect of resistance and strength when used in the air. The second is a ground slam dealing an area of damage and intense knockback for enemies. You can only choose one of these to use before the elements need to gather into the sword once again. The cooldown is quite long."
+				"{@pagebreak}"
+				"The Conflagration is a fiery mace-staff, magical in nature. It sets anything it hits on fire instantly. Despite boasting less impressive damage than the Temblor, it does attack faster with less weight to throw around. Its main ability is shooting a large non-destructive fireball at its opponents, also granting its user a period of fire resistance at the same time."
+			]
+			id: "7001CAC3DE0DC19B"
+			rewards: [{
+				id: "4A461401F7C9D191"
+				table_id: 8811345448802292106L
+				title: "Gift of the Blade"
+				type: "random"
+			}]
+			tasks: [{
+				id: "32EC70B732D99B47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenationcore:temblor"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:conflagration"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Fire or Earth Sword"
+				type: "item"
+			}]
+			title: "Heavy Elemental Weapons"
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5DF3CE9894B8409C"]
+			id: "68698DC00C0F83E6"
+			rewards: [
+				{
+					id: "3A9898ADC3B4A017"
+					item: {
+						Count: 1
+						id: "elementalcraft:chisel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04458B0ACE0AE5F6"
+					item: "elementalcraft:major_rune_slate"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02BB54F8230E9277"
+					table_id: 6515604369809090337L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5016C2857E15E284"
+					item: "elementalcraft:inscriber"
+					type: "item"
+				}
+				{
+					id: "6CEC714977512B6C"
+					item: {
+						Count: 1
+						id: "elementalcraft:chisel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D666566FEBB90BB"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:minor_rune_slate"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune_slate"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:major_rune_slate"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "670C3A2FAA8F6C09"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:kaworu"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:soaryn"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:manx"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:wii"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:zod"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:tzeentch"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:fus"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:mewtwo"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:claptrap"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:rune"
+									tag: {
+										elementalcraft: {
+											rune: "elementalcraft:tano"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Runecrafting"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["193DD74E480D6269"]
+			description: [
+				"The pure ore chunk can be smelted to result in regular ingots."
+				""
+				"The process of ore purification is especially efficient for ancient debris, which can be quadrupled. Ancient debris can first be purified, doubling it, and then the pure ore can be grinded into scraps, doubling it again."
+			]
+			id: "2D8CAEB7391FA801"
+			rewards: [{
+				id: "6B941A411F7086A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0149CE045A1FB2AC"
+				item: {
+					Count: 1
+					id: "elementalcraft:pure_ore"
+					tag: {
+						elementalcraft: {
+							ore: "forge:netherite_scrap"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ore Purified"
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["57264B7E24823F02"]
+			description: [
+				"Your life as an elementist can be made a whole lot easier by imitating your technological friends. The way elementists harness elemental power nowadays is with pipes. Once upon a time, elementists manually transferred element quantities with the element holders. We can automate our systems."
+				"{@pagebreak}"
+				"The ordered sorter can be used to insert ingredients automatically into elemental instruments while the instrument output receiver, evidently, can transfer the output into an adjacent inventory without issues."
+				""
+				"Pipe priority rings can be used to better order the flow of elements in pipes. Covers can be used to beautify systems and hide them in walls."
+			]
+			id: "308D342714E5F13E"
+			rewards: [{
+				id: "3720962954DD36C5"
+				item: "elementalcraft:small_container"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Automate like a true Magician"
+			tasks: [
+				{
+					id: "0A926D261AC7BB01"
+					item: "elementalcraft:instrument_retriever"
+					type: "item"
+				}
+				{
+					id: "200A5E5253FAC08F"
+					item: "elementalcraft:sorter"
+					type: "item"
+				}
+				{
+					id: "6CDD787FE5995486"
+					item: "elementalcraft:pipe_priority_rings"
+					type: "item"
+				}
+				{
+					id: "64894E580C60A945"
+					item: "elementalcraft:cover_frame"
+					type: "item"
+				}
+			]
+			title: "Elemental Logistics"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["539A664D885AAA1C"]
+			description: [
+				"Many items can be cut or sawed using elemental power instead of our own bare hands, or the RF power that Hierophants use."
+				""
+				"This is of a special use in conjunction with the springaline budding shrine to yield more springaline shards more easily."
+			]
+			id: "6ABB62AA49137211"
+			rewards: [{
+				count: 4
+				id: "303EBF7221D4578D"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EB6407154F3BDFA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:water_mill_grindstone"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:air_mill_grindstone"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:water_mill_wood_saw"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:air_mill_wood_saw"
+							}
+						]
+					}
+				}
+				title: "Any Grindstone or Saw"
+				type: "item"
+			}]
+			title: "Grinding and Sawing"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6635F7B2CD984F4F"]
+			description: [
+				"Dimensional shards can be processed into netherite. Usually, these shards can be found as a byproduct of nether quarrying with an ore shrine in the quest for ancient debris, although they spawn in the overworld and end as well."
+				""
+				"These shards can be turned into either an infused diamond or infused enderpearl and then cooked or more efficiently - cooked with fire - to turn them into acclimated shards. These can then be infused with fire through either a manual or infusion process to yield greater results for a Magician than other pathways."
+			]
+			id: "526CC6FFEEF2E613"
+			rewards: [{
+				count: 8
+				id: "38D4DDE13FCAE1D0"
+				item: "concatenationcore:acclimated_shard"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6DC270DCDAECFABB"
+				item: "concatenationcore:acclimated_shard"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
 		}
 	]
 	title: "The Journey"

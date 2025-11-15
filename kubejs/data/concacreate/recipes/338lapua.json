@@ -2,7 +2,8 @@
   "type": "create:compacting",
   "ingredients": [
     { "item": "createaddition:brass_rod" },
-    { "item": "createaddition:brass_rod" }
+    { "item": "createaddition:brass_rod" },
+    { "item": "thermal:steel_nugget" }
   ],
   "results": [
     { "item": "createtaczauto:casing_338_lapua" }

@@ -1,5 +1,14 @@
 {
 	id: "11DC90A8AF7A34C3"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "choice_stone"
+	}
 	loot_size: 1
 	order_index: 7
 	rewards: [
