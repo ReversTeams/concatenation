@@ -14,9 +14,25 @@
 	quests: [
 		{
 			can_repeat: false
+			description: [
+				"The Confederation of Karaonia, my country, and most probably yours, seeing the vast settled and unsettled lands this loose country holds, has issued a new currency system to replace the completely disfunctional old standards."
+				""
+				"In the past, people used gold and silver as a medium of exchange and to hold value. These two materials are holy in nature and always high in demand. However, as they were mostly in demand from mages, this created a trade deficit, eventually shifting to the diamond standard."
+				"{@pagebreak}"
+				"The diamond standard cracked under its own weight. Despite having many uses and applications in both technology and magic alike, diamonds turned from a rare resource to one that was been extracted at a rate far outstripping its use as currency."
+				""
+				"Technicians of the High Priestess pathway collaborated with the Engineers of the Tower pathway to bring Enderium coins as the new standard. These still contained diamond, and also silver, but proved to be too hard to manufacture to ship out to all territories."
+				"{@pagebreak}"
+				"As a result we now find ourselves with this frail paper currency, printed by the newly formed \"Mint of Karaonia\"."
+			]
 			icon: "minecraft:diamond"
 			id: "4C2E22EDFE23E329"
-			max_completable_dependents: 2
+			rewards: [{
+				id: "3498FED93EC3E789"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			subtitle: "Comet sighted"
 			tasks: [
 				{
 					id: "0C20A146940FCE51"
@@ -49,7 +65,7 @@
 					type: "item"
 				}
 			]
-			title: "Diamond Standard"
+			title: "The Economy, Fools!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -59,11 +75,18 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6D5A27189CC77A1F"
-			rewards: [{
-				id: "6667EE0473641D83"
-				item: "concatenationcore:one_karaon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6667EE0473641D83"
+					item: "concatenationcore:one_karaon"
+					type: "item"
+				}
+				{
+					id: "114EB6D9B92D3936"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [
 				{
 					id: "4D28015E809FFB8F"
@@ -81,6 +104,7 @@
 					type: "item"
 				}
 			]
+			title: "Ancient Commodities"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -90,25 +114,43 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3176F04B52BD7587"
-			rewards: [{
-				id: "23877AF1A9E55DCD"
-				item: "concatenationcore:one_karaon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "23877AF1A9E55DCD"
+					item: "concatenationcore:one_karaon"
+					type: "item"
+				}
+				{
+					id: "776B9FDF615F35A3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "21A01746E41259E7"
 				item: "thermal:enderium_coin"
 				type: "item"
 			}]
+			title: "Modern Commodities"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			can_repeat: false
 			dependencies: ["4C2E22EDFE23E329"]
+			description: [
+				"Karaons come in a strange denomination. The dots on the bill represent their number, representing the power of five. They come in ones, fives, twenty-fives, one hundred twenty fives, six hundred twenty fives, and six thousand one hundred twenty fives."
+				""
+				"Who can even manage such a currency like this?! Which person can count this kind of currency in their heads?!"
+			]
 			hide_until_deps_complete: false
 			icon: "concatenationcore:one_karaon"
 			id: "5FC0D027A4943E93"
+			rewards: [{
+				id: "72EB7BF4F51598EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					consume_items: false
@@ -148,9 +190,19 @@
 		{
 			can_repeat: false
 			dependencies: ["4C2E22EDFE23E329"]
+			description: [
+				"I take a walk in the market to witness the new currency being used. Let us see what shopkeepers have in store today. And what will they accept to purchase from us?"
+				"{@pagebreak}"
+				"People are now required to obtain a merchant's permit to sell goods. Although, in this current economy, unless one is employed by someone else, it seems that it's also required to buy goods. How else would you get a hold on currency then?"
+			]
 			hide_until_deps_complete: false
 			id: "79C4E3F45E1C609E"
 			max_completable_dependents: 1
+			rewards: [{
+				id: "2FC045854FE297A2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				consume_items: false
@@ -164,9 +216,23 @@
 		{
 			can_repeat: false
 			dependencies: ["39535D6CB024DFBF"]
+			description: [
+				"After the first tax period, gold cards were established as a method to sort out cash way easier. However, due to their price, this seems to be a tool for the elites."
+				""
+				"My own gold card feels enchanted, so that's probably the system behind it: magitech teleporting or condensing your currency to change it."
+				"{@pagebreak}"
+				"The gold card can be used to insert Karaons into it. The card serves as a balance sheet for the Karaons inside, which can be output by asking for an amount of bills of each type."
+				""
+				"&aLeft click to insert all the Karaons in your inventory; right click to demand Karaon withdrawal.&r"
+			]
 			hide_until_deps_complete: false
 			id: "77F408B576D8AB9D"
 			max_completable_dependents: 1
+			rewards: [{
+				id: "5462CC59E3FAC3F7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.15d
 			tasks: [{
 				consume_items: false
@@ -180,10 +246,20 @@
 		{
 			can_repeat: false
 			dependencies: ["08D644D94DD5BD8E"]
+			description: [
+				"We are now reaching levels of hyperinflation that no one has wanted to see. The economy has not been this bad before Karaons were introduced. A new round of merchant permits has been issued, which seems to favour the wealthy and corporations."
+				""
+				"Let us see what is sold in the market today."
+			]
 			hide_until_deps_complete: false
 			icon: "concatenationcore:merchant_permit_3"
 			id: "60639CD0322496FA"
 			max_completable_dependents: 1
+			rewards: [{
+				id: "5C1945C0CA49DA0D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			size: 1.15d
 			tasks: [{
 				consume_items: false
@@ -197,8 +273,18 @@
 		{
 			can_repeat: false
 			dependencies: ["4AF10F3180085DB1"]
+			description: [
+				"Inflation has been getting worse lately. Merchants have begun raising prices, proving that the currency cannot hold on its own. Is the mint printing endless amounts of Karaons? Now, merchant permits must be renwed and have a higher exchange limit."
+				""
+				"Let us see what new is being sold at the market today. Surely it's not stupidly expensive."
+			]
 			hide_until_deps_complete: false
 			id: "08D644D94DD5BD8E"
+			rewards: [{
+				id: "4758907C0C69F61B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			size: 1.15d
 			tasks: [{
 				consume_items: false
@@ -511,7 +597,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -528,7 +614,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
@@ -589,7 +675,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
@@ -650,8 +736,8 @@
 				item: "minecraft:blaze_powder"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.0d
+			x: -10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
@@ -669,7 +755,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
@@ -694,11 +780,12 @@
 				item: "tconstruct:slimesteel_ingot"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -14.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5FC0D027A4943E93"]
+			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "0D61E037EBFC92FE"
 			rewards: [{
@@ -716,6 +803,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A reasonable snack. A small stand ran by a local farmer collaborating with a larger corporation sells golden carrots for a fair price. These grant immense saturation, after all."]
 			hide_dependency_lines: true
 			icon: "minecraft:golden_carrot"
 			id: "4CC019586153DAB7"
@@ -736,6 +824,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["The Aguiai Mining Company sells some of its raw products such as iron here. They seem to match market prices considering the labor of extracting iron, processing it, and shipping it."]
 			hide_dependency_lines: true
 			icon: "minecraft:iron_ingot"
 			id: "6BA2391C6A783571"
@@ -755,6 +844,11 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: [
+				"Not spices! Don't eat them! Unless you do not value your life."
+				""
+				"These can be quite rare at times as they require trips to the netherworld, but today, individual blaze powder packets are going for fairly cheap - even less than an iron ingot."
+			]
 			hide_dependency_lines: true
 			icon: "minecraft:blaze_powder"
 			id: "0EBECE450AB2848D"
@@ -816,8 +910,19 @@
 		{
 			can_repeat: false
 			dependencies: ["79C4E3F45E1C609E"]
+			description: [
+				"First, they issue this archaic currency and permit system, and then they demand taxes in this same currency? Not only that, they freeze your existing permits until it's paid?! This seems like a debt trap orchestrated by the government."
+				""
+				"&l&cCaution: while in the process of paying your taxes, you will not be able to purchase or sell anything. Make your purchases accordingly.&r&r"
+			]
+			hide_until_deps_complete: false
 			id: "39535D6CB024DFBF"
 			max_completable_dependents: 1
+			rewards: [{
+				id: "458EE342FE3A9B05"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				count: 4L
 				id: "1BF6194439EE3912"
@@ -831,8 +936,18 @@
 		{
 			can_repeat: false
 			dependencies: ["77F408B576D8AB9D"]
+			description: [
+				"A new tax is being levied and permits are frozen in the meanwhile for once. I would think people are starting to lose hope, but this time the tax is based on percentage of income. Unfortunately, I owe quite a bit."
+				""
+				"&l&cCaution: while in the process of paying your taxes, you will not be able to purchase or sell anything. Make your purchases accordingly.&r&r"
+			]
 			id: "5E79B8D5003B7D03"
 			max_completable_dependents: 1
+			rewards: [{
+				id: "019A64F341E98844"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				count: 3L
 				id: "5F44B1AFA389DBDD"
@@ -846,8 +961,18 @@
 		{
 			can_repeat: false
 			dependencies: ["5E79B8D5003B7D03"]
+			description: [
+				"The taxman's calculations were incorrect? That's such a scam! I need to now pay about 10x the amount I owed?! I'm a bit short on cash, but you can always sell bread... Maybe I should automate bread to come up with the difference. After all, every pathway has some sort of way to grow wheat more efficiently."
+				""
+				"&l&cCaution: while in the process of paying your taxes, you will not be able to purchase or sell anything. Make your purchases accordingly.&r&r"
+			]
 			id: "4AF10F3180085DB1"
 			max_completable_dependents: 1
+			rewards: [{
+				id: "09E22B97C95845CE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				count: 2L
 				id: "2DC6DA637C4CD9ED"
@@ -861,7 +986,17 @@
 		{
 			can_repeat: false
 			dependencies: ["60639CD0322496FA"]
+			description: [
+				"The central bank is desperate and nearing bankruptcy. Meanwhile, a new, outrageous tax has been levied. The question now is: should we pay it, or ignore it as the system crumbles?"
+				""
+				"&l&cCaution: while in the process of paying your taxes, you will not be able to purchase or sell anything. Make your purchases accordingly.&r&r"
+			]
 			id: "1A4779AED270619C"
+			rewards: [{
+				id: "5A641A7E92F9CC6B"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			tasks: [{
 				count: 100L
 				id: "7E93A75E8DD0C005"
@@ -875,6 +1010,11 @@
 		{
 			can_repeat: false
 			dependencies: ["1A4779AED270619C"]
+			description: [
+				"The economic system has crumbled and with it, the Karaon. It's now worthless pieces of paper. Was it all worth it?"
+				""
+				"This platinum card meant to replace the gold card, or rather, improve on it for a profit, has never been fully issued and operational. However, I still received mine."
+			]
 			icon: {
 				Count: 1
 				id: "concatenationcore:platinum_card"
@@ -895,39 +1035,48 @@
 				}
 			}
 			id: "3C82A9CB771E5F69"
-			rewards: [{
-				id: "7E2D5ED22B2CE2A7"
-				item: {
-					Count: 1
-					id: "concatenationcore:platinum_card"
-					tag: {
-						CurioAttributeModifiers: [{
-							Amount: 2
-							AttributeName: "generic.max_health"
-							Name: "generic.max_health"
-							Operation: 0
-							Slot: "element_holder"
-							UUID: [I;
-								-1955054564
-								-425507725
-								-1866911182
-								-1407636802
-							]
-						}]
+			rewards: [
+				{
+					id: "7E2D5ED22B2CE2A7"
+					item: {
+						Count: 1
+						id: "concatenationcore:platinum_card"
+						tag: {
+							CurioAttributeModifiers: [{
+								Amount: 2
+								AttributeName: "generic.max_health"
+								Name: "generic.max_health"
+								Operation: 0
+								Slot: "element_holder"
+								UUID: [I;
+									-1955054564
+									-425507725
+									-1866911182
+									-1407636802
+								]
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0DDF9216ECAEFF7E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "5B0530B25E868DE6"
 				item: "oreberriesreplanted:silver_oreberry"
 				type: "item"
 			}]
+			title: "Maybe we can start over?"
 			x: 30.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["There's actually no way. Genuinely, there's no way, right? This ore is at the same level of common as iron. IRON. Just because you need a specialized implement to turn it into an ingot DOES NOT justify this pricetag."]
 			hide_dependency_lines: true
 			icon: "mekanism:ingot_osmium"
 			id: "1B8417F69E8FC7F3"
@@ -943,7 +1092,7 @@
 				type: "item"
 			}]
 			title: "Osmium - 12250KA"
-			x: 27.0d
+			x: 25.5d
 			y: -3.0d
 		}
 		{
@@ -987,6 +1136,13 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: [
+				"\"Oh, a Botany Pot! These are really useful for automating any sort of plant growth! I used to buy these at a significantly discounted price, didn't realize that my witch friend was so generous.\" "
+				""
+				"&c\"I don't think there's any amount of words that I can use to convey to you that if this appears even remotely reasonable to you, you've been played for a fool.\" &r"
+				""
+				"\"...Huh?\""
+			]
 			hide_dependency_lines: true
 			icon: "botanypots:terracotta_botany_pot"
 			id: "3F70D9FD509802F9"
@@ -1002,7 +1158,7 @@
 				type: "item"
 			}]
 			title: "Botanic Jar - 49000KA"
-			x: 28.0d
+			x: 26.5d
 			y: -3.0d
 		}
 		{
@@ -1028,6 +1184,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Waystones are usually manufactured by elementists and can be pretty expensive. Even with the mounting inflation, this is a reasonable price... if it weren't the fact you need two of them in the first place."]
 			hide_dependency_lines: true
 			icon: "waystones:waystone"
 			id: "030B2895A929EB3D"
@@ -1321,6 +1478,11 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: [
+				"Assorted Box full of anomalies! I have no idea what these are used for, or what this is made out of. Perhaps in the future, prudent researchers could figure out this stuff that makes me dizzy."
+				""
+				"Actually, where does this come from?"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1354,7 +1516,7 @@
 				}
 			]
 			title: "Anomalous Assorted Box - 6750KA"
-			x: 28.0d
+			x: 26.5d
 			y: -6.5d
 		}
 		{
@@ -1450,8 +1612,8 @@
 				item: "the_deep_void:voidrium_gem"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.0d
+			x: -11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
@@ -1488,8 +1650,8 @@
 				item: "perdition:dis_gem"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
@@ -1505,7 +1667,7 @@
 				item: "perdition:cut_dis_gem"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -14.5d
 			y: 2.0d
 		}
 		{
@@ -1637,6 +1799,11 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: [
+				"An old reliquerer has a stall set up selling various old relics and trinkets."
+				""
+				"Of these, one still has a strong magical essence. This is a midas touch. These days, this is integrated within the Magician card, so these are completely obsolete. I guess this would be useful as a cheap artifact for someone who isn't an elementist."
+			]
 			hide_dependency_lines: true
 			icon: "reliquary:midas_touchstone"
 			id: "3A7EC4CFFE2B82A6"
@@ -1702,6 +1869,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Hmmm. This is... a little pricey. Yes, a mage of the Star pathway could convert this into a relatively potent spell, but I'm uncertain of whether this is worthwhile or not."]
 			hide_dependency_lines: true
 			icon: "irons_spellbooks:rare_ink"
 			id: "3C933F2BDC17AE54"
@@ -1749,6 +1917,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Hm. This one's rather exorbitant in its price, but I've never seen anything quite like it in my travels. Apparently, it was procured in an exotic biome from an extremely dangerous dimension. If I had any particular need for this, I'd consider haggling it down."]
 			hide_dependency_lines: true
 			icon: "the_deep_void:disturbing_root"
 			id: "368DE8863C3EFC5E"
@@ -1769,6 +1938,13 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: [
+				"\"Cow juice. For this much. I need to get out of here.\""
+				""
+				"&1\"No, this is cow juice\"&r"
+				""
+				"He gestured to a tank of liquid meat."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1809,7 +1985,7 @@
 				}
 			]
 			title: "Tank of Pink Slime - 7375KA"
-			x: 29.0d
+			x: 27.5d
 			y: -3.0d
 		}
 		{
@@ -1859,6 +2035,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Straight from l'Honey Home restaurant, they went from selling honey drinks to weaponized bees. Although these seem harmless, they can serve as great support."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1951,8 +2128,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.0d
+			x: -10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
@@ -1969,11 +2146,12 @@
 				item: "concatenationcore:twice_compacted_wood"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.0d
+			x: -10.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["This old, mass-produced pistol is not incredible but it can still fire a full round into an enemy when needed. The ammo it uses is still widely in use and can be found for pretty cheap. This is honestly a great find."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2018,6 +2196,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["I have only managed to find the casings and not the bullets, which only require adding up a bit of gunpowder to be useable. Coupling this with the B93R the old man was selling would be a great weapon... if I didn't have way more overpowered gear."]
 			hide_dependency_lines: true
 			icon: "createtaczauto:casing_9mm"
 			id: "63FB959A3F649D22"
@@ -2036,7 +2215,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["77F408B576D8AB9D"]
+			dependencies: ["08D644D94DD5BD8E"]
 			hide_dependency_lines: true
 			icon: "createtaczauto:casing_9mm"
 			id: "739C159BCF7795D7"
@@ -2056,6 +2235,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Firearms are rather high in demand, but did you know that they're mass produceable? That's why the arms business is so potent, it's because the supply can meet the demand. At this point, why don't you just rob me with the gun? It's obvious you want everything I own."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2089,11 +2269,12 @@
 				type: "item"
 			}]
 			title: "Old AKM - 3750KA"
-			x: 28.0d
+			x: 26.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["...The merchant says that this is a relic that'll improve your health. That's it. He didn't even try to embellish it at all and extended his palm for the bills. If they didn't want to sell it, they could've just said so. What the heck is wrong with this place!?"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2144,18 +2325,22 @@
 				item: { Count: 3, id: "concatenationcore:three_thousand_one_hundred_twenty_five_karaon" }
 				type: "item"
 			}]
-			title: "Rython - 9375KA &6[LIMITED]"
-			x: 29.0d
+			title: "Rython - 18375KA &6[LIMITED]"
+			x: 27.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: [
+				"\"...They literally just picked this up off the ground and are trying to sell it for a fortune. What are they thinking!??! Sure, the convenience of having a source nearby isn't something to be understated, but they definitely over, nay, overoverstated its convenience. Genuinely baffled.\""
+				""
+				"&c\"They didn't just pick this off the ground. You need a whole process.\"&r"
+				""
+				"\"Shut up.\""
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					Parent: { }
-				}
 				id: "elementalcraft:receptacle"
 				tag: {
 					element_type: "water"
@@ -2183,7 +2368,7 @@
 				type: "item"
 			}]
 			title: "Water Source - 85750KA"
-			x: 27.0d
+			x: 25.5d
 			y: -4.0d
 		}
 		{
@@ -2207,6 +2392,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Okay, I get it. You traveled to an exotic place to obtain this \"piece of a greater artifact\". I get that. But. As a traveler myself, I can already tell you that this price is straight up deranged. How could you possibly expect ANYONE that has 2 functioning legs to purchase this vacation bonus for this much!?!?!?!??"]
 			hide_dependency_lines: true
 			icon: "concatenationcore:fortune_fragment"
 			id: "2E6456DF38C78FFF"
@@ -2222,7 +2408,7 @@
 				type: "item"
 			}]
 			title: "Fortune Fragment - 6125KA"
-			x: 27.0d
+			x: 25.5d
 			y: -5.0d
 		}
 		{
@@ -2265,7 +2451,7 @@
 			}]
 			title: "Villager's Bible - 1250KA"
 			x: 14.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
@@ -2552,6 +2738,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Wow, technology's the best! With this circuit, I could create all sorts of integral components for various fields of creation with this! Lemme just look at the price tag- Oh, it seems my eyes are malfunctioning. There should be at least 3 less digits on this, right? RIGHT?????"]
 			hide_dependency_lines: true
 			icon: "concatenationcore:primed_calculation_processor"
 			id: "245A346FFC44BAC5"
@@ -2575,7 +2762,7 @@
 				}
 			]
 			title: "Primed Calculation Circuit -  14125KA"
-			x: 28.0d
+			x: 26.5d
 			y: -5.0d
 		}
 		{
@@ -2606,6 +2793,15 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: [
+				"\"Ooh, a magical curio! I can tell that this one's rather powerful. It'll make you move faster and hit harder!\" "
+				""
+				"&c\"I could achieve both of those things with a pair of shoes and a bit of training. This costs about one million times more than that.\" &r"
+				""
+				"\"...Yeah, but you can get it without any effort!\" "
+				""
+				"&m&c\"Please stop talking to me.\"&r&r"
+			]
 			hide_dependency_lines: true
 			icon: "tconstruct:silky_jewel"
 			id: "3536F6023DF1BDF9"
@@ -2648,14 +2844,671 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
+				count: 40L
 				id: "34758BB975CBA933"
-				item: { Count: 4, id: "concatenationcore:three_thousand_one_hundred_twenty_five_karaon" }
+				item: "concatenationcore:three_thousand_one_hundred_twenty_five_karaon"
 				type: "item"
 			}]
-			title: "Silky Jewel - 24500KA &6[LIMITED]"
-			x: 29.0d
+			title: "Silky Jewel - 245000KA &6[LIMITED]"
+			x: 27.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			icon: "create:brass_ingot"
+			id: "75A496890A612FD3"
+			rewards: [{
+				id: "1B47504BC24E7ED5"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "7733C3A56FAAB893"
+					item: { Count: 2, id: "concatenationcore:one_hundred_twenty_five_karaon" }
+					type: "item"
+				}
+				{
+					id: "3A50C07AA5A8C7AD"
+					item: "concatenationcore:twenty_five_karaon"
+					type: "item"
+				}
+			]
+			title: "Brass Ingot - 275KA"
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "308F1543381C596B"
+			rewards: [{
+				id: "14566B59098938FC"
+				item: "concatenationcore:five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6090C9F6656EB331"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "24EB79DD9A7DCDF2"
+			rewards: [{
+				count: 3
+				id: "4B772F6545C650C7"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E2904201AD0BE70"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "2DF8D611AA4B38FC"
+			rewards: [{
+				id: "7C5B7D98BE24CF89"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 7L
+				id: "4B61638EF3233896"
+				item: { Count: 7, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "59F5422F9E35C15E"
+			rewards: [{
+				id: "4E4DA3956E484C6D"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "25F2970DFC14BD60"
+				item: { Count: 9, id: "minecraft:string" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "5A28C7CB98214EB0"
+			rewards: [{
+				id: "07BDC789DCA62C8D"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B72668A3E204498"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "0FCB4F2C53D0DCC8"
+			rewards: [{
+				id: "4ED85399AE05F01A"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "742E173B9CA4FFDE"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "7E80EB15F4C08871"
+			rewards: [{
+				id: "5351B204C8651D7C"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "5DA0F8E68D8BD375"
+				item: { Count: 5, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "02AFCA2EDE7BAC51"
+			rewards: [{
+				count: 3
+				id: "088D580B9FA0E216"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "2F234D17CC6A4D8E"
+				item: { Count: 10, id: "minecraft:book" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "5412C25E084B2C9B"
+			rewards: [{
+				id: "29D214DBA4184BC2"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0E34980E20147634"
+				item: { Count: 2, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "216EE72C7586C73B"
+			rewards: [{
+				id: "2C4A1BF1FDD349D3"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "26A5EB4A9894DD19"
+				item: { Count: 5, id: "minecraft:soul_sand" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "0783B9AFE45D0B82"
+			rewards: [{
+				id: "185006E326E7D357"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "56BABDAB9D8D06C1"
+				item: { Count: 8, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "3FD0C460D938C421"
+			rewards: [{
+				count: 2
+				id: "7DA96B8F11E0036B"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06BD4EB6AB4F9D88"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "10BEEA61A200F6E0"
+			rewards: [{
+				count: 4
+				id: "35E09D9AF41949AC"
+				item: "concatenationcore:five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79CA2C72F205B0C9"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "1DDBE9ED46314FF3"
+			rewards: [
+				{
+					id: "4C243EF318DE2D4E"
+					item: "concatenationcore:twenty_five_karaon"
+					type: "item"
+				}
+				{
+					id: "07F4F2472A98DFEB"
+					item: "concatenationcore:five_karaon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AF26152AAA22A67"
+				item: "elementalcraft:firecrystal"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "3E2CEDF27698C32A"
+			rewards: [{
+				id: "5AD4234034339B83"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "084CB4C4CE004D0F"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "47FFE020483CC17B"
+			rewards: [
+				{
+					id: "0C35C3E78678C870"
+					item: "concatenationcore:one_hundred_twenty_five_karaon"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "631B756102C84957"
+					item: "concatenationcore:twenty_five_karaon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5677518234760874"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "4E3EB499A989EC27"
+			rewards: [{
+				id: "05BE6B19952AA9D9"
+				item: "concatenationcore:six_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A092A22381737E2"
+				item: "concatenationcore:glowing_gold"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "40F5DE7BFD5C9CBF"
+			rewards: [{
+				id: "352654BCFF42B52A"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A3A96367491490C"
+				item: "concatenationcore:pyrite"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "694C44D596986431"
+			rewards: [{
+				count: 2
+				id: "731425EBC25AEB81"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F4555A51F877594"
+				item: "concatenationcore:descran"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "4723269FBFD85617"
+			rewards: [{
+				id: "043787E7196AC046"
+				item: "concatenationcore:one_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "72C1C5A5D96E638C"
+				item: "concatenationcore:experience_orb"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "5B3299A903F55A58"
+			rewards: [
+				{
+					id: "788BCAF88A043C90"
+					item: "concatenationcore:one_hundred_twenty_five_karaon"
+					type: "item"
+				}
+				{
+					id: "4495C45FBF11E461"
+					item: "concatenationcore:twenty_five_karaon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3967878583BB5F34"
+				item: {
+					Count: 1
+					id: "concatenationcore:occult_calling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "3E38E3DC606F846B"
+			rewards: [{
+				id: "24C5EF67E00FE8B1"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D4B1DD0C2A25C6"
+				item: "ars_nouveau:sourceberry_sack"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "2E516AFC10DEDAF5"
+			rewards: [{
+				count: 4
+				id: "0D9EFDA787D0E4F1"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C27129876193E75"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "264EF4882B4E970D"
+			rewards: [{
+				count: 4
+				id: "42BC72A5FEC6FFE9"
+				item: "concatenationcore:five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32389F087C48FE62"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79C4E3F45E1C609E"]
+			hide_dependency_lines: true
+			id: "5BAD28757B128339"
+			rewards: [{
+				count: 4
+				id: "7E0DBC6E1048590E"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EB20B2D065E1973"
+				item: "concatenationcore:galvanized_iron"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "58A9E96B6BC6D11B"
+			rewards: [{
+				id: "371F9A5550B48C9A"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				count: 24L
+				id: "7216A036D4D87DFC"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "736C3972341EC47D"
+			rewards: [{
+				count: 3
+				id: "214A744DF94D553E"
+				item: "concatenationcore:five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000FD5CB20649E70"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77F408B576D8AB9D"]
+			hide_dependency_lines: true
+			id: "518682A5F626F7A0"
+			rewards: [{
+				count: 3
+				id: "08DA4A82DD044CD4"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66C019E15C52235E"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "429399509CC5EFB2"
+			rewards: [{
+				count: 4
+				id: "20ADEF575A5E9257"
+				item: "concatenationcore:twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75A20CD97E8B7FD4"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "73801B2FAFFB9A44"
+			rewards: [{
+				count: 2
+				id: "66F54CEE68CA256E"
+				item: "concatenationcore:six_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "668D91E7A2F571FD"
+				item: "concatenationcore:celestial_calralite"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "229AC4A519028100"
+			rewards: [{
+				count: 3
+				id: "165E2960A009DD4E"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A791F1B30BE2FC"
+				item: "concatenationcore:blood_powder"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08D644D94DD5BD8E"]
+			hide_dependency_lines: true
+			id: "61317DE92FEE8A73"
+			rewards: [{
+				count: 3
+				id: "2EB2825B6E164B52"
+				item: "concatenationcore:one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D9DACF6FCA85F3F"
+				item: "concatenationcore:ectorite"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "57FDF04D2395D894"
+			rewards: [{
+				id: "73CF89D46E3BEF24"
+				item: "concatenationcore:three_thousand_one_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B724852706E5012"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["60639CD0322496FA"]
+			hide_dependency_lines: true
+			id: "2EA983EF10C0093C"
+			rewards: [{
+				id: "78331188904F44E2"
+				item: "concatenationcore:six_hundred_twenty_five_karaon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2059746C8A8FB4A9"
+				item: "concatenationcore:experienced_paper"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Limited Event"]

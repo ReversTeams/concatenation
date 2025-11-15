@@ -1,0 +1,68 @@
+{
+	id: "5E177A1CDEB88115"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "elementalcraft:container"
+				tag: {
+					BlockEntityTag: {
+						element_storage: {
+							element_amount: 100000
+							element_capacity: 100000
+							element_type: "water"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "elementalcraft:container"
+				tag: {
+					BlockEntityTag: {
+						element_storage: {
+							element_amount: 100000
+							element_capacity: 100000
+							element_type: "fire"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "elementalcraft:container"
+				tag: {
+					BlockEntityTag: {
+						element_storage: {
+							element_amount: 100000
+							element_capacity: 100000
+							element_type: "earth"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "elementalcraft:container"
+				tag: {
+					BlockEntityTag: {
+						element_storage: {
+							element_amount: 100000
+							element_capacity: 100000
+							element_type: "air"
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "Gift of the Land"
+}

@@ -339,7 +339,7 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
-        Item.of('hexerei:selenite_shard', 1),
+        Item.of('hexerei:selenite_shard', 4),
         [
             ' A ',
             'ABA',
@@ -349,6 +349,40 @@ ServerEvents.recipes(event => {
             B: 'perdition:corruptite',
             A: 'perdition:scintillating_dust'
         }
+    )
+    event.shaped(
+        Item.of('strangematter:raw_resonite'),
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            B: 'concatenationcore:meteorite',
+            A: 'concatenationcore:experience_orb'
+        }
+    )
+    event.shaped(
+        Item.of('strangematter:anomalous_grass', 8),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            B: 'strangematter:insight_shard',
+            A: 'minecraft:grass_block'
+        }
+    )
+    event.shapeless(
+        Item.of('hexerei:selenite_shard'),
+        [
+            'perdition:dolomita_demiurgicus',
+            'minecraft:calcite',
+            'thermal:sulfur',
+            '#concatenation:firing_item',
+            '#concatenation:watering_item'
+        ]
     )
 
     event.recipes.minecraft.smelting(

@@ -1,0 +1,485 @@
+{
+  "abductor": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1,
+      "operation": "BASE"
+    }
+  ],
+  "alpha_bone_crawler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 35,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "amalgam": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 125,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "apostle_of_catastrophe": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 700,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "baby_bone_crawler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "beholder": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "bone_crawler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 35,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "built_big_overseer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 35,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "built_overseer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 35,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "centigaze": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "devourer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "death_vulture": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "death_maw": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "eyekin": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "fool_eater": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "forsaken": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "gravekeeper": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "wanderer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "weaver_of_souls": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "roamer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "rooted": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "primordial_crawler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 500,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "skull_smasher": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 10,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "swarmer": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 10,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "lurker": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 30,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "void_watcher": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 30,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 10,
+      "operation": "ADDITION"
+    }
+  ],
+  "mimic": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 30,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "misanthropic_hivemind": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 200,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ],
+  "mother_bone_crawler": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 50,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "ADDITION"
+    }
+  ]
+}

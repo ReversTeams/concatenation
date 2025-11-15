@@ -21,7 +21,7 @@
 
 [Spawns]
 	#Whether Abductors will spawn in the Overworld or not
-	SpawnAbductors = true
+	SpawnAbductors = false
 	#If corpses should fall from the sky in the Deep Void
 	SpawnFallingCorpse = true
 	#If falling corpses should place a corpse on impact

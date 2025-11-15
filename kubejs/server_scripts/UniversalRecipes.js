@@ -131,24 +131,24 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:the_chariot')
 
-        event.shaped(
-                Item.of(
-                        'concatenationcore:full_wands',
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1204986711,1002462118,-1782657419,420111003],Slot:"curio"}]}'
-                ),
-                [
-                        'ABA',
-                        'CDE',
-                        'ABA'
-                ],
-                {
-                        A: '#forge:coins/gold',
-                        E: 'create:brass_hand',
-                        D: '#concatenation:middle_cards',
-                        C: 'constructionwand:diamond_wand',
-                        B: 'ars_nouveau:source_gem'
-                }
-        ).keepIngredient('#concatenation:middle_cards')
+        // event.shaped(
+        //         Item.of(
+        //                 'concatenationcore:full_wands',
+        //                 '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1204986711,1002462118,-1782657419,420111003],Slot:"curio"}]}'
+        //         ),
+        //         [
+        //                 'ABA',
+        //                 'CDE',
+        //                 'ABA'
+        //         ],
+        //         {
+        //                 A: '#forge:coins/gold',
+        //                 E: 'create:brass_hand',
+        //                 D: '#concatenation:middle_cards',
+        //                 C: 'constructionwand:diamond_wand',
+        //                 B: 'ars_nouveau:source_gem'
+        //         }
+        // ).keepIngredient('#concatenation:middle_cards')
 
         event.shaped(
                 Item.of(

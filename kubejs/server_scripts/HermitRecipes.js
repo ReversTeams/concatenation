@@ -610,6 +610,19 @@ ServerEvents.recipes(event => {
                         B: 'create:cogwheel'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:tower_die'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'create:brass_sheet',
+                        C: 'tarotcards:the_tower'
+                }
+        ).keepIngredient('tarotcards:the_tower')
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

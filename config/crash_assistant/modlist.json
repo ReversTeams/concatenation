@@ -4,11 +4,6 @@
     "modId": "forge",
     "version": "fmlloader-1.20.1-47.4.0.jar"
   },
-  "a_good_place-1.20-1.2.8.jar": {
-    "jarName": "a_good_place-1.20-1.2.8.jar",
-    "modId": "a_good_place",
-    "version": "1.20-1.2.8"
-  },
   "accessories-neoforge-1.0.0-beta.48+1.20.1.jar": {
     "jarName": "accessories-neoforge-1.0.0-beta.48+1.20.1.jar",
     "modId": "accessories",
@@ -119,10 +114,10 @@
     "modId": "attributefix",
     "version": "21.0.4"
   },
-  "attributizer-3.1.jar": {
-    "jarName": "attributizer-3.1.jar",
-    "modId": "attributizer",
-    "version": "3.1"
+  "attributesetter-1.11.1-forge.jar": {
+    "jarName": "attributesetter-1.11.1-forge.jar",
+    "modId": "attributesetter",
+    "version": "1.11.1-forge"
   },
   "BadOptimizations-2.3.1-1.20.1.jar": {
     "jarName": "BadOptimizations-2.3.1-1.20.1.jar",
@@ -249,10 +244,10 @@
     "modId": "cleanswing",
     "version": "1.8"
   },
-  "clientsort-forge-2.1.2+1.20.1.jar": {
-    "jarName": "clientsort-forge-2.1.2+1.20.1.jar",
+  "clientsort-forge-2.1.3+1.20.1.jar": {
+    "jarName": "clientsort-forge-2.1.3+1.20.1.jar",
     "modId": "clientsort",
-    "version": "2.1.2+1.20.1"
+    "version": "2.1.3+1.20.1"
   },
   "cloth-config-11.1.136-forge.jar": {
     "jarName": "cloth-config-11.1.136-forge.jar",
@@ -1139,6 +1134,11 @@
     "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
     "modId": "notenoughcrashes",
     "version": "4.4.9+1.20.1"
+  },
+  "Notes-1.20.1-1.3.0-forge.jar": {
+    "jarName": "Notes-1.20.1-1.3.0-forge.jar",
+    "modId": "notes",
+    "version": "1.20.1-1.3.0-forge"
   },
   "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
     "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",

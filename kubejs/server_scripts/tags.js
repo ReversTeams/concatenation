@@ -39,7 +39,11 @@ ServerEvents.tags('item', event => {
         'minecraft:fire_charge',
         'elementalcraft:firecrystal',
         'elementalcraft:fire_shard',
-        'ars_nouveau:fire_essence'
+        'ars_nouveau:fire_essence',
+        'elementalcraft:elemental_firefuel',
+        'bloodmagic:reagentlava',
+        'tconstruct:magma_bottle',
+        'born_in_chaos_v1:fire_dust'
     ]);
 
     const baseCircuits = [
@@ -558,5 +562,23 @@ ServerEvents.tags('item', event => {
         'elementalcraft:solar_prism',
         'hexerei:moon_dust',
         'integrateddynamics:crystalized_menril_chunk'
+    ])
+
+    add('concatenation:icing_item', [
+        'concatenationcore:ice_shard',
+        'celestisynth:wintereis_shard',
+        'irons_spellbooks:permafrost_shard',
+        'thermal:ice_charge'
+    ])
+
+    add('concatenation:watering_item', [
+        'ars_nouveau:water_essence',
+        'elementalcraft:watercrystal',
+        'elementalcraft:water_shard',
+        'bloodmagic:reagentwater'
+    ])
+
+    add('forge:gems/sulfur', [
+        'the_deep_void:sulfur'
     ])
 });

@@ -1,12 +1,12 @@
 {
   "type": "elementalcraft:grinding",
-  "element_amount": 500,
+  "element_amount": 1000,
   "ingredient": {
     "item": "perdition:limbo_berries"
   },
-  "luck_ratio": 5.0,
+  "luck_ratio": 1,
   "output": {
-    "count": 5,
-    "item": "elementalcraft:inert_crystal"
+    "Count": 1,
+    "id": "elementalcraft:inert_crystal"
   }
 }

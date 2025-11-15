@@ -46,7 +46,8 @@ ServerEvents.recipes(event => {
                 'elementalcraft:instrument_retriever',
                 'elementalcraft:pipe_priority_rings',
                 'elementalcraft:cover_frame',
-                'elementalcraft:pipe_priority_rings'
+                'elementalcraft:pipe_priority_rings',
+                'elementalcraft:sorter'
         ]
 
         remove.forEach(item => {
@@ -1122,7 +1123,7 @@ ServerEvents.recipes(event => {
                 {
                         C: 'elementalcraft:swift_alloy_nugget',
                         E: 'minecraft:redstone',
-                        B: '#elementalcraft:gems/input_air',
+                        B: '#elementalcraft:gems/crude_air',
                         A: 'elementalcraft:springaline_shard',
                         D: 'minecraft:book'
                 }
@@ -1169,7 +1170,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('elementalcraft:instrument_retriever'),
+                Item.of('elementalcraft:instrument_retriever', 2),
                 [
                         'AB ',
                         'CDA',
@@ -1183,7 +1184,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('elementalcraft:sorter'),
+                Item.of('elementalcraft:sorter', 2),
                 [
                         'ABC',
                         'DEA',
@@ -1229,6 +1230,66 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         A: 'elementalcraft:drenched_iron_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:springaline_shard', 4),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        A: 'elementalcraft:powerful_water_shard',
+                        B: 'concatenation:icing_item'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:springaline_shard', 2),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        A: 'perdition:resin',
+                        B: 'strangematter:spatial_shard'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:container'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'elementalcraft:whiterock',
+                        C: 'elementalcraft:small_container',
+                        B: 'elementalcraft:elementpipe'
+                }
+        )
+        event.shapeless(
+                Item.of('thermal:lightning_charge'),
+                [
+                        'elementalcraft:aircrystal',
+                        'minecraft:gunpowder',
+                        '#minecraft:coals'
+                ]
+        )
+        event.shaped(
+                Item.of('elementalcraft:purecrystal'),
+                [
+                        ' A ',
+                        'BCD',
+                        ' E '
+                ],
+                {
+                        B: 'elementalcraft:powerful_water_shard',
+                        C: 'perdition:cut_dis_gem',
+                        E: 'elementalcraft:powerful_earth_shard',
+                        D: 'elementalcraft:powerful_fire_shard',
+                        A: 'elementalcraft:powerful_air_shard'
                 }
         )
 });

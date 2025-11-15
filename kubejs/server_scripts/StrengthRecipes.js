@@ -146,9 +146,9 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('tconstruct:soulsteel_ingot'),
                 [
-                        ' A ',
-                        'BCD',
-                        ' E '
+                        ' D ',
+                        'BCE',
+                        ' A '
                 ],
                 {
                         C: 'concatenationcore:celestial_calralite',

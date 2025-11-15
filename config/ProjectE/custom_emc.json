@@ -195,6 +195,26 @@
     {
       "item": "createmetallurgy:steel_ingot",
       "emc": 392
+    },
+    {
+      "item": "usefulbackpacks:backpack_small",
+      "emc": 0
+    },
+    {
+      "item": "usefulbackpacks:backpack_medium",
+      "emc": 0
+    },
+    {
+      "item": "usefulbackpacks:backpack_large{display:{color:3949738}}",
+      "emc": 0
+    },
+    {
+      "item": "usefulbackpacks:backpack_large",
+      "emc": 0
+    },
+    {
+      "item": "usefulbackpacks:backpack_enderchest",
+      "emc": 0
     }
   ]
 }

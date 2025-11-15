@@ -1,0 +1,20 @@
+{
+	id: "5D4043E30CE8122A"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "elementalcraft:crude_fire_gem" }
+		{ item: "elementalcraft:crude_water_gem" }
+		{ item: "elementalcraft:crude_earth_gem" }
+		{ item: "elementalcraft:crude_air_gem" }
+		{ item: "elementalcraft:fine_fire_gem" }
+		{ item: "elementalcraft:fine_water_gem" }
+		{ item: "elementalcraft:fine_earth_gem" }
+		{ item: "elementalcraft:fine_air_gem" }
+		{ item: "elementalcraft:pristine_fire_gem" }
+		{ item: "elementalcraft:pristine_water_gem" }
+		{ item: "elementalcraft:pristine_earth_gem" }
+		{ item: "elementalcraft:pristine_air_gem" }
+	]
+	title: "Gift of the Source"
+}
