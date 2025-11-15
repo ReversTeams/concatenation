@@ -443,23 +443,6 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
-			id: "2B12B0FA62FEDD1D"
-			rewards: [{
-				id: "4FE3F490DFCE7BB0"
-				item: "concatenationcore:one_karaon"
-				type: "item"
-			}]
-			tasks: [{
-				count: 5L
-				id: "6D758BCF2EAB504B"
-				item: "immersive_weathering:moss_clump"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3176F04B52BD7587"]
 			id: "2F88EE276BE7FE60"
 			rewards: [{
 				id: "15FDEA4E892CFF19"

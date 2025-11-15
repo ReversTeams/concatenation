@@ -294,8 +294,8 @@
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.2.1-2-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.2.1-2-forge-1.20.1.jar",
+  "concatenationcore-1.2.2-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.2.2-forge-1.20.1.jar",
     "modId": "concatenationcore",
     "version": "1.2.2"
   },
@@ -366,11 +366,6 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
-  },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "version": "1.0.2"
   },
   "craftingstation-1.20.1-1.3.2.jar": {
     "jarName": "craftingstation-1.20.1-1.3.2.jar",

@@ -898,29 +898,6 @@
 			y: -3.8499999999999996d
 		}
 		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
-				""
-				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
-			]
-			id: "01787B3BD1903BA3"
-			rewards: [{
-				id: "75E53CC6DF992539"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "68C353B5335CCCE3"
-				item: "sereneseasons:calendar"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Seasons"
-			x: -3.6d
-			y: -4.85d
-		}
-		{
 			dependencies: ["032A60B0D79C6ACB"]
 			description: ["I have come across a windmill built by an engineer and his friend. It doubled as a greenhouse and a windmill, letting them cultivate year-round crops. Their basement was filled to the brim with oreberries, cultivated for their metals, but also their experience."]
 			id: "424203823967AE99"
