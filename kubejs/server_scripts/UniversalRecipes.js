@@ -79,6 +79,13 @@ ServerEvents.recipes(event => {
                         'irons_spellbooks:arcane_essence'
                 ]
         )
+        event.shapeless(
+                Item.of('patchouli:guide_book', '{"patchouli:book":"spelled:knowledge_tome"}'),
+                [
+                        'minecraft:book',
+                        'elementalcraft:aircrystal'
+                ]
+        )
         event.shaped(
                 Item.of('hpm:swashbuckleritem'),
                 [
@@ -112,24 +119,24 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:the_chariot')
 
-        event.shaped(
-                Item.of(
-                        'concatenationcore:full_wands',
-                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1204986711,1002462118,-1782657419,420111003],Slot:"curio"}]}'
-                ),
-                [
-                        'ABA',
-                        'CDE',
-                        'ABA'
-                ],
-                {
-                        A: '#forge:coins/gold',
-                        E: 'create:brass_hand',
-                        D: '#concatenation:middle_cards',
-                        C: 'constructionwand:diamond_wand',
-                        B: 'ars_nouveau:source_gem'
-                }
-        ).keepIngredient('#concatenation:middle_cards')
+        // event.shaped(
+        //         Item.of(
+        //                 'concatenationcore:full_wands',
+        //                 '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;-1204986711,1002462118,-1782657419,420111003],Slot:"curio"}]}'
+        //         ),
+        //         [
+        //                 'ABA',
+        //                 'CDE',
+        //                 'ABA'
+        //         ],
+        //         {
+        //                 A: '#forge:coins/gold',
+        //                 E: 'create:brass_hand',
+        //                 D: '#concatenation:middle_cards',
+        //                 C: 'constructionwand:diamond_wand',
+        //                 B: 'ars_nouveau:source_gem'
+        //         }
+        // ).keepIngredient('#concatenation:middle_cards')
 
         event.shaped(
                 Item.of(
@@ -375,27 +382,31 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('tarotcards:the_magician'),
                 [
-                        'ABA',
+                        'ADA',
                         'BCB',
-                        'ABA'
+                        'AEA'
                 ],
                 {
                         C: '#concatenation:magic_cards_t2',
                         B: 'irons_spellbooks:arcane_essence',
-                        A: 'concatenationcore:silver_paper'
+                        A: 'concatenationcore:silver_paper',
+                        D: 'concatenationcore:descran',
+                        E: '#elementalcraft:crystals'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
                 Item.of('tarotcards:temperance'),
                 [
-                        'ABA',
+                        'ADA',
                         'BCB',
-                        'ABA'
+                        'AEA'
                 ],
                 {
                         C: '#concatenation:magic_cards_t2',
                         B: 'irons_spellbooks:arcane_essence',
-                        A: 'concatenationcore:silver_paper'
+                        A: 'concatenationcore:silver_paper',
+                        D: 'elementalcraft:swift_alloy_ingot',
+                        E: 'perdition:limbo_berries'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
 

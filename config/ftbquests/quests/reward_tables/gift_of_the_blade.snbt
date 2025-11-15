@@ -1,0 +1,32 @@
+{
+	id: "7A4830004D1D918A"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "elementalcraft:receptacle"
+				tag: {
+					element_type: "earth"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "elementalcraft:receptacle"
+				tag: {
+					element_type: "fire"
+				}
+			}
+		}
+	]
+	title: "Gift of the Blade"
+}

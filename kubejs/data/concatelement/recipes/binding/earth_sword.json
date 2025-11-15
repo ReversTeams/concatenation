@@ -1,0 +1,26 @@
+{
+  "type": "elementalcraft:binding",
+  "element_amount": 7500,
+  "element_type": "earth",
+  "ingredients": [
+    {
+      "item": "elementalcraft:hardened_handle"
+    },
+    {
+      "item": "elementalcraft:pristine_earth_gem"
+    },
+    {
+      "item": "thermal:silver_ingot"
+    },
+    {
+      "item": "elementalcraft:fireite_ingot"
+    },
+    {
+      "item": "elementalcraft:source_stabilizer"
+    }
+  ],
+  "output": {
+    "Count": 1,
+    "item": "concatenationcore:temblor"
+  }
+}

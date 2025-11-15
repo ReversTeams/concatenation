@@ -27,6 +27,7 @@ backups
 # various config, caches, etc
 modernfix
 /**/README.*
+!/README.md
 about.txt
 *.tmp
 fml.toml
@@ -36,8 +37,13 @@ config/world_preview
 patchouli_data.json
 /config/**/*client.json
 /config/**/*client.toml
-/config/inventoryprofilesnext
+/config/**/*client.properties
+/config/inventoryprofilesnext/*
 /config/chunky/
+/config/packetfixer.properties
+/config/asyncparticles/*.properties
+/config/durabilitytooltip-common.toml
+/shaderpacks/*.zip.txt
 Distant_Horizons_server_data
 welcomescreen_cache.json
 .mixin.out
@@ -48,10 +54,19 @@ user-prefs.json
 essential
 ESM
 
-# why no work?
-/config/oculus.properties
-/config/packetfixer.properties
-/config/asyncparticles/*.properties
-/shaderpacks/*.zip.txt
-/journeymap/config/5.10/journeymap.fullmap.config
-/journeymap/config/5.10/journeymap.minimap.config
+# explicitly included config
+!config/ProjectE/client.toml
+!config/inventoryprofilesnext/inventoryprofiles.json
+!config/oculus.properties
+!config/playerrevive-client.json
+!config/simplyjetpacks-client.toml
+!config/amendments-client.toml
+!config/ars_nouveau-client.toml
+!config/cofh_core-client.toml
+!config/create-client.toml
+!config/patchouli-client.toml
+!config/storagedrawers-client.toml
+!config/structurize-client.toml
+!config/ae2/client.json
+!config/voicechat/voicechat-client.properties
+!config/Mekanism/tools-client.toml

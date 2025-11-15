@@ -39,12 +39,18 @@ ServerEvents.tags('item', event => {
         'minecraft:fire_charge',
         'elementalcraft:firecrystal',
         'elementalcraft:fire_shard',
-        'ars_nouveau:fire_essence'
+        'ars_nouveau:fire_essence',
+        'elementalcraft:elemental_firefuel',
+        'bloodmagic:reagentlava',
+        'tconstruct:magma_bottle',
+        'born_in_chaos_v1:fire_dust'
     ]);
 
     const baseCircuits = [
         'concatenationcore:altcircuit',
-        'concatenationcore:circuit'
+        'concatenationcore:circuit',
+        'strangematter:resonant_circuit',
+        'tfmg:circuit_board'
     ];
     const mekanismCircuits = [
         'mekanism:basic_control_circuit',
@@ -291,6 +297,14 @@ ServerEvents.tags('item', event => {
         'marbledsarsenal:black_plate_carrier_heavy'
     ]);
 
+    add('curios:belt', [
+        'concatenationcore:gold_card',
+    ]);
+
+    add('curios:element_holder', [
+        'concatenationcore:platinum_card',
+    ]);
+
     add('concatenation:breaking_tools', [
         "minecraft:diamond_pickaxe",
         "minecraft:netherite_pickaxe",
@@ -533,5 +547,37 @@ ServerEvents.tags('item', event => {
     add('theurgy:divination_rod_t1_allowed_blocks', [
         'the_deep_void:onyx_ore',
         'the_deep_void:lavendite_ore',
+    ])
+
+    add('concatenation:crafting_station', [
+        'craftingstation:crafting_station',
+        'tconstruct:crafting_station',
+    ])
+
+    add('concatenation:smooth_material', [
+        'industrialforegoing:plastic',
+        'tfmg:plastic_sheet',
+        'perdition:resin',
+        'elementalcraft:solar_prism',
+        'hexerei:moon_dust',
+        'integrateddynamics:crystalized_menril_chunk'
+    ])
+
+    add('concatenation:icing_item', [
+        'concatenationcore:ice_shard',
+        'celestisynth:wintereis_shard',
+        'irons_spellbooks:permafrost_shard',
+        'thermal:ice_charge'
+    ])
+
+    add('concatenation:watering_item', [
+        'ars_nouveau:water_essence',
+        'elementalcraft:watercrystal',
+        'elementalcraft:water_shard',
+        'bloodmagic:reagentwater'
+    ])
+
+    add('forge:gems/sulfur', [
+        'the_deep_void:sulfur'
     ])
 });

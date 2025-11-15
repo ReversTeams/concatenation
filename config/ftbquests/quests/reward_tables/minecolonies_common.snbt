@@ -1,5 +1,14 @@
 {
 	id: "23A030D0854BAACF"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "minecolonies_common"
+	}
 	loot_size: 1
 	order_index: 1
 	rewards: [
@@ -62,5 +71,5 @@
 		{ count: 2, item: "minecraft:cow_spawn_egg", weight: 0.5f }
 		{ count: 2, item: "minecraft:pig_spawn_egg", weight: 0.5f }
 	]
-	title: "MineColonies Common"
+	title: "Common"
 }

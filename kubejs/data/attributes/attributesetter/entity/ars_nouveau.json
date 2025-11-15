@@ -1,0 +1,23 @@
+{
+  "wilden_guardian": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "BASE"
+    }
+  ],
+  "wilden_hunter": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "BASE"
+    }
+  ],
+  "wilden_stalker": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 40,
+      "operation": "BASE"
+    }
+  ]
+}

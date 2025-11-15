@@ -114,10 +114,10 @@
     "modId": "attributefix",
     "version": "21.0.4"
   },
-  "attributizer-3.1.jar": {
-    "jarName": "attributizer-3.1.jar",
-    "modId": "attributizer",
-    "version": "3.1"
+  "attributesetter-1.11.1-forge.jar": {
+    "jarName": "attributesetter-1.11.1-forge.jar",
+    "modId": "attributesetter",
+    "version": "1.11.1-forge"
   },
   "BadOptimizations-2.3.1-1.20.1.jar": {
     "jarName": "BadOptimizations-2.3.1-1.20.1.jar",
@@ -244,10 +244,10 @@
     "modId": "cleanswing",
     "version": "1.8"
   },
-  "clientsort-forge-2.1.2+1.20.1.jar": {
-    "jarName": "clientsort-forge-2.1.2+1.20.1.jar",
+  "clientsort-forge-2.1.3+1.20.1.jar": {
+    "jarName": "clientsort-forge-2.1.3+1.20.1.jar",
     "modId": "clientsort",
-    "version": "2.1.2+1.20.1"
+    "version": "2.1.3+1.20.1"
   },
   "cloth-config-11.1.136-forge.jar": {
     "jarName": "cloth-config-11.1.136-forge.jar",
@@ -297,7 +297,7 @@
   "concatenationcore-1.2.1-2-forge-1.20.1.jar": {
     "jarName": "concatenationcore-1.2.1-2-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -311,6 +311,11 @@
   },
   "Connector-1.0.0-beta.46+1.20.1.jar": {
     "jarName": "Connector-1.0.0-beta.46+1.20.1.jar"
+  },
+  "ConnectorExtras-1.11.2+1.20.1.jar": {
+    "jarName": "ConnectorExtras-1.11.2+1.20.1.jar",
+    "modId": "connectorextras",
+    "version": "1.11.2+1.20.1"
   },
   "consecration-forge-7.0.2+1.20.1.jar": {
     "jarName": "consecration-forge-7.0.2+1.20.1.jar",
@@ -361,6 +366,11 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
+  },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
   },
   "craftingstation-1.20.1-1.3.2.jar": {
     "jarName": "craftingstation-1.20.1-1.3.2.jar",
@@ -682,10 +692,10 @@
     "modId": "ftblibrary",
     "version": "2001.2.10"
   },
-  "ftb-quests-forge-2001.4.14.jar": {
-    "jarName": "ftb-quests-forge-2001.4.14.jar",
+  "ftb-quests-forge-2001.4.15.jar": {
+    "jarName": "ftb-quests-forge-2001.4.15.jar",
     "modId": "ftbquests",
-    "version": "2001.4.14"
+    "version": "2001.4.15"
   },
   "ftb-teams-forge-2001.3.1.jar": {
     "jarName": "ftb-teams-forge-2001.3.1.jar",
@@ -831,6 +841,11 @@
     "jarName": "irons_spellbooks-1.20.1-3.4.0.11.jar",
     "modId": "irons_spellbooks",
     "version": "1.20.1-3.4.0.11"
+  },
+  "ismah-3.3.0+1.20.1+forge.jar": {
+    "jarName": "ismah-3.3.0+1.20.1+forge.jar",
+    "modId": "ismah",
+    "version": "3.3.0"
   },
   "item-filters-forge-2001.1.0-build.59.jar": {
     "jarName": "item-filters-forge-2001.1.0-build.59.jar",
@@ -1000,6 +1015,11 @@
     "modId": "melody",
     "version": "1.0.2"
   },
+  "mexposed-1.20.1-1.0.1.jar": {
+    "jarName": "mexposed-1.20.1-1.0.1.jar",
+    "modId": "mexposed",
+    "version": "1.20.1-1.0.1"
+  },
   "midnightlib-forge-1.4.2.jar": {
     "jarName": "midnightlib-forge-1.4.2.jar",
     "modId": "midnightlib",
@@ -1050,11 +1070,6 @@
     "modId": "netherportalfix",
     "version": "13.0.1"
   },
-  "noisium-forge-2.3.0+mc1.20-1.20.1.jar": {
-    "jarName": "noisium-forge-2.3.0+mc1.20-1.20.1.jar",
-    "modId": "noisium",
-    "version": "2.3.0+mc1.20-1.20.1"
-  },
   "nostartupmessages-1.0.1.jar": {
     "jarName": "nostartupmessages-1.0.1.jar",
     "modId": "nostartupmessages",
@@ -1074,6 +1089,11 @@
     "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
     "modId": "notenoughcrashes",
     "version": "4.4.9+1.20.1"
+  },
+  "Notes-1.20.1-1.3.0-forge.jar": {
+    "jarName": "Notes-1.20.1-1.3.0-forge.jar",
+    "modId": "notes",
+    "version": "1.20.1-1.3.0-forge"
   },
   "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
     "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
@@ -1105,10 +1125,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.1.1-forge-1.20.1.jar": {
-    "jarName": "perdition-1.1.1-forge-1.20.1.jar",
+  "perdition-1.2.0-forge-1.20.1.jar": {
+    "jarName": "perdition-1.2.0-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.1.1"
+    "version": "1.2.0"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -1174,6 +1194,11 @@
     "jarName": "realmrpg_dragon_wyrms_1.0.1_forge_1.20.1.jar",
     "modId": "realmrpg_wyrms",
     "version": "1.0.1"
+  },
+  "recipeessentials-1.20.1-4.0.jar": {
+    "jarName": "recipeessentials-1.20.1-4.0.jar",
+    "modId": "recipeessentials",
+    "version": "1.20.1-4.0"
   },
   "redirected-forge-1.0.0-1.20.1.jar": {
     "jarName": "redirected-forge-1.0.0-1.20.1.jar",
@@ -1303,6 +1328,11 @@
     "modId": "spark",
     "version": "1.10.53"
   },
+  "Spelled-1.20.1-0.6.2.2.jar": {
+    "jarName": "Spelled-1.20.1-0.6.2.2.jar",
+    "modId": "spelled",
+    "version": "0.6.2.2"
+  },
   "starterkit-1.20.1-7.4.jar": {
     "jarName": "starterkit-1.20.1-7.4.jar",
     "modId": "starterkit",
@@ -1347,6 +1377,11 @@
     "jarName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
     "modId": "supermartijn642configlib",
     "version": "1.1.8"
+  },
+  "supplementaries-1.20-3.1.41.jar": {
+    "jarName": "supplementaries-1.20-3.1.41.jar",
+    "modId": "supplementaries",
+    "version": "1.20-3.1.41"
   },
   "swashbucklers! 2.6.6B 1.20.1.jar": {
     "jarName": "swashbucklers! 2.6.6B 1.20.1.jar",

@@ -269,6 +269,30 @@
 		#ProjectE-Integration Recipe Mapper for Chipped Alchemy Bench Mapper. Required Mods: [chipped]
 		enabled = true
 
+	[CraftingMapper.ManaAndArtificeRunescribingMapper]
+		#ProjectE-Integration Recipe Mapper for Mana And Artifice Runescribing Mapper. Required Mods: [mna]
+		enabled = false
+
+	[CraftingMapper.ManaAndArtificeRuneforgingMapper]
+		#ProjectE-Integration Recipe Mapper for Mana And Artifice Runeforging Mapper. Required Mods: [mna]
+		enabled = true
+
+	[CraftingMapper.ManaAndArtificeRitualMapper]
+		#ProjectE-Integration Recipe Mapper for Mana And Artifice Ritual Mapper. Required Mods: [mna]NOTE: Disabled by default because this really shouldn't be here.
+		enabled = false
+
+	[CraftingMapper.ManaAndArtificeManaweavingMapper]
+		#ProjectE-Integration Recipe Mapper for Mana And Artifice Manaweaving Mapper. Required Mods: [mna]
+		enabled = true
+
+	[CraftingMapper.ManaAndArtificeEldrinAltarMapper]
+		#ProjectE-Integration Recipe Mapper for Mana And Artifice Eldrin Altar Mapper. Required Mods: [mna]
+		enabled = true
+
+	[CraftingMapper.ManaAndArtificeArcaneFurnaceMapper]
+		#ProjectE-Integration Recipe Mapper for Mana And Artifice Arcane Furnace Mapper. Required Mods: [mna]
+		enabled = true
+
 [enabledMappers]
 	#Set EMC=0 for everything in the forge:raw_materials tag
 	RawOresBlacklistMapper = true

@@ -3,6 +3,7 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
+    "craftingstation",
     "create",
     "createmetallurgy",
     "thermal",
@@ -35,7 +36,8 @@
     "forge:storage_blocks/raw_{material}",
     "forge:coins/{material}",
     "forge:rubber",
-    "forge:plastic"
+    "forge:plastic",
+    "concatenation:crafting_station"
   ],
   "materials": [
     "aeternium",

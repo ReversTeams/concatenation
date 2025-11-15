@@ -66,12 +66,16 @@ ServerEvents.recipes(event => {
                 'createdeco:zinc_sheet',
                 'createaddition:zinc_sheet'
         )
-
         event.replaceInput(
                 { input: 'ae2:calculation_processor' },
                 'ae2:calculation_processor',
                 'concatenationcore:primed_calculation_processor'
         )
+        event.replaceInput(
+                { output: 'tconstruct:crafting_station' },
+                'tconstruct:crafting_station',
+                'craftingstation:crafting_station'
+        );
 
         event.shaped(
                 Item.of('tconstruct:seared_melter'),
@@ -606,6 +610,19 @@ ServerEvents.recipes(event => {
                         B: 'create:cogwheel'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:tower_die'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'create:brass_sheet',
+                        C: 'tarotcards:the_tower'
+                }
+        ).keepIngredient('tarotcards:the_tower')
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',
