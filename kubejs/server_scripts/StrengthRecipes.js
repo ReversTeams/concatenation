@@ -609,4 +609,16 @@ ServerEvents.recipes(event => {
                         A: 'psi:ebony_psimetal'
                 }
         )
+        event.shaped(
+                Item.of('tacz:ammo', '{AmmoId:"tacz:338"}'),
+                [
+                        'AAB',
+                        '   ',
+                        '   '
+                ],
+                {
+                        A: 'createtaczauto:casing_338_lapua',
+                        B: 'createtaczauto:tiny_gunpowder_pile'
+                }
+        )
 });

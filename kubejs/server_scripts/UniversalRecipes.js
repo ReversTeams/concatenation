@@ -79,6 +79,13 @@ ServerEvents.recipes(event => {
                         'irons_spellbooks:arcane_essence'
                 ]
         )
+        event.shapeless(
+                Item.of('patchouli:guide_book', '{"patchouli:book":"spelled:knowledge_tome"}'),
+                [
+                        'minecraft:book',
+                        'elementalcraft:aircrystal'
+                ]
+        )
         event.shaped(
                 Item.of('immersive_weathering:steel_wool'),
                 [
@@ -387,27 +394,31 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('tarotcards:the_magician'),
                 [
-                        'ABA',
+                        'ADA',
                         'BCB',
-                        'ABA'
+                        'AEA'
                 ],
                 {
                         C: '#concatenation:magic_cards_t2',
                         B: 'irons_spellbooks:arcane_essence',
-                        A: 'concatenationcore:silver_paper'
+                        A: 'concatenationcore:silver_paper',
+                        D: 'concatenationcore:descran',
+                        E: '#elementalcraft:crystals'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
                 Item.of('tarotcards:temperance'),
                 [
-                        'ABA',
+                        'ADA',
                         'BCB',
-                        'ABA'
+                        'AEA'
                 ],
                 {
                         C: '#concatenation:magic_cards_t2',
                         B: 'irons_spellbooks:arcane_essence',
-                        A: 'concatenationcore:silver_paper'
+                        A: 'concatenationcore:silver_paper',
+                        D: 'elementalcraft:swift_alloy_ingot',
+                        E: 'perdition:limbo_berries'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
 

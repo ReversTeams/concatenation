@@ -38,12 +38,25 @@ ServerEvents.recipes(event => {
                 'reliquary:hero_medallion',
                 'torchmaster:feral_flare_lantern',
                 'torchmaster:frozen_pearl',
-                'reliquary:shears_of_winter'
+                'reliquary:shears_of_winter',
+                'thermal:laser_diode',
+                'spelled:ancient_knowledge_tome',
+                'spelled:leveling_altar',
+                'spelled:spell_book',
+                'elementalcraft:instrument_retriever',
+                'elementalcraft:pipe_priority_rings',
+                'elementalcraft:cover_frame',
+                'elementalcraft:pipe_priority_rings'
         ]
 
         remove.forEach(item => {
                 event.remove({ output: item })
         })
+
+        event.remove({ output: 'concatenationcore:conflagration', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'concatenationcore:windflaw', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'concatenationcore:riparian', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'concatenationcore:temblor', type: 'minecraft:crafting_shaped' })
 
         event.remove({ output: 'ars_nouveau:worn_notebook', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'ars_nouveau:novice_spell_book', type: 'minecraft:crafting_shapeless' })
@@ -978,13 +991,13 @@ ServerEvents.recipes(event => {
                 [
                         'elementalcraft:crude_fire_gem',
                         'elementalcraft:crude_fire_gem',
-                        'elementalcraft:purerock',
+                        'elementalcraft:purecrystal',
                         'elementalcraft:crude_fire_gem',
                         'elementalcraft:crude_fire_gem'
                 ]
         )
         event.shapeless(
-                Item.of('elementalcraft:pristine_fire_gem'),
+                Item.of('elementalcraft:pristine_fire_gem', 4),
                 [
                         'ars_nouveau:fire_essence',
                         'elementalcraft:fine_fire_gem',
@@ -1003,13 +1016,13 @@ ServerEvents.recipes(event => {
                 [
                         'elementalcraft:crude_earth_gem',
                         'elementalcraft:crude_earth_gem',
-                        'elementalcraft:purerock',
+                        'elementalcraft:purecrystal',
                         'elementalcraft:crude_earth_gem',
                         'elementalcraft:crude_earth_gem'
                 ]
         )
         event.shapeless(
-                Item.of('elementalcraft:pristine_earth_gem'),
+                Item.of('elementalcraft:pristine_earth_gem', 4),
                 [
                         'ars_nouveau:earth_essence',
                         'elementalcraft:fine_earth_gem',
@@ -1028,13 +1041,13 @@ ServerEvents.recipes(event => {
                 [
                         'elementalcraft:crude_water_gem',
                         'elementalcraft:crude_water_gem',
-                        'elementalcraft:purerock',
+                        'elementalcraft:purecrystal',
                         'elementalcraft:crude_water_gem',
                         'elementalcraft:crude_water_gem'
                 ]
         )
         event.shapeless(
-                Item.of('elementalcraft:pristine_water_gem'),
+                Item.of('elementalcraft:pristine_water_gem', 4),
                 [
                         'ars_nouveau:water_essence',
                         'elementalcraft:fine_water_gem',
@@ -1053,13 +1066,13 @@ ServerEvents.recipes(event => {
                 [
                         'elementalcraft:crude_air_gem',
                         'elementalcraft:crude_air_gem',
-                        'elementalcraft:purerock',
+                        'elementalcraft:purecrystal',
                         'elementalcraft:crude_air_gem',
                         'elementalcraft:crude_air_gem'
                 ]
         )
         event.shapeless(
-                Item.of('elementalcraft:pristine_air_gem'),
+                Item.of('elementalcraft:pristine_air_gem', 4),
                 [
                         'ars_nouveau:air_essence',
                         'elementalcraft:fine_air_gem',
@@ -1073,16 +1086,149 @@ ServerEvents.recipes(event => {
                 ]
         )
 
+        // event.shaped(
+        //         Item.of('mcore:titanium_ingot', 8),
+        //         [
+        //                 'AAA',
+        //                 'ABA',
+        //                 'AAA'
+        //         ],
+        //         {
+        //                 A: Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"mcore:titanium"}}'),
+        //                 B: 'minecraft:diamond'
+        //         }
+        // )
         event.shaped(
-                Item.of('mcore:titanium_ingot', 8),
+                Item.of('concatenationcore:water_sword_base'),
+                [
+                        ' AB',
+                        'CBA',
+                        'DC '
+                ],
+                {
+                        B: 'elementalcraft:drenched_iron_ingot',
+                        A: 'elementalcraft:powerful_water_shard',
+                        C: 'thermal:apatite',
+                        D: 'thermal:silver_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('spelled:leveling_altar'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        C: 'elementalcraft:swift_alloy_nugget',
+                        E: 'minecraft:redstone',
+                        B: '#elementalcraft:gems/input_air',
+                        A: 'elementalcraft:springaline_shard',
+                        D: 'minecraft:book'
+                }
+        )
+        event.shapeless(
+                Item.of('spelled:spell_book'),
+                [
+                        'minecraft:writable_book',
+                        'elementalcraft:springaline_shard'
+                ]
+        )
+        event.shapeless(
+                Item.of('spelled:ancient_knowledge_tome'),
+                [
+                        'elementalcraft:scroll_paper',
+                        'elementalcraft:scroll_paper',
+                        '#elementalcraft:crystals/elemental',
+                        'elementalcraft:scroll_paper',
+                        'minecraft:leather'
+                ]
+        )
+        event.shaped(
+                Item.of('perdition:pure_soil', 8),
                 [
                         'AAA',
                         'ABA',
                         'AAA'
                 ],
                 {
-                        A: Item.of('elementalcraft:pure_ore', '{elementalcraft:{ore:"mcore:titanium"}}'),
-                        B: 'minecraft:diamond'
+                        B: 'elementalcraft:purerock',
+                        A: 'minecraft:grass_block'
+                }
+        )
+        event.shaped(
+                Item.of('perdition:pure_soil', 12),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'strangematter:anomalous_grass',
+                        B: 'elementalcraft:purerock'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:instrument_retriever'),
+                [
+                        'AB ',
+                        'CDA',
+                        'AB '
+                ],
+                {
+                        B: 'elementalcraft:whiterock',
+                        D: 'minecraft:hopper',
+                        A: 'elementalcraft:drenched_iron_nugget',
+                        C: '#elementalcraft:crystals/elemental'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:sorter'),
+                [
+                        'ABC',
+                        'DEA',
+                        'ABC'
+                ],
+                {
+                        B: 'elementalcraft:whiterock',
+                        D: 'itemfilters:custom',
+                        E: 'minecraft:hopper',
+                        A: 'elementalcraft:drenched_iron_nugget',
+                        C: '#elementalcraft:crystals/elemental'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:pipe_priority_rings', 8),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        A: 'elementalcraft:drenched_iron_nugget',
+                        B: 'elementalcraft:elementpipe'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:cover_frame', 3),
+                [
+                        'AAA',
+                        'A A',
+                        'AAA'
+                ],
+                {
+                        A: 'elementalcraft:drenched_iron_nugget'
+                }
+        )
+        event.shaped(
+                Item.of('elementalcraft:cover_frame', 27),
+                [
+                        'AAA',
+                        'A A',
+                        'AAA'
+                ],
+                {
+                        A: 'elementalcraft:drenched_iron_ingot'
                 }
         )
 });

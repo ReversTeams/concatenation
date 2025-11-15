@@ -1,5 +1,14 @@
 {
 	id: "44D355363D3500BF"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "choice_hospital"
+	}
 	loot_size: 1
 	order_index: 4
 	rewards: [

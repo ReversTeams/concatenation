@@ -1,5 +1,14 @@
 {
 	id: "666E133AAE349F45"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "anomalous_shards"
+	}
 	loot_size: 1
 	order_index: 15
 	rewards: [

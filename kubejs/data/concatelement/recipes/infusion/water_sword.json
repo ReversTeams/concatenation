@@ -1,0 +1,11 @@
+{
+  "type": "elementalcraft:infusion",
+  "output": {
+    "item": "concatenationcore:riparian"
+  },
+  "element_type": "water",
+  "element_amount": 7500,
+  "input": {
+    "item": "concatenationcore:water_sword_base"
+  }
+}
