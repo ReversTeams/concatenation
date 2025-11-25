@@ -1,6 +1,6 @@
 
 {
-	autofocus_id: "2CEDBC536409D424"
+	autofocus_id: "768D38C149E01806"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_journey"
@@ -190,6 +190,7 @@
 				"{@pagebreak}"
 				"To switch to this pathway, only &6the Sun&r and &bHigh Priestess&r pathways are adjacent. Mages and technicians can craft &dthe Hermit&r card using silver paper and their respective ingredients. "
 			]
+			hide_dependent_lines: true
 			id: "06A4BEEE42830A85"
 			rewards: [{
 				id: "037E71B3775DC2AF"
@@ -832,7 +833,6 @@
 				""
 				"Later on, more advanced logistics requires the &6Chariot&r card."
 			]
-			hide_dependent_lines: true
 			id: "35C32229A51A1B7D"
 			rewards: [{
 				id: "16D39A0CA610EC2B"
@@ -861,6 +861,7 @@
 		{
 			dependencies: ["35C32229A51A1B7D"]
 			description: ["Instead of powering your tugs and locomotives with boring coal, you can now use power instead! This will require a charging station alongside the docking station."]
+			hide_dependency_lines: true
 			id: "23ECA60515FA9F7B"
 			rewards: [{
 				id: "3DF8B1F5AEC6E9EB"
@@ -1201,7 +1202,10 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["31750A18D07A8904"]
+			dependencies: [
+				"31750A18D07A8904"
+				"5153F78E7C90421F"
+			]
 			description: ["Seared Bricks, resistant to heat and molten liquids, forms the basis of the smeltery used for casting, alloying and processing ores."]
 			id: "5F7CEE33D11A352F"
 			rewards: [{
@@ -1222,8 +1226,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: -2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1251,11 +1255,14 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -4.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["5B6717870A814E8C"]
+			dependencies: [
+				"5B6717870A814E8C"
+				"2515356468657815"
+			]
 			description: [
 				"The Smeltery is used for ore processing, alloying and further advancement in tinkering. It's a multiblock apparatus requiring a square or rectangular seared bricks structure, also using seared tanks to hold lava required for melting ores."
 				"{@pagebreak}"
@@ -1330,8 +1337,8 @@
 				}
 			]
 			title: "The Mighty Smeltery"
-			x: -4.4d
-			y: 10.450000000000001d
+			x: -4.95d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1361,7 +1368,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -2386,7 +2393,7 @@
 			}]
 			title: "Core of the System"
 			x: -11.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2431,8 +2438,8 @@
 				}
 			]
 			title: "ME Storage System"
-			x: -10.5d
-			y: -6.5d
+			x: -11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2456,8 +2463,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -6.5d
+			x: -13.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2505,8 +2512,8 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
-			y: -8.5d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -8598,19 +8605,26 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "0429758C3E5069CC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "0429758C3E5069CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "create:goggles"
 					}
-					id: "create:goggles"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6458E2F0E4309F64"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: 11.0d
 		}
@@ -8791,7 +8805,7 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -4.0d
+			x: -5.5d
 			y: 6.5d
 		}
 		{
@@ -8837,7 +8851,7 @@
 				}
 			]
 			title: "Tinkering"
-			x: -4.0d
+			x: -5.5d
 			y: 8.0d
 		}
 		{
@@ -8894,7 +8908,7 @@
 				}
 			]
 			title: "Efficient Tinkering Storage"
-			x: -6.0d
+			x: -7.0d
 			y: 7.0d
 		}
 		{
@@ -8919,7 +8933,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 8.5d
 		}
 		{
@@ -9196,8 +9210,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9501,7 +9515,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
@@ -18575,7 +18589,7 @@
 			]
 			title: "Dark Metal \\& Dense Alloy"
 			x: 8.5d
-			y: -12.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -18596,7 +18610,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -13.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6E6759704F7023AB"]
@@ -18655,7 +18669,7 @@
 			]
 			title: "Dark Metal Armour"
 			x: 9.5d
-			y: -14.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -18686,7 +18700,7 @@
 				}
 			]
 			x: 10.0d
-			y: -11.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
@@ -18745,7 +18759,7 @@
 			]
 			title: "Nightmare Armour"
 			x: 11.0d
-			y: -12.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -18795,8 +18809,8 @@
 				type: "item"
 			}]
 			title: "Dark Metal Weapons"
-			x: 8.0d
-			y: -13.5d
+			x: 7.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
@@ -18854,7 +18868,7 @@
 			}]
 			title: "Nightmare Weapons"
 			x: 11.5d
-			y: -11.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -18898,7 +18912,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -10.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -19493,7 +19507,7 @@
 			]
 			title: "Specialized Tools"
 			x: -2.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19571,7 +19585,7 @@
 			}]
 			title: "Vein Hammer"
 			x: -1.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19790,7 +19804,7 @@
 			}]
 			title: "Melee Weapons"
 			x: -2.5d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -21822,8 +21836,8 @@
 				}
 			]
 			title: "Casting"
-			x: -1.0d
-			y: 9.0d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["640ED9A58F8DD165"]
@@ -22593,25 +22607,30 @@
 			y: 24.5d
 		}
 		{
-			dependencies: ["0D70725FEAF0DC7B"]
+			dependencies: [
+				"1203CDC5DF26F779"
+				"0D70725FEAF0DC7B"
+			]
 			description: [
 				"The Eternal Candy is a fascinating food item, and the only one you would ever need for the rest of your life, as it is everlasting. The lollipop reforms itself as you eat it, granting a different effect with each bite."
 				""
 				"In the obtaining of this flavourful treat, fighting a Lord Pumpkinhead and his minions may be necessary to obtain the various different candies needed."
 			]
+			hide_dependency_lines: true
 			id: "7F019DF6C3668106"
 			rewards: [{
 				id: "0F2EC103652FA131"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 1.15d
 			tasks: [{
 				id: "7A4E8C06B593D379"
 				item: "born_in_chaos_v1:eternal_candy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -12.0d
+			x: -13.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -23199,13 +23218,12 @@
 			id: "6FF7A0577DDC2F2D"
 			rewards: [
 				{
-					count: 5
+					count: 2
 					id: "18150F85F9C81FDF"
 					item: "industrialforegoing:machine_frame_advanced"
 					type: "item"
 				}
 				{
-					count: 3
 					id: "3E6782695899BFC0"
 					item: "industrialforegoing:machine_frame_supreme"
 					type: "item"
@@ -27861,12 +27879,12 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["770B8C25D934EC9B"]
+			dependencies: ["314ACC07FE5193DC"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This leveling altar can be used to augment your proficiency in the &oknowledge of words&r."
+				"This leveling altar can be used to augment your proficiency in the &oknowledge of words&r, allowing you to use spells."
 				""
-				"This requires a substantial amount of experience and air essences, as words travel through the air."
+				"This requires an amount of experience and air essences, as words travel through the air. Air essences can be produced by infusing an air crystal with more air."
 			]
 			id: "08F5E41C824834DC"
 			rewards: [{
@@ -27880,8 +27898,8 @@
 				item: "spelled:leveling_altar"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 12.0d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -28391,6 +28409,809 @@
 			}]
 			x: 3.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"Slower and less efficient than the brick alloy smelter, it is still cheaper to make. This makes it a good choice early on when clay is hard to come by to make bricks."
+				""
+				"The main downside of this alloy smelter is that it cannot handle raw materials requiring higher heat throughput, which the other smelters can. The stone alloy smelter still smelts ore way faster than a regular furnace."
+				"{@pagebreak}"
+				"The alloy smelter requires a controller with a 3x3 stone brick base underneath and a 2 block-high hollow chimney around the controller."
+				""
+				"{image:concatenationcore:textures/alloy_smelter.png width:100 height:100 align:center}"
+			]
+			icon: "alloy_smelter:forge_controller_tier1"
+			id: "6E52172809E1ADA4"
+			rewards: [{
+				count: 32
+				id: "027D3C29CF0CF59D"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CF32B1A5192850A"
+					item: "alloy_smelter:forge_controller_tier1"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5F12350514A2BEDE"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+			]
+			title: "Stone Alloy Smelter"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"An efficient smelting furnace, able to handle double the amount of ore and for a much faster output. "
+				""
+				"The alloy smelter is quite fast compared to a regular furnace and is even fuel-efficient when smelting in batches of two."
+				"{@pagebreak}"
+				"The alloy smelter requires a controller with a 3x3 brick base underneath and a 2 block-high hollow chimney around the controller."
+				""
+				"{image:concatenationcore:textures/alloy_smelter.png width:100 height:100 align:center}"
+			]
+			icon: "alloy_smelter:forge_controller_tier2"
+			id: "5153F78E7C90421F"
+			rewards: [{
+				count: 16
+				id: "6C0F1DC837A484DF"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Hasteful Ore Processing"
+			tasks: [
+				{
+					id: "16889CAF8762FA77"
+					item: "alloy_smelter:forge_controller_tier2"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "27380B5CCEC89237"
+					item: { Count: 16, id: "minecraft:bricks" }
+					type: "item"
+				}
+			]
+			title: "Brick Alloy Smelter"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5153F78E7C90421F"]
+			description: [
+				"The fastest of the alloy smelters, the scorchia alloy smelter is made from a material originating from the netherworld, allowing for the highest heat throughout."
+				""
+				"It is a very noticeable speed upgrade over its predecessor and can &ldouble the yield of raw ore!&r As a result, it uses more fuel, sadly."
+				"{@pagebreak}"
+				"The alloy smelter requires a controller with a 3x3 scorchia brick base underneath and a 2 block-high hollow chimney around the controller."
+			]
+			icon: "alloy_smelter:forge_controller_tier3"
+			id: "0C08591DA9C6D314"
+			rewards: [{
+				count: 4
+				id: "2267F61B4AFD158F"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "Double Ore Processing"
+			tasks: [
+				{
+					id: "233CFA78B0318F5A"
+					item: "alloy_smelter:forge_controller_tier3"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "79D46DD45493D39B"
+					item: "create:cut_scorchia_bricks"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Scorchia Alloy Smelter"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["050A151DEB4BAF79"]
+			description: [
+				"Certus Quartz tools are quite brittle but are still quite efficient and have a sufficient harvesting level to be useful. "
+				""
+				"Their main use will most likely be to be upgraded into fluix tools, which are better in every way conceivable."
+			]
+			id: "395E588AC17BB8BA"
+			rewards: [{
+				count: 4
+				id: "698A02B051A681D9"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "627A9A47AAC84C80"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_cutting_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Certus Quartz Tools"
+				type: "item"
+			}]
+			title: "Certus Quartz Tools"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["395E588AC17BB8BA"]
+			description: ["Fluix Tools are an upgrade to Certus Quartz Tools, possessing innate fortune/loot on top of increased durability and damage."]
+			id: "1308F220F8F86914"
+			rewards: [{
+				count: 6
+				id: "35F9A82563741A9D"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B99C36C79D23A2F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:fluix_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Fluix Tools"
+				type: "item"
+			}]
+			title: "Fluix Tools"
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5153F78E7C90421F"]
+			description: [
+				"Ferrotin Bronze is an uncertain alloy between iron and bronze, which can be alloyed in an alloy smelter. It doesn't seem like it should yield a proper durable material, but iron coats around the bronze similarly to the zinc of galvanized iron. It's quite strange, honestly."
+				""
+				"Ferrotin Bronze is often used in metallurgy and some precision tools, as well as a base for some machinery."
+			]
+			id: "2515356468657815"
+			rewards: [{
+				count: 4
+				id: "7A2BADF4B025AED7"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "534FCEE723BF3A23"
+				item: "concatenationcore:ferrotin_bronze_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["53F8923B85A8A9CC"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "768D38C149E01806"
+			invisible: true
+			tasks: [{
+				id: "6EFE56EE1C42E6DD"
+				title: "Center Quest"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F3C19C3311A0821"]
+			description: ["The protection charm can be used to ward off spirits, setting those in the surroundings ablaze."]
+			id: "4FC869D65BF74936"
+			rewards: [{
+				id: "0907BC5592F28A44"
+				item: "born_in_chaos_v1:fire_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "708801E620DD0322"
+				item: {
+					Count: 1
+					id: "concatenationcore:protection_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4FC869D65BF74936"]
+			description: [
+				"The Stalker Ward is an especially useful charm that has grown in use ever since the eternal night ended. Ever since then, Nightmare Stalkers have appeared to hunt even some of the strongest mages or engineers. "
+				""
+				"This charm can be used to detect and set ablaze incoming nightmare stalkers to prevent surprise attacks."
+			]
+			id: "46C22E299931527F"
+			rewards: [{
+				count: 5
+				id: "2610BD28594E3B50"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			subtitle: "Nightmare Stalker Radar"
+			tasks: [{
+				id: "3DAE5CEC1D547AEE"
+				item: "concatenationcore:stalker_ward"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7A5623529A14D75C"
+				"6DC8F1DBCCF2870B"
+			]
+			id: "52FC5BE60F179800"
+			rewards: [{
+				id: "69F9A8AEE8704BCC"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23CC5196E269A6D7"
+				item: "born_in_chaos_v1:dark_atrium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["452B4AEA8F109054"]
+			id: "7A5623529A14D75C"
+			rewards: [{
+				count: 3
+				id: "0706A604C02E72B5"
+				item: "reliquary:withered_rib"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CD058F2D22DC34F"
+				item: "born_in_chaos_v1:lifestealer_bone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["452B4AEA8F109054"]
+			id: "6DC8F1DBCCF2870B"
+			rewards: [{
+				id: "6F395F880F10646B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0943BB15E9C2A3B0"
+				item: "born_in_chaos_v1:bone_heart"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			id: "452B4AEA8F109054"
+			rewards: [{
+				id: "6092510E3E2CE69A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "06CA2FF4D1EC6721"
+				item: "born_in_chaos_v1:fused_bone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"Legends are among the hunter and corpse collector communities of these cakes, which can be cooked if only rarely due to their use of a transmutating elixir."
+				""
+				"It is said that this cake grants a long and powerful boon,"
+			]
+			hide_dependency_lines: true
+			id: "73FDE90E402C4E13"
+			rewards: [{
+				id: "440C0F5FD9633EE8"
+				item: {
+					Count: 1
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "born_in_chaos_v1:nightmare_stalker"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2ACFB28C114416"
+				item: "born_in_chaos_v1:transforming_easter_cake"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["0F3C19C3311A0821"]
+			description: [
+				"The Death Totem is a cruder but more readily available version of the totem of undying. It can be crafted some mostly scavenged materials and a stray ethreal spirit."
+				""
+				"This small artifact will protect the wielder from severe damage, at a steep hunger cost."
+				"{@pagebreak}"
+				"Those wearing nightmare armor have a higher synergy with this artifact, becoming closer to death."
+			]
+			id: "6DDF825684E088D4"
+			rewards: [{
+				id: "12DEBAE922B01C72"
+				item: "born_in_chaos_v1:seedof_chaos"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B606035EA11165D"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: ["Hunters of the undead and supernatural have often entered into beneficial relationships with corpse collectors of the Death Pathway. Hunters have no use for stray solidified souls, but some do. These ethereal spirits have various uses."]
+			id: "0F3C19C3311A0821"
+			rewards: [{
+				id: "6A5DAD77F34D7AB9"
+				item: "born_in_chaos_v1:shattered_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49C94B45BECA4439"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0F3C19C3311A0821"]
+			description: ["Ethereal spirits can be channeled into charms to grant the user a certain boost for a period of time."]
+			id: "317E362F0206B197"
+			rewards: [{
+				count: 5
+				id: "24A66E25521AB463"
+				item: "born_in_chaos_v1:ethereal_spirit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BF4CC7C21AC6FE1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:charmof_fury"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:charmof_power"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:charmof_resistance"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:charmof_stealth"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:charmof_endurance"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Charm"
+				type: "item"
+			}]
+			title: "Charms"
+			x: 9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: ["Some rare weapons can be found on undead lumberjacks and these so-called \"door knights\". These can prove to be useful in a pinch, or as a backup weapon. Most hunters keep them as a trophy, though."]
+			id: "67077EF335A03D7C"
+			rewards: [{
+				id: "61C1E99FF3C50332"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5E2607DAB4D7DAD3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:wood_splitter_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "born_in_chaos_v1:trident_hayfork"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Legendary Weapon"
+				type: "item"
+			}]
+			title: "Legendary Weapons"
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0F3C19C3311A0821"]
+			description: ["Although it is the witches of the Temperance Pathway that have the bulk of summoning potential, corpse collectors can make use of rudimentary necromancy to summon zombies and skeletons easily using a medium."]
+			hide_dependency_lines: true
+			id: "2963B525970F3CD4"
+			rewards: [
+				{
+					id: "4A4CE070F84BFDAB"
+					item: "summonerscrolls:enhancement_scroll"
+					type: "item"
+				}
+				{
+					id: "1DD757CEAC3821C3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "748195E882B89193"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "summonerscrolls:zombie_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 0
+									count: 1
+									damageAmount: 1
+									summon: "summonerscrolls:zombie_summon"
+								}
+							}
+							{
+								Count: 1b
+								id: "summonerscrolls:skeleton_summoner_scroll"
+								tag: {
+									Damage: 0
+									cost: 0
+									count: 1
+									damageAmount: 2
+									summon: "summonerscrolls:skeleton_summon"
+								}
+							}
+						]
+					}
+				}
+				title: "Zombie or Skeleton Summoning Scroll"
+				type: "item"
+			}]
+			title: "Necromancy"
+			x: 11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"The Lifestealer is a creature of nightmares, but it ain't no nightmare stalker. It stays hidden under a mantle until triggered or when hunting prey. It sucks out its victim's lifeforce and takes it for its own, making for a most challenging foe."
+				""
+				"Experienced mages and fighters will have no issue dispatching these small lords, with a greater emphasis on ranged attacks."
+			]
+			hide_dependency_lines: true
+			id: "7792C9C4083B5E66"
+			rewards: [
+				{
+					count: 3
+					id: "0E02ACF1FF62CB72"
+					item: "born_in_chaos_v1:elixir_of_vampirism"
+					type: "item"
+				}
+				{
+					id: "7E40656B446A0E20"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "6476C628F809FBD6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Lifestealer"
+			x: 10.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"The missionary would seem to be related to the illagers, perhaps as a higher spirit or associate. It can appear in some of their raids. As a necromancer, it can summon some of the undead as support and likes to teleport away when doing so, so be careful."
+				""
+				"It has several ranged and magical attacks."
+			]
+			hide_dependency_lines: true
+			id: "331B463F56B12F4C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0712A581517936FB"
+					table_id: 1142461523967912805L
+					type: "choice"
+				}
+				{
+					id: "586573356C7779AC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:missionary_raider"
+				icon: "born_in_chaos_v1:missionaryicon"
+				id: "25DA78F8381F1D39"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Missionary"
+			x: 9.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: ["A mythical creature from the cold and frozen wastelands. It is often angered by the slaughtering of small and defenceless animals."]
+			hide_dependency_lines: true
+			id: "067237DD7132D829"
+			rewards: [{
+				id: "2D7BF1BA9F56FB23"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				icon: "born_in_chaos_v1:creepy_gift"
+				id: "475A703979D86F93"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Krampus"
+			x: 12.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: ["Lord Pumpkinhead's origins stem from another world. A sinister lord that is fully battle-ready when summoned and poses a serious threat."]
+			hide_dependency_lines: true
+			id: "410C0B331F8A12F2"
+			rewards: [{
+				id: "7FF7C180BCDF92D7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44FF0850EB16E57C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Lord Pumpkinhead"
+			x: 11.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0D70725FEAF0DC7B"]
+			description: [
+				"The Spirit of Chaos is one of the remnants of the eternal night, turning into a chaotic existence complimented by other such undead or paranormal beings."
+				""
+				"It can take possession of your enemies, strengthening it considerably. It makes them much faster, hit a lot harder, but on their own, these spirits are quite weak. An exorcism through death is needed to get them out of someone. The condition is lethal."
+			]
+			hide_dependency_lines: true
+			id: "2DC88F1D0EDBD7B7"
+			rewards: [
+				{
+					id: "0F10AAF065D170E3"
+					item: {
+						Count: 1
+						id: "summonerscrolls:shulkerman_summoner_scroll"
+						tag: {
+							Damage: 0
+							cost: 5
+							count: 1
+							damageAmount: 10
+							summon: "summonerscrolls:shulkerman_summon"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CD8F8CE6AE0B7B0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				advancement: "born_in_chaos_v1:exorcism"
+				criterion: ""
+				id: "4204DA36E8C9AD7C"
+				type: "advancement"
+			}]
+			title: "Exorcism"
+			x: 12.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			id: "334048AFEC728E43"
+			rewards: [{
+				count: 32
+				id: "249A15DF56BE385A"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B5672273E7B0717"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			id: "35E247C8832BFBD6"
+			rewards: [{
+				count: 32
+				id: "215E6FF1088626E5"
+				item: "ppfluids:fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3022B05C66BBC03E"
+				item: "ppfluids:fluid_pipe"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
 		}
 	]
 	title: "The Journey"

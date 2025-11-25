@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1762908304462
+  last_edited_time = 1764050065851
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:84fe75f1-2c15-4cb1-a4b2-d9a3a543d105-1762908294783] = [groups:][instances:]
+  [loading_requirement_container_meta:64cdc17d-9aea-4a68-bb76-765039e476f0-1764050024140] = [groups:][instances:]
 }
 
 menu_background {
@@ -291,7 +291,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/event-titles/prudentperogative.png
+  source = [source:local]/config/fancymenu/assets/event-titles/deathupdate.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -449,7 +449,7 @@ element {
 
 element {
   interactable = true
-  source = Prudent Prerogative is a major update for Concatenation that overhauls most of the magic side of the pack. The Temperance and Magician pathways now have access to the newly opened Purgatory dimension, source of many alternate recipes for their paths. Temperance and Hierophant can now both converge into the new Prudence Pathway, delving into anomalous technology and gadgets.%n%%n%The later The Lovers and The Devil pathways have been completed, their progression completely changed to bring about a revolutionized end to the magic tree.
+  source = The Death Update expands the Death Pathway, adding some new items as well as clarifying the rest of Born in Chaos while adding new lore.%n%%n%At the same time, the start of the Hermit Pathway was revamped with a new alloy smelter and resources, along with buffing tools for the Hierophant Pathway.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -516,7 +516,7 @@ element {
 
 element {
   interactable = true
-  source = 11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"
+  source = 11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"
   source_mode = direct
   shadow = true
   scale = 0.5

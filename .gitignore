@@ -70,3 +70,4 @@ ESM
 !config/ae2/client.json
 !config/voicechat/voicechat-client.properties
 !config/Mekanism/tools-client.toml
+!config/stylisheffects-client.toml

@@ -2,7 +2,7 @@
   "options": {
     "interactionInterval": 10,
     "useServerAcceleration": true,
-    "useClientFallback": false,
+    "useClientFallback": true,
     "optimizeCreativeSorting": true,
     "autoOpDelayPlayer": 2,
     "autoOpDelayContainer": 2,

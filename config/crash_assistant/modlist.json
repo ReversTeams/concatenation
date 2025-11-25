@@ -19,15 +19,20 @@
     "modId": "ae2ct",
     "version": "1.20.1-1.1.1"
   },
-  "ae2wtlib-15.3.1-forge.jar": {
-    "jarName": "ae2wtlib-15.3.1-forge.jar",
+  "ae2wtlib-15.3.3-forge.jar": {
+    "jarName": "ae2wtlib-15.3.3-forge.jar",
     "modId": "ae2wtlib",
-    "version": "15.3.1-forge"
+    "version": "15.3.3-forge"
   },
   "AI-Improvements-1.20-0.5.2.jar": {
     "jarName": "AI-Improvements-1.20-0.5.2.jar",
     "modId": "aiimprovements",
     "version": "0.5.2"
+  },
+  "alloy_smelter-forge-1.20.1-1.2.0.jar": {
+    "jarName": "alloy_smelter-forge-1.20.1-1.2.0.jar",
+    "modId": "alloy_smelter",
+    "version": "1.2.0"
   },
   "alltheleaks-1.1.0+1.20.1-forge.jar": {
     "jarName": "alltheleaks-1.1.0+1.20.1-forge.jar",
@@ -54,10 +59,10 @@
     "modId": "appleskin",
     "version": "2.5.1+mc1.20.1"
   },
-  "Applied-Mekanistics-1.4.2.jar": {
-    "jarName": "Applied-Mekanistics-1.4.2.jar",
+  "Applied-Mekanistics-1.4.3.jar": {
+    "jarName": "Applied-Mekanistics-1.4.3.jar",
     "modId": "appmek",
-    "version": "1.4.2"
+    "version": "1.4.3"
   },
   "appliedenergistics2-forge-15.4.10.jar": {
     "jarName": "appliedenergistics2-forge-15.4.10.jar",
@@ -154,10 +159,10 @@
     "modId": "blockui",
     "version": "1.20.1-1.0.194"
   },
-  "bloodmagic-1.20.1-3.3.3-45.jar": {
-    "jarName": "bloodmagic-1.20.1-3.3.3-45.jar",
+  "bloodmagic-1.20.1-3.3.5-47.jar": {
+    "jarName": "bloodmagic-1.20.1-3.3.5-47.jar",
     "modId": "bloodmagic",
-    "version": "3.3.3-45"
+    "version": "3.3.5-47"
   },
   "Bookshelf-Forge-1.20.1-20.2.13.jar": {
     "jarName": "Bookshelf-Forge-1.20.1-20.2.13.jar",
@@ -169,10 +174,10 @@
     "modId": "born_in_chaos_v1",
     "version": "1.7.3"
   },
-  "borninconfiguration-3.1.1-all.jar": {
-    "jarName": "borninconfiguration-3.1.1-all.jar",
+  "borninconfiguration-3.1.2-all.jar": {
+    "jarName": "borninconfiguration-3.1.2-all.jar",
     "modId": "borninconfiguration",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   "BotanyPots-Forge-1.20.1-13.0.41.jar": {
     "jarName": "BotanyPots-Forge-1.20.1-13.0.41.jar",
@@ -289,15 +294,20 @@
     "modId": "commonnetworking",
     "version": "1.0.5-1.20.1"
   },
+  "common_ore_library_v2.0.1-1.20.1.jar": {
+    "jarName": "common_ore_library_v2.0.1-1.20.1.jar",
+    "modId": "common_ore_library",
+    "version": "2.0.0-1.20.1"
+  },
   "CommonCapabilities-1.20.1-2.9.9.jar": {
     "jarName": "CommonCapabilities-1.20.1-2.9.9.jar",
     "modId": "commoncapabilities",
     "version": "2.9.9"
   },
-  "concatenationcore-1.2.2-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.2.2-forge-1.20.1.jar",
+  "concatenationcore-1.2.3-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.2.3-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -702,10 +712,10 @@
     "modId": "ftblibrary",
     "version": "2001.2.10"
   },
-  "ftb-quests-forge-2001.4.15.jar": {
-    "jarName": "ftb-quests-forge-2001.4.15.jar",
+  "ftb-quests-forge-2001.4.16.jar": {
+    "jarName": "ftb-quests-forge-2001.4.16.jar",
     "modId": "ftbquests",
-    "version": "2001.4.15"
+    "version": "2001.4.16"
   },
   "ftb-teams-forge-2001.3.1.jar": {
     "jarName": "ftb-teams-forge-2001.3.1.jar",
@@ -1210,6 +1220,16 @@
     "modId": "polymorph",
     "version": "0.49.10+1.20.1"
   },
+  "ppfluids-1.20.1-2.0.1.jar": {
+    "jarName": "ppfluids-1.20.1-2.0.1.jar",
+    "modId": "ppfluids",
+    "version": "2.0.1"
+  },
+  "PrettyPipes-1.15.0-all.jar": {
+    "jarName": "PrettyPipes-1.15.0-all.jar",
+    "modId": "prettypipes",
+    "version": "1.15.0"
+  },
   "ProjectE-1.20.1-PE1.0.1.jar": {
     "jarName": "ProjectE-1.20.1-PE1.0.1.jar",
     "modId": "projecte",
@@ -1513,6 +1533,16 @@
     "modId": "thermal_integration",
     "version": "11.0.1"
   },
+  "thermal_processing_v2.0.4-1.20.1.jar": {
+    "jarName": "thermal_processing_v2.0.4-1.20.1.jar",
+    "modId": "thermal_processing",
+    "version": "2.0.4-1.20.1"
+  },
+  "thermalconstruct-1.20.1-0.0.3.jar": {
+    "jarName": "thermalconstruct-1.20.1-0.0.3.jar",
+    "modId": "thermalconstruct",
+    "version": "1.20.1-0.0.3"
+  },
   "theurgy-1.20.1-1.25.0.jar": {
     "jarName": "theurgy-1.20.1-1.25.0.jar",
     "modId": "theurgy",
@@ -1543,10 +1573,10 @@
     "modId": "tomeofblood",
     "version": "0.4.4"
   },
-  "toomanyrecipeviewers-0.6.4+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.6.4+mc.20.1.jar",
+  "toomanyrecipeviewers-0.7.0+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.7.0+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
-    "version": "0.6.4+mc.20.1"
+    "version": "0.7.0+mc.20.1"
   },
   "torch-hit-forge-1.20.1-7.0.0.jar": {
     "jarName": "torch-hit-forge-1.20.1-7.0.0.jar",
@@ -1602,6 +1632,11 @@
     "jarName": "UndergroundBunkers-1.0.5-1.20.x-forge.jar",
     "modId": "underground_bunkers",
     "version": "1.0.5"
+  },
+  "Uppers-1.0.1.jar": {
+    "jarName": "Uppers-1.0.1.jar",
+    "modId": "uppers",
+    "version": "1.0.1"
   },
   "useful_backpacks-forge-1.20.1-2.0.1.124.jar": {
     "jarName": "useful_backpacks-forge-1.20.1-2.0.1.124.jar",

@@ -1,0 +1,16 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "bloodmagic:rawdemonite",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "bloodmagic:ingot_hellforged",
+    "count": 4
+  },
+  "smeltingTime": 60,
+  "fuelPerTick": 2,
+  "requiredTier": 3
+}

@@ -537,6 +537,8 @@
 			KRAMPUS_HENCHMAN_SPEED = 0.29
 			#.
 			KRAMPUS_HENCHMAN_SPAWNING_ENABLED = false
+			#Whether Krampus Henchnmen make you drop your items when hit
+			KRAMPUS_HENCHMAN_DROPING_ENABLED = false
 
 		[Weapons.Mobs.Krampus]
 			#.

@@ -2042,7 +2042,7 @@
 				id: "summonerscrolls:bee_summoner_scroll"
 				tag: {
 					Damage: 0
-					cost: 3
+					cost: 1
 					count: 5
 					damageAmount: 5
 					summon: "summonerscrolls:bee_summon"
@@ -2056,7 +2056,7 @@
 					id: "summonerscrolls:bee_summoner_scroll"
 					tag: {
 						Damage: 0
-						cost: 3
+						cost: 1
 						count: 5
 						damageAmount: 5
 						summon: "summonerscrolls:bee_summon"

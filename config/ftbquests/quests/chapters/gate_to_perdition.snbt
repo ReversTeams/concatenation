@@ -174,7 +174,7 @@
 					id: "summonerscrolls:spider_summoner_scroll"
 					tag: {
 						Damage: 0
-						cost: 1
+						cost: 0
 						count: 1
 						damageAmount: 1
 						summon: "summonerscrolls:spider_summon"

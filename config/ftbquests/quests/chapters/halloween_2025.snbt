@@ -1,4 +1,5 @@
 {
+	autofocus_id: "283ECA512AD79F99"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "halloween_2025"
@@ -15,6 +16,8 @@
 				""
 				"I should carve out a pumpkin to decorate my home, it's the basis of the holiday, after all."
 			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: "minecraft:carved_pumpkin"
 			id: "283ECA512AD79F99"
 			rewards: [{
@@ -310,7 +313,7 @@
 					id: "summonerscrolls:iron_golem_summoner_scroll"
 					tag: {
 						Damage: 0
-						cost: 5
+						cost: 3
 						count: 1
 						damageAmount: 10
 						summon: "summonerscrolls:iron_golem_summon"

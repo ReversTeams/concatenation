@@ -1,0 +1,16 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "thermal:raw_nickel",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:nickel_ingot",
+    "count": 1
+  },
+  "smeltingTime": 90,
+  "fuelPerTick": 1,
+  "requiredTier": 1
+}

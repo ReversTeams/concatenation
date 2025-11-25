@@ -1477,7 +1477,7 @@ ServerEvents.recipes(event => {
                 { berry: 'copper', result: 'thermal:copper_nugget', ore: 'minecraft:copper_ore', deepslate: 'minecraft:deepslate_copper_ore' },
                 { berry: 'gold', result: 'minecraft:gold_nugget', ore: 'minecraft:gold_ore', deepslate: 'minecraft:deepslate_gold_ore' },
                 { berry: 'iron', result: 'minecraft:iron_nugget', ore: 'minecraft:iron_ore', deepslate: 'minecraft:deepslate_iron_ore' },
-                { berry: 'essence', result: '3x concatenationcore:experience_orb', ore: 'minecraft:emerald_ore', deepslate: 'minecraft:deepslate_emerald_ore', special: true }
+                { berry: 'essence', result: 'concatenationcore:experience_orb', ore: 'minecraft:emerald_ore', deepslate: 'minecraft:deepslate_emerald_ore', special: true }
         ];
 
         oreberries.forEach(entry => {
@@ -1523,12 +1523,12 @@ ServerEvents.recipes(event => {
         event.recipes.botanypots.soil('thermal:deepslate_silver_ore', { block: 'thermal:deepslate_silver_ore' }, ['si'], ticks, deepslateSoilModifier);
         event.recipes.botanypots.crop("oreberriesreplanted:silver_oreberry_bush", ["si"], { block: "oreberriesreplanted:silver_oreberry_bush" }, [Item.of("oreberriesreplanted:silver_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT2, 1);
 
-        event.recipes.botanypots.soil('thermal:nickel_ore', { block: 'thermal:nickel_ore' }, ['ni'], ticks, soilModifier);
-        event.recipes.botanypots.soil('thermal:deepslate_nickel_ore', { block: 'thermal:deepslate_nickel_ore' }, ['ni'], ticks, deepslateSoilModifier);
+        event.recipes.botanypots.soil('#c:ores/nickel', { block: 'thermal:nickel_ore' }, ['ni'], ticks, soilModifier);
+        // event.recipes.botanypots.soil('thermal:deepslate_nickel_ore', { block: 'thermal:deepslate_nickel_ore' }, ['ni'], ticks, deepslateSoilModifier);
         event.recipes.botanypots.crop("oreberriesreplanted:nickel_oreberry_bush", ["ni"], { block: "oreberriesreplanted:nickel_oreberry_bush" }, [Item.of("oreberriesreplanted:nickel_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT2, 1);
 
-        event.recipes.botanypots.soil('thermal:tin_ore', { block: 'thermal:tin_ore' }, ['ti'], ticks, soilModifier);
-        event.recipes.botanypots.soil('thermal:deepslate_tin_ore', { block: 'thermal:deepslate_tin_ore' }, ['ti'], ticks, deepslateSoilModifier);
+        event.recipes.botanypots.soil('#c:ores/tin', { block: 'thermal:tin_ore' }, ['ti'], ticks, soilModifier);
+        // event.recipes.botanypots.soil('thermal:deepslate_tin_ore', { block: 'thermal:deepslate_tin_ore' }, ['ti'], ticks, deepslateSoilModifier);
         event.recipes.botanypots.crop("oreberriesreplanted:tin_oreberry_bush", ["ti"], { block: "oreberriesreplanted:tin_oreberry_bush" }, [Item.of("oreberriesreplanted:tin_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
 
         event.recipes.botanypots.soil('minecraft:copper_ore', { block: 'minecraft:copper_ore' }, ['co'], ticks, soilModifier);
@@ -1560,8 +1560,6 @@ ServerEvents.recipes(event => {
         //         '2x concatenationcore:experience_orb',
         //         'oreberriesreplanted:essence_berry'
         // ).xp(0.2).cookingTime(50);
-        event.recipes.thermal.furnace('concatenationcore:experience_orb', 'oreberriesreplanted:essence_berry').xp(0.1);
-
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],

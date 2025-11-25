@@ -403,7 +403,7 @@ ServerEvents.recipes(event => {
                         B: 'irons_spellbooks:arcane_essence',
                         A: 'concatenationcore:silver_paper',
                         D: 'concatenationcore:descran',
-                        E: '#elementalcraft:crystals'
+                        E: '#elementalcraft:crystals/elemental'
                 }
         ).keepIngredient('#concatenation:magic_cards_t2')
         event.shaped(
@@ -1204,4 +1204,59 @@ ServerEvents.recipes(event => {
                         'concatenationcore:full_cups'
                 ]
         )
+        event.shapeless(
+                Item.of(
+                        "concatenationcore:protection_charm",
+                        '{AttributeModifiers:[{AttributeName:"generic.luck",Name:"generic.luck",Amount:1,Operation:0,UUID:[I;-627705973,885605043,-1990155892,-718506500],Slot:"offhand"}]}'
+                ),
+                [
+                        'minecraft:paper',
+                        'minecraft:red_dye',
+                        'minecraft:ink_sac',
+                        'born_in_chaos_v1:ethereal_spirit',
+                        '#concatenation:firing_item',
+                        'tarotcards:death'
+                ]
+        ).keepIngredient('tarotcards:death')
+        event.shapeless(
+                Item.of('concatenationcore:stalker_ward'),
+                [
+                        'concatenationcore:protection_charm',
+                        'born_in_chaos_v1:nightmare_stalker_skull',
+                        'born_in_chaos_v1:fire_dust',
+                        'concatenationcore:experience_orb',
+                        'minecraft:glow_ink_sac',
+                        'minecraft:black_dye'
+                ]
+        )
+        event.shaped(
+                Item.of('summonerscrolls:zombie_summoner_scroll'),
+                [
+                        'ABA',
+                        'CAD',
+                        'EEE'
+                ],
+                {
+                        D: 'minecraft:ink_sac',
+                        E: 'minecraft:rotten_flesh',
+                        C: 'born_in_chaos_v1:ethereal_spirit',
+                        A: 'minecraft:paper',
+                        B: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:death')
+        event.shaped(
+                Item.of('summonerscrolls:skeleton_summoner_scroll'),
+                [
+                        'ABA',
+                        'CAD',
+                        'EEE'
+                ],
+                {
+                        D: 'minecraft:ink_sac',
+                        C: 'born_in_chaos_v1:ethereal_spirit',
+                        A: 'minecraft:paper',
+                        E: 'minecraft:bone',
+                        B: 'tarotcards:death'
+                }
+        ).keepIngredient('tarotcards:death')
 });

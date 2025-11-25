@@ -468,14 +468,10 @@
 				id: "489D9F754F134A67"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
 					id: "tarotcards:wheel_of_fortune"
 					tag: { }
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
@@ -828,6 +824,7 @@
 							}]
 						}
 					}
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -1548,6 +1545,7 @@
 			rewards: [{
 				id: "21EB7980AE35ADBF"
 				item: "concatenationcore:fortune_fragment"
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.2d

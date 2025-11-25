@@ -1,0 +1,16 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "thermal:raw_lead",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:lead_ingot",
+    "count": 1
+  },
+  "smeltingTime": 65,
+  "fuelPerTick": 1,
+  "requiredTier": 2
+}

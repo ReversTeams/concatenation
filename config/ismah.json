@@ -1,3 +1,7 @@
 {
-  "blacklisted_armors": []
+    "blacklisted_armors": [
+        "marbledsarsenal:riot_armor_chestplate",
+        "tconstruct:plate_chestplate",
+        "ars_nouveau:battlemage_robes"
+    ]
 }

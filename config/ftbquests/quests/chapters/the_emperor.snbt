@@ -1594,11 +1594,13 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["1BB571557F74D3A1"]
 			description: [
 				"The resource scroll is an easy way to tell what one of your Builder needs. Sneak + right-click on a Builder’s Hut to register the resource scroll to the builder."
 				""
 				"Now when you right-click while holding the resource scroll, you will see all the needed materials for the Builder’s Hut you clicked on."
 			]
+			hide_dependency_lines: true
 			id: "085F473094778DCD"
 			rewards: [{
 				id: "4D8E17B38C63B53D"

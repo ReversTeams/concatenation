@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 1
+    },
+    {
+      "item": "thermal:tin_ingot",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:bronze_ingot",
+    "count": 1
+  },
+  "smeltingTime": 65,
+  "fuelPerTick": 1,
+  "requiredTier": 2
+}

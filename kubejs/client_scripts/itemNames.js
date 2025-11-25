@@ -24,6 +24,9 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('thermal:rice', 'Precoce Rice');
   event.renameItem('tconstruct:rose_gold_ingot', 'Cast Rose Gold Ingot');
   event.renameItem('enderstorage:ender_chest', 'Linked Ender Chest');
+  event.renameItem('alloy_smelter:forge_controller_tier1', 'Stone Brick Controller');
+  event.renameItem('alloy_smelter:forge_controller_tier2', 'Brick Controller');
+  event.renameItem('alloy_smelter:forge_controller_tier3', 'Scorchia Controller');
   //event.renameItem('farmersdelight:cutting_board', 'Board');
 
   event.rename('fluid.bloodmagic.life_essence', 'Life Essence')

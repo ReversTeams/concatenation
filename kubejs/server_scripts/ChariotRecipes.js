@@ -14,7 +14,9 @@ ServerEvents.recipes(event => {
                 'littlecontraptions:contraption_barge',
                 'littlelogistics:barge',
                 'littlelogistics:barrel_barge',
-                'immersive_aircraft:engine'
+                'immersive_aircraft:engine',
+                'prettypipes:pipe',
+                'ppfluids:fluid_pipe'
         ]
 
         remove.forEach(item => {
@@ -201,7 +203,7 @@ ServerEvents.recipes(event => {
                 {
                         E: 'littlelogistics:tug',
                         C: 'littlelogistics:vessel_charger',
-                        D: 'thermal:steel_block',
+                        D: 'createmetallurgy:steel_block',
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
                 }
@@ -216,7 +218,7 @@ ServerEvents.recipes(event => {
                 {
                         E: 'littlelogistics:steam_locomotive',
                         C: 'littlelogistics:vessel_charger',
-                        D: 'thermal:steel_block',
+                        D: 'createmetallurgy:steel_block',
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
                 }
@@ -343,6 +345,60 @@ ServerEvents.recipes(event => {
                         D: 'minecraft:iron_block',
                         B: 'minecraft:blast_furnace',
                         C: 'minecraft:piston'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:pipe_base', 6),
+                [
+                        'ABB',
+                        'BCB',
+                        'BB '
+                ],
+                {
+                        C: '#concatenation:isolated_ingot',
+                        B: 'minecraft:copper_ingot',
+                        A: 'tarotcards:the_chariot'
+                }
+        ).keepIngredient('tarotcards:the_chariot')
+        event.shaped(
+                Item.of('prettypipes:pipe', 8),
+                [
+                        'ABC',
+                        'BDB',
+                        'CBA'
+                ],
+                {
+                        B: 'minecraft:glass',
+                        C: 'minecraft:iron_ingot',
+                        A: 'minecraft:redstone',
+                        D: 'concatenationcore:pipe_base'
+                }
+        )
+        event.shaped(
+                Item.of('prettypipes:pipe', 8),
+                [
+                        'ABC',
+                        'BDB',
+                        'CBA'
+                ],
+                {
+                        B: 'minecraft:glass',
+                        A: 'minecraft:iron_ingot',
+                        C: 'minecraft:redstone',
+                        D: 'concatenationcore:pipe_base'
+                }
+        )
+        event.shaped(
+                Item.of('ppfluids:fluid_pipe', 8),
+                [
+                        ' AB',
+                        'ACA',
+                        'BA '
+                ],
+                {
+                        A: 'minecraft:glass',
+                        C: 'concatenationcore:stickyredstone',
+                        B: 'concatenationcore:pipe_base'
                 }
         )
 });

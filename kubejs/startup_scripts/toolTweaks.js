@@ -60,6 +60,23 @@ ItemEvents.modification(event => {
 		["tfmg:lead_axe", 10],
 		["tfmg:lead_sword", 9],
 
+		// certus quartz
+		750,
+		["ae2:certus_quartz_pickaxe", 5],
+		["ae2:certus_quartz_shovel", 5.5],
+		["ae2:certus_quartz_axe", 9],
+		// ["ae2:certus_quartz_cutting_knife", 9],
+		["ae2:certus_quartz_sword", 8],
+		["ae2:certus_quartz_hoe", 2],
+
+		// fluix
+		1250,
+		["ae2:fluix_pickaxe", 5],
+		["ae2:fluix_shovel", 5.5],
+		["ae2:fluix_axe", 11],
+		["ae2:fluix_sword", 10],
+		["ae2:fluix_hoe", 2],
+
 		// paxels
 		59, ["mekanismtools:wood_paxel", 3, paxelPenalty(0.8)],
 		131, ["mekanismtools:stone_paxel", 4, paxelPenalty(0.8)],

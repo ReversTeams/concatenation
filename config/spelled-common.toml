@@ -5,7 +5,7 @@
 	startWithBook = false
 	#Decides the range in which players around you can hear the spells cast (-1 for server spam) [Default: 16]
 	#Range: > -1
-	proximity = 50
+	proximity = 75
 	#Decides whether you use the individual level cost (Cost to level up can be different per level) or use a scaling level cost
 	individualLevels = true
 	#Decides whether you use the individual item cost (Cost to level up can be different per level) or use a scaling item cost
@@ -16,16 +16,16 @@
 	requiredItem = "ars_nouveau:air_essence"
 	#Determines how much xp you need to pay per individual level when enabled (XP Levels) [Syntax: level,xp_cost]
 	#If you have changed the maxLevel and enabled individualLevels you'll need supply the new individual level costs
-	individualLevelCosts = ["1,5", "2,5", "3,5", "4,5", "5,5", "6,5", "7,5", "8,5", "9,5", "10,5", "11,5", "12,5", "13,5", "14,5", "15,5", "16,5", "17,5", "18,5", "19,5", "20,5"]
+	individualLevelCosts = ["1,0", "2,0", "3,0", "4,1", "5,1", "6,1", "7,1", "8,1", "9,1", "10,1", "11,5", "12,5", "13,5", "14,5", "15,5", "16,5", "17,5", "18,5", "19,5", "20,5"]
 	#Determines how which item each level costs when 'requireItems' is enabled (XP Levels) [Syntax: level,modid:item_name,amount]
 	#If you have changed the maxLevel and enabled requireItems you'll need supply the new individual item costs
-	individualItemCosts = ["1,ars_nouveau:air_essence,1", "2,ars_nouveau:air_essence,2", "3,ars_nouveau:air_essence,3", "4,ars_nouveau:air_essence,4", "5,ars_nouveau:air_essence,5", "6,ars_nouveau:air_essence,6", "7,ars_nouveau:air_essence,10", "8,ars_nouveau:air_essence,7", "9,ars_nouveau:air_essence,8", "10,ars_nouveau:air_essence,10", "9,ars_nouveau:air_essence,10", "12,ars_nouveau:air_essence,10", "13,ars_nouveau:air_essence,10", "14,ars_nouveau:air_essence,10", "15,ars_nouveau:air_essence,10", "16,ars_nouveau:air_essence,10", "17,ars_nouveau:air_essence,10", "18,ars_nouveau:air_essence,10", "19,ars_nouveau:air_essence,10", "20,ars_nouveau:air_essence,10"]
+	individualItemCosts = ["1,ars_nouveau:air_essence,1", "2,ars_nouveau:air_essence,1", "3,ars_nouveau:air_essence,1", "4,ars_nouveau:air_essence,1", "5,ars_nouveau:air_essence,2", "6,ars_nouveau:air_essence,3", "7,ars_nouveau:air_essence,4", "8,ars_nouveau:air_essence,5", "9,ars_nouveau:air_essence,6", "10,ars_nouveau:air_essence,5", "9,ars_nouveau:air_essence,5", "12,ars_nouveau:air_essence,5", "13,ars_nouveau:air_essence,5", "14,ars_nouveau:air_essence,5", "15,ars_nouveau:air_essence,10", "16,ars_nouveau:air_essence,10", "17,ars_nouveau:air_essence,10", "18,ars_nouveau:air_essence,10", "19,ars_nouveau:air_essence,10", "20,ars_nouveau:air_essence,10"]
 	#Decides the highest level a player can become (Default: 20)
 	#Range: > 1
 	maxLevel = 20
 	#Decides how much xp you need to pay per level (cost is multiplied * level)
 	#Range: > 1
-	xpMultiplier = 100
+	xpMultiplier = 1
 	#Decides whether the tooltip of the Tome of Knowledge tells you what's inside (Default: true)
 	hideKnowledgeTomeInfo = true
 

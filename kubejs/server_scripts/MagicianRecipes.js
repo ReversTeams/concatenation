@@ -1113,6 +1113,21 @@ ServerEvents.recipes(event => {
                         D: 'thermal:silver_ingot'
                 }
         )
+        // event.shaped(
+        //         Item.of('spelled:leveling_altar'),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'AEA'
+        //         ],
+        //         {
+        //                 C: 'elementalcraft:swift_alloy_nugget',
+        //                 E: 'minecraft:redstone',
+        //                 B: '#elementalcraft:gems/crude_air',
+        //                 A: 'elementalcraft:springaline_shard',
+        //                 D: 'minecraft:book'
+        //         }
+        // )
         event.shaped(
                 Item.of('spelled:leveling_altar'),
                 [
@@ -1121,11 +1136,11 @@ ServerEvents.recipes(event => {
                         'AEA'
                 ],
                 {
-                        C: 'elementalcraft:swift_alloy_nugget',
-                        E: 'minecraft:redstone',
-                        B: '#elementalcraft:gems/crude_air',
-                        A: 'elementalcraft:springaline_shard',
-                        D: 'minecraft:book'
+                        E: 'elementalcraft:burnt_glass',
+                        C: 'minecraft:redstone',
+                        A: '#elementalcraft:crystals/elemental',
+                        D: 'minecraft:book',
+                        B: 'ars_nouveau:air_essence'
                 }
         )
         event.shapeless(
@@ -1140,7 +1155,7 @@ ServerEvents.recipes(event => {
                 [
                         'elementalcraft:scroll_paper',
                         'elementalcraft:scroll_paper',
-                        '#elementalcraft:crystals/elemental',
+                        '#elementalcraft:crystals/elemental/elemental',
                         'elementalcraft:scroll_paper',
                         'minecraft:leather'
                 ]
@@ -1180,7 +1195,7 @@ ServerEvents.recipes(event => {
                         B: 'elementalcraft:whiterock',
                         D: 'minecraft:hopper',
                         A: 'elementalcraft:drenched_iron_nugget',
-                        C: '#elementalcraft:crystals/elemental'
+                        C: '#elementalcraft:crystals/elemental/elemental'
                 }
         )
         event.shaped(
@@ -1195,7 +1210,7 @@ ServerEvents.recipes(event => {
                         D: 'itemfilters:custom',
                         E: 'minecraft:hopper',
                         A: 'elementalcraft:drenched_iron_nugget',
-                        C: '#elementalcraft:crystals/elemental'
+                        C: '#elementalcraft:crystals/elemental/elemental'
                 }
         )
         event.shaped(

@@ -302,11 +302,6 @@
       "operation": "ADDITION"
     },
     {
-      "attribute": "minecraft:generic.movement_speed",
-      "value": 0.2,
-      "operation": "ADDITION"
-    },
-    {
       "attribute": "minecraft:generic.attack_damage",
       "value": 20,
       "operation": "ADDITION"
