@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "thermal:raw_silver",
+      "count": 1
+    },
+    {
+      "item": "thermal:raw_silver",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:silver_ingot",
+    "count": 2
+  },
+  "smeltingTime": 110,
+  "fuelPerTick": 1,
+  "requiredTier": 1
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "minecraft:blaze_rod",
+    "minecraft:lava_bucket",
+    "minecraft:coal_block",
+    "thermal:charcoal_block"
+  ]
+}

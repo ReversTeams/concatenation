@@ -68,7 +68,13 @@ ServerEvents.recipes(event => {
                 'hammerlib:gears',
                 'travelanchors:travel_staff',
                 'travelanchors:travel_anchor',
-                'thermal:enderium_gear'
+                'thermal:enderium_gear',
+                'thermal:xp_crystal',
+                'thoriumreactors:blasted_iron_nugget',
+                'thoriumreactors:blasted_iron_block',
+                'thoriumreactors:blasted_iron_ingot',
+                'thoriumreactors:steel_chest_block',
+                'thoriumreactors:thorium_chest_block'
         ]
 
         remove.forEach(item => {
@@ -168,6 +174,17 @@ ServerEvents.recipes(event => {
                 { mod: 'hpm' },
                 'hpm:hand_cannon',
                 'hpm:hand_mortar'
+        );
+
+        event.replaceInput(
+                { mod: 'thoriumreactors' },
+                'thoriumreactors:blasted_iron_ingot',
+                'concatenationcore:galvanized_iron'
+        );
+        event.replaceInput(
+                { mod: 'thoriumreactors' },
+                'thoriumreactors:blasted_iron_nugget',
+                'concatenationcore:galvanized_iron_nugget'
         );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
@@ -1420,6 +1437,56 @@ ServerEvents.recipes(event => {
                         B: 'thermal:electrum_plate'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:high_priestess_die'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'thermal:invar_plate',
+                        B: 'thermal:bronze_plate',
+                        C: 'tarotcards:the_high_priestess'
+                }
+        ).keepIngredient('tarotcards:the_high_priestess')
+        event.shaped(
+                Item.of('thermal:xp_crystal'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: '#forge:consumables/experience_3',
+                        B: 'thermal:enderium_dust',
+                        C: 'thermal:sapphire'
+                }
+        )
+        event.shaped(
+    Item.of('thoriumreactors:thorium_chest_block'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        B: 'ironchest:diamond_chest',
+        A: 'thoriumreactors:thorium'
+    }
+)
+event.shaped(
+    Item.of('thoriumreactors:steel_chest_block'),
+    [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+    {
+        A: 'createmetallurgy:steel_ingot',
+        B: '#forge:chests/wooden'
+    }
+)
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
@@ -1448,6 +1515,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 900), 'integrateddynamics:crystalized_menril_block').energy(9000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 100), 'integrateddynamics:crystalized_menril_chunk').energy(3000)
+        event.recipes.thermal.centrifuge([Item.of('thoriumreactors:sodium').withChance(0.5)], 'mekanism:salt')
         event.recipes.mekanism.enriching('mekanism:enriched_iron', 'createmetallurgy:iron_dust')
         event.recipes.mekanism.enriching('mekanism:enriched_redstone', 'concatenationcore:stickyredstone')
         event.recipes.mekanism.crushing('createmetallurgy:iron_dust', 'minecraft:iron_ingot')
@@ -1464,7 +1532,7 @@ ServerEvents.recipes(event => {
                 { berry: 'copper', result: 'thermal:copper_nugget', ore: 'minecraft:copper_ore', deepslate: 'minecraft:deepslate_copper_ore' },
                 { berry: 'gold', result: 'minecraft:gold_nugget', ore: 'minecraft:gold_ore', deepslate: 'minecraft:deepslate_gold_ore' },
                 { berry: 'iron', result: 'minecraft:iron_nugget', ore: 'minecraft:iron_ore', deepslate: 'minecraft:deepslate_iron_ore' },
-                { berry: 'essence', result: '3x concatenationcore:experience_orb', ore: 'minecraft:emerald_ore', deepslate: 'minecraft:deepslate_emerald_ore', special: true }
+                { berry: 'essence', result: 'concatenationcore:experience_orb', ore: 'minecraft:emerald_ore', deepslate: 'minecraft:deepslate_emerald_ore', special: true }
         ];
 
         oreberries.forEach(entry => {
@@ -1510,12 +1578,12 @@ ServerEvents.recipes(event => {
         event.recipes.botanypots.soil('thermal:deepslate_silver_ore', { block: 'thermal:deepslate_silver_ore' }, ['si'], ticks, deepslateSoilModifier);
         event.recipes.botanypots.crop("oreberriesreplanted:silver_oreberry_bush", ["si"], { block: "oreberriesreplanted:silver_oreberry_bush" }, [Item.of("oreberriesreplanted:silver_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT2, 1);
 
-        event.recipes.botanypots.soil('thermal:nickel_ore', { block: 'thermal:nickel_ore' }, ['ni'], ticks, soilModifier);
-        event.recipes.botanypots.soil('thermal:deepslate_nickel_ore', { block: 'thermal:deepslate_nickel_ore' }, ['ni'], ticks, deepslateSoilModifier);
+        event.recipes.botanypots.soil('#c:ores/nickel', { block: 'thermal:nickel_ore' }, ['ni'], ticks, soilModifier);
+        // event.recipes.botanypots.soil('thermal:deepslate_nickel_ore', { block: 'thermal:deepslate_nickel_ore' }, ['ni'], ticks, deepslateSoilModifier);
         event.recipes.botanypots.crop("oreberriesreplanted:nickel_oreberry_bush", ["ni"], { block: "oreberriesreplanted:nickel_oreberry_bush" }, [Item.of("oreberriesreplanted:nickel_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT2, 1);
 
-        event.recipes.botanypots.soil('thermal:tin_ore', { block: 'thermal:tin_ore' }, ['ti'], ticks, soilModifier);
-        event.recipes.botanypots.soil('thermal:deepslate_tin_ore', { block: 'thermal:deepslate_tin_ore' }, ['ti'], ticks, deepslateSoilModifier);
+        event.recipes.botanypots.soil('#c:ores/tin', { block: 'thermal:tin_ore' }, ['ti'], ticks, soilModifier);
+        // event.recipes.botanypots.soil('thermal:deepslate_tin_ore', { block: 'thermal:deepslate_tin_ore' }, ['ti'], ticks, deepslateSoilModifier);
         event.recipes.botanypots.crop("oreberriesreplanted:tin_oreberry_bush", ["ti"], { block: "oreberriesreplanted:tin_oreberry_bush" }, [Item.of("oreberriesreplanted:tin_oreberry").withChance(oreberryChance).withRolls(oreberryMinRoll, oreberryMaxRoll)], ticksRequiredT1, 1);
 
         event.recipes.botanypots.soil('minecraft:copper_ore', { block: 'minecraft:copper_ore' }, ['co'], ticks, soilModifier);
@@ -1547,8 +1615,6 @@ ServerEvents.recipes(event => {
         //         '2x concatenationcore:experience_orb',
         //         'oreberriesreplanted:essence_berry'
         // ).xp(0.2).cookingTime(50);
-        event.recipes.thermal.furnace('3x concatenationcore:experience_orb', 'oreberriesreplanted:essence_berry').xp(0.1);
-
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
@@ -1578,6 +1644,24 @@ ServerEvents.recipes(event => {
                 ['thermal:emerald_gear', 'industrialforegoing:laser_lens4', 'thermal:diamond_gear', 'concatenationcore:circuit', 'concatenationcore:circuit', 'concatenationcore:galvanized_iron_casing', 'thermal:energy_cell', 'concatenationcore:galvanized_iron_casing'],
                 'thermal:glowstone',
                 'quarryplus:workbench',
+                100
+        )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['minecraft:glass_pane', 'minecraft:glass_pane', 'minecraft:glass_pane', 'minecraft:glass_pane', 'minecraft:glass_pane', 'the_deep_void:voidrium_glass'],
+                'industrialforegoing:latex',
+                'concatenationcore:void_lens',
+                100
+        )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['minecraft:glass_pane', 'the_deep_void:sulfur_glass_pane', 'the_deep_void:bismuth_glass_pane', 'the_deep_void:cinnabar_glass_pane', 'perdition:cut_dis_gem', 'perdition:scintillating_dust', 'perdition:scintillating_dust', 'perdition:scintillating_dust'],
+                'industrialforegoing:latex',
+                'concatenationcore:void_lens',
+                100
+        )
+        event.recipes.industrialforegoing.dissolution_chamber(
+                ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
+                'thermal:redstone',
+                'thermal:energy_cell',
                 100
         )
         event.recipes.industrialforegoing.fluid_extractor(
@@ -1616,4 +1700,515 @@ ServerEvents.recipes(event => {
                 0.8,
                 Fluid.of('industrialforegoing:latex', 8)
         );
+
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "thermal:apatite_ore", // output
+                "industrialforegoing:laser_lens9",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 96,
+                                "depth_min": 48,
+                                "weight": 5,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "create:zinc_ore", // output
+                "industrialforegoing:laser_lens9",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 70,
+                                "depth_min": 1,
+                                "weight": 19,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "rftoolsbase:dimensionalshard_overworld", // output
+                "industrialforegoing:laser_lens3",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 40,
+                                "depth_min": 17,
+                                "weight": 8,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "mcore:deepslate_titanium_ore", // output
+                "industrialforegoing:laser_lens0",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 1,
+                                "depth_min": 0,
+                                "weight": 5,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "elementalcraft:inert_crystal_ore", // output
+                "industrialforegoing:laser_lens8",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 96,
+                                "depth_min": 8,
+                                "weight": 18,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "tfmg:lithium_ore", // output
+                "industrialforegoing:laser_lens12",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 27,
+                                "depth_min": 1,
+                                "weight": 4,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "theurgy:sal_ammoniac_ore", // output
+                "industrialforegoing:laser_lens6",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 68,
+                                "depth_min": 0,
+                                "weight": 18,
+                                "whitelist": {}
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "tconstruct:cobalt_ore", // output
+                "industrialforegoing:laser_lens11",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 32,
+                                "depth_min": 8,
+                                "weight": 6,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:nether_wastes",
+                                                "minecraft:soul_sand_valley",
+                                                "minecraft:crimson_forest",
+                                                "minecraft:warped_forest",
+                                                "minecraft:basalt_deltas"
+                                        ]
+                                },
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "the_deep_void:onyx_ore", // output
+                "concatenationcore:void_lens",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {},
+                                "depth_max": 38,
+                                "depth_min": 0,
+                                "weight": 8,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "the_deep_void:ashen_crags",
+                                                "the_deep_void:filled_graveyard",
+                                                "the_deep_void:forgotten_valley",
+                                                "the_deep_void:grim_canopy",
+                                                "the_deep_void:mourning_graveyard",
+                                                "the_deep_void:watching_undergrowth",
+                                                "the_deep_void:windswept_hollow",
+                                                "the_deep_void:drifting_monoliths",
+                                                "the_deep_void:gathering_grounds",
+                                                "the_deep_void:gloomy_deathgrounds",
+                                                "the_deep_void:staring_hills",
+                                                "the_deep_void:befouled_marsh",
+                                                "the_deep_void:misted_remnants"
+                                        ]
+                                },
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "the_deep_void:lavendite_ore", // output
+                "concatenationcore:void_lens",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 45,
+                                "depth_min": 0,
+                                "weight": 7,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "the_deep_void:ashen_crags",
+                                                "the_deep_void:filled_graveyard",
+                                                "the_deep_void:forgotten_valley",
+                                                "the_deep_void:grim_canopy",
+                                                "the_deep_void:mourning_graveyard",
+                                                "the_deep_void:watching_undergrowth",
+                                                "the_deep_void:windswept_hollow",
+                                                "the_deep_void:drifting_monoliths",
+                                                "the_deep_void:gathering_grounds",
+                                                "the_deep_void:gloomy_deathgrounds",
+                                                "the_deep_void:staring_hills",
+                                                "the_deep_void:befouled_marsh",
+                                                "the_deep_void:misted_remnants"
+                                        ]
+                                },
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "the_deep_void:bismuth_ore", // output
+                "concatenationcore:void_lens",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 45,
+                                "depth_min": 0,
+                                "weight": 14,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "the_deep_void:ashen_crags",
+                                                "the_deep_void:watching_undergrowth",
+                                                "the_deep_void:windswept_hollow",
+                                                "the_deep_void:befouled_marsh"
+                                        ]
+                                },
+                        },
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "minecraft:the_end",
+                                                "minecraft:the_void",
+                                                "minecraft:small_end_islands",
+                                                "minecraft:end_barrens",
+                                                "minecraft:end_highlands",
+                                                "minecraft:end_midlands"
+                                        ]
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 1,
+                                "whitelist": {}
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "the_deep_void:voidrium_ore", // output
+                "concatenationcore:void_lens",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 1,
+                                "depth_min": 0,
+                                "weight": 0,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": [
+                                                "the_deep_void:filled_graveyard",
+                                                "the_deep_void:mourning_graveyard",
+                                                "the_deep_void:drifting_monoliths",
+                                                "the_deep_void:gathering_grounds",
+                                                "the_deep_void:gloomy_deathgrounds",
+                                                "the_deep_void:staring_hills"
+                                        ]
+                                },
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "perdition:corruptite_ore", // output
+                "industrialforegoing:laser_lens15",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 2,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                        }
+                ]
+        )
+        event.recipes.industrialforegoing.laser_drill_ore(
+                "perdition:pyrite_ore", // output
+                "industrialforegoing:laser_lens5",  // catalyst
+                [ //rarity, see below for more details
+                        {
+                                "blacklist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                                "depth_max": 255,
+                                "depth_min": 0,
+                                "weight": 2,
+                                "whitelist": {
+                                        "type": "minecraft:worldgen/biome",
+                                        "values": []
+                                },
+                        }
+                ]
+        )
 });

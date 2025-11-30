@@ -27,4 +27,8 @@ ServerEvents.tags('block', event => {
 
     event.add('theurgy:divination_rod_t1_allowed_blocks', 'the_deep_void:onyx_ore')
     event.add('theurgy:divination_rod_t1_allowed_blocks', 'the_deep_void:lavendite_ore')
+
+    event.add('alloy_smelter:alloy_smelter_blocks_tier1', 'minecraft:stone_bricks')
+    event.add('alloy_smelter:alloy_smelter_blocks_tier2', 'minecraft:bricks')
+    event.add('alloy_smelter:alloy_smelter_blocks_tier3', 'create:cut_scorchia_bricks')
 })

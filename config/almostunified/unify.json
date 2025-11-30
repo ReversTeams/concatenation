@@ -3,13 +3,19 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
+    "craftingstation",
     "create",
     "createmetallurgy",
     "thermal",
     "mekanism",
+    "tconstruct",
     "createdeco",
     "concatenationcore",
-    "perdition"
+    "perdition",
+    "tfmg",
+    "thoriumreactors",
+    "common_ore_library",
+    "refurbished_furniture"
   ],
   "stoneStrata": [
     "stone",
@@ -35,7 +41,8 @@
     "forge:storage_blocks/raw_{material}",
     "forge:coins/{material}",
     "forge:rubber",
-    "forge:plastic"
+    "forge:plastic",
+    "concatenation:crafting_station"
   ],
   "materials": [
     "aeternium",
@@ -68,6 +75,7 @@
     "lead",
     "lumium",
     "mithril",
+    "manyullyn",
     "netherite",
     "nickel",
     "obsidian",
@@ -81,6 +89,7 @@
     "ruby",
     "sapphire",
     "signalum",
+    "salt",
     "silver",
     "steel",
     "sulfur",

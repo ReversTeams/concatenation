@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "tconstruct:seared_bricks",
+      "count": 1
+    },
+    {
+      "item": "concatenationcore:ferrotin_bronze_ingot",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "tconstruct:smeltery_controller",
+    "count": 1
+  },
+  "smeltingTime": 250,
+  "fuelPerTick": 2,
+  "requiredTier": 2
+}

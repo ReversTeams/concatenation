@@ -2,7 +2,7 @@
   "options": {
     "interactionInterval": 10,
     "useServerAcceleration": true,
-    "useClientFallback": false,
+    "useClientFallback": true,
     "optimizeCreativeSorting": true,
     "autoOpDelayPlayer": 2,
     "autoOpDelayContainer": 2,
@@ -33,6 +33,7 @@
     "allowSoundOverlap": true,
     "isolateKeybinds": true,
     "showButtons": true,
+    "anchorButtonsLeft": false,
     "firstButtonOp": "SORT",
     "secondButtonOp": "STACK_FILL",
     "thirdButtonOp": "MATCH_TRANSFER",

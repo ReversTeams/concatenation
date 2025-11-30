@@ -655,6 +655,20 @@ ServerEvents.recipes(event => {
                         E: 'reliquary:nebulous_heart'
                 }
         ).keepIngredient('tarotcards:the_hierophant')
+        event.shapeless(
+                Item.of('perdition:petrified_planks'),
+                [
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales',
+                        'immersive_weathering:perdition/petrified_scales'
+                ]
+        )
 
         // Botany Pots
         event.recipes.botanypots.crop(

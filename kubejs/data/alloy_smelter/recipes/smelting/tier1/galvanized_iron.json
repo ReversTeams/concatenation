@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "create:zinc_ingot",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "concatenationcore:galvanized_iron_nugget",
+    "count": 1
+  },
+  "smeltingTime": 140,
+  "fuelPerTick": 4,
+  "requiredTier": 1
+}

@@ -1,0 +1,40 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "org.jgrapht",
+        "artifact": "jgrapht-core"
+      },
+      "version": {
+        "range": "[1.5.2]",
+        "artifactVersion": "1.5.2"
+      },
+      "path": "META-INF/jarjar/jgrapht-core-1.5.2.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "org.jheaps",
+        "artifact": "jheaps"
+      },
+      "version": {
+        "range": "[0.14]",
+        "artifactVersion": "0.14"
+      },
+      "path": "META-INF/jarjar/jheaps-0.14.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "org.apfloat",
+        "artifact": "apfloat"
+      },
+      "version": {
+        "range": "[1.10.1]",
+        "artifactVersion": "1.10.1"
+      },
+      "path": "META-INF/jarjar/apfloat-1.10.1.jar",
+      "isObfuscated": false
+    }
+  ]
+}

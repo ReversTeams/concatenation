@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "thermal:nickel_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:invar_ingot",
+    "count": 2
+  },
+  "smeltingTime": 55,
+  "fuelPerTick": 2,
+  "requiredTier": 3
+}

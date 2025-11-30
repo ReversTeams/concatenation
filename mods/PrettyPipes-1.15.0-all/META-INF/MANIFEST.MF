@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: prettypipes
+Specification-Vendor: Ellpeck
+Specification-Version: 1
+Implementation-Title: PrettyPipes
+Implementation-Version: 1.15.0
+Implementation-Vendor: Ellpeck
+Implementation-Timestamp: 2023-09-26T11:21:54+0200
+

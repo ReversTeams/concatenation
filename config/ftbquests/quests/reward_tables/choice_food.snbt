@@ -1,5 +1,14 @@
 {
 	id: "3FCE6C893B181A17"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "choice_food"
+	}
 	loot_size: 1
 	order_index: 13
 	rewards: [

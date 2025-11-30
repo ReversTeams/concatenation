@@ -1,4 +1,3 @@
-
 #Advanced settings for performance and stability.
 [performance_tuning]
 	#The global maximum number of times a tick can be repeated. -1 for no limit.
@@ -31,7 +30,6 @@
 	enabled = true
 	#Show a warning when using the mod in singleplayer.
 	singleplayer-warning = true
-	#Enable automatic update checks.
 	automatic-updater = true
 
 #Enable or disable specific acceleration features.

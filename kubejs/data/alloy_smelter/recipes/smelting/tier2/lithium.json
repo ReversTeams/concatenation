@@ -1,0 +1,16 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "tfmg:raw_lithium",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "tfmg:lithium_ingot",
+    "count": 1
+  },
+  "smeltingTime": 65,
+  "fuelPerTick": 1,
+  "requiredTier": 2
+}

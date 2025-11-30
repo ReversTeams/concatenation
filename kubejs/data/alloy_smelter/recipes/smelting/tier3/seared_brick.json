@@ -1,0 +1,16 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "tconstruct:grout",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "tconstruct:seared_brick",
+    "count": 2
+  },
+  "smeltingTime": 45,
+  "fuelPerTick": 2,
+  "requiredTier": 3
+}

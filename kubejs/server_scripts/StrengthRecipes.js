@@ -101,54 +101,51 @@ ServerEvents.recipes(event => {
                         E: 'minecraft:crying_obsidian'
                 }
         ).keepIngredient('tarotcards:strength')
-        event.shaped(
+        event.shapeless(
                 Item.of('concatenationcore:celestial_calralite'),
                 [
-                        'ABC',
-                        'BD ',
-                        '   '
-                ],
-                {
-                        B: 'tconstruct:raw_cobalt',
-                        D: 'minecraft:fire_charge',
-                        C: 'createmetallurgy:raw_wolframite',
-                        A: 'concatenationcore:breaking_tool'
-                }
+                        'concatenationcore:breaking_tool',
+                        'tconstruct:raw_cobalt',
+                        'createmetallurgy:raw_wolframite',
+                        'tconstruct:raw_cobalt',
+                        'mcore:raw_titanium',
+                        '#concatenation:firing_item'
+                ]
         ).damageIngredient('concatenationcore:breaking_tool')
-        event.shaped(
-                Item.of('concatenationcore:celestial_calralite'),
-                [
-                        'ABC',
-                        'BD ',
-                        '   '
-                ],
-                {
-                        B: 'tconstruct:raw_cobalt',
-                        C: 'createmetallurgy:raw_wolframite',
-                        D: 'elementalcraft:fire_shard',
-                        A: 'concatenationcore:breaking_tool'
-                }
-        ).damageIngredient('concatenationcore:breaking_tool')
-        event.shaped(
-                Item.of('concatenationcore:celestial_calralite'),
-                [
-                        'ABC',
-                        'BD ',
-                        '   '
-                ],
-                {
-                        B: 'tconstruct:raw_cobalt',
-                        C: 'createmetallurgy:raw_wolframite',
-                        D: 'ars_nouveau:fire_essence',
-                        A: 'concatenationcore:breaking_tool'
-                }
-        ).damageIngredient('concatenationcore:breaking_tool')
+        // event.shaped(
+        //         Item.of('concatenationcore:celestial_calralite'),
+        //         [
+        //                 'ABC',
+        //                 'BD ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 B: 'tconstruct:raw_cobalt',
+        //                 C: 'createmetallurgy:raw_wolframite',
+        //                 D: 'elementalcraft:fire_shard',
+        //                 A: 'concatenationcore:breaking_tool'
+        //         }
+        // ).damageIngredient('concatenationcore:breaking_tool')
+        // event.shaped(
+        //         Item.of('concatenationcore:celestial_calralite'),
+        //         [
+        //                 'ABC',
+        //                 'BD ',
+        //                 '   '
+        //         ],
+        //         {
+        //                 B: 'tconstruct:raw_cobalt',
+        //                 C: 'createmetallurgy:raw_wolframite',
+        //                 D: 'ars_nouveau:fire_essence',
+        //                 A: 'concatenationcore:breaking_tool'
+        //         }
+        // ).damageIngredient('concatenationcore:breaking_tool')
         event.shaped(
                 Item.of('tconstruct:soulsteel_ingot'),
                 [
-                        ' A ',
-                        'BCD',
-                        ' E '
+                        ' D ',
+                        'BCE',
+                        ' A '
                 ],
                 {
                         C: 'concatenationcore:celestial_calralite',
@@ -607,6 +604,18 @@ ServerEvents.recipes(event => {
                 {
                         B: '#concatenation:assembly_stock',
                         A: 'psi:ebony_psimetal'
+                }
+        )
+        event.shaped(
+                Item.of('tacz:ammo', '{AmmoId:"tacz:338"}'),
+                [
+                        'AAB',
+                        '   ',
+                        '   '
+                ],
+                {
+                        A: 'createtaczauto:casing_338_lapua',
+                        B: 'createtaczauto:tiny_gunpowder_pile'
                 }
         )
 });
