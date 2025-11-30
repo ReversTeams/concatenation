@@ -1209,6 +1209,19 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
+                Item.of('concatenationcore:radiation_wand'),
+                [
+                        'mekanismgenerators:fission_fuel_assembly',
+                        'concatenationcore:full_pentacles',
+                        'mekanism:ultimate_energy_cube',
+                        'mekanism:ultimate_tier_installer',
+                        'mekanism:ultimate_control_circuit',
+                        'concatenationcore:galvanized_iron',
+                        'concatenationcore:primed_calculation_processor',
+                        'concatenationcore:erhantahir_alloy',
+                        'concatenationcore:galvanized_iron'
+                ]
+        ).keepIngredient('concatenationcore:full_pentacles');
                 Item.of(
                         "concatenationcore:protection_charm",
                         '{AttributeModifiers:[{AttributeName:"generic.luck",Name:"generic.luck",Amount:1,Operation:0,UUID:[I;-627705973,885605043,-1990155892,-718506500],Slot:"offhand"}]}'
