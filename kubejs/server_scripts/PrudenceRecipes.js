@@ -3,7 +3,8 @@ ServerEvents.recipes(event => {
     [
         'strangematter:resonant_circuit',
         'strangematter:resonant_coil',
-        'strangematter:research_tablet'
+        'strangematter:research_tablet',
+        'kismet:synthetic_organ'
     ].forEach(item => event.remove({ output: item }));
 
     event.replaceInput(
@@ -327,7 +328,7 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
-        Item.of('elementalcraft:inert_crystal'),
+        Item.of('elementalcraft:inert_crystal', 2),
         [
             'ABB',
             'B  ',
@@ -384,6 +385,71 @@ ServerEvents.recipes(event => {
             '#concatenation:watering_item'
         ]
     )
+    event.shaped(
+        Item.of('perdition:elemental_soil', 2),
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            B: 'elementalcraft:earthcrystal',
+            A: 'strangematter:anomalous_grass'
+        }
+    )
+
+    event.custom({
+        type: 'strangematter:reality_forge',
+        pattern: [
+            'DDD',
+            'AEA',
+            'DDD'
+        ],
+        key: {
+            'D': { item: 'kismet:kismet_plating' },
+            'A': { item: 'kismet:conglomerated_organ' },
+            'E': { item: 'kismet:brain' }
+        },
+        result: {
+            item: 'kismet:synthetic_organ',
+            count: 1
+        },
+        shards: {
+            'gravitic': 0,
+            'energetic': 1,
+            'chrono': 1,
+            'insight': 0,
+            'shade': 0,
+            'spatial': 1
+        },
+        required_research: 'reality_forge'
+    }).id('concatenation:synthetic_organ');
+
+    // Kismet
+    event.shapeless(
+        Item.of('kismet:organ_regrower'),
+        [
+            'born_in_chaos_v1:ethereal_spirit',
+            'concatenationcore:sugarbase',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh',
+            'minecraft:rotten_flesh'
+        ]
+    )
+    event.shapeless(
+        Item.of('kismet:kismet_plating', 2),
+        [
+            'kismet:kismet_plating',
+            'concatenationcore:alclad',
+            'strangematter:resonite_ingot',
+            'minecraft:fire_charge',
+            'concatenationcore:hammer'
+        ]
+    )
 
     event.recipes.minecraft.smelting(
         'strangematter:raw_resonite',
@@ -408,5 +474,11 @@ ServerEvents.recipes(event => {
             A: 'strangematter:resonite_ingot'
         }
     )
-
+    event.shapeless(
+        Item.of('perdition:limbo_bush'),
+        [
+            'perdition:limbo_berries',
+            'perdition:blackened_resin'
+        ]
+    )
 });

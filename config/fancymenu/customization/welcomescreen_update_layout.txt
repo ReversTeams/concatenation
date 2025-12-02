@@ -4,13 +4,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1764050065851
+  last_edited_time = 1764706244693
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:64cdc17d-9aea-4a68-bb76-765039e476f0-1764050024140] = [groups:][instances:]
+  [loading_requirement_container_meta:15f8be63-52ff-4116-8bdb-5f47ea6691ca-1764704618166] = [groups:][instances:]
 }
 
 menu_background {
@@ -292,7 +292,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/event-titles/deathupdate.png
+  source = [source:local]/config/fancymenu/assets/event-titles/refractiveratcheting.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -450,7 +450,7 @@ element {
 
 element {
   interactable = true
-  source = The Death Update expands the Death Pathway, adding some new items as well as clarifying the rest of Born in Chaos while adding new lore.%n%%n%At the same time, the start of the Hermit Pathway was revamped with a new alloy smelter and resources, along with buffing tools for the Hierophant Pathway.
+  source = Refractive Ratcheting is major update cycle for Concatenation overhauling most of the technology side of the pack. The Hermit gets a more interesting start with early game alloy smelters and resources such as ferrotin bronze and platinum. The Tower is planned to be fully overhauled in an upcoming section of the update cycle.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -517,7 +517,7 @@ element {
 
 element {
   interactable = true
-  source = 11/25/2025 - v1.3.5%n%11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"
+  source = 12/02/2025 - v1.4.0 "Refractive Ratcheting"%n%11/25/2025 - v1.3.5%n%11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"
   source_mode = direct
   shadow = true
   scale = 0.5

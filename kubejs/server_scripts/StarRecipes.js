@@ -50,23 +50,23 @@ ServerEvents.recipes(event => {
             A: "concatenationcore:gold_paper"
         }
     ).keepIngredient("tarotcards:temperance");
-    event.shaped(
-        Item.of('thermal:laser_diode'),
-        [
-            'ABC',
-            'DEF',
-            'CGC'
-        ],
-        {
-            A: 'tarotcards:the_star',
-            F: 'concatenationcore:riparian',
-            C: 'irons_spellbooks:legendary_ink',
-            G: 'concatenationcore:temblor',
-            E: 'minecraft:nether_star',
-            B: 'concatenationcore:windflaw',
-            D: 'concatenationcore:conflagration'
-        }
-    ).keepIngredient("tarotcards:the_star")
+    // event.shaped(
+    //     Item.of('thermal:laser_diode'),
+    //     [
+    //         'ABC',
+    //         'DEF',
+    //         'CGC'
+    //     ],
+    //     {
+    //         A: 'tarotcards:the_star',
+    //         F: 'concatenationcore:riparian',
+    //         C: 'irons_spellbooks:legendary_ink',
+    //         G: 'concatenationcore:temblor',
+    //         E: 'minecraft:nether_star',
+    //         B: 'concatenationcore:windflaw',
+    //         D: 'concatenationcore:conflagration'
+    //     }
+    // ).keepIngredient("tarotcards:the_star")
 
     // gated recipes
     event.shaped(

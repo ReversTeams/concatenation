@@ -45,7 +45,7 @@
 		the_emperpor_heroofvillagebonus = 2
 		#How close animals need to be to set lovemode
 		#Range: 0.0 ~ 256.0
-		the_empress_range = 3.0
+		the_empress_range = 2.0
 		#Amplifier for effect (2 = III)
 		#Range: 0 ~ 100
 		the_fool_jumpboost = 2
@@ -60,7 +60,7 @@
 		the_hermit_allyrange = 10.0
 		#How much armor is added when away from allies
 		#Range: 0.0 ~ 100.0
-		the_hermit_armorbonus = 5.0
+		the_hermit_armorbonus = 3.0
 		#Percentage increase of experience (2 = +200%)
 		#Range: 1.0 ~ 100.0
 		the_hierophant_xpboost = 1.5

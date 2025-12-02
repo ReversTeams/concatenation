@@ -19,7 +19,7 @@
 	quests: [
 		{
 			description: [
-				"{image:concatenationcore:textures/info-hierophant.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_hierophant.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"&9Hierophants&r are apprentice technicians, skilled in automating resources, logistics, and digital storage systems."
 				""
@@ -67,7 +67,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/info-magician.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_magician.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Embark on the path of an elementist, delving into control over elemental sources. The tarot perk of the &eMagician&r is that golden weapons do not break. Especially useful when you are to consider that golden weapons are holy in nature, inflicting more damage to the undead."
 				"{@pagebreak}"
@@ -113,7 +113,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/temperanceinfographic.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_temperance.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Witches of the &cTemperance pathway&r adhere to researching the occult and an isolated lifestyle, growing their various herbs in peace. Their peers are often jealous of their multiple trinkets: the flying broom, large coffer replacing the backpack, magic-resistant armour, etc. "
 				""
@@ -181,7 +181,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/info-hermit.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_hermit.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Delve into the &dHermit pathway&r to become a tinkerer, skilled in resource processing and casting elaborate tools."
 				""
@@ -532,8 +532,8 @@
 		}
 		{
 			dependencies: [
-				"73F4AAF2267BB33B"
-				"06A4BEEE42830A85"
+				"3F53C388105917F6"
+				"2515356468657815"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -1226,7 +1226,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1254,8 +1254,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.0d
+			x: -4.05d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1336,8 +1336,8 @@
 				}
 			]
 			title: "The Mighty Smeltery"
-			x: -4.95d
-			y: 11.0d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1366,8 +1366,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 13.0d
+			x: -5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -2082,6 +2082,7 @@
 				"{@pagebreak}"
 				"The meteor stone itself is often overlooked, but it's still a robust atmosphere-defying material that is worth collecting for future endeavours."
 			]
+			icon: "ae2:sky_stone_block"
 			id: "7DD14D1827FF575E"
 			rewards: [
 				{
@@ -2096,19 +2097,27 @@
 					xp_levels: 1
 				}
 			]
-			tasks: [{
-				id: "3D8A93A0719526F7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "3D8A93A0719526F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "ae2:sky_stone_block"
 					}
-					id: "ae2:sky_stone_block"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "398D533D9FEB226C"
+					item: "ae2:meteorite_compass"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Find a fallen meteor"
 			x: -4.0d
 			y: -1.5d
@@ -7570,7 +7579,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -7595,8 +7604,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 15.5d
+			x: -5.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["06856516470E742D"]
@@ -7637,7 +7646,7 @@
 				}
 			]
 			x: -6.5d
-			y: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -8804,8 +8813,8 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -5.5d
-			y: 6.5d
+			x: -4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["087234557EE4E2A3"]
@@ -8850,8 +8859,8 @@
 				}
 			]
 			title: "Tinkering"
-			x: -5.5d
-			y: 8.0d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -8907,8 +8916,8 @@
 				}
 			]
 			title: "Efficient Tinkering Storage"
-			x: -7.0d
-			y: 7.0d
+			x: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["13FC54673932E4F0"]
@@ -8932,8 +8941,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.5d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -9210,7 +9219,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9483,8 +9492,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0249999999999995d
-			y: 16.099999999999998d
+			x: -4.6d
+			y: 16.674999999999997d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -9514,7 +9523,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
@@ -11196,7 +11205,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 14.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -19326,7 +19335,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 13.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19506,7 +19515,7 @@
 			]
 			title: "Specialized Tools"
 			x: -2.5d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19584,7 +19593,7 @@
 			}]
 			title: "Vein Hammer"
 			x: -1.0d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19803,7 +19812,7 @@
 			}]
 			title: "Melee Weapons"
 			x: -2.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -21708,8 +21717,8 @@
 				type: "item"
 			}]
 			title: "The Paxel"
-			x: -4.0d
-			y: 5.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -21835,8 +21844,8 @@
 				}
 			]
 			title: "Casting"
-			x: -2.5d
-			y: 10.0d
+			x: -2.55d
+			y: 9.5d
 		}
 		{
 			dependencies: ["640ED9A58F8DD165"]
@@ -23129,13 +23138,12 @@
 			y: 29.5d
 		}
 		{
-			dependencies: ["0964BD6C4413A9C9"]
+			dependencies: ["7EC83053F1BDF835"]
 			description: [
 				"Found some ancient blueprints from my nether adventures and saved them for later. I've borrowed an interesting book in a dwarven library with a note on the cover:"
 				""
 				"&oIn practice, it is rather good at resource processing, being able to make materials the regular smeltery cannot. But the foundry cannot alloy molten metals together for some strange reason&r"
 			]
-			hide_dependency_lines: true
 			id: "45869F0B994655D8"
 			rewards: [
 				{
@@ -23169,7 +23177,7 @@
 			}]
 			title: "The Fantastic Foundry"
 			x: -2.5d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -27110,7 +27118,9 @@
 				""
 				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
 				"{@pagebreak}"
-				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the overworld.&r"
+				"&2After experimentation, it seems that pure soil can be made from pure rock, compatible with limbo berries for them to be grown in the overworld."
+				""
+				"&2Further research has made it known that elemental soil can be made from anomalous grass, but all of its nutrients seem sucked out after some growth, letting the limbo bush wither and die. It is much cheaper though.&r&r"
 			]
 			icon: "perdition:limbo_berries"
 			id: "07D743EBC4DDD625"
@@ -27135,6 +27145,12 @@
 				{
 					id: "0E175B5BAA9963FF"
 					item: "perdition:pure_soil"
+					type: "item"
+				}
+				{
+					id: "1759E33EB98E248F"
+					item: "perdition:elemental_soil"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -27645,7 +27661,7 @@
 			]
 			title: "Eccentricities"
 			x: 2.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27882,12 +27898,18 @@
 				"This requires an amount of experience and air essences, as words travel through the air. Air essences can be produced by infusing an air crystal with more air."
 			]
 			id: "08F5E41C824834DC"
-			rewards: [{
-				count: 3
-				id: "23958407EA199A3B"
-				item: "ars_nouveau:air_essence"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "23958407EA199A3B"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "43CBA9DD904526A6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "6B73AB6AD8490861"
 				item: "spelled:leveling_altar"
@@ -27969,23 +27991,6 @@
 			}]
 			x: -0.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["63B383DE2EEFE2F3"]
-			id: "2FFA8CB4C1FD06C7"
-			tasks: [{
-				id: "1F75F73BB8D4E736"
-				item: {
-					Count: 1
-					id: "thermal:laser_diode"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 17.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -28438,8 +28443,8 @@
 				}
 			]
 			title: "Stone Alloy Smelter"
-			x: -0.5d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -28475,11 +28480,11 @@
 				}
 			]
 			title: "Brick Alloy Smelter"
-			x: -2.0d
+			x: -3.0d
 			y: 7.0d
 		}
 		{
-			dependencies: ["5153F78E7C90421F"]
+			dependencies: ["7EC83053F1BDF835"]
 			description: [
 				"The fastest of the alloy smelters, the scorchia alloy smelter is made from a material originating from the netherworld, allowing for the highest heat throughout."
 				""
@@ -28511,8 +28516,8 @@
 				}
 			]
 			title: "Scorchia Alloy Smelter"
-			x: -4.0d
-			y: 7.5d
+			x: -2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -28662,7 +28667,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			hide_until_deps_complete: true
@@ -29175,13 +29180,25 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: [
+				"Pipes can be used to easily connect two places much more efficiently than trains or tugs."
+				""
+				"Pipes require modules to perform a task, and in the case of moving an item from one place to another, it requires a suction force of an extraction module."
+			]
 			id: "334048AFEC728E43"
-			rewards: [{
-				count: 32
-				id: "249A15DF56BE385A"
-				item: "prettypipes:pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "249A15DF56BE385A"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "00FD3534A1580E43"
+					item: "prettypipes:high_extraction_module"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1B5672273E7B0717"
 				item: "prettypipes:pipe"
@@ -29228,6 +29245,143 @@
 			}]
 			x: -16.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["411A1361299385DF"]
+			id: "2246B58523E7EF42"
+			rewards: [{
+				id: "203010FAC76CEC96"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5F3DF2E30E8E2412"
+				item: "kismet:synthetic_organ"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2246B58523E7EF42"]
+			id: "53DF63D0804C9368"
+			rewards: [{
+				id: "14E33582F4CD6798"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1465CC31484A7A54"
+				item: "kismet:organ_regrower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7DDCF64BACE5F05A"]
+			id: "411A1361299385DF"
+			rewards: [{
+				id: "7D7F47B79D57151E"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "kismet:kismet_lamp"
+				id: "4443561CA230F874"
+				structure: "kismet:kismet_structure"
+				title: "Find a Kismet Structure"
+				type: "structure"
+			}]
+			title: "Find a Kismet's Nest"
+			x: 2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["411A1361299385DF"]
+			id: "2E0CC6B8DE1630EE"
+			rewards: [{
+				id: "1A7077917A2F71A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1C663AF3CDB65D7F"
+				item: "kismet:kismet_battery"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Platinum is an extremely rare metal. It nearly never appears by itself, only in trace amounts combined with other minerals. Nickel is often found with sufficient amounts of platinum that is often discarded during the nickel extraction process or refining. Some special methods such as the foundry can extract it more efficiently. "
+				""
+				"A more crude method is using a large amount of copper and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
+			]
+			id: "7EC83053F1BDF835"
+			rewards: [{
+				id: "16B9F33D9B2A2226"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "61F8C5F5051DD791"
+				item: "common_ore_library:platinum_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5C37D62CC88F677F"]
+			id: "076BFDC251EBC945"
+			tasks: [{
+				id: "5FC1B35759509764"
+				item: "createmetallurgy:obdurium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["334048AFEC728E43"]
+			description: [
+				"Extraction modules are used to well.. extract items from pipes."
+				""
+				"There exists multiple other modules to serve other tasks."
+			]
+			id: "31CA29122BA9C24F"
+			rewards: [{
+				id: "513E4D72238C4D34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "73BDEBB0FD60EA19"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "prettypipes:low_extraction_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:medium_extraction_module"
+							}
+						]
+					}
+				}
+				title: "Any Extraction Module"
+				type: "item"
+			}]
+			title: "Extraction Module"
+			x: -11.5d
+			y: 6.0d
 		}
 	]
 	title: "The Journey"

@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "minecraft:amethyst_cluster" }
+  ],
+  "tool": {
+    "item": "concatenation:cutting_tool"
+  },
+  "result": [
+    {
+      "item": "minecraft:amethyst_shard",
+      "count": 3
+    }
+  ]
+}

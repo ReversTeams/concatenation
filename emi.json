@@ -341,10 +341,6 @@
       "toomanyrecipeviewers:/lychee/cut_gem": [
         "item:perdition:cut_dis_gem"
       ],
-      "toomanyrecipeviewers:/thermal/compat/mekanism/smelter_mek_osmium_ore": [
-        "item:minecraft:copper_ingot",
-        "item:thermal:rich_slag"
-      ],
       "toomanyrecipeviewers:/thermal/machines/centrifuge/centrifuge_oil_sand": [
         "item:thermal:bitumen",
         {
