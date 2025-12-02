@@ -7,7 +7,18 @@ ServerEvents.recipes(event => {
             '   '
         ],
         {
-            A: 'minecraft:oak_log'
+            A: '#minecraft:logs'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:chest', 4),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: '#minecraft:logs'
         }
     )
     event.shaped(
@@ -18,19 +29,17 @@ ServerEvents.recipes(event => {
             '   '
         ],
         {
-            A: 'minecraft:oak_log'
+            A: '#minecraft:logs'
         }
     )
-    event.shaped(
+    event.shapeless(
         Item.of('minecraft:amethyst_cluster'),
         [
-            'AA ',
-            'AA ',
-            '   '
-        ],
-        {
-            A: 'minecraft:large_amethyst_bud'
-        }
+            'minecraft:large_amethyst_bud',
+            'minecraft:large_amethyst_bud',
+            'minecraft:large_amethyst_bud',
+            'minecraft:large_amethyst_bud'
+        ]
     )
     event.shapeless(
         Item.of('minecraft:large_amethyst_bud'),
@@ -42,7 +51,7 @@ ServerEvents.recipes(event => {
         ]
     )
     event.shapeless(
-        Item.of('minecraft:large_amethyst_bud'),
+        Item.of('minecraft:medium_amethyst_bud'),
         [
             'minecraft:small_amethyst_bud',
             'minecraft:small_amethyst_bud',

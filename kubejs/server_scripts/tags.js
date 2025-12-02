@@ -585,6 +585,10 @@ ServerEvents.tags('item', event => {
         'the_deep_void:sulfur'
     ])
 
+    add('forge:gems/cinnabar', [
+        'the_deep_void:cinnabar'
+    ])
+
     add('concatenation:isolated_ingot', [
         'concatenationcore:galvanized_iron',
         'concatenationcore:ferrotin_bronze_ingot'

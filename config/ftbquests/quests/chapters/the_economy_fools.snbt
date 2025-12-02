@@ -869,6 +869,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Gold is quite valuable and seeing it go for a fair price has me surprised."]
 			hide_dependency_lines: true
 			icon: "minecraft:gold_ingot"
 			id: "2F103F8EB62F408C"
@@ -889,6 +890,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Silver and glowstone are both equally valuable resources for advancement. The recent economic inflation seems to have caused a price hike, but it's still a solid commodity."]
 			hide_dependency_lines: true
 			icon: "thermal:silver_ingot"
 			id: "4B038E1EA1BD25D6"
@@ -1104,6 +1106,11 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: [
+				"A mystical food often used by adventurers. I'm surprised to see a random food stall selling it for.. well, it's still expensive but for the fact it's gold, it's pretty cheap. "
+				""
+				"Of course, they're sponsored by the mining company."
+			]
 			hide_dependency_lines: true
 			icon: "minecraft:golden_apple"
 			id: "7F2A3C249E0CB066"
@@ -1123,6 +1130,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Silver and glowstone are both equally valuable resources for advancement. The recent economic inflation seems to have caused a price hike, but it's still a solid commodity."]
 			hide_dependency_lines: true
 			icon: "minecraft:glowstone_dust"
 			id: "0B53C6AE087D55E6"
@@ -1170,6 +1178,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["The price of some commodities such as redstone seems to be highly volatile."]
 			hide_dependency_lines: true
 			icon: "minecraft:redstone"
 			id: "086A961864B0AA06"
@@ -1218,6 +1227,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["One cookie for a whole 5 karaons? That seems excessive. Truly a sign of our declining economy."]
 			hide_dependency_lines: true
 			icon: "minecraft:cookie"
 			id: "5D698D9811522242"
@@ -1237,6 +1247,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Building kits are enjoyed by builders and efficient engineers and technicians as well, using some of its materials for parts, such as wood or smooth stone."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1273,6 +1284,11 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different flowers."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1313,6 +1329,11 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different stones."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1352,6 +1373,11 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different saplings, including some special ones with a lower chance!"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1383,6 +1409,11 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different logs."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1415,6 +1446,11 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different oreberry bushes."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1446,6 +1482,11 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different potions."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1528,6 +1569,11 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: [
+				"The Maorlan company sells these assorted boxes full of goodies. As the people enjoy gambling while purchasing something, this is something quite popular."
+				""
+				"This assorted box is full of different foods."
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1567,6 +1613,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["The price of this assorted box has greatly increased in price from the last time I've seen one on sale."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1830,6 +1877,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Selenite is quite the hard find, yet it's sold at the same price as gold? I guess that only witches of Temperance need it.."]
 			hide_dependency_lines: true
 			icon: "hexerei:selenite_shard"
 			id: "0C282B9725B5FD8B"
@@ -1850,6 +1898,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Inflation seems to be having an impact on even mystical ingredients.. This was a 50% price increase from last month."]
 			hide_dependency_lines: true
 			icon: "hexerei:selenite_shard"
 			id: "479C7F6EA45167BA"
@@ -1897,6 +1946,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Often used as a mystical ingredient, the squid populations have gone in and out of control, even nearly dissapearing at times with hunters complaining about the lack of them."]
 			hide_dependency_lines: true
 			icon: "minecraft:glow_ink_sac"
 			id: "47E4FFA4AFC1C0AE"
@@ -1997,6 +2047,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Milk is only worth a few karaons, even for several litres of it. Most of the price is down to the bucket."]
 			hide_dependency_lines: true
 			icon: "minecraft:milk_bucket"
 			id: "0D37ED50FE14A098"
@@ -2023,6 +2074,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["With how common water is, I would be led to believe most of the price of this item is down to the iron used in the bucket - except this is 3 times cheaper than the price of an iron ingot."]
 			hide_dependency_lines: true
 			icon: "minecraft:water_bucket"
 			id: "4980679CCB63B9CA"
@@ -2083,6 +2135,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: [""]
 			hide_dependency_lines: true
 			icon: "create:electron_tube"
 			id: "3F37172AD2290A5E"
@@ -2218,6 +2271,7 @@
 				item: { Count: 3, id: "concatenationcore:twenty_five_karaon" }
 				type: "item"
 			}]
+			title: "9m Casing - 25KA"
 			x: 15.0d
 			y: -5.0d
 		}
@@ -2380,6 +2434,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Fortune fragments are often left on the sides of temples and abandoned structures, eventually gathering energy to become something useful for exploration. Adventurers finding some during their travels can consider themselves lucky. For some, they don't see the value at all and consider selling it off."]
 			hide_dependency_lines: true
 			icon: "concatenationcore:fortune_fragment"
 			id: "45042DE1452EA7D2"
@@ -2420,6 +2475,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["One of the villagers repeatedly preached about his new holy book, claiming it will cause a stir. People didn't bother purchasing any. Upon closer inspection at a flea market in a bundle of trinkets, it does seem to possess &osome&r holy power."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2462,6 +2518,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Shrike is often used to purge experience from one's body, although an echo shard is often hard to find. Did the person selling this only need a single experience orb and then sold it off?"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2607,6 +2664,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["A lovely little stall sold these treats. Savory and heartful!"]
 			hide_dependency_lines: true
 			icon: "concatenationcore:mint_apple"
 			id: "5542861F5ED6C6BF"
@@ -2626,6 +2684,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A street food stall sold this nice food, giving you a kick in energy."]
 			hide_dependency_lines: true
 			icon: "concatenationcore:shiny_eclair"
 			id: "6D7ABC00B4FD5655"
@@ -2645,6 +2704,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Recently, miners have gone to harvest the meteors around the world to use the metal it contains. A batch of this stone sells for 125 karaons, with the amount of stone variable everyday on the market. It was agreed to keep the baseline price of 125, only changing the quantity."]
 			hide_dependency_lines: true
 			icon: "ae2:sky_stone_block"
 			id: "4953AC7B50FC9700"
@@ -2666,6 +2726,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Paxels are quite useful for both multitasking and saving space on your belt. Unfortunately, only Hermits are adept at making good quality ones. Fortunately, it makes for nice good to sell."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2705,6 +2766,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Apprentice technicians are more used to regular hammers. Although ironclad hammers are more solid, I find it kind of rarely used. The Hierophant Guild seems to be trying to improve their usage."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2774,6 +2836,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A megatorch is quite the easy fix to making your cabin in the middle of the wood threatened by all kinds of monsters a safe spot. It's quite expensive normally and a slightly tedious process to make, so this would seem subsidized to me."]
 			hide_dependency_lines: true
 			icon: "torchmaster:megatorch"
 			id: "729BAA91B469B369"
@@ -2862,6 +2925,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["This brass seems quite expensive to me."]
 			hide_dependency_lines: true
 			icon: "create:brass_ingot"
 			id: "75A496890A612FD3"

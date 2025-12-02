@@ -19,7 +19,7 @@
 	quests: [
 		{
 			description: [
-				"{image:concatenationcore:textures/info-hierophant.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_hierophant.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"&9Hierophants&r are apprentice technicians, skilled in automating resources, logistics, and digital storage systems."
 				""
@@ -67,7 +67,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/info-magician.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_magician.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Embark on the path of an elementist, delving into control over elemental sources. The tarot perk of the &eMagician&r is that golden weapons do not break. Especially useful when you are to consider that golden weapons are holy in nature, inflicting more damage to the undead."
 				"{@pagebreak}"
@@ -113,7 +113,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/temperanceinfographic.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_temperance.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Witches of the &cTemperance pathway&r adhere to researching the occult and an isolated lifestyle, growing their various herbs in peace. Their peers are often jealous of their multiple trinkets: the flying broom, large coffer replacing the backpack, magic-resistant armour, etc. "
 				""
@@ -181,7 +181,7 @@
 		}
 		{
 			description: [
-				"{image:concatenationcore:textures/info-hermit.png width:150 height:125 align:center}"
+				"{image:concatenationcore:textures/infographic_hermit.png width:150 height:125 align:center}"
 				"{@pagebreak}"
 				"Delve into the &dHermit pathway&r to become a tinkerer, skilled in resource processing and casting elaborate tools."
 				""
@@ -29185,6 +29185,11 @@
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
+			description: [
+				"Pipes can be used to easily connect two places much more efficiently than trains or tugs."
+				""
+				"Pipes require modules to perform a task, and in the case of moving an item from one place to another, it requires a suction force of an extraction module."
+			]
 			id: "334048AFEC728E43"
 			rewards: [
 				{
@@ -29315,6 +29320,11 @@
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
+			description: [
+				"Platinum is an extremely rare metal. It nearly never appears by itself, only in trace amounts combined with other minerals. Nickel is often found with sufficient amounts of platinum that is often discarded during the nickel extraction process or refining. Some special methods such as the foundry can extract it more efficiently. "
+				""
+				"A more crude method is using a large amount of copper and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
+			]
 			id: "7EC83053F1BDF835"
 			rewards: [{
 				id: "16B9F33D9B2A2226"
@@ -29342,7 +29352,17 @@
 		}
 		{
 			dependencies: ["334048AFEC728E43"]
+			description: [
+				"Extraction modules are used to well.. extract items from pipes."
+				""
+				"There exists multiple other modules to serve other tasks."
+			]
 			id: "31CA29122BA9C24F"
+			rewards: [{
+				id: "513E4D72238C4D34"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "73BDEBB0FD60EA19"
 				item: {

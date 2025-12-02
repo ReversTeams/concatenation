@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:seared_bricks", count: 1 },
-                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                        { item: "concatenationcore:smeltery_fuel_core", count: 1 }
                 ],
                 result: {
                         item: "tconstruct:smeltery_controller",
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:scorched_bricks", count: 1 },
-                        { item: "common_ore_library:platinum_ingot", count: 1 }
+                        { item: "concatenationcore:platinum_fuel_core", count: 1 }
                 ],
                 result: {
                         item: "tconstruct:foundry_controller",
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:seared_bricks", count: 1 },
-                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                        { item: "concatenationcore:smeltery_fuel_core", count: 1 }
                 ],
                 result: {
                         item: "tconstruct:smeltery_controller",
@@ -709,12 +709,13 @@ ServerEvents.recipes(event => {
                 [
                         'ABA',
                         'BCB',
-                        'ABA'
+                        'ADA'
                 ],
                 {
-                        A: 'common_ore_library:platinum_ingot',
-                        B: 'create:cut_scorchia_bricks',
-                        C: 'alloy_smelter:forge_controller_tier2'
+                        C: 'alloy_smelter:forge_controller_tier2',
+                        B: 'minecraft:gold_ingot',
+                        D: 'concatenationcore:platinum_fuel_core',
+                        A: 'create:cut_scorchia_bricks'
                 }
         )
         event.shaped(
@@ -781,6 +782,33 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:stickyredstone',
                         D: 'minecraft:iron_ingot',
                         A: 'createaddition:electrum_wire'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:smeltery_fuel_core'),
+                [
+                        'ABA',
+                        'BCB',
+                        'DBD'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        D: 'thermal:tin_ingot',
+                        C: 'minecraft:copper_block',
+                        B: 'concatenationcore:ferrotin_bronze_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:platinum_fuel_core'),
+                [
+                        'ABA',
+                        'CBC',
+                        'ABA'
+                ],
+                {
+                        B: 'thermal:electrum_ingot',
+                        A: 'common_ore_library:platinum_ingot',
+                        C: 'concatenationcore:smeltery_fuel_core'
                 }
         )
 
