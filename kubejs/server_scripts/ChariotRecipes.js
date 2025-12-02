@@ -375,7 +375,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('prettypipes:pipe', 8),
+                Item.of('prettypipes:pipe', 12),
                 [
                         'ABC',
                         'BDB',
@@ -389,7 +389,7 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
-                Item.of('ppfluids:fluid_pipe', 8),
+                Item.of('ppfluids:fluid_pipe', 12),
                 [
                         ' AB',
                         'ACA',

@@ -13,7 +13,10 @@
     "concatenationcore",
     "perdition",
     "tfmg",
-    "common_ore_library"
+    "the_deep_void",
+    "thoriumreactors",
+    "common_ore_library",
+    "refurbished_furniture"
   ],
   "stoneStrata": [
     "stone",
@@ -73,6 +76,7 @@
     "lead",
     "lumium",
     "mithril",
+    "manyullyn",
     "netherite",
     "nickel",
     "obsidian",
@@ -86,6 +90,7 @@
     "ruby",
     "sapphire",
     "signalum",
+    "salt",
     "silver",
     "steel",
     "sulfur",

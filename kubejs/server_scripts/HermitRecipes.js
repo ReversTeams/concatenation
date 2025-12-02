@@ -32,7 +32,8 @@ ServerEvents.recipes(event => {
                 'alloy_smelter:forge_controller_tier3',
                 'create:goggles',
                 'tconstruct:smeltery_controller',
-                'tconstruct:tinker_station'
+                'tconstruct:tinker_station',
+                'tconstruct:foundry_controller'
         ]
 
         remove.forEach(item => {
@@ -59,7 +60,36 @@ ServerEvents.recipes(event => {
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:seared_bricks", count: 1 },
-                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                        { item: "concatenationcore:smeltery_fuel_core", count: 1 }
+                ],
+                result: {
+                        item: "tconstruct:smeltery_controller",
+                        count: 1
+                },
+                smeltingTime: 350,
+                fuelPerTick: 2,
+                requiredTier: 2
+        });
+        event.custom({
+                type: "alloy_smelter:smelting",
+                ingredients: [
+                        { item: "tconstruct:scorched_bricks", count: 1 },
+                        { item: "concatenationcore:platinum_fuel_core", count: 1 }
+                ],
+                result: {
+                        item: "tconstruct:foundry_controller",
+                        count: 1
+                },
+                smeltingTime: 500,
+                fuelPerTick: 2,
+                requiredTier: 3
+        });
+
+        event.custom({
+                type: "alloy_smelter:smelting",
+                ingredients: [
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "concatenationcore:smeltery_fuel_core", count: 1 }
                 ],
                 result: {
                         item: "tconstruct:smeltery_controller",
@@ -67,23 +97,18 @@ ServerEvents.recipes(event => {
                 },
                 smeltingTime: 250,
                 fuelPerTick: 2,
-                requiredTier: 2
+                requiredTier: 3
         });
 
         event.custom({
-                type: "alloy_smelter:smelting",
-                ingredients: [
-                        { item: "tconstruct:seared_bricks", count: 1 },
-                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                type: 'tconstruct:alloy',
+                inputs: [
+                        { tag: 'forge:molten_nickel', amount: 90 },
+                        { tag: 'forge:molten_copper', amount: 270 }
                 ],
-                result: {
-                        item: "tconstruct:smeltery_controller",
-                        count: 1
-                },
-                smeltingTime: 200,
-                fuelPerTick: 2,
-                requiredTier: 3
-        });
+                result: { fluid: 'tconstruct:molten_platinum', amount: 30 },
+                temperature: 760
+        })
 
         event.replaceInput(
                 { mod: 'createbigcannons' },
@@ -139,7 +164,7 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         C: 'minecraft:iron_ingot',
-                        D: 'minecraft:redstone',
+                        D: 'concatenationcore:stickyredstone',
                         A: '#forge:ingots/rose_gold',
                         B: 'createaddition:electrum_wire'
                 }
@@ -239,14 +264,16 @@ ServerEvents.recipes(event => {
                 Item.of('tarotcards:the_tower'),
                 [
                         'ABA',
-                        'CDC',
-                        'ABA'
+                        'EDF',
+                        'ACA'
                 ],
                 {
                         C: 'createdeco:andesite_hull',
                         A: 'concatenationcore:gold_paper',
                         D: 'tarotcards:the_hermit',
-                        B: 'create:flywheel'
+                        B: 'create:flywheel',
+                        E: 'create:wrench',
+                        F: 'concatenationcore:circuit'
                 }
         ).keepIngredient('tarotcards:the_hermit')
         event.shaped(
@@ -682,12 +709,13 @@ ServerEvents.recipes(event => {
                 [
                         'ABA',
                         'BCB',
-                        'ABA'
+                        'ADA'
                 ],
                 {
-                        A: 'minecraft:gold_ingot',
-                        B: 'create:cut_scorchia_bricks',
-                        C: 'alloy_smelter:forge_controller_tier2'
+                        C: 'alloy_smelter:forge_controller_tier2',
+                        B: 'minecraft:gold_ingot',
+                        D: 'concatenationcore:platinum_fuel_core',
+                        A: 'create:cut_scorchia_bricks'
                 }
         )
         event.shaped(
@@ -742,6 +770,47 @@ ServerEvents.recipes(event => {
                         B: 'tarotcards:the_hermit'
                 }
         ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('concatenationcore:circuit', 2),
+                [
+                        'ABC',
+                        'DAD',
+                        'ABC'
+                ],
+                {
+                        C: 'common_ore_library:platinum_ingot',
+                        B: 'concatenationcore:stickyredstone',
+                        D: 'minecraft:iron_ingot',
+                        A: 'createaddition:electrum_wire'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:smeltery_fuel_core'),
+                [
+                        'ABA',
+                        'BCB',
+                        'DBD'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        D: 'thermal:tin_ingot',
+                        C: 'minecraft:copper_block',
+                        B: 'concatenationcore:ferrotin_bronze_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:platinum_fuel_core'),
+                [
+                        'ABA',
+                        'CBC',
+                        'ABA'
+                ],
+                {
+                        B: 'thermal:electrum_ingot',
+                        A: 'common_ore_library:platinum_ingot',
+                        C: 'concatenationcore:smeltery_fuel_core'
+                }
+        )
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

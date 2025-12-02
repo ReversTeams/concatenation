@@ -6,6 +6,14 @@
 	group: ""
 	icon: "ftbquests:book"
 	id: "5751D2B3FB26ADFF"
+	images: [{
+		height: 14.0d
+		image: "concatenationcore:textures/channels2.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.0d
+		y: -12.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -188,8 +196,8 @@
 				}
 			]
 			title: "Consecration"
-			x: 1.9d
-			y: -3.1500000000000004d
+			x: 1.9499999999999993d
+			y: -2.750000000000001d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -370,8 +378,8 @@
 				type: "item"
 			}]
 			title: "Hot Air Balloon"
-			x: 1.9d
-			y: -4.15d
+			x: 1.9499999999999993d
+			y: -3.750000000000001d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -395,8 +403,8 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 2.9d
-			y: -3.8499999999999996d
+			x: 2.9499999999999993d
+			y: -3.45d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -416,8 +424,8 @@
 				item: "minecraft:lantern"
 				type: "item"
 			}]
-			x: 3.4d
-			y: -4.85d
+			x: 3.4499999999999993d
+			y: -4.45d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -440,8 +448,8 @@
 				item: "via_romana:charting_map"
 				type: "item"
 			}]
-			x: 1.4d
-			y: -5.6d
+			x: 1.4499999999999993d
+			y: -5.2d
 		}
 		{
 			dependencies: [
@@ -483,7 +491,7 @@
 			}]
 			title: "&eWheel of Fortune"
 			x: 0.0d
-			y: -6.875d
+			y: -7.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -615,8 +623,8 @@
 				weak_nbt_match: true
 			}]
 			title: "Giant Swords and Shields"
-			x: 0.3999999999999999d
-			y: -4.15d
+			x: 0.4499999999999993d
+			y: -3.750000000000001d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -659,8 +667,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -0.6000000000000001d
-			y: -4.15d
+			x: -0.5500000000000003d
+			y: -3.750000000000001d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -692,8 +700,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.6d
-			y: -5.6d
+			x: -1.5500000000000003d
+			y: -5.2d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -792,8 +800,8 @@
 				type: "item"
 			}]
 			title: "Construction Wand"
-			x: -2.1d
-			y: -4.15d
+			x: -2.0500000000000003d
+			y: -3.750000000000001d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -845,8 +853,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.1d
-			y: -3.1500000000000004d
+			x: -2.0500000000000003d
+			y: -2.750000000000001d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -891,8 +899,31 @@
 				}
 			]
 			title: "Early Storage"
-			x: -3.1d
-			y: -3.8499999999999996d
+			x: -3.0500000000000003d
+			y: -3.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
+				""
+				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
+			]
+			id: "01787B3BD1903BA3"
+			rewards: [{
+				id: "75E53CC6DF992539"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "68C353B5335CCCE3"
+				item: "sereneseasons:calendar"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Seasons"
+			x: -3.5500000000000003d
+			y: -4.45d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -911,7 +942,7 @@
 				type: "structure"
 			}]
 			x: -1.5d
-			y: -8.274999999999999d
+			y: -8.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -934,7 +965,7 @@
 				type: "structure"
 			}]
 			x: -2.5d
-			y: -8.774999999999999d
+			y: -9.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -957,7 +988,7 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: -8.274999999999999d
+			y: -9.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -980,7 +1011,7 @@
 				type: "structure"
 			}]
 			x: 1.5d
-			y: -8.274999999999999d
+			y: -8.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1064,7 +1095,7 @@
 			]
 			title: "Find the Witch Covens"
 			x: 2.5d
-			y: -8.774999999999999d
+			y: -9.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1087,7 +1118,7 @@
 				type: "structure"
 			}]
 			x: 3.0d
-			y: -9.774999999999999d
+			y: -10.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1111,8 +1142,8 @@
 				title: "Find the Infernal Pumpkin"
 				type: "structure"
 			}]
-			x: 4.5d
-			y: -8.274999999999999d
+			x: 3.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1148,7 +1179,7 @@
 			]
 			title: "Visit the Slime Islands"
 			x: -3.5d
-			y: -7.774999999999999d
+			y: -9.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1196,7 +1227,7 @@
 			}]
 			title: "Find an Ancient City"
 			x: -3.0d
-			y: -9.774999999999999d
+			y: -10.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1226,7 +1257,7 @@
 				type: "biome"
 			}]
 			x: -3.0d
-			y: -11.274999999999999d
+			y: -11.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1260,7 +1291,7 @@
 				type: "structure"
 			}]
 			x: -2.0d
-			y: -11.774999999999999d
+			y: -12.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1284,10 +1315,15 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: -10.274999999999999d
+			y: -10.5d
 		}
 		{
 			dependencies: ["407BC866E1868568"]
+			description: [
+				"Man, the legends they tell about each generation of this dragon seems to have made many adventurers truly underestimate her strength. Was the Ender Dragon always this strong every time she's reborn? One of my trusty companions got flung into the sky and was squished into crepe. Luckily, he had an angelheart vial to save himself. A lot of these attacks and abilities aren't the same as recorded in legends. "
+				""
+				"In the end, after moments of suffering and a bullet to the skull, we finally managed to best this legendary beast."
+			]
 			id: "45AE33EDAF0EEB9C"
 			rewards: [{
 				id: "6677175C32F6F418"
@@ -1299,8 +1335,9 @@
 				item: "minecraft:dragon_egg"
 				type: "item"
 			}]
+			title: "The Dragon"
 			x: 0.0d
-			y: -11.274999999999999d
+			y: -11.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1330,7 +1367,7 @@
 				type: "structure"
 			}]
 			x: 3.0d
-			y: -11.274999999999999d
+			y: -11.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1362,7 +1399,7 @@
 				type: "structure"
 			}]
 			x: 2.0d
-			y: -11.774999999999999d
+			y: -12.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -1547,6 +1584,7 @@
 		}
 		{
 			dependencies: ["272EF70CED6D9AD7"]
+			description: ["The Nature's Compass allows for the searching of any biome, working in similar magic to the divination rods of the witches of Temperance."]
 			id: "135A7F936071D3C8"
 			rewards: [{
 				id: "3936F0F32C66FF79"
@@ -1567,6 +1605,7 @@
 		}
 		{
 			dependencies: ["272EF70CED6D9AD7"]
+			description: ["The Explorer's compass allows someone to precisely seek any structure abandoned across the world, making for an adventurer's most cherished relic."]
 			id: "4385A10ED5E8ACC7"
 			rewards: [{
 				id: "252AAF88CA7989DC"
@@ -1691,6 +1730,214 @@
 			title: "GtP Event Details"
 			x: 0.75d
 			y: -24.15d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Builders over time have developed their own working stations to make a great amount of variants for building materials. "
+				""
+				"A simple piece of smooth stone can be carved into a million patterns."
+			]
+			id: "3CF1BF81A1EB8B0D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "782DE56120BE7A34"
+					table_id: 6800703616788188502L
+					type: "choice"
+				}
+				{
+					id: "30D52B517F4ED948"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 0.9d
+			tasks: [{
+				id: "3BAE5CAF4F2F9147"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:botanist_workbench"
+							}
+							{
+								Count: 1b
+								id: "chipped:glassblower"
+							}
+							{
+								Count: 1b
+								id: "chipped:carpenters_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:loom_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:mason_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:alchemy_bench"
+							}
+							{
+								Count: 1b
+								id: "chipped:tinkering_table"
+							}
+						]
+					}
+				}
+				title: "Any Building Workstation"
+				type: "item"
+			}]
+			title: "Builder's Workstations"
+			x: -4.0d
+			y: -3.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Many travelers and hunters bring sleeping bags with them, letting them sleep on the go more conveniently. Personally, it's a must for my travels."
+				""
+				"&a(The sleeping bag does not set your spawn, letting you respawn at your main bed in your home.)&r"
+				"{@pagebreak}"
+				"Hammocks are the lazy man's greatest dream: perfect for sleeping during the day."
+			]
+			id: "7C7D065A52F9A7D2"
+			rewards: [{
+				id: "13E5FBA180CF7246"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4503E7EC984DDFDA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_white"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_orange"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_magenta"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_light_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_yellow"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_lime"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_pink"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_light_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_purple"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_brown"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_green"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_red"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_black"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_white"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_orange"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_magenta"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_light_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_yellow"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_lime"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_pink"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_light_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_cyan"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_black"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_blue"
+							}
+						]
+					}
+				}
+				title: "Any Sleeping Bag or Hammock"
+				type: "item"
+			}]
+			title: "Lazy Man's Dream"
+			x: 3.9000000000000004d
+			y: -3.45d
 		}
 	]
 	title: "Preface"
