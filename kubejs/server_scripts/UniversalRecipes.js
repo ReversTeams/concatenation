@@ -1264,58 +1264,66 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:death')
         event.shaped(
-    Item.of('chunkloaders:single_chunk_loader'),
-    [
-        'ABA',
-        'BCB',
-        'ABA'
-    ],
-    {
-        B: 'concatenationcore:celestial_calralite',
-        A: 'rftoolsbase:infused_diamond',
-        C: 'celestisynth:celestial_core_heated'
-    }
-)
-event.shaped(
-    Item.of('chunkloaders:basic_chunk_loader'),
-    [
-        'ABA',
-        'CDC',
-        'ABA'
-    ],
-    {
-        B: 'concatenationcore:celestial_calralite',
-        A: 'rftoolsbase:infused_enderpearl',
-        C: 'chunkloaders:single_chunk_loader',
-        D: 'celestisynth:celestial_core_heated'
-    }
-)
-event.shaped(
-    Item.of('chunkloaders:advanced_chunk_loader'),
-    [
-        'ABA',
-        'CDC',
-        'ABA'
-    ],
-    {
-        C: 'chunkloaders:basic_chunk_loader',
-        B: 'concatenationcore:glowing_gold_block',
-        A: 'concatenationcore:experience_orb',
-        D: 'celestisynth:celestial_core_heated'
-    }
-)
-event.shaped(
-    Item.of('chunkloaders:ultimate_chunk_loader'),
-    [
-        'ABA',
-        'CDC',
-        'ABA'
-    ],
-    {
-        C: 'chunkloaders:advanced_chunk_loader',
-        A: 'concatenationcore:experience_orb',
-        D: 'celestisynth:celestial_core_heated',
-        B: 'concatenationcore:silver_paper'
-    }
-)
+                Item.of('chunkloaders:single_chunk_loader'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'concatenationcore:celestial_calralite',
+                        A: 'rftoolsbase:infused_diamond',
+                        C: 'celestisynth:celestial_core_heated'
+                }
+        )
+        event.shaped(
+                Item.of('chunkloaders:basic_chunk_loader'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        B: 'concatenationcore:celestial_calralite',
+                        A: 'rftoolsbase:infused_enderpearl',
+                        C: 'chunkloaders:single_chunk_loader',
+                        D: 'celestisynth:celestial_core_heated'
+                }
+        )
+        event.shaped(
+                Item.of('chunkloaders:advanced_chunk_loader'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'chunkloaders:basic_chunk_loader',
+                        B: 'concatenationcore:glowing_gold_block',
+                        A: 'concatenationcore:experience_orb',
+                        D: 'celestisynth:celestial_core_heated'
+                }
+        )
+        event.shaped(
+                Item.of('chunkloaders:ultimate_chunk_loader'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ABA'
+                ],
+                {
+                        C: 'chunkloaders:advanced_chunk_loader',
+                        A: 'concatenationcore:experience_orb',
+                        D: 'celestisynth:celestial_core_heated',
+                        B: 'concatenationcore:silver_paper'
+                }
+        )
+        event.shapeless(
+                Item.of('create:limestone'),
+                [
+                        'minecraft:stone',
+                        'minecraft:stone',
+                        'mekanism:salt'
+                ]
+        )
 });

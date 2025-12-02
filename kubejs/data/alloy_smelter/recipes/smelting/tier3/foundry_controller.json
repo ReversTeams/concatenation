@@ -1,0 +1,24 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "tconstruct:scorched_bricks",
+      "count": 1
+    },
+    {
+      "item": "common_ore_library:platinum_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "tconstruct:foundry_controller",
+    "count": 1
+  },
+  "smeltingTime": 150,
+  "fuelPerTick": 2,
+  "requiredTier": 3
+}

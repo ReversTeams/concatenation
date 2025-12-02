@@ -1,0 +1,9 @@
+{
+  "type": "ae2:charger",
+  "ingredient": {
+    "item": "kismet:empty_battery"
+  },
+  "result": {
+    "item": "kismet:kismet_battery"
+  }
+}

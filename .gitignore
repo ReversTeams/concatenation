@@ -53,6 +53,7 @@ user-prefs.json
 /mods/.connector
 essential
 ESM
+wiki
 
 # explicitly included config
 !config/ProjectE/client.toml

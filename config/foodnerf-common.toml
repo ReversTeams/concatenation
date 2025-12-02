@@ -1,0 +1,18 @@
+#Nutrition Multiplier
+#This value will be multiplied with the nutrition value of all selected food items.
+#Default 0.5
+#Range: 0.0 ~ 1.7976931348623157E308
+nutritionMultiplier = 0.75
+#Saturation Multiplier
+#This value will be multiplied with the saturation value of all selected food items.
+#Default 0.5
+#Range: 0.0 ~ 1.7976931348623157E308
+saturationMultiplier = 0.6
+#List of all namespaces to be affected by the mod.
+#Example: ["minecraft", "foodnerf"]
+#Default ["minecraft"]
+namespaces = ["minecraft"]
+#List of all items to not be affected by the mod.
+#Example: ["minecraft:golden_apple"
+blacklist = []
+
