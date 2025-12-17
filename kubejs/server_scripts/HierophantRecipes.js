@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
                 'hammerlib:gears/diamond',
                 'hammerlib:gears/netherite',
                 'perdition:marmor_elevated',
-                'perdition:dis'
+                'perdition:dis',
+                'concatenationcore:meteorite_sword'
 
         ]
 
@@ -1716,6 +1717,30 @@ ServerEvents.recipes(event => {
                 {
                         B: '#forge:plates/steel',
                         C: 'hpm:spanner'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:meteorite_sword'),
+                [
+                        ' A ',
+                        ' A ',
+                        ' B '
+                ],
+                {
+                        A: 'concatenationcore:meteorite',
+                        B: 'minecraft:stick'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:meteorite_longsword'),
+                [
+                        ' AA',
+                        'AAA',
+                        'BA '
+                ],
+                {
+                        A: 'concatenationcore:meteorite',
+                        B: 'minecraft:stick'
                 }
         )
         event.recipes.minecraft.smelting(

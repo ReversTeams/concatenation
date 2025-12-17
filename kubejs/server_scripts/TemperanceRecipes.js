@@ -20,7 +20,8 @@ ServerEvents.recipes(event => {
                 'theurgy:divination_rod_t1',
                 'theurgy:divination_rod_t2',
                 'theurgy:divination_rod_t3',
-                'theurgy:divination_rod_t4'
+                'theurgy:divination_rod_t4',
+                'hexerei:mixing_cauldron'
         ]
 
         remove.forEach(item => {
@@ -36,6 +37,11 @@ ServerEvents.recipes(event => {
                 { mod: 'botanypots' },
                 'minecraft:flower_pot',
                 'concatenationcore:botanic_jar'
+        )
+        event.replaceInput(
+                { mod: 'botanypots' },
+                'minecraft:hopper',
+                'concatenationcore:pipe_base'
         )
 
         event.shaped(
@@ -669,6 +675,27 @@ ServerEvents.recipes(event => {
                         'immersive_weathering:perdition/petrified_scales'
                 ]
         )
+        event.shapeless(
+                Item.of('immersive_weathering:tallow'),
+                [
+                        'hexerei:animal_fat',
+                        'hexerei:animal_fat'
+                ]
+        )
+        event.shaped(
+                Item.of('hexerei:mixing_cauldron'),
+                [
+                        'ADA',
+                        'BCB',
+                        'BBB'
+                ],
+                {
+                        B: 'minecraft:iron_ingot',
+                        C: 'minecraft:cauldron',
+                        A: 'minecraft:candle',
+                        D: 'tarotcards:temperance'
+                }
+        ).keepIngredient('tarotcards:temperance')
 
         // Botany Pots
         event.recipes.botanypots.crop(

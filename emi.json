@@ -1,6 +1,36 @@
 {
   "favorites": [],
-  "lookup_history": [],
+  "lookup_history": [
+    "fluid:tconstruct:molten_platinum",
+    {
+      "type": "tag",
+      "registry": "minecraft:fluid",
+      "id": "c:molten_platinum",
+      "amount": 90
+    },
+    "item:common_ore_library:platinum_ingot",
+    "item:mekanism:basic_fluid_tank",
+    "item:mekanism:advanced_fluid_tank",
+    "item:mekanism:ingot_osmium",
+    "item:mekanism:basic_universal_cable",
+    "item:mekanism:advanced_universal_cable",
+    "item:botanypots:terracotta_hopper_botany_pot",
+    "item:concatenationcore:botanic_jar",
+    "item:littlelogistics:rapid_hopper",
+    "item:concatenationcore:pipe_base",
+    "item:prettypipes:pipe",
+    "item:littlelogistics:fluid_hopper",
+    "item:storagedrawers:hopper_upgrade",
+    "item:minecraft:hopper",
+    "item:botanypots:pink_glazed_terracotta_hopper_botany_pot",
+    "item:botanypots:terracotta_botany_pot",
+    "item:hexerei:mixing_cauldron",
+    "item:immersive_weathering:tallow",
+    "item:hexerei:animal_fat",
+    "item:minecraft:candle",
+    "item:concatenationcore:windflaw{Damage:0}",
+    "item:kismet:synthetic_organ"
+  ],
   "craft_history": [],
   "recipe_defaults": {
     "added": [
@@ -373,7 +403,6 @@
     "disabled": []
   },
   "hidden_stacks": [
-    "item:bloodmagic:inversion_pillar_cap",
     "biome:bloodmagic:none",
     "biome:terralith:yosemite_lowlands",
     "biome:terralith:yosemite_cliffs",
@@ -646,6 +675,33 @@
     "item:ae2:debug_replicator_card",
     "item:celestisynth:celestial_debugger",
     "item:quarryplus:book_mover",
-    "item:via_romana:warp_block"
+    "item:via_romana:warp_block",
+    "item:bloodmagic:inversion_pillar_cap",
+    "item:bloodmagic:dungeon_stone_s",
+    "item:bloodmagic:dungeon_polished_s",
+    "item:bloodmagic:dungeon_brick3_s",
+    "item:bloodmagic:dungeon_brick2_s",
+    "item:bloodmagic:dungeon_brick1_s",
+    "item:bloodmagic:dungeon_tilespecial_s",
+    "item:bloodmagic:dungeon_tile_s",
+    "item:bloodmagic:dungeon_smallbrick_s",
+    "item:bloodmagic:dungeon_tile_slab_s",
+    "item:bloodmagic:dungeon_brick1_slab_s",
+    "item:bloodmagic:dungeon_stone_slab_s",
+    "item:bloodmagic:dungeon_polished_slab_s",
+    "item:bloodmagic:dungeon_pillar_special_s",
+    "item:bloodmagic:dungeon_pillar_cap_s",
+    "item:bloodmagic:dungeon_eye_s",
+    "item:bloodmagic:dungeon_metal_s",
+    "item:bloodmagic:dungeon_pillar_center_s",
+    "item:bloodmagic:dungeon_brick1_gate_s",
+    "item:bloodmagic:dungeon_polished_gate_s",
+    "item:bloodmagic:dungeon_stone_wall_s",
+    "item:bloodmagic:dungeon_tile_wall_s",
+    "item:bloodmagic:dungeon_polished_stairs_s",
+    "item:bloodmagic:dungeon_stone_stairs_s",
+    "item:bloodmagic:dungeon_brick1_stairs_s",
+    "item:bloodmagic:dungeon_polished_wall_s",
+    "item:bloodmagic:dungeon_brick1_wall_s"
   ]
 }

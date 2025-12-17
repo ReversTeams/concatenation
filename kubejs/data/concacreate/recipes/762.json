@@ -1,9 +1,0 @@
-{
-  "type": "create:compacting",
-  "ingredients": [
-    { "item": "thermal:steel_nugget" }
-  ],
-  "results": [
-    { "item": "createtaczauto:casing_762x_39mm" }
-  ]
-}

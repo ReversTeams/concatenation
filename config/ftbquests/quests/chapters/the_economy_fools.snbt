@@ -72,6 +72,7 @@
 		{
 			can_repeat: false
 			dependencies: ["4C2E22EDFE23E329"]
+			description: ["These are simple items that have existed for a long time; they still sell, though."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6D5A27189CC77A1F"
@@ -111,6 +112,7 @@
 		{
 			can_repeat: false
 			dependencies: ["4C2E22EDFE23E329"]
+			description: ["These are more advanced items; they have been invented or gained their value in recent days."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3176F04B52BD7587"
@@ -298,6 +300,7 @@
 		{
 			can_repeat: true
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A log from a simple tree; it is sturdy and accepted as the standard when it comes to wood."]
 			hide_dependency_lines: true
 			id: "2AC5A12A461BE1AB"
 			rewards: [{
@@ -316,6 +319,7 @@
 		}
 		{
 			dependencies: ["4C2E22EDFE23E329"]
+			description: ["Bread is food; it's not as good as uranium, but it's still food."]
 			hide_dependency_lines: true
 			id: "35BB6D5468606986"
 			rewards: [{
@@ -333,6 +337,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["Some spiderwebs hardened using metal; I really don't see the appeal."]
 			hide_until_deps_complete: true
 			id: "59C56C88071EFA03"
 			rewards: [{
@@ -350,6 +355,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["The simplest of spices; it refuses to melt for some reason."]
 			hide_until_deps_complete: true
 			id: "633B798ABC049C44"
 			rewards: [{
@@ -369,6 +375,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["Grown mostly by sheep; easily farmable and renewable."]
 			id: "45C5445D20E0EE52"
 			rewards: [{
 				id: "77AA9FA3DD3F7CA8"
@@ -393,6 +400,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["Magicians love purple; it is unnatural and fills you with a sense of uncertainty and mystery."]
 			id: "3742A083D2394A6E"
 			rewards: [{
 				id: "6AEFE3BF83B02864"
@@ -411,6 +419,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["Used to travel on rail; it does not produce any momentum on its own but relies on powered rails or slopes to keep moving."]
 			id: "31CBC43929A65981"
 			rewards: [{
 				id: "2C8B978166F50E64"
@@ -427,6 +436,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["A dense but weak metal; great for alloys, and oxidization doesn't make it weaker."]
 			id: "3865565456FE86A2"
 			rewards: [{
 				id: "474A1BB95D625376"
@@ -443,6 +453,7 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
+			description: ["I would eat this over bread any day; of course, cook it first and maybe put it in a stew."]
 			id: "2F88EE276BE7FE60"
 			rewards: [{
 				id: "15FDEA4E892CFF19"
@@ -460,6 +471,7 @@
 		}
 		{
 			dependencies: ["6D5A27189CC77A1F"]
+			description: ["A food source produced by bees; I find it tastes somewhat good, but nothing tops uranium."]
 			id: "7E8674ABC8694BD7"
 			rewards: [{
 				count: 2
@@ -477,6 +489,7 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
+			description: ["A renewable resource that slowly grows in underground geodes."]
 			id: "1B69E334E6738EF7"
 			rewards: [{
 				id: "07F7C6EC99BD5FEF"
@@ -494,6 +507,7 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
+			description: ["The eye of the aggressive glutton fish; it has its limited uses."]
 			id: "2C82CB3DC754799D"
 			rewards: [{
 				count: 3
@@ -511,6 +525,7 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
+			description: ["Light and strong, it is an incredible metal that is horrible to refine."]
 			id: "43800935FFB32A86"
 			rewards: [{
 				count: 4
@@ -528,6 +543,7 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
+			description: ["Creates electricity using &lTHE UNMATCHED POWER OF THE SUN.&r"]
 			id: "0FE5FB8DC57E4D19"
 			rewards: [{
 				id: "31E6B9076687254A"
@@ -544,6 +560,7 @@
 		}
 		{
 			dependencies: ["3176F04B52BD7587"]
+			description: ["Precise, durable, and expensive, the perfect mechanical part for your invention needs."]
 			id: "794A9FDE75362575"
 			rewards: [
 				{
@@ -567,6 +584,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A very basic resource; a stable iron supply is needed to learn any craft."]
 			hide_dependency_lines: true
 			id: "0EB5E50ED375D599"
 			rewards: [{
@@ -585,6 +603,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Diamonds are rare, yes, but not hard to produce. It is impressive how quickly a dedicated Hierophant can get their hands on them."]
 			hide_dependency_lines: true
 			id: "14BB565A61BEB3FB"
 			rewards: [{
@@ -602,6 +621,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Rubber and Menril are some of the rarer types of wood; most will pay a fine sum for it."]
 			hide_dependency_lines: true
 			id: "22D5877CDC5C19F1"
 			rewards: [{
@@ -631,11 +651,13 @@
 				}
 				type: "item"
 			}]
+			title: "Rubber Wood or Menril Log"
 			x: -8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["A metal used for both magic and machines; it is great at transferring both types of energy."]
 			hide_dependency_lines: true
 			id: "0951C12A76E66868"
 			rewards: [
@@ -662,6 +684,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["A very energy-dense metal; it is remarkably hard to chew but tastes like newly cooked goulash."]
 			hide_dependency_lines: true
 			id: "3DE2AC1DC7B3254F"
 			rewards: [{
@@ -681,6 +704,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Using ancient debris to coat things was known long ago. If you use the already magical powers of gold, usually malleable and soft, you get a surprisingly strong material."]
 			hide_dependency_lines: true
 			id: "0C1CB1F7A72DFC9A"
 			rewards: [
@@ -706,6 +730,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Not the most expensive item on the market; anyone can take a quick trip to hell and make some easy money."]
 			hide_dependency_lines: true
 			id: "70D1C7620A27DB43"
 			rewards: [{
@@ -724,6 +749,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Iron rich in carbon, how two cheap materials form something so much more durable and valuable is a wonder, or just alloying."]
 			hide_dependency_lines: true
 			id: "34792263FF1B879A"
 			rewards: [{
@@ -742,6 +768,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["How an alloy can enhance a person's mobility in this way I have no clue, but the Hermits always find a way to make the most of the least."]
 			hide_dependency_lines: true
 			id: "428A60F282604095"
 			rewards: [
@@ -769,6 +796,7 @@
 		{
 			dependencies: ["5FC0D027A4943E93"]
 			dependency_requirement: "one_started"
+			description: ["Money is used to buy stuff in this world; capitalism will always catch up eventually."]
 			hide_dependency_lines: true
 			id: "0D61E037EBFC92FE"
 			rewards: [{
@@ -1636,6 +1664,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Found by those who dare to venture into the deep void, it is a valuable mineral used to craft powerful equipment."]
 			hide_dependency_lines: true
 			id: "52E74DCEEF2E7392"
 			rewards: [{
@@ -1654,6 +1683,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Found by those who dare to venture into the deep void, it is a valuable mineral used to craft powerful equipment."]
 			hide_dependency_lines: true
 			id: "7F2887304A435E80"
 			rewards: [{
@@ -1673,6 +1703,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Those who adventure into Dis may get their hands on a gem; just don't get too energetic with it."]
 			hide_dependency_lines: true
 			id: "4BDF4CECBD7C6D79"
 			rewards: [{
@@ -1692,6 +1723,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Those who adventure into dis may get their hands on a gem; let lightning strike it and you get something that can be used in many ways."]
 			hide_dependency_lines: true
 			id: "425EAC53E011882C"
 			rewards: [{
@@ -1709,6 +1741,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["A metal used for both magic and machines; it is great at transferring both types of energy."]
 			hide_dependency_lines: true
 			id: "32D7EED6368B68D2"
 			rewards: [{
@@ -1727,6 +1760,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Used in all things magical and mechanical, silver is one of the most important resources we have."]
 			hide_dependency_lines: true
 			id: "157D72CD94BCBCBA"
 			rewards: [{
@@ -1744,6 +1778,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Used to craft all manner of equipment by mages of the Sun, this enchanted silver is incredible in its ability to act as a magical conduit."]
 			hide_dependency_lines: true
 			id: "4EC59EB6EE6A6E71"
 			rewards: [
@@ -1769,6 +1804,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Said to contain the energy of all matter, the Mercury Shard is sought after by alchemists. I, on the other hand, have found it to be very toxic."]
 			hide_dependency_lines: true
 			id: "77830517D2944819"
 			rewards: [{
@@ -1787,6 +1823,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Used in all things magical and mechanical, silver is one of the most important resources we have."]
 			hide_dependency_lines: true
 			id: "59DAD98682E6F086"
 			rewards: [
@@ -1812,6 +1849,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Said to contain the energy of all matter, the Mercury Shard is sought after by alchemists. I, on the other hand, have found it to be very toxic."]
 			hide_dependency_lines: true
 			id: "770E0FF306BAA06C"
 			rewards: [
@@ -2139,6 +2177,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["The starting point for any Hermit wishing to learn the way of the tower."]
 			hide_dependency_lines: true
 			id: "04DC878252E0D361"
 			rewards: [{
@@ -2158,6 +2197,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Those who have been dealt the Hand of Pentacles use this complex circuit frequently; they call it basic."]
 			hide_dependency_lines: true
 			id: "54535DCE6C490295"
 			rewards: [{
@@ -2176,6 +2216,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Why would you need wood this dense? I don't know, but clearly someone does, so who am I to argue."]
 			hide_dependency_lines: true
 			id: "5229E7EC14F2805C"
 			rewards: [{
@@ -2936,6 +2977,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Used as a propellant or a magical catalyst; it is a simple mixture that creepers produce organically."]
 			hide_dependency_lines: true
 			id: "308F1543381C596B"
 			rewards: [{
@@ -2953,6 +2995,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["The currency used by the less civilized; it also has magical potency."]
 			hide_dependency_lines: true
 			id: "24EB79DD9A7DCDF2"
 			rewards: [{
@@ -2971,6 +3014,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Used mostly for food with some limited magical applications; it is easily farmable and grows in almost any climate."]
 			hide_dependency_lines: true
 			id: "2DF8D611AA4B38FC"
 			rewards: [{
@@ -2989,6 +3033,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Woven by spiders; it is incredibly rigid for its weight."]
 			hide_dependency_lines: true
 			id: "59F5422F9E35C15E"
 			rewards: [{
@@ -3007,6 +3052,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["The head of an undead skeleton. Not widely used; mostly attracts collectors."]
 			hide_dependency_lines: true
 			id: "5A28C7CB98214EB0"
 			rewards: [{
@@ -3024,6 +3070,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Used most frequently to bind books; it also functions as basic armor and can be used to make bags."]
 			hide_dependency_lines: true
 			id: "0FCB4F2C53D0DCC8"
 			rewards: [{
@@ -3042,6 +3089,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A burnable material rich in energy, good for furnaces and nourishment."]
 			hide_dependency_lines: true
 			id: "7E80EB15F4C08871"
 			rewards: [{
@@ -3060,6 +3108,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Books are simple yet potent magical enhancers; most would source their own, but people pay to be lazy."]
 			hide_dependency_lines: true
 			id: "02AFCA2EDE7BAC51"
 			rewards: [{
@@ -3079,6 +3128,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Diamonds are rare, yes, but not hard to produce. It is impressive how quickly a dedicated Hierophant can get their hands on them."]
 			hide_dependency_lines: true
 			id: "5412C25E084B2C9B"
 			rewards: [{
@@ -3097,6 +3147,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Simple silicon dioxide that has been poorly infused with the souls of the damned."]
 			hide_dependency_lines: true
 			id: "216EE72C7586C73B"
 			rewards: [{
@@ -3115,6 +3166,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["The flesh of the undead; unlike uranium, it is a very subpar food source."]
 			hide_dependency_lines: true
 			id: "0783B9AFE45D0B82"
 			rewards: [{
@@ -3133,6 +3185,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["A common magical enhancer used by magicians; it is used to manufacture a lot of their tools and equipment."]
 			hide_dependency_lines: true
 			id: "3FD0C460D938C421"
 			rewards: [{
@@ -3151,6 +3204,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["The metal magicians pride themselves on; it is simple in nature but powerful in practice."]
 			hide_dependency_lines: true
 			id: "10BEEA61A200F6E0"
 			rewards: [{
@@ -3169,6 +3223,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["Used to create various fire-related items by magicians; it is simple yet effective at holding fire energy."]
 			hide_dependency_lines: true
 			id: "1DDBE9ED46314FF3"
 			rewards: [
@@ -3193,6 +3248,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["The metal magicians pride themselves on; it is simple in nature but powerful in practice."]
 			hide_dependency_lines: true
 			id: "3E2CEDF27698C32A"
 			rewards: [{
@@ -3210,6 +3266,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["A common magical enhancer used by magicians; it is used to manufacture a lot of their tools and equipment."]
 			hide_dependency_lines: true
 			id: "47FFE020483CC17B"
 			rewards: [
@@ -3235,6 +3292,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Glowstone is truly remarkable in its ability to enhance the magical potency of materials. Gold is already powerful on its own, but this is something else."]
 			hide_dependency_lines: true
 			id: "4E3EB499A989EC27"
 			rewards: [{
@@ -3252,6 +3310,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["The most basic alloy used by the witches of Temperance."]
 			hide_dependency_lines: true
 			id: "40F5DE7BFD5C9CBF"
 			rewards: [{
@@ -3269,6 +3328,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Used for many magical purposes; it is a somewhat basic ingredient."]
 			hide_dependency_lines: true
 			id: "694C44D596986431"
 			rewards: [{
@@ -3287,6 +3347,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["A piece of pure magical energy; basically free to buy."]
 			hide_dependency_lines: true
 			id: "4723269FBFD85617"
 			rewards: [{
@@ -3305,6 +3366,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Used exclusively by Temperance witches, this powerful magical item is used mostly for summoning monsters to fight by your side."]
 			hide_dependency_lines: true
 			id: "5B3299A903F55A58"
 			rewards: [
@@ -3335,6 +3397,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Sourceberries are a renewable source of source, mostly grown by mages who don't care for adventure."]
 			hide_dependency_lines: true
 			id: "3E38E3DC606F846B"
 			rewards: [{
@@ -3352,6 +3415,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Mages of the Sun use source for most everything; being able to store it in gems is great for convenience."]
 			hide_dependency_lines: true
 			id: "2E516AFC10DEDAF5"
 			rewards: [{
@@ -3370,6 +3434,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["A simple alchemical component, used mostly by witches of the Moon."]
 			hide_dependency_lines: true
 			id: "264EF4882B4E970D"
 			rewards: [{
@@ -3388,6 +3453,7 @@
 		}
 		{
 			dependencies: ["79C4E3F45E1C609E"]
+			description: ["A rust-resistant iron; it is coated with zinc to fight against the weather."]
 			hide_dependency_lines: true
 			id: "5BAD28757B128339"
 			rewards: [{
@@ -3406,6 +3472,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["Sky stone is harvested from meteors. It does not have a very stable market, so I'll have to take whatever buyer I can."]
 			hide_dependency_lines: true
 			id: "58A9E96B6BC6D11B"
 			rewards: [{
@@ -3424,6 +3491,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Brass, discovered by hermits and used by engineers of the tower, is a versatile alloy in demand."]
 			hide_dependency_lines: true
 			id: "736C3972341EC47D"
 			rewards: [{
@@ -3442,6 +3510,7 @@
 		}
 		{
 			dependencies: ["77F408B576D8AB9D"]
+			description: ["Gold and silver are already very powerful metals, but alloying is something that sometimes surprises me."]
 			hide_dependency_lines: true
 			id: "518682A5F626F7A0"
 			rewards: [{
@@ -3460,6 +3529,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Plastic is used extensively by High Priestesses to make the advanced machinery they prize. They will pay a good sum, considering how basic it is."]
 			hide_dependency_lines: true
 			id: "429399509CC5EFB2"
 			rewards: [{
@@ -3478,6 +3548,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Used by those who have drawn the Hand of Swords, this metal alloy can be forged into some of the most resilient armor on the market."]
 			hide_dependency_lines: true
 			id: "73801B2FAFFB9A44"
 			rewards: [{
@@ -3496,6 +3567,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["An important alchemical agent, blood powder is essential for the creation of antimony."]
 			hide_dependency_lines: true
 			id: "229AC4A519028100"
 			rewards: [{
@@ -3514,6 +3586,7 @@
 		}
 		{
 			dependencies: ["08D644D94DD5BD8E"]
+			description: ["An enchanted metal used by mages and witches to create other important magical and alchemical reagents."]
 			hide_dependency_lines: true
 			id: "61317DE92FEE8A73"
 			rewards: [{
@@ -3532,6 +3605,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Created extensively by devil's witches, it is a truly remarkable material. It is both versatile and strong, but it does not come cheap."]
 			hide_dependency_lines: true
 			id: "57FDF04D2395D894"
 			rewards: [{
@@ -3549,6 +3623,7 @@
 		}
 		{
 			dependencies: ["60639CD0322496FA"]
+			description: ["Used by mages, these magical papers are limited in use but very important for their growth in power. The price isn't as high as I first thought, but I guess demand is low."]
 			hide_dependency_lines: true
 			id: "2EA983EF10C0093C"
 			rewards: [{

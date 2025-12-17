@@ -371,7 +371,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
@@ -415,6 +415,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Square Steel"
 			tasks: [{
 				id: "5A9A92E241A904E0"
 				item: {
@@ -433,8 +434,9 @@
 		}
 		{
 			dependencies: [
-				"5746BB5C34ED74C7"
 				"2E2A38A96D401883"
+				"67BC86096C11BFD0"
+				"70359866547B360C"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -467,8 +469,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.0d
+			x: -9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -544,7 +546,7 @@
 				"Either the small hull or the train car is the start to a logistics system common to both holders of the Hierophant card and Hermit card."
 			]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			hide_dependent_lines: true
 			id: "1D9002F6E0272ABC"
 			min_required_dependencies: 1
 			rewards: [{
@@ -941,8 +943,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.85d
-			y: 1.7999999999999998d
+			x: -15.349999999999998d
+			y: -5.7d
 		}
 		{
 			dependencies: [
@@ -969,8 +971,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.6499999999999995d
-			y: 2.6999999999999997d
+			x: -16.7d
+			y: -5.1d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -994,8 +996,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.6999999999999997d
+			x: -18.05d
+			y: -5.1d
 		}
 		{
 			dependencies: [
@@ -1032,8 +1034,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.35d
-			y: 2.6999999999999997d
+			x: -19.400000000000002d
+			y: -5.1d
 		}
 		{
 			dependencies: ["396320452B50120B"]
@@ -1057,8 +1059,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.249999999999998d
-			y: 3.15d
+			x: -20.3d
+			y: -4.65d
 		}
 		{
 			dependencies: [
@@ -1099,8 +1101,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.149999999999999d
-			y: 3.6d
+			x: -21.2d
+			y: -4.199999999999999d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -1132,8 +1134,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.1d
-			y: 1.7999999999999998d
+			x: -17.150000000000002d
+			y: -6.0d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1157,8 +1159,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.799999999999999d
-			y: 4.050000000000001d
+			x: -19.849999999999998d
+			y: -3.749999999999999d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1197,8 +1199,8 @@
 					type: "item"
 				}
 			]
-			x: -11.699999999999998d
-			y: 2.25d
+			x: -20.749999999999996d
+			y: -5.55d
 		}
 		{
 			dependencies: [
@@ -1254,8 +1256,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.05d
-			y: 9.5d
+			x: -3.75d
+			y: 9.75d
 		}
 		{
 			dependencies: [
@@ -1488,7 +1490,7 @@
 					xp_levels: 5
 				}
 			]
-			size: 1.0d
+			size: 1.1d
 			tasks: [{
 				id: "0CB30AE718F7C1E9"
 				item: {
@@ -1502,8 +1504,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: -12.0d
+			y: 0.8999999999999999d
 		}
 		{
 			dependencies: [
@@ -1547,11 +1549,11 @@
 				type: "item"
 			}]
 			title: "Essence Berry Bushes"
-			x: -6.324999999999999d
-			y: -5.175d
+			x: -6.8999999999999995d
+			y: -5.749999999999999d
 		}
 		{
-			dependencies: ["7BB90DEFC570E065"]
+			dependencies: ["2E2A38A96D401883"]
 			description: ["A small charger that can be used to infuse materials with energy. The hand crank is the most frequently used way to powering it manually, but any RF producing device can also be connected to it, such as an adjacent solar panel."]
 			id: "2104737FF0D2E4E7"
 			rewards: [
@@ -1580,8 +1582,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.625d
-			y: -4.6d
+			x: -9.2d
+			y: -4.0249999999999995d
 		}
 		{
 			dependencies: ["73CD8163D268BA95"]
@@ -1652,7 +1654,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["58CFB61E7D4DE729"]
+			dependencies: ["13ADC7311C00FF45"]
 			description: [
 				"Similarly to essence berry bushes, oreberry bushes can be cloned via grafting panvita. However, essence berry bushes are needed as a base on top of the corresponding ore instead of experience orbs to maximize the yield."
 				"{@pagebreak}"
@@ -1855,6 +1857,7 @@
 				random_bonus: 9
 				type: "item"
 			}]
+			size: 0.9d
 			subtitle: "Not actually clad in aluminium"
 			tasks: [{
 				id: "5B0457C527FFC775"
@@ -1869,11 +1872,11 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.5d
+			x: -7.199999999999999d
+			y: -2.6999999999999997d
 		}
 		{
-			dependencies: ["7CD059E89A322EA1"]
+			dependencies: ["7BB90DEFC570E065"]
 			description: [
 				"Panvita is a universal plant able to be grafted to any other plant and adapt to its host. This is most often used by holders of the Hierophant card to grow more oreberry bushes, which do not reproduce naturally, requiring panvita to be grafted to them. "
 				""
@@ -1940,7 +1943,7 @@
 				}
 			]
 			title: "Grow Panvita"
-			x: -5.0d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -2070,10 +2073,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"6F736EF54A792577"
-				"73F4AAF2267BB33B"
-			]
+			dependencies: ["73F4AAF2267BB33B"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Meteors can be found throughout the world and even underground. The true prize is the special certus quartz growing inside and the alien technology it houses."
@@ -2120,7 +2120,7 @@
 			]
 			title: "Find a fallen meteor"
 			x: -4.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7BB90DEFC570E065"]
@@ -2137,7 +2137,7 @@
 				item: "concatenationcore:altcircuit"
 				type: "item"
 			}]
-			size: 0.9d
+			size: 1.0d
 			tasks: [{
 				id: "0E4401227E34B7FE"
 				item: {
@@ -2151,8 +2151,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.549999999999999d
-			y: -2.6999999999999997d
+			x: -8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -2182,8 +2182,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.9d
-			y: -3.5999999999999996d
+			x: -10.025d
+			y: -2.8d
 		}
 		{
 			dependencies: ["545CB21B2B59BA32"]
@@ -2217,8 +2217,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -4.0d
+			x: -11.6d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
@@ -2233,6 +2233,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "58CB7F17AB0E0D08"
 				item: {
@@ -2269,8 +2270,8 @@
 				title: "Experience Pump or Pump"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.25d
+			x: -9.9d
+			y: 1.2999999999999998d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -2294,8 +2295,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.0d
+			x: -13.5d
+			y: 0.8999999999999999d
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
@@ -2307,6 +2308,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "79B758CE475A8FDB"
 				item: {
@@ -2320,8 +2322,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.25d
+			x: -9.0d
+			y: 1.2999999999999998d
 		}
 		{
 			dependencies: ["2104737FF0D2E4E7"]
@@ -2350,8 +2352,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: -5.5d
+			x: -10.125d
+			y: -5.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2400,8 +2402,8 @@
 				type: "item"
 			}]
 			title: "Core of the System"
-			x: -11.5d
-			y: -7.0d
+			x: -12.125d
+			y: -5.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2446,8 +2448,8 @@
 				}
 			]
 			title: "ME Storage System"
-			x: -11.5d
-			y: -6.0d
+			x: -11.625d
+			y: -6.5d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2471,8 +2473,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: -6.0d
+			x: -13.125d
+			y: -6.5d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2520,8 +2522,8 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
-			y: -7.0d
+			x: -12.625d
+			y: -7.5d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -8813,7 +8815,7 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -4.0d
+			x: -3.5d
 			y: 5.5d
 		}
 		{
@@ -8859,7 +8861,7 @@
 				}
 			]
 			title: "Tinkering"
-			x: -5.0d
+			x: -4.5d
 			y: 6.5d
 		}
 		{
@@ -8916,7 +8918,7 @@
 				}
 			]
 			title: "Efficient Tinkering Storage"
-			x: -5.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -8941,7 +8943,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 6.0d
 		}
 		{
@@ -9273,7 +9275,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["2E2A38A96D401883"]
+			dependencies: ["3F53C388105917F6"]
 			description: ["The &9Hierophant&r's natural progression is to attain the &bHigh Priestess pathway&r as well. Above, I have written down the materials required to make the simple machine frame from the &9Hierophant&r's side."]
 			hide_dependency_lines: true
 			id: "51211E92BC865FDC"
@@ -9290,7 +9292,7 @@
 				}
 				type: "item"
 			}]
-			size: 1.0d
+			size: 1.15d
 			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [
 				{
@@ -10035,8 +10037,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -2.625d
+			x: -11.625d
+			y: -1.125d
 		}
 		{
 			dependencies: [
@@ -10127,8 +10129,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.35d
-			y: -4.95d
+			x: -11.424999999999999d
+			y: -4.05d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -10294,7 +10296,7 @@
 				}
 				type: "item"
 			}]
-			size: 1.0d
+			size: 1.15d
 			subtitle: "Unlocking the High Priestess Pathway"
 			tasks: [
 				{
@@ -10638,6 +10640,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "404B80851AE30A45"
 				item: {
@@ -10651,8 +10654,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.25d
+			x: -11.25d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -10663,6 +10666,7 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "2482BC9A1934F67B"
 				item: {
@@ -10676,8 +10680,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 0.25d
+			x: -12.149999999999999d
+			y: 2.25d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -10692,6 +10696,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
+			size: 0.9d
 			tasks: [{
 				id: "72F15971CDB05576"
 				item: {
@@ -10705,8 +10710,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 0.25d
+			x: -13.049999999999999d
+			y: 2.25d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -11508,8 +11513,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.5d
+			x: -10.125d
+			y: -1.25d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -12342,7 +12347,7 @@
 				weak_nbt_match: true
 			}]
 			x: -17.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -14675,7 +14680,7 @@
 			}]
 			title: "Jetpack"
 			x: -17.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
@@ -14749,7 +14754,7 @@
 				type: "item"
 			}]
 			x: -16.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
@@ -16073,7 +16078,7 @@
 				type: "item"
 			}]
 			x: -15.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -16923,7 +16928,6 @@
 				"{@pagebreak}"
 				"There are two versions of steel armor you can make. One is heavier, having less defenses but resists knockback significantly. The other doesn't have this knockback resistance, but has less weak points, thus more defensive prowess."
 			]
-			hide_dependency_lines: true
 			id: "06460D3BD2DB0E21"
 			rewards: [{
 				id: "636F765C711A4DF1"
@@ -17103,8 +17107,8 @@
 				}
 			]
 			title: "Steel Armor"
-			x: -17.0d
-			y: -2.0d
+			x: -18.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -21775,7 +21779,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5B6717870A814E8C"]
@@ -22367,7 +22371,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -22450,12 +22454,24 @@
 				"It is unclear whether the botany pot actually possesses magical power. "
 			]
 			id: "5DC19F5250D0CF9D"
-			rewards: [{
-				count: 6
-				id: "409D74CA46DCE953"
-				item: "concatenationcore:pyrite"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "409D74CA46DCE953"
+					item: "concatenationcore:pyrite"
+					type: "item"
+				}
+				{
+					id: "0BFEB519489A1536"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "4602B336DE069406"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "798538A8AF3E49FD"
 				item: "botanypots:terracotta_botany_pot"
@@ -23274,6 +23290,8 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["589E2464D577E345"]
+			hide_dependency_lines: true
 			id: "3502EBD994DE89A2"
 			size: 0.8d
 			tasks: [{
@@ -23281,10 +23299,12 @@
 				item: "hpm:largehull"
 				type: "item"
 			}]
-			x: -9.6d
-			y: 2.0d
+			x: -18.650000000000002d
+			y: -5.8d
 		}
 		{
+			dependencies: ["589E2464D577E345"]
+			hide_dependency_lines: true
 			id: "2990E1C06FD1E413"
 			size: 0.8d
 			tasks: [{
@@ -23292,8 +23312,8 @@
 				item: "hpm:largemast"
 				type: "item"
 			}]
-			x: -9.6d
-			y: 3.4d
+			x: -18.650000000000002d
+			y: -4.4d
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
@@ -23540,8 +23560,8 @@
 				}
 			]
 			title: "Door to Dis"
-			x: -3.5d
-			y: -3.5d
+			x: -2.75d
+			y: -3.25d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -27170,6 +27190,13 @@
 				"&o&2If only I could understand what the murmurs are saying… I wish to die in the know, and not be buried clueless…&r&r"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "perdition:planeswalker_potion"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2E25CC35003C7E0E"
 			rewards: [
 				{
@@ -28480,8 +28507,8 @@
 				}
 			]
 			title: "Brick Alloy Smelter"
-			x: -3.0d
-			y: 7.0d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7EC83053F1BDF835"]
@@ -28495,7 +28522,7 @@
 			icon: "alloy_smelter:forge_controller_tier3"
 			id: "0C08591DA9C6D314"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "2267F61B4AFD158F"
 				item: "minecraft:blaze_rod"
 				type: "item"
@@ -28533,6 +28560,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
+			size: 0.75d
 			tasks: [{
 				id: "627A9A47AAC84C80"
 				item: {
@@ -28582,8 +28610,8 @@
 				type: "item"
 			}]
 			title: "Certus Quartz Tools"
-			x: -10.0d
-			y: -7.0d
+			x: -9.625d
+			y: -6.0d
 		}
 		{
 			dependencies: ["395E588AC17BB8BA"]
@@ -28595,6 +28623,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
+			size: 0.75d
 			tasks: [{
 				id: "4B99C36C79D23A2F"
 				item: {
@@ -28644,8 +28673,8 @@
 				type: "item"
 			}]
 			title: "Fluix Tools"
-			x: -11.5d
-			y: -8.5d
+			x: -10.375d
+			y: -6.75d
 		}
 		{
 			dependencies: ["5153F78E7C90421F"]
@@ -28667,7 +28696,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			hide_until_deps_complete: true
@@ -29243,8 +29272,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: -2.0d
+			x: -16.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["411A1361299385DF"]
@@ -29316,9 +29345,9 @@
 		{
 			dependencies: ["0964BD6C4413A9C9"]
 			description: [
-				"Platinum is an extremely rare metal. It nearly never appears by itself, only in trace amounts combined with other minerals. Nickel is often found with sufficient amounts of platinum that is often discarded during the nickel extraction process or refining. Some special methods such as the foundry can extract it more efficiently. "
+				"Platinum is an extremely rare metal. It nearly never appears by itself, only in trace amounts combined with other minerals. It may rarely appear in the Netherworld in pure form. Nickel is often found with sufficient amounts of platinum that is often discarded during the nickel extraction process or refining. Some special methods such as the foundry can extract it more efficiently. "
 				""
-				"A more crude method is using a large amount of copper and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
+				"A more crude method is using a large amount of silver and nickel in a smeltery, discaring most of the metal to produce a little amount of impure platinum."
 			]
 			id: "7EC83053F1BDF835"
 			rewards: [{
@@ -29352,6 +29381,7 @@
 				""
 				"There exists multiple other modules to serve other tasks."
 			]
+			hide_dependency_lines: true
 			id: "31CA29122BA9C24F"
 			rewards: [{
 				id: "513E4D72238C4D34"
@@ -29380,8 +29410,280 @@
 				type: "item"
 			}]
 			title: "Extraction Module"
-			x: -11.5d
-			y: 6.0d
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7CD059E89A322EA1"]
+			description: [
+				"Meteorite clumps can be turned into frail but still effective tools. These do not have the highest durability or mining speed, but boast a mining level as impressive as diamond."
+				""
+				"The most notable quality of these tools is the innate magnetism they possess. Any meteorite tool will naturally attract nearby items, in a range of around five blocks, to itself."
+			]
+			id: "08F1231849E950B7"
+			rewards: [
+				{
+					count: 24
+					id: "766168052083D79B"
+					item: "ae2:sky_stone_block"
+					random_bonus: 24
+					type: "item"
+				}
+				{
+					count: 2
+					id: "778AE73AAFD8A42F"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Magnetism!"
+			tasks: [{
+				id: "5D5530314ACDA0BC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "concatenationcore:meteorite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:meteorite_longsword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:meteorite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:meteorite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:meteorite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "concatenationcore:meteorite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Meteorite Tool"
+				type: "item"
+			}]
+			title: "Meteorite Tools"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5746BB5C34ED74C7"]
+			id: "67BC86096C11BFD0"
+			size: 0.85d
+			tasks: [{
+				id: "354CDFF963ABD0B8"
+				item: "concatenationcore:boiler"
+				type: "item"
+			}]
+			x: -8.075d
+			y: -0.425d
+		}
+		{
+			dependencies: ["6F736EF54A792577"]
+			description: ["Graphite can be compressed from coal and using clay as a mold while firing the mix to form graphite."]
+			id: "33E36E115EC89C06"
+			rewards: [{
+				count: 2
+				id: "36E9382EDCFA300A"
+				item: "thermal:charcoal_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43305091C6E6D5AF"
+				item: "createmetallurgy:graphite"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"33E36E115EC89C06"
+				"184C82E41D2285E0"
+			]
+			description: ["Without the usage of complex machinery, a gear mold is required to produce a crude quality gear by hand."]
+			id: "3EEFA2110D38E847"
+			rewards: [{
+				id: "528631E19199BCA1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5173FF9AC9520D2D"
+				item: "createmetallurgy:graphite_gear_mold"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EEFA2110D38E847"]
+			description: [
+				"Gears come in all sorts of materials and require a gear mold along with 5 of a given material plus an iron nugget to use as an iron string to form a rounded shape."
+				""
+				"More efficient processes with machines can reduce the time and material cost taken."
+			]
+			id: "70359866547B360C"
+			rewards: [{
+				id: "07AF18C7C900265F"
+				item: "createmetallurgy:graphite_gear_mold"
+				type: "item"
+			}]
+			size: 0.85d
+			tasks: [{
+				id: "166E24A61AFBDFED"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:iron_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:gold_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:copper_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:tin_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:lead_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:silver_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:nickel_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:steel_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:bronze_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:electrum_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:invar_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:constantan_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:signalum_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:lumium_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:diamond_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:quartz_gear"
+							}
+							{
+								Count: 1b
+								id: "thermal:rose_gold_gear"
+							}
+						]
+					}
+				}
+				title: "Any Gear"
+				type: "item"
+			}]
+			title: "Gears"
+			x: -8.1d
+			y: 0.44999999999999996d
+		}
+		{
+			dependencies: ["73F4AAF2267BB33B"]
+			description: [
+				"Firing materials are commonly used in manual processes where fire cannot be applied with an external machine. These include a wide array of heat sources."
+				""
+				"The most common are fire charges or fire shards, either taken from a Magician friend or found throughout the world."
+				"{@pagebreak}"
+				"It is in most apprentice technicians' conception that fire charges can only be obtained through the Netherworld, but they can also be produced by setting a log on fire to get a charred log. Then, that charred log can be directly lit on fire again for a chance at producing a fire charge when breaking it."
+			]
+			icon: "minecraft:fire_charge"
+			id: "184C82E41D2285E0"
+			rewards: [
+				{
+					id: "77B2480A62968478"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "7772DF10CB20E3EE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Spicy!"
+			tasks: [{
+				id: "7074D90B64DAC26E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "concatenation:firing_item"
+					}
+				}
+				title: "Any Firing Item"
+				type: "item"
+			}]
+			title: "Firing Material"
+			x: -6.0d
+			y: 1.5d
 		}
 	]
 	title: "The Journey"

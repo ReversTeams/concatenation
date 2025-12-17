@@ -198,6 +198,7 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'mekanism:ingot_osmium', type: 'minecraft:blasting' })
         event.remove({ output: 'tconstruct:rose_gold_ingot', type: 'thermal:smelter' })
         event.remove({ output: 'integrateddynamics:variable', type: 'minecraft:crafting_shaped' })
+        event.remove({ output: 'mekanism:basic_fluid_tank', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'createmetallurgy:iron_dust', type: 'mekanism:crusher' })
         //event.remove({ output: 'mekanism:basic_control_circuit'})
 
@@ -761,9 +762,10 @@ ServerEvents.recipes(event => {
         event.shapeless(
                 Item.of('thermal:energy_duct'),
                 [
-                        'mekanism:basic_universal_cable'
+                        'mekanism:basic_universal_cable',
+                        'concatenationcore:full_pentacles'
                 ]
-        )
+        ).keepIngredient('concatenationcore:full_pentacles')
         event.shaped(
                 Item.of('mekanism:energized_smelter'),
                 [
@@ -1461,6 +1463,19 @@ ServerEvents.recipes(event => {
                         A: '#forge:consumables/experience_3',
                         B: 'thermal:enderium_dust',
                         C: '#concatenation:insight_material'
+                }
+        )
+        event.shaped(
+                Item.of('mekanism:basic_fluid_tank'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'concatenationcore:stickyredstone',
+                        C: 'mekanism:basic_control_circuit',
+                        B: 'mekanism:ingot_osmium'
                 }
         )
         // event.shaped(
