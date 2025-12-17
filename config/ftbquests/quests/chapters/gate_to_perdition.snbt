@@ -658,6 +658,7 @@
 				"&2This is not too useful of a dimension, but perhaps I could recommend that my Hierophant friends go quarrying here instead of destroying the world constantly. I did find this travel journal lately. To the next one who finds it, I will stick a little note for you!&r"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "6C15F8C95DCDFB7E"
 			rewards: [
 				{
@@ -685,6 +686,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "The Marble Realm"
 			tasks: [{
 				id: "50996039FC70C676"
 				item: "perdition:marmor_exaltatus"
@@ -754,6 +756,7 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
+			subtitle: "The Dark Realm"
 			tasks: [{
 				dimension: "the_deep_void:deep_void"
 				icon: "the_deep_void:block_of_bone_pile"
@@ -772,17 +775,20 @@
 				""
 				"&2I have noted down the various ingredients found and their uses below. Traveling through the dark lands, you will need a lantern to see more than 2 feet in front of you.&r"
 				""
-				"&a(Purgatory is still a dimension in development and is subject to changes in the future updates.)&r"
+				"&a(Purgatory is still a dimension in development, unique to the pack, and is subject to changes in the future updates.)&r"
+				"{@pagebreak}"
+				"&2The two main ways of entering Purgatory remain the Halcyon sword, which can be crafted by either those who have entered Purgatory themselves, or those who scavenged enough anomalous or elemental parts to make an artificial Halcyon, such as the researchers of the Prudence Pathway or the elementists of the Magician Pathway. The second is to drink a planeswalker potion, made by the witches of Temperance.&r"
 			]
 			hide_dependency_lines: true
 			id: "063E19D727E344F1"
-			min_required_dependencies: 2
+			min_required_dependencies: 1
 			rewards: [{
 				id: "6F5D768AC32F8D2A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
 			size: 1.35d
+			subtitle: "Eternal Perdition"
 			tasks: [{
 				dimension: "perdition:purgatory"
 				icon: "perdition:perditio"
@@ -790,44 +796,89 @@
 				title: "Enter Purgatory"
 				type: "dimension"
 			}]
-			x: -3.2750000000000004d
-			y: 3.1000000000000005d
+			x: -2.175d
+			y: 1.3000000000000003d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
+			description: [
+				"&2Corruptite is a strange substance found within the stone stratas of Purgatory. It doesn't seem to be a proper ore, but rather a spreading substance of corruption, stemming from involment with anomalies and other realms. As a result, when corruptite forms with stone and limbo bushes, it can be made into resonite.&r"
+				""
+				"&2Selenite has been theorized to be the antithesis to Corruptite, therefore artificial selenite can be made from corruptite rather easily.&r"
+			]
 			id: "744FAFE8E9E3222C"
+			rewards: [{
+				count: 4
+				id: "1409C5E151372656"
+				item: "hexerei:selenite_shard"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63E99757572EC298"
 				item: "perdition:corruptite"
 				type: "item"
 			}]
-			x: -5.4d
-			y: 3.1000000000000005d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
 			description: [
 				"&2Limbo Berries contain elemental purities within them, the plant crystalizing them into their fruit. These berries can thus be turned into inert crystal, providing a renewable source.&r"
 				""
-				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home...&r"
+				"&2However, limbo berries can only be grown in Purgatory, reacting violently with incompatibility when grown in other dimensions. Perhaps someone could find a way to grow them back home... I think elementists have the drive to figure out a way..&r"
 			]
+			icon: "perdition:limbo_berries"
 			id: "7F142F16CEB3F2BC"
 			rewards: [{
 				id: "06D753DE0B82FBF6"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "0B8D8B82F9BDFB75"
-				item: "perdition:limbo_berries"
-				type: "item"
-			}]
-			x: -4.9d
-			y: 1.6d
+			tasks: [
+				{
+					id: "0B8D8B82F9BDFB75"
+					item: "perdition:limbo_berries"
+					type: "item"
+				}
+				{
+					id: "4783A179925F2AC2"
+					item: "elementalcraft:inert_crystal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5EE6AE43F9620AB2"]
+			dependencies: [
+				"5EE6AE43F9620AB2"
+				"6C15F8C95DCDFB7E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2The Dis Wand is a strange utilitarian magic tool, working similarly in function to the paxels of the Hermit Pathway, but instead available for those who venture into Dis or Purgatory.&r"
+				""
+				"&2It has the special ability of being able to swatting away the weather in Dis.&r"
+			]
+			hide_until_deps_complete: false
 			id: "74D57E22FB028173"
+			rewards: [{
+				id: "23AB95DDE853D3FB"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magic Multitool"
 			tasks: [{
 				id: "45A70CBF3FE1ACCD"
 				item: {
@@ -839,110 +890,198 @@
 				}
 				type: "item"
 			}]
-			x: -6.4d
-			y: 7.1d
+			x: -8.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["063E19D727E344F1"]
+			dependencies: [
+				"1759E39E63C7169A"
+				"6D14C091169DFCF5"
+			]
+			description: [
+				"&2This strange petrified resin has interesting properties. It can be molten to be made stickier but more resilient."
+				""
+				"&2Resin can be broken from the inside of petrified logs, from the inside of scintillating keystones, or more rarely, by splitting open an uncut Dis gem with lightning."
+			]
 			id: "366257C485C91809"
+			rewards: [{
+				count: 4
+				id: "7A38CA72D0E4A18B"
+				item: "perdition:corruptite_ore"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0730B6BB2F397AFE"
 				item: "perdition:resin"
 				type: "item"
 			}]
-			x: -1.9000000000000004d
-			y: 3.1000000000000005d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
+			description: [
+				"&2Scintillating dust is found in scintillating keystones, appearing as the crown jewels of floating archways often found in the heights of the Purgatory cliffs.&r"
+				""
+				"&2There are may ways to process scintillating keystones to produce more dust. Breaking the keystone simply yields little, while careful breaking can produce more of the delicate material. With a method of silk touch, the keystone can be thrown into water to produce on average six full dusts.&r"
+			]
+			icon: "perdition:scintillating_dust"
 			id: "6D14C091169DFCF5"
-			tasks: [{
-				id: "5A630EF4AF51F5DC"
-				item: "perdition:scintillating_dust"
+			rewards: [{
+				id: "56008FA43D0F1C58"
+				item: "perdition:scintillating_keystone"
 				type: "item"
 			}]
-			x: -4.4d
-			y: 4.1d
+			tasks: [
+				{
+					id: "5A630EF4AF51F5DC"
+					item: "perdition:scintillating_dust"
+					type: "item"
+				}
+				{
+					icon: "perdition:scintillating_keystone"
+					id: "7891F02E36068E52"
+					optional_task: true
+					structure: "perdition:scintillating_gateway"
+					title: "Find a Scintillating Gateway"
+					type: "structure"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
+			description: ["&2These pearls were once woven with the use of rift blades. However, as these blades are no longer in use, the Halcyon sword can serve as a great alternative to weave pearls, albeit they do not seem to have the same potency as their previous counterparts and thus have lesser use cases.&r"]
+			hide_until_deps_complete: true
 			id: "6720B17A072F72A0"
+			rewards: [{
+				id: "20E6CFE8175F1CA3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "6078445B8E42FF5B"
 				item: "concatenationcore:woven_pearl"
 				type: "item"
 			}]
-			x: -2.9000000000000004d
-			y: 4.6d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"6D14C091169DFCF5"
 				"6720B17A072F72A0"
 			]
+			description: ["&2Moon dust can be formed by melting a woven pearl with surrounding scincillating dust.&r"]
 			id: "3EF9889808839F07"
+			rewards: [{
+				id: "386BE6F724220EC0"
+				item: {
+					Count: 1
+					id: "concatenationcore:protection_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3464581694E8A213"
 				item: "hexerei:moon_dust"
 				type: "item"
 			}]
-			x: -3.9000000000000004d
-			y: 6.1d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"64C5A9EB5083A520"
 				"3EF9889808839F07"
 			]
+			description: ["&2Demonite gravel can be produced by mixing some of Purgatory's earth with moon dust. It must be processed in an alchemical reaction chamber to be turned into hellforged ingots.&r"]
 			id: "32B51219253BDC23"
+			rewards: [{
+				id: "1ACE7CA58AE966B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3387029BD08B5D84"
 				item: "bloodmagic:demonitegravel"
 				type: "item"
 			}]
-			x: -1.4000000000000004d
-			y: 6.1d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["063E19D727E344F1"]
+			description: [
+				"&2Some peculiar prized ores are found throughout Purgatory and particularly in the Purgatory chasms. "
+				""
+				"&2These are silver and pyrite ore, both equally useful when smelted into silver and witch's gold. While witch's gold may only be more useful to witches, silver is useful to all pathways, from technology to magic.&r"
+			]
 			id: "64C5A9EB5083A520"
+			rewards: [{
+				id: "6ABA44BA47CBE5E4"
+				item: "concatenationcore:glowing_gold_block"
+				type: "item"
+			}]
 			tasks: [
 				{
-					id: "16D9B4078913BCB8"
-					item: "thermal:silver_ingot"
+					id: "387E8CECF1BBBA67"
+					item: "perdition:pyrite_ore"
 					type: "item"
 				}
 				{
-					id: "79FD944287FE8B5D"
-					item: "concatenationcore:pyrite"
-					optional_task: true
+					id: "017E888C1EFD9821"
+					item: "perdition:silver_ore"
 					type: "item"
 				}
 			]
-			x: 0.09999999999999964d
-			y: 5.6d
+			title: "Silver and Pyrite"
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["64C5A9EB5083A520"]
+			description: ["&2Swift alloy nuggets can be made from witch's gold and chrono shards.&r"]
 			id: "144D573939DC382B"
+			rewards: [{
+				id: "016BD161C0710E01"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "70F32FDF23C9097D"
 				item: "elementalcraft:swift_alloy_nugget"
 				type: "item"
 			}]
-			x: 0.7999999999999989d
-			y: 6.4d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["6D14C091169DFCF5"]
+			dependencies: ["7FE36C7E48D2715B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&2Dis gems can be made by letting a rough compound consume a scincillating keystone, somehow. We are still unsure of how this process happens.&r"
+				""
+				"&2Dis gems, as per their names, are most commonly found in Dis, where they can appear as a rare gem.&r"
+			]
 			id: "5EE6AE43F9620AB2"
+			rewards: [{
+				count: 4
+				id: "5D6D23DD10F7353B"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EAC4C24F17388F5"
 				item: "perdition:dis_gem"
 				type: "item"
 			}]
-			x: -5.4d
-			y: 5.6d
+			x: -7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7FE36C7E48D2715B"]
@@ -952,20 +1091,55 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: 0.29999999999999893d
-			y: 4.4d
+			x: -6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["366257C485C91809"]
+			description: [
+				"&2Resin can be blackened by pouring it into water, somehow. It doesn't seem like the water corrodes the outer white shell, but rather it solidifies like ice.&r"
+				""
+				"&2This blackened resin can be combined with corruptite to make a rough, strange compound that has several uses.&r"
+			]
 			id: "7FE36C7E48D2715B"
+			rewards: [{
+				id: "0AA20B650AF99A0A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.8d
 			tasks: [{
 				id: "3378B1B725D9A3D2"
 				item: "perdition:rough_compound"
 				type: "item"
 			}]
-			x: -0.6000000000000005d
-			y: 3.6d
+			x: -6.0d
+			y: 5.2d
+		}
+		{
+			dependencies: ["063E19D727E344F1"]
+			description: ["&2Tau Crosses can be interpreted as the trees of Purgatory. It is theorized that the petrified planks and logs were originally made from either birch or spruce, decaying over time. However, things don't seem to decay as usual in Purgatory.&r"]
+			id: "1759E39E63C7169A"
+			rewards: [{
+				id: "460388807351854F"
+				item: {
+					Count: 1
+					id: "reliquary:mercy_cross"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "perdition:petrified_stake"
+				id: "23245DEAF0722E03"
+				structure: "perdition:tau_cross"
+				title: "Find a Tau Cross"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 2.5d
 		}
 	]
 	title: "Gate to Perdition"

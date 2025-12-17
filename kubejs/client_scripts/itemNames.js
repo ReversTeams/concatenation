@@ -27,6 +27,7 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('alloy_smelter:forge_controller_tier1', 'Stone Brick Controller');
   event.renameItem('alloy_smelter:forge_controller_tier2', 'Brick Controller');
   event.renameItem('alloy_smelter:forge_controller_tier3', 'Scorchia Controller');
+  event.renameItem('concatenationcore:meteorite_longsword', 'Meteorite Longsword');
   //event.renameItem('farmersdelight:cutting_board', 'Board');
 
   event.rename('fluid.bloodmagic.life_essence', 'Life Essence')

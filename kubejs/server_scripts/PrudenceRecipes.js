@@ -450,6 +450,21 @@ ServerEvents.recipes(event => {
             'concatenationcore:hammer'
         ]
     )
+    event.shaped(
+        Item.of('kismet:synthetic_organ'),
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            E: 'kismet:conglomerated_organ',
+            B: 'strangematter:resonant_circuit',
+            A: 'kismet:kismet_plating',
+            D: 'strangematter:stabilized_core',
+            C: 'strangematter:resonant_coil'
+        }
+    )
 
     event.recipes.minecraft.smelting(
         'strangematter:raw_resonite',

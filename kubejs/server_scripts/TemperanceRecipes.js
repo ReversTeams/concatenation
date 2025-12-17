@@ -20,7 +20,8 @@ ServerEvents.recipes(event => {
                 'theurgy:divination_rod_t1',
                 'theurgy:divination_rod_t2',
                 'theurgy:divination_rod_t3',
-                'theurgy:divination_rod_t4'
+                'theurgy:divination_rod_t4',
+                'hexerei:mixing_cauldron'
         ]
 
         remove.forEach(item => {
@@ -36,6 +37,11 @@ ServerEvents.recipes(event => {
                 { mod: 'botanypots' },
                 'minecraft:flower_pot',
                 'concatenationcore:botanic_jar'
+        )
+        event.replaceInput(
+                { mod: 'botanypots' },
+                'minecraft:hopper',
+                'concatenationcore:pipe_base'
         )
 
         event.shaped(
@@ -655,20 +661,20 @@ ServerEvents.recipes(event => {
                         E: 'reliquary:nebulous_heart'
                 }
         ).keepIngredient('tarotcards:the_hierophant')
-        event.shapeless(
-                Item.of('perdition:petrified_planks'),
+        event.shaped(
+                Item.of('hexerei:mixing_cauldron'),
                 [
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales',
-                        'immersive_weathering:perdition/petrified_scales'
-                ]
-        )
+                        'ADA',
+                        'BCB',
+                        'BBB'
+                ],
+                {
+                        B: 'minecraft:iron_ingot',
+                        C: 'minecraft:cauldron',
+                        A: 'minecraft:candle',
+                        D: 'tarotcards:temperance'
+                }
+        ).keepIngredient('tarotcards:temperance')
 
         // Botany Pots
         event.recipes.botanypots.crop(

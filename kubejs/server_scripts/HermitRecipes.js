@@ -51,6 +51,8 @@ ServerEvents.recipes(event => {
 
         event.remove({ output: 'tconstruct:seared_brick', type: 'minecraft:smelting' })
         event.remove({ output: 'tconstruct:seared_brick', type: 'minecraft:blasting' })
+        event.remove({ output: 'common_ore_library:platinum_ingot', type: 'minecraft:smelting' })
+        event.remove({ output: 'common_ore_library:platinum_ingot', type: 'minecraft:blasting' })
 
         event.remove({ input: 'minecraft:raw_iron', type: 'tconstruct:foundry' })
         //event.remove({ input: '#minecraft:iron_ores', type: 'tconstruct:foundry' })
@@ -104,9 +106,9 @@ ServerEvents.recipes(event => {
                 type: 'tconstruct:alloy',
                 inputs: [
                         { tag: 'forge:molten_nickel', amount: 90 },
-                        { tag: 'forge:molten_copper', amount: 270 }
+                        { tag: 'forge:molten_silver', amount: 60 }
                 ],
-                result: { fluid: 'tconstruct:molten_platinum', amount: 30 },
+                result: { fluid: 'tconstruct:molten_platinum', amount: 60 },
                 temperature: 760
         })
 

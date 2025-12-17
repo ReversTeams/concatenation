@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = concatenation_credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1762834847224
+  last_edited_time = 1765760094205
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:370e66dc-39cc-46ac-9590-73d7bee14597-1762834760765] = [groups:][instances:]
+  [loading_requirement_container_meta:87755a53-06d4-47c0-bab5-b1577c318874-1765759986101] = [groups:][instances:]
 }
 
 menu_background {
@@ -82,6 +82,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -139,6 +145,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -180,6 +192,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -221,11 +239,17 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
   interactable = true
-  source = ^^^%n%**Credits:**%n%%n%Mitemi - Lead Developer%n%Tikup - Developer%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer%n%Newlumberjack - Pack Developer%n%Waayzii - Wiki Editor%n%^^^
+  source = ^^^%n%Mitemi - Lead Developer, Writer, Artist%n%Tikup - Developer, Writer, Artist%n%Gravitegg - Playtester%n%Skillode - Playtester%n%%n%Concatenation Division%n%SporiumCorium - Pack Developer, Writer%n%Newlumberjack - Pack Developer%n%Honeyglazedlady - Artist%n%Sem__lan - Writer%n%Lucy - Writer%n%Ranger- Playtester%n%Waayzii - Wiki Editor%n%Mimnin - Wiki Editor%n%Bajan - Wiki Editor%n%^^^
   source_mode = direct
   shadow = true
   scale = 0.75
@@ -271,9 +295,9 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -113
-  y = -42
+  y = -55
   width = 226
-  height = 95
+  height = 111
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -287,6 +311,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 2.7500002
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 2.3351564
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -344,5 +374,11 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 

@@ -1,9 +1,0 @@
-{
-  "type": "create:compacting",
-  "ingredients": [
-    { "item": "createtaczauto:hardened_brass_sheet" }
-  ],
-  "results": [
-    { "item": "createtaczauto:casing_50_ae" }
-  ]
-}
