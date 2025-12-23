@@ -1,0 +1,24 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "mcore:raw_titanium",
+      "count": 1
+    },
+    {
+      "item": "mcore:raw_titanium",
+      "count": 1
+    },
+    {
+      "item": "mcore:raw_titanium",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "mcore:titanium_ingot",
+    "count": 2
+  },
+  "smeltingTime": 130,
+  "fuelPerTick": 1,
+  "requiredTier": 2
+}

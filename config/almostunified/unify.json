@@ -16,7 +16,8 @@
     "the_deep_void",
     "thoriumreactors",
     "common_ore_library",
-    "refurbished_furniture"
+    "refurbished_furniture",
+    "ars_technica"
   ],
   "stoneStrata": [
     "stone",
@@ -96,6 +97,7 @@
     "sulfur",
     "tin",
     "tungsten",
+    "quartz",
     "uranium",
     "zinc"
   ],

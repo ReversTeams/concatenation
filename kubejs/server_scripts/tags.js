@@ -605,4 +605,26 @@ ServerEvents.tags('item', event => {
         'thermal:sapphire',
         'strangematter:insight_shard'
     ])
+
+    add('concatenation:thermae_input', [
+        'createmetallurgy:zinc_dust'
+    ])
+
+    add('concatenation:thermae_input/zinc', [
+        'createmetallurgy:zinc_dust'
+    ])
+
+    add('concatenation:crusher_input', [
+        'create:zinc_ingot',
+        'thermal:tin_ingot',
+        'perdition:compacted_marmor'
+    ])
+
+    add('concatenation:crusher_input/zinc', [
+        'create:zinc_ingot'
+    ])
+
+    add('concatenation:crusher_input/tin', [
+        'thermal:tin_ingot'
+    ])
 });

@@ -186,6 +186,11 @@ ServerEvents.recipes(event => {
                 'thoriumreactors:blasted_iron_nugget',
                 'concatenationcore:galvanized_iron_nugget'
         );
+        event.replaceInput(
+                { input: 'minecraft:fire_charge' },
+                'minecraft:fire_charge',
+                '#concatenation:firing_item'
+        );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:enderium_dust', type: 'minecraft:crafting_shapeless' })
@@ -1478,30 +1483,30 @@ ServerEvents.recipes(event => {
                         B: 'mekanism:ingot_osmium'
                 }
         )
-        // event.shaped(
-        //         Item.of('thoriumreactors:thorium_chest_block'),
-        //         [
-        //                 ' A ',
-        //                 'ABA',
-        //                 ' A '
-        //         ],
-        //         {
-        //                 B: 'ironchest:diamond_chest',
-        //                 A: 'thoriumreactors:thorium'
-        //         }
-        // )
-        // event.shaped(
-        //         Item.of('thoriumreactors:steel_chest_block'),
-        //         [
-        //                 'AAA',
-        //                 'ABA',
-        //                 'AAA'
-        //         ],
-        //         {
-        //                 A: 'createmetallurgy:steel_ingot',
-        //                 B: '#forge:chests/wooden'
-        //         }
-        // )
+        event.shaped(
+                Item.of('thoriumreactors:thorium_chest_block'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: 'ironchest:diamond_chest',
+                        A: 'thoriumreactors:thorium'
+                }
+        )
+        event.shaped(
+                Item.of('thoriumreactors:steel_chest_block'),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        B: '#forge:chests/wooden'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])
@@ -1528,7 +1533,7 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
         event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['tconstruct:cobalt_ingot', 'mcore:titanium_ingot', 'createmetallurgy:tungsten_ingot']).energy(50000)
-        // event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['thoriumreactors:chromium_ingot', 'thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
+        event.recipes.thermal.smelter('common_ore_library:platinum_dust', ['thoriumreactors:chromium_ingot', 'thermal:nickel_ingot', 'minecraft:copper_ingot']).energy(10000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 900), 'integrateddynamics:crystalized_menril_block').energy(9000)
         event.recipes.thermal.crucible(Fluid.of('integrateddynamics:menril_resin', 100), 'integrateddynamics:crystalized_menril_chunk').energy(3000)
         event.recipes.thermal.centrifuge([Item.of('thoriumreactors:sodium').withChance(0.5)], 'mekanism:salt')

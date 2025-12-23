@@ -62,6 +62,9 @@ ServerEvents.recipes(event => {
                 type: "alloy_smelter:smelting",
                 ingredients: [
                         { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "tconstruct:seared_bricks", count: 1 },
                         { item: "concatenationcore:smeltery_fuel_core", count: 1 }
                 ],
                 result: {
@@ -69,27 +72,15 @@ ServerEvents.recipes(event => {
                         count: 1
                 },
                 smeltingTime: 350,
-                fuelPerTick: 2,
+                fuelPerTick: 3,
                 requiredTier: 2
         });
         event.custom({
                 type: "alloy_smelter:smelting",
                 ingredients: [
-                        { item: "tconstruct:scorched_bricks", count: 1 },
-                        { item: "concatenationcore:platinum_fuel_core", count: 1 }
-                ],
-                result: {
-                        item: "tconstruct:foundry_controller",
-                        count: 1
-                },
-                smeltingTime: 500,
-                fuelPerTick: 2,
-                requiredTier: 3
-        });
-
-        event.custom({
-                type: "alloy_smelter:smelting",
-                ingredients: [
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "tconstruct:seared_bricks", count: 1 },
                         { item: "tconstruct:seared_bricks", count: 1 },
                         { item: "concatenationcore:smeltery_fuel_core", count: 1 }
                 ],
@@ -98,7 +89,24 @@ ServerEvents.recipes(event => {
                         count: 1
                 },
                 smeltingTime: 250,
-                fuelPerTick: 2,
+                fuelPerTick: 3,
+                requiredTier: 3
+        });
+                event.custom({
+                type: "alloy_smelter:smelting",
+                ingredients: [
+                        { item: "tconstruct:scorched_bricks", count: 1 },
+                        { item: "tconstruct:scorched_bricks", count: 1 },
+                        { item: "concatenationcore:platinum_fuel_core", count: 1 },
+                        { item: "minecraft:obsidian", count: 1 },
+                        { item: "minecraft:obsidian", count: 1 }
+                ],
+                result: {
+                        item: "tconstruct:foundry_controller",
+                        count: 1
+                },
+                smeltingTime: 500,
+                fuelPerTick: 3,
                 requiredTier: 3
         });
 
@@ -229,7 +237,7 @@ ServerEvents.recipes(event => {
                 {
                         B: 'concatenationcore:altcircuit',
                         C: 'thermal:obsidian_glass',
-                        A: 'minecraft:iron_ingot',
+                        A: 'thermal:bronze_ingot',
                         E: 'concatenationcore:galvanized_iron',
                         D: 'thermal:tin_gear'
                 }

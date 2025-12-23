@@ -1,0 +1,28 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "createmetallurgy:raw_wolframite",
+      "count": 1
+    },
+    {
+      "item": "createmetallurgy:raw_wolframite",
+      "count": 1
+    },
+    {
+      "item": "createmetallurgy:raw_wolframite",
+      "count": 1
+    },
+    {
+      "item": "createmetallurgy:raw_wolframite",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "createmetallurgy:tungsten_ingot",
+    "count": 4
+  },
+  "smeltingTime": 75,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

@@ -1,0 +1,24 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "item": "thermal:raw_tin",
+      "count": 1
+    },
+    {
+      "item": "thermal:raw_tin",
+      "count": 1
+    },
+    {
+      "item": "thermal:raw_tin",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "thermal:tin_ingot",
+    "count": 3
+  },
+  "smeltingTime": 75,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

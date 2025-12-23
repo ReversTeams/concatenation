@@ -16,7 +16,14 @@ ServerEvents.recipes(event => {
                 'littlelogistics:barrel_barge',
                 'immersive_aircraft:engine',
                 'prettypipes:pipe',
-                'ppfluids:fluid_pipe'
+                'ppfluids:fluid_pipe',
+                'hrbsdrills:engine',
+                'hrbsdrills:drillhead',
+                'hrbsdrills:drill',
+                'thesubmarinemod:acero_antioxidante',
+                'thesubmarinemod:silvato_submarino_incompleto',
+                'thesubmarinemod:aceleradores_submarino',
+                'thesubmarinemod:alas_submarino'
         ]
 
         remove.forEach(item => {
@@ -399,6 +406,129 @@ ServerEvents.recipes(event => {
                         A: 'minecraft:glass',
                         C: 'concatenationcore:stickyredstone',
                         B: 'concatenationcore:pipe_base'
+                }
+        )
+        event.shaped(
+                Item.of('hrbsdrills:engine'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        C: 'thermal:electrum_ingot',
+                        B: 'concatenationcore:boiler',
+                        E: 'concatenationcore:coal_generator',
+                        A: 'create:iron_sheet',
+                        D: 'minecraft:gold_block'
+                }
+        )
+        event.shaped(
+                Item.of('hrbsdrills:engine'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        C: 'thermal:electrum_ingot',
+                        B: 'immersive_aircraft:engine',
+                        A: 'create:iron_sheet',
+                        E: 'tfmg:regular_engine',
+                        D: 'minecraft:gold_block'
+                }
+        )
+        event.shaped(
+                Item.of('hrbsdrills:drillhead'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        C: 'concatenationcore:diamond_drill_head',
+                        B: 'thermal:diamond_gear',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('hrbsdrills:drill'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        C: 'minecraft:iron_block',
+                        B: 'hrbsdrills:drillhead',
+                        D: 'hrbsdrills:engine',
+                        E: 'littlelogistics:energy_locomotive',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thesubmarinemod:acero_antioxidante', 2),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: '#concatenation:isolated_ingot',
+                        A: 'minecraft:gold_nugget'
+                }
+        )
+        event.shaped(
+                Item.of('thesubmarinemod:silvato_submarino_incompleto'),
+                [
+                        'AAA',
+                        'BCB',
+                        'BDB'
+                ],
+                {
+                        A: 'minecraft:glass',
+                        C: 'concatenationcore:boiler',
+                        D: 'littlelogistics:energy_tug',
+                        B: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thesubmarinemod:aceleradores_submarino'),
+                [
+                        'ABA',
+                        'CBC',
+                        'C C'
+                ],
+                {
+                        C: 'thesubmarinemod:acero_antioxidante',
+                        B: 'minecraft:iron_block',
+                        A: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thesubmarinemod:alas_submarino'),
+                [
+                        'ABC',
+                        ' B ',
+                        'ABC'
+                ],
+                {
+                        A: 'concatenationcore:pump_rotor',
+                        B: 'thesubmarinemod:acero_antioxidante',
+                        C: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('thesubmarinemod:alas_submarino'),
+                [
+                        'ABC',
+                        ' B ',
+                        'ABC'
+                ],
+                {
+                        B: 'thesubmarinemod:acero_antioxidante',
+                        A: 'create:propeller',
+                        C: 'thermal:steel_plate'
                 }
         )
 });

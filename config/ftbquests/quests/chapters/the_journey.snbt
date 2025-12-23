@@ -1,5 +1,5 @@
 {
-	autofocus_id: "768D38C149E01806"
+	autofocus_id: "2CEDBC536409D424"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_journey"
@@ -7,14 +7,14 @@
 	icon: "tarotcards:tarot_deck"
 	id: "7C44AFC336C0AE69"
 	images: [{
-		height: 60.0d
-		image: "concatenationcore:textures/channels4.png"
+		height: 80.0d
+		image: "concatenationcore:textures/channels5.png"
 		rotation: 0.0d
-		width: 112.0d
-		x: 14.5d
-		y: 8.0d
+		width: 160.0d
+		x: 1.5d
+		y: 1.5d
 	}]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -44,7 +44,7 @@
 				team_reward: false
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.35d
 			subtitle: "Resource gathering, machinery, logistics"
 			tasks: [{
 				id: "359C4698A0B46508"
@@ -63,7 +63,7 @@
 			}]
 			title: "&9Hierophant Pathway"
 			x: -1.875d
-			y: -1.25d
+			y: -0.625d
 		}
 		{
 			description: [
@@ -90,7 +90,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.35d
 			subtitle: "Holy Smiting, Elemental Power"
 			tasks: [{
 				id: "1F50749F52835134"
@@ -108,8 +108,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&eMagician Pathway"
-			x: 1.875d
-			y: 1.875d
+			x: 2.5d
+			y: 3.375d
 		}
 		{
 			description: [
@@ -158,7 +158,7 @@
 					type: "command"
 				}
 			]
-			size: 1.25d
+			size: 1.35d
 			subtitle: "Occult, flight, gardening"
 			tasks: [{
 				id: "089EE2807179886C"
@@ -176,8 +176,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&cTemperance Pathway"
-			x: 2.5d
-			y: -1.25d
+			x: 3.125d
+			y: -0.625d
 		}
 		{
 			description: [
@@ -205,7 +205,7 @@
 				team_reward: true
 				type: "item"
 			}]
-			size: 1.25d
+			size: 1.35d
 			subtitle: "Tinkering, Processing, Creating"
 			tasks: [{
 				id: "0C914BD8D10A926F"
@@ -223,8 +223,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&dHermit Pathway"
-			x: -1.25d
-			y: 1.875d
+			x: -0.75d
+			y: 3.375d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -250,8 +250,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -280,8 +280,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 4.1d
+			y: 5.95d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -325,8 +325,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
+			x: 6.6000000000000005d
+			y: -1.5999999999999996d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -371,10 +371,10 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -0.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6F736EF54A792577"]
+			dependencies: ["4DF2955C7F793389"]
 			description: [
 				"Galvanized Iron is a useful material to build machinery out of, as it is immune to rusting as long as the zinc coating is still applied, unlike plain iron you might notice rusting in many locations around the world."
 				"{@pagebreak}"
@@ -429,8 +429,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -469,7 +469,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.25d
 			y: 0.0d
 		}
 		{
@@ -529,8 +529,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.5d
+			x: 2.6d
+			y: 6.95d
 		}
 		{
 			dependencies: [
@@ -546,7 +546,6 @@
 				"Either the small hull or the train car is the start to a logistics system common to both holders of the Hierophant card and Hermit card."
 			]
 			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "1D9002F6E0272ABC"
 			min_required_dependencies: 1
 			rewards: [{
@@ -592,8 +591,8 @@
 				type: "item"
 			}]
 			title: "Dawn of Logistics"
-			x: -5.5d
-			y: 3.5d
+			x: -16.55d
+			y: 11.25d
 		}
 		{
 			dependencies: ["1D9002F6E0272ABC"]
@@ -652,8 +651,8 @@
 				type: "item"
 			}]
 			title: "Steam Transportation"
-			x: -6.5d
-			y: 4.0d
+			x: -17.55d
+			y: 11.75d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -701,8 +700,8 @@
 				type: "item"
 			}]
 			title: "Router"
-			x: -6.5d
-			y: 5.0d
+			x: -17.55d
+			y: 12.75d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -730,8 +729,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.0d
+			x: -18.55d
+			y: 11.75d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -824,8 +823,8 @@
 				type: "item"
 			}]
 			title: "Chariots"
-			x: -7.5d
-			y: 5.0d
+			x: -18.55d
+			y: 12.75d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -856,8 +855,8 @@
 				type: "item"
 			}]
 			title: "&6The Chariot"
-			x: -8.75d
-			y: 5.625d
+			x: -19.8d
+			y: 13.375d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -907,50 +906,12 @@
 				type: "item"
 			}]
 			title: "Electrification"
-			x: -9.9d
-			y: 6.3d
+			x: -20.950000000000003d
+			y: 14.049999999999999d
 		}
 		{
-			dependencies: ["73F4AAF2267BB33B"]
+			dependencies: ["1D9002F6E0272ABC"]
 			hide_dependency_lines: true
-			id: "589E2464D577E345"
-			rewards: [{
-				id: "23F7015E27BB8794"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						display: {
-							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-						}
-						type: "building_kit"
-					}
-				}
-				type: "item"
-			}]
-			size: 0.9d
-			tasks: [{
-				id: "459A2200AE8B5A72"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hpm:small_mast"
-				}
-				type: "item"
-			}]
-			x: -15.349999999999998d
-			y: -5.7d
-		}
-		{
-			dependencies: [
-				"589E2464D577E345"
-				"1D9002F6E0272ABC"
-			]
 			id: "73C5D7FC9AB3E5F8"
 			rewards: [{
 				id: "3C9899637453F22A"
@@ -971,8 +932,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.7d
-			y: -5.1d
+			x: -17.5d
+			y: 8.099999999999998d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -996,8 +957,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.05d
-			y: -5.1d
+			x: -18.85d
+			y: 8.099999999999998d
 		}
 		{
 			dependencies: [
@@ -1034,8 +995,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.400000000000002d
-			y: -5.1d
+			x: -20.200000000000003d
+			y: 8.099999999999998d
 		}
 		{
 			dependencies: ["396320452B50120B"]
@@ -1059,8 +1020,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.3d
-			y: -4.65d
+			x: -21.1d
+			y: 8.549999999999997d
 		}
 		{
 			dependencies: [
@@ -1101,8 +1062,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.2d
-			y: -4.199999999999999d
+			x: -22.0d
+			y: 8.999999999999996d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -1134,8 +1095,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.150000000000002d
-			y: -6.0d
+			x: -17.950000000000003d
+			y: 7.2d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1159,8 +1120,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.849999999999998d
-			y: -3.749999999999999d
+			x: -20.65d
+			y: 9.45d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1199,8 +1160,8 @@
 					type: "item"
 				}
 			]
-			x: -20.749999999999996d
-			y: -5.55d
+			x: -21.549999999999997d
+			y: 7.6499999999999995d
 		}
 		{
 			dependencies: [
@@ -1227,8 +1188,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1256,8 +1217,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.75d
-			y: 9.75d
+			x: -4.25d
+			y: 11.75d
 		}
 		{
 			dependencies: [
@@ -1338,8 +1299,8 @@
 				}
 			]
 			title: "The Mighty Smeltery"
-			x: -5.0d
-			y: 10.5d
+			x: -5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1368,8 +1329,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 12.5d
+			x: -9.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1398,8 +1359,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 9.5d
+			x: -9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1452,8 +1413,8 @@
 				type: "item"
 			}]
 			title: "&bSimple Machine Frame"
-			x: -15.0d
-			y: 9.375d
+			x: -26.700000000000003d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1504,8 +1465,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.8999999999999999d
+			x: -12.75d
+			y: 0.9000000000000004d
 		}
 		{
 			dependencies: [
@@ -1549,12 +1510,13 @@
 				type: "item"
 			}]
 			title: "Essence Berry Bushes"
-			x: -6.8999999999999995d
-			y: -5.749999999999999d
+			x: -8.625d
+			y: -4.749999999999999d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
 			description: ["A small charger that can be used to infuse materials with energy. The hand crank is the most frequently used way to powering it manually, but any RF producing device can also be connected to it, such as an adjacent solar panel."]
+			hide_dependency_lines: true
 			id: "2104737FF0D2E4E7"
 			rewards: [
 				{
@@ -1582,8 +1544,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.2d
-			y: -4.0249999999999995d
+			x: -15.524999999999999d
+			y: -2.3d
 		}
 		{
 			dependencies: ["73CD8163D268BA95"]
@@ -1650,7 +1612,7 @@
 				type: "item"
 			}]
 			title: "Shrike"
-			x: -5.0d
+			x: -6.0d
 			y: -7.0d
 		}
 		{
@@ -1793,8 +1755,8 @@
 				type: "item"
 			}]
 			title: "Oreberry Bushes"
-			x: -8.0d
-			y: -6.5d
+			x: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7DD14D1827FF575E"]
@@ -1839,10 +1801,13 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["7CD059E89A322EA1"]
+			dependencies: [
+				"7CD059E89A322EA1"
+				"184C82E41D2285E0"
+			]
 			description: [
 				"Alclad meteorite is a more refined version of smelted meteorite metal. It's used in refined machines that apply energistics and also in an incubator design to grow oreberries."
 				"{@pagebreak}"
@@ -1872,8 +1837,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.199999999999999d
-			y: -2.6999999999999997d
+			x: -7.6499999999999995d
+			y: -1.95d
 		}
 		{
 			dependencies: ["7BB90DEFC570E065"]
@@ -1943,8 +1908,8 @@
 				}
 			]
 			title: "Grow Panvita"
-			x: -6.5d
-			y: -4.0d
+			x: -7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["45EBD68510E9742C"]
@@ -2069,7 +2034,7 @@
 				type: "item"
 			}]
 			title: "Crushing Berries"
-			x: -9.0d
+			x: -12.5d
 			y: -7.5d
 		}
 		{
@@ -2120,7 +2085,7 @@
 			]
 			title: "Find a fallen meteor"
 			x: -4.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7BB90DEFC570E065"]
@@ -2151,7 +2116,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.25d
 			y: -2.0d
 		}
 		{
@@ -2182,7 +2147,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.025d
+			x: -10.775d
 			y: -2.8d
 		}
 		{
@@ -2217,7 +2182,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.6d
+			x: -12.35d
 			y: -3.0d
 		}
 		{
@@ -2270,8 +2235,8 @@
 				title: "Experience Pump or Pump"
 				type: "item"
 			}]
-			x: -9.9d
-			y: 1.2999999999999998d
+			x: -10.65d
+			y: 1.3000000000000007d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -2295,8 +2260,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 0.8999999999999999d
+			x: -14.25d
+			y: 0.9000000000000004d
 		}
 		{
 			dependencies: ["1A0E2D5ACAF189AC"]
@@ -2322,8 +2287,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.2999999999999998d
+			x: -9.75d
+			y: 1.3000000000000007d
 		}
 		{
 			dependencies: ["2104737FF0D2E4E7"]
@@ -2352,8 +2317,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.125d
-			y: -5.0d
+			x: -17.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2402,8 +2367,8 @@
 				type: "item"
 			}]
 			title: "Core of the System"
-			x: -12.125d
-			y: -5.5d
+			x: -18.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2448,8 +2413,8 @@
 				}
 			]
 			title: "ME Storage System"
-			x: -11.625d
-			y: -6.5d
+			x: -18.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2473,8 +2438,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.125d
-			y: -6.5d
+			x: -20.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2522,8 +2487,8 @@
 					type: "item"
 				}
 			]
-			x: -12.625d
-			y: -7.5d
+			x: -20.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -2559,8 +2524,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: 4.1d
+			y: 7.45d
 		}
 		{
 			dependencies: ["42EF54B7ABFC5789"]
@@ -2615,8 +2580,8 @@
 				type: "item"
 			}]
 			title: "Elemental Extraction"
-			x: 4.5d
-			y: 6.0d
+			x: 5.1d
+			y: 8.45d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
@@ -2641,8 +2606,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.0d
+			x: 6.1d
+			y: 9.45d
 		}
 		{
 			dependencies: ["1F58B572150DAE32"]
@@ -2668,8 +2633,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: 6.1d
+			y: 7.95d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -2701,8 +2666,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.0d
+			x: 7.1d
+			y: 10.45d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -2732,8 +2697,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.625d
-			y: 9.625d
+			x: 8.225d
+			y: 12.075d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -2762,8 +2727,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.5d
+			x: 8.6d
+			y: 10.95d
 		}
 		{
 			dependencies: [
@@ -2789,8 +2754,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.625d
-			y: 8.75d
+			x: 11.225d
+			y: 11.2d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2843,8 +2808,8 @@
 				type: "item"
 			}]
 			title: "Growth or Harvest Shrine"
-			x: 12.125d
-			y: 7.75d
+			x: 12.725d
+			y: 10.2d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2872,8 +2837,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.125d
-			y: 8.75d
+			x: 12.725d
+			y: 11.2d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2919,8 +2884,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.125d
-			y: 9.75d
+			x: 12.725d
+			y: 12.2d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2948,8 +2913,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.125d
-			y: 10.25d
+			x: 11.725d
+			y: 12.7d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -2973,8 +2938,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.125d
-			y: 10.25d
+			x: 10.725d
+			y: 12.7d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -3011,8 +2976,8 @@
 				title: "Tool Infusion"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 5.6d
+			y: 10.45d
 		}
 		{
 			dependencies: ["4E9AB3BBC0D575C4"]
@@ -3060,8 +3025,8 @@
 				}
 			]
 			title: "Swift Alloy \\& Springaline Shard"
-			x: 6.0d
-			y: 10.0d
+			x: 6.6d
+			y: 12.45d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -3144,8 +3109,8 @@
 				}
 			]
 			title: "Improved Extraction and Containment"
-			x: 2.5d
-			y: 10.5d
+			x: 3.1d
+			y: 12.95d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -3169,8 +3134,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 11.5d
+			x: 2.1d
+			y: 13.95d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3199,8 +3164,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 11.0d
+			x: 5.1d
+			y: 13.45d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
@@ -3280,8 +3245,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 11.5d
+			x: 4.1d
+			y: 13.95d
 		}
 		{
 			dependencies: ["2A33F6E189A28CDF"]
@@ -3316,8 +3281,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 12.0d
+			x: 3.1d
+			y: 14.45d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -3346,8 +3311,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 15.0d
+			x: 2.6d
+			y: 17.45d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3376,8 +3341,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 9.0d
+			x: 6.1d
+			y: 11.45d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -3448,8 +3413,8 @@
 				type: "item"
 			}]
 			title: "Displacement Plate"
-			x: 1.5d
-			y: 12.5d
+			x: 2.1d
+			y: 14.95d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -3478,8 +3443,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.0d
+			x: 8.1d
+			y: 13.45d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -3756,8 +3721,8 @@
 				type: "item"
 			}]
 			title: "Jewels"
-			x: 3.0d
-			y: 15.0d
+			x: 3.6d
+			y: 17.45d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -3788,8 +3753,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.0d
+			x: 9.6d
+			y: 14.45d
 		}
 		{
 			dependencies: [
@@ -3826,8 +3791,8 @@
 				type: "item"
 			}]
 			title: "&eThe Sun"
-			x: 10.149999999999999d
-			y: 13.0d
+			x: 11.649999999999999d
+			y: 16.0d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -3855,8 +3820,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.0d
+			x: 7.6d
+			y: 14.45d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3894,8 +3859,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.900000000000002d
+			x: 13.5d
+			y: 17.900000000000002d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3926,8 +3891,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 14.900000000000002d
+			x: 11.0d
+			y: 17.900000000000002d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -3959,8 +3924,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 15.900000000000002d
+			x: 12.0d
+			y: 18.900000000000002d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -3994,8 +3959,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 15.900000000000002d
+			x: 14.5d
+			y: 18.900000000000002d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -4039,8 +4004,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 16.900000000000002d
+			x: 15.5d
+			y: 19.900000000000002d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -4129,8 +4094,8 @@
 				type: "item"
 			}]
 			title: "Mage Equipment"
-			x: 9.5d
-			y: 18.0d
+			x: 11.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -4212,8 +4177,8 @@
 				}
 			]
 			title: "Sorcerer Set"
-			x: 11.0d
-			y: 18.5d
+			x: 12.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -4295,8 +4260,8 @@
 				}
 			]
 			title: "Arcanist Set"
-			x: 10.0d
-			y: 19.0d
+			x: 11.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -4378,8 +4343,8 @@
 				}
 			]
 			title: "Battlemage Set"
-			x: 9.0d
-			y: 19.5d
+			x: 10.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4468,8 +4433,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 22.0d
+			x: 11.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4558,8 +4523,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 21.0d
+			x: 12.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4648,8 +4613,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 22.0d
+			x: 12.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4738,8 +4703,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 20.5d
+			x: 13.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["15F2CFDE130BEC2D"]
@@ -4828,8 +4793,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 21.5d
+			x: 13.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -4895,8 +4860,8 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
-			y: 17.900000000000002d
+			x: 14.0d
+			y: 20.900000000000002d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -4928,8 +4893,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 15.900000000000002d
+			x: 16.5d
+			y: 18.900000000000002d
 		}
 		{
 			dependencies: ["54DA52C7F14D64E9"]
@@ -4965,8 +4930,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 17.0d
+			x: 17.0d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -5002,8 +4967,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 20.5d
+			x: 14.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
@@ -5082,8 +5047,8 @@
 				type: "item"
 			}]
 			title: "Sourcelinks"
-			x: 16.5d
-			y: 16.0d
+			x: 18.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
@@ -5324,8 +5289,8 @@
 				type: "item"
 			}]
 			title: "Threads"
-			x: 14.0d
-			y: 21.5d
+			x: 15.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -5360,8 +5325,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 18.5d
+			x: 16.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
@@ -5440,8 +5405,8 @@
 				}
 			]
 			title: "The Wilden"
-			x: 16.0d
-			y: 19.5d
+			x: 17.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["4FD664E0F7A92893"]
@@ -5474,8 +5439,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
-			y: 20.5d
+			x: 18.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["3683C013E2CDB6DC"]
@@ -5752,8 +5717,8 @@
 				type: "item"
 			}]
 			title: "Ritual Tablet"
-			x: 17.0d
-			y: 18.5d
+			x: 18.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -5855,8 +5820,8 @@
 				type: "item"
 			}]
 			title: "Mage Trinkets"
-			x: 8.5d
-			y: 18.5d
+			x: 10.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -5880,8 +5845,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 18.900000000000002d
+			x: 15.0d
+			y: 21.900000000000002d
 		}
 		{
 			dependencies: ["6A5FC0572660FB1E"]
@@ -5960,8 +5925,8 @@
 				type: "item"
 			}]
 			title: "Archwood Log"
-			x: 11.0d
-			y: 13.900000000000002d
+			x: 12.5d
+			y: 16.900000000000002d
 		}
 		{
 			dependencies: [
@@ -6002,8 +5967,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 22.5d
+			x: 20.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["65C15526A590FDF9"]
@@ -6027,8 +5992,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: 19.5d
+			x: 20.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -6094,8 +6059,8 @@
 				type: "item"
 			}]
 			title: "Lesser Focuses"
-			x: 17.0d
-			y: 22.5d
+			x: 18.5d
+			y: 25.5d
 		}
 		{
 			dependencies: [
@@ -6168,8 +6133,8 @@
 				}
 			]
 			title: "Greater Focuses"
-			x: 18.0d
-			y: 21.5d
+			x: 19.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["4080496891426ACB"]
@@ -6193,8 +6158,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: 20.5d
+			x: 21.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -6222,8 +6187,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.625d
-			y: 7.125d
+			x: 8.225d
+			y: 9.575d
 		}
 		{
 			dependencies: ["02CAE7DE326720EA"]
@@ -6291,8 +6256,8 @@
 				type: "item"
 			}]
 			title: "Waystone"
-			x: 8.475d
-			y: 6.1d
+			x: 9.075d
+			y: 8.55d
 		}
 		{
 			dependencies: ["03F5F8D8A4E7D749"]
@@ -6316,8 +6281,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: 17.0d
+			x: 19.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6361,8 +6326,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.0d
+			x: 9.100000000000001d
+			y: -2.0999999999999996d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6387,8 +6352,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.5d
+			x: 9.600000000000001d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["08656304775DB207"]
@@ -6451,8 +6416,8 @@
 				}
 			]
 			title: "Witch Robes"
-			x: 8.0d
-			y: -5.5d
+			x: 9.600000000000001d
+			y: -5.6d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -6485,8 +6450,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 12.100000000000001d
+			y: -4.6d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -6511,8 +6476,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.0d
+			x: 12.100000000000001d
+			y: -6.1d
 		}
 		{
 			dependencies: ["3EF9977332170323"]
@@ -6537,8 +6502,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.0d
+			x: 12.100000000000001d
+			y: -7.1d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6587,8 +6552,8 @@
 				}
 			]
 			title: "Acquiring Blood"
-			x: 9.5d
-			y: -2.5d
+			x: 11.100000000000001d
+			y: -2.5999999999999996d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6622,8 +6587,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 8.100000000000001d
+			y: -5.1d
 		}
 		{
 			dependencies: ["2DFD356016750828"]
@@ -6670,8 +6635,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.5d
+			x: 13.100000000000001d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -6724,8 +6689,8 @@
 				}
 			]
 			title: "Broom Satchels"
-			x: 12.0d
-			y: -4.5d
+			x: 13.600000000000001d
+			y: -4.6d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -6792,8 +6757,8 @@
 				type: "item"
 			}]
 			title: "Drying Rack"
-			x: 7.5d
-			y: 1.0d
+			x: 9.100000000000001d
+			y: 0.9000000000000004d
 		}
 		{
 			dependencies: ["50DF4F514B4C87B9"]
@@ -6848,8 +6813,8 @@
 				type: "item"
 			}]
 			title: "Enhanced Brushes"
-			x: 7.5d
-			y: 2.5d
+			x: 9.100000000000001d
+			y: 2.4000000000000004d
 		}
 		{
 			dependencies: [
@@ -6888,8 +6853,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -7.5d
+			x: 13.600000000000001d
+			y: -7.6d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6913,8 +6878,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 8.100000000000001d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6955,8 +6920,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -0.5d
+			x: 10.100000000000001d
+			y: -0.5999999999999996d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -6997,8 +6962,8 @@
 				}
 			]
 			title: "Gathering Moon Dust"
-			x: 9.0d
-			y: 3.5d
+			x: 10.600000000000001d
+			y: 3.4000000000000004d
 		}
 		{
 			dependencies: ["0419D82408E8C7B0"]
@@ -7023,8 +6988,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 12.100000000000001d
+			y: 1.4000000000000004d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -7064,8 +7029,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 11.600000000000001d
+			y: -1.0999999999999996d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -7089,8 +7054,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.5d
+			x: 15.1d
+			y: -4.6d
 		}
 		{
 			dependencies: ["7B7ECE9C646B974B"]
@@ -7115,8 +7080,8 @@
 				type: "item"
 			}]
 			title: "Crow Food"
-			x: 9.5d
-			y: 0.5d
+			x: 11.100000000000001d
+			y: 0.40000000000000036d
 		}
 		{
 			dependencies: ["0BBFD1B138A5DA3D"]
@@ -7165,8 +7130,8 @@
 				type: "item"
 			}]
 			title: "Broom Tips"
-			x: 12.0d
-			y: -6.0d
+			x: 13.600000000000001d
+			y: -6.1d
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
@@ -7309,8 +7274,8 @@
 				}
 			]
 			title: "Collect Every Herb"
-			x: 11.5d
-			y: 0.0d
+			x: 13.100000000000001d
+			y: -0.09999999999999964d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -7343,8 +7308,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.5d
+			x: 12.100000000000001d
+			y: 3.4000000000000004d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -7427,8 +7392,8 @@
 				}
 			]
 			title: "Courier Depot"
-			x: 12.0d
-			y: 3.5d
+			x: 13.600000000000001d
+			y: 3.4000000000000004d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -7455,8 +7420,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.8d
-			y: -2.8d
+			x: 6.4d
+			y: -2.8999999999999995d
 		}
 		{
 			dependencies: ["00E41146BE22270E"]
@@ -7507,8 +7472,8 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: -0.5d
+			x: 21.900000000000002d
+			y: 0.5d
 		}
 		{
 			dependencies: ["54D2E4556B238BE4"]
@@ -7555,8 +7520,8 @@
 				type: "item"
 			}]
 			title: "&4The Moon"
-			x: 16.099999999999998d
-			y: 0.0d
+			x: 19.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -7580,8 +7545,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 13.0d
+			x: -10.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["48182227AA27C096"]
@@ -7606,8 +7571,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 15.0d
+			x: -9.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["06856516470E742D"]
@@ -7647,8 +7612,8 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 15.0d
+			x: -10.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -7699,8 +7664,8 @@
 				}
 			]
 			title: "Gearboxes"
-			x: -8.0d
-			y: 13.0d
+			x: -12.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["335D849D587BCE73"]
@@ -7746,8 +7711,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 14.5d
+			x: -12.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
@@ -7778,8 +7743,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 16.5d
+			x: -12.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["6B25C523000F8937"]
@@ -7828,8 +7793,8 @@
 				}
 			]
 			title: "Press \\& Mixer"
-			x: -9.0d
-			y: 16.5d
+			x: -13.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -7877,8 +7842,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 17.5d
+			x: -12.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -7902,8 +7867,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 17.0d
+			x: -14.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -7929,8 +7894,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: 18.0d
+			x: -14.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["782EDA8D4D2B9CA6"]
@@ -7954,8 +7919,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 19.5d
+			x: -14.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
@@ -7980,8 +7945,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 21.0d
+			x: -16.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["2F7137679E3E480B"]
@@ -8006,8 +7971,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 22.0d
+			x: -15.5d
+			y: 27.5d
 		}
 		{
 			dependencies: ["53D5A1A751227C9A"]
@@ -8033,8 +7998,8 @@
 				type: "item"
 			}]
 			title: "A Pair Of Giants"
-			x: -11.5d
-			y: 23.0d
+			x: -15.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
@@ -8060,8 +8025,8 @@
 				type: "item"
 			}]
 			title: "The Age of Engines"
-			x: -11.5d
-			y: 24.0d
+			x: -15.5d
+			y: 29.5d
 		}
 		{
 			dependencies: ["57DB683E290787AA"]
@@ -8085,8 +8050,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 20.0d
+			x: -16.5d
+			y: 25.5d
 		}
 		{
 			dependencies: [
@@ -8112,8 +8077,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 22.0d
+			x: -16.5d
+			y: 27.5d
 		}
 		{
 			dependencies: ["39DB90AC7E1BF135"]
@@ -8154,8 +8119,8 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
-			y: 18.5d
+			x: -12.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -8180,8 +8145,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 15.5d
+			x: -14.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["34860EFC2864214C"]
@@ -8247,8 +8212,8 @@
 				}
 			]
 			title: "Power Connection"
-			x: -12.0d
-			y: 16.5d
+			x: -16.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["749F271CD9E35A16"]
@@ -8288,8 +8253,8 @@
 				}
 			]
 			title: "Power Transformation"
-			x: -13.0d
-			y: 17.0d
+			x: -17.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -8344,8 +8309,8 @@
 				}
 			]
 			title: "Foundry Machines"
-			x: -7.5d
-			y: 19.5d
+			x: -11.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["15B4E0B3C70D372F"]
@@ -8372,8 +8337,8 @@
 				type: "item"
 			}]
 			title: "Aluminium"
-			x: -7.0d
-			y: 20.5d
+			x: -11.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["54B73403ADB72017"]
@@ -8422,8 +8387,8 @@
 				}
 			]
 			title: "Steel Piping"
-			x: -9.0d
-			y: 21.5d
+			x: -13.0d
+			y: 27.0d
 		}
 		{
 			dependencies: ["0DBEF77B203B8850"]
@@ -8528,8 +8493,8 @@
 				}
 			]
 			title: "O I L"
-			x: -9.5d
-			y: 22.5d
+			x: -13.5d
+			y: 28.0d
 		}
 		{
 			dependencies: ["549AF60315DC3760"]
@@ -8578,8 +8543,8 @@
 				}
 			]
 			title: "The Refinery"
-			x: -10.0d
-			y: 23.5d
+			x: -14.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["1704DE3E7DDE8A77"]
@@ -8604,8 +8569,8 @@
 				type: "item"
 			}]
 			title: "The Age of Engines"
-			x: -10.5d
-			y: 24.5d
+			x: -14.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
@@ -8635,8 +8600,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: 11.0d
+			x: -9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -8677,8 +8642,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 0.5d
+			x: 24.900000000000002d
+			y: 1.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -8703,8 +8668,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: -1.0d
+			x: 24.900000000000002d
+			y: 0.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -8729,8 +8694,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -2.5d
+			x: 21.400000000000002d
+			y: -1.5d
 		}
 		{
 			dependencies: ["25A618A3B28B8DEE"]
@@ -8754,8 +8719,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -4.0d
+			x: 21.400000000000002d
+			y: -3.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -8815,8 +8780,8 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -3.5d
-			y: 5.5d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["087234557EE4E2A3"]
@@ -8861,8 +8826,8 @@
 				}
 			]
 			title: "Tinkering"
-			x: -4.5d
-			y: 6.5d
+			x: -5.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -8918,8 +8883,8 @@
 				}
 			]
 			title: "Efficient Tinkering Storage"
-			x: -4.5d
-			y: 5.0d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["13FC54673932E4F0"]
@@ -8943,8 +8908,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: 6.0d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -8967,8 +8932,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 22.5d
-			y: -2.5d
+			x: 25.400000000000002d
+			y: -1.5d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -8992,8 +8957,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: -2.5d
+			x: 23.900000000000002d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0D2E04D30E54E6C8"]
@@ -9024,8 +8989,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
-			y: -4.0d
+			x: 25.900000000000002d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -9056,8 +9021,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: -4.0d
+			x: 24.400000000000002d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3E73EAD0A0A295F5"]
@@ -9134,8 +9099,8 @@
 					type: "item"
 				}
 			]
-			x: 23.5d
-			y: -3.0d
+			x: 26.400000000000002d
+			y: -2.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -9176,8 +9141,8 @@
 				}
 			]
 			title: "Basic Blood Crafting"
-			x: 19.5d
-			y: -2.5d
+			x: 22.400000000000002d
+			y: -1.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -9220,8 +9185,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: -1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9271,13 +9236,16 @@
 				}
 			]
 			title: "Steel Making"
-			x: -16.5d
-			y: 9.0d
+			x: -28.200000000000003d
+			y: 21.125d
 		}
 		{
-			dependencies: ["3F53C388105917F6"]
+			dependencies: [
+				"03A0AB8C01849917"
+				"0C490675BD4137E8"
+			]
 			description: ["The &9Hierophant&r's natural progression is to attain the &bHigh Priestess pathway&r as well. Above, I have written down the materials required to make the simple machine frame from the &9Hierophant&r's side."]
-			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "51211E92BC865FDC"
 			rewards: [{
 				id: "2D4FBF302FC67D90"
@@ -9339,15 +9307,7 @@
 				{
 					count: 2L
 					id: "09E699FBF7E7AE85"
-					item: {
-						Count: 2
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "minecraft:iron_ingot"
-					}
+					item: "thermal:bronze_ingot"
 					type: "item"
 				}
 				{
@@ -9366,8 +9326,8 @@
 				}
 			]
 			title: "Hierophant's Way"
-			x: -13.0d
-			y: 6.5d
+			x: -14.95d
+			y: 9.2d
 		}
 		{
 			dependencies: [
@@ -9453,8 +9413,8 @@
 				}
 			]
 			title: "High Priestess' Way"
-			x: -17.2d
-			y: 10.0d
+			x: -28.900000000000002d
+			y: 22.125d
 		}
 		{
 			dependencies: ["33BA0ACE3EA7C44B"]
@@ -9494,8 +9454,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.6d
-			y: 16.674999999999997d
+			x: -5.1d
+			y: 18.674999999999997d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -9524,8 +9484,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 13.5d
+			x: -4.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
@@ -9571,11 +9531,11 @@
 				type: "item"
 			}]
 			title: "&bThe High Priestess"
-			x: -19.8d
-			y: 9.0d
+			x: -31.500000000000004d
+			y: 21.125d
 		}
 		{
-			dependencies: ["61F2F0F9E0158106"]
+			dependencies: ["35C32229A51A1B7D"]
 			hide_dependency_lines: true
 			id: "548F91724FEC0349"
 			rewards: [{
@@ -9597,8 +9557,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.75d
-			y: 12.599999999999998d
+			x: -15.75d
+			y: 15.75d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -9622,8 +9582,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.149999999999999d
-			y: 13.95d
+			x: -18.0d
+			y: 18.9d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -9647,11 +9607,11 @@
 				}
 				type: "item"
 			}]
-			x: -13.049999999999999d
-			y: 13.5d
+			x: -18.9d
+			y: 18.45d
 		}
 		{
-			dependencies: ["61F2F0F9E0158106"]
+			dependencies: ["35C32229A51A1B7D"]
 			hide_dependency_lines: true
 			id: "129D0C37D4A27A2B"
 			rewards: [{
@@ -9673,8 +9633,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.1d
-			y: 11.7d
+			x: -18.0d
+			y: 15.75d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -9698,8 +9658,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 12.599999999999998d
+			x: -18.0d
+			y: 17.55d
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
@@ -9727,8 +9687,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 22.0d
+			x: -17.5d
+			y: 27.5d
 		}
 		{
 			dependencies: [
@@ -9777,8 +9737,8 @@
 				type: "item"
 			}]
 			title: "The Tower"
-			x: -6.324999999999999d
-			y: 16.099999999999998d
+			x: -10.924999999999999d
+			y: 20.124999999999996d
 		}
 		{
 			dependencies: [
@@ -9901,8 +9861,8 @@
 				}
 			]
 			title: "Cultist Armor"
-			x: 9.0d
-			y: -4.5d
+			x: 10.600000000000001d
+			y: -4.6d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -9937,8 +9897,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 5.5d
+			x: 13.600000000000001d
+			y: 5.4d
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
@@ -9962,8 +9922,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 6.5d
+			x: 15.1d
+			y: 6.4d
 		}
 		{
 			dependencies: [
@@ -10006,8 +9966,8 @@
 				type: "item"
 			}]
 			title: "The Star"
-			x: 16.0d
-			y: 6.0d
+			x: 19.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -10037,7 +9997,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.625d
+			x: -12.375d
 			y: -1.125d
 		}
 		{
@@ -10074,8 +10034,8 @@
 				type: "item"
 			}]
 			title: "&6Strength"
-			x: 0.5d
-			y: 20.0d
+			x: 0.8d
+			y: 24.0d
 		}
 		{
 			dependencies: ["05C581711196984B"]
@@ -10103,8 +10063,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 22.5d
+			x: 0.8d
+			y: 26.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -10129,8 +10089,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.424999999999999d
-			y: -4.05d
+			x: -16.65d
+			y: -1.3499999999999999d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -10162,8 +10122,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 7.5d
+			x: -26.700000000000003d
+			y: 19.625d
 		}
 		{
 			dependencies: ["405495BB2F379536"]
@@ -10265,8 +10225,8 @@
 				title: "Any Non-Stirling Dynamo"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 6.0d
+			x: -26.700000000000003d
+			y: 18.125d
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
@@ -10279,6 +10239,8 @@
 				"{@pagebreak}"
 				"You will also need to cast bronze into a gear cast to manufacture the bronze gears required."
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "6AABF2BA290CD429"
 			rewards: [{
 				count: 3
@@ -10362,8 +10324,8 @@
 				}
 			]
 			title: "Hermit's Way"
-			x: -11.5d
-			y: 9.0d
+			x: -13.799999999999999d
+			y: 10.924999999999999d
 		}
 		{
 			dependencies: ["5ED52058EC7A215C"]
@@ -10387,8 +10349,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 15.5d
+			x: -13.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["4E774C5B363CBBA8"]
@@ -10474,8 +10436,8 @@
 				}
 			]
 			title: "Solar Crystal Armor"
-			x: 2.0d
-			y: 22.5d
+			x: 2.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["07C4F5356EFBBE09"]
@@ -10562,7 +10524,7 @@
 			]
 			title: "Lunar Stone Armor"
 			x: -1.0d
-			y: 22.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["3CC948E467CCC4C6"]
@@ -10589,8 +10551,8 @@
 				type: "item"
 			}]
 			title: "&3Judgement"
-			x: -6.0d
-			y: 23.0d
+			x: -8.049999999999999d
+			y: 28.5d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -10628,8 +10590,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 13.5d
+			x: 3.1d
+			y: 15.95d
 		}
 		{
 			dependencies: ["5F92E8FC88D86566"]
@@ -10654,7 +10616,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.25d
+			x: -12.0d
 			y: 2.25d
 		}
 		{
@@ -10680,7 +10642,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.149999999999999d
+			x: -12.899999999999999d
 			y: 2.25d
 		}
 		{
@@ -10710,7 +10672,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.049999999999999d
+			x: -13.799999999999999d
 			y: 2.25d
 		}
 		{
@@ -10741,8 +10703,8 @@
 				type: "item"
 			}]
 			title: "Gun Smith Table"
-			x: -5.0d
-			y: 23.0d
+			x: -6.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -10771,8 +10733,8 @@
 				type: "item"
 			}]
 			title: "Ammo Assembly Table"
-			x: -5.0d
-			y: 24.0d
+			x: -6.5d
+			y: 29.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -10801,8 +10763,8 @@
 				type: "item"
 			}]
 			title: "Attachment Table"
-			x: -5.0d
-			y: 22.0d
+			x: -6.5d
+			y: 27.5d
 		}
 		{
 			dependencies: [
@@ -10855,8 +10817,8 @@
 					type: "item"
 				}
 			]
-			x: -13.049999999999999d
-			y: 23.424999999999997d
+			x: -17.049999999999997d
+			y: 28.924999999999997d
 		}
 		{
 			dependencies: ["04DD33AF3AA672CD"]
@@ -10885,7 +10847,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 21.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["188786E302DE3681"]
@@ -10913,8 +10875,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 21.5d
+			x: 2.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -10943,7 +10905,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 20.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -10971,8 +10933,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 20.5d
+			x: 2.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["3060CAEE078FE9A0"]
@@ -10996,8 +10958,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 21.5d
+			x: 0.8d
+			y: 25.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11032,8 +10994,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: 10.0d
+			x: -27.700000000000003d
+			y: 22.125d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11087,8 +11049,8 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
-			y: 7.5d
+			x: -28.200000000000003d
+			y: 19.625d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -11117,8 +11079,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.5d
-			y: 9.5d
+			x: -30.200000000000003d
+			y: 21.625d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11142,8 +11104,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 10.0d
+			x: -25.700000000000003d
+			y: 22.125d
 		}
 		{
 			dependencies: [
@@ -11170,8 +11132,8 @@
 				type: "item"
 			}]
 			title: "&4Death"
-			x: 7.6d
-			y: -10.424999999999999d
+			x: 11.6d
+			y: -14.924999999999999d
 		}
 		{
 			dependencies: ["59D783372A16F858"]
@@ -11209,8 +11171,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 15.5d
+			x: -4.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -11249,8 +11211,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.125d
-			y: 7.25d
+			x: 11.725d
+			y: 9.7d
 		}
 		{
 			dependencies: ["34457CDE76EDFEAC"]
@@ -11282,8 +11244,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.75d
+			x: 11.1d
+			y: 9.2d
 		}
 		{
 			dependencies: ["4AE782719D5A61F7"]
@@ -11319,8 +11281,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 7.875d
+			x: -32.7d
+			y: 20.0d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11345,8 +11307,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.6d
-			y: 14.3d
+			x: -30.300000000000004d
+			y: 26.424999999999997d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11371,8 +11333,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.6d
-			y: 15.3d
+			x: -31.300000000000004d
+			y: 27.424999999999997d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11396,8 +11358,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.6d
-			y: 15.800000000000002d
+			x: -32.300000000000004d
+			y: 27.924999999999997d
 		}
 		{
 			dependencies: [
@@ -11437,8 +11399,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.5d
-			y: 6.0d
+			x: -34.2d
+			y: 18.125d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -11462,8 +11424,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.0d
-			y: 6.5d
+			x: -35.7d
+			y: 18.625d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11489,8 +11451,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.85d
-			y: 10.799999999999999d
+			x: -26.550000000000004d
+			y: 22.924999999999997d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -11501,19 +11463,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3F8C242F59433BC7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "rftoolspower:coalgenerator"
-				}
+				id: "0D85F3CB5572BD4B"
+				item: "concatenationcore:coal_generator"
 				type: "item"
 			}]
-			x: -10.125d
+			x: -10.875d
 			y: -1.25d
 		}
 		{
@@ -11546,8 +11500,8 @@
 					type: "item"
 				}
 			]
-			x: -27.0d
-			y: 5.5d
+			x: -38.7d
+			y: 17.625d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
@@ -11571,8 +11525,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.0d
-			y: 4.5d
+			x: -39.7d
+			y: 16.625d
 		}
 		{
 			dependencies: [
@@ -11608,8 +11562,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.799999999999997d
-			y: 6.6d
+			x: -37.5d
+			y: 18.725d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -11649,8 +11603,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.55d
-			y: 11.049999999999999d
+			x: -31.250000000000004d
+			y: 23.174999999999997d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -11675,8 +11629,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: 6.5d
+			x: -32.7d
+			y: 18.625d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11700,8 +11654,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 7.0d
+			x: -29.700000000000003d
+			y: 19.125d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11725,8 +11679,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 10.5d
+			x: -24.700000000000003d
+			y: 22.625d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -11752,11 +11706,10 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -28.749999999999996d
-			y: 8.049999999999999d
+			x: -40.45d
+			y: 20.174999999999997d
 		}
 		{
-			dependencies: ["4D66CC58CC466767"]
 			description: ["The &9Minor Arcana of the Cup&r is a branch under the High Priestess pathway, delving more intensively into logistics through cables."]
 			id: "10A7F0DA56020A8C"
 			rewards: [
@@ -11794,8 +11747,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -16.75d
-			y: 5.3999999999999995d
+			x: -20.75d
+			y: 2.3999999999999986d
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
@@ -11855,14 +11808,11 @@
 					type: "item"
 				}
 			]
-			x: -17.0d
-			y: 4.0d
+			x: -21.0d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"10A7F0DA56020A8C"
-				"7EB335BB570C5F7F"
-			]
+			dependencies: ["10A7F0DA56020A8C"]
 			dependency_requirement: "one_completed"
 			description: [
 				"Menril trees can be found scattered throughout the world. They will usually be harvested for their titular menril."
@@ -11921,8 +11871,8 @@
 				title: "Any Menril Wood"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 5.0d
+			x: -22.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -11961,8 +11911,8 @@
 					type: "item"
 				}
 			]
-			x: -16.0d
-			y: 3.0d
+			x: -20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -11995,8 +11945,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
-			y: 4.0d
+			x: -23.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12020,8 +11970,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.5d
-			y: 4.5d
+			x: -24.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -12045,8 +11995,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.6d
-			y: 16.300000000000004d
+			x: -30.300000000000004d
+			y: 28.42500000000001d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12070,8 +12020,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
-			y: 3.5d
+			x: -24.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -12106,8 +12056,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -6.0d
-			y: 26.5d
+			x: -6.5d
+			y: 32.0d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -12132,8 +12082,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 26.5d
+			x: -4.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["073D163854FFBC13"]
@@ -12185,8 +12135,8 @@
 					type: "item"
 				}
 			]
-			x: -21.0d
-			y: 2.5d
+			x: -25.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12221,8 +12171,8 @@
 				title: "Any Terminal"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 3.0d
+			x: -23.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -12247,8 +12197,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
-			y: 2.5d
+			x: -21.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4E44852EB1DA116A"]
@@ -12271,8 +12221,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 1.0d
+			x: -22.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -12300,8 +12250,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -0.5d
-			y: 29.0d
+			x: -1.0d
+			y: 34.5d
 		}
 		{
 			dependencies: [
@@ -12346,8 +12296,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -17.0d
-			y: -0.5d
+			x: -29.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -12529,8 +12479,8 @@
 				}
 			]
 			title: "Reinforced Steel Armor"
-			x: -5.0d
-			y: 28.0d
+			x: -5.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
@@ -12712,8 +12662,8 @@
 				}
 			]
 			title: "Hadfield Steel Armor"
-			x: -3.5d
-			y: 28.5d
+			x: -4.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -12896,8 +12846,8 @@
 				}
 			]
 			title: "Juggernaut Armor"
-			x: -2.0d
-			y: 29.0d
+			x: -2.5d
+			y: 34.5d
 		}
 		{
 			dependencies: ["029A616076E8CEAE"]
@@ -12926,8 +12876,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 27.5d
+			x: -2.5d
+			y: 33.0d
 		}
 		{
 			dependencies: ["736444B92EEE2C59"]
@@ -12958,8 +12908,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.85d
-			y: 22.95d
+			x: -5.35d
+			y: 28.45d
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
@@ -12984,8 +12934,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.825000000000003d
-			y: 6.950000000000001d
+			x: 23.825000000000003d
+			y: 8.450000000000001d
 		}
 		{
 			dependencies: [
@@ -13004,8 +12954,8 @@
 				item: "irons_spellbooks:cinder_essence"
 				type: "item"
 			}]
-			x: 20.825000000000003d
-			y: 8.950000000000001d
+			x: 23.825000000000003d
+			y: 10.450000000000001d
 		}
 		{
 			dependencies: ["6FC66F464CF54CF4"]
@@ -13029,8 +12979,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.825000000000003d
-			y: 8.950000000000001d
+			x: 22.825000000000003d
+			y: 10.450000000000001d
 		}
 		{
 			dependencies: [
@@ -13154,8 +13104,8 @@
 				type: "item"
 			}]
 			title: "Mage Hoods"
-			x: 19.825000000000003d
-			y: 9.950000000000001d
+			x: 22.825000000000003d
+			y: 11.450000000000001d
 		}
 		{
 			dependencies: [
@@ -13183,8 +13133,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.325000000000003d
-			y: 7.950000000000001d
+			x: 21.325000000000003d
+			y: 9.450000000000001d
 		}
 		{
 			dependencies: [
@@ -13213,8 +13163,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.325000000000003d
-			y: 8.950000000000001d
+			x: 21.325000000000003d
+			y: 10.450000000000001d
 		}
 		{
 			dependencies: ["37AA006B7ABACDC8"]
@@ -13240,8 +13190,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.325000000000003d
-			y: 9.950000000000001d
+			x: 21.325000000000003d
+			y: 11.450000000000001d
 		}
 		{
 			dependencies: [
@@ -13270,8 +13220,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.325000000000003d
-			y: 10.950000000000001d
+			x: 21.325000000000003d
+			y: 12.450000000000001d
 		}
 		{
 			dependencies: ["37AA006B7ABACDC8"]
@@ -13297,8 +13247,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.325000000000003d
-			y: 11.950000000000001d
+			x: 21.325000000000003d
+			y: 13.450000000000001d
 		}
 		{
 			dependencies: ["63B383DE2EEFE2F3"]
@@ -13346,8 +13296,8 @@
 				}
 			]
 			title: "Eldritch Research"
-			x: 19.825000000000003d
-			y: 11.950000000000001d
+			x: 22.825000000000003d
+			y: 13.450000000000001d
 		}
 		{
 			dependencies: ["2611BFF44437C940"]
@@ -13372,8 +13322,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.825000000000003d
-			y: 10.950000000000001d
+			x: 22.825000000000003d
+			y: 12.450000000000001d
 		}
 		{
 			dependencies: ["74EA3C5BD8FF2DEB"]
@@ -13489,8 +13439,8 @@
 				type: "item"
 			}]
 			title: "Arcane Curios"
-			x: 20.825000000000003d
-			y: 10.950000000000001d
+			x: 23.825000000000003d
+			y: 12.450000000000001d
 		}
 		{
 			dependencies: ["51D3EFAF0C58197A"]
@@ -13594,8 +13544,8 @@
 				type: "item"
 			}]
 			title: "Unique Spellbooks"
-			x: 20.825000000000003d
-			y: 9.950000000000001d
+			x: 23.825000000000003d
+			y: 11.450000000000001d
 		}
 		{
 			dependencies: ["47F1E172DB0819FC"]
@@ -13654,8 +13604,8 @@
 				type: "item"
 			}]
 			title: "Basic Spellbook"
-			x: 19.825000000000003d
-			y: 7.950000000000001d
+			x: 22.825000000000003d
+			y: 9.450000000000001d
 		}
 		{
 			dependencies: ["4FBF9D1E551B2EC8"]
@@ -13715,8 +13665,8 @@
 				type: "item"
 			}]
 			title: "Apprentice Spellbooks"
-			x: 20.825000000000003d
-			y: 7.950000000000001d
+			x: 23.825000000000003d
+			y: 9.450000000000001d
 		}
 		{
 			dependencies: [
@@ -13843,8 +13793,8 @@
 				type: "item"
 			}]
 			title: "Upgrade Orbs"
-			x: 20.825000000000003d
-			y: 11.950000000000001d
+			x: 23.825000000000003d
+			y: 13.450000000000001d
 		}
 		{
 			dependencies: ["1AFE9864E4F4DFB0"]
@@ -13869,8 +13819,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.325000000000003d
-			y: 8.950000000000001d
+			x: 20.325000000000003d
+			y: 10.450000000000001d
 		}
 		{
 			dependencies: ["14DFB74A4390006D"]
@@ -13917,8 +13867,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.325000000000003d
-			y: 6.950000000000001d
+			x: 20.325000000000003d
+			y: 8.450000000000001d
 		}
 		{
 			dependencies: ["1177AE48181D8F17"]
@@ -13942,8 +13892,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.325000000000003d
-			y: 10.950000000000001d
+			x: 20.325000000000003d
+			y: 12.450000000000001d
 		}
 		{
 			dependencies: ["1E133F321CC64E1F"]
@@ -14125,8 +14075,8 @@
 				}
 			]
 			title: "Complete Eldritch Research"
-			x: 19.825000000000003d
-			y: 12.950000000000001d
+			x: 22.825000000000003d
+			y: 14.450000000000001d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -14153,8 +14103,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 1.0d
+			x: 26.400000000000002d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2DC6C224BD1881C9"]
@@ -14178,8 +14128,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.5d
-			y: 2.5d
+			x: 27.400000000000002d
+			y: 3.5d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -14204,8 +14154,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: -0.5d
+			x: 26.400000000000002d
+			y: 0.5d
 		}
 		{
 			dependencies: ["51EDC749A53FF0D3"]
@@ -14229,8 +14179,8 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
-			y: -1.0d
+			x: 28.400000000000002d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3913EED76917339E"]
@@ -14263,8 +14213,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: -5.0d
+			x: 23.400000000000002d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
@@ -14309,8 +14259,8 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
-			y: -6.0d
+			x: 23.400000000000002d
+			y: -5.0d
 		}
 		{
 			dependencies: ["579E8F816742653C"]
@@ -14339,8 +14289,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
-			y: -7.0d
+			x: 23.900000000000002d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6D27277DA055DFBC"]
@@ -14364,8 +14314,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: -5.5d
+			x: 24.400000000000002d
+			y: -4.5d
 		}
 		{
 			dependencies: ["639817BED42EBC3A"]
@@ -14389,8 +14339,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: -9.0d
+			x: 24.900000000000002d
+			y: -8.0d
 		}
 		{
 			dependencies: ["29289B6D4610B9D4"]
@@ -14415,8 +14365,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: -8.0d
+			x: 24.400000000000002d
+			y: -7.0d
 		}
 		{
 			dependencies: ["40EA73BEA023C14A"]
@@ -14547,8 +14497,8 @@
 				}
 			]
 			title: "Blood Logistics"
-			x: 23.0d
-			y: 2.5d
+			x: 25.900000000000002d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6CE0DB1AEB597BCE"]
@@ -14601,8 +14551,8 @@
 				}
 			]
 			title: "Aura Farming"
-			x: 24.0d
-			y: -2.0d
+			x: 26.900000000000002d
+			y: -1.0d
 		}
 		{
 			dependencies: ["209C0E2550C84C69"]
@@ -14627,8 +14577,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: -4.0d
+			x: 22.900000000000002d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -14679,8 +14629,8 @@
 				type: "item"
 			}]
 			title: "Jetpack"
-			x: -17.5d
-			y: -1.5d
+			x: -30.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
@@ -14704,8 +14654,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.299999999999997d
-			y: 9.7d
+			x: -42.0d
+			y: 21.825000000000003d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -14753,8 +14703,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -1.5d
+			x: -29.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
@@ -14783,8 +14733,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.299999999999997d
-			y: 10.7d
+			x: -43.0d
+			y: 22.825000000000003d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -14813,8 +14763,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.5d
-			y: 4.5d
+			x: -36.2d
+			y: 16.625d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -14855,8 +14805,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 19.5d
+			x: -12.5d
+			y: 25.0d
 		}
 		{
 			dependencies: [
@@ -14885,8 +14835,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 20.5d
+			x: -12.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["3DF92A514A6B22AF"]
@@ -14964,8 +14914,8 @@
 				}
 			]
 			title: "Elemental Essences"
-			x: 14.0d
-			y: 15.0d
+			x: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["08E10ADC80A20D8E"]
@@ -15027,11 +14977,11 @@
 				}
 			]
 			title: "Advanced Essences"
-			x: 15.5d
-			y: 14.5d
+			x: 17.0d
+			y: 17.5d
 		}
 		{
-			dependencies: ["3900C73EA601F27C"]
+			dependencies: ["55380CDFDB4EB17C"]
 			description: ["The Primed Calculation Circuit is used in the refinement of applied digital storage systems, allowing for autocrafting and the coordination of remote storage communication."]
 			id: "1974390B046B7B6A"
 			rewards: [{
@@ -15053,8 +15003,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.25d
-			y: 9.0d
+			x: -23.75d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -15093,8 +15043,8 @@
 					type: "item"
 				}
 			]
-			x: -33.25d
-			y: 8.0d
+			x: -24.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -15126,8 +15076,8 @@
 					type: "item"
 				}
 			]
-			x: -36.3d
-			y: 13.2d
+			x: -48.0d
+			y: 25.325000000000003d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -15163,8 +15113,8 @@
 				}
 				type: "item"
 			}]
-			x: -37.55d
-			y: 16.7d
+			x: -53.25d
+			y: 28.125d
 		}
 		{
 			dependencies: [
@@ -15257,8 +15207,8 @@
 					type: "item"
 				}
 			]
-			x: -30.924999999999997d
-			y: 15.2d
+			x: -42.625d
+			y: 27.325000000000003d
 		}
 		{
 			dependencies: [
@@ -15296,8 +15246,8 @@
 				type: "item"
 			}]
 			title: "&2Justice"
-			x: -36.449999999999996d
-			y: 15.299999999999997d
+			x: -52.15d
+			y: 26.724999999999994d
 		}
 		{
 			dependencies: [
@@ -15324,8 +15274,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.799999999999997d
-			y: 11.7d
+			x: -40.5d
+			y: 23.825000000000003d
 		}
 		{
 			dependencies: [
@@ -15361,8 +15311,8 @@
 				type: "item"
 			}]
 			title: "&4The Hanged Man"
-			x: 24.9d
-			y: 19.349999999999998d
+			x: 29.349999999999998d
+			y: 22.849999999999994d
 		}
 		{
 			dependencies: [
@@ -15417,8 +15367,8 @@
 				type: "item"
 			}]
 			title: "&3The Lovers"
-			x: 27.5d
-			y: 10.625d
+			x: 31.95d
+			y: 14.125d
 		}
 		{
 			dependencies: [
@@ -15445,8 +15395,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: 5.5d
+			x: -36.7d
+			y: 17.625d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -15470,8 +15420,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.5d
-			y: 7.5d
+			x: -34.2d
+			y: 19.625d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -15501,8 +15451,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.5d
-			y: 8.5d
+			x: -34.2d
+			y: 20.625d
 		}
 		{
 			dependencies: [
@@ -15529,8 +15479,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.5d
-			y: 8.0d
+			x: -35.2d
+			y: 20.125d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -15558,8 +15508,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: 7.5d
+			x: -36.7d
+			y: 19.625d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -15603,8 +15553,8 @@
 					type: "item"
 				}
 			]
-			x: -34.5d
-			y: 8.5d
+			x: -26.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -15643,8 +15593,8 @@
 					type: "item"
 				}
 			]
-			x: -31.875d
-			y: 7.0d
+			x: -23.375d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -15709,8 +15659,8 @@
 					type: "item"
 				}
 			]
-			x: -32.875d
-			y: 5.5d
+			x: -24.375d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4880C58AEB23BEEC"]
@@ -15772,8 +15722,8 @@
 					type: "item"
 				}
 			]
-			x: -33.875d
-			y: 4.5d
+			x: -25.375d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2BA18EB25877001F"]
@@ -15835,8 +15785,8 @@
 					type: "item"
 				}
 			]
-			x: -35.0d
-			y: 3.5d
+			x: -26.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
@@ -15860,8 +15810,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.0d
-			y: 7.5d
+			x: -25.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["47C95E5CB83C274D"]
@@ -15885,8 +15835,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.375d
-			y: 7.0d
+			x: -24.875d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6EA8FF0A2426916D"]
@@ -15910,8 +15860,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.0d
-			y: 4.5d
+			x: -37.7d
+			y: 16.625d
 		}
 		{
 			dependencies: ["3C2CD34C769A34FC"]
@@ -15935,8 +15885,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.5d
-			y: 3.5d
+			x: -38.2d
+			y: 15.625d
 		}
 		{
 			dependencies: ["5C1996BF7424D743"]
@@ -15960,8 +15910,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.0d
-			y: 2.5d
+			x: -38.7d
+			y: 14.625d
 		}
 		{
 			dependencies: ["51302FFECDC0E0A7"]
@@ -15991,8 +15941,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.400000000000002d
-			y: 12.4d
+			x: -30.100000000000005d
+			y: 24.525000000000006d
 		}
 		{
 			dependencies: [
@@ -16021,8 +15971,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.200000000000003d
-			y: 13.200000000000001d
+			x: -30.900000000000006d
+			y: 25.325000000000003d
 		}
 		{
 			dependencies: [
@@ -16052,8 +16002,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.900000000000002d
-			y: 14.0d
+			x: -31.600000000000005d
+			y: 26.125d
 		}
 		{
 			dependencies: ["2EDD432C547674F0"]
@@ -16077,8 +16027,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: -1.5d
+			x: -28.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -16130,8 +16080,8 @@
 				title: "Any Capacity Upgrade"
 				type: "item"
 			}]
-			x: -17.35d
-			y: 13.4d
+			x: -29.050000000000004d
+			y: 25.525000000000006d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -16192,8 +16142,8 @@
 				title: "Any Other Upgrade"
 				type: "item"
 			}]
-			x: -16.450000000000003d
-			y: 14.3d
+			x: -28.150000000000006d
+			y: 26.424999999999997d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -16233,8 +16183,8 @@
 					type: "item"
 				}
 			]
-			x: -22.099999999999998d
-			y: 11.475d
+			x: -33.8d
+			y: 23.599999999999994d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16313,8 +16263,8 @@
 					type: "item"
 				}
 			]
-			x: -26.0d
-			y: 8.5d
+			x: -37.7d
+			y: 20.625d
 		}
 		{
 			dependencies: [
@@ -16346,8 +16296,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.5d
-			y: 9.5d
+			x: -38.2d
+			y: 21.625d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -16374,8 +16324,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.25d
-			y: 11.049999999999999d
+			x: -32.95d
+			y: 23.174999999999997d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16440,8 +16390,8 @@
 					type: "item"
 				}
 			]
-			x: -27.0d
-			y: 8.4d
+			x: -38.7d
+			y: 20.525d
 		}
 		{
 			dependencies: ["1F63B99669BB1002"]
@@ -16456,8 +16406,8 @@
 				item: "concatenationcore:laser_diode"
 				type: "item"
 			}]
-			x: -27.799999999999997d
-			y: 10.2d
+			x: -39.5d
+			y: 22.325000000000003d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16547,8 +16497,8 @@
 				}
 			]
 			title: "Addons"
-			x: -28.0d
-			y: 6.5d
+			x: -39.7d
+			y: 18.625d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16572,8 +16522,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: 9.5d
+			x: -36.7d
+			y: 21.625d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16609,8 +16559,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -25.5d
-			y: 11.0d
+			x: -37.2d
+			y: 23.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16676,8 +16626,8 @@
 				}
 			]
 			title: "Infinity Tools"
-			x: -24.5d
-			y: 11.0d
+			x: -36.2d
+			y: 23.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16747,8 +16697,8 @@
 				}
 			]
 			title: "Infinity Weapons"
-			x: -23.5d
-			y: 11.0d
+			x: -35.2d
+			y: 23.125d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16798,8 +16748,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -24.599999999999998d
-			y: 12.6d
+			x: -36.3d
+			y: 24.724999999999994d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -16818,8 +16768,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.499999999999996d
-			y: 10.5d
+			x: -41.2d
+			y: 22.625d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -16860,8 +16810,8 @@
 					type: "item"
 				}
 			]
-			x: -30.299999999999997d
-			y: 12.2d
+			x: -42.0d
+			y: 24.325000000000003d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -16879,8 +16829,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.8d
-			y: 11.7d
+			x: -44.5d
+			y: 23.825000000000003d
 		}
 		{
 			dependencies: ["6B8090BCBDEE94FD"]
@@ -16918,8 +16868,8 @@
 					type: "item"
 				}
 			]
-			x: -34.3d
-			y: 13.2d
+			x: -46.0d
+			y: 25.325000000000003d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -17107,8 +17057,8 @@
 				}
 			]
 			title: "Steel Armor"
-			x: -18.0d
-			y: 8.5d
+			x: -29.700000000000003d
+			y: 20.625d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -17136,8 +17086,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.299999999999997d
-			y: 9.2d
+			x: -41.0d
+			y: 21.325000000000003d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -17314,8 +17264,8 @@
 				}
 			]
 			title: "Refined Armour"
-			x: -34.8d
-			y: 11.7d
+			x: -46.5d
+			y: 23.825000000000003d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -17339,8 +17289,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.799999999999997d
-			y: 13.2d
+			x: -40.5d
+			y: 25.325000000000003d
 		}
 		{
 			dependencies: ["35AEE847FE74A61B"]
@@ -17363,8 +17313,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.799999999999997d
-			y: 14.2d
+			x: -39.5d
+			y: 26.325000000000003d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -17383,8 +17333,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.8d
-			y: 13.2d
+			x: -44.5d
+			y: 25.325000000000003d
 		}
 		{
 			dependencies: [
@@ -17405,8 +17355,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.799999999999997d
-			y: 14.2d
+			x: -43.5d
+			y: 26.325000000000003d
 		}
 		{
 			dependencies: [
@@ -17443,8 +17393,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.049999999999999d
-			y: 23.575d
+			x: 9.549999999999999d
+			y: 28.5d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -17469,8 +17419,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 24.5d
+			x: 8.5d
+			y: 29.425d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -17509,8 +17459,8 @@
 					type: "item"
 				}
 			]
-			x: -29.299999999999997d
-			y: 14.2d
+			x: -41.0d
+			y: 26.325000000000003d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -17533,8 +17483,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.299999999999997d
-			y: 13.7d
+			x: -42.0d
+			y: 25.825000000000003d
 		}
 		{
 			dependencies: [
@@ -17560,8 +17510,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.325000000000003d
-			y: 13.950000000000001d
+			x: 21.325000000000003d
+			y: 15.450000000000001d
 		}
 		{
 			dependencies: [
@@ -17588,8 +17538,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 12.0d
+			x: 26.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -17615,8 +17565,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 6.0d
+			x: 26.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -17655,8 +17605,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 18.5d
+			x: 0.8d
+			y: 22.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -17680,8 +17630,8 @@
 				}
 				type: "item"
 			}]
-			x: -21.25d
-			y: 9.35d
+			x: -32.95d
+			y: 21.475d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -17714,8 +17664,8 @@
 				}
 				type: "item"
 			}]
-			x: -35.3d
-			y: 14.575d
+			x: -47.0d
+			y: 26.700000000000003d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -17743,8 +17693,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.8d
-			y: 15.575d
+			x: -46.5d
+			y: 27.700000000000003d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -17773,8 +17723,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.925d
-			y: 14.7d
+			x: -45.625d
+			y: 26.825000000000003d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -17798,8 +17748,8 @@
 				}
 				type: "item"
 			}]
-			x: -38.675d
-			y: 17.7d
+			x: -54.375d
+			y: 29.125d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
@@ -17824,8 +17774,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.8d
-			y: 17.075d
+			x: -50.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["1221A32C145FCE8B"]
@@ -17849,8 +17799,8 @@
 				}
 				type: "item"
 			}]
-			x: -33.3d
-			y: 18.075d
+			x: -49.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["2638CC10E4FF66C1"]
@@ -17881,8 +17831,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.4d
-			y: 12.1d
+			x: -27.1d
+			y: 24.224999999999994d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -17915,8 +17865,8 @@
 					type: "item"
 				}
 			]
-			x: -16.2d
-			y: 12.6d
+			x: -27.900000000000002d
+			y: 24.724999999999994d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -17965,8 +17915,8 @@
 				}
 			]
 			title: "Tablet"
-			x: -15.299999999999999d
-			y: 13.049999999999999d
+			x: -27.0d
+			y: 25.174999999999997d
 		}
 		{
 			dependencies: [
@@ -18016,8 +17966,8 @@
 				type: "item"
 			}]
 			title: "&5The Empress"
-			x: -7.949999999999999d
-			y: -11.424999999999999d
+			x: -10.149999999999999d
+			y: -14.374999999999998d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18061,8 +18011,8 @@
 				}
 			]
 			title: "Cooking Instruments"
-			x: -7.5d
-			y: -10.0d
+			x: -9.7d
+			y: -12.95d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18090,8 +18040,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -10.0d
+			x: -11.2d
+			y: -12.95d
 		}
 		{
 			dependencies: ["01514A831E1895F9"]
@@ -18117,8 +18067,8 @@
 				type: "item"
 			}]
 			title: "Family of Knives"
-			x: -10.5d
-			y: -10.0d
+			x: -12.7d
+			y: -12.95d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18141,8 +18091,8 @@
 				type: "advancement"
 			}]
 			title: "Wild Seeds"
-			x: -6.5d
-			y: -11.0d
+			x: -8.7d
+			y: -13.95d
 		}
 		{
 			dependencies: [
@@ -18197,7 +18147,7 @@
 				type: "item"
 			}]
 			title: "Cutting Berries"
-			x: -10.0d
+			x: -14.0d
 			y: -8.5d
 		}
 		{
@@ -18245,8 +18195,8 @@
 				type: "item"
 			}]
 			title: "Drinks"
-			x: -14.0d
-			y: -18.0d
+			x: -16.2d
+			y: -20.95d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -18313,8 +18263,8 @@
 				type: "item"
 			}]
 			title: "Comforting Food"
-			x: -11.5d
-			y: -18.0d
+			x: -13.7d
+			y: -20.95d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -18349,8 +18299,8 @@
 				type: "item"
 			}]
 			title: "Salads"
-			x: -11.0d
-			y: -19.0d
+			x: -13.2d
+			y: -21.95d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -18441,8 +18391,8 @@
 				type: "item"
 			}]
 			title: "Nourishing Food"
-			x: -13.0d
-			y: -17.5d
+			x: -15.2d
+			y: -20.45d
 		}
 		{
 			dependencies: ["11F3F832B62CA7D8"]
@@ -18464,8 +18414,8 @@
 				type: "advancement"
 			}]
 			title: "Wild Butcher"
-			x: -11.7d
-			y: -10.799999999999999d
+			x: -13.899999999999999d
+			y: -13.749999999999998d
 		}
 		{
 			dependencies: ["4551222320CBAE77"]
@@ -18492,8 +18442,8 @@
 				type: "advancement"
 			}]
 			title: "Planting Rice"
-			x: -6.75d
-			y: -12.6d
+			x: -8.95d
+			y: -15.549999999999999d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -18518,8 +18468,8 @@
 				type: "advancement"
 			}]
 			title: "Crop Rotation"
-			x: -12.65d
-			y: -18.7d
+			x: -14.85d
+			y: -21.65d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18539,8 +18489,8 @@
 				item: "born_in_chaos_v1:seedof_chaos"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -10.0d
+			x: 10.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18559,8 +18509,8 @@
 				type: "advancement"
 			}]
 			title: "Dark Metal"
-			x: 8.5d
-			y: -9.0d
+			x: 12.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -18600,8 +18550,8 @@
 				}
 			]
 			title: "Dark Metal \\& Dense Alloy"
-			x: 8.5d
-			y: -13.5d
+			x: 12.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -18621,8 +18571,8 @@
 				item: "born_in_chaos_v1:dark_upgrade"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -15.0d
+			x: 13.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6E6759704F7023AB"]
@@ -18680,8 +18630,8 @@
 				}
 			]
 			title: "Dark Metal Armour"
-			x: 9.5d
-			y: -16.0d
+			x: 13.5d
+			y: -20.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -18711,8 +18661,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -14.0d
+			x: 14.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
@@ -18770,8 +18720,8 @@
 				}
 			]
 			title: "Nightmare Armour"
-			x: 11.0d
-			y: -15.0d
+			x: 15.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["369EB408D49E5415"]
@@ -18821,8 +18771,8 @@
 				type: "item"
 			}]
 			title: "Dark Metal Weapons"
-			x: 7.5d
-			y: -15.0d
+			x: 11.5d
+			y: -19.5d
 		}
 		{
 			dependencies: ["3BDE972F9EB52CF5"]
@@ -18879,8 +18829,8 @@
 				type: "item"
 			}]
 			title: "Nightmare Weapons"
-			x: 11.5d
-			y: -14.0d
+			x: 15.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -18923,8 +18873,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -13.0d
+			x: 15.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["524067700E07EB06"]
@@ -18963,8 +18913,8 @@
 				value: 1L
 			}]
 			title: "The Nightmare Stalker"
-			x: 7.0d
-			y: -9.0d
+			x: 11.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["3F53C388105917F6"]
@@ -18988,7 +18938,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19018,7 +18968,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 24.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19053,7 +19003,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 24.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19084,7 +19034,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 24.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19114,8 +19064,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 24.0d
+			x: 1.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19149,8 +19099,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 24.0d
+			x: 2.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19191,8 +19141,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 25.0d
+			x: 2.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19226,8 +19176,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 24.0d
+			x: 3.5d
+			y: 28.5d
 		}
 		{
 			dependencies: ["11AB2172D3EEA227"]
@@ -19259,8 +19209,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 25.0d
+			x: -0.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["3A4E23D1BDE1E5ED"]
@@ -19275,8 +19225,8 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 15.0d
+			x: -19.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["0F048A0A3773C3EF"]
@@ -19291,8 +19241,8 @@
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 16.0d
+			x: -20.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -19307,8 +19257,8 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: -10.85d
-			y: 13.5d
+			x: -17.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19338,8 +19288,8 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 12.5d
+			x: -1.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19518,8 +19468,8 @@
 				}
 			]
 			title: "Specialized Tools"
-			x: -2.5d
-			y: 10.5d
+			x: -3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19596,8 +19546,8 @@
 				type: "item"
 			}]
 			title: "Vein Hammer"
-			x: -1.0d
-			y: 10.5d
+			x: -1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19815,8 +19765,8 @@
 				type: "item"
 			}]
 			title: "Melee Weapons"
-			x: -2.5d
-			y: 11.5d
+			x: -3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -19852,8 +19802,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.324999999999996d
-			y: 23.575d
+			x: 33.77499999999999d
+			y: 27.075000000000003d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -19875,8 +19825,8 @@
 				item: "reliquary:angelheart_vial"
 				type: "item"
 			}]
-			x: 29.9d
-			y: 18.349999999999998d
+			x: 34.349999999999994d
+			y: 21.849999999999994d
 		}
 		{
 			dependencies: [
@@ -19902,8 +19852,8 @@
 				item: "reliquary:phoenix_down"
 				type: "item"
 			}]
-			x: 29.9d
-			y: 17.349999999999998d
+			x: 34.349999999999994d
+			y: 20.849999999999994d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -19930,8 +19880,8 @@
 				item: "reliquary:angelic_feather"
 				type: "item"
 			}]
-			x: 28.9d
-			y: 17.349999999999998d
+			x: 33.349999999999994d
+			y: 20.849999999999994d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -19953,8 +19903,8 @@
 				item: "reliquary:destruction_catalyst"
 				type: "item"
 			}]
-			x: 26.549999999999997d
-			y: 22.95d
+			x: 30.999999999999996d
+			y: 26.450000000000003d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -19978,8 +19928,8 @@
 				item: "reliquary:fortune_coin"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 22.0d
+			x: 27.95d
+			y: 25.5d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20001,8 +19951,8 @@
 				item: "reliquary:glacial_staff"
 				type: "item"
 			}]
-			x: 28.099999999999998d
-			y: 24.55d
+			x: 32.55d
+			y: 28.049999999999997d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20024,8 +19974,8 @@
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 31.099999999999998d
-			y: 24.55d
+			x: 35.55d
+			y: 28.049999999999997d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20061,8 +20011,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.099999999999998d
-			y: 25.05d
+			x: 34.55d
+			y: 28.549999999999997d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20084,8 +20034,8 @@
 				}
 				type: "item"
 			}]
-			x: 29.099999999999998d
-			y: 25.05d
+			x: 33.55d
+			y: 28.549999999999997d
 		}
 		{
 			dependencies: ["7D281BDB1C2472F1"]
@@ -20108,8 +20058,8 @@
 				item: "reliquary:sojourner_staff"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 23.0d
+			x: 35.45d
+			y: 26.5d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -20139,8 +20089,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: 19.0d
+			x: 31.95d
+			y: 22.5d
 		}
 		{
 			dependencies: ["6FE18A64BEAF0A08"]
@@ -20157,8 +20107,8 @@
 				item: "reliquary:lantern_of_paranoia"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 23.0d
+			x: 37.45d
+			y: 26.5d
 		}
 		{
 			dependencies: [
@@ -20176,8 +20126,8 @@
 				item: "reliquary:salamander_eye"
 				type: "item"
 			}]
-			x: 33.099999999999994d
-			y: 24.55d
+			x: 37.55d
+			y: 28.049999999999997d
 		}
 		{
 			dependencies: ["471939DE22B5426B"]
@@ -20225,8 +20175,8 @@
 				item: "reliquary:handgun"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 24.5d
+			x: 30.45d
+			y: 28.0d
 		}
 		{
 			dependencies: ["2A6F7A84B94F1B7F"]
@@ -20244,8 +20194,8 @@
 				item: "reliquary:interdiction_torch"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 21.5d
+			x: 37.45d
+			y: 25.0d
 		}
 		{
 			dependencies: ["4E4E81226BED0E7C"]
@@ -20274,8 +20224,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
-			y: 20.5d
+			x: 30.45d
+			y: 24.0d
 		}
 		{
 			dependencies: ["7EA2E0871C6D568C"]
@@ -20291,8 +20241,8 @@
 				item: "reliquary:witherless_rose"
 				type: "item"
 			}]
-			x: 35.0d
-			y: 21.0d
+			x: 39.45d
+			y: 24.5d
 		}
 		{
 			dependencies: ["2DFD356016750828"]
@@ -20322,8 +20272,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -3.0d
+			x: 14.6d
+			y: -3.0999999999999996d
 		}
 		{
 			dependencies: ["0901394AD3A5FDAB"]
@@ -20357,8 +20307,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
-			y: 23.5d
+			x: 27.45d
+			y: 27.0d
 		}
 		{
 			dependencies: ["21E6CA24E283AF68"]
@@ -20386,8 +20336,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.15d
-			y: 25.874999999999996d
+			x: 28.599999999999998d
+			y: 29.375d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -20427,8 +20377,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.5d
-			y: 18.5d
+			x: 30.95d
+			y: 22.0d
 		}
 		{
 			dependencies: ["5AAC92BF084F5CC7"]
@@ -20449,8 +20399,8 @@
 				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
-			x: 35.0d
-			y: 24.5d
+			x: 39.45d
+			y: 28.0d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -20474,8 +20424,8 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
-			y: 10.0d
+			x: 36.95d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -20496,8 +20446,8 @@
 				item: "theurgy:pyromantic_brazier"
 				type: "item"
 			}]
-			x: 29.5d
-			y: 11.5d
+			x: 33.95d
+			y: 15.0d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -20513,8 +20463,8 @@
 				item: "theurgy:liquefaction_cauldron"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 11.5d
+			x: 35.95d
+			y: 15.0d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -20530,8 +20480,8 @@
 				item: "theurgy:distiller"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 13.0d
+			x: 34.45d
+			y: 16.5d
 		}
 		{
 			dependencies: ["18842926F8B1C64D"]
@@ -20547,8 +20497,8 @@
 				item: "theurgy:calcination_oven"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 12.5d
+			x: 35.45d
+			y: 16.0d
 		}
 		{
 			dependencies: ["0BFFCDA557C3AC9C"]
@@ -20589,8 +20539,8 @@
 				type: "item"
 			}]
 			title: "Salt"
-			x: 32.5d
-			y: 13.5d
+			x: 36.95d
+			y: 17.0d
 		}
 		{
 			dependencies: ["082867418C58A3F7"]
@@ -20606,8 +20556,8 @@
 				item: "theurgy:mercury_shard"
 				type: "item"
 			}]
-			x: 32.0d
-			y: 14.5d
+			x: 36.45d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -20631,8 +20581,8 @@
 				item: "theurgy:incubator"
 				type: "item"
 			}]
-			x: 34.5d
-			y: 14.5d
+			x: 38.95d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -20683,8 +20633,8 @@
 				}
 			]
 			title: "Reformation"
-			x: 36.8d
-			y: 14.374999999999998d
+			x: 41.25d
+			y: 17.875d
 		}
 		{
 			dependencies: ["73BE1AB671E9C173"]
@@ -20707,8 +20657,8 @@
 					type: "item"
 				}
 			]
-			x: 34.5d
-			y: 16.0d
+			x: 38.95d
+			y: 19.5d
 		}
 		{
 			dependencies: ["5432F56480D8CCC3"]
@@ -20737,8 +20687,8 @@
 				}
 			]
 			title: "Digestion"
-			x: 35.5d
-			y: 11.5d
+			x: 39.95d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -20773,8 +20723,8 @@
 				}
 				type: "item"
 			}]
-			x: 35.9d
-			y: 18.849999999999998d
+			x: 40.349999999999994d
+			y: 22.349999999999994d
 		}
 		{
 			dependencies: ["57D021A05869800D"]
@@ -20796,8 +20746,8 @@
 				type: "item"
 			}]
 			title: "&4The Devil"
-			x: 39.0d
-			y: 19.5d
+			x: 43.45d
+			y: 23.0d
 		}
 		{
 			dependencies: ["29AB1C13F14D1962"]
@@ -20813,8 +20763,8 @@
 				item: "projecte:low_covalence_dust"
 				type: "item"
 			}]
-			x: 35.4d
-			y: 17.349999999999998d
+			x: 39.849999999999994d
+			y: 20.849999999999994d
 		}
 		{
 			dependencies: ["73BE1AB671E9C173"]
@@ -20830,8 +20780,8 @@
 				item: "projecte:medium_covalence_dust"
 				type: "item"
 			}]
-			x: 34.4d
-			y: 19.849999999999998d
+			x: 38.849999999999994d
+			y: 23.349999999999994d
 		}
 		{
 			dependencies: ["55CA3D58EE9C883B"]
@@ -20847,8 +20797,8 @@
 				item: "projecte:high_covalence_dust"
 				type: "item"
 			}]
-			x: 34.4d
-			y: 18.349999999999998d
+			x: 38.849999999999994d
+			y: 21.849999999999994d
 		}
 		{
 			dependencies: ["4CC297E5C35D87F8"]
@@ -20863,8 +20813,8 @@
 				item: "theurgy:alchemical_sulfur_metals_precious"
 				type: "item"
 			}]
-			x: 36.4d
-			y: 16.849999999999998d
+			x: 40.849999999999994d
+			y: 20.349999999999994d
 		}
 		{
 			dependencies: [
@@ -20902,8 +20852,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Sulfur"
-			x: 33.0d
-			y: 12.5d
+			x: 37.45d
+			y: 16.0d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
@@ -20937,8 +20887,8 @@
 					type: "item"
 				}
 			]
-			x: 41.25d
-			y: 19.9d
+			x: 45.7d
+			y: 23.4d
 		}
 		{
 			dependencies: ["015124A9D4A821AF"]
@@ -20954,8 +20904,8 @@
 				item: "projecte:dark_matter"
 				type: "item"
 			}]
-			x: 44.25d
-			y: 20.9d
+			x: 48.7d
+			y: 24.400000000000006d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
@@ -20970,8 +20920,8 @@
 				item: "projecte:red_matter"
 				type: "item"
 			}]
-			x: 45.75d
-			y: 21.4d
+			x: 50.2d
+			y: 24.900000000000006d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
@@ -21004,8 +20954,8 @@
 				}
 			]
 			title: "Dark Matter Armour"
-			x: 43.25d
-			y: 19.4d
+			x: 47.7d
+			y: 22.9d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
@@ -21066,8 +21016,8 @@
 				}
 			]
 			title: "Dark Matter Tools"
-			x: 44.25d
-			y: 19.4d
+			x: 48.7d
+			y: 22.9d
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
@@ -21100,8 +21050,8 @@
 				}
 			]
 			title: "Red Matter Armour"
-			x: 47.25d
-			y: 21.9d
+			x: 51.7d
+			y: 25.400000000000006d
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
@@ -21150,8 +21100,8 @@
 				}
 			]
 			title: "Red Matter Tools"
-			x: 45.75d
-			y: 19.9d
+			x: 50.2d
+			y: 23.4d
 		}
 		{
 			dependencies: ["5B29FE8F9F7C91F2"]
@@ -21212,8 +21162,8 @@
 				}
 			]
 			title: "Red Matter Weapons"
-			x: 46.75d
-			y: 20.4d
+			x: 51.2d
+			y: 23.900000000000006d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
@@ -21229,8 +21179,8 @@
 				item: "projecte:condenser_mk1"
 				type: "item"
 			}]
-			x: 40.25d
-			y: 21.4d
+			x: 44.7d
+			y: 24.900000000000006d
 		}
 		{
 			dependencies: [
@@ -21257,8 +21207,8 @@
 				}
 			]
 			title: "Power Flower"
-			x: 41.75d
-			y: 21.9d
+			x: 46.2d
+			y: 25.400000000000006d
 		}
 		{
 			dependencies: [
@@ -21285,8 +21235,8 @@
 				}
 			]
 			title: "MK2 Power"
-			x: 43.75d
-			y: 22.9d
+			x: 48.2d
+			y: 26.400000000000006d
 		}
 		{
 			dependencies: [
@@ -21317,8 +21267,8 @@
 				}
 			]
 			title: "MK3 Power"
-			x: 45.25d
-			y: 23.4d
+			x: 49.7d
+			y: 26.900000000000006d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
@@ -21333,8 +21283,8 @@
 				item: "projecte:transmutation_tablet"
 				type: "item"
 			}]
-			x: 43.25d
-			y: 21.4d
+			x: 47.7d
+			y: 24.900000000000006d
 		}
 		{
 			dependencies: ["731126727DDCAC54"]
@@ -21350,8 +21300,8 @@
 				item: "projecte:transmutation_table"
 				type: "item"
 			}]
-			x: 41.25d
-			y: 18.4d
+			x: 45.7d
+			y: 21.9d
 		}
 		{
 			dependencies: ["015124A9D4A821AF"]
@@ -21420,8 +21370,8 @@
 				}
 			]
 			title: "Klein Stars"
-			x: 46.75d
-			y: 23.9d
+			x: 51.2d
+			y: 27.400000000000006d
 		}
 		{
 			dependencies: [
@@ -21458,8 +21408,8 @@
 				}
 			]
 			title: "Gem Armour"
-			x: 48.75d
-			y: 23.4d
+			x: 53.2d
+			y: 26.900000000000006d
 		}
 		{
 			dependencies: [
@@ -21501,8 +21451,8 @@
 				}
 			]
 			title: "The Katar and Morningstar"
-			x: 46.75d
-			y: 19.4d
+			x: 51.2d
+			y: 22.9d
 		}
 		{
 			dependencies: ["5CFB446EC47CB53D"]
@@ -21524,8 +21474,8 @@
 				item: "projecte:dm_pedestal"
 				type: "item"
 			}]
-			x: 44.75d
-			y: 21.9d
+			x: 49.2d
+			y: 25.400000000000006d
 		}
 		{
 			dependencies: [
@@ -21546,8 +21496,8 @@
 				item: "projecte:interdiction_torch"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 20.0d
+			x: 37.45d
+			y: 23.5d
 		}
 		{
 			dependencies: ["33FC7F10A56757CB"]
@@ -21569,8 +21519,8 @@
 				item: "rftoolsbuilder:shape_card_quarry"
 				type: "item"
 			}]
-			x: -39.8d
-			y: 18.575d
+			x: -55.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21592,8 +21542,8 @@
 					type: "item"
 				}
 			]
-			x: -38.8d
-			y: 15.575d
+			x: -54.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["108E54D33D1F4ECB"]
@@ -21603,8 +21553,8 @@
 				item: "rftoolsdim:dimlet_workbench"
 				type: "item"
 			}]
-			x: -39.8d
-			y: 14.575d
+			x: -55.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["4395BDCE434949CB"]
@@ -21627,8 +21577,8 @@
 					type: "item"
 				}
 			]
-			x: -40.8d
-			y: 13.575d
+			x: -56.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21643,8 +21593,8 @@
 				item: "rftoolsbuilder:shield_block1"
 				type: "item"
 			}]
-			x: -39.3d
-			y: 16.575d
+			x: -55.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21654,8 +21604,8 @@
 				item: "rftoolsutility:spawner"
 				type: "item"
 			}]
-			x: -37.3d
-			y: 18.075d
+			x: -53.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21691,8 +21641,8 @@
 					type: "item"
 				}
 			]
-			x: -36.3d
-			y: 17.575d
+			x: -52.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -21721,8 +21671,8 @@
 				type: "item"
 			}]
 			title: "The Paxel"
-			x: -3.5d
-			y: 4.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -21778,7 +21728,7 @@
 				title: "Any Solar Panel Upgrade"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.75d
 			y: -3.0d
 		}
 		{
@@ -21848,8 +21798,8 @@
 				}
 			]
 			title: "Casting"
-			x: -2.55d
-			y: 9.5d
+			x: -3.0500000000000007d
+			y: 11.5d
 		}
 		{
 			dependencies: ["640ED9A58F8DD165"]
@@ -21866,8 +21816,8 @@
 				item: "concatenationcore:experience_orb"
 				type: "item"
 			}]
-			x: -5.6d
-			y: -5.95d
+			x: -7.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["2DFD2B7661869743"]
@@ -21890,8 +21840,8 @@
 					type: "item"
 				}
 			]
-			x: -21.6d
-			y: 16.800000000000004d
+			x: -33.300000000000004d
+			y: 28.92500000000001d
 		}
 		{
 			dependencies: ["7E1C64AA0AA235C2"]
@@ -21916,8 +21866,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 5.5d
+			x: 8.1d
+			y: 7.95d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -21984,8 +21934,8 @@
 				type: "item"
 			}]
 			title: "Sublime Gold Tools"
-			x: 1.7999999999999998d
-			y: 6.3d
+			x: 2.4d
+			y: 8.75d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -22056,8 +22006,8 @@
 				}
 			]
 			title: "Frozen Ice Armor"
-			x: 1.7999999999999998d
-			y: 7.199999999999999d
+			x: 2.4d
+			y: 9.649999999999999d
 		}
 		{
 			dependencies: ["330D9AAC0CD81668"]
@@ -22345,8 +22295,8 @@
 				}
 			]
 			title: "Elemental Spells"
-			x: 8.5d
-			y: 10.5d
+			x: 9.1d
+			y: 12.95d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -22370,8 +22320,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
-			y: -0.5d
+			x: -28.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -22398,8 +22348,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 7.1000000000000005d
+			y: 0.9000000000000004d
 		}
 		{
 			dependencies: ["71BB28D5234F5991"]
@@ -22427,8 +22377,8 @@
 				item: "ars_nouveau:storage_lectern"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 17.0d
+			x: 13.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["5A50AE26BCF79069"]
@@ -22443,8 +22393,8 @@
 				item: "solarflux:sp_8"
 				type: "item"
 			}]
-			x: -31.799999999999997d
-			y: 19.075d
+			x: -47.5d
+			y: 30.5d
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
@@ -22478,8 +22428,8 @@
 				type: "item"
 			}]
 			title: "Botany Pot"
-			x: 11.5d
-			y: -1.0d
+			x: 13.100000000000001d
+			y: -1.0999999999999996d
 		}
 		{
 			dependencies: ["3CA659FFA729615D"]
@@ -22517,8 +22467,8 @@
 				type: "item"
 			}]
 			title: "Magical Nourishment"
-			x: 8.5d
-			y: 15.5d
+			x: 10.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4080496891426ACB"]
@@ -22576,8 +22526,8 @@
 				type: "item"
 			}]
 			title: "Familiars"
-			x: 13.0d
-			y: 23.0d
+			x: 14.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["44240C2BEF40998D"]
@@ -22597,8 +22547,8 @@
 				item: "ars_nouveau:thread_undying"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 22.5d
+			x: 16.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["1E37E99BEE301A2A"]
@@ -22627,8 +22577,8 @@
 				item: "ars_elemental:necrotic_focus"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 24.5d
+			x: 18.0d
+			y: 27.5d
 		}
 		{
 			dependencies: [
@@ -22653,8 +22603,8 @@
 				item: "born_in_chaos_v1:eternal_candy"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -20.0d
+			x: -15.7d
+			y: -22.95d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -22671,8 +22621,8 @@
 				item: "psi:psidust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 25.0d
+			x: 9.5d
+			y: 29.925d
 		}
 		{
 			dependencies: ["4B37E82CEEAACF03"]
@@ -22718,8 +22668,8 @@
 				type: "item"
 			}]
 			title: "Casting Assistant Device"
-			x: 6.0d
-			y: 25.5d
+			x: 7.5d
+			y: 30.425d
 		}
 		{
 			dependencies: ["56209781BEA94B72"]
@@ -22748,8 +22698,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 26.0d
+			x: 8.5d
+			y: 30.925d
 		}
 		{
 			dependencies: ["56209781BEA94B72"]
@@ -22845,8 +22795,8 @@
 				title: "Any Colorizer"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 26.5d
+			x: 9.5d
+			y: 31.425d
 		}
 		{
 			dependencies: [
@@ -22871,8 +22821,8 @@
 				item: "psi:psimetal"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 27.0d
+			x: 7.5d
+			y: 31.925d
 		}
 		{
 			dependencies: ["19A4CACDAF0086ED"]
@@ -22929,8 +22879,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 27.5d
+			x: 6.0d
+			y: 32.425d
 		}
 		{
 			dependencies: ["449B017FEE0378C4"]
@@ -22995,8 +22945,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 26.5d
+			x: 4.5d
+			y: 31.425d
 		}
 		{
 			dependencies: ["449B017FEE0378C4"]
@@ -23061,8 +23011,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 26.0d
+			x: 5.5d
+			y: 30.925d
 		}
 		{
 			dependencies: ["449B017FEE0378C4"]
@@ -23098,8 +23048,8 @@
 				title: "Ebony or Ivory Substance"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 28.5d
+			x: 5.5d
+			y: 33.425d
 		}
 		{
 			dependencies: ["3660FD519AD9E251"]
@@ -23124,8 +23074,8 @@
 				type: "item"
 			}]
 			title: "Ebony CAD"
-			x: 4.5d
-			y: 29.5d
+			x: 6.0d
+			y: 34.425d
 		}
 		{
 			dependencies: ["3660FD519AD9E251"]
@@ -23150,8 +23100,8 @@
 				type: "item"
 			}]
 			title: "Ivory CAD"
-			x: 3.5d
-			y: 29.5d
+			x: 5.0d
+			y: 34.425d
 		}
 		{
 			dependencies: ["7EC83053F1BDF835"]
@@ -23192,8 +23142,8 @@
 				type: "item"
 			}]
 			title: "The Fantastic Foundry"
-			x: -2.5d
-			y: 14.5d
+			x: -3.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -23211,8 +23161,8 @@
 				item: "quarryplus:workbench"
 				type: "item"
 			}]
-			x: -23.625d
-			y: 5.625d
+			x: -35.325d
+			y: 17.75d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -23232,8 +23182,8 @@
 				item: "concatenationcore:pyrite"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 12.600000000000001d
+			y: -2.5999999999999996d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -23257,8 +23207,8 @@
 				item: "industrialforegoing:machine_frame_supreme"
 				type: "item"
 			}]
-			x: -30.0d
-			y: 7.0d
+			x: -41.7d
+			y: 19.125d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -23286,34 +23236,34 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: -6.5d
+			x: 15.6d
+			y: -6.6d
 		}
 		{
-			dependencies: ["589E2464D577E345"]
+			dependencies: ["35C32229A51A1B7D"]
 			hide_dependency_lines: true
 			id: "3502EBD994DE89A2"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "5E97D8BCC9D5F7C9"
 				item: "hpm:largehull"
 				type: "item"
 			}]
-			x: -18.650000000000002d
-			y: -5.8d
+			x: -19.450000000000003d
+			y: 7.3999999999999995d
 		}
 		{
-			dependencies: ["589E2464D577E345"]
+			dependencies: ["35C32229A51A1B7D"]
 			hide_dependency_lines: true
 			id: "2990E1C06FD1E413"
-			size: 0.8d
+			size: 0.9d
 			tasks: [{
 				id: "17A44B4D90AC1A4E"
 				item: "hpm:largemast"
 				type: "item"
 			}]
-			x: -18.650000000000002d
-			y: -4.4d
+			x: -19.450000000000003d
+			y: 8.799999999999997d
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
@@ -23511,8 +23461,8 @@
 				type: "item"
 			}]
 			title: "Summoning Scrolls"
-			x: 13.5d
-			y: 5.0d
+			x: 15.1d
+			y: 4.9d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -23560,8 +23510,8 @@
 				}
 			]
 			title: "Door to Dis"
-			x: -2.75d
-			y: -3.25d
+			x: -3.5d
+			y: -2.625d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -23578,8 +23528,8 @@
 				item: "reliquary:infernal_tear"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 21.5d
+			x: 31.45d
+			y: 25.0d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -23603,8 +23553,8 @@
 				item: "reliquary:emperor_chalice"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 22.5d
+			x: 29.45d
+			y: 26.0d
 		}
 		{
 			dependencies: ["081070F7CBF61207"]
@@ -23634,8 +23584,8 @@
 				item: "reliquary:ice_magus_rod"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 20.0d
+			x: 32.45d
+			y: 23.5d
 		}
 		{
 			dependencies: ["4128B0BDF74E7913"]
@@ -23662,8 +23612,8 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
-			y: 24.0d
+			x: 28.95d
+			y: 27.5d
 		}
 		{
 			dependencies: ["7EB335BB570C5F7F"]
@@ -23709,8 +23659,8 @@
 				type: "item"
 			}]
 			title: "Gemstone Gears"
-			x: -19.0d
-			y: 6.5d
+			x: -30.700000000000003d
+			y: 18.625d
 		}
 		{
 			dependencies: ["7923120C58E4B567"]
@@ -23752,8 +23702,8 @@
 				type: "item"
 			}]
 			title: "Spores"
-			x: -20.0d
-			y: 12.0d
+			x: -31.700000000000003d
+			y: 24.125d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -23769,8 +23719,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 24.5d
+			x: 10.5d
+			y: 29.425d
 		}
 		{
 			dependencies: ["7A4DEEAD97A49B3F"]
@@ -23786,8 +23736,8 @@
 				item: "quarryplus:mover"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 4.5d
+			x: -34.7d
+			y: 16.625d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -23817,8 +23767,8 @@
 					type: "item"
 				}
 			]
-			x: -23.4d
-			y: 9.0d
+			x: -35.1d
+			y: 21.125d
 		}
 		{
 			dependencies: ["4551222320CBAE77"]
@@ -23840,8 +23790,8 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: -5.85d
-			y: -12.149999999999999d
+			x: -8.049999999999999d
+			y: -15.099999999999998d
 		}
 		{
 			dependencies: ["07216B5B04E8B927"]
@@ -23859,8 +23809,8 @@
 				item: "farmersdelight:cooked_rice"
 				type: "item"
 			}]
-			x: -6.3d
-			y: -13.5d
+			x: -8.5d
+			y: -16.45d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -23900,8 +23850,8 @@
 				title: "Tomato"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -13.5d
+			x: -10.7d
+			y: -16.45d
 		}
 		{
 			dependencies: ["2CF98745A049E7E3"]
@@ -23922,8 +23872,8 @@
 				item: "farmersdelight:barbecue_stick"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -14.5d
+			x: -10.2d
+			y: -17.45d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -23942,8 +23892,8 @@
 				type: "stat"
 				value: 250
 			}]
-			x: -8.5d
-			y: -17.5d
+			x: -10.7d
+			y: -20.45d
 		}
 		{
 			dependencies: ["2CF98745A049E7E3"]
@@ -23961,8 +23911,8 @@
 				type: "stat"
 				value: 7
 			}]
-			x: -9.0d
-			y: -14.5d
+			x: -11.2d
+			y: -17.45d
 		}
 		{
 			dependencies: ["7D347AB89C552DDA"]
@@ -23993,8 +23943,8 @@
 				type: "item"
 			}]
 			title: "Centralized Kitchen"
-			x: -11.0d
-			y: -12.5d
+			x: -13.2d
+			y: -15.45d
 		}
 		{
 			dependencies: ["6B9C854C208F6A93"]
@@ -24017,8 +23967,8 @@
 				type: "item"
 			}]
 			title: "Sushi"
-			x: -6.5d
-			y: -15.5d
+			x: -8.7d
+			y: -18.45d
 		}
 		{
 			dependencies: ["4E912C726E35BFB0"]
@@ -24040,8 +23990,8 @@
 				type: "item"
 			}]
 			title: "Pumpkin Pie"
-			x: -10.0d
-			y: -15.5d
+			x: -12.2d
+			y: -18.45d
 		}
 		{
 			dependencies: ["7D347AB89C552DDA"]
@@ -24061,8 +24011,8 @@
 				item: "born_in_chaos_v1:holiday_candy"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -13.5d
+			x: -12.7d
+			y: -16.45d
 		}
 		{
 			dependencies: ["2345602C410E1787"]
@@ -24091,8 +24041,8 @@
 				}
 			]
 			title: "Speedy Pastries"
-			x: -11.5d
-			y: -14.5d
+			x: -13.7d
+			y: -17.45d
 		}
 		{
 			dependencies: ["1203CDC5DF26F779"]
@@ -24122,8 +24072,8 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: -12.5d
+			x: -11.7d
+			y: -15.45d
 		}
 		{
 			dependencies: ["4E912C726E35BFB0"]
@@ -24140,8 +24090,8 @@
 				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -16.0d
+			x: -11.2d
+			y: -18.95d
 		}
 		{
 			dependencies: ["6B9C854C208F6A93"]
@@ -24159,8 +24109,8 @@
 				title: "Fungus Colony"
 				type: "advancement"
 			}]
-			x: -7.5d
-			y: -16.0d
+			x: -9.7d
+			y: -18.95d
 		}
 		{
 			dependencies: ["1A0B3BD634038F87"]
@@ -24181,8 +24131,8 @@
 				item: "farmersdelight:noodle_soup"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -16.5d
+			x: -8.2d
+			y: -19.45d
 		}
 		{
 			dependencies: ["2345602C410E1787"]
@@ -24199,8 +24149,8 @@
 				item: "born_in_chaos_v1:river_mint"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -13.5d
+			x: -14.2d
+			y: -16.45d
 		}
 		{
 			dependencies: ["5FDF2E31341789BD"]
@@ -24234,8 +24184,8 @@
 				type: "item"
 			}]
 			title: "Mint Flavored Treats"
-			x: -13.0d
-			y: -14.0d
+			x: -15.2d
+			y: -16.95d
 		}
 		{
 			dependencies: ["558BEACDBAF84964"]
@@ -24252,8 +24202,8 @@
 				item: "born_in_chaos_v1:chocolate_heart"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -15.5d
+			x: -14.2d
+			y: -18.45d
 		}
 		{
 			dependencies: ["5B6678771CE97E00"]
@@ -24270,8 +24220,8 @@
 				item: "farmersdelight:shepherds_pie_block"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -17.5d
+			x: -7.699999999999999d
+			y: -20.45d
 		}
 		{
 			dependencies: ["7C08CDE9CCF30255"]
@@ -24292,8 +24242,8 @@
 				item: "farmersdelight:chocolate_pie"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -16.5d
+			x: -12.7d
+			y: -19.45d
 		}
 		{
 			dependencies: ["5FDF2E31341789BD"]
@@ -24330,8 +24280,8 @@
 				}
 			]
 			title: "Caramel and Apple"
-			x: -13.0d
-			y: -13.0d
+			x: -15.2d
+			y: -15.95d
 		}
 		{
 			dependencies: ["5B6678771CE97E00"]
@@ -24368,8 +24318,8 @@
 				title: "Pizza"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -17.5d
+			x: -8.7d
+			y: -20.45d
 		}
 		{
 			dependencies: ["0D61335A0B07300D"]
@@ -24408,8 +24358,8 @@
 				title: "Enter the Deep Void"
 				type: "dimension"
 			}]
-			x: 34.0d
-			y: 9.0d
+			x: 37.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24439,8 +24389,8 @@
 				}
 			]
 			title: "Onyx \\& Lavendite"
-			x: 37.5d
-			y: -2.5d
+			x: 40.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
@@ -24477,8 +24427,8 @@
 				type: "item"
 			}]
 			title: "Exit the Deep Void"
-			x: 39.0d
-			y: -4.0d
+			x: 42.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24503,8 +24453,8 @@
 				title: "The Drifting Monoliths"
 				type: "biome"
 			}]
-			x: 40.0d
-			y: -3.0d
+			x: 43.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24526,8 +24476,8 @@
 				title: "The Windswept Hollow"
 				type: "biome"
 			}]
-			x: 32.5d
-			y: 6.0d
+			x: 35.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24550,8 +24500,8 @@
 				item: "the_deep_void:black_moss"
 				type: "item"
 			}]
-			x: 40.0d
-			y: 10.5d
+			x: 43.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24573,8 +24523,8 @@
 				item: "the_deep_void:disturbing_root"
 				type: "item"
 			}]
-			x: 32.0d
-			y: -2.0d
+			x: 35.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5645C4B5F7C63262"]
@@ -24591,8 +24541,8 @@
 				item: "the_deep_void:refined_cinnabar"
 				type: "item"
 			}]
-			x: 38.5d
-			y: -2.0d
+			x: 41.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
@@ -24627,8 +24577,8 @@
 				}
 			]
 			title: "Grim Gem \\& Desolate Soil"
-			x: 34.5d
-			y: 5.5d
+			x: 37.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -24648,8 +24598,8 @@
 				item: "the_deep_void:rooter"
 				type: "item"
 			}]
-			x: 33.5d
-			y: -3.0d
+			x: 36.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24667,8 +24617,8 @@
 				type: "item"
 			}]
 			title: "Liquid Void"
-			x: 34.0d
-			y: -4.5d
+			x: 37.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -24692,8 +24642,8 @@
 				item: "the_deep_void:refined_onyx"
 				type: "item"
 			}]
-			x: 37.0d
-			y: 0.0d
+			x: 40.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6B96137C28502D97"]
@@ -24730,8 +24680,8 @@
 				}
 			]
 			title: "The Nightmare"
-			x: 34.0d
-			y: -6.0d
+			x: 37.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -24761,8 +24711,8 @@
 				item: "the_deep_void:ancient_onyx"
 				type: "item"
 			}]
-			x: 35.2d
-			y: -2.75d
+			x: 38.2d
+			y: -4.75d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24784,8 +24734,8 @@
 				title: "The Crawler Nest"
 				type: "biome"
 			}]
-			x: 38.0d
-			y: 8.5d
+			x: 41.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
@@ -24820,8 +24770,8 @@
 				type: "item"
 			}]
 			title: "The Primordial Bone Crawler"
-			x: 38.0d
-			y: 7.0d
+			x: 41.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1472186B0F51F01B"]
@@ -24843,8 +24793,8 @@
 				item: "the_deep_void:call_upon_the_hive"
 				type: "item"
 			}]
-			x: 39.0d
-			y: 6.5d
+			x: 42.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -24879,8 +24829,8 @@
 				}
 			]
 			title: "The Flesh Infection"
-			x: 33.5d
-			y: 3.0d
+			x: 36.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
@@ -24912,8 +24862,8 @@
 				type: "item"
 			}]
 			title: "The Misanthropic Hivemind"
-			x: 31.5d
-			y: 2.0d
+			x: 34.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["152DC73801813764"]
@@ -24930,8 +24880,8 @@
 				item: "the_deep_void:heart_of_the_mind"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 1.0d
+			x: 34.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -24957,8 +24907,8 @@
 				item: "the_deep_void:void_mirror"
 				type: "item"
 			}]
-			x: 36.5d
-			y: -7.5d
+			x: 39.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -24997,8 +24947,8 @@
 				item: "concatenationcore:the_error"
 				type: "item"
 			}]
-			x: 41.5d
-			y: 5.0d
+			x: 44.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -25033,8 +24983,8 @@
 				}
 				type: "item"
 			}]
-			x: 42.5d
-			y: 4.5d
+			x: 45.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
@@ -25067,8 +25017,8 @@
 				type: "item"
 			}]
 			title: "The Apostle of Catastrophe"
-			x: 42.0d
-			y: 3.0d
+			x: 45.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
@@ -25102,8 +25052,8 @@
 				type: "item"
 			}]
 			title: "The Weaver of Souls"
-			x: 42.5d
-			y: 2.0d
+			x: 45.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -25123,8 +25073,8 @@
 				item: "the_deep_void:voidrium_gem"
 				type: "item"
 			}]
-			x: 44.5d
-			y: 3.5d
+			x: 47.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["30BA63BCE8DAD0DE"]
@@ -25149,8 +25099,8 @@
 				item: "the_deep_void:soul_fused_ingot"
 				type: "item"
 			}]
-			x: 43.0d
-			y: 0.0d
+			x: 46.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -25173,8 +25123,8 @@
 				item: "the_deep_void:voodoo_doll"
 				type: "item"
 			}]
-			x: 43.0d
-			y: -2.0d
+			x: 46.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -25200,8 +25150,8 @@
 				type: "item"
 			}]
 			title: "The Stalker"
-			x: 41.5d
-			y: 11.5d
+			x: 44.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -25232,8 +25182,8 @@
 				}
 				type: "item"
 			}]
-			x: 43.0d
-			y: 10.5d
+			x: 46.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["65CB9CD3F0B5D8F1"]
@@ -25274,8 +25224,8 @@
 				type: "item"
 			}]
 			title: "Dealing with The Stalker"
-			x: 45.0d
-			y: 9.0d
+			x: 48.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
@@ -25299,8 +25249,8 @@
 				item: "the_deep_void:ferryman_lantern"
 				type: "item"
 			}]
-			x: 38.0d
-			y: -4.0d
+			x: 41.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
@@ -25321,8 +25271,8 @@
 				item: "the_deep_void:licker_hook"
 				type: "item"
 			}]
-			x: 35.0d
-			y: 2.5d
+			x: 38.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -25348,8 +25298,8 @@
 				item: "the_deep_void:grim_licker_hook"
 				type: "item"
 			}]
-			x: 37.5d
-			y: 4.5d
+			x: 40.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -25368,8 +25318,8 @@
 				item: "the_deep_void:vengeful_licker_hook"
 				type: "item"
 			}]
-			x: 41.0d
-			y: 1.0d
+			x: 44.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -25397,8 +25347,8 @@
 				}
 				type: "item"
 			}]
-			x: 39.0d
-			y: 0.5d
+			x: 42.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -25415,8 +25365,8 @@
 				type: "item"
 			}]
 			title: "Lavendite Upgrade"
-			x: 36.0d
-			y: 1.5d
+			x: 39.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["13E34EDD951B61F9"]
@@ -25447,8 +25397,8 @@
 				}
 			]
 			title: "Taming a Death Vulture"
-			x: 37.0d
-			y: -4.0d
+			x: 40.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
@@ -25535,8 +25485,8 @@
 				}
 			]
 			title: "Hatching a Bone Crawler"
-			x: 38.0d
-			y: 9.5d
+			x: 41.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -25595,8 +25545,8 @@
 				}
 			]
 			title: "Onyx Armor"
-			x: 37.0d
-			y: 2.0d
+			x: 40.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -25613,8 +25563,8 @@
 				type: "item"
 			}]
 			title: "Rot Upgrade"
-			x: 35.5d
-			y: -0.5d
+			x: 38.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -25672,8 +25622,8 @@
 				}
 			]
 			title: "Hunter's Armor"
-			x: 38.5d
-			y: 1.5d
+			x: 41.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2F507B7274D8E006"]
@@ -25751,8 +25701,8 @@
 				}
 			]
 			title: "Void Matter Gear"
-			x: 33.0d
-			y: -6.5d
+			x: 36.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -25828,8 +25778,8 @@
 				}
 			]
 			title: "Crawler Royalty Armor"
-			x: 37.0d
-			y: 7.5d
+			x: 40.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["037DC2CEAEB2F5CB"]
@@ -25850,8 +25800,8 @@
 				item: "the_deep_void:refined_bismuth"
 				type: "item"
 			}]
-			x: 46.5d
-			y: 3.5d
+			x: 49.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -25874,8 +25824,8 @@
 				item: "the_deep_void:hard_flesh_ingot"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 1.0d
+			x: 37.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["04FB6C65AF290FFC"]
@@ -25947,8 +25897,8 @@
 				}
 			]
 			title: "Hard Flesh Weapons"
-			x: 33.5d
-			y: 0.0d
+			x: 36.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["152DC73801813764"]
@@ -25967,8 +25917,8 @@
 				item: "the_deep_void:eyekin_saddle"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 3.5d
+			x: 34.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -26034,8 +25984,8 @@
 				}
 			]
 			title: "Voidrium Armor"
-			x: 45.5d
-			y: 3.0d
+			x: 48.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -26106,8 +26056,8 @@
 				}
 			]
 			title: "Garments of the Weaver of Souls"
-			x: 44.5d
-			y: 2.0d
+			x: 47.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -26176,8 +26126,8 @@
 				}
 			]
 			title: "Voidrium Weaponry"
-			x: 44.5d
-			y: 5.5d
+			x: 47.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -26216,8 +26166,8 @@
 				}
 				type: "item"
 			}]
-			x: 41.5d
-			y: -0.5d
+			x: 44.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -26243,8 +26193,8 @@
 				}
 				type: "item"
 			}]
-			x: 44.5d
-			y: -0.5d
+			x: 47.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -26305,8 +26255,8 @@
 				}
 			]
 			title: "Soul-Fused Voidrium Armor"
-			x: 45.5d
-			y: 0.5d
+			x: 48.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -26331,8 +26281,8 @@
 				}
 				type: "item"
 			}]
-			x: 44.0d
-			y: 1.0d
+			x: 47.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -26352,8 +26302,8 @@
 				item: "the_deep_void:soul_wings_chestplate"
 				type: "item"
 			}]
-			x: 42.0d
-			y: -1.5d
+			x: 45.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6516D88B029F38F1"]
@@ -26377,8 +26327,8 @@
 				item: "the_deep_void:voidrium_glass"
 				type: "item"
 			}]
-			x: 44.0d
-			y: -1.5d
+			x: 47.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -26439,8 +26389,8 @@
 				}
 			]
 			title: "Voidrium Tools"
-			x: 45.5d
-			y: 4.0d
+			x: 48.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1DD98931BFA84784"]
@@ -26457,8 +26407,8 @@
 				type: "item"
 			}]
 			title: "Grim Upgrade"
-			x: 35.5d
-			y: 8.0d
+			x: 38.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["152DC73801813764"]
@@ -26485,8 +26435,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.0d
-			y: 2.5d
+			x: 33.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7BB92B0F64862D0C"]
@@ -26508,8 +26458,8 @@
 				item: "the_deep_void:void_core"
 				type: "item"
 			}]
-			x: 36.5d
-			y: -5.0d
+			x: 39.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4E2F07927BA41118"]
@@ -26544,8 +26494,8 @@
 				item: "the_deep_void:endless_quiver"
 				type: "item"
 			}]
-			x: 45.5d
-			y: 5.5d
+			x: 48.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
@@ -26564,8 +26514,8 @@
 				item: "the_deep_void:heresy"
 				type: "item"
 			}]
-			x: 41.0d
-			y: 2.5d
+			x: 44.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19E4A89845D3BF5D"]
@@ -26591,8 +26541,8 @@
 				}
 				type: "item"
 			}]
-			x: 41.0d
-			y: 3.5d
+			x: 44.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1472186B0F51F01B"]
@@ -26624,8 +26574,8 @@
 				}
 				type: "item"
 			}]
-			x: 37.5d
-			y: 6.0d
+			x: 40.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6B96137C28502D97"]
@@ -26649,8 +26599,8 @@
 				item: "the_deep_void:attractor"
 				type: "item"
 			}]
-			x: 34.0d
-			y: -7.5d
+			x: 37.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -26675,8 +26625,8 @@
 				}
 				type: "item"
 			}]
-			x: 35.0d
-			y: -5.5d
+			x: 38.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1D1398D93B1EED36"]
@@ -26700,8 +26650,8 @@
 				item: "the_deep_void:grimberry_pie"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 6.0d
+			x: 34.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -26724,8 +26674,8 @@
 				item: "the_deep_void:void_effigy"
 				type: "item"
 			}]
-			x: 43.5d
-			y: 2.5d
+			x: 46.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["10348477C6AD7322"]
@@ -26763,8 +26713,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.5d
-			y: -3.5d
+			x: 34.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["76D7A6B494BCAABC"]
@@ -26811,8 +26761,8 @@
 				}
 			]
 			title: "Specialty Shields"
-			x: 39.0d
-			y: -0.5d
+			x: 42.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5645C4B5F7C63262"]
@@ -26845,8 +26795,8 @@
 				title: "Creating an Overseer"
 				type: "advancement"
 			}]
-			x: 40.0d
-			y: -1.5d
+			x: 43.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["04FB6C65AF290FFC"]
@@ -26904,8 +26854,8 @@
 				}
 			]
 			title: "Hard Flesh Armor"
-			x: 34.5d
-			y: 0.0d
+			x: 37.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7CFABDA77781489E"]
@@ -26934,8 +26884,8 @@
 				item: "the_deep_void:crawler_omelette"
 				type: "item"
 			}]
-			x: 39.0d
-			y: 9.5d
+			x: 42.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2DFD356016750828"]
@@ -27099,8 +27049,8 @@
 				type: "item"
 			}]
 			title: "Divination Rods"
-			x: 13.0d
-			y: -2.0d
+			x: 14.6d
+			y: -2.0999999999999996d
 		}
 		{
 			dependencies: [
@@ -27132,8 +27082,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.1d
+			x: 9.6d
+			y: 7.55d
 		}
 		{
 			dependencies: ["3D75596C95BC3EAB"]
@@ -27178,8 +27128,8 @@
 					type: "item"
 				}
 			]
-			x: 9.6d
-			y: 6.3d
+			x: 10.2d
+			y: 8.75d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -27241,8 +27191,8 @@
 					type: "dimension"
 				}
 			]
-			x: 13.5d
-			y: 1.5d
+			x: 15.1d
+			y: 1.4000000000000004d
 		}
 		{
 			dependencies: ["0A48C85C5B513BA6"]
@@ -27279,8 +27229,8 @@
 					type: "item"
 				}
 			]
-			x: 33.5d
-			y: 2.0d
+			x: 36.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5432F56480D8CCC3"]
@@ -27300,8 +27250,8 @@
 				item: "theurgy:fermentation_vat"
 				type: "item"
 			}]
-			x: 36.5d
-			y: 12.5d
+			x: 40.95d
+			y: 16.0d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -27333,8 +27283,8 @@
 					type: "item"
 				}
 			]
-			x: 6.375d
-			y: 6.375d
+			x: 6.975d
+			y: 8.825d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
@@ -27350,8 +27300,8 @@
 				item: "the_deep_void:hexed_doll"
 				type: "item"
 			}]
-			x: 41.0d
-			y: 6.5d
+			x: 44.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4E62B2BDC912CCA1"]
@@ -27374,8 +27324,8 @@
 				item: "the_deep_void:lurker_shrine"
 				type: "item"
 			}]
-			x: 42.5d
-			y: 13.0d
+			x: 45.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["55895AB2924ABAFC"]
@@ -27399,8 +27349,8 @@
 				item: "the_deep_void:glutton_block"
 				type: "item"
 			}]
-			x: 43.0d
-			y: 6.0d
+			x: 46.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27418,8 +27368,8 @@
 				item: "strangematter:anomaly_resonator"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -9.0d
+			x: 3.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["1982249FC850C8A8"]
@@ -27437,8 +27387,8 @@
 				type: "advancement"
 			}]
 			title: "Research"
-			x: -2.0d
-			y: -9.5d
+			x: -1.5d
+			y: -24.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27465,8 +27415,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -9.0d
+			x: -0.5d
+			y: -24.0d
 		}
 		{
 			description: ["&2Anomalous Shards, much like resonite ore, can be found crystalizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with annomalous technology.&r"]
@@ -27522,8 +27472,8 @@
 				type: "item"
 			}]
 			title: "Anomalous Shards"
-			x: 0.5d
-			y: -6.5d
+			x: 1.175d
+			y: -22.0d
 		}
 		{
 			dependencies: [
@@ -27557,8 +27507,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&bPrudence Pathway&r"
-			x: 0.575d
-			y: -8.049999999999999d
+			x: 1.175d
+			y: -23.549999999999997d
 		}
 		{
 			description: ["&2Resonite is an anomalous material, with various strange properties that should not belong to a metal such as this, if it can be classified as such. There are various means to produce raw resonite or its substitutes, which then has to be charged to exhibit most of its exotic nature.&r"]
@@ -27578,8 +27528,8 @@
 				type: "item"
 			}]
 			title: "Resonite"
-			x: 1.5d
-			y: -7.0d
+			x: 2.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27600,8 +27550,8 @@
 				item: "strangematter:resonant_circuit"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -10.5d
+			x: 2.0d
+			y: -25.0d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27618,8 +27568,8 @@
 				item: "strangematter:stabilized_core"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.5d
+			x: 0.5d
+			y: -25.0d
 		}
 		{
 			dependencies: ["1982249FC850C8A8"]
@@ -27645,8 +27595,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.5d
+			x: -1.5d
+			y: -23.5d
 		}
 		{
 			dependencies: [
@@ -27665,8 +27615,8 @@
 				item: "strangematter:research_machine"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -11.5d
+			x: 1.175d
+			y: -26.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27691,8 +27641,8 @@
 				}
 			]
 			title: "Eccentricities"
-			x: 2.0d
-			y: -12.5d
+			x: 3.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27717,8 +27667,8 @@
 				item: "strangematter:rift_stabilizer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -13.5d
+			x: -0.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["749ECE54FE00D79F"]
@@ -27739,8 +27689,8 @@
 				item: "strangematter:reality_forge"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -13.0d
+			x: 1.175d
+			y: -28.0d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27757,8 +27707,8 @@
 				item: "strangematter:resonance_condenser"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -12.5d
+			x: -0.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["44B66416F9E8103D"]
@@ -27774,8 +27724,8 @@
 				item: "strangematter:resonant_conduit"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -12.5d
+			x: -1.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27843,8 +27793,8 @@
 				}
 			]
 			title: "Containment of Anomalies"
-			x: 0.5d
-			y: -15.0d
+			x: 1.175d
+			y: -29.5d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27866,8 +27816,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -16.5d
+			x: 2.0d
+			y: -31.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27883,8 +27833,8 @@
 				item: "strangematter:graviton_hammer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -15.5d
+			x: 0.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27900,8 +27850,8 @@
 				item: "strangematter:hoverboard"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -16.5d
+			x: 0.5d
+			y: -31.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27917,8 +27867,8 @@
 				item: "strangematter:echoform_imprinter"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -15.5d
+			x: 2.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["314ACC07FE5193DC"]
@@ -27946,8 +27896,8 @@
 				item: "spelled:leveling_altar"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.5d
+			x: 4.1d
+			y: 9.95d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -27987,8 +27937,8 @@
 				}
 			]
 			title: "Knowledge of Words"
-			x: 4.5d
-			y: 7.0d
+			x: 5.1d
+			y: 9.45d
 		}
 		{
 			dependencies: ["4FA1B8DD76B592DD"]
@@ -28004,8 +27954,8 @@
 				item: "spelled:spell_book"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 6.6d
+			y: 13.45d
 		}
 		{
 			description: ["&2Resonite can be charged using either a charging station"]
@@ -28020,8 +27970,8 @@
 				item: "strangematter:resonite_ingot"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.0d
+			x: 0.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -28069,8 +28019,8 @@
 				type: "item"
 			}]
 			title: "Light Elemental Weapons"
-			x: 1.7999999999999998d
-			y: 8.1d
+			x: 2.4d
+			y: 10.55d
 		}
 		{
 			dependencies: ["51E48EAB50B0971E"]
@@ -28118,8 +28068,8 @@
 				type: "item"
 			}]
 			title: "Heavy Elemental Weapons"
-			x: 3.5d
-			y: 13.5d
+			x: 4.1d
+			y: 15.95d
 		}
 		{
 			dependencies: ["5DF3CE9894B8409C"]
@@ -28294,8 +28244,8 @@
 				}
 			]
 			title: "Runecrafting"
-			x: 4.0d
-			y: 10.0d
+			x: 4.6d
+			y: 12.45d
 		}
 		{
 			dependencies: ["193DD74E480D6269"]
@@ -28325,8 +28275,8 @@
 				type: "item"
 			}]
 			title: "Ore Purified"
-			x: 0.5d
-			y: 11.5d
+			x: 1.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -28368,8 +28318,8 @@
 				}
 			]
 			title: "Elemental Logistics"
-			x: 6.5d
-			y: 9.0d
+			x: 7.1d
+			y: 11.45d
 		}
 		{
 			dependencies: ["539A664D885AAA1C"]
@@ -28415,8 +28365,8 @@
 				type: "item"
 			}]
 			title: "Grinding and Sawing"
-			x: 9.0d
-			y: 7.5d
+			x: 9.6d
+			y: 9.95d
 		}
 		{
 			dependencies: ["6635F7B2CD984F4F"]
@@ -28438,8 +28388,8 @@
 				item: "concatenationcore:acclimated_shard"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 12.5d
+			x: 4.1d
+			y: 14.95d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -28474,8 +28424,8 @@
 				}
 			]
 			title: "Stone Alloy Smelter"
-			x: -1.5d
-			y: 6.5d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -28511,8 +28461,8 @@
 				}
 			]
 			title: "Brick Alloy Smelter"
-			x: -3.5d
-			y: 7.5d
+			x: -4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7EC83053F1BDF835"]
@@ -28547,8 +28497,8 @@
 				}
 			]
 			title: "Scorchia Alloy Smelter"
-			x: -2.0d
-			y: 13.5d
+			x: -2.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -28614,8 +28564,8 @@
 				type: "item"
 			}]
 			title: "Certus Quartz Tools"
-			x: -9.625d
-			y: -6.0d
+			x: -16.875d
+			y: -3.75d
 		}
 		{
 			dependencies: ["395E588AC17BB8BA"]
@@ -28677,8 +28627,8 @@
 				type: "item"
 			}]
 			title: "Fluix Tools"
-			x: -10.375d
-			y: -6.75d
+			x: -16.5d
+			y: -4.875d
 		}
 		{
 			dependencies: ["5153F78E7C90421F"]
@@ -28699,22 +28649,8 @@
 				item: "concatenationcore:ferrotin_bronze_ingot"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["53F8923B85A8A9CC"]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "768D38C149E01806"
-			invisible: true
-			tasks: [{
-				id: "6EFE56EE1C42E6DD"
-				title: "Center Quest"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: 0.0d
+			x: -5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
@@ -28736,8 +28672,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -10.0d
+			x: 14.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["4FC869D65BF74936"]
@@ -28759,8 +28695,8 @@
 				item: "concatenationcore:stalker_ward"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -10.5d
+			x: 16.0d
+			y: -15.0d
 		}
 		{
 			dependencies: [
@@ -28778,8 +28714,8 @@
 				item: "born_in_chaos_v1:dark_atrium"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -13.0d
+			x: 9.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["452B4AEA8F109054"]
@@ -28795,8 +28731,8 @@
 				item: "born_in_chaos_v1:lifestealer_bone"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -12.5d
+			x: 10.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["452B4AEA8F109054"]
@@ -28811,8 +28747,8 @@
 				item: "born_in_chaos_v1:bone_heart"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -12.0d
+			x: 9.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -28827,8 +28763,8 @@
 				item: "born_in_chaos_v1:fused_bone"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -11.5d
+			x: 10.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -28856,8 +28792,8 @@
 				item: "born_in_chaos_v1:transforming_easter_cake"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -17.0d
+			x: 12.0d
+			y: -21.5d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
@@ -28879,8 +28815,8 @@
 				item: "born_in_chaos_v1:death_totem"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -11.0d
+			x: 14.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -28896,8 +28832,8 @@
 				item: "born_in_chaos_v1:ethereal_spirit"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -10.5d
+			x: 13.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
@@ -28958,8 +28894,8 @@
 				type: "item"
 			}]
 			title: "Charms"
-			x: 9.5d
-			y: -12.0d
+			x: 13.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -28998,8 +28934,8 @@
 				type: "item"
 			}]
 			title: "Legendary Weapons"
-			x: 8.0d
-			y: -12.0d
+			x: 12.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
@@ -29054,8 +28990,8 @@
 				type: "item"
 			}]
 			title: "Necromancy"
-			x: 11.5d
-			y: -12.0d
+			x: 15.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29087,8 +29023,8 @@
 				value: 1L
 			}]
 			title: "The Lifestealer"
-			x: 10.5d
-			y: -17.5d
+			x: 14.5d
+			y: -22.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29120,8 +29056,8 @@
 				value: 1L
 			}]
 			title: "The Missionary"
-			x: 9.5d
-			y: -18.5d
+			x: 13.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29141,8 +29077,8 @@
 				value: 1L
 			}]
 			title: "Krampus"
-			x: 12.0d
-			y: -19.0d
+			x: 16.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29168,8 +29104,8 @@
 				value: 1L
 			}]
 			title: "Lord Pumpkinhead"
-			x: 11.0d
-			y: -19.5d
+			x: 15.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
@@ -29209,8 +29145,8 @@
 				type: "advancement"
 			}]
 			title: "Exorcism"
-			x: 12.0d
-			y: -17.5d
+			x: 16.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -29238,8 +29174,8 @@
 				item: "prettypipes:pipe"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.5d
+			x: -21.55d
+			y: 13.25d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -29255,8 +29191,8 @@
 				item: "ppfluids:fluid_pipe"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.0d
+			x: -20.05d
+			y: 14.75d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
@@ -29277,8 +29213,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -2.5d
+			x: -22.799999999999997d
+			y: -3.5d
 		}
 		{
 			dependencies: ["411A1361299385DF"]
@@ -29293,8 +29229,8 @@
 				item: "kismet:synthetic_organ"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -14.0d
+			x: 4.0d
+			y: -29.0d
 		}
 		{
 			dependencies: ["2246B58523E7EF42"]
@@ -29309,8 +29245,8 @@
 				item: "kismet:organ_regrower"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -15.0d
+			x: 4.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -29328,8 +29264,8 @@
 				type: "structure"
 			}]
 			title: "Find a Kismet's Nest"
-			x: 2.0d
-			y: -13.5d
+			x: 3.0d
+			y: -28.5d
 		}
 		{
 			dependencies: ["411A1361299385DF"]
@@ -29344,8 +29280,8 @@
 				item: "kismet:kismet_battery"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -13.0d
+			x: 4.0d
+			y: -28.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -29365,8 +29301,8 @@
 				item: "common_ore_library:platinum_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 13.0d
+			x: -3.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5C37D62CC88F677F"]
@@ -29376,8 +29312,8 @@
 				item: "createmetallurgy:obdurium_ingot"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 19.0d
+			x: -10.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["334048AFEC728E43"]
@@ -29415,8 +29351,8 @@
 				type: "item"
 			}]
 			title: "Extraction Module"
-			x: -11.0d
-			y: 7.0d
+			x: -22.05d
+			y: 14.75d
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
@@ -29498,8 +29434,8 @@
 				type: "item"
 			}]
 			title: "Meteorite Tools"
-			x: -4.5d
-			y: -4.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5746BB5C34ED74C7"]
@@ -29510,8 +29446,8 @@
 				item: "concatenationcore:boiler"
 				type: "item"
 			}]
-			x: -8.075d
-			y: -0.425d
+			x: -8.5d
+			y: 0.9249999999999998d
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
@@ -29528,8 +29464,8 @@
 				item: "createmetallurgy:graphite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -29647,8 +29583,8 @@
 				type: "item"
 			}]
 			title: "Gears"
-			x: -8.1d
-			y: 0.44999999999999996d
+			x: -8.5d
+			y: -0.425d
 		}
 		{
 			dependencies: ["73F4AAF2267BB33B"]
@@ -29687,8 +29623,2189 @@
 				type: "item"
 			}]
 			title: "Firing Material"
-			x: -6.0d
-			y: 1.5d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Know that I did not set out on this journey in search of glory, nor to clash blades with some legendary foe. There are no grand achievements here. I left home in the eternal darkness, with only a lantern, the Fool card, and my trusty CZ 75 in hand. I hope you will not encounter these same circumstances. "
+				""
+				"{@pagebreak}"
+				"I write this book as I come across strange lands, experiencing different magical and technological systems. You will find observations, notes, and tasks within these pages. Quests, if you like. Some are mine, some were given to me by strangers and travellers. These may give you clues on the inner workings of this world."
+				""
+				"{@pagebreak}"
+				"The Fool is the first of the tarot, but it bears the number zero. It is the mark of the beginning with infinite possibility. It chose me. Perhaps you will choose your own."
+				""
+				"May your road ahead rise to forge your own pathway"
+				""
+				"&e- Eleonore, The Fool"
+			]
+			icon: "ftbquests:book"
+			id: "2CEDBC536409D424"
+			rewards: [{
+				id: "04C171E3E1AC8CEA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_technica:spy_monocle"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Foolish Hair Ornament\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "To whoever finds this"
+			tasks: [{
+				id: "02DFC16AE3D5AAD6"
+				title: "Preface"
+				type: "checkmark"
+			}]
+			title: "&ePreface"
+			x: 0.75d
+			y: 0.35d
+		}
+		{
+			description: [
+				"&aConcatenation is a modpack with diverging pathways. The quests are representative of the changed progression of effectively every mod in this pack. You may want to examine the quest tree more closely, restart and choose another pathway if you believe you might be in the wrong one. "
+				""
+				"&aMost of the quests are on other pages.&r"
+				"{@pagebreak}"
+				"&aA starting pathway only determines the start of progression as it is intended to add together different pathways (mods), hence the name of the modpack. "
+				""
+				"&aMany journal entries use terminology proper to this pack. Card holders are those who choose a certain pathway. When an Hermit crafts the Tower card, they will be both a Hermit card holder and Tower card holder. The name of a pathway generally refers to a mod such as Tower being Create and its addons while Hermit is Tinkers' Construct."
+				""
+				"{@pagebreak}"
+				"&aIf you would like a deeper explanation on the preface, look into Concatenation Gehenna (when it releases), the sister pack where the player embarks on the exact same journey as Eleonore writing the quests. Her journey differs in that the Fool Pathway has all of the possible starts at once, given that they find what they need through exploration. "
+				""
+				"&e- Mitemi and Tikup, Modpack Authors&r"
+			]
+			icon: "concatenationcore:experienced_paper"
+			id: "1EFB1193B63BA522"
+			size: 0.7d
+			subtitle: "The Journey"
+			tasks: [{
+				id: "39D037CFA531CEB1"
+				title: "Mod Author's Note"
+				type: "checkmark"
+			}]
+			title: "&eMod Author's Note"
+			x: 0.35d
+			y: 1.05d
+		}
+		{
+			description: ["{image:concatenationcore:textures/pathway.png width:170 height:120 align:center}"]
+			icon: "concatenationcore:gold_paper"
+			id: "3BE6CBA88F786861"
+			size: 0.7d
+			tasks: [{
+				id: "3C9725840DF9A986"
+				title: "Pathway Progression"
+				type: "checkmark"
+			}]
+			title: "&ePathway Progression"
+			x: 1.15d
+			y: 1.05d
+		}
+		{
+			description: [
+				"You may have a different path ahead than mine. I am the holder of &fthe Fool&r Card, the start of a journey of infinite possibilities. This does mean I can adhere to any pathway, provided I found the materials to do so while traveling."
+				""
+				"&nAlmost any pathway can adhere to the following paths above.&r I've also included notes common to any path, about the understanding of this world."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:the_fool"
+				tag: { }
+			}
+			id: "524067700E07EB06"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					id: "37C0B3648EEE3AC7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					auto: "invisible"
+					command: "/curios set curio @s 5"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "projecte:mercurial_eye"
+						tag: { }
+					}
+					id: "7173247262F8CEC8"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					title: "+4 Curio Slots"
+					type: "command"
+				}
+			]
+			size: 1.35d
+			subtitle: "Every possibility"
+			tasks: [{
+				id: "37655A529CD6B9F4"
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 5000
+			}]
+			title: "Fool Pathway"
+			x: 0.75d
+			y: -2.7d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The undead have this particularity of being a lot harder to kill, being, you know, already dead. However, they will take a lot more damage when faced with holy weapons - those made of silver or gold. Holders of the Magician card are especially effective against them."
+				""
+				"A more common trick is to light your weapon on fire &a(by equipping a torch in your offhand)&r and to set undead mobs on fire that way. Fire is super effective on the undead. Alternatively, fire aspect is as effective."
+			]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "22157DFEF1887E78"
+			rewards: [{
+				count: 10
+				id: "50CBF8E829FFF62D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:silver_ingot"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "0B1A2E352F640724"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "3097F26EE10593BA"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Consecration"
+			x: 2.749999999999999d
+			y: -4.750000000000001d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The Hot Air Balloon is a rudimentary form of aerial transportation requiring coal as fuel, but is able to travel large heights. "
+				""
+				"It is actually surprisingly fast."
+			]
+			id: "14EB6CAB3F3E9418"
+			rewards: [{
+				count: 64
+				id: "1ADEF2AD162DAE0A"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			size: 0.8d
+			subtitle: "Travel in 19th Century Fashion"
+			tasks: [{
+				id: "65E3E9C68427EC95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:red_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:orange_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:yellow_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:lime_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:green_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:light_blue_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:cyan_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:blue_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:magenta_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:pink_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:purple_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:brown_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:white_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:light_gray_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:gray_hot_air_balloon_item"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "simple_hot_air_balloons:black_hot_air_balloon_item"
+							}
+						]
+					}
+				}
+				title: "Any Hot Air Balloon"
+				type: "item"
+			}]
+			title: "Hot Air Balloon"
+			x: 2.749999999999999d
+			y: -5.750000000000001d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: ["The megatorch prevents mobs from spawning in a large radius around itself."]
+			id: "288329048ACCA1E3"
+			rewards: [
+				{
+					id: "48DF0E6E844523A0"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "2362E1EA3E6A4227"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 0.9d
+			tasks: [{
+				id: "3767175CF3868F32"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 3.749999999999999d
+			y: -5.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The Lantern is a useful light source whenever you wish to explore during the night, or go caving far underground. You can strap your lantern to your belt if you have to juggle between too many items."
+				""
+				"&a(Equip into your curio belt slot or accessory slot)"
+			]
+			id: "2E7B48B182BBD94D"
+			rewards: [{
+				id: "07C971455490564E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4F2EB42EA12FAC94"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			x: 4.249999999999999d
+			y: -6.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Anyone of any path can create man-made paths, whether they be path blocks made through a shovel interaction with the dirt, wood, stone, bricks, etc. "
+				""
+				"&mYou have to place a sign anywhere within a man-made path and place a second one anywhere else. To link the two, you have to sneak punch the first and then sneak punch the second sign. Then, whenever you punch the sign, you will fast travel to the other end.&r"
+			]
+			hide_dependency_lines: true
+			icon: "via_romana:charting_map"
+			id: "5B1114E8AD48A9D4"
+			rewards: [{
+				id: "5EE1045CF5A195EC"
+				item: "minecolonies:supplychestdeployer"
+				type: "item"
+			}]
+			subtitle: "Fast Travel Anywhere"
+			tasks: [{
+				id: "13AFB0DC1A961548"
+				item: "via_romana:charting_map"
+				type: "item"
+			}]
+			x: 2.249999999999999d
+			y: -7.2d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The shield is a key defensive piece of equipment ideal to block ranged attacks and blocks hits. Although the base one might be enough for many, it's still possible to upgrade it."
+				""
+				"The giant swords have a similar ability, being large enough to block hits, but to a much lesser degree."
+			]
+			hide_dependent_lines: true
+			id: "36F8661C6E0C53D8"
+			rewards: [{
+				id: "73765E3A5A9E81A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5DD9F690DA3B804F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "minecraft:shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:wooden_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:stone_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:iron_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:diamond_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:netherquartz_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:skull_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "asr:ender_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any Shield"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Giant Swords and Shields"
+			x: 1.2499999999999991d
+			y: -5.750000000000001d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The backpack is ideal for all of your storage needs on your person. I've had to hunt many cows and chase around sheep for several days to be able to fit all of the trinkets I found on my travels."
+				""
+				"Simply equip it on your back &a(and open it with the default keybind being B)&r&f."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "0BD5BADADC18CC3D"
+			rewards: [{
+				count: 2
+				id: "60DC33210E3EBB9D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+						}
+						type: "building_kit"
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A760AF88731FEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "usefulbackpacks:backpack_medium"
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.24999999999999956d
+			y: -5.750000000000001d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The raft is faster than the regular small boats, but it can still be upgraded. Although faster on open water, while regular small boats can be broken up and carried through land, this raft might be a bit too large to do so easily."
+				""
+				"{@pagebreak}"
+				"The raft has plenty of cargo space &a(shift right click to access the inventory)&r for travel. I only found this out on the return trip after a succesful &mlooting&r trading trip from a large city, with several backpacks already filled. "
+			]
+			hide_dependency_lines: true
+			id: "1A9FA3C3DD29BFDB"
+			rewards: [{
+				count: 16
+				id: "2B0423B9B2266C97"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "Sail the Seas"
+			tasks: [{
+				id: "0C177C5B54E555C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hpm:raftitem"
+				}
+				type: "item"
+			}]
+			x: -0.7500000000000004d
+			y: -7.2d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: ["The builder's best friend or archenemy. Some architects may say this is cheating, but filling out walls, ceilings or floor quickly is useful in any building situation."]
+			id: "4134F85EED507D7B"
+			rewards: [
+				{
+					count: 2
+					id: "52B64EC57097F4EE"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
+							}
+							type: "building_kit"
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "14717A9744338FED"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+			]
+			size: 0.8d
+			subtitle: "Build a Base, Quickly"
+			tasks: [{
+				id: "49394A1CABCCB8CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "constructionwand:infinity_wand"
+							}
+						]
+					}
+				}
+				title: "Any Construction Wand"
+				type: "item"
+			}]
+			title: "Construction Wand"
+			x: -1.2500000000000004d
+			y: -5.750000000000001d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"If you happen to find many tarot cards like I do, you can store them in the Tarot Deck and still retain every effect with them inside."
+				""
+				"Applying a soulbound enchantment to a tarot deck will prove very useful. If you ever happen to lose it."
+				""
+				"{@pagebreak}"
+				"However, the minor arcana hands do not grant you extra hearts while they're inside of the Tarot Deck, despite being able to fit them inside. What a shame."
+			]
+			id: "258486DCF3CBD479"
+			rewards: [
+				{
+					id: "5737DCC9C3196B2B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "085EA378FDA320B7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_elemental:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1ED754487E1000F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
+			}]
+			x: -1.2500000000000004d
+			y: -4.750000000000001d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Iron chests and their other material upgraded versions, can store many more items than regular chests."
+				""
+				"On the other hand, drawers can hold a large quantity of a single item. They can also be upgraded or connected with a drawer controller."
+				"{@pagebreak}"
+				"Compacting drawers can be used for storing ores and ingots, which can be withdrawn in nugget, ingot, or block form."
+			]
+			id: "47F28365AC7EE987"
+			rewards: [
+				{
+					id: "295896F611E18162"
+					item: "ironchest:crystal_chest"
+					type: "item"
+				}
+				{
+					id: "5504CD916F60B662"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 0.9d
+			tasks: [
+				{
+					id: "0D779FDA4E0CFA35"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					id: "310CBAB3F86B77C3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+					title: "Any Drawers"
+					type: "item"
+				}
+			]
+			title: "Early Storage"
+			x: -2.2500000000000004d
+			y: -5.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
+				""
+				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
+			]
+			id: "01787B3BD1903BA3"
+			rewards: [{
+				id: "75E53CC6DF992539"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "68C353B5335CCCE3"
+				item: "sereneseasons:calendar"
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Seasons"
+			x: -2.7500000000000004d
+			y: -6.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Builders over time have developed their own working stations to make a great amount of variants for building materials. "
+				""
+				"A simple piece of smooth stone can be carved into a million patterns."
+			]
+			id: "3CF1BF81A1EB8B0D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "782DE56120BE7A34"
+					table_id: 6800703616788188502L
+					type: "choice"
+				}
+				{
+					id: "30D52B517F4ED948"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 0.9d
+			tasks: [{
+				id: "3BAE5CAF4F2F9147"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:botanist_workbench"
+							}
+							{
+								Count: 1b
+								id: "chipped:glassblower"
+							}
+							{
+								Count: 1b
+								id: "chipped:carpenters_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:loom_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:mason_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:alchemy_bench"
+							}
+							{
+								Count: 1b
+								id: "chipped:tinkering_table"
+							}
+						]
+					}
+				}
+				title: "Any Building Workstation"
+				type: "item"
+			}]
+			title: "Builder's Workstations"
+			x: -3.2d
+			y: -5.45d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			description: [
+				"Many travelers and hunters bring sleeping bags with them, letting them sleep on the go more conveniently. Personally, it's a must for my travels."
+				""
+				"&a(The sleeping bag does not set your spawn, letting you respawn at your main bed in your home.)&r"
+				"{@pagebreak}"
+				"Hammocks are the lazy man's greatest dream: perfect for sleeping during the day."
+			]
+			id: "7C7D065A52F9A7D2"
+			rewards: [{
+				id: "13E5FBA180CF7246"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4503E7EC984DDFDA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_white"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_orange"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_magenta"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_light_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_yellow"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_lime"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_pink"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_light_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_purple"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_brown"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_green"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_red"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_black"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_white"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_orange"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_magenta"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_light_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_yellow"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_lime"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_pink"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_light_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_cyan"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_black"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_blue"
+							}
+						]
+					}
+				}
+				title: "Any Sleeping Bag or Hammock"
+				type: "item"
+			}]
+			title: "Lazy Man's Dream"
+			x: 4.7d
+			y: -5.45d
+		}
+		{
+			dependencies: [
+				"36F8661C6E0C53D8"
+				"0BD5BADADC18CC3D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &eWheel of Fortune Pathway&r explores the world, leaving things to fate, whether it's their gains made from looting, or their inevitable death. Everyone has a little bit of an explorer in them."
+				""
+				"I've explored quite many structures for myself as well. Above are my notes on some of my travels."
+				"{@pagebreak}"
+				"The &eWheel of Fortune&r card used to be a lot more powerful, granting luck manipulation of higher potency, but it seems to have shrunk with the discovery of the Traveler's Compass. Perhaps the strength of the Wheel of Fortune depends on the global luck levels of the entire population?"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			id: "032A60B0D79C6ACB"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "489D9F754F134A67"
+				item: {
+					Count: 1
+					id: "tarotcards:wheel_of_fortune"
+					tag: { }
+				}
+				team_reward: false
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "11F94F872F0CD45C"
+				points: true
+				type: "xp"
+				value: 1500L
+			}]
+			title: "&eWheel of Fortune"
+			x: 1.175d
+			y: -11.25d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: ["I have come across a windmill built by an engineer and his friend. It doubled as a greenhouse and a windmill, letting them cultivate year-round crops. Their basement was filled to the brim with oreberries, cultivated for their metals, but also their experience."]
+			id: "424203823967AE99"
+			rewards: [{
+				id: "4C6285232595F00A"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:white_sail"
+				id: "576A03530B7C3590"
+				structure: "create_easy_structures:windmill"
+				title: "Find an Engineer's Windmill"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"I came across an Apprentice Technician in a run-down house falling to ruins. They said to me that they once were a powerful archmage, but they left behind their knowledge and life to learn that which they had never bothered to know: technology."
+				"{@pagebreak}"
+				"I asked them, \"But why in an ice-cold place like this?\" They answered, \"It builds character.\""
+			]
+			id: "6A6731CB2AED5CA3"
+			rewards: [{
+				id: "2CE5B1127AC99682"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:mechanical_piston"
+				id: "0085C34F6E7A3240"
+				structure: "create_easy_structures:house_4"
+				title: "Find the Apprentice's House"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"There are plenty of inhabited villages, towns, and cities scattered throughout the world. While you may often find the lonely house, you may also find sprawling cities."
+				""
+				"These cities have plenty of &mloot&r opportunities for trade!"
+			]
+			id: "5FB472DF1ACE7FF4"
+			rewards: [{
+				id: "61C66C259534476E"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:oak_door"
+				id: "58C85A63179F8505"
+				structure: "#minecraft:village"
+				title: "Find a Township"
+				type: "structure"
+			}]
+			x: 1.175d
+			y: -13.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Nether Fortresses were all the more terrifying before the Sparkon High Council decided to cast a most powerful worldwide spell to cause all monoliths inside to decay. "
+				""
+				"Prior to this, monoliths would keep summoning traversers, deadly monsters doing sick acrobatics and overwhelming adventurers with their large numbers. Now, monoliths decay with time, limiting the amountt of traversers they can summon."
+			]
+			id: "1FAB3CAA90A95383"
+			rewards: [{
+				id: "6FB814695D993557"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:red_nether_bricks"
+				id: "71D884CA0C101689"
+				structure: "minecraft:fortress"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The Witch Covens are scattered throughout the world, housing gathering of witches. These come in many forms, from elaborate villages to walking houses."
+				""
+				"Witches of the Temperance pathway will especially find these structures useful to gather materials and magical ingredients."
+			]
+			id: "0F56E99C05BFF14A"
+			rewards: [
+				{
+					id: "3179F5426DB12847"
+					item: {
+						Count: 1
+						id: "hexerei:warhammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D36412A14A6D0B3"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "02D3401CD427C0FE"
+					structure: "hexerei:witch_hut"
+					title: "Find a Witch hut"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F626ADE82098BF1"
+					structure: "hexerei:baba_yaga_hut"
+					title: "Find a Baba Yaga Hut"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "hexerei:mushroom_witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1DBFDF594BCA3C76"
+					structure: "hexerei:nature_coven"
+					title: "Find a Nature Coven"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "hexerei:mushroom_witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "50C3C8F97EDDB2E3"
+					structure: "hexerei:dark_coven"
+					title: "Find a Dark Coven"
+					type: "structure"
+				}
+			]
+			title: "Find the Witch Covens"
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"A couple of adventurers turned mages had taken over a mushroom village and called it home. I walked up the giant mushroom at the center of the village to find they had turned it into a majestic magetower inside."
+				"{@pagebreak}"
+				"I asked about the original inhabitants' fates. They did not respond. Throughout my travels, I have found more of these mycelial colonies along with pigshroom people. They were always hostile to outsiders."
+			]
+			id: "370BE5636BBC9719"
+			rewards: [{
+				id: "08D73C34D3DC58DA"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:red_mushroom_block"
+				id: "37A242CB945A7205"
+				structure: "dungeons_arise:mushroom_village"
+				title: "Find a Mushroom Village"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Spooky! This pumpkin leaves off an eerie aura, signaling the start of a bossfight!"
+				""
+				"As I broke the pumpkin, Sir Pumpkinhead was summoned from hell and rose out of the ground and slashed at me, prompting battle."
+				"{@pagebreak}"
+				"Lord Pumpkinhead may appear in Sir Pumpkinhead's place, by summoning him with a transmuting elixir instead of simply breaking the pumpkin."
+			]
+			id: "08B9A3B8958B397C"
+			rewards: [{
+				id: "51DBB20F3FE66AA3"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin"
+				id: "6E13011BFF309ABE"
+				structure: "born_in_chaos_v1:infernal_pumpkin"
+				title: "Find the Infernal Pumpkin"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Slimeballs are often used in technological parts, despite the fact they seem like they would rather have a magical use."
+				""
+				"The natural habitat of slimes are on their Earth and Sky islands, featuring a slime pond at the center."
+				"{@pagebreak}"
+				"For Elementists of the Magician Pathway, slimes are a surprisingly good source of elemental shards, while for Apprentice Technicans of the Hierophant Pathway, they will need a large quantity of slime to produce sticky redstone."
+			]
+			id: "0F86E584D13882B6"
+			rewards: [{
+				count: 2
+				id: "64284384A0A4E8C7"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: "minecraft:slime_ball"
+					id: "55CBB747768B101F"
+					structure: "tconstruct:earth_slime_island"
+					title: "Visit an Earthslime Island"
+					type: "structure"
+				}
+				{
+					icon: "tconstruct:sky_slime_ball"
+					id: "624B8C04DCF4D3FF"
+					structure: "tconstruct:sky_slime_island"
+					title: "Visit a Skyslime Island"
+					type: "structure"
+				}
+			]
+			title: "Visit the Slime Islands"
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The underground ancient city is such a frightening place, isn't it? It's all dark, and houses the Warden. What's leftover in their coffers isn't even that good. "
+				"{@pagebreak}"
+				"However, the echo shard is a key component to craft the sword Shrike, required of the Hierophant and Temperance paths. How odd that a technological automation path and an occult path share a common sword between the two? Perhaps there's a greater link than we can see here."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:echo_shard"
+			id: "73CD8163D268BA95"
+			rewards: [
+				{
+					count: 9
+					id: "1315E72E54579D6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "12D7B5B823CA2B87"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B334FC5549D837F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:echo_shard"
+				}
+				type: "item"
+			}]
+			title: "Find an Ancient City"
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The Windswept Hills are a breathtaking yet dark piece of landscape. The fusion between eroded mountains, vast swathes of blackstone, magma and lava coexisting with water is truly fascinating."
+				"{@pagebreak}"
+				"It is a biome most filled with exposed ore, a true treasure trove for anyone that may find one."
+			]
+			id: "50FDBBA56E5DEFB2"
+			rewards: [
+				{
+					id: "7027D37C59DC616F"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "004DC0F436ECE7F7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				biome: "minecraft:windswept_hills"
+				icon: "minecraft:blackstone"
+				id: "368945701965513F"
+				title: "Visit the Windswept Hills"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -15.225000000000001d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"I have yet to find this rumored palace, but I have heard of plenty of legends and rumors about it. A lot of adventurers ventured out for the legendary treasures of this palace. "
+				""
+				"All that I know is that it seems to be a gigantic desert palace."
+				"{@pagebreak}"
+				"I found something close, but not the rumored Shiraz Palace. It was a sprawling villa built to defy the desert, a holiday home of a very rich lord that normally lived on a complex on a sky island."
+			]
+			id: "7C43A27C9882C9F2"
+			rewards: [
+				{
+					count: 2
+					id: "470B7B5D0036167B"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "27069D39C2E95108"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Villa"
+			tasks: [{
+				icon: "minecraft:sandstone"
+				id: "7D324E4AFE5B39E6"
+				structure: "dungeons_arise:shiraz_palace"
+				title: "Find a Shiraz Palace"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -15.725000000000001d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Left behind by an ancient civilization that have been theorized to be the Endermen's ancestors, underground Strongholds are sprawling mazes of fortifications."
+				""
+				"They house important end portals to enter the End. Be warned that the guardian dragon of the End is not friendly to outsiders and especially dangerous."
+			]
+			hide_dependency_lines: true
+			id: "407BC866E1868568"
+			rewards: [{
+				id: "4C4FAEA9EC26E73D"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "28A984FC8386E2CC"
+				structure: "minecraft:stronghold"
+				title: "Find a Stronghold"
+				type: "structure"
+			}]
+			x: 1.175d
+			y: -14.5d
+		}
+		{
+			dependencies: ["407BC866E1868568"]
+			description: [
+				"Man, the legends they tell about each generation of this dragon seems to have made many adventurers truly underestimate her strength. Was the Ender Dragon always this strong every time she's reborn? One of my trusty companions got flung into the sky and was squished into crepe. Luckily, he had an angelheart vial to save himself. A lot of these attacks and abilities aren't the same as recorded in legends. "
+				""
+				"In the end, after moments of suffering and a bullet to the skull, we finally managed to best this legendary beast."
+			]
+			id: "45AE33EDAF0EEB9C"
+			rewards: [{
+				id: "6677175C32F6F418"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B2C7EB7519EAAA"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "The Dragon"
+			x: 1.175d
+			y: -15.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Wilden Dens are a sign of danger as they house the wilden. They are wild magical beasts that will not pose a serious threat to most battle-hardened warriors. For mages though, they view them as a rare resource. "
+				"{@pagebreak}"
+				"Mages have almost brought the once-widely spread Wilden to extinction. Since then, laws have been put in place to protect this endangered species, prioritizing summoning rituals, but it is hard to enforce a law when mages can just leap out of reach in an instant."
+			]
+			id: "2E6CE7AF53415895"
+			rewards: [
+				{
+					id: "108FAE4E8FFE5821"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "5038FE4A70F35A66"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				icon: "ars_nouveau:wilden_wing"
+				id: "1FDAFE55655DACD4"
+				structure: "#ars_nouveau:wilden_den"
+				title: "Find a Wilden Den"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -15.725000000000001d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"The Mechanical Nest is a floating city powered by RF power. It houses a mechanical hivemind, the most civilized folk I have encoutered, with higher technology than even some of the larger cities I've traveled to. "
+				""
+				"Unfortunately, they are hostile to everything organic, even capturing some lifeforms and experimenting on them."
+			]
+			id: "75E8D9F05E7CC783"
+			rewards: [
+				{
+					count: 2
+					id: "439B449195D1319A"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "6472E77180D2AE71"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "The Hivemind"
+			tasks: [{
+				icon: "minecraft:cut_copper"
+				id: "4A1FDD8A256DDDD1"
+				structure: "dungeons_arise:mechanical_nest"
+				title: "Find a Mechanical Nest"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -16.225d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Fortune Fragments are a mysterious material. Their appearance is ever-changing to most people. Some say they look like iron tickets, some believe they ressemble festival paper and some say it looks like nothing."
+				"{@pagebreak}"
+				"A reliable way of obtaining Fortune Fragments is by grinding down spellbooks and trinkets made with Arcane Debris you may find around the world."
+			]
+			id: "6E13AC3068943762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67601F186C2FDE2B"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33D761B00B560789"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			x: 1.175d
+			y: -17.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Through my travels, I came across a castle inhabited by a mage, a technician, an engineer and a cultist. They shared various floors of the castle, although it was quickly falling into disrepair."
+				""
+				"I wondered why the centerpiece chandelier at the central staircase had bits taken out of it. All of them kept screaming at their Hierophant to not use the chandelier for glowstone!"
+			]
+			id: "166CA90C1CE3BC09"
+			rewards: [
+				{
+					id: "7D92FF5DCF644D10"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "04FC13D8C5A4F48F"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:brick"
+				id: "3040732C13E57C4D"
+				structure: "ati_structures:granite_fort"
+				title: "Find the Granite Castle"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: ["Yellowstone is a semi-frequent biome, quite beautiful with hotsprings."]
+			id: "5CCEB21A364AD9AE"
+			rewards: [{
+				id: "358534F470FA5584"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "terralith:yellowstone"
+				icon: "minecraft:yellow_terracotta"
+				id: "7811BD93F29201E2"
+				title: "Visit Yellowstone"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: [
+				"Underground Bunkers are extremely rare throughout the world. They seem to feature very high grade technology that we can't quite understand yet, along with military vehicles from the future!"
+				""
+				"There is nothing much in the way of outstanding loot as we cannot decipher most of the technology down there to something useable, but it is a fascinating experience."
+			]
+			id: "3A82D89B99E5D124"
+			rewards: [
+				{
+					count: 7
+					id: "29B191996ACEB5C8"
+					item: "concatenationcore:fortune_fragment"
+					type: "item"
+				}
+				{
+					id: "60C0C79CCABFB65C"
+					item: {
+						Count: 1
+						id: "marbledsarsenal:black_plate_carrier_light"
+						tag: {
+							CurioAttributeModifiers: [{
+								Amount: 4
+								AttributeName: "generic.armor"
+								Name: "generic.armor"
+								Operation: 0
+								Slot: "body"
+								UUID: [I;
+									-1049641899
+									-1698279708
+									-1222758712
+									1471568110
+								]
+							}]
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "marbledsarsenal:un_military_beret"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43489CB8BA6ED617"
+				structure: "underground_bunkers:underground_bunker"
+				title: "Find the Underground Bunker"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["032A60B0D79C6ACB"]
+			description: ["During my time at sea, I've encountered plenty of ships of various origins, sizes and different crews. Most of them included fancy loot to take."]
+			id: "7BC0331FFB836295"
+			rewards: [{
+				count: 2
+				id: "012EABD68523A1C3"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "hpm:cuttermilitariseditem"
+				id: "15471F5F5BB1A6F1"
+				structure: "dungeons_arise_seven_seas:corsair_corvette"
+				title: "Find a Corsair Corvette"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6E13AC3068943762"]
+			description: [
+				"The Traveler's Compass is a powerful artifact, capable to locating nearly anything in existence, whether it is a structure, being, or block. "
+				""
+				"You may have to get a little creative in what you are asking for it to search, such as specific blocks or loot known to be in structures."
+			]
+			id: "272EF70CED6D9AD7"
+			rewards: [{
+				id: "21EB7980AE35ADBF"
+				item: "concatenationcore:fortune_fragment"
+				team_reward: false
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "1082279FE6F042EB"
+				item: {
+					Count: 1
+					id: "travelerscompass:travelerscompass"
+					tag: {
+						found_position_x: 0
+						found_position_y: 0
+						found_position_z: 0
+						position_is_valid: 0b
+						priority_item_found: 0b
+						state: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.175d
+			y: -18.5d
+		}
+		{
+			dependencies: ["272EF70CED6D9AD7"]
+			description: ["The Nature's Compass allows for the searching of any biome, working in similar magic to the divination rods of the witches of Temperance."]
+			id: "135A7F936071D3C8"
+			rewards: [{
+				id: "3936F0F32C66FF79"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "335A5DD66015B900"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["272EF70CED6D9AD7"]
+			description: ["The Explorer's compass allows someone to precisely seek any structure abandoned across the world, making for an adventurer's most cherished relic."]
+			id: "4385A10ED5E8ACC7"
+			rewards: [{
+				id: "252AAF88CA7989DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2821ACB30CF05A3B"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"731126727DDCAC54"
+				"2B825471FE41A521"
+				"524067700E07EB06"
+			]
+			description: [
+				"The World is the final major arcana of the tarot, symbolizing completion. The World arcana is capable of anything, of every starting pathway, and of time dilution around itself."
+				""
+				"The World card is crafted from every single tarot card, excluding itself. The Error card uses the Aeon singularity to fool the world into recognizing The Fool card, numbered 0, as the World, numbered 22, the last of the arcana."
+			]
+			hide_dependency_lines: true
+			id: "0F3237156DE95B07"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/kill @a"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "tarotcards:the_world"
+						tag: { }
+					}
+					id: "56088B539E3643ED"
+					silent: true
+					team_reward: false
+					title: "The Force of Ten Thousand Years"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"An Eternal Aeon is born!\",\"bold\":true,\"italic\":true,\"color\":\"gold\"}"
+					elevate_perms: true
+					icon: "concatenationcore:aeon"
+					id: "10754A5E539447E9"
+					silent: true
+					title: "Birth of an Aeon"
+					type: "command"
+				}
+			]
+			size: 1.175d
+			subtitle: "Eternal Aeon"
+			tasks: [{
+				id: "4C8456E59D963D84"
+				item: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6The World"
+			x: 1.175d
+			y: -32.9d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			description: [
+				""
+				"{image:ftbquests:block/barrier width:100 height:100 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "6DDF28A484792887"
+			tasks: [{
+				id: "66B8EA5A1FED0F0F"
+				item: "concatenationcore:world_devourer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -34.5d
+		}
+		{
+			dependencies: ["6DDF28A484792887"]
+			description: ["{image:ftbquests:block/barrier_open width:100 height:100 align:center}"]
+			id: "1A53753CE273B8EB"
+			tasks: [{
+				id: "2C95485AED56EF1E"
+				item: "concatenationcore:exalted_world_devourer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["0F3237156DE95B07"]
+			description: [
+				"Gate to Perdition is a pack-wide event with limited time rewards. Delve into a unique secondary questline sending you on a journey to investigate the disappearance of dimensional doors from the world and how we may reopen the door to limbo!"
+				""
+				"Send your own theories on the pack's Discord server in #gate-to-perdition (link available on the title screen). Perhaps this will help the community figure out how to enter limbo? &lThe most elaborate and ludicrous theory weaver will get a unique custom item added to the pack!&r"
+				"{@pagebreak}"
+				"All of the quests are hidden at the start and you must complete them to unlock the subsequent quest."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "concatenationcore:experienced_paper"
+			id: "42F701FC987C6C99"
+			size: 0.75d
+			subtitle: "Event Over"
+			tasks: [{
+				id: "0817051F0190E4D5"
+				title: "Event Details"
+				type: "checkmark"
+			}]
+			title: "GtP Event Details"
+			x: 0.75d
+			y: -37.5d
+		}
+		{
+			dependencies: [
+				"70359866547B360C"
+				"67BC86096C11BFD0"
+				"5746BB5C34ED74C7"
+			]
+			id: "4C76FB98A8040661"
+			tasks: [
+				{
+					id: "435FBD48AB9EF222"
+					item: "concatenationcore:heater"
+					type: "item"
+				}
+				{
+					id: "3303CC7123366473"
+					item: "concatenationcore:thermae"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AE174C5189819AA"]
+			icon: "concatenationcore:hydraulic_crusher"
+			id: "5987B65E7DE1FD92"
+			tasks: [
+				{
+					id: "3D4B93F8C6DAC47A"
+					item: "concatenationcore:hydraulic_crusher"
+					type: "item"
+				}
+				{
+					id: "6814A541BB157D23"
+					item: "concatenationcore:boiler"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"34E7DCC3F4492CEA"
+				"02215EDC2EF71825"
+			]
+			id: "0AE174C5189819AA"
+			tasks: [{
+				id: "018DEECC6ACAD085"
+				item: "concatenationcore:macerator_wheel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4C76FB98A8040661"]
+			id: "34E7DCC3F4492CEA"
+			tasks: [{
+				id: "74F5ED795A109866"
+				item: "concatenationcore:dense_metal_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4C76FB98A8040661"]
+			id: "02215EDC2EF71825"
+			tasks: [{
+				id: "7B53C659D520C3A7"
+				item: "concatenationcore:galvanized_iron_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5987B65E7DE1FD92"]
+			id: "760CC1A28488B38E"
+			tasks: [
+				{
+					id: "7D0A117BF44E37CF"
+					item: "concatenationcore:crushed_tin"
+					type: "item"
+				}
+				{
+					id: "5C9CE19E2D892544"
+					item: "concatenationcore:crushed_copper"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["760CC1A28488B38E"]
+			id: "03A0AB8C01849917"
+			tasks: [{
+				id: "40651D5B81F2EE6B"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6F736EF54A792577"]
+			id: "4DF2955C7F793389"
+			size: 0.75d
+			tasks: [
+				{
+					id: "3228ADBC03CDC5A6"
+					item: "concatenationcore:crushed_iron"
+					type: "item"
+				}
+				{
+					id: "081BF7BC5C92B61B"
+					item: "concatenationcore:crushed_zinc"
+					type: "item"
+				}
+			]
+			x: -4.875d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5987B65E7DE1FD92"]
+			id: "05CD5D7CEFF7C73E"
+			tasks: [
+				{
+					id: "488E7E1A90E3221A"
+					item: "thermal:apatite_dust"
+					type: "item"
+				}
+				{
+					id: "1C242DD681F2BFEB"
+					item: "perdition:compacted_marmor"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Crushing Marble"
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5987B65E7DE1FD92"]
+			id: "5C7795F275644B09"
+			tasks: [{
+				id: "690789806A0D7944"
+				item: "thermal:quartz_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5C7795F275644B09"]
+			id: "0C490675BD4137E8"
+			tasks: [{
+				id: "3481CB8DE526E5A8"
+				item: "thermal:obsidian_glass"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			hide_dependency_lines: true
+			id: "793E50D268C0B230"
+			size: 0.9d
+			tasks: [{
+				id: "05E87F3C451EDF48"
+				item: "thesubmarinemod:acero_antioxidante"
+				type: "item"
+			}]
+			x: -22.55d
+			y: 11.1d
+		}
+		{
+			dependencies: ["793E50D268C0B230"]
+			id: "7F9A0E2C0EE245B0"
+			size: 1.1d
+			tasks: [{
+				id: "0D0F330DCE0E859E"
+				item: "thesubmarinemod:silvato_submarino_incompleto"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["793E50D268C0B230"]
+			id: "47025B4852DC4F90"
+			size: 1.1d
+			tasks: [{
+				id: "6F8D076F806F69F4"
+				item: "thesubmarinemod:alas_submarino"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["793E50D268C0B230"]
+			id: "36A39A859ADA2AFA"
+			size: 1.1d
+			tasks: [{
+				id: "7726BE79F4A66155"
+				item: "thesubmarinemod:aceleradores_submarino"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			hide_dependency_lines: true
+			id: "5059730ED7CB61E4"
+			size: 0.9d
+			tasks: [{
+				id: "2C41B0F25AFCFA77"
+				item: "hrbsdrills:drillhead"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			hide_dependency_lines: true
+			id: "1E93B65B7B6D7D42"
+			size: 0.9d
+			tasks: [{
+				id: "450BCAA84C162795"
+				item: "hrbsdrills:engine"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"5059730ED7CB61E4"
+				"1E93B65B7B6D7D42"
+			]
+			id: "49E7519CB88FB97A"
+			size: 1.15d
+			tasks: [{
+				id: "089CDBB286F7F5A6"
+				item: "hrbsdrills:drill"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 18.0d
 		}
 	]
 	title: "The Journey"

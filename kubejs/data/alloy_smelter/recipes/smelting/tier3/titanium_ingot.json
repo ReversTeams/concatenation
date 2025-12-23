@@ -11,6 +11,6 @@
     "count": 2
   },
   "smeltingTime": 45,
-  "fuelPerTick": 2,
+  "fuelPerTick": 3,
   "requiredTier": 3
 }
