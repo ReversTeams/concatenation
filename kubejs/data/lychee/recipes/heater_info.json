@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "comment": "The Heater must be powered with lava. The Crushed Zinc or Zinc Dust must be inserted into the Thermae placed above the Heater, 9 of which are consumed per batch.",
+    "ghost": true,
+    "item_in": {
+        "tag": "concatenation:thermae_input/zinc"
+    },
+    "block_in": "concatenationcore:heater",
+    "post": {
+        "type": "drop_item",
+        "item": "concatenationcore:liquid_galvanized_iron_bucket"
+    }
+}

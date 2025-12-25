@@ -301,11 +301,16 @@ ServerEvents.tags('item', event => {
     ]);
 
     add('curios:belt', [
-        'concatenationcore:gold_card',
+        'concatenationcore:gold_card'
     ]);
 
     add('curios:element_holder', [
         'concatenationcore:platinum_card',
+        'concatenationcore:ice_crystal_ball'
+    ]);
+
+    add('curios:head', [
+        'concatenationcore:crumpled_hat'
     ]);
 
     add('concatenation:breaking_tools', [
@@ -603,5 +608,27 @@ ServerEvents.tags('item', event => {
     add('concatenation:insight_material', [
         'thermal:sapphire',
         'strangematter:insight_shard'
+    ])
+
+    add('concatenation:thermae_input', [
+        'createmetallurgy:zinc_dust'
+    ])
+
+    add('concatenation:thermae_input/zinc', [
+        'createmetallurgy:zinc_dust'
+    ])
+
+    add('concatenation:crusher_input', [
+        'create:zinc_ingot',
+        'thermal:tin_ingot',
+        'perdition:compacted_marmor'
+    ])
+
+    add('concatenation:crusher_input/zinc', [
+        'create:zinc_ingot'
+    ])
+
+    add('concatenation:crusher_input/tin', [
+        'thermal:tin_ingot'
     ])
 });

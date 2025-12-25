@@ -7,5 +7,14 @@ performance_tuning = {}
 	enabled = true
 	#Show a warning when using the mod in singleplayer.
 	singleplayer-warning = true
+	#Enable automatic update checks.
 	automatic-updater = true
+
+#Enable or disable specific acceleration features.
+[acceleration_modules]
+	#Accelerate block entities (e.g., furnaces, hoppers). Can cause issues.
+	block_entity = false
+	#Accelerate block breaking.
+	block_breaking = true
+	potion_effect = true
 

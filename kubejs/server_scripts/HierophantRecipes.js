@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:emerald_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:quartz_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:bronze_ingot', type: 'minecraft:crafting_shapeless' })
-
+        event.remove({ output: 'thermal:obsidian_glass', type: 'minecraft:crafting_shapeless' })
 
         event.shaped(
                 Item.of('quarryplus:solid_fuel_quarry'),
@@ -1583,7 +1583,7 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shaped(
-                Item.of('rftoolspower:coalgenerator'),
+                Item.of('concatenationcore:coal_generator'),
                 [
                         'AAA',
                         'BCB',
@@ -1743,6 +1743,75 @@ ServerEvents.recipes(event => {
                         B: 'minecraft:stick'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:heater'),
+                [
+                        'A A',
+                        'BCB',
+                        'ADA'
+                ],
+                {
+                        A: 'minecraft:iron_ingot',
+                        D: 'concatenationcore:zinc_casing',
+                        C: 'minecraft:cauldron',
+                        B: 'thermal:lead_ingot'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:thermae'),
+                [
+                        'ABA',
+                        'FDF',
+                        'ECE'
+                ],
+                {
+                        D: 'concatenationcore:boiler',
+                        A: 'thermal:tin_ingot',
+                        E: 'minecraft:iron_ingot',
+                        B: 'minecraft:cauldron',
+                        C: 'thermal:lead_ingot',
+                        F: 'thermal:tin_gear'
+                }
+        )
+        event.shaped(
+                Item.of('concatenationcore:hydraulic_crusher'),
+                [
+                        'ABA',
+                        'CDB',
+                        'AEA'
+                ],
+                {
+                        A: 'createdeco:iron_support',
+                        D: 'concatenationcore:zinc_casing',
+                        C: 'concatenationcore:ironclad_hammer',
+                        E: 'minecraft:copper_block',
+                        B: 'concatenationcore:macerator_wheel'
+                }
+        )
+        event.shaped(
+                Item.of('thermal:bronze_ingot'),
+                [
+                        'ABC',
+                        'CCD',
+                        '   '
+                ],
+                {
+                        D: '#concatenation:firing_item',
+                        A: 'concatenationcore:hammer',
+                        C: 'concatenationcore:crushed_copper',
+                        B: 'concatenationcore:crushed_tin'
+                }
+        )
+        event.shapeless(
+                Item.of('thermal:obsidian_glass'),
+                [
+                        'minecraft:obsidian',
+                        'minecraft:glass',
+                        'thermal:quartz_dust',
+                        '#concatenation:firing_item'
+                ]
+        )
+
         event.recipes.minecraft.smelting(
                 'thermal:sapphire',
                 'thermal:sapphire_dust'

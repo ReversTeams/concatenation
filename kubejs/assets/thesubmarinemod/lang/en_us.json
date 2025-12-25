@@ -1,0 +1,17 @@
+{
+  "key.thesubmarinemod.a_submarino": "A Submarine",
+  "item.thesubmarinemod.submarino_incompleto_spawn_egg": "Submarine Incomplete Spawn Egg",
+  "item.thesubmarinemod.silvato_submarino_incompleto": "Submarine Cabin",
+  "key.thesubmarinemod.espacio_submarino": "Underwater Space",
+  "item_group.thesubmarinemod.the_submarine_mod": "Submarines",
+  "item.thesubmarinemod.alas_submarino": "Submarine Propulsion",
+  "item.thesubmarinemod.acero_antioxidante": "Antirust Steel",
+  "item.thesubmarinemod.silvato_submarino": "Underwater Whistle",
+  "item.thesubmarinemod.submarine_spawn_egg": "Submarine Spawn Egg",
+  "key.thesubmarinemod.d_submarino": "D Submarine",
+  "entity.thesubmarinemod.submarine": "Submarine",
+  "gui.thesubmarinemod.submarino_config.RadiusOfMine": "Radius? 5 (Blocks)",
+  "key.thesubmarinemod.wpressed": "Wpressed",
+  "item.thesubmarinemod.aceleradores_submarino": "Submarine Floats",
+  "entity.thesubmarinemod.submarino_incompleto": "Incomplete Submarine"
+}

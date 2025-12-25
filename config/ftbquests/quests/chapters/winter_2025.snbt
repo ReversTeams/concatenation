@@ -1,0 +1,971 @@
+{
+	autofocus_id: "19A7CECC24F6CA41"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "winter_2025"
+	group: "4AEECD5B848DA3A1"
+	hide_quest_until_deps_complete: true
+	icon: "supplementaries:present_green"
+	id: "13BE81C89E3978B9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4It's the season of cold! As the little ones enjoy lobbing snowballs at each other and everything that lives, everyone else struggles to shovel snow off their roads."
+				""
+				"&4At least we're not those crazy fools who live in the great north and keep falling in powdered snow!"
+				""
+				"&a(Quests are hidden until the quest before is completed.)&r"
+			]
+			id: "19A7CECC24F6CA41"
+			rewards: [{
+				id: "290BA6000AE040C3"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			subtitle: "Happy Holidays!"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3C4B7002A503BD22"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			title: "Winter 2025"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19A7CECC24F6CA41"]
+			description: ["&4A few Blizz can sometimes be seen throughout the year, but they are the deadliest and blend into the environment the most during Winter. As a result, during the cold months, it is not only technicians that place bounties on blizzes, but also the town itself to endure safe holidays."]
+			id: "5747772024A17863"
+			rewards: [{
+				count: 5
+				id: "181C9F1F8CC1A02C"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "693C860F52A877E4"
+				item: "thermal:blizz_rod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19A7CECC24F6CA41"]
+			description: ["&4The little ones wanted iron golems around the village last time, but now they want friends to aid in their snowball wars. Apparently it's full on wars now? One side has a full on fort and the other built an ice cannon? That will aid them when they grow up to be hunters or adventurers."]
+			id: "3C299E51CCFC9DDB"
+			rewards: [{
+				id: "2F83734283F0D767"
+				item: "born_in_chaos_v1:creepy_gift"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "0F53822B5AFBD4A9"
+					item: { Count: 4, id: "minecraft:snow_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BA3F99A5071DB59"
+					item: { Count: 2, id: "minecraft:carved_pumpkin" }
+					type: "item"
+				}
+			]
+			title: "Snow Golems!"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19A7CECC24F6CA41"]
+			description: [
+				"&4I once heard a tale of those folks in the big mansion that had hired a few maids solely for shoveling the snow. Apparently they weren't even competent at it and were called off. "
+				"{@pagebreak}"
+				"&4Snow shoveling is a bane even to those rich folks, but it's truly the bane of any building in construction. Snow keeps piling up and the roof's not even done! The worst is when water for fields keep freezing over! One fancy trick was to put a fence or a slab into the water, which moves the water enough to not freeze?"
+			]
+			id: "1E1464F311707EF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67894EFE24378104"
+				table_id: 6800703616788188502L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1CD31407BF235E05"
+				item: { Count: 5, id: "minecraft:blue_ice" }
+				type: "item"
+			}]
+			title: "Hardcore Shoveling"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5FC14361C9433970"
+				"00C1976AC8C97EA6"
+			]
+			description: ["&4We found nothing but these \"henchmen\" that seem to be of his same species. We found this strange dark ice they were carrying, though. Strange, does it hold value?"]
+			id: "341A26E25D267BE9"
+			rewards: [{
+				id: "0A3F4D138975A570"
+				item: "born_in_chaos_v1:dark_ice"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus_henchman"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:frostbitten_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1E4022B4CE06DA1C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E1464F311707EF7"]
+			description: ["&4A good Christmas tree needs presents under it! That's what takes the most effort and care! Now, what could I gift? Well first, I might need the wrapping for the presents."]
+			id: "084C8D46CC7DD5E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE68EDE49B0A5DF"
+				table_id: 4597731606249609751L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "09450302582763CA"
+					item: "supplementaries:present_green"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4CE73EAC286AC27C"
+					item: "supplementaries:present_red"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "096EC852A0FD2018"
+					item: "supplementaries:present_blue"
+					type: "item"
+				}
+			]
+			title: "Presents for the Tree"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E1464F311707EF7"]
+			description: ["&4A little prank doesn't do harm to anyone, does it? This glacial explosive I saw at the general store earlier looks like a present! I'm sure I can fool my friends with that. They'll have a glacial surprise!"]
+			id: "3BCCC7AE9A44AF75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E43F78EE2CD86A3"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EFEB0687A95B30E"
+				item: "thermal:ice_tnt"
+				type: "item"
+			}]
+			title: "Mischief for the Tree"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BCCC7AE9A44AF75"]
+			description: [
+				"&4I've had a debate with my builder friend. Dark oak or spruce to make the Christmas tree? Obviously, it's spruce! But he didn't want to listen. So I chopped enough wood to make both. Let's have a great building competition!"
+				""
+				"&4Why dark oak? It's not even the right climate! I have to go all the way to a stupid dark forest, in winter! And it's so far away!"
+			]
+			id: "6EE59014C3A6B6EA"
+			rewards: [{
+				count: 2
+				id: "1C9CBB7BAB18F6C3"
+				item: "born_in_chaos_v1:creepy_gift"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "5A162FB2FEAF7EA6"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "2A4A3D53DEFD999E"
+					item: { Count: 64, id: "minecraft:dark_oak_log" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "4A597EEEECD427CA"
+					item: { Count: 256, id: "minecraft:dark_oak_leaves" }
+					type: "item"
+				}
+			]
+			title: "Dark Oak Christmas Tree"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["084C8D46CC7DD5E7"]
+			description: [
+				"&4I've had a debate with my builder friend. Dark oak or spruce to make the Christmas tree? Obviously, it's spruce! But he didn't want to listen. So I chopped enough wood to make both. Let's have a great building competition!"
+				""
+				"&4Spruce is obviously the better material! Spruce pines are made of.. well, spruce! They're winter resistant and are more commonly found! No need to waste good dark furniture wood when making a Christmas tree!"
+			]
+			id: "040224FAA0005344"
+			rewards: [{
+				count: 2
+				id: "3A39E0602F5F0188"
+				item: "born_in_chaos_v1:creepy_gift"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6FAEE6518ED93241"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "19FD0E00AA490B16"
+					item: "minecraft:spruce_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "607A079349953ECC"
+					item: "minecraft:spruce_leaves"
+					type: "item"
+				}
+			]
+			title: "Spruce Christmas Tree"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3BCCC7AE9A44AF75"
+				"084C8D46CC7DD5E7"
+			]
+			description: ["&4I found this little squirrel born from magical energy in a blue forest temming with giant centennial trees while I was out hunting some pigs to make a good feast. As it's the season of giving, I gave the little guy a gold nugget but poof! He dissapeared! I hope I didn't accidentally kill him..."]
+			id: "524BE6AB74EEA53E"
+			rewards: [{
+				id: "4FC929C82C8C1D15"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:poof_mob"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "ars_nouveau:starby_gift"
+					tag: { }
+				}
+				id: "73C1BF6573AF8DF8"
+				type: "advancement"
+			}]
+			title: "The Joy of Gifting"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"524BE6AB74EEA53E"
+				"6EE59014C3A6B6EA"
+				"040224FAA0005344"
+			]
+			description: [
+				"&4Lamp. No, I don't need a random lamp! "
+				""
+				"&4I was looking for some objects to make Christmas ball ornaments for the tree and I found my way to a strange high-tech cube-sized room in the ground with these weird machines that seemed alive? How odd, their fabrication serial number is in the future. I got these cool lamps, though. I think I can sculpt them into good ornaments."
+			]
+			id: "2A00EDA981081010"
+			rewards: [{
+				id: "4FE1B0448831BB2F"
+				item: {
+					Count: 1
+					id: "concatenationcore:ice_crystal_ball"
+					tag: {
+						CurioAttributeModifiers: [{
+							Amount: 2
+							AttributeName: "generic.luck"
+							Name: "generic.luck"
+							Operation: 0
+							Slot: "element_holder"
+							UUID: [I;
+								-1863344496
+								-1956229779
+								-1099932780
+								-330682562
+							]
+						}]
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.05d
+			tasks: [{
+				consume_items: true
+				id: "18796E1DAD9FB30A"
+				item: "kismet:kismet_lamp"
+				type: "item"
+			}]
+			title: "Lamp"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A00EDA981081010"]
+			description: ["&4Obviously, the only sensical star for the tree is a Nether Star! Well, I might have to pay a small fortune or fight a terrifying Wither for it, but at least I can reuse it after the holidays are over..."]
+			id: "52720D9F658C62FF"
+			rewards: [{
+				id: "0BBAACBA8EC45EFC"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:carrot_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				consume_items: true
+				id: "6A9771EFA249519A"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["19A7CECC24F6CA41"]
+			description: ["&4I received a regular seasonal bounty this time for the holidays. Clearing out the surroundings of the village for the holiday festivities. It's actually kind of hard to meet the quota since I must go out further to find the monsters that haven't been hunted yet."]
+			id: "5A4AB38047A3E969"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2418F24065C4C3E5"
+				table_id: 2567105459748842191L
+				type: "random"
+			}]
+			tasks: [{
+				icon: "minecraft:zombie_head"
+				id: "2B82CB2A7B47FDB4"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 150
+			}]
+			title: "Village Protection"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4C3F05C8A5C4F4CE"]
+			hide_until_deps_complete: true
+			id: "04CE86C5153E81CA"
+			rewards: [{
+				id: "0B0B6E3A4107C744"
+				item: {
+					Count: 1
+					id: "concatenationcore:doom_candy_cane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "5B1A943F8EDDC49B"
+				item: "concatenationcore:fortune_fragment"
+				type: "item"
+			}]
+			title: "Candy Repeat"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6BB028FFC3B6EED7"
+				"341A26E25D267BE9"
+			]
+			dependency_requirement: "one_started"
+			description: ["&4It's time for a fight! A local archmage told of us of a recipe we can use to cook a fabled \"Candy Cane of Doom\", which not only will summon Krampus, but a whole special bossfight! I'm excited! The dark ice we found even was one of the rare ingredients needed! Now, let's group up and defeat this foe!"]
+			id: "4C3F05C8A5C4F4CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F32D199AC9AAA6"
+				table_id: 8405090712645604397L
+				type: "random"
+			}]
+			size: 1.15d
+			tasks: [{
+				id: "55ED998F3B8EF43F"
+				item: {
+					Count: 1
+					id: "concatenationcore:doom_candy_cane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5FC14361C9433970"
+				"00C1976AC8C97EA6"
+			]
+			description: ["&4No hope, we went all the way to the ice spikes just to get a glimpse of Krampus and we found nothing! We found this strange dark ice, though. Never seen it before."]
+			id: "6BB028FFC3B6EED7"
+			rewards: [{
+				id: "3C5EBB345EE8219D"
+				item: "born_in_chaos_v1:dark_ice"
+				type: "item"
+			}]
+			tasks: [
+				{
+					biome: "minecraft:ice_spikes"
+					icon: "chipped:packed_ice_pointed_dripstone"
+					id: "6E71433F99556637"
+					title: "Visit the Ice Spikes"
+					type: "biome"
+				}
+				{
+					biome: "terralith:cave/ice_caves"
+					icon: "chipped:ice_scales"
+					id: "0FAF9197F82906A8"
+					title: "Visit the Ice Caves"
+					type: "biome"
+				}
+			]
+			title: "Visit the Ice"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C3F05C8A5C4F4CE"]
+			id: "534880633BBBA4FE"
+			rewards: [{
+				id: "29E588FC7E8398D6"
+				item: "born_in_chaos_v1:evilometer"
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				icon: "born_in_chaos_v1:krampus_horn"
+				id: "560F8A2A6B169C30"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Krampus"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["534880633BBBA4FE"]
+			id: "4AF8497DB3EC5D28"
+			rewards: [{
+				id: "3402E5563309E2FB"
+				item: "born_in_chaos_v1:krampuss_bag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "127218B4BE39A6BC"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:stormcallers_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["534880633BBBA4FE"]
+			id: "7F22072C69688845"
+			rewards: [{
+				id: "777F41F698841CA9"
+				item: "born_in_chaos_v1:krampuss_bag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF8E99447E68A1D"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:birch_branches"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["534880633BBBA4FE"]
+			id: "2CB49AC5EA0B6ED9"
+			rewards: [{
+				id: "1B01375746EF8795"
+				item: "born_in_chaos_v1:krampuss_bag"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "0165BDD4E1921920"
+				item: "born_in_chaos_v1:krampuss_bag"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52720D9F658C62FF"]
+			description: ["&4I need to set a good ambiance for the Christmas party! But I've already tried 3 of the music disks I had and none of them seem to match. Bummer. I think I'll go to that antique shop I saw to try and get a matching music disk. Hopefully they're not closed on Christmas Eve."]
+			id: "148907188827F94E"
+			rewards: [{
+				id: "1BEF5F082CD66074"
+				item: "supplementaries:music_disc_heave_ho"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:music_disc_cat"
+				id: "4A8C9C7C3199E5F5"
+				stat: "minecraft:play_record"
+				type: "stat"
+				value: 3
+			}]
+			title: "Ambiance"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BD45EE2B9A19E40"]
+			description: ["&4There is nothing better than a good old holiday feast when you get back home! It's even better when you share it with the family!"]
+			id: "6ACEC559B41750DE"
+			rewards: [{
+				id: "2BE240191B3304DC"
+				item: {
+					Count: 1
+					id: "concatenationcore:rython"
+					tag: {
+						CurioAttributeModifiers: [{
+							Amount: 2
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 0
+							Slot: "charm"
+							UUID: [I;
+								-1049641899
+								-1698279708
+								-1222758712
+								1471568110
+							]
+						}]
+					}
+				}
+				type: "item"
+			}]
+			size: 1.05d
+			tasks: [{
+				consume_items: true
+				id: "062E9208E7D0B891"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C299E51CCFC9DDB"]
+			description: ["&4Ice sculptures are fun to make, but they require a model. At least that's what one of the artists in the village told me. They asked me if I could get them enough quartz to make a stone statue. I wonder if the base under the ice is made from stone and that's how they make those ice statues. No, then we wouldn't be able to see through them."]
+			id: "1201514D1CAB216D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F693B681AB22D6"
+				table_id: 1287062647694046403L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D6FC55684A204D8"
+				item: "tacz:statue"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"148907188827F94E"
+				"6F188A4AC61960A6"
+				"40FA8C73477F2AA6"
+				"5BFA02876229B534"
+				"08FEEBB1C86D2B06"
+			]
+			description: ["&4After the celebrations, I went to the big village Christmas tree. There, I saw a little plushie that seemed to have been abandoned. There's no more gifts there, after all. It's been 2 days. And I know for a fact this plush seems to be quite old, it definitely has some wear and tear. I think I know who this plush represents."]
+			id: "7F462FE4BE00B3CF"
+			rewards: [{
+				id: "79646BA7F1B48FAB"
+				item: {
+					Count: 1
+					id: "concatenationcore:crumpled_hat"
+					tag: {
+						CurioAttributeModifiers: [{
+							Amount: 4
+							AttributeName: "generic.armor_toughness"
+							Name: "generic.armor_toughness"
+							Operation: 0
+							Slot: "head"
+							UUID: [I;
+								1581774847
+								-333755118
+								-1335864109
+								239030257
+							]
+						}]
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.15d
+			tasks: [{
+				consume_items: true
+				id: "31145C08A3313142"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			title: "Familiar Plush"
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1201514D1CAB216D"]
+			description: ["&4Exotic fruits are unsurprisingly quite expensive during the winter seasons, but some mages just crave the sugar. I've received a bounty to retrieve a flashpine, as their amount of magical power prevents them from freezing over in the cold. Surely, I'll find one, eventually."]
+			id: "4BD45EE2B9A19E40"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "028570BF9C5C9311"
+				table_id: 4597731606249609751L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1779AF4B13EA9D32"
+				item: "ars_elemental:flashpine_pod"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5747772024A17863"]
+			description: ["&4Frozen melon is a strange delicacy that Technicians often produce solely for winter festivities. It's a bit of a mystery as to why they bring frozen melons of all things. Couldn't they bring hotter meals? We're freezing out here!"]
+			id: "5F646D98EF273F9F"
+			rewards: [{
+				count: 16
+				id: "76F07A7984BCD72E"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48876E29E0C63408"
+				item: "thermal:frost_melon_slice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5747772024A17863"]
+			description: ["&4We hunt all kinds of monster around. Why don't we eat them? Yes, I guess that people see that as cheap, and the taste isn't great, but isn't it satisfying to eat something that you caught yourself? I do have to agree it's not the most festive of holiday snacks but I have to do something with the leftovers I got."]
+			id: "7EC252E67A4E9969"
+			rewards: [{
+				count: 16
+				id: "175F9F8C6F07F320"
+				item: "born_in_chaos_v1:smoked_monster_flesh"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E15A9BD228C3A7"
+				item: "born_in_chaos_v1:smoked_monster_flesh"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F646D98EF273F9F"]
+			description: ["&4Everyone needs a good relaxation time after falling in powdered snow for a good day and 2 hours. I wonder what I have in my pantry once I get back home. Is it jam, mint tea, or juice I made of those gross berries I found in the dark?"]
+			id: "2305A64957A67DA9"
+			rewards: [{
+				id: "6E9335CF6748384D"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "tconstruct:strong_experienced"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CFA33DA39D686F1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "refurbished_furniture:glow_berry_jam"
+							}
+							{
+								Count: 1b
+								id: "tomeofblood:mint_tea"
+							}
+							{
+								Count: 1b
+								id: "the_deep_void:grimberry_juice"
+							}
+						]
+					}
+				}
+				title: "Glow Berry Jam or Grim Berry Juice or Mint Tea"
+				type: "item"
+			}]
+			title: "Midwinter Relaxation"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A4AB38047A3E969"]
+			description: ["&4Some little ones are afraid of the big bad Krampus. They leave up cookies and milk for him at night so that he may devour those instead of them."]
+			id: "5FC14361C9433970"
+			rewards: [{
+				id: "2773B1B67B784645"
+				item: {
+					Count: 1
+					id: "reliquary:mercy_cross"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0010B9A2E4B6D102"
+				item: "born_in_chaos_v1:creepy_cookies_with_milk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A4AB38047A3E969"]
+			description: ["&4Me and my battle buddies, we don't fear no Krampus! In fact, we're going on a hunt! Krampus is no legend, he is very real and is rumored to appear in the winter months. Well, let's go find him! Let's eat all of the gingerbread in the world to summon him!"]
+			id: "00C1976AC8C97EA6"
+			tasks: [{
+				consume_items: true
+				id: "4C6469A7F1E2723F"
+				item: "born_in_chaos_v1:spiritual_gingerbread"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2305A64957A67DA9"]
+			description: [
+				"&4Some cultists say they found these strange petrified trees in a far away dimension, and it contains white resin. Most of them crumpled in frustration as they didn't much many uses for the resin. A certain cultist though.. he distilled the resin and began selling it at the market as \"maple\" syrup. "
+				""
+				"&4Eventually, he even decided to enchant a bottle with his buddies on an altar and it turned magical! Legends say these few maple syrup bottles contain unlimited liquid as long as you take just a little sip. It probably has some other powerful side effects as well!"
+			]
+			id: "4BF1023161909A8E"
+			rewards: [{
+				id: "7CB5DF9CF4EC4F62"
+				item: "concatenationcore:maple_bottle"
+				team_reward: true
+				type: "item"
+			}]
+			size: 1.05d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "74092D8E9F0F3E03"
+				item: "perdition:resin"
+				type: "item"
+			}]
+			title: "Yield of the Resin"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["52720D9F658C62FF"]
+			description: ["&4I love cooking! And I have a warrior friend who also does! I know, I'll gift him a Netherite knife! This way, he'll never have to worry about running out of knives or overcooked meat! I wonder what his gift will be..."]
+			id: "5BFA02876229B534"
+			rewards: [{
+				count: 48
+				id: "6EB597D0131074B1"
+				item: "farmersdelight:smoked_ham"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54784E379058650E"
+				item: {
+					Count: 1
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["52720D9F658C62FF"]
+			description: ["&4My cartographer friend in my party has always been looking for some rare ink to complete his globe. Perhaps I should get one, I've seen it at the antique shop! I wonder what his gift will be..."]
+			id: "6F188A4AC61960A6"
+			rewards: [{
+				id: "02E6BD066C258CBC"
+				item: {
+					Count: 1
+					id: "tconstruct:modifier_crystal"
+					tag: {
+						modifier: "tconstruct:minimap"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "392ED55A015D4E8E"
+				item: "supplementaries:antique_ink"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["52720D9F658C62FF"]
+			description: ["&4My archer friend likes setting stuff on fire, what if I got him something that's a bit stronger than just a flint and brick? Haha, kidding. But what if I did? He could have flaming arrows all day! I wonder what his gift will be..."]
+			id: "40FA8C73477F2AA6"
+			rewards: [{
+				id: "022D4B6B2626A239"
+				item: {
+					Count: 1
+					id: "minecolonies:santa_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7356848E9626A90B"
+				item: {
+					Count: 1
+					id: "tconstruct:flint_and_brick"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:firestarter"
+							}
+							{
+								level: 1
+								name: "tconstruct:fiery"
+							}
+							{
+								level: 1
+								name: "tconstruct:scorching"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+						tic_volatile_data: {
+							upgrades: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["52720D9F658C62FF"]
+			description: ["&4For my engineer friend, I think I'll gift her a witch hat. Surely she can melt it in her smeltery to see what it contains. I always wondered what are in those hats witches wear. I wonder what her gift will be..."]
+			id: "08FEEBB1C86D2B06"
+			rewards: [{
+				id: "7F134426952B7857"
+				item: {
+					Count: 1
+					id: "concatenationcore:crushed_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "38C3DD7C8DADC003"
+				item: "reliquary:witch_hat"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+	]
+	subtitle: ["Seasonal Event"]
+	title: "Winter 2025"
+}

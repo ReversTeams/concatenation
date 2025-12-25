@@ -6,7 +6,6 @@
 	default_repeatable_quest: true
 	filename: "the_economy_fools"
 	group: "4AEECD5B848DA3A1"
-	hide_quest_until_deps_complete: true
 	icon: "thermal:enderium_coin"
 	id: "482D038EC4A5B53B"
 	order_index: 1
@@ -14,6 +13,7 @@
 	quests: [
 		{
 			can_repeat: false
+			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"The Confederation of Karaonia, my country, and most probably yours, seeing the vast settled and unsettled lands this loose country holds, has issued a new currency system to replace the completely disfunctional old standards."
 				""
@@ -25,6 +25,7 @@
 				"{@pagebreak}"
 				"As a result we now find ourselves with this frail paper currency, printed by the newly formed \"Mint of Karaonia\"."
 			]
+			hide_until_deps_complete: false
 			icon: "minecraft:diamond"
 			id: "4C2E22EDFE23E329"
 			rewards: [{
@@ -32,12 +33,8 @@
 				item: "concatenationcore:one_karaon"
 				type: "item"
 			}]
-			subtitle: "Comet sighted"
+			subtitle: "Comet Sighted"
 			tasks: [
-				{
-					id: "0C20A146940FCE51"
-					type: "checkmark"
-				}
 				{
 					id: "34C02497D9F6B8B4"
 					item: {
@@ -1051,25 +1048,7 @@
 			rewards: [
 				{
 					id: "7E2D5ED22B2CE2A7"
-					item: {
-						Count: 1
-						id: "concatenationcore:platinum_card"
-						tag: {
-							CurioAttributeModifiers: [{
-								Amount: 2
-								AttributeName: "generic.max_health"
-								Name: "generic.max_health"
-								Operation: 0
-								Slot: "element_holder"
-								UUID: [I;
-									-1955054564
-									-425507725
-									-1866911182
-									-1407636802
-								]
-							}]
-						}
-					}
+					item: "concatenationcore:concatenator"
 					type: "item"
 				}
 				{
@@ -2358,6 +2337,7 @@
 			y: -4.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["60639CD0322496FA"]
 			description: ["...The merchant says that this is a relic that'll improve your health. That's it. He didn't even try to embellish it at all and extended his palm for the bills. If they didn't want to sell it, they could've just said so. What the heck is wrong with this place!?"]
 			hide_dependency_lines: true
@@ -2382,26 +2362,8 @@
 			}
 			id: "1A7007D9E742017E"
 			rewards: [{
-				id: "7D3F26F4FBB2A966"
-				item: {
-					Count: 1
-					id: "concatenationcore:rython"
-					tag: {
-						CurioAttributeModifiers: [{
-							Amount: 2
-							AttributeName: "generic.max_health"
-							Name: "generic.max_health"
-							Operation: 0
-							Slot: "charm"
-							UUID: [I;
-								-1049641899
-								-1698279708
-								-1222758712
-								1471568110
-							]
-						}]
-					}
-				}
+				id: "0D9777427F20D444"
+				item: "concatenationcore:concatenator"
 				type: "item"
 			}]
 			tasks: [{
@@ -2886,6 +2848,7 @@
 			y: -6.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["60639CD0322496FA"]
 			description: [
 				"\"Ooh, a magical curio! I can tell that this one's rather powerful. It'll make you move faster and hit harder!\" "
@@ -2897,44 +2860,11 @@
 				"&m&c\"Please stop talking to me.\"&r&r"
 			]
 			hide_dependency_lines: true
-			icon: "tconstruct:silky_jewel"
+			icon: "minecraft:emerald"
 			id: "3536F6023DF1BDF9"
 			rewards: [{
-				id: "79B8C5612170F044"
-				item: {
-					Count: 1
-					id: "tconstruct:silky_jewel"
-					tag: {
-						AttributeModifiers: [
-							{
-								Amount: 2
-								AttributeName: "generic.attack_damage"
-								Name: "generic.attack_damage"
-								Operation: 0
-								Slot: "offhand"
-								UUID: [I;
-									-1358149058
-									-1385804997
-									-1412454791
-									1476616682
-								]
-							}
-							{
-								Amount: 2
-								AttributeName: "generic.movement_speed"
-								Name: "generic.movement_speed"
-								Operation: 0
-								Slot: "offhand"
-								UUID: [I;
-									83222689
-									-907786351
-									-2056990411
-									898477935
-								]
-							}
-						]
-					}
-				}
+				id: "455659DE1E27F6C7"
+				item: "concatenationcore:concatenator"
 				type: "item"
 			}]
 			tasks: [{
