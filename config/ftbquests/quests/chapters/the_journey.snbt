@@ -250,8 +250,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.5d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2157576FC7005917"]
@@ -381,40 +381,22 @@
 				"I've witnessed a castle that was built with iron railings, completely rusted within a year. Fortunately, while it was still inhabited, the resident Magician could clear the rust free of charge with golden tools."
 			]
 			id: "3F53C388105917F6"
-			rewards: [
-				{
-					id: "4948A959B89F8873"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
+			rewards: [{
+				id: "4989EDC1F956FE83"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
+							Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
 						}
-						id: "concatenationcore:hammer"
-						tag: {
-							Damage: 0
-						}
+						type: "building_kit"
 					}
-					type: "item"
 				}
-				{
-					id: "4989EDC1F956FE83"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"Build yourself a nicer house.\",\"color\":\"yellow\",\"italic\":true}"]
-								Name: "{\"text\":\"Building Kit\",\"italic\":false,\"color\":\"yellow\"}"
-							}
-							type: "building_kit"
-						}
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+				random_bonus: 1
+				type: "item"
+			}]
 			subtitle: "Square Steel"
 			tasks: [{
 				id: "5A9A92E241A904E0"
@@ -591,8 +573,8 @@
 				type: "item"
 			}]
 			title: "Dawn of Logistics"
-			x: -16.55d
-			y: 11.25d
+			x: -15.649999999999999d
+			y: 10.799999999999999d
 		}
 		{
 			dependencies: ["1D9002F6E0272ABC"]
@@ -651,8 +633,8 @@
 				type: "item"
 			}]
 			title: "Steam Transportation"
-			x: -17.55d
-			y: 11.75d
+			x: -16.65d
+			y: 11.299999999999999d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -700,8 +682,8 @@
 				type: "item"
 			}]
 			title: "Router"
-			x: -17.55d
-			y: 12.75d
+			x: -16.65d
+			y: 12.299999999999999d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -729,8 +711,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.55d
-			y: 11.75d
+			x: -17.599999999999998d
+			y: 11.049999999999999d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -823,8 +805,8 @@
 				type: "item"
 			}]
 			title: "Chariots"
-			x: -18.55d
-			y: 12.75d
+			x: -17.599999999999998d
+			y: 12.049999999999999d
 		}
 		{
 			dependencies: ["0A2A4FED9A1AD865"]
@@ -855,8 +837,8 @@
 				type: "item"
 			}]
 			title: "&6The Chariot"
-			x: -19.8d
-			y: 13.375d
+			x: -18.9d
+			y: 12.924999999999999d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -906,8 +888,8 @@
 				type: "item"
 			}]
 			title: "Electrification"
-			x: -20.950000000000003d
-			y: 14.049999999999999d
+			x: -20.05d
+			y: 13.599999999999998d
 		}
 		{
 			dependencies: ["1D9002F6E0272ABC"]
@@ -932,8 +914,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.5d
-			y: 8.099999999999998d
+			x: -18.0d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["73C5D7FC9AB3E5F8"]
@@ -957,8 +939,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.85d
-			y: 8.099999999999998d
+			x: -18.9d
+			y: 7.6499999999999995d
 		}
 		{
 			dependencies: [
@@ -1095,8 +1077,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.950000000000003d
-			y: 7.2d
+			x: -18.45d
+			y: 6.3d
 		}
 		{
 			dependencies: ["58FF082917ADFA66"]
@@ -1188,7 +1170,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 10.5d
 		}
 		{
@@ -1217,8 +1199,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.25d
-			y: 11.75d
+			x: -4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1299,8 +1281,8 @@
 				}
 			]
 			title: "The Mighty Smeltery"
-			x: -5.5d
-			y: 12.5d
+			x: -6.05d
+			y: 13.200000000000001d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1360,7 +1342,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -1398,7 +1380,7 @@
 					xp_levels: 1
 				}
 			]
-			size: 1.25d
+			size: 1.4d
 			tasks: [{
 				id: "7D2835F556B395A1"
 				item: {
@@ -1413,8 +1395,8 @@
 				type: "item"
 			}]
 			title: "&bSimple Machine Frame"
-			x: -26.700000000000003d
-			y: 21.5d
+			x: -26.25d
+			y: 16.25d
 		}
 		{
 			dependencies: [
@@ -1545,7 +1527,7 @@
 				type: "item"
 			}]
 			x: -15.524999999999999d
-			y: -2.3d
+			y: -4.0249999999999995d
 		}
 		{
 			dependencies: ["73CD8163D268BA95"]
@@ -2317,8 +2299,8 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
-			y: -2.5d
+			x: -16.875d
+			y: -4.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2367,8 +2349,8 @@
 				type: "item"
 			}]
 			title: "Core of the System"
-			x: -18.5d
-			y: -2.0d
+			x: -18.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2413,8 +2395,8 @@
 				}
 			]
 			title: "ME Storage System"
-			x: -18.5d
-			y: -3.0d
+			x: -18.375d
+			y: -4.5d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2438,8 +2420,8 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
-			y: -2.5d
+			x: -19.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2487,8 +2469,8 @@
 					type: "item"
 				}
 			]
-			x: -20.0d
-			y: -4.0d
+			x: -19.875d
+			y: -5.5d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -8600,8 +8582,8 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 13.0d
+			x: -11.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["068DF533DB041F37"]
@@ -9185,8 +9167,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 10.0d
+			x: -1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9236,8 +9218,8 @@
 				}
 			]
 			title: "Steel Making"
-			x: -28.200000000000003d
-			y: 21.125d
+			x: -27.7d
+			y: 16.4d
 		}
 		{
 			dependencies: [
@@ -9413,8 +9395,8 @@
 				}
 			]
 			title: "High Priestess' Way"
-			x: -28.900000000000002d
-			y: 22.125d
+			x: -28.4d
+			y: 17.4d
 		}
 		{
 			dependencies: ["33BA0ACE3EA7C44B"]
@@ -9454,8 +9436,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.1d
-			y: 18.674999999999997d
+			x: -7.475d
+			y: 17.825d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -9484,7 +9466,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.0d
 			y: 15.5d
 		}
 		{
@@ -9531,8 +9513,8 @@
 				type: "item"
 			}]
 			title: "&bThe High Priestess"
-			x: -31.500000000000004d
-			y: 21.125d
+			x: -31.075d
+			y: 18.9d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -9557,8 +9539,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.75d
-			y: 15.75d
+			x: -15.299999999999999d
+			y: 13.95d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -9582,8 +9564,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 18.9d
+			x: -16.849999999999998d
+			y: 17.549999999999997d
 		}
 		{
 			dependencies: ["5B8A16E0E3A1794D"]
@@ -9607,8 +9589,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.9d
-			y: 18.45d
+			x: -17.749999999999996d
+			y: 17.099999999999998d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -9633,8 +9615,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 15.75d
+			x: -16.849999999999998d
+			y: 14.399999999999999d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -9658,8 +9640,8 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
-			y: 17.55d
+			x: -16.849999999999998d
+			y: 16.2d
 		}
 		{
 			dependencies: ["7948CF780F8B6C0B"]
@@ -9694,6 +9676,8 @@
 			dependencies: [
 				"139E166A1202B454"
 				"13B6EECFB6B3911E"
+				"6AABF2BA290CD429"
+				"51211E92BC865FDC"
 			]
 			dependency_requirement: "one_started"
 			description: ["With the Tower pathway, you can create many mechanical and kinetic things. If you ever find yourself needing further detail about this or that machine, it seems just pondering their existance for a while and an explanation will get magically projected into your eyes."]
@@ -10089,8 +10073,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.65d
-			y: -1.3499999999999999d
+			x: -16.525d
+			y: -2.8499999999999996d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -10122,8 +10106,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.700000000000003d
-			y: 19.625d
+			x: -26.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["405495BB2F379536"]
@@ -10225,8 +10209,8 @@
 				title: "Any Non-Stirling Dynamo"
 				type: "item"
 			}]
-			x: -26.700000000000003d
-			y: 18.125d
+			x: -26.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["65C1B6B2B147028E"]
@@ -10994,8 +10978,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.700000000000003d
-			y: 22.125d
+			x: -27.2d
+			y: 17.4d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11049,8 +11033,8 @@
 					type: "item"
 				}
 			]
-			x: -28.200000000000003d
-			y: 19.625d
+			x: -26.25d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2A13540D4E396260"]
@@ -11079,8 +11063,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.200000000000003d
-			y: 21.625d
+			x: -30.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11104,8 +11088,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.700000000000003d
-			y: 22.125d
+			x: -25.5d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -11171,8 +11155,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 17.5d
+			x: -7.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["3B824E760CC7B14B"]
@@ -11281,8 +11265,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.7d
-			y: 20.0d
+			x: -32.575d
+			y: 19.275d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11307,8 +11291,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.300000000000004d
-			y: 26.424999999999997d
+			x: -30.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11333,8 +11317,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.300000000000004d
-			y: 27.424999999999997d
+			x: -31.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11358,8 +11342,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.300000000000004d
-			y: 27.924999999999997d
+			x: -32.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -11399,8 +11383,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.2d
-			y: 18.125d
+			x: -35.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -11424,11 +11408,11 @@
 				}
 				type: "item"
 			}]
-			x: -35.7d
-			y: 18.625d
+			x: -37.5d
+			y: 19.5d
 		}
 		{
-			dependencies: ["36318C8D65509470"]
+			dependencies: ["4D66CC58CC466767"]
 			description: ["The powercell is the first form of storing RF power. It can be set to accept an input or with the right click of the smart wrench on one of its faces."]
 			icon: "rftoolspower:cell1"
 			id: "2638CC10E4FF66C1"
@@ -11451,8 +11435,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.550000000000004d
-			y: 22.924999999999997d
+			x: -26.549999999999997d
+			y: 13.949999999999998d
 		}
 		{
 			dependencies: ["2E2A38A96D401883"]
@@ -11500,8 +11484,8 @@
 					type: "item"
 				}
 			]
-			x: -38.7d
-			y: 17.625d
+			x: -40.375d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6BDF163C7FC006CB"]
@@ -11525,8 +11509,8 @@
 				}
 				type: "item"
 			}]
-			x: -39.7d
-			y: 16.625d
+			x: -40.875d
+			y: 17.5d
 		}
 		{
 			dependencies: [
@@ -11562,8 +11546,8 @@
 				}
 				type: "item"
 			}]
-			x: -37.5d
-			y: 18.725d
+			x: -40.675d
+			y: 20.7d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -11574,7 +11558,6 @@
 				"{@pagebreak}"
 				"It can pair nicely with the incubator, as panvita can be used to produce phyto-grow."
 			]
-			hide_dependency_lines: true
 			id: "7923120C58E4B567"
 			rewards: [
 				{
@@ -11603,8 +11586,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.250000000000004d
-			y: 23.174999999999997d
+			x: -32.375d
+			y: 18.0d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -11629,8 +11612,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.7d
-			y: 18.625d
+			x: -33.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11654,8 +11637,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.700000000000003d
-			y: 19.125d
+			x: -29.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -11679,8 +11662,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.700000000000003d
-			y: 22.625d
+			x: -24.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -11706,10 +11689,16 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -40.45d
-			y: 20.174999999999997d
+			x: -43.550000000000004d
+			y: 19.449999999999996d
 		}
 		{
+			dependencies: [
+				"51211E92BC865FDC"
+				"6AABF2BA290CD429"
+				"0F2FB52232FC40C5"
+			]
+			dependency_requirement: "one_started"
 			description: ["The &9Minor Arcana of the Cup&r is a branch under the High Priestess pathway, delving more intensively into logistics through cables."]
 			id: "10A7F0DA56020A8C"
 			rewards: [
@@ -11747,8 +11736,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -20.75d
-			y: 2.3999999999999986d
+			x: -18.974999999999998d
+			y: -0.7249999999999996d
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
@@ -11808,8 +11797,8 @@
 					type: "item"
 				}
 			]
-			x: -21.0d
-			y: 1.0d
+			x: -20.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["10A7F0DA56020A8C"]
@@ -11871,8 +11860,8 @@
 				title: "Any Menril Wood"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 2.0d
+			x: -20.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -11911,8 +11900,8 @@
 					type: "item"
 				}
 			]
-			x: -20.0d
-			y: 0.0d
+			x: -20.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -11945,8 +11934,8 @@
 				}
 				type: "item"
 			}]
-			x: -23.0d
-			y: 1.0d
+			x: -22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -11970,8 +11959,8 @@
 				}
 				type: "item"
 			}]
-			x: -24.5d
-			y: 1.5d
+			x: -23.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -11995,8 +11984,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.300000000000004d
-			y: 28.42500000000001d
+			x: -29.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12021,7 +12010,7 @@
 				type: "item"
 			}]
 			x: -24.0d
-			y: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3F86C492412EBA3F"]
@@ -12135,8 +12124,8 @@
 					type: "item"
 				}
 			]
-			x: -25.0d
-			y: -0.5d
+			x: -25.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["58D41204FAEC60DF"]
@@ -12171,8 +12160,8 @@
 				title: "Any Terminal"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 0.0d
+			x: -23.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4C8C2AA343360B7D"]
@@ -12198,7 +12187,7 @@
 				type: "item"
 			}]
 			x: -21.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4E44852EB1DA116A"]
@@ -12221,8 +12210,8 @@
 				}
 				type: "item"
 			}]
-			x: -22.0d
-			y: -2.0d
+			x: -23.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3D1C47F3A9B804B4"]
@@ -12264,7 +12253,6 @@
 				""
 				"&a(Plate carriers can also be worn in the \"Body\" curio slot for +4 armor)&r"
 			]
-			hide_dependency_lines: true
 			id: "44CF40523871B36F"
 			rewards: [
 				{
@@ -12296,8 +12284,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -29.5d
-			y: 11.0d
+			x: -28.699999999999996d
+			y: 9.074999999999989d
 		}
 		{
 			dependencies: ["6CC9A41A95921C52"]
@@ -14583,13 +14571,13 @@
 		{
 			dependencies: ["2A13540D4E396260"]
 			description: ["The jetpack is an incredible mobility force. Powered by RF energy, the jetpacks allows for a certain ability of flight and high movement for the user."]
-			hide_dependency_lines: true
 			id: "1B09621238805777"
 			rewards: [{
 				id: "7647171158822F1B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			size: 0.85d
 			tasks: [{
 				id: "0213ADB40BB130E0"
 				item: {
@@ -14629,8 +14617,8 @@
 				type: "item"
 			}]
 			title: "Jetpack"
-			x: -30.0d
-			y: 10.0d
+			x: -29.325d
+			y: 16.15d
 		}
 		{
 			dependencies: ["662F8F7426A07A9D"]
@@ -14654,8 +14642,8 @@
 				}
 				type: "item"
 			}]
-			x: -42.0d
-			y: 21.825000000000003d
+			x: -45.1d
+			y: 21.1d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -14703,8 +14691,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.0d
-			y: 10.0d
+			x: -30.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["137E5079D198BF5C"]
@@ -14733,17 +14721,16 @@
 				}
 				type: "item"
 			}]
-			x: -43.0d
-			y: 22.825000000000003d
+			x: -46.1d
+			y: 22.1d
 		}
 		{
-			dependencies: ["33F8735D8322AFE6"]
+			dependencies: ["51302FFECDC0E0A7"]
 			description: [
 				"An upgrade of the solar panel. There exists two variations with the same output in the end: one builds off the existing tier 2 solar panels and compacts them together to produce extra RF power in a smaller space. "
 				""
 				"The other is more expensive but builds on top of a new process to not have to retroactively manufacture all previous tiers of the solar panel."
 			]
-			hide_dependency_lines: true
 			id: "1AB989E044EBCB6D"
 			rewards: [{
 				id: "2CCC35D6CE262172"
@@ -14763,8 +14750,8 @@
 				}
 				type: "item"
 			}]
-			x: -36.2d
-			y: 16.625d
+			x: -28.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["547DFAC1D247643C"]
@@ -15076,12 +15063,11 @@
 					type: "item"
 				}
 			]
-			x: -48.0d
-			y: 25.325000000000003d
+			x: -52.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
-			hide_until_deps_complete: true
 			id: "16425F7B3E364B17"
 			rewards: [{
 				count: 2
@@ -15113,8 +15099,8 @@
 				}
 				type: "item"
 			}]
-			x: -53.25d
-			y: 28.125d
+			x: -54.25d
+			y: 27.125d
 		}
 		{
 			dependencies: [
@@ -15207,8 +15193,8 @@
 					type: "item"
 				}
 			]
-			x: -42.625d
-			y: 27.325000000000003d
+			x: -45.725d
+			y: 26.6d
 		}
 		{
 			dependencies: [
@@ -15246,8 +15232,8 @@
 				type: "item"
 			}]
 			title: "&2Justice"
-			x: -52.15d
-			y: 26.724999999999994d
+			x: -53.15d
+			y: 25.724999999999994d
 		}
 		{
 			dependencies: [
@@ -15274,8 +15260,8 @@
 				}
 				type: "item"
 			}]
-			x: -40.5d
-			y: 23.825000000000003d
+			x: -43.6d
+			y: 23.1d
 		}
 		{
 			dependencies: [
@@ -15371,10 +15357,7 @@
 			y: 14.125d
 		}
 		{
-			dependencies: [
-				"1AB989E044EBCB6D"
-				"3AF5EB2526EAD40C"
-			]
+			dependencies: ["1AB989E044EBCB6D"]
 			description: ["Building upon the success of Tier III Solar Panels, which marked a significant leap in efficiency and technology, Tier IV Solar Panels represent the pinnacle of advancements in celestial energy harnessing. These panels integrate either compacting models or the newly developed process from Tier III,"]
 			id: "6EA8FF0A2426916D"
 			rewards: [{
@@ -15395,8 +15378,8 @@
 				}
 				type: "item"
 			}]
-			x: -36.7d
-			y: 17.625d
+			x: -28.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -15420,8 +15403,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.2d
-			y: 19.625d
+			x: -34.075d
+			y: 18.9d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -15451,8 +15434,8 @@
 				}
 				type: "item"
 			}]
-			x: -34.2d
-			y: 20.625d
+			x: -34.075d
+			y: 19.9d
 		}
 		{
 			dependencies: [
@@ -15479,8 +15462,8 @@
 				}
 				type: "item"
 			}]
-			x: -35.2d
-			y: 20.125d
+			x: -35.375d
+			y: 19.5d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -15508,8 +15491,8 @@
 				}
 				type: "item"
 			}]
-			x: -36.7d
-			y: 19.625d
+			x: -37.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["1974390B046B7B6A"]
@@ -15860,8 +15843,8 @@
 				}
 				type: "item"
 			}]
-			x: -37.7d
-			y: 16.625d
+			x: -27.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3C2CD34C769A34FC"]
@@ -15885,8 +15868,8 @@
 				}
 				type: "item"
 			}]
-			x: -38.2d
-			y: 15.625d
+			x: -27.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["5C1996BF7424D743"]
@@ -15910,8 +15893,8 @@
 				}
 				type: "item"
 			}]
-			x: -38.7d
-			y: 14.625d
+			x: -26.0d
+			y: 24.5d
 		}
 		{
 			dependencies: ["51302FFECDC0E0A7"]
@@ -15920,6 +15903,7 @@
 				""
 				"You can insert this in a thermal series machine to upgrade all of its base stats by a factor of 2x."
 			]
+			hide_dependency_lines: true
 			id: "25E533314EFCD83A"
 			rewards: [{
 				count: 4
@@ -15941,8 +15925,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.100000000000005d
-			y: 24.525000000000006d
+			x: -30.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -15971,8 +15955,8 @@
 				}
 				type: "item"
 			}]
-			x: -30.900000000000006d
-			y: 25.325000000000003d
+			x: -30.8d
+			y: 11.2d
 		}
 		{
 			dependencies: [
@@ -16002,8 +15986,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.600000000000005d
-			y: 26.125d
+			x: -31.6d
+			y: 10.8d
 		}
 		{
 			dependencies: ["2EDD432C547674F0"]
@@ -16027,8 +16011,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.0d
-			y: 10.0d
+			x: -31.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -16080,8 +16064,8 @@
 				title: "Any Capacity Upgrade"
 				type: "item"
 			}]
-			x: -29.050000000000004d
-			y: 25.525000000000006d
+			x: -28.349999999999998d
+			y: 9.9d
 		}
 		{
 			dependencies: ["25E533314EFCD83A"]
@@ -16142,8 +16126,8 @@
 				title: "Any Other Upgrade"
 				type: "item"
 			}]
-			x: -28.150000000000006d
-			y: 26.424999999999997d
+			x: -28.799999999999997d
+			y: 10.35d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -16183,8 +16167,8 @@
 					type: "item"
 				}
 			]
-			x: -33.8d
-			y: 23.599999999999994d
+			x: -32.725d
+			y: 22.525d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16263,8 +16247,8 @@
 					type: "item"
 				}
 			]
-			x: -37.7d
-			y: 20.625d
+			x: -39.875d
+			y: 23.1d
 		}
 		{
 			dependencies: [
@@ -16296,8 +16280,8 @@
 				}
 				type: "item"
 			}]
-			x: -38.2d
-			y: 21.625d
+			x: -40.375d
+			y: 24.1d
 		}
 		{
 			dependencies: ["55E53ED9BDDE16AA"]
@@ -16324,8 +16308,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.95d
-			y: 23.174999999999997d
+			x: -31.875d
+			y: 22.099999999999998d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16390,8 +16374,8 @@
 					type: "item"
 				}
 			]
-			x: -38.7d
-			y: 20.525d
+			x: -40.875d
+			y: 23.0d
 		}
 		{
 			dependencies: ["1F63B99669BB1002"]
@@ -16406,8 +16390,8 @@
 				item: "concatenationcore:laser_diode"
 				type: "item"
 			}]
-			x: -39.5d
-			y: 22.325000000000003d
+			x: -42.6d
+			y: 21.6d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16497,8 +16481,8 @@
 				}
 			]
 			title: "Addons"
-			x: -39.7d
-			y: 18.625d
+			x: -42.375d
+			y: 18.5d
 		}
 		{
 			dependencies: ["4A8A1D4B99AB1DCA"]
@@ -16522,8 +16506,8 @@
 				}
 				type: "item"
 			}]
-			x: -36.7d
-			y: 21.625d
+			x: -37.875d
+			y: 22.0d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16559,8 +16543,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -37.2d
-			y: 23.125d
+			x: -38.375d
+			y: 23.5d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16626,8 +16610,8 @@
 				}
 			]
 			title: "Infinity Tools"
-			x: -36.2d
-			y: 23.125d
+			x: -37.375d
+			y: 23.5d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16697,8 +16681,8 @@
 				}
 			]
 			title: "Infinity Weapons"
-			x: -35.2d
-			y: 23.125d
+			x: -36.375d
+			y: 23.5d
 		}
 		{
 			dependencies: ["7223BE78D2D053A8"]
@@ -16748,8 +16732,8 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -36.3d
-			y: 24.724999999999994d
+			x: -37.474999999999994d
+			y: 25.099999999999994d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -16768,13 +16752,12 @@
 				}
 				type: "item"
 			}]
-			x: -41.2d
-			y: 22.625d
+			x: -44.300000000000004d
+			y: 21.9d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
 			dependency_requirement: "one_started"
-			hide_until_deps_complete: true
 			id: "490912716C7BB2C6"
 			rewards: [{
 				count: 8
@@ -16810,8 +16793,8 @@
 					type: "item"
 				}
 			]
-			x: -42.0d
-			y: 24.325000000000003d
+			x: -45.1d
+			y: 23.6d
 		}
 		{
 			dependencies: ["3900C73EA601F27C"]
@@ -16829,8 +16812,8 @@
 				}
 				type: "item"
 			}]
-			x: -44.5d
-			y: 23.825000000000003d
+			x: -47.6d
+			y: 23.1d
 		}
 		{
 			dependencies: ["6B8090BCBDEE94FD"]
@@ -16868,8 +16851,8 @@
 					type: "item"
 				}
 			]
-			x: -46.0d
-			y: 25.325000000000003d
+			x: -49.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["33F8735D8322AFE6"]
@@ -16890,6 +16873,7 @@
 				}
 				type: "item"
 			}]
+			size: 0.85d
 			tasks: [
 				{
 					id: "6C3EF526B2C29176"
@@ -17057,8 +17041,8 @@
 				}
 			]
 			title: "Steel Armor"
-			x: -29.700000000000003d
-			y: 20.625d
+			x: -27.625d
+			y: 14.875d
 		}
 		{
 			dependencies: ["5F12CF1071CE8A45"]
@@ -17086,8 +17070,8 @@
 				}
 				type: "item"
 			}]
-			x: -41.0d
-			y: 21.325000000000003d
+			x: -44.1d
+			y: 20.6d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -17264,8 +17248,8 @@
 				}
 			]
 			title: "Refined Armour"
-			x: -46.5d
-			y: 23.825000000000003d
+			x: -50.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -17289,8 +17273,8 @@
 				}
 				type: "item"
 			}]
-			x: -40.5d
-			y: 25.325000000000003d
+			x: -43.6d
+			y: 24.6d
 		}
 		{
 			dependencies: ["35AEE847FE74A61B"]
@@ -17313,12 +17297,11 @@
 				}
 				type: "item"
 			}]
-			x: -39.5d
-			y: 26.325000000000003d
+			x: -42.6d
+			y: 25.6d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
-			hide_until_deps_complete: true
 			id: "2CBF35812250C02D"
 			tasks: [{
 				id: "3E19E063AE068FB7"
@@ -17333,8 +17316,8 @@
 				}
 				type: "item"
 			}]
-			x: -44.5d
-			y: 25.325000000000003d
+			x: -47.6d
+			y: 24.6d
 		}
 		{
 			dependencies: [
@@ -17355,8 +17338,8 @@
 				}
 				type: "item"
 			}]
-			x: -43.5d
-			y: 26.325000000000003d
+			x: -46.6d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -17459,8 +17442,8 @@
 					type: "item"
 				}
 			]
-			x: -41.0d
-			y: 26.325000000000003d
+			x: -44.1d
+			y: 25.6d
 		}
 		{
 			dependencies: ["490912716C7BB2C6"]
@@ -17483,8 +17466,8 @@
 				}
 				type: "item"
 			}]
-			x: -42.0d
-			y: 25.825000000000003d
+			x: -45.1d
+			y: 25.1d
 		}
 		{
 			dependencies: [
@@ -17630,8 +17613,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.95d
-			y: 21.475d
+			x: -31.45d
+			y: 20.4d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -17664,8 +17647,8 @@
 				}
 				type: "item"
 			}]
-			x: -47.0d
-			y: 26.700000000000003d
+			x: -51.0d
+			y: 24.875d
 		}
 		{
 			dependencies: ["5D51BC92697C39DD"]
@@ -17693,8 +17676,8 @@
 				}
 				type: "item"
 			}]
-			x: -46.5d
-			y: 27.700000000000003d
+			x: -50.5d
+			y: 25.875d
 		}
 		{
 			dependencies: ["344B314D434D12C1"]
@@ -17723,8 +17706,8 @@
 				}
 				type: "item"
 			}]
-			x: -45.625d
-			y: 26.825000000000003d
+			x: -49.125d
+			y: 25.5d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -17748,12 +17731,11 @@
 				}
 				type: "item"
 			}]
-			x: -54.375d
-			y: 29.125d
+			x: -55.375d
+			y: 28.125d
 		}
 		{
 			dependencies: ["2B825471FE41A521"]
-			hide_until_deps_complete: true
 			id: "1221A32C145FCE8B"
 			rewards: [{
 				count: 3
@@ -17774,8 +17756,8 @@
 				}
 				type: "item"
 			}]
-			x: -50.5d
-			y: 28.5d
+			x: -51.5d
+			y: 28.0d
 		}
 		{
 			dependencies: ["1221A32C145FCE8B"]
@@ -17799,8 +17781,8 @@
 				}
 				type: "item"
 			}]
-			x: -49.0d
-			y: 29.5d
+			x: -52.5d
+			y: 29.0d
 		}
 		{
 			dependencies: ["2638CC10E4FF66C1"]
@@ -17831,8 +17813,8 @@
 				}
 				type: "item"
 			}]
-			x: -27.1d
-			y: 24.224999999999994d
+			x: -27.099999999999998d
+			y: 12.999999999999996d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -17865,8 +17847,8 @@
 					type: "item"
 				}
 			]
-			x: -27.900000000000002d
-			y: 24.724999999999994d
+			x: -27.9d
+			y: 12.149999999999999d
 		}
 		{
 			dependencies: ["57E0A183AE783034"]
@@ -17915,8 +17897,8 @@
 				}
 			]
 			title: "Tablet"
-			x: -27.0d
-			y: 25.174999999999997d
+			x: -26.549999999999997d
+			y: 12.149999999999999d
 		}
 		{
 			dependencies: [
@@ -19225,8 +19207,8 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: -19.5d
-			y: 20.5d
+			x: -18.349999999999998d
+			y: 19.15d
 		}
 		{
 			dependencies: ["0F048A0A3773C3EF"]
@@ -19241,8 +19223,8 @@
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 22.0d
+			x: -19.349999999999998d
+			y: 20.65d
 		}
 		{
 			dependencies: ["129D0C37D4A27A2B"]
@@ -19257,8 +19239,8 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: -17.0d
-			y: 16.5d
+			x: -15.849999999999998d
+			y: 15.149999999999999d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19288,8 +19270,8 @@
 				item: "tconstruct:manyullyn_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 14.5d
+			x: -0.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19469,7 +19451,7 @@
 			]
 			title: "Specialized Tools"
 			x: -3.0d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19547,7 +19529,7 @@
 			}]
 			title: "Vein Hammer"
 			x: -1.5d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19766,7 +19748,7 @@
 			}]
 			title: "Melee Weapons"
 			x: -3.0d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -21519,8 +21501,8 @@
 				item: "rftoolsbuilder:shape_card_quarry"
 				type: "item"
 			}]
-			x: -55.5d
-			y: 30.0d
+			x: -56.5d
+			y: 29.0d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21542,8 +21524,8 @@
 					type: "item"
 				}
 			]
-			x: -54.5d
-			y: 27.0d
+			x: -55.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["108E54D33D1F4ECB"]
@@ -21553,8 +21535,8 @@
 				item: "rftoolsdim:dimlet_workbench"
 				type: "item"
 			}]
-			x: -55.5d
-			y: 26.0d
+			x: -57.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["4395BDCE434949CB"]
@@ -21577,8 +21559,8 @@
 					type: "item"
 				}
 			]
-			x: -56.5d
-			y: 25.0d
+			x: -58.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21593,8 +21575,8 @@
 				item: "rftoolsbuilder:shield_block1"
 				type: "item"
 			}]
-			x: -55.0d
-			y: 28.0d
+			x: -56.0d
+			y: 27.0d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21604,8 +21586,8 @@
 				item: "rftoolsutility:spawner"
 				type: "item"
 			}]
-			x: -53.0d
-			y: 29.5d
+			x: -54.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["16425F7B3E364B17"]
@@ -21641,8 +21623,8 @@
 					type: "item"
 				}
 			]
-			x: -52.0d
-			y: 29.0d
+			x: -53.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -21671,7 +21653,7 @@
 				type: "item"
 			}]
 			title: "The Paxel"
-			x: -4.0d
+			x: -3.5d
 			y: 6.0d
 		}
 		{
@@ -21798,8 +21780,8 @@
 				}
 			]
 			title: "Casting"
-			x: -3.0500000000000007d
-			y: 11.5d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["640ED9A58F8DD165"]
@@ -21840,8 +21822,8 @@
 					type: "item"
 				}
 			]
-			x: -33.300000000000004d
-			y: 28.92500000000001d
+			x: -33.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7E1C64AA0AA235C2"]
@@ -22301,7 +22283,6 @@
 		{
 			dependencies: ["33F8735D8322AFE6"]
 			description: ["The Calralite Hammer is a symbol of power. Its composition provides unmatched resilience, allowing it to endure prolonged use without losing its edge or structural integrity, even when subjected to intense heat or heavy impact."]
-			hide_dependency_lines: true
 			id: "0C234E08F2DA20B1"
 			rewards: [{
 				count: 4
@@ -22309,6 +22290,7 @@
 				item: "concatenationcore:celestial_calralite"
 				type: "item"
 			}]
+			size: 0.85d
 			tasks: [{
 				id: "4BF96387A0FDAE44"
 				item: {
@@ -22320,8 +22302,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.5d
-			y: 11.0d
+			x: -27.625d
+			y: 14.025d
 		}
 		{
 			dependencies: ["3B8127AF958727B0"]
@@ -22393,8 +22375,8 @@
 				item: "solarflux:sp_8"
 				type: "item"
 			}]
-			x: -47.5d
-			y: 30.5d
+			x: -53.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["6EB3E5667F8481FC"]
@@ -23142,8 +23124,8 @@
 				type: "item"
 			}]
 			title: "The Fantastic Foundry"
-			x: -3.0d
-			y: 16.5d
+			x: -3.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3AF5EB2526EAD40C"]
@@ -23161,8 +23143,8 @@
 				item: "quarryplus:workbench"
 				type: "item"
 			}]
-			x: -35.325d
-			y: 17.75d
+			x: -37.0d
+			y: 21.375d
 		}
 		{
 			dependencies: ["0CC91D0458ACB827"]
@@ -23207,8 +23189,8 @@
 				item: "industrialforegoing:machine_frame_supreme"
 				type: "item"
 			}]
-			x: -41.7d
-			y: 19.125d
+			x: -44.800000000000004d
+			y: 18.4d
 		}
 		{
 			dependencies: ["2970C1ADE44898FF"]
@@ -23249,8 +23231,8 @@
 				item: "hpm:largehull"
 				type: "item"
 			}]
-			x: -19.450000000000003d
-			y: 7.3999999999999995d
+			x: -19.8d
+			y: 7.199999999999999d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -23262,8 +23244,8 @@
 				item: "hpm:largemast"
 				type: "item"
 			}]
-			x: -19.450000000000003d
-			y: 8.799999999999997d
+			x: -19.349999999999998d
+			y: 8.549999999999999d
 		}
 		{
 			dependencies: ["5D6BE53739B45840"]
@@ -23659,8 +23641,8 @@
 				type: "item"
 			}]
 			title: "Gemstone Gears"
-			x: -30.700000000000003d
-			y: 18.625d
+			x: -30.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7923120C58E4B567"]
@@ -23702,8 +23684,8 @@
 				type: "item"
 			}]
 			title: "Spores"
-			x: -31.700000000000003d
-			y: 24.125d
+			x: -32.375d
+			y: 16.5d
 		}
 		{
 			dependencies: ["679D7B535BE7E8B2"]
@@ -23736,8 +23718,8 @@
 				item: "quarryplus:mover"
 				type: "item"
 			}]
-			x: -34.7d
-			y: 16.625d
+			x: -36.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["5A609181C445CAAB"]
@@ -23767,8 +23749,8 @@
 					type: "item"
 				}
 			]
-			x: -35.1d
-			y: 21.125d
+			x: -34.8d
+			y: 20.4d
 		}
 		{
 			dependencies: ["4551222320CBAE77"]
@@ -27171,26 +27153,17 @@
 				}
 			]
 			size: 1.15d
-			tasks: [
-				{
-					id: "1ABF72EC883339F0"
-					item: {
-						Count: 1
-						id: "perdition:planeswalker_potion"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "1ABF72EC883339F0"
+				item: {
+					Count: 1
+					id: "perdition:planeswalker_potion"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					dimension: "perdition:purgatory"
-					icon: "perdition:perditio"
-					id: "228C1DFC5120A94D"
-					title: "Visit Purgatory"
-					type: "dimension"
-				}
-			]
+				type: "item"
+			}]
 			x: 15.1d
 			y: 1.4000000000000004d
 		}
@@ -27369,7 +27342,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -24.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["1982249FC850C8A8"]
@@ -27387,8 +27360,8 @@
 				type: "advancement"
 			}]
 			title: "Research"
-			x: -1.5d
-			y: -24.5d
+			x: -2.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27416,9 +27389,14 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -24.0d
+			y: -22.5d
 		}
 		{
+			dependencies: [
+				"73F4AAF2267BB33B"
+				"2970C1ADE44898FF"
+			]
+			dependency_requirement: "one_completed"
 			description: ["&2Anomalous Shards, much like resonite ore, can be found crystalizing under anomalies, seeping into rock. Thorough digging may be required, but do not be hasty, the process takes a long time and can be accelerated with annomalous technology.&r"]
 			id: "622A83A7012371BE"
 			rewards: [
@@ -27472,8 +27450,8 @@
 				type: "item"
 			}]
 			title: "Anomalous Shards"
-			x: 1.175d
-			y: -22.0d
+			x: 1.1749999999999998d
+			y: -20.5d
 		}
 		{
 			dependencies: [
@@ -27507,10 +27485,15 @@
 				weak_nbt_match: true
 			}]
 			title: "&bPrudence Pathway&r"
-			x: 1.175d
-			y: -23.549999999999997d
+			x: 1.1749999999999998d
+			y: -22.049999999999997d
 		}
 		{
+			dependencies: [
+				"73F4AAF2267BB33B"
+				"2970C1ADE44898FF"
+			]
+			dependency_requirement: "one_completed"
 			description: ["&2Resonite is an anomalous material, with various strange properties that should not belong to a metal such as this, if it can be classified as such. There are various means to produce raw resonite or its substitutes, which then has to be charged to exhibit most of its exotic nature.&r"]
 			hide_until_deps_complete: false
 			id: "0A883B806B498A9C"
@@ -27529,7 +27512,7 @@
 			}]
 			title: "Resonite"
 			x: 2.5d
-			y: -22.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27551,7 +27534,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -25.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["125252660A518C4F"]
@@ -27569,7 +27552,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -25.0d
+			y: -23.5d
 		}
 		{
 			dependencies: ["1982249FC850C8A8"]
@@ -27595,8 +27578,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -23.5d
+			x: -2.0d
+			y: -21.5d
 		}
 		{
 			dependencies: [
@@ -27615,8 +27598,8 @@
 				item: "strangematter:research_machine"
 				type: "item"
 			}]
-			x: 1.175d
-			y: -26.5d
+			x: 1.1749999999999998d
+			y: -25.0d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27641,8 +27624,8 @@
 				}
 			]
 			title: "Eccentricities"
-			x: 3.0d
-			y: -27.0d
+			x: 3.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27667,8 +27650,8 @@
 				item: "strangematter:rift_stabilizer"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -28.5d
+			x: -1.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["749ECE54FE00D79F"]
@@ -27689,8 +27672,8 @@
 				item: "strangematter:reality_forge"
 				type: "item"
 			}]
-			x: 1.175d
-			y: -28.0d
+			x: 1.1749999999999998d
+			y: -26.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27707,8 +27690,8 @@
 				item: "strangematter:resonance_condenser"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -27.0d
+			x: -1.5d
+			y: -25.5d
 		}
 		{
 			dependencies: ["44B66416F9E8103D"]
@@ -27724,8 +27707,8 @@
 				item: "strangematter:resonant_conduit"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -27.0d
+			x: -3.0d
+			y: -25.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
@@ -27737,6 +27720,7 @@
 				table_id: 7380857982058536773L
 				type: "random"
 			}]
+			size: 1.1d
 			tasks: [
 				{
 					id: "118ED2E5763005A8"
@@ -27793,8 +27777,8 @@
 				}
 			]
 			title: "Containment of Anomalies"
-			x: 1.175d
-			y: -29.5d
+			x: 1.1749999999999998d
+			y: -28.5d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27816,8 +27800,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -31.0d
+			x: 2.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27833,8 +27817,8 @@
 				item: "strangematter:graviton_hammer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -30.0d
+			x: -0.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27850,8 +27834,8 @@
 				item: "strangematter:hoverboard"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -31.0d
+			x: 0.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["277D7A5F68DCD7CE"]
@@ -27867,8 +27851,8 @@
 				item: "strangematter:echoform_imprinter"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -30.0d
+			x: 3.0d
+			y: -29.0d
 		}
 		{
 			dependencies: ["314ACC07FE5193DC"]
@@ -27958,6 +27942,11 @@
 			y: 13.45d
 		}
 		{
+			dependencies: [
+				"73F4AAF2267BB33B"
+				"2970C1ADE44898FF"
+			]
+			dependency_requirement: "one_completed"
 			description: ["&2Resonite can be charged using either a charging station"]
 			id: "537E72C60F75AAF0"
 			rewards: [{
@@ -27971,7 +27960,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -22.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["57264B7E24823F02"]
@@ -28424,8 +28413,8 @@
 				}
 			]
 			title: "Stone Alloy Smelter"
-			x: -2.0d
-			y: 8.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["06A4BEEE42830A85"]
@@ -28461,8 +28450,8 @@
 				}
 			]
 			title: "Brick Alloy Smelter"
-			x: -4.0d
-			y: 9.5d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7EC83053F1BDF835"]
@@ -28498,7 +28487,7 @@
 			]
 			title: "Scorchia Alloy Smelter"
 			x: -2.5d
-			y: 15.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -28564,8 +28553,8 @@
 				type: "item"
 			}]
 			title: "Certus Quartz Tools"
-			x: -16.875d
-			y: -3.75d
+			x: -16.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["395E588AC17BB8BA"]
@@ -28627,8 +28616,8 @@
 				type: "item"
 			}]
 			title: "Fluix Tools"
-			x: -16.5d
-			y: -4.875d
+			x: -16.375d
+			y: -6.375d
 		}
 		{
 			dependencies: ["5153F78E7C90421F"]
@@ -28649,8 +28638,8 @@
 				item: "concatenationcore:ferrotin_bronze_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 11.0d
+			x: -5.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0F3C19C3311A0821"]
@@ -29174,8 +29163,8 @@
 				item: "prettypipes:pipe"
 				type: "item"
 			}]
-			x: -21.55d
-			y: 13.25d
+			x: -20.65d
+			y: 12.799999999999999d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -29191,13 +29180,12 @@
 				item: "ppfluids:fluid_pipe"
 				type: "item"
 			}]
-			x: -20.05d
-			y: 14.75d
+			x: -19.15d
+			y: 14.299999999999999d
 		}
 		{
-			dependencies: ["51F0251F529BE03C"]
+			dependencies: ["58D41204FAEC60DF"]
 			description: ["The Insightful Crystal is a useful way of storing experience into a solid form. Mages and witches have their own methods of storing experience, well this is one of the primary portable ways for a technician."]
-			hide_dependency_lines: true
 			id: "3615CE00936174BD"
 			rewards: [{
 				id: "4B3A6AE333F2E6DC"
@@ -29213,11 +29201,16 @@
 				}
 				type: "item"
 			}]
-			x: -22.799999999999997d
-			y: -3.5d
+			x: -22.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["411A1361299385DF"]
+			description: [
+				"&2The Synthetic Organs can be eaten raw to produce technological augments in one's self. They modify the biology of a being to grow powerful abilities. This comes as superhuman strength, speed, jumping and even shocking enemies. "
+				""
+				"&2These transhumanists need to now sustain themselves on batteries as a counterbalance to these newlyfound powers."
+			]
 			id: "2246B58523E7EF42"
 			rewards: [{
 				id: "203010FAC76CEC96"
@@ -29229,11 +29222,12 @@
 				item: "kismet:synthetic_organ"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -29.0d
+			x: 4.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["2246B58523E7EF42"]
+			description: ["&2For transhumanists who regret their choices, they may create the inverse of a synthetic organ and prompt their cells to regrow flesh as opposed to a mix of metal and electricity.&r"]
 			id: "53DF63D0804C9368"
 			rewards: [{
 				id: "14E33582F4CD6798"
@@ -29245,11 +29239,12 @@
 				item: "kismet:organ_regrower"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -30.0d
+			x: 5.0d
+			y: -28.5d
 		}
 		{
 			dependencies: ["7DDCF64BACE5F05A"]
+			description: ["&2Kismet Nests can rarely be found underground, completely separate from the surrounding caves and vegetation. It was theorised that these nests come from another dimension in a distant future and appeared at the same time as those anomalies. They do not seem to be native to Purgatory however.&r"]
 			id: "411A1361299385DF"
 			rewards: [{
 				id: "7D7F47B79D57151E"
@@ -29264,11 +29259,16 @@
 				type: "structure"
 			}]
 			title: "Find a Kismet's Nest"
-			x: 3.0d
-			y: -28.5d
+			x: 3.5d
+			y: -27.0d
 		}
 		{
 			dependencies: ["411A1361299385DF"]
+			description: [
+				"&2Empty kismet batteries can be found around the kismet nests, or be crafted artificially and then charged manually. Full kismet batteries may appear on 'kilobytes' creatures, but they appear to be quite rare.&r"
+				""
+				"&2These batteries are required to be consumed by transhumanists to keep their newly found technological powers.&r"
+			]
 			id: "2E0CC6B8DE1630EE"
 			rewards: [{
 				id: "1A7077917A2F71A5"
@@ -29280,8 +29280,8 @@
 				item: "kismet:kismet_battery"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -28.0d
+			x: 4.5d
+			y: -26.5d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -29301,8 +29301,8 @@
 				item: "common_ore_library:platinum_ingot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 15.0d
+			x: -4.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["5C37D62CC88F677F"]
@@ -29351,8 +29351,8 @@
 				type: "item"
 			}]
 			title: "Extraction Module"
-			x: -22.05d
-			y: 14.75d
+			x: -21.15d
+			y: 14.299999999999999d
 		}
 		{
 			dependencies: ["7CD059E89A322EA1"]
@@ -29439,7 +29439,14 @@
 		}
 		{
 			dependencies: ["5746BB5C34ED74C7"]
+			description: ["The boiler is most often used as a component piece in other machines, but it has its own uses, most often to power other low-tech equipment with steam power, such as the steam-powered macerator."]
 			id: "67BC86096C11BFD0"
+			rewards: [{
+				count: 6
+				id: "1FFE6FB0703A843B"
+				item: "minecraft:coal"
+				type: "item"
+			}]
 			size: 0.85d
 			tasks: [{
 				id: "354CDFF963ABD0B8"
@@ -30739,8 +30746,8 @@
 				value: 1500L
 			}]
 			title: "&eWheel of Fortune"
-			x: 1.175d
-			y: -11.25d
+			x: 0.825d
+			y: -8.125d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30759,7 +30766,7 @@
 				type: "structure"
 			}]
 			x: -1.0d
-			y: -11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30782,7 +30789,7 @@
 				type: "structure"
 			}]
 			x: -2.0d
-			y: -11.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30804,8 +30811,8 @@
 				title: "Find a Township"
 				type: "structure"
 			}]
-			x: 1.175d
-			y: -13.0d
+			x: 1.1749999999999998d
+			y: -11.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30828,7 +30835,7 @@
 				type: "structure"
 			}]
 			x: 3.0d
-			y: -11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30912,7 +30919,7 @@
 			]
 			title: "Find the Witch Covens"
 			x: 4.0d
-			y: -11.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30935,7 +30942,7 @@
 				type: "structure"
 			}]
 			x: 4.5d
-			y: -12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30960,7 +30967,7 @@
 				type: "structure"
 			}]
 			x: 5.0d
-			y: -11.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -30996,7 +31003,7 @@
 			]
 			title: "Visit the Slime Islands"
 			x: -3.0d
-			y: -11.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31045,7 +31052,7 @@
 			}]
 			title: "Find an Ancient City"
 			x: -2.5d
-			y: -12.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31074,8 +31081,8 @@
 				title: "Visit the Windswept Hills"
 				type: "biome"
 			}]
-			x: -1.5d
-			y: -15.225000000000001d
+			x: -3.0d
+			y: -12.225000000000001d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31108,8 +31115,8 @@
 				title: "Find a Shiraz Palace"
 				type: "structure"
 			}]
-			x: -0.5d
-			y: -15.725000000000001d
+			x: -2.0d
+			y: -12.725000000000001d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31132,8 +31139,8 @@
 				title: "Find a Stronghold"
 				type: "structure"
 			}]
-			x: 1.175d
-			y: -14.5d
+			x: 1.1749999999999998d
+			y: -12.5d
 		}
 		{
 			dependencies: ["407BC866E1868568"]
@@ -31154,8 +31161,8 @@
 				type: "item"
 			}]
 			title: "The Dragon"
-			x: 1.175d
-			y: -15.5d
+			x: 1.1749999999999998d
+			y: -13.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31184,8 +31191,8 @@
 				title: "Find a Wilden Den"
 				type: "structure"
 			}]
-			x: 4.0d
-			y: -15.725000000000001d
+			x: 5.0d
+			y: -12.225000000000001d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31216,8 +31223,8 @@
 				title: "Find a Mechanical Nest"
 				type: "structure"
 			}]
-			x: 3.0d
-			y: -16.225d
+			x: 4.0d
+			y: -12.725000000000001d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31238,8 +31245,8 @@
 				item: "concatenationcore:fortune_fragment"
 				type: "item"
 			}]
-			x: 1.175d
-			y: -17.0d
+			x: 1.1749999999999998d
+			y: -15.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31269,7 +31276,7 @@
 				type: "structure"
 			}]
 			x: 0.0d
-			y: -17.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31287,8 +31294,8 @@
 				title: "Visit Yellowstone"
 				type: "biome"
 			}]
-			x: -2.0d
-			y: -17.0d
+			x: -3.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31344,7 +31351,7 @@
 				type: "structure"
 			}]
 			x: 2.5d
-			y: -17.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["032A60B0D79C6ACB"]
@@ -31363,8 +31370,8 @@
 				title: "Find a Corsair Corvette"
 				type: "structure"
 			}]
-			x: 4.5d
-			y: -17.5d
+			x: 5.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["6E13AC3068943762"]
@@ -31397,8 +31404,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.175d
-			y: -18.5d
+			x: 1.1749999999999998d
+			y: -16.5d
 		}
 		{
 			dependencies: ["272EF70CED6D9AD7"]
@@ -31419,7 +31426,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -20.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["272EF70CED6D9AD7"]
@@ -31440,7 +31447,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -20.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -31555,7 +31562,20 @@
 				"67BC86096C11BFD0"
 				"5746BB5C34ED74C7"
 			]
+			description: [
+				"The Heater and the Thermae are two low-tech machines that when combined can prove to be very useful in the production of galvanized iron."
+				""
+				"The Heater is placed at the bottom and can be filled with lava to serve as fuel to heat up the contents of the Thermae placed above. It is then used to infuse the block above, usually an iron block. &a(Right click the Heater with a lava bucket to put in lava.)&r"
+				"{@pagebreak}"
+				"{image:concatenationcore:textures/thermae.png width:100 height:100 align:center}"
+			]
 			id: "4C76FB98A8040661"
+			rewards: [{
+				id: "36EC397B1026F8FB"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Block Conversion"
 			tasks: [
 				{
 					id: "435FBD48AB9EF222"
@@ -31568,13 +31588,26 @@
 					type: "item"
 				}
 			]
+			title: "Heater and Thermae"
 			x: -8.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0AE174C5189819AA"]
+			description: [
+				"The Steam-Powered Crusher is a low-tech machine capable of crushing metals into, not quite dust or fine powder, but something close enough. "
+				""
+				"This is useful in the automation of galvanized iron as the most commonly crushed metals with this machine are of course iron and zinc, but also metals harder to crush with your bare hands and a hammer: copper and tin. This can be used to make bronze."
+				"{@pagebreak}"
+				"To be powered, the crusher requires a nearby boiler within a 1-block radius. The boiler must be active, thus requiring water and fuel inside. Water can be inserted with a bucket &a(right click the boiler with it)&r."
+			]
 			icon: "concatenationcore:hydraulic_crusher"
 			id: "5987B65E7DE1FD92"
+			rewards: [{
+				id: "1CE95A6EFDA03771"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3D4B93F8C6DAC47A"
@@ -31596,7 +31629,13 @@
 				"34E7DCC3F4492CEA"
 				"02215EDC2EF71825"
 			]
+			description: ["Using a sculpting tool, the dense metal block can be broken into a sharp and durable macerator wheel, which is most often used in macerating, pulverizing and crushing machines."]
 			id: "0AE174C5189819AA"
+			rewards: [{
+				id: "52F598942ACCFC45"
+				item: "thermal:diamond_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "018DEECC6ACAD085"
 				item: "concatenationcore:macerator_wheel"
@@ -31607,7 +31646,17 @@
 		}
 		{
 			dependencies: ["4C76FB98A8040661"]
+			description: [
+				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside of the Thermae and with enough liquid galvanized iron contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron block."
+				""
+				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Galvanized Iron = Dense Metal Block"
+			]
 			id: "34E7DCC3F4492CEA"
+			rewards: [{
+				id: "33B92BEB2E2C5896"
+				item: "concatenationcore:galvanized_iron_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "74F5ED795A109866"
 				item: "concatenationcore:dense_metal_block"
@@ -31618,7 +31667,21 @@
 		}
 		{
 			dependencies: ["4C76FB98A8040661"]
+			description: [
+				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid galvanized iron. This name is a bit of a misnomer, as it isn't galvanized iron, it's primarily a zinc substance, but it's only used to make galvanized iron. "
+				""
+				"Then, when the Thermae contains over 1000mb of liquid galvanized iron, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
+				"{@pagebreak}"
+				"Crushed Zinc in Thermae + Lava in Heater = Liquid Galvanized Iron."
+				""
+				"Iron Block Above + 1000mb of Liquid Galvanized Iron = Galvanized Iron Block."
+			]
 			id: "02215EDC2EF71825"
+			rewards: [{
+				id: "1FC8B961201BD5FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7B53C659D520C3A7"
 				item: "concatenationcore:galvanized_iron_block"
@@ -31629,7 +31692,13 @@
 		}
 		{
 			dependencies: ["5987B65E7DE1FD92"]
+			description: ["Tin and copper can both be crushed to make crushed tin and copper. This is used to make bronze."]
 			id: "760CC1A28488B38E"
+			rewards: [{
+				id: "63376399FADC4178"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "7D0A117BF44E37CF"
@@ -31642,12 +31711,19 @@
 					type: "item"
 				}
 			]
+			title: "Crushed Tin and Copper"
 			x: -12.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["760CC1A28488B38E"]
+			description: ["Bronze is a great material when more advanced ones aren't available. It functions as a bridge between lower-tech and higher-tech for apprentice technicians. It can be produced via the induction smelter or more commonly at this stage, via crushed tin and crushed copper."]
 			id: "03A0AB8C01849917"
+			rewards: [{
+				id: "20BC0D029F098F21"
+				item: "thermal:bronze_gear"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40651D5B81F2EE6B"
 				item: "thermal:bronze_ingot"
@@ -31658,7 +31734,23 @@
 		}
 		{
 			dependencies: ["6F736EF54A792577"]
+			description: [
+				"Iron and zinc can both be crushed into something that cannot be defined as dust, but is certainly a crushed material using a hammer."
+				""
+				"These crushed iron and zinc are actually distinct from dust, as iron and zinc dust can be cut up and mixed to make crushed iron and zinc."
+			]
 			id: "4DF2955C7F793389"
+			rewards: [{
+				id: "026CC1A3F723C9F8"
+				item: {
+					Count: 1
+					id: "concatenationcore:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			size: 0.75d
 			tasks: [
 				{
@@ -31672,12 +31764,24 @@
 					type: "item"
 				}
 			]
+			title: "Crushed Metals"
 			x: -4.875d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5987B65E7DE1FD92"]
+			description: [
+				"&o&7An extra note is posted over the page for the steam-powered crusher&r&r"
+				""
+				"&2Of those that have ventured into Dis, the marble realm, they may have found marble quite useless. However, this marble contains traces of other metals, often precious such as diamond and silver. The steam-powered crusher can be used to crush marble into powders but crushing wheel and a pulverizer remain more efficient."
+			]
 			id: "05CD5D7CEFF7C73E"
+			rewards: [{
+				count: 16
+				id: "349B2689D79673BB"
+				item: "minecraft:coal"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "488E7E1A90E3221A"
@@ -31697,7 +31801,13 @@
 		}
 		{
 			dependencies: ["5987B65E7DE1FD92"]
+			description: ["By crushing quartz inside of a crusher, quartz dust can be produced, which is commonly used to make reinforced glass."]
 			id: "5C7795F275644B09"
+			rewards: [{
+				id: "4B5477F53E32B4D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "690789806A0D7944"
 				item: "thermal:quartz_dust"
@@ -31721,50 +31831,73 @@
 			dependencies: ["35C32229A51A1B7D"]
 			hide_dependency_lines: true
 			id: "793E50D268C0B230"
+			rewards: [{
+				id: "61AAF433492D5B63"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 0.9d
 			tasks: [{
 				id: "05E87F3C451EDF48"
 				item: "thesubmarinemod:acero_antioxidante"
 				type: "item"
 			}]
-			x: -22.55d
-			y: 11.1d
+			x: -22.849999999999998d
+			y: 10.5d
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
 			id: "7F9A0E2C0EE245B0"
+			rewards: [{
+				count: 3
+				id: "52F89BCD1FCECE7B"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "0D0F330DCE0E859E"
 				item: "thesubmarinemod:silvato_submarino_incompleto"
 				type: "item"
 			}]
-			x: -24.0d
-			y: 11.5d
+			x: -24.299999999999997d
+			y: 10.9d
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
 			id: "47025B4852DC4F90"
+			rewards: [{
+				count: 3
+				id: "53A3D79F91A2D21E"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "6F8D076F806F69F4"
 				item: "thesubmarinemod:alas_submarino"
 				type: "item"
 			}]
-			x: -23.5d
-			y: 12.5d
+			x: -23.799999999999997d
+			y: 11.9d
 		}
 		{
 			dependencies: ["793E50D268C0B230"]
 			id: "36A39A859ADA2AFA"
+			rewards: [{
+				count: 3
+				id: "20028C3B175A6EB6"
+				item: "createmetallurgy:steel_ingot"
+				type: "item"
+			}]
 			size: 1.1d
 			tasks: [{
 				id: "7726BE79F4A66155"
 				item: "thesubmarinemod:aceleradores_submarino"
 				type: "item"
 			}]
-			x: -23.5d
-			y: 10.5d
+			x: -23.799999999999997d
+			y: 9.9d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -31776,8 +31909,8 @@
 				item: "hrbsdrills:drillhead"
 				type: "item"
 			}]
-			x: -21.5d
-			y: 16.5d
+			x: -21.599999999999998d
+			y: 17.55d
 		}
 		{
 			dependencies: ["35C32229A51A1B7D"]
@@ -31789,8 +31922,8 @@
 				item: "hrbsdrills:engine"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 17.0d
+			x: -20.599999999999998d
+			y: 18.05d
 		}
 		{
 			dependencies: [
@@ -31804,8 +31937,109 @@
 				item: "hrbsdrills:drill"
 				type: "item"
 			}]
-			x: -21.5d
-			y: 18.0d
+			x: -21.599999999999998d
+			y: 19.05d
+		}
+		{
+			dependencies: [
+				"163FA79484716D9B"
+				"3AF7EF3881C4E120"
+			]
+			description: [
+				"&o&7An extra note is posted over the page&r"
+				""
+				"&2How fascinating! We have found a method of entering a digital subspace we have intuitively named the Cyberspace, via an odd terminal-looking portal apparatus of which we are not fully sure of its inner workings."
+				""
+				"&2While this dimension is quite boring, containing mostly flat space, it may prove useful to build complex machinery in it or using it for travels."
+			]
+			id: "6234E7A18A669E0B"
+			rewards: [{
+				id: "1B8F0474904C3194"
+				item: "cyberspace:terminal"
+				type: "item"
+			}]
+			size: 1.2d
+			subtitle: "Digital Subspace"
+			tasks: [{
+				id: "61987BBDFC97F5F8"
+				item: "cyberspace:terminal"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 15.2d
+		}
+		{
+			dependencies: ["35C32229A51A1B7D"]
+			hide_dependency_lines: true
+			id: "3AF7EF3881C4E120"
+			tasks: [{
+				id: "10FDACF3BC60AC52"
+				item: "cyberspace:carbon_fiber_mesh"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3AF7EF3881C4E120"]
+			id: "163FA79484716D9B"
+			tasks: [{
+				id: "22AF5AE1BD1915A4"
+				item: "cyberspace:quantum_core"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1982249FC850C8A8"]
+			description: [
+				"&2The Tinfoil Hat is seen as an object of desperation by some, but it surprisingly resists the aggressive electricity of energy-related anomalies when combined with a resonant coil."
+				""
+				"&2This is especially useful to wear as some sort of construction helmet when setting up infrastructure near an energetic rift."
+			]
+			id: "20B2A31EA286AE4F"
+			rewards: [{
+				id: "6AA693B981421A30"
+				item: "perdition:petrified_stake"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2996E8DCD8AE2DA8"
+				item: {
+					Count: 1
+					id: "strangematter:tinfoil_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["277D7A5F68DCD7CE"]
+			description: ["&o&7More can be known about this item in the research tablet through your own research.&r&r"]
+			id: "4300DA4531207512"
+			rewards: [{
+				id: "6A270A1EA937D42E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0D3E7132F40C15EA"
+				item: {
+					Count: 1
+					id: "strangematter:chrono_blister"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.1749999999999998d
+			y: -30.5d
 		}
 	]
 	title: "The Journey"

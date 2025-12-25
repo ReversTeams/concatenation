@@ -14,11 +14,6 @@
     "modId": "quarryplus",
     "version": "1201.1.136"
   },
-  "AdvancedAE-1.3.2-1.20.1.jar": {
-    "jarName": "AdvancedAE-1.3.2-1.20.1.jar",
-    "modId": "advanced_ae",
-    "version": "1.3.2-1.20.1"
-  },
   "ae2ct-1.20.1-1.1.1.jar": {
     "jarName": "ae2ct-1.20.1-1.1.1.jar",
     "modId": "ae2ct",
@@ -174,8 +169,8 @@
     "modId": "bookshelf",
     "version": "20.2.13"
   },
-  "born_in_chaos_[Forge]1.20.1_1.7.3.jar": {
-    "jarName": "born_in_chaos_[Forge]1.20.1_1.7.3.jar",
+  "born_in_chaos_[Forge]1.20.1_1.7.4.jar": {
+    "jarName": "born_in_chaos_[Forge]1.20.1_1.7.4.jar",
     "modId": "born_in_chaos_v1",
     "version": "1.7.3"
   },
@@ -224,10 +219,10 @@
     "modId": "certain_questing_additions",
     "version": "1.0.7"
   },
-  "chat_heads-0.14.0-forge-1.20.jar": {
-    "jarName": "chat_heads-0.14.0-forge-1.20.jar",
+  "chat_heads-0.14.2-forge-1.20.jar": {
+    "jarName": "chat_heads-0.14.2-forge-1.20.jar",
     "modId": "chat_heads",
-    "version": "0.14.0"
+    "version": "0.14.2"
   },
   "chipped-forge-1.20.1-3.0.7.jar": {
     "jarName": "chipped-forge-1.20.1-3.0.7.jar",
@@ -324,6 +319,11 @@
     "modId": "concatenationcompat",
     "version": "1.0.0"
   },
+  "concatenationcompat-1.0.1-forge-1.20.1.jar": {
+    "jarName": "concatenationcompat-1.0.1-forge-1.20.1.jar",
+    "modId": "concatenationcompat",
+    "version": "1.0.1"
+  },
   "concatenationcore-1.3.0-forge-1.20.1.jar": {
     "jarName": "concatenationcore-1.3.0-forge-1.20.1.jar",
     "modId": "concatenationcore",
@@ -367,10 +367,10 @@
     "modId": "controlling",
     "version": "12.0.2"
   },
-  "conveniencerecipes-1.0.2-forge-1.20.1.jar": {
-    "jarName": "conveniencerecipes-1.0.2-forge-1.20.1.jar",
+  "conveniencerecipes-1.0.3-forge-1.20.1.jar": {
+    "jarName": "conveniencerecipes-1.0.3-forge-1.20.1.jar",
     "modId": "conveniencerecipes",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "copycats-3.0.2+mc.1.20.1-forge.jar": {
     "jarName": "copycats-3.0.2+mc.1.20.1-forge.jar",
@@ -401,11 +401,6 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
-  },
-  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
-    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
-    "modId": "craftingrecipeexporter",
-    "version": "1.0.2"
   },
   "craftingstation-1.20.1-1.3.2.jar": {
     "jarName": "craftingstation-1.20.1-1.3.2.jar",
@@ -667,6 +662,11 @@
     "modId": "explorerscompass",
     "version": "1.20.1-1.3.3-forge"
   },
+  "extendedalloysmelters-1.0.0-forge-1.20.1.jar": {
+    "jarName": "extendedalloysmelters-1.0.0-forge-1.20.1.jar",
+    "modId": "extendedalloysmelters",
+    "version": "1.0.0"
+  },
   "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar": {
     "jarName": "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
     "modId": "extremesoundmuffler",
@@ -716,11 +716,6 @@
     "jarName": "flerovium-forge-1.20.1-1.2.16-all.jar",
     "modId": "flerovium",
     "version": "1.2.16"
-  },
-  "FluxNetworks-1.20.1-7.2.1.15.jar": {
-    "jarName": "FluxNetworks-1.20.1-7.2.1.15.jar",
-    "modId": "fluxnetworks",
-    "version": "7.2.1.15"
   },
   "framework-forge-1.20.1-0.7.15.jar": {
     "jarName": "framework-forge-1.20.1-0.7.15.jar",
@@ -1055,10 +1050,10 @@
     "modId": "manaunification",
     "version": "1.0.3"
   },
-  "Mantle-1.20.1-1.11.63.jar": {
-    "jarName": "Mantle-1.20.1-1.11.63.jar",
+  "Mantle-1.20.1-1.11.95.jar": {
+    "jarName": "Mantle-1.20.1-1.11.95.jar",
     "modId": "mantle",
-    "version": "1.11.63"
+    "version": "1.11.95"
   },
   "marbledsarsenal-1.20.1forge-2.3.0.3.jar": {
     "jarName": "marbledsarsenal-1.20.1forge-2.3.0.3.jar",
@@ -1250,10 +1245,10 @@
     "modId": "patchouli",
     "version": "1.20.1-84.1-FORGE"
   },
-  "perdition-1.2.4-forge-1.20.1.jar": {
-    "jarName": "perdition-1.2.4-forge-1.20.1.jar",
+  "perdition-1.2.5-forge-1.20.1.jar": {
+    "jarName": "perdition-1.2.5-forge-1.20.1.jar",
     "modId": "perdition",
-    "version": "1.2.4"
+    "version": "1.2.5"
   },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
@@ -1413,6 +1408,11 @@
   "ScalableCatsForce-3.3.1-build-0-with-library.jar": {
     "jarName": "ScalableCatsForce-3.3.1-build-0-with-library.jar"
   },
+  "scorchiaalloysmelters-1.0.0-forge-1.20.1.jar": {
+    "jarName": "scorchiaalloysmelters-1.0.0-forge-1.20.1.jar",
+    "modId": "scorchiaalloysmelters",
+    "version": "1.0.0"
+  },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
     "modId": "searchables",
@@ -1483,6 +1483,11 @@
     "modId": "spark",
     "version": "1.10.53"
   },
+  "spawner_tweaks-1.20.x-Forge-1.1.1.jar": {
+    "jarName": "spawner_tweaks-1.20.x-Forge-1.1.1.jar",
+    "modId": "spawner_tweaks",
+    "version": "1.1.1"
+  },
   "Spelled-1.20.1-0.6.2.2.jar": {
     "jarName": "Spelled-1.20.1-0.6.2.2.jar",
     "modId": "spelled",
@@ -1518,10 +1523,10 @@
     "modId": "structuresloottweak",
     "version": "1.0.0"
   },
-  "structurify-forge-1.0.21+mc1.20.1.jar": {
-    "jarName": "structurify-forge-1.0.21+mc1.20.1.jar",
+  "structurify-forge-2.0.10+mc1.20.1.jar": {
+    "jarName": "structurify-forge-2.0.10+mc1.20.1.jar",
     "modId": "structurify",
-    "version": "1.0.21"
+    "version": "2.0.10"
   },
   "structurize-1.20.1-1.0.784-snapshot.jar": {
     "jarName": "structurize-1.20.1-1.0.784-snapshot.jar",
@@ -1573,10 +1578,10 @@
     "modId": "tcintegrations",
     "version": "2.0.25.17"
   },
-  "TConstruct-1.20.1-3.10.1.76.jar": {
-    "jarName": "TConstruct-1.20.1-3.10.1.76.jar",
+  "TConstruct-1.20.1-3.11.0.148.jar": {
+    "jarName": "TConstruct-1.20.1-3.11.0.148.jar",
     "modId": "tconstruct",
-    "version": "3.10.1.76"
+    "version": "3.11.0.148"
   },
   "TerraBlender-forge-1.20.1-3.0.1.10.jar": {
     "jarName": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1642,11 +1647,6 @@
     "jarName": "theurgy-1.20.1-1.25.0.jar",
     "modId": "theurgy",
     "version": "1.25.0"
-  },
-  "thoriumreactors-1.20.1-0.1.7.1b-all.jar": {
-    "jarName": "thoriumreactors-1.20.1-0.1.7.1b-all.jar",
-    "modId": "thoriumreactors",
-    "version": "0.1.6b"
   },
   "Threads-1.0.2-1.20.1.jar": {
     "jarName": "Threads-1.0.2-1.20.1.jar",

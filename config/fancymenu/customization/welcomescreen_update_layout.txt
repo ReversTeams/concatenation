@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_update
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1764706244693
+  last_edited_time = 1766623867556
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:15f8be63-52ff-4116-8bdb-5f47ea6691ca-1764704618166] = [groups:][instances:]
+  [loading_requirement_container_meta:6d5d6044-12bd-4859-92c7-a4e871092ce0-1766622759206] = [groups:][instances:]
 }
 
 menu_background {
@@ -82,6 +82,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -123,6 +129,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -148,7 +160,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 42
-  y = 0
+  y = 3
   width = 63
   height = 11
   stretch_x = false
@@ -164,6 +176,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -205,6 +223,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -246,10 +270,16 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/event-titles/economyfools.png
+  source = [source:local]/config/fancymenu/assets/event-titles/winter2025.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -288,6 +318,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -330,6 +366,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -388,6 +430,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -445,11 +493,17 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
   interactable = true
-  source = Refractive Ratcheting is major update cycle for Concatenation overhauling most of the technology side of the pack. The Hermit gets a more interesting start with early game alloy smelters and resources such as ferrotin bronze and platinum. The Tower is planned to be fully overhauled in an upcoming section of the update cycle.
+  source = Refractive Pentacles: overhaul of the Hierophant, Hand of Cups, Chariot and Hand of Pentacles pathways. The entire west and north sides of 'The Journey' in 'Eleonore's Travels' were overhauled.%n%%n%New ores and new processing methods have been added to prepare for the completion of the technological overhaul.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -512,11 +566,17 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
   interactable = true
-  source = 12/16/2025 - v1.4.1%n%12/02/2025 - v1.4.0 "Refractive Ratcheting"%n%11/25/2025 - v1.3.5%n%11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"
+  source = 12/24/2025 - v1.4.2 "Refractive Pentacles"%n%12/16/2025 - v1.4.1%n%12/02/2025 - v1.4.0 "Refractive Ratcheting"%n%11/25/2025 - v1.3.5%n%11/25/2025 - v1.3.4 "Death"%n%11/11/2025 - v1.3.3 "Cogent Purgatory"%n%11/07/2025 - v1.3.2%n%11/04/2025 - v1.3.1%n%10/30/2025 - v1.3.0 "Prudent Prerogative"%n%%n%10/25/2025 - v1.2.3 "The Empress"%n%10/19/2025 - v1.2.2%n%10/15/2025 - v1.2.1 "Door of Dis"%n%10/11/2025 - v1.2.0-1%n%10/11/2025 - v1.2.0 "Gate to Perdition"%n%10/07/2025 - v1.1.3-1%n%10/07/2025 - v1.1.3%n%10/05/2025 - v1.1.2%n%10/05/2025 - v1.1.1 "World Devourer"%n%09/30/2025 - v1.1.0-2 "Occult Calling"%n%09/28/2025 - v1.1.0-1 "Hand of Wands"%n%9/25/2025 - v1.0.19 "Future of Creation"%n%9/23/2025 - v1.0.18 "The World"%n%?/?/2025 - v1.0.17%n%9/8/2025 - v1.0.16
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -579,11 +639,17 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
   interactable = true
-  source = The Economy, Fools! event adds a limited time unique questline and rewards in a new section of the questbook. A new currency has been issued and with it, plenty of opportunities for trade but also new risks for inflation. Trade your goods for cash, and your cash for more goods! Grow your profits, but remember to pay your taxes!
+  source = It's the cold season! Prepare for wintery festivities and hunt the threats that may appear to oppose the celebrations!%n%%n%The event features a new questline with its own lore and a bossfight.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -646,6 +712,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -691,7 +763,7 @@ element {
   anchor_point = element
   anchor_point_element = 3c066181-ca3b-4120-b3e5-94f68f59dde4-1761669402719
   x = -3
-  y = 13
+  y = 36
   width = 92
   height = 22
   stretch_x = false
@@ -707,6 +779,12 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -767,5 +845,77 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  button_element_executable_block_identifier = d7f7bddb-8647-4860-86e0-f8c64240584f-1766622834146
+  [executable_action_instance:26809922-e3c1-4d41-b944-491689fde5eb-1766623647246][action_type:openlink] = https://revers.fandom.com/wiki/The_Economy,_Fools!
+  [executable_block:d7f7bddb-8647-4860-86e0-f8c64240584f-1766622834146][type:generic] = [executables:26809922-e3c1-4d41-b944-491689fde5eb-1766623647246;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/event-titles/economyfools.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/event-titles/hover/hover-economyfools.png
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 0c69c4ef-d2c2-4453-865d-78d1e362b2ff-1766622834146
+  [loading_requirement_container_meta:0c69c4ef-d2c2-4453-865d-78d1e362b2ff-1766622834146] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 7413fe59-5c65-48b4-bb43-92733a4346d2-1766622834146
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2562
+  auto_sizing_base_screen_height = 1476
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 66c4175f-48b0-4342-aec8-16e861606797-1762833979045
+  x = 0
+  y = -23
+  width = 92
+  height = 22
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 75510e47-3ebb-408c-9a69-bc5f125ae985-1766622834146
+  [loading_requirement_container_meta:75510e47-3ebb-408c-9a69-bc5f125ae985-1766622834146] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.08339844
+  advanced_horizontal_tilt_mode = false
 }
 

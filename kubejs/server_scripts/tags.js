@@ -302,11 +302,16 @@ ServerEvents.tags('item', event => {
     ]);
 
     add('curios:belt', [
-        'concatenationcore:gold_card',
+        'concatenationcore:gold_card'
     ]);
 
     add('curios:element_holder', [
         'concatenationcore:platinum_card',
+        'concatenationcore:ice_crystal_ball'
+    ]);
+
+    add('curios:head', [
+        'concatenationcore:crumpled_hat'
     ]);
 
     add('concatenation:breaking_tools', [

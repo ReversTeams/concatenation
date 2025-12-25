@@ -12,6 +12,6 @@ Platform.mods.craftingstation.name = 'Tinkers\' Construct';
 Platform.mods.kubejs.name = 'Concatenation';
 Platform.mods.alloy_smelter.name = 'Alloy Smelters';
 Platform.mods.common_ore_library.name = 'Common';
-Platform.mods.thoriumreactors.name = 'Thorium Reactors';
+//Platform.mods.thoriumreactors.name = 'Thorium Reactors';
 Platform.mods.prettypipes.name = 'Pretty Pipes';
 Platform.mods.thesubmarinemod.name = 'Submarines';

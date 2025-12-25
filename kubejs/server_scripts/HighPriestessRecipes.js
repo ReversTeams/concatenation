@@ -191,6 +191,11 @@ ServerEvents.recipes(event => {
                 'minecraft:fire_charge',
                 '#concatenation:firing_item'
         );
+        event.replaceInput(
+                { output: 'thermal:machine_pulverizer' },
+                'minecraft:flint',
+                'concatenationcore:macerator_wheel'
+        );
 
         event.remove({ output: 'thermal:lumium_dust', type: 'minecraft:crafting_shapeless' })
         event.remove({ output: 'thermal:enderium_dust', type: 'minecraft:crafting_shapeless' })
@@ -217,11 +222,27 @@ ServerEvents.recipes(event => {
                 {
                         D: '#concatenation:tech_cards',
                         A: 'concatenationcore:gold_paper',
-                        B: '#concatenation:high_priestess_casing',
+                        B: 'concatenationcore:almamegraton',
                         C: 'thermal:steel_dust',
                         E: 'thermal:diamond_dust'
                 }
         ).keepIngredient('#concatenation:tech_cards')
+        event.shaped(
+                Item.of('concatenationcore:almamegraton_core'),
+                [
+                        'ABA',
+                        'CDE',
+                        'AFA'
+                ],
+                {
+                        A: 'thermal:bronze_ingot',
+                        D: 'rftoolsbase:infused_diamond',
+                        E: 'thermal:electrum_gear',
+                        B: 'thermal:invar_gear',
+                        C: 'thermal:constantan_gear',
+                        F: 'thermal:diamond_gear'
+                }
+        )
         event.shaped(
                 Item.of('thermal:dynamo_stirling'),
                 [
@@ -1202,7 +1223,7 @@ ServerEvents.recipes(event => {
                         'ABA'
                 ],
                 {
-                        B: 'minecraft:fire_charge',
+                        B: '#concatenation:firing_item',
                         C: 'minecraft:tnt',
                         A: 'thermal:steel_plate'
                 }
@@ -1271,6 +1292,13 @@ ServerEvents.recipes(event => {
                         A: 'thermal:steel_plate',
                         B: 'thermal:enderium_ingot'
                 }
+        )
+        event.shapeless(
+                Item.of('thermal:frost_melon_slice'),
+                [
+                        'thermal:ice_charge',
+                        'minecraft:glistering_melon_slice'
+                ]
         )
 
         event.shapeless(
@@ -1483,30 +1511,30 @@ ServerEvents.recipes(event => {
                         B: 'mekanism:ingot_osmium'
                 }
         )
-        event.shaped(
-                Item.of('thoriumreactors:thorium_chest_block'),
-                [
-                        ' A ',
-                        'ABA',
-                        ' A '
-                ],
-                {
-                        B: 'ironchest:diamond_chest',
-                        A: 'thoriumreactors:thorium'
-                }
-        )
-        event.shaped(
-                Item.of('thoriumreactors:steel_chest_block'),
-                [
-                        'AAA',
-                        'ABA',
-                        'AAA'
-                ],
-                {
-                        A: 'createmetallurgy:steel_ingot',
-                        B: '#forge:chests/wooden'
-                }
-        )
+        // event.shaped(
+        //         Item.of('thoriumreactors:thorium_chest_block'),
+        //         [
+        //                 ' A ',
+        //                 'ABA',
+        //                 ' A '
+        //         ],
+        //         {
+        //                 B: 'ironchest:diamond_chest',
+        //                 A: 'thoriumreactors:thorium'
+        //         }
+        // )
+        // event.shaped(
+        //         Item.of('thoriumreactors:steel_chest_block'),
+        //         [
+        //                 'AAA',
+        //                 'ABA',
+        //                 'AAA'
+        //         ],
+        //         {
+        //                 A: 'createmetallurgy:steel_ingot',
+        //                 B: '#forge:chests/wooden'
+        //         }
+        // )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])

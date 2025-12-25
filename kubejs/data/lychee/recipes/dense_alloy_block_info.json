@@ -1,13 +1,13 @@
 {
     "type": "lychee:block_interacting",
-    "comment": "With a Copper Block above the Thermae, the Copper Block will turn into a Dense Metal Block if the Thermae has Liquid Galvanized Iron inside.",
+    "comment": "The Thermae needs to contain a galvanized iron block inside. With a Copper Block above the Thermae, the Copper Block will turn into a Dense Metal Block if the Thermae has 1000mb of Liquid Galvanized Iron inside.",
     "ghost": true,
     "item_in": [
         {
-            "item": "concatenationcore:liquid_galvanized_iron_bucket"
+            "item": "minecraft:copper_block"
         },
         {
-            "item": "minecraft:copper_block"
+            "item": "concatenationcore:galvanized_iron_block"
         }
     ],
     "block_in": "concatenationcore:thermae",

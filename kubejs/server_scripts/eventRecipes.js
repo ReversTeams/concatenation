@@ -144,5 +144,21 @@ ServerEvents.recipes(event => {
         ['concatenationcore:three_thousand_one_hundred_twenty_five_karaon']
     )
 
+    // Winter 2025
+    event.shaped(
+        Item.of('concatenationcore:doom_candy_cane'),
+        [
+            'ABA',
+            'CAD',
+            'AEA'
+        ],
+        {
+            D: 'minecraft:red_dye',
+            E: 'reliquary:frozen_core',
+            B: 'minecraft:green_dye',
+            A: 'supplementaries:sugar_cube',
+            C: 'born_in_chaos_v1:dark_ice'
+        }
+    )
 
 });

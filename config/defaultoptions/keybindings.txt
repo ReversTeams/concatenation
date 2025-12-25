@@ -78,6 +78,11 @@ key_key.the_deep_void.mount_fly:key.keyboard.space:NONE
 key_key.the_deep_void.mount_up:key.keyboard.unknown:NONE
 key_key.the_deep_void.mount_down:key.keyboard.unknown:NONE
 key_key.the_deep_void.mount_dash:key.keyboard.unknown:NONE
+key_key.cyberspace.leave_cyberspace_keybind:key.keyboard.c:NONE
+key_key.thesubmarinemod.wpressed:key.keyboard.w:NONE
+key_key.thesubmarinemod.a_submarino:key.keyboard.a:NONE
+key_key.thesubmarinemod.d_submarino:key.keyboard.d:NONE
+key_key.thesubmarinemod.espacio_submarino:key.keyboard.space:NONE
 key_key.push_to_talk:key.keyboard.semicolon:NONE
 key_key.whisper:key.keyboard.unknown:NONE
 key_key.mute_microphone:key.keyboard.unknown:NONE
@@ -157,11 +162,12 @@ key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:NONE
 key_ponder.keyinfo.ponder:key.keyboard.w:NONE
 key_key.clientsort.edit:key.keyboard.unknown:NONE
 key_key.clientsort.cancelAuto:key.keyboard.unknown:NONE
-key_key.clientsort.op.sort:key.mouse.middle:NONE
+key_key.clientsort.op.sort:key.keyboard.unknown:NONE
 key_key.clientsort.op.stackFill:key.keyboard.unknown:NONE
 key_key.clientsort.op.matchTransfer:key.keyboard.unknown:NONE
 key_key.clientsort.op.transfer:key.keyboard.unknown:NONE
 key_key.curios.open.desc:key.keyboard.unknown:NONE
+key_kismet.key.special_ability:key.keyboard.m:NONE
 key_key.veinmining.activate.desc:key.keyboard.unknown:NONE
 key_key.createbigcannons.pitch_mode:key.keyboard.unknown:NONE
 key_key.createbigcannons.fire_controlled_cannon:key.mouse.left:NONE
@@ -182,6 +188,7 @@ key_key.minecolonies_tweaks.resourcescroll_book:key.keyboard.unknown:NONE
 key_psimisc.keybind:key.keyboard.unknown:NONE
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
+key_gnetum.config.keyMapping:key.keyboard.end:NONE
 key_key.hexerei.broomDescend:key.keyboard.left.control:NONE
 key_key.hexerei.book_hovering_uses:key.keyboard.u:NONE
 key_key.hexerei.book_hovering_recipe:key.keyboard.r:NONE
@@ -214,6 +221,8 @@ key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown:NONE
 key_key.immersive_aircraft.fallback_use:key.keyboard.unknown:NONE
 key_key.immersive_aircraft.dismount:key.keyboard.r:NONE
 key_key.immersive_aircraft.boost:key.keyboard.unknown:NONE
+key_key.hrbsdrills.openInv:key.keyboard.i:NONE
+key_key.hrbsdrills.snap:key.keyboard.space:NONE
 key_railways.keyinfo.bogey_menu:key.keyboard.left.alt:NONE
 key_railways.keyinfo.cycle_menu:key.keyboard.left.alt:NONE
 key_key.elementalcraft.change_spell.1:key.keyboard.unknown:NONE
@@ -235,6 +244,7 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown:NONE
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown:NONE
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown:NONE
 key_key.ftbquests.quests:key.keyboard.unknown:NONE
+key_chunkloaders.keys.open_screen:key.keyboard.c:NONE
 key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
 key_key.tacz.inspect.desc:key.keyboard.h:NONE
 key_key.tacz.reload.desc:key.keyboard.r:NONE

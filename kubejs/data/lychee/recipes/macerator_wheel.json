@@ -13,6 +13,10 @@
         },
         {
             "type": "damage_item"
+        },
+        {
+            "type": "place",
+            "block": "*"
         }
     ]
 }

@@ -768,7 +768,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2506899A5890205D"]
 			dependency_requirement: "one_started"
 			description: [
 				"&2Purgatory is a fascinating dimension, filled with mystical ingredients and various anomalies.&r"
@@ -781,6 +780,7 @@
 			]
 			hide_dependency_lines: true
 			id: "063E19D727E344F1"
+			invisible: true
 			min_required_dependencies: 1
 			rewards: [{
 				id: "6F5D768AC32F8D2A"

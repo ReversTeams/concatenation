@@ -109,6 +109,23 @@ ServerEvents.recipes(event => {
                 fuelPerTick: 3,
                 requiredTier: 3
         });
+                        event.custom({
+                type: "alloy_smelter:smelting",
+                ingredients: [
+                        { item: "concatenationcore:almamegraton_core", count: 1 },
+                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 },
+                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 },
+                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 },
+                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                ],
+                result: {
+                        item: "concatenationcore:almamegraton",
+                        count: 1
+                },
+                smeltingTime: 1500,
+                fuelPerTick: 15,
+                requiredTier: 3
+        });
 
         event.custom({
                 type: 'tconstruct:alloy',

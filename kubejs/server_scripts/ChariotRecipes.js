@@ -23,7 +23,10 @@ ServerEvents.recipes(event => {
                 'thesubmarinemod:acero_antioxidante',
                 'thesubmarinemod:silvato_submarino_incompleto',
                 'thesubmarinemod:aceleradores_submarino',
-                'thesubmarinemod:alas_submarino'
+                'thesubmarinemod:alas_submarino',
+                'cyberspace:terminal',
+                'cyberspace:quantum_core',
+                'cyberspace:carbon_fiber_mesh'
         ]
 
         remove.forEach(item => {
@@ -529,6 +532,48 @@ ServerEvents.recipes(event => {
                         B: 'thesubmarinemod:acero_antioxidante',
                         A: 'create:propeller',
                         C: 'thermal:steel_plate'
+                }
+        )
+        event.shaped(
+                Item.of('cyberspace:terminal'),
+                [
+                        'ABA',
+                        'CDC',
+                        'AFA'
+                ],
+                {
+                        C: 'concatenationcore:stickyredstone',
+                        B: 'perdition:dis',
+                        F: 'cyberspace:quantum_core',
+                        A: 'cyberspace:carbon_fiber_mesh',
+                        D: 'minecraft:black_stained_glass_pane'
+                }
+        )
+        event.shaped(
+                Item.of('cyberspace:quantum_core'),
+                [
+                        'ADA',
+                        'CEC',
+                        'ABA'
+                ],
+                {
+                        B: 'concatenationcore:circuit',
+                        A: 'cyberspace:carbon_fiber_mesh',
+                        C: 'mekanism:ingot_uranium',
+                        D: 'thermal:rf_coil',
+                        E: 'tarotcards:the_chariot'
+                }
+        ).keepIngredient('tarotcards:the_chariot')
+        event.shaped(
+                Item.of('cyberspace:carbon_fiber_mesh'),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        B: 'thermal:lead_gear',
+                        A: 'cyberspace:carbon_fiber'
                 }
         )
 });

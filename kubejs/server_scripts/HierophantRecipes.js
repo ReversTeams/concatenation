@@ -1829,7 +1829,7 @@ ServerEvents.recipes(event => {
                         'minecraft:obsidian',
                         'minecraft:glass',
                         'thermal:quartz_dust',
-                        'minecraft:fire_charge'
+                        '#concatenation:firing_item'
                 ]
         )
 
