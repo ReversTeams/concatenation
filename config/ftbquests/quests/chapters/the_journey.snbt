@@ -23868,7 +23868,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: "minecolonies:blockhutcowboy"
+				icon: "born_in_chaos_v1:spruce_cowboy_in_the_moonlighticon"
 				id: "5F1693E2AC3554C7"
 				stat: "minecraft:animals_bred"
 				type: "stat"
@@ -30475,29 +30475,6 @@
 			title: "Early Storage"
 			x: -2.2500000000000004d
 			y: -5.45d
-		}
-		{
-			dependencies: ["524067700E07EB06"]
-			description: [
-				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
-				""
-				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
-			]
-			id: "01787B3BD1903BA3"
-			rewards: [{
-				id: "75E53CC6DF992539"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "68C353B5335CCCE3"
-				item: "sereneseasons:calendar"
-				type: "item"
-				weak_nbt_match: true
-			}]
-			title: "Seasons"
-			x: -2.7500000000000004d
-			y: -6.45d
 		}
 		{
 			dependencies: ["524067700E07EB06"]

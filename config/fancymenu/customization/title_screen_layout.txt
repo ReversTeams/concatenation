@@ -50,7 +50,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = Minecraft {"placeholder":"mcversion"} %n%Running Concatenation Lite 1.4.1%n%{"placeholder":"loadedmods"} mods loaded. 443 intended.
+  source = Minecraft {"placeholder":"mcversion"} %n%Running Concatenation Lite 1.4.2%n%{"placeholder":"loadedmods"} mods loaded. 448 intended.
   source_mode = direct
   shadow = true
   scale = 0.75
@@ -112,12 +112,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -160,12 +154,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -227,12 +215,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -294,12 +276,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -361,12 +337,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -428,12 +398,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 element {
@@ -496,12 +460,6 @@ element {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
 }
 
 vanilla_button {
@@ -616,12 +574,6 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
 }
@@ -679,12 +631,6 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
 }
@@ -894,8 +840,6 @@ vanilla_button {
   auto_sizing = false
   auto_sizing_base_screen_width = 2562
   auto_sizing_base_screen_height = 1476
-  auto_sizing_base_screen_width = 2562
-  auto_sizing_base_screen_height = 1476
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = mc_titlescreen_singleplayer_button
@@ -916,13 +860,7 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
-  is_hidden = true
+  is_hidden = false
   automated_button_clicks = 0
 }
 
@@ -1017,8 +955,6 @@ vanilla_button {
   auto_sizing = false
   auto_sizing_base_screen_width = 2562
   auto_sizing_base_screen_height = 1476
-  auto_sizing_base_screen_width = 2562
-  auto_sizing_base_screen_height = 1476
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = mc_titlescreen_singleplayer_button
@@ -1096,12 +1032,6 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
 }
@@ -1109,15 +1039,11 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 96bcc757-8a81-441d-805c-3c03f405613c-1737478659323
   [executable_block:96bcc757-8a81-441d-805c-3c03f405613c-1737478659323][type:generic] = [executables:]
-  button_element_executable_block_identifier = 96bcc757-8a81-441d-805c-3c03f405613c-1737478659323
-  [executable_block:96bcc757-8a81-441d-805c-3c03f405613c-1737478659323][type:generic] = [executables:]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   navigatable = true
-  widget_active_state_requirement_container_identifier = ea8cdf14-c19e-4c54-af21-137ade821425-1737478659323
-  [loading_requirement_container_meta:ea8cdf14-c19e-4c54-af21-137ade821425-1737478659323] = [groups:][instances:]
   widget_active_state_requirement_container_identifier = ea8cdf14-c19e-4c54-af21-137ade821425-1737478659323
   [loading_requirement_container_meta:ea8cdf14-c19e-4c54-af21-137ade821425-1737478659323] = [groups:][instances:]
   is_template = false
@@ -1133,7 +1059,6 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_options_button
   instance_identifier = mc_titlescreen_options_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
@@ -1157,9 +1082,6 @@ vanilla_button {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 1e9f0b4a-213f-4861-b510-2cf092c7a9f9-1737478659323
   [loading_requirement_container_meta:1e9f0b4a-213f-4861-b510-2cf092c7a9f9-1737478659323] = [groups:][instances:]
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 1e9f0b4a-213f-4861-b510-2cf092c7a9f9-1737478659323
-  [loading_requirement_container_meta:1e9f0b4a-213f-4861-b510-2cf092c7a9f9-1737478659323] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1175,15 +1097,11 @@ vanilla_button {
 vanilla_button {
   button_element_executable_block_identifier = 49e987fd-2ecd-4139-8d87-5619026b6420-1737478659323
   [executable_block:49e987fd-2ecd-4139-8d87-5619026b6420-1737478659323][type:generic] = [executables:]
-  button_element_executable_block_identifier = 49e987fd-2ecd-4139-8d87-5619026b6420-1737478659323
-  [executable_block:49e987fd-2ecd-4139-8d87-5619026b6420-1737478659323][type:generic] = [executables:]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
   navigatable = true
-  widget_active_state_requirement_container_identifier = a15af087-466d-4c8a-8ee8-9fc382e13841-1737478659323
-  [loading_requirement_container_meta:a15af087-466d-4c8a-8ee8-9fc382e13841-1737478659323] = [groups:][instances:]
   widget_active_state_requirement_container_identifier = a15af087-466d-4c8a-8ee8-9fc382e13841-1737478659323
   [loading_requirement_container_meta:a15af087-466d-4c8a-8ee8-9fc382e13841-1737478659323] = [groups:][instances:]
   is_template = false
@@ -1200,7 +1118,6 @@ vanilla_button {
   nine_slice_slider_handle_border_y = 5
   element_type = vanilla_button
   instance_identifier = mc_titlescreen_singleplayer_button
-  instance_identifier = mc_titlescreen_singleplayer_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1209,14 +1126,9 @@ vanilla_button {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 2564
-  auto_sizing_base_screen_height = 1603
+  auto_sizing_base_screen_width = 2562
+  auto_sizing_base_screen_height = 1476
   sticky_anchor = false
-  anchor_point = mid-left
-  x = 28
-  y = -49
-  width = 137
-  height = 20
   anchor_point = mid-left
   x = 28
   y = -49
@@ -1227,8 +1139,6 @@ vanilla_button {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 73905cb0-2388-4a0c-8621-a9312a92c2df-1737478659323
   [loading_requirement_container_meta:73905cb0-2388-4a0c-8621-a9312a92c2df-1737478659323] = [groups:][instances:]
-  element_loading_requirement_container_identifier = 73905cb0-2388-4a0c-8621-a9312a92c2df-1737478659323
-  [loading_requirement_container_meta:73905cb0-2388-4a0c-8621-a9312a92c2df-1737478659323] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -1237,13 +1147,6 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  rotation_degrees = 0.0
-  advanced_rotation_mode = false
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
 }
-
