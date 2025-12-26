@@ -1,0 +1,12 @@
+{
+  "material.tconstruct.tungsten": "Tungsten",
+  "material.tconstruct.tungsten.flavor": "Have you considered starting a heavy metal band?",
+  "material.tconstruct.tungsten.encyclopedia": "Grants +1.6 damage in biomes with neutral temperatures",
+  "material.tconstruct.tungsten.ranged": "Grants +0.15 accuracy in biomes with neutral temperatures",
+  "material.tconstruct.tungsten.armor": "Reduces damage by 5% per level in biomes with neutral temperatures",
+
+  "material.tconstruct.platinum": "Platinum",
+  "material.tconstruct.platinum.flavor": "Its what winners use!",
+  "material.tconstruct.platinum.encyclopedia": "Grants 2-6 bonus nugget drops when mining ore, boosted at higher levels",
+  "material.tconstruct.platinum.ranged": "Hitting a distant monster has a 5% chance per level to drop nuggets. 50 blocks or more drops platinum, 40 blocks gold, 30 blocks iron, and 20 blocks copper."
+}
