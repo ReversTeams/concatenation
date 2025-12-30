@@ -15,5 +15,17 @@
       "value": 10,
       "operation": "ADDITION"
     }
+  ],
+  "ender_dragon": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 750,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.1,
+      "operation": "ADDITION"
+    }
   ]
 }

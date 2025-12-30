@@ -1511,30 +1511,30 @@ ServerEvents.recipes(event => {
                         B: 'mekanism:ingot_osmium'
                 }
         )
-        // event.shaped(
-        //         Item.of('thoriumreactors:thorium_chest_block'),
-        //         [
-        //                 ' A ',
-        //                 'ABA',
-        //                 ' A '
-        //         ],
-        //         {
-        //                 B: 'ironchest:diamond_chest',
-        //                 A: 'thoriumreactors:thorium'
-        //         }
-        // )
-        // event.shaped(
-        //         Item.of('thoriumreactors:steel_chest_block'),
-        //         [
-        //                 'AAA',
-        //                 'ABA',
-        //                 'AAA'
-        //         ],
-        //         {
-        //                 A: 'createmetallurgy:steel_ingot',
-        //                 B: '#forge:chests/wooden'
-        //         }
-        // )
+        event.shaped(
+                Item.of('thoriumreactors:thorium_chest_block'),
+                [
+                        ' A ',
+                        'ABA',
+                        ' A '
+                ],
+                {
+                        B: 'ironchest:diamond_chest',
+                        A: 'thoriumreactors:thorium'
+                }
+        )
+        event.shaped(
+                Item.of('thoriumreactors:steel_chest_block'),
+                [
+                        'AAA',
+                        'ABA',
+                        'AAA'
+                ],
+                {
+                        A: 'createmetallurgy:steel_ingot',
+                        B: '#forge:chests/wooden'
+                }
+        )
 
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
         event.recipes.thermal.press('concatenationcore:meteorite_clump', ['2x concatenationcore:meteorite', 'thermal:press_packing_2x2_die'])

@@ -9,7 +9,7 @@ minSpawnDelay = 200
 maxSpawnDelay = 800
 #Required player range
 #Range: 1 ~ 100
-requiredPlayerRange = 16
+requiredPlayerRange = 48
 #Number of entities to spawn
 #Range: 1 ~ 50
 spawnCount = 4
