@@ -14,6 +14,11 @@
     "modId": "quarryplus",
     "version": "1201.1.136"
   },
+  "AdvancedAE-1.3.2-1.20.1.jar": {
+    "jarName": "AdvancedAE-1.3.2-1.20.1.jar",
+    "modId": "advanced_ae",
+    "version": "1.3.2-1.20.1"
+  },
   "ae2ct-1.20.1-1.1.1.jar": {
     "jarName": "ae2ct-1.20.1-1.1.1.jar",
     "modId": "ae2ct",
@@ -319,10 +324,10 @@
     "modId": "concatenationcompat",
     "version": "1.0.1"
   },
-  "concatenationcore-1.3.1-forge-1.20.1.jar": {
-    "jarName": "concatenationcore-1.3.1-forge-1.20.1.jar",
+  "concatenationcore-1.3.2-forge-1.20.1.jar": {
+    "jarName": "concatenationcore-1.3.2-forge-1.20.1.jar",
     "modId": "concatenationcore",
-    "version": "1.3.1"
+    "version": "1.3.2"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -362,10 +367,10 @@
     "modId": "controlling",
     "version": "12.0.2"
   },
-  "conveniencerecipes-1.0.3-forge-1.20.1.jar": {
-    "jarName": "conveniencerecipes-1.0.3-forge-1.20.1.jar",
+  "conveniencerecipes-1.0.4-forge-1.20.1.jar": {
+    "jarName": "conveniencerecipes-1.0.4-forge-1.20.1.jar",
     "modId": "conveniencerecipes",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   "copycats-3.0.2+mc.1.20.1-forge.jar": {
     "jarName": "copycats-3.0.2+mc.1.20.1-forge.jar",
@@ -396,6 +401,11 @@
     "jarName": "cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
     "modId": "cosmeticcorpsecompat",
     "version": "1.0.0"
+  },
+  "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar": {
+    "jarName": "craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
+    "modId": "craftingrecipeexporter",
+    "version": "1.0.2"
   },
   "craftingstation-1.20.1-1.3.2.jar": {
     "jarName": "craftingstation-1.20.1-1.3.2.jar",
@@ -787,10 +797,10 @@
     "modId": "glodium",
     "version": "1.20-1.5-forge"
   },
-  "gnetum-2.3.4.jar": {
-    "jarName": "gnetum-2.3.4.jar",
+  "gnetum-2.3.5.jar": {
+    "jarName": "gnetum-2.3.5.jar",
     "modId": "gnetum",
-    "version": "2.3.4"
+    "version": "2.3.5"
   },
   "gpumemleakfix-1.20.1-1.8.jar": {
     "jarName": "gpumemleakfix-1.20.1-1.8.jar",
@@ -912,10 +922,10 @@
     "modId": "itemfilters",
     "version": "2001.1.0-build.59"
   },
-  "Ixeris-3.8.2+1.20.1-forge.jar": {
-    "jarName": "Ixeris-3.8.2+1.20.1-forge.jar",
+  "Ixeris-3.8.4+1.20.1-forge.jar": {
+    "jarName": "Ixeris-3.8.4+1.20.1-forge.jar",
     "modId": "ixeris",
-    "version": "3.8.2+1.20.1-forge"
+    "version": "3.8.4+1.20.1-forge"
   },
   "Jade-1.20.1-Forge-11.13.2.jar": {
     "jarName": "Jade-1.20.1-Forge-11.13.2.jar",
@@ -951,6 +961,11 @@
     "jarName": "kjsindustrialforegoing-1.0.jar",
     "modId": "kjsindustrialforegoing",
     "version": "1.0"
+  },
+  "kleeslabs-forge-1.20.1-15.0.9.jar": {
+    "jarName": "kleeslabs-forge-1.20.1-15.0.9.jar",
+    "modId": "kleeslabs",
+    "version": "15.0.9"
   },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -1115,10 +1130,10 @@
     "modId": "minecolonies",
     "version": "1.20.1-1.1.1153-snapshot"
   },
-  "MineColonies_Compatibility-1.20.1-2.104.jar": {
-    "jarName": "MineColonies_Compatibility-1.20.1-2.104.jar",
+  "MineColonies_Compatibility-1.20.1-2.105.jar": {
+    "jarName": "MineColonies_Compatibility-1.20.1-2.105.jar",
     "modId": "minecolonies_compatibility",
-    "version": "2.104"
+    "version": "2.105"
   },
   "MineColonies_Tweaks-1.20.1-2.93-all.jar": {
     "jarName": "MineColonies_Tweaks-1.20.1-2.93-all.jar",
@@ -1149,6 +1164,11 @@
     "jarName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
     "modId": "mousetweaks",
     "version": "2.25.1"
+  },
+  "MRU-1.0.4+1.20.1+forge.jar": {
+    "jarName": "MRU-1.0.4+1.20.1+forge.jar",
+    "modId": "mru",
+    "version": "1.0.4+1.20.1+forge"
   },
   "multipiston-1.20-1.2.43-RELEASE.jar": {
     "jarName": "multipiston-1.20-1.2.43-RELEASE.jar",
@@ -1518,10 +1538,10 @@
     "modId": "structuresloottweak",
     "version": "1.0.0"
   },
-  "structurify-forge-2.0.10+mc1.20.1.jar": {
-    "jarName": "structurify-forge-2.0.10+mc1.20.1.jar",
+  "structurify-forge-2.0.11+mc1.20.1.jar": {
+    "jarName": "structurify-forge-2.0.11+mc1.20.1.jar",
     "modId": "structurify",
-    "version": "2.0.10"
+    "version": "2.0.11"
   },
   "structurize-1.20.1-1.0.793-snapshot.jar": {
     "jarName": "structurize-1.20.1-1.0.793-snapshot.jar",
@@ -1562,6 +1582,11 @@
     "jarName": "tacz-1.20.1-1.1.7-release.jar",
     "modId": "tacz",
     "version": "1.1.7"
+  },
+  "tagfixes-1.0.0-forge-1.20.1.jar": {
+    "jarName": "tagfixes-1.0.0-forge-1.20.1.jar",
+    "modId": "tagfixes",
+    "version": "1.0.0"
   },
   "tarotcards-1.20-1.7.0.jar": {
     "jarName": "tarotcards-1.20-1.7.0.jar",
@@ -1643,6 +1668,11 @@
     "modId": "theurgy",
     "version": "1.25.0"
   },
+  "thoriumreactors-1.20.1-0.1.7.1b-all.jar": {
+    "jarName": "thoriumreactors-1.20.1-0.1.7.1b-all.jar",
+    "modId": "thoriumreactors",
+    "version": "0.1.6b"
+  },
   "Threads-1.0.2-1.20.1.jar": {
     "jarName": "Threads-1.0.2-1.20.1.jar",
     "modId": "threads",
@@ -1657,6 +1687,11 @@
     "jarName": "tinker_rapier-1.0.1-1.20.1.jar",
     "modId": "tinker_rapier",
     "version": "1.0.1-1.20.1"
+  },
+  "tinkersplatinumtungsten-1.0.0-forge-1.20.1.jar": {
+    "jarName": "tinkersplatinumtungsten-1.0.0-forge-1.20.1.jar",
+    "modId": "tinkersplatinumtungsten",
+    "version": "1.0.0"
   },
   "Tips-Forge-1.20.1-12.1.8.jar": {
     "jarName": "Tips-Forge-1.20.1-12.1.8.jar",

@@ -229,6 +229,24 @@ ServerEvents.recipes(event => {
                         E: 'thermal:energy_cell'
                 }
         ).keepIngredient('tarotcards:the_high_priestess')
+        event.shaped(
+                Item.of(
+                        "concatenationcore:full_vessels",
+                        '{CurioAttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;640975309,-1644542158,2093428149,1748520931],Slot:"curio"}]}'
+                ),
+                [
+                        'ABA',
+                        'CDC',
+                        'AEA'
+                ],
+                {
+                        A: 'thermal:enderium_coin',
+                        C: 'concatenationcore:compacted_steel',
+                        B: 'mekanism:ingot_osmium',
+                        D: 'tarotcards:the_high_priestess',
+                        E: 'thermal:energy_cell'
+                }
+        ).keepIngredient('tarotcards:the_high_priestess')
 
 
         event.shapeless(

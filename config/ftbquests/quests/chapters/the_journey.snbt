@@ -29744,7 +29744,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/curios set curio @s 5"
+					command: "/curios set curio @s 6"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -29755,7 +29755,7 @@
 					ignore_reward_blocking: true
 					silent: true
 					team_reward: false
-					title: "+4 Curio Slots"
+					title: "+5 Curio Slots"
 					type: "command"
 				}
 			]

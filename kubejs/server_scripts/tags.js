@@ -94,7 +94,7 @@ ServerEvents.tags('item', event => {
         'asr:stone_giant_sword',
         'asr:ender_giant_sword',
         'bloodmagic:soulsword',
-        'reliquary:magicbane',
+        'reliquary:magicbane'
         //'create_dd:gilded_rose_sword'
     ]);
 
@@ -284,7 +284,8 @@ ServerEvents.tags('item', event => {
         'concatenationcore:full_cups',
         'concatenationcore:full_wands',
         'concatenationcore:full_pentacles',
-        'concatenationcore:full_swords'
+        'concatenationcore:full_swords',
+        'concatenationcore:full_vessels'
     ];
     add('curios:curio', fullSets);
     add('tarotcards:tarot_cards', fullSets);
@@ -622,7 +623,8 @@ ServerEvents.tags('item', event => {
     add('concatenation:crusher_input', [
         'create:zinc_ingot',
         'thermal:tin_ingot',
-        'perdition:compacted_marmor'
+        'perdition:compacted_marmor',
+        'ae2:certus_quartz_crystal'
     ])
 
     add('concatenation:crusher_input/zinc', [

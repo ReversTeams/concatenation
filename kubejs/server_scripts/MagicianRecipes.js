@@ -1150,6 +1150,12 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
+                Item.of('spelled:spell_book'),
+                [
+                        'spelled:spell_book'
+                ]
+        )
+        event.shapeless(
                 Item.of('spelled:ancient_knowledge_tome'),
                 [
                         'elementalcraft:scroll_paper',

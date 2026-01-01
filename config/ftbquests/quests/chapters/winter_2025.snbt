@@ -458,23 +458,14 @@
 				item: "born_in_chaos_v1:dark_ice"
 				type: "item"
 			}]
-			tasks: [
-				{
-					biome: "minecraft:ice_spikes"
-					icon: "chipped:packed_ice_pointed_dripstone"
-					id: "6E71433F99556637"
-					title: "Visit the Ice Spikes"
-					type: "biome"
-				}
-				{
-					biome: "terralith:cave/ice_caves"
-					icon: "chipped:ice_scales"
-					id: "0FAF9197F82906A8"
-					title: "Visit the Ice Caves"
-					type: "biome"
-				}
-			]
-			title: "Visit the Ice"
+			tasks: [{
+				biome: "minecraft:ice_spikes"
+				icon: "chipped:packed_ice_pointed_dripstone"
+				id: "6E71433F99556637"
+				title: "Visit the Ice Spikes"
+				type: "biome"
+			}]
+			title: "Visit the Ice Spikes"
 			x: 3.5d
 			y: -4.0d
 		}
