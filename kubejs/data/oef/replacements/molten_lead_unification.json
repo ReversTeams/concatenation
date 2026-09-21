@@ -1,9 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_lead",
-      "common_ore_library:molten_lead"
-    ],
-    "resultFluid": "tconstruct:molten_lead"
-  }
-]
