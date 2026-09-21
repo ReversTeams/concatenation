@@ -13,6 +13,7 @@
 	}
 	id: "6EF96D49109B6053"
 	images: [{
+		entity_vis_cycle_seconds: 0.0f
 		entity_vis_enabled: true
 		entity_vis_entity: "strangematter:warp_projectile"
 		entity_vis_idle_mode: "USE_GLOBAL"
@@ -71,6 +72,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "the_deep_void:void_lens"
@@ -126,6 +129,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
@@ -179,6 +184,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "the_deep_void:misted_heart"
@@ -237,6 +244,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "the_deep_void:disturbing_root"
@@ -293,6 +302,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -316,6 +327,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -339,6 +352,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "the_deep_void:cage"

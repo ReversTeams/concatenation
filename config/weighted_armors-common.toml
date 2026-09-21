@@ -4,6 +4,8 @@
 	enableGravityModification = false
 	#Toggles whether the heaviest piece worn determines the speed multiplier as a whole.
 	enableHeavyPriority = false
+	#Toggles armor weight tooltip on armor items.
+	enableTooltip = false
 
 [Speed]
 	#Multiplicative speed bonus per piece. (1.10 = +10%, 0.90 = -10%)

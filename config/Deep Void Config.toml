@@ -44,6 +44,10 @@
 	StalkerLightLevel = 1.0
 	#If the False Hydra should spawn when the player has brain fog
 	FalseHydraFromBrainFog = true
+	#In ticks
+	UndertakerSpawnTimer = 24000.0
+	UndertakerSpawnChance = 0.5
+	SpawnUndertaker = true
 
 [Misc]
 	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
@@ -264,6 +268,7 @@
 	#Damage (ignores i-frames)
 	DoubleBarrelShotgun = 0.7
 	PerilShowAdrenaline = true
+	CoffinDoom = 10.0
 
 ["Hive's Watcher"]
 	#Damage each tick

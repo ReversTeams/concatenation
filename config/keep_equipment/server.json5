@@ -1,0 +1,14 @@
+{
+	/* When an item with durability is kept, it will take damage equal to this percentage of its max durability.
+	   For example, a value of 0.15 means that items take 15% durability damage when you die.
+	   Set this to 0 to disable it.
+	*/
+	"durabilityDamage": 0.15000000596046448,
+	// The percentage of XP that is kept on death.
+	"xpKeepPercentage": 0.5,
+	/* The percentage of XP that is dropped on death. xpKeepPercentage + xpDropPercentage should not be higher than 1.0.
+	   If the total is lower than 1.0, that means that some amount of XP will be permanently lost.
+	   If the total is higher than 1.0, that means XP will be created out of thin air when you die.
+	*/
+	"xpDropPercentage": 0.25
+}

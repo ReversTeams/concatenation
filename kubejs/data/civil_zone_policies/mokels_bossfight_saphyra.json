@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "mokels_bossfight_saphyra_all",
+      "structures": [
+        "mokels_bossfight_saphyra:church_of_the_oath_pus",
+        "mokels_bossfight_saphyra:fractured_clock_tower",
+        "mokels_bossfight_saphyra:observatory",
+        "mokels_bossfight_saphyra:the_three_hallowed_towers"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

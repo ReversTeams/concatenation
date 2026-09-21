@@ -44,3 +44,8 @@
 	#List of entities that spawn end blood.
 	"End Blood List" = [" "]
 
+[effect_chances]
+	"Damage Sound Effect Chance" = 50.0
+	"Death Sound Effect Chance" = 50.0
+	"Blood Overlay Chance" = 50.0
+

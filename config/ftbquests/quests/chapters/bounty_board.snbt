@@ -234,6 +234,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "12C22F09893543F1"
@@ -280,6 +282,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:spider_mandible"
@@ -326,6 +330,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:monster_flesh"
@@ -384,6 +390,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:armor_plate_from_dark_metal"
@@ -497,6 +505,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -520,6 +530,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -543,6 +555,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -566,6 +580,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -630,6 +646,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "celestisynth:star_monolith_blood"
@@ -647,6 +665,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "celestisynth:crimson_piece"
@@ -704,6 +724,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
@@ -754,6 +776,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "irons_spellbooks:armor_pile"
@@ -801,6 +825,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
@@ -865,6 +891,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
@@ -933,6 +961,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -956,6 +986,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: {
@@ -1049,6 +1081,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "the_deep_void:head_of_the_hunter"
@@ -1355,6 +1389,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "bountiful:bountyboard"

@@ -27,8 +27,9 @@ ServerEvents.recipes(event => {
                 'thesubmarinemod:alas_submarino',
                 'cyberspace:terminal',
                 'cyberspace:quantum_core',
-                'cyberspace:carbon_fiber_mesh',
-                'hpm:largehull'
+                'cyberspace:graphene_mesh',
+                'hpm:largehull',
+                'cyberspace:synthetic_capsule'
         ]
 
         remove.forEach(item => {
@@ -547,7 +548,7 @@ ServerEvents.recipes(event => {
                         C: 'concatenationcore:stickyredstone',
                         B: 'perdition:dis',
                         F: 'cyberspace:quantum_core',
-                        A: 'cyberspace:carbon_fiber_mesh',
+                        A: 'cyberspace:graphene_mesh',
                         D: 'minecraft:black_stained_glass_pane'
                 }
         )
@@ -559,15 +560,15 @@ ServerEvents.recipes(event => {
                         'ABA'
                 ],
                 {
-                        B: 'concatenationcore:circuit',
-                        A: 'cyberspace:carbon_fiber_mesh',
+                        B: 'cyberspace:synthetic_capsule',
+                        A: 'cyberspace:graphene_mesh',
                         C: 'mekanism:ingot_uranium',
                         D: 'thermal:rf_coil',
                         E: 'tarotcards:the_chariot'
                 }
         ).keepIngredient('tarotcards:the_chariot')
         event.shaped(
-                Item.of('cyberspace:carbon_fiber_mesh'),
+                Item.of('cyberspace:graphene_mesh'),
                 [
                         'AAA',
                         'ABA',
@@ -575,7 +576,20 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         B: 'thermal:lead_gear',
-                        A: 'cyberspace:carbon_fiber'
+                        A: 'cyberspace:graphite_fiber'
+                }
+        )
+        event.shaped(
+                Item.of('cyberspace:synthetic_capsule'),
+                [
+                        ' A ',
+                        'BCB',
+                        ' A '
+                ],
+                {
+                        B: 'minecraft:emerald',
+                        A: 'cyberspace:graphene_mesh',
+                        C: 'concatenationcore:circuit'
                 }
         )
         event.shaped(

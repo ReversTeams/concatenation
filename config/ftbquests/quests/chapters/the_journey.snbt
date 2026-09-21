@@ -16,6 +16,7 @@
 			y: 1.5d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "strangematter:energetic_rift"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -34,6 +35,7 @@
 			y: -24.0d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "strangematter:gravity_anomaly"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -52,6 +54,7 @@
 			y: -29.0d
 		}
 		{
+			entity_vis_cycle_seconds: 0.0f
 			entity_vis_enabled: true
 			entity_vis_entity: "strangematter:echoing_shadow"
 			entity_vis_idle_mode: "USE_GLOBAL"
@@ -19492,6 +19495,7 @@
 				advancement: "born_in_chaos_v1:fighting_nightmares"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "born_in_chaos_v1:nightmare_stalker"
 					idle_mode: "USE_GLOBAL"
@@ -27275,6 +27279,8 @@
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
 				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "13E1CE5807321E49"
@@ -29623,6 +29629,7 @@
 				advancement: "born_in_chaos_v1:horror_underthe_mantle"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "born_in_chaos_v1:lifestealer_true_form"
 					idle_mode: "USE_GLOBAL"
@@ -29670,6 +29677,7 @@
 				advancement: "born_in_chaos_v1:dark_creator"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "born_in_chaos_v1:missioner"
 					idle_mode: "USE_GLOBAL"
@@ -29704,6 +29712,7 @@
 				advancement: "born_in_chaos_v1:wrong_santa"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "born_in_chaos_v1:krampus"
 					idle_mode: "USE_GLOBAL"
@@ -29744,6 +29753,7 @@
 				advancement: "born_in_chaos_v1:pumpkin_sir"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "born_in_chaos_v1:lord_pumpkinhead"
 					idle_mode: "USE_GLOBAL"
@@ -29799,6 +29809,7 @@
 				advancement: "born_in_chaos_v1:exorcism"
 				criterion: ""
 				ftbquestsentityvis_icon: {
+					cycle_seconds: 0.0f
 					enabled: 1b
 					entity: "born_in_chaos_v1:spiritof_chaos"
 					idle_mode: "USE_GLOBAL"
@@ -30524,6 +30535,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
@@ -30541,6 +30554,8 @@
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
 					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
@@ -32686,7 +32701,11 @@
 				""
 				"&2How fascinating! We have found a method of entering a digital subspace we have intuitively named the Cyberspace, via an odd terminal-looking portal apparatus, though we are not fully sure of its inner workings."
 				""
-				"&2While this dimension is quite boring, containing mostly flat space, it may prove useful to build complex machinery in it or to use it for travels."
+				"&2While this dimension is quite boring, containing mostly flat space, it may prove useful to build complex machinery in it or to use it for travels. We have set up both a public cyberspace and a private cyberspace divided amongst humanity."
+				"{@pagebreak}"
+				"&2To access cyberspace, a virtual machine must be built, consisting of a 3x3 array of virtual machine casing blocks with 4 virtual machine casing on top at the center of each 3x3 side with a virtual machine core at the center, followed by a ring of 8 casings in a 3x3 shape with a hole in the middle at the top. A wrench is needed to assemble the machine."
+				"{@pagebreak}"
+				"&a(While in Cyberspace, you can leave Cyberspace with a keybind defaulted to C.)"
 			]
 			entity_vis_size: 1.0f
 			id: "6234E7A18A669E0B"
@@ -32697,11 +32716,36 @@
 			}]
 			size: 1.2d
 			subtitle: "Digital Subspace"
-			tasks: [{
-				id: "61987BBDFC97F5F8"
-				item: "cyberspace:terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61987BBDFC97F5F8"
+					item: "cyberspace:terminal"
+					type: "item"
+				}
+				{
+					id: "45ADB74A85D7873D"
+					item: "cyberspace:virtual_machine_core"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "1BF3338F33AA2C07"
+					item: "cyberspace:virtual_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6BDC436012519C78"
+					item: {
+						Count: 1
+						id: "cyberspace:wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cyberspace"
 			x: -24.0d
 			y: 15.2d
 		}
@@ -32723,7 +32767,7 @@
 			}]
 			tasks: [{
 				id: "10FDACF3BC60AC52"
-				item: "cyberspace:carbon_fiber_mesh"
+				item: "cyberspace:graphene_mesh"
 				type: "item"
 			}]
 			x: -23.0d
