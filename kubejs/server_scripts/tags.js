@@ -721,4 +721,30 @@ ServerEvents.tags('item', event => {
         'ars_zero:mage_spell_staff',
         'ars_nouveau:archmage_spell_book'
     ]);
+
+    add('keep_equipment:kept_equipment', [
+        "tarotcards:tarot_deck", 
+        "tarotcards:death", 
+        "tarotcards:judgement", 
+        "tarotcards:justice", 
+        "tarotcards:strength", 
+        "tarotcards:temperance", 
+        "tarotcards:the_chariot", 
+        "tarotcards:the_devil", 
+        "tarotcards:the_emperor", 
+        "tarotcards:the_empress", 
+        "tarotcards:the_fool", 
+        "tarotcards:the_hanged_man", 
+        "tarotcards:the_hierophant", 
+        "tarotcards:the_hermit", 
+        "tarotcards:the_high_priestess", 
+        "tarotcards:the_lovers", 
+        "tarotcards:the_magician", 
+        "tarotcards:the_moon", 
+        "tarotcards:the_star", 
+        "tarotcards:the_sun", 
+        "tarotcards:the_tower", 
+        "tarotcards:the_world", 
+        "tarotcards:wheel_of_fortune"
+    ]);
 });

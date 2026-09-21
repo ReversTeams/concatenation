@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "irons_spellbook_all",
+      "structures": [
+        "irons_spellbooks:ancient_battleground",
+        "irons_spellbook:catacombs",
+        "irons_spellbooks:evoker_fort",
+        "irons_spellbooks:ice_spider_den",
+        "irons_spellbooks:impaled_icebreaker",
+        "irons_spellbooks:mangrove_hut",
+        "irons_spellbooks:mountain_tower",
+        "irons_spellbooks:pyromancer_tower",
+        "irons_spellbooks:citadel"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

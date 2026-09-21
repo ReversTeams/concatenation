@@ -1,5 +1,5 @@
 {
-  "info:": "This is the config for the chunk sending mod, it is mostly relevant for dedicated servers. A Tick in minecraft happens 20 times a second(20TPS), a chunk is a 16x16 block area that gets sent to the client.",
+  "desc:": "This is the config for the chunk sending mod, it is mostly relevant for dedicated servers. A Tick in minecraft happens 20 times a second(20TPS), a chunk is a 16x16 block area that gets sent to the client.",
   "maxChunksPerTick": {
     "desc:": "Maximum amount of chunks sent per tick to a player. Default: 15 (x3 in singleplayer)",
     "maxChunksPerTick": 5
@@ -18,10 +18,10 @@
   },
   "ItemFrameMaps": {
     "desc:": "Settings for Item Frames containing maps sending updates to players. Default: enabled = true, set to false to disable this feature.",
-    "enabled:": true,
-    "descAll:": "Sets the update interval at which itemframes send map updates to ALL players in a dimension so reducing the update rate does reduce network traffic especially when a lot of itemframes with maps exist. Default: 100 Ticks, Vanilla: 10 Ticks",
+    "enabled": true,
+    "desc2:": "Sets the update interval at which itemframes send map updates to ALL players in a dimension, so reducing the update rate does reduce network traffic especially when a lot of itemframes with maps exist. Default: 100 Ticks, Vanilla: 10 Ticks",
     "itemFrameMapUpdateInterval": 100,
-    "descNearby:": "Sets the update interval at which itemframes send map updates to nearby players. Default: 20 Ticks, Vanilla: 10 Ticks",
+    "desc3:": "Sets the update interval at which itemframes send map updates to nearby players. Default: 20 Ticks, Vanilla: 10 Ticks",
     "itemFrameMapUpdateNearbyInterval": 20
   },
   "debugLogging": {

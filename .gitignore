@@ -62,6 +62,7 @@ lightspeed-cache
 eula.txt
 bin
 config/QuantifiedAPI/cache
+particular_cache
 
 # explicitly included config
 !config/ProjectE/client.toml
@@ -89,3 +90,4 @@ config/QuantifiedAPI/cache
 !config/shadercycler-client.toml
 !config/tab_organizer-client.toml
 !config/vanillabackport-client.toml
+!config/supplementaries-client.toml

@@ -1,9 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_osmium",
-      "common_ore_library:molten_osmium"
-    ],
-    "resultFluid": "tconstruct:molten_osmium"
-  }
-]

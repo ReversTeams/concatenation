@@ -1,8 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_slag"
-    ],
-    "resultFluid": "tfmg:molten_slag"
-  }
-]

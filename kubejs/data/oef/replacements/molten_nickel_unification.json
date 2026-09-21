@@ -1,9 +1,0 @@
-[
-  {
-    "matchFluid": [
-      "createmetallurgy:molten_nickel",
-      "common_ore_library:molten_nickel"
-    ],
-    "resultFluid": "tconstruct:molten_nickel"
-  }
-]
