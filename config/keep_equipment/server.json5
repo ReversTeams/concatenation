@@ -10,5 +10,13 @@
 	   If the total is lower than 1.0, that means that some amount of XP will be permanently lost.
 	   If the total is higher than 1.0, that means XP will be created out of thin air when you die.
 	*/
-	"xpDropPercentage": 0.25
+	"xpDropPercentage": 0.25,
+	// Whether your hotbar should be kept on death.
+	"keepHotbar": false,
+	// Whether your offhand should be kept on death.
+	"keepOffhand": false,
+	// Whether your armor should be kept on death.
+	"keepArmor": false,
+	// Whether Curios/Trinket items should be kept on death.
+	"keepTrinkets": false
 }

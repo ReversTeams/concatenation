@@ -1428,6 +1428,20 @@ ServerEvents.recipes(event => {
                         C: 'minecraft:iron_bars'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:dread_treat'),
+                [
+                        'AAA',
+                        'BCB',
+                        'ADA'
+                ],
+                {
+                        A: 'minecraft:rotten_flesh',
+                        D: 'minecraft:beef',
+                        B: 'minecraft:porkchop',
+                        C: 'tconstruct:necrotic_bone'
+                }
+        )
         // event.shaped(
         //         Item.of('utility_belt:utility_belt'),
         //         [

@@ -1,0 +1,35 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Starter Kit -> Config",
+	"Enable Starter Kit": {
+		"//": "Whether Starter Kit is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"randomizeMultipleKitsToggle": {
+		"//": "When multiple starter kits are added via /starterkit add, there are two ways to distribute them. With this enabled, one is chosen at random. When disabled, players can choose one on first join.",
+		"value": false
+	},
+	"addExistingItemsAfterKitSet": {
+		"//": "Whether items that existed in the inventory, such as books added by other mods, should be added back to the inventory after the kit was set. If disabled, they'll be removed. You can still manually set them via the kit.",
+		"value": false
+	},
+	"usePotionEffectsInStarterKit": {
+		"//": "If potion/mob effect functionality should be enabled. This means that when creating a kit via /sk (add/set), it also saves the active effects the player has. And when handing out the starter kits, it adds the effects to new players.",
+		"value": true
+	},
+	"formatKitNames": {
+		"//": "If kit names should be formatted. Each word will be capitalized.",
+		"value": true
+	},
+	"chooseKitText": {
+		"//": "The text used above the kit choice screen, or if the mod is not installed in the chat. %s will be replaced with the player's name.",
+		"value": "%s, choose a pathway!"
+	},
+	"announcePlayerKitChoiceInDedicatedServer": {
+		"//": "Whether an announcement should be broadcasted to the server whenever a new player makes a kit choice. 'randomizeMultipleKitsToggle' must be disabled, and there must be at least 2 starter kits available.",
+		"value": true
+	},
+	"enableFTBIslandCreateCompatibility": {
+		"//": "Whether the starter kit should be re-set after the '/ftbteamislands create' command from FTB Team Islands. Does nothing when it's not installed.",
+		"value": true
+	}
+}

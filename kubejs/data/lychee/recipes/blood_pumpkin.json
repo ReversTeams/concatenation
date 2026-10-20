@@ -1,0 +1,15 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": [
+        {
+            "item": "hexerei:blood_bucket"
+        }
+    ],
+    "block_in": "minecraft:carved_pumpkin",
+    "post": [
+        {
+            "type": "place",
+            "block": "concatenationcore:blood_pumpkin"
+        }
+    ]
+}

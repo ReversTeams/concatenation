@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "halloween_2026"
+	group: "4AEECD5B848DA3A1"
+	icon: {
+		Count: 1
+		id: "concatenationcore:bloody_living_giant_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0206718403AA21B6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			entity_vis_size: 1.0f
+			id: "40B2C64AF8388E4B"
+			rewards: [{
+				id: "1EF4706071052FF6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5251C48E2D501A9D"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40B2C64AF8388E4B"]
+			entity_vis_size: 1.0f
+			id: "42D60380D3D7F2C5"
+			size: 1.15d
+			tasks: [{
+				consume_items: true
+				id: "7D1AF400F140462E"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42D60380D3D7F2C5"]
+			entity_vis_size: 1.0f
+			id: "03243FC2F7D4C485"
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "66E0FCDA6D045BB1"
+				item: { Count: 20, id: "hexerei:blood_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03243FC2F7D4C485"]
+			entity_vis_size: 1.0f
+			id: "30DD15AD3D7260D1"
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "1A0DD52C9DEF6574"
+				item: { Count: 40, id: "hexerei:blood_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30DD15AD3D7260D1"]
+			entity_vis_size: 1.0f
+			id: "0DE758C247F13660"
+			rewards: [{
+				id: "7D78A91CBFEDAFA4"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "3F41DE8B081D94C7"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0DE758C247F13660"]
+			entity_vis_size: 1.0f
+			id: "29EE54B803EFA534"
+			tasks: [{
+				id: "4CC0295B6307E918"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["42D60380D3D7F2C5"]
+			entity_vis_size: 1.0f
+			id: "5BDAFB10860924B1"
+			tasks: [{
+				id: "2323AABF61EB27DC"
+				item: "concatenationcore:blood_pumpkin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BDAFB10860924B1"]
+			entity_vis_size: 1.0f
+			id: "18C06162983CD91C"
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				icon: "concatenationcore:blood_pumpkin_full"
+				id: "57AF1A29764831E2"
+				observe_type: 0
+				timer: 0L
+				title: "Witness a Full Blood Pumpkin"
+				to_observe: "concatenationcore:blood_pumpkin_full"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	title: "Halloween 2026"
+}

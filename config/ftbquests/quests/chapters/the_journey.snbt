@@ -23,9 +23,12 @@
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -42,9 +45,12 @@
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -61,9 +67,12 @@
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
+			entity_vis_silhouette_mode: "NONE"
 			entity_vis_size: 1.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -19504,7 +19513,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -27272,15 +27283,17 @@
 			tasks: [{
 				entity: "the_deep_void:fool_eater"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "13E1CE5807321E49"
@@ -29638,7 +29651,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29686,7 +29701,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29721,7 +29738,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 1b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29762,7 +29781,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29818,7 +29839,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -30528,15 +30551,17 @@
 				{
 					entity: "minecraft:zombie"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
@@ -30547,15 +30572,17 @@
 				{
 					entity: "minecraft:skeleton"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
@@ -32326,9 +32353,13 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
+				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid zinc mixture."
+				""
 				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid zinc mixture contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
 				""
 				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Zinc Mixture = Dense Metal Block"
+				""
+				"&lThere must be 1000mb of liquid zinc mixture in the Thermae for the reaction to work."
 			]
 			entity_vis_size: 1.0f
 			id: "34E7DCC3F4492CEA"
@@ -32351,6 +32382,8 @@
 				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid zinc mixture."
 				""
 				"Then, when the Thermae contains over 1000mb of liquid zinc mixture, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
+				""
+				"&lThere must be 1000mb of liquid zinc mixture in the Thermae for the reaction to work."
 				"{@pagebreak}"
 				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Zinc Mixture."
 				""

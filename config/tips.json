@@ -1,7 +1,8 @@
 {
   "defaultCycleTime": 5000,
   "ignoredNamespaces": [
-    "tipsmod"
+    "tipsmod",
+    "the_deep_void"
   ],
   "ignoredTips": [],
   "hideUnlocalizedTips": false,

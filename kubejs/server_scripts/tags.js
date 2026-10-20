@@ -722,6 +722,25 @@ ServerEvents.tags('item', event => {
         'ars_nouveau:archmage_spell_book'
     ]);
 
+    add('concatenation:blood_ingredient', [
+        'tconstruct:blood_slime_grass_seeds', 
+        'bloodmagic:weakbloodshard', 
+        'bloodmagic:weakbloodorb', 
+        'the_deep_void:bloody_tongue', 
+        'the_deep_void:bloodfin', 
+        'tconstruct:blood_slime_tall_grass', 
+        'born_in_chaos_v1:bloody_gadfly_eye', 
+        'tconstruct:meat_soup', 
+        'the_deep_void:porous_flesh', 
+        'concatenationcore:dread_treat', 
+        'tconstruct:meat_soup', 
+        'the_deep_void:porous_flesh', 
+        'the_deep_void:gaping_porous_flesh', 
+        'the_deep_void:messy_flesh', 
+        'the_deep_void:packed_flesh', 
+        'concatenationcore:dread_treat'
+    ]);
+
     add('keep_equipment:kept_equipment', [
         "tarotcards:tarot_deck", 
         "tarotcards:death", 

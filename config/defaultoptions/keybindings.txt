@@ -89,7 +89,6 @@ key_key.thesubmarinemod.wpressed:key.keyboard.w:NONE
 key_key.thesubmarinemod.a_submarino:key.keyboard.a:NONE
 key_key.thesubmarinemod.d_submarino:key.keyboard.d:NONE
 key_key.thesubmarinemod.espacio_submarino:key.keyboard.space:NONE
-key_key.reliable_remover.emi_delete:key.keyboard.delete:NONE
 key_key.structurize.teleport:key.keyboard.unknown:NONE
 key_key.structurize.move_forward:key.keyboard.up:NONE
 key_key.structurize.move_back:key.keyboard.down:NONE
@@ -163,6 +162,7 @@ key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown:NONE
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:NONE
 key_key.shadercycler.cycle:key.keyboard.left.alt:NONE
 key_key.shadercycler.open_config:key.keyboard.unknown:NONE
+key_key.namepain.showCulled:key.keyboard.unknown:NONE
 key_key.clientsort.edit:key.keyboard.unknown:NONE
 key_key.clientsort.cancelAuto:key.keyboard.unknown:NONE
 key_key.clientsort.op.sort:key.keyboard.unknown:NONE

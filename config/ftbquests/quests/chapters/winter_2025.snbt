@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0F3237156DE95B07"]
 			description: [
 				"&4It's the season of cold! As the little ones enjoy lobbing snowballs at each other and everything that lives, everyone else struggles to shovel snow off their roads."
 				""
@@ -26,10 +27,9 @@
 			}]
 			subtitle: "Happy Holidays!"
 			tasks: [{
-				consume_items: true
 				count: 16L
-				id: "3C4B7002A503BD22"
-				item: "minecraft:snowball"
+				id: "0CD364A24F1DCBA3"
+				item: { Count: 16, id: "minecraft:snowball" }
 				type: "item"
 			}]
 			title: "Winter 2025"
@@ -125,15 +125,17 @@
 			tasks: [{
 				entity: "born_in_chaos_v1:krampus_henchman"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: {
@@ -487,15 +489,17 @@
 			tasks: [{
 				entity: "born_in_chaos_v1:krampus"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				icon: "born_in_chaos_v1:krampus_horn"

@@ -1,0 +1,21 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "minecraft:glass_bottle"
+    },
+    "block_in": {
+        "blocks": ["industrialforegoing:mob_slaughter_factory"]
+    },
+    "comment": "The recipe is not literally right clicking the mob slaughter factory with a glass bottle. Throw a glass bottle into liquid meat placed on the floor, produced via the mob slaughter factory.",
+    "ghost": true,
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        }
+    ]
+}

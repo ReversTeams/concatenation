@@ -1,0 +1,37 @@
+
+["Iron's Spells Integration"]
+	#Multiplier for Iron's Spells mana costs
+	#Range: 0.1 ~ 10.0
+	ironSpellsManaCostMultiplier = 1.5
+	#Multiplier when converting Iron's Spells max mana bonuses
+	#Range: 0.1 ~ 10.0
+	ironSpellsMaxManaMultiplier = 0.6
+	#Multiplier when converting Iron's Spells mana regen bonuses
+	#Range: 0.1 ~ 10.0
+	ironSpellsManaRegenMultiplier = 0.6
+
+["Ars Nouveau Integration"]
+	#Multiplier when converting Ars Nouveau max mana bonuses
+	#Range: 0.1 ~ 10.0
+	arsNouveauMaxManaMultiplier = 1.0
+	#Multiplier when converting Ars Nouveau mana regen bonuses
+	#Range: 0.1 ~ 10.0
+	arsNouveauManaRegenMultiplier = 1.0
+
+["Electroblobs Wizardry Integration"]
+	#Multiplier for Electroblob's Wizardry spell mana costs
+	#Range: 0.1 ~ 10.0
+	ebWizardryManaCostMultiplier = 1.0
+
+["Mana Bar Display"]
+	#Horizontal offset for the mana bar position (from left of screen)
+	#Range: -1000 ~ 1000
+	manaBarXOffset = 0
+	#Vertical offset for the mana bar position (from above health bar)
+	#Range: -1000 ~ 1000
+	manaBarYOffset = 0
+	#Whether the mana bar should move up when armor is equipped
+	manaBarMoveForArmor = true
+	#Whether to show current/max mana values as text on the mana bar
+	showManaValues = false
+
