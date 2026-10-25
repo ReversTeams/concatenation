@@ -32,6 +32,7 @@ key_key.hotbar.6:key.keyboard.6:NONE
 key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
+key_key.dungeonconfig.open:key.keyboard.k:NONE
 key_key.entityculling.toggle:key.keyboard.unknown:NONE
 key_key.integratedterminals.terminal.tab.next:key.keyboard.tab:NONE
 key_key.integratedterminals.terminal.tab.previous:key.keyboard.tab:SHIFT
@@ -89,7 +90,6 @@ key_key.thesubmarinemod.wpressed:key.keyboard.w:NONE
 key_key.thesubmarinemod.a_submarino:key.keyboard.a:NONE
 key_key.thesubmarinemod.d_submarino:key.keyboard.d:NONE
 key_key.thesubmarinemod.espacio_submarino:key.keyboard.space:NONE
-key_key.reliable_remover.emi_delete:key.keyboard.delete:NONE
 key_key.structurize.teleport:key.keyboard.unknown:NONE
 key_key.structurize.move_forward:key.keyboard.up:NONE
 key_key.structurize.move_back:key.keyboard.down:NONE
@@ -163,6 +163,7 @@ key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown:NONE
 key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown:NONE
 key_key.shadercycler.cycle:key.keyboard.left.alt:NONE
 key_key.shadercycler.open_config:key.keyboard.unknown:NONE
+key_key.namepain.showCulled:key.keyboard.unknown:NONE
 key_key.clientsort.edit:key.keyboard.unknown:NONE
 key_key.clientsort.cancelAuto:key.keyboard.unknown:NONE
 key_key.clientsort.op.sort:key.keyboard.unknown:NONE

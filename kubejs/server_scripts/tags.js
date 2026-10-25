@@ -324,7 +324,8 @@ ServerEvents.tags('item', event => {
     add('tarotcards:tarot_cards', fullSets);
     add('curios:charm', [
         'concatenationcore:rython',
-        'concatenationcore:stalker_ward'
+        'concatenationcore:stalker_ward',
+        'concatenationcore:hexed_seeds'
     ]);
     add('curios:spellbook', [
         'concatenationcore:karma_tome',
@@ -720,6 +721,25 @@ ServerEvents.tags('item', event => {
     add('concatenation:t3_magic_wand_core', [
         'ars_zero:mage_spell_staff',
         'ars_nouveau:archmage_spell_book'
+    ]);
+
+    add('concatenation:blood_ingredient', [
+        'tconstruct:blood_slime_grass_seeds', 
+        'bloodmagic:weakbloodshard', 
+        'bloodmagic:weakbloodorb', 
+        'the_deep_void:bloody_tongue', 
+        'the_deep_void:bloodfin', 
+        'tconstruct:blood_slime_tall_grass', 
+        'born_in_chaos_v1:bloody_gadfly_eye', 
+        'tconstruct:meat_soup', 
+        'the_deep_void:porous_flesh', 
+        'concatenationcore:dread_treat', 
+        'tconstruct:meat_soup', 
+        'the_deep_void:porous_flesh', 
+        'the_deep_void:gaping_porous_flesh', 
+        'the_deep_void:messy_flesh', 
+        'the_deep_void:packed_flesh', 
+        'concatenationcore:dread_treat'
     ]);
 
     add('keep_equipment:kept_equipment', [

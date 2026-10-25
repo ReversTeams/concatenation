@@ -24,9 +24,12 @@
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
+			entity_vis_silhouette_mode: "NONE"
+			entity_vis_size: 5.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -43,9 +46,12 @@
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
+			entity_vis_silhouette_mode: "NONE"
+			entity_vis_size: 5.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -62,9 +68,12 @@
 			entity_vis_offset_x: 0.0f
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
-			entity_vis_silhouette: false
-			entity_vis_size: 1.0f
+			entity_vis_silhouette_mode: "NONE"
+			entity_vis_size: 5.0f
+			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
+			entity_vis_tag_cycle_mode: "USE_GLOBAL"
+			entity_vis_use_as_quest_icon: false
 			entity_vis_walk_mode: "USE_GLOBAL"
 			height: 1.0d
 			image: ""
@@ -19475,7 +19484,7 @@
 				"{@pagebreak}"
 				"The megatorch helps to keep Nightmare Stalkers away, but is not infallible."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "64655F5EE797B52B"
 			rewards: [
 				{
@@ -19505,7 +19514,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -27273,15 +27284,17 @@
 			tasks: [{
 				entity: "the_deep_void:fool_eater"
 				entity_use_tag: false
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
 				entity_vis_idle_mode: "USE_GLOBAL"
 				entity_vis_offset_x: 0.0f
 				entity_vis_offset_y: 0.0f
 				entity_vis_rotation: 0.0f
 				entity_vis_silhouette_mode: "NONE"
 				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
 				entity_vis_spin_mode: "USE_GLOBAL"
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
-				entity_vis_tag_cycle_seconds: 0.0f
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
 				id: "13E1CE5807321E49"
@@ -29610,7 +29623,7 @@
 				""
 				"Experienced mages and fighters will have no issue dispatching these small lords, with a greater emphasis on ranged attacks."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			hide_dependency_lines: true
 			id: "7792C9C4083B5E66"
 			rewards: [
@@ -29639,7 +29652,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29658,7 +29673,23 @@
 				""
 				"It has several ranged and magical attacks."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
+			ftbquestsentityvis_icon: {
+				cycle_seconds: 0.0f
+				enabled: 0b
+				entity: "minecraft:pig"
+				idle_mode: "USE_GLOBAL"
+				offset_x: 0.0f
+				offset_y: 0.0f
+				rotation: 0.0f
+				silhouette_mode: "NONE"
+				size: 2.0f
+				slim_arms: 0b
+				spin_mode: "USE_GLOBAL"
+				tag_cycle_mode: "USE_GLOBAL"
+				use_as_quest_icon: 0b
+				walk_mode: "USE_GLOBAL"
+			}
 			hide_dependency_lines: true
 			id: "331B463F56B12F4C"
 			rewards: [
@@ -29687,7 +29718,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29701,7 +29734,7 @@
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
 			description: ["A mythical creature from the cold and frozen wastelands. It is often angered by the slaughtering of small and defenseless animals."]
-			entity_vis_size: 1.25f
+			entity_vis_size: 2.0f
 			hide_dependency_lines: true
 			id: "067237DD7132D829"
 			rewards: [{
@@ -29722,7 +29755,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 1b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29742,7 +29777,7 @@
 				""
 				"&4It is unknown whether the multiple sightings of Sir Pumpkinhead are the same entity, a weaker entity than Lord Pumpkinhead, or one of 'His' avatars. I believe they're avatars, though. I should hunt one of these as my contribution to the festivities. We'll have a night of drinking once I'm back."
 			]
-			entity_vis_size: 1.2f
+			entity_vis_size: 2.0f
 			hide_dependency_lines: true
 			id: "410C0B331F8A12F2"
 			rewards: [{
@@ -29763,7 +29798,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -29781,7 +29818,7 @@
 				""
 				"It can take possession of your enemies, strengthening them considerably. It makes them move much faster and hit a lot harder, but on their own, these spirits are quite weak. An exorcism through death is needed to get them out of someone. The condition is lethal."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			hide_dependency_lines: true
 			id: "2DC88F1D0EDBD7B7"
 			rewards: [
@@ -29819,7 +29856,9 @@
 					rotation: 0.0f
 					silhouette_mode: "NONE"
 					size: 1.0f
+					slim_arms: 0b
 					spin_mode: "USE_GLOBAL"
+					tag_cycle_mode: "USE_GLOBAL"
 					use_as_quest_icon: 0b
 					walk_mode: "USE_GLOBAL"
 				}
@@ -30529,15 +30568,17 @@
 				{
 					entity: "minecraft:zombie"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:zombie_head"
@@ -30548,15 +30589,17 @@
 				{
 					entity: "minecraft:skeleton"
 					entity_use_tag: false
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
 					entity_vis_idle_mode: "USE_GLOBAL"
 					entity_vis_offset_x: 0.0f
 					entity_vis_offset_y: 0.0f
 					entity_vis_rotation: 0.0f
 					entity_vis_silhouette_mode: "NONE"
 					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
 					entity_vis_spin_mode: "USE_GLOBAL"
 					entity_vis_tag_cycle_mode: "USE_GLOBAL"
-					entity_vis_tag_cycle_seconds: 0.0f
 					entity_vis_use_as_quest_icon: false
 					entity_vis_walk_mode: "USE_GLOBAL"
 					icon: "minecraft:skeleton_skull"
@@ -32327,9 +32370,13 @@
 		{
 			dependencies: ["4C76FB98A8040661"]
 			description: [
+				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid zinc mixture."
+				""
 				"Using the Thermae, a dense metal block can be formed by placing a copper block in the hot dipping bath above the Thermae. A galvanized iron block must be inserted inside the Thermae. With enough liquid zinc mixture contained inside, the galvanization process will start, melting and alloying the copper and galvanized iron blocks."
 				""
 				"Copper Block Above + Galvanized Iron Block Inside + 1000mb of Liquid Zinc Mixture = Dense Metal Block"
+				""
+				"&lThere must be 1000mb of liquid zinc mixture in the Thermae for the reaction to work."
 			]
 			entity_vis_size: 1.0f
 			id: "34E7DCC3F4492CEA"
@@ -32352,6 +32399,8 @@
 				"When the heater is fueled and the Thermae is filled with crushed zinc, it will create liquid zinc mixture."
 				""
 				"Then, when the Thermae contains over 1000mb of liquid zinc mixture, place an iron block in the dipping bath of the Thermae, one block right above the Thermae to galvanize the block of iron."
+				""
+				"&lThere must be 1000mb of liquid zinc mixture in the Thermae for the reaction to work."
 				"{@pagebreak}"
 				"18 Crushed Zinc in Thermae + Lava in Heater = Liquid Zinc Mixture."
 				""

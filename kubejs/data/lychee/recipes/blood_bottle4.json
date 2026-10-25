@@ -1,0 +1,24 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "minecraft:glass_bottle"
+    },
+    "block_in": {
+        "blocks": ["industrialforegoing:meat"]
+    },
+    "hide_in_viewer": true,
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "place",
+            "block": "*"
+        }
+    ]
+}

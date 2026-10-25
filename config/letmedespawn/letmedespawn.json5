@@ -1,0 +1,32 @@
+// LetMeDespawn configuration
+// This file uses JSON5 syntax (https://json5.org/)
+{
+  // Mobs that still become persistent when they pick up an item, as before LetMeDespawn (entity ids, e.g. corpse:corpse)
+  "mobNames": [
+    "corpse:corpse"
+  ],
+
+  // Items that keep a mob from despawning while it holds or wears one it picked up (item ids)
+  "persistenceEnablers": [],
+
+  // Let mobs from monster spawners despawn even when something tries to make them persistent
+  "enableStandardSpawnerDespawn": true,
+
+  // Picture, animated GIF or video behind this settings menu: a file in config/letmedespawn/bg, a link, a link to a .txt list of links, or empty for a random one from that folder (none turns it off). Videos need FFmpeg
+  "menuBackground": "",
+
+  // How strongly the menu background is blurred, 0 for sharp
+  "menuBackgroundBlurPercent": 0,
+
+  // How much the menu background picture is darkened
+  "menuBackgroundDimPercent": 55,
+
+  // Frame rate for video and animated GIF menu backgrounds
+  "menuBackgroundFps": 30,
+
+  // Music while this settings menu is open: a file in config/letmedespawn/bgmusic, a link, or empty for random tracks from that folder (none turns it off). Formats other than ogg and wav need FFmpeg
+  "menuMusic": "",
+
+  // Volume of the settings menu music
+  "menuMusicVolumePercent": 30
+}

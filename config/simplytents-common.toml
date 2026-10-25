@@ -10,3 +10,43 @@
 	#HOME = Spawn point is reverted to the last non-tent bed they slept in.
 	spawnLogic = "HOME"
 
+["Container Limits"]
+	#How many containers (chests, barrels, shulker boxes, hoppers...) may be placed inside a single tent.
+	#-1 = unlimited, 0 = containers cannot be placed inside tents at all.
+	#Range: -1 ~ 512
+	maxContainersPerTent = -1
+	#If false, packed tents cannot be stored inside container items (bundles, shulker boxes),
+	#and packing a tent will refuse to nest tents held inside containers within it
+	#(this is what stops tent-inside-chest-inside-tent recursion).
+	allowTentsInContainers = true
+	#Container block/item ids that are still allowed to hold tents when allowTentsInContainers is false.
+	#Example: ["supplementaries:sack"]
+	containerWhitelist = ["supplementaries:sack"]
+
+["Carry Weight"]
+	#Carrying MORE than this many tents in your inventory applies Slowness, imitating heavy gear.
+	#0 disables the effect entirely.
+	#Range: 0 ~ 64
+	heavyTentThreshold = 0
+	#Slowness amplifier used by heavyTentThreshold. 0 = Slowness I, 1 = Slowness II, ...
+	#Range: 0 ~ 4
+	heavyTentSlownessLevel = 0
+
+[Rendering]
+	#If true, tents count as a transparent block: sky light passes through and they do not dim the interior.
+	#If false, tents block light like a solid block. Reload the world after changing this.
+	tentTransparent = true
+
+[Concealment]
+	#If true, hostile mobs cannot target a player who is inside a tent.
+	#A mob the player has already attacked keeps hunting them, so a tent is cover rather than immunity.
+	mobsIgnoreTentedPlayers = false
+
+[Packing]
+	#Which entities travel with a tent when it is packed up.
+	#DECORATION = armour stands, item frames and paintings only (default).
+	#FRIENDLY   = the above plus animals, villagers and pets.
+	#ALL        = anything standing inside, hostile mobs included.
+	#Players are never packed, and neither is a mob a player is riding.
+	capturedEntities = "DECORATION"
+

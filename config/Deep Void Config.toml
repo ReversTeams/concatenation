@@ -99,6 +99,8 @@
 	FalseHydraRemovesBrainFog = true
 	#In ticks
 	BrainFogDuration = 2000.0
+	#The limit for how many modification templates can be added to an item
+	ModificationTemplateLimit = 5.0
 
 ["Gameplay Changes"]
 	#The player spawns in the Deep Void
@@ -183,7 +185,7 @@
 [Weapons]
 	#Initial damage & damage dealt by the daggers
 	ForbiddenTome = 12.0
-	#Damage dealt in an AOE
+	#Backstab multiplier
 	CruelStiletto = 10.0
 	#Damage dealt by the small arrows
 	ShadestormShadeArrow = 2.5
@@ -271,22 +273,14 @@
 	CoffinDoom = 10.0
 
 ["Hive's Watcher"]
-	#Damage each tick
+	#Damage upon colliding with the boss
 	HiveWatcherWhileMoving = 40.0
 	#Damage per projectile
 	HiveWatcherSpit = 16.0
-	#Percentage change of spawning bone spikes
-	HiveWatcherSpikeSpawn = 0.5
-	#Percentage change of spawning fangs
-	HiveWatcherFangsSpawn = 0.5
 	#How long the bone spike attack lasts (in ticks)
 	HiveWatcherSpikeDuration = 100.0
-	#The frequency at which the bone spikes spawn (in ticks)
-	HiveWatcherSpikeFrequency = 5.0
 	#Damage when the player is near the spike
 	HiveWatcherSpike = 15.0
-	#Size of the damaging zone around the boss while it's moving
-	HiveWatcherAttackRadius = 9.0
 
 ["Masked Hunter"]
 	#The cooldown before a Masked Hunter can spawn naturally (In ticks, 24,000 ticks is one day)
@@ -320,4 +314,8 @@
 	HydraSingingDespawnTimer = 2000.0
 	#The amount of encounters that is required before the false hydra spawns (-1)
 	SpawnHydraRequiredEncounter = 3.0
+
+["Flesh Worm"]
+	#In ticks
+	FleshWormSpikeDuration = 70.0
 

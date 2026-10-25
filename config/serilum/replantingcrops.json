@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Replanting Crops -> Config",
+	"Enable Replanting Crops": {
+		"//": "Whether Replanting Crops is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"mustHoldHoeForReplanting": {
+		"//": "If enabled, players must hold a hoe in their hand to automatically replant the crop.",
+		"value": true
+	}
+}

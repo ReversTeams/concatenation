@@ -1,0 +1,34 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "minecraft:glass_bottle"
+    },
+    "block_in": {
+        "blocks": ["hexerei:blood"],
+        "state": {
+            "level": 0
+        }
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "drop_item",
+            "item": "hexerei:blood_bottle"
+        },
+        {
+            "type": "place",
+            "block": "*"
+        }
+    ]
+}
