@@ -1,0 +1,38 @@
+// Almanac configuration
+// This file uses JSON5 syntax (https://json5.org/)
+{
+  // Toggles the empty NBT bug fix on or off.
+  "enableNbtFix": false,
+
+  // Items in this list will not be modified by Almanac.
+  // Supports wildcard '*'. For example:
+  //   - 'minecraft:diamond' matches exactly 'minecraft:diamond'
+  //   - '*:diamond*' matches any item from any mod that contains 'diamond'
+  //   - 'minecraft:*' matches all items from minecraft namespace
+  //   - '*nec*' matches any item that contains 'nec', eg. 'necromancy:abc', 'my_mod:necklace'
+  "blacklistItems": [
+    "alexscaves:sack_of_sating",
+    "hexerei:*",
+    "spelunkery:*",
+    "minecraft:spyglass",
+    "technicalcores:*"
+  ],
+
+  // Picture, animated GIF or video behind this settings menu: a file in config/almanac/bg, a link, a link to a .txt list of links, or empty for a random one from that folder (none turns it off). Videos need FFmpeg
+  "menuBackground": "",
+
+  // How strongly the menu background is blurred, 0 for sharp
+  "menuBackgroundBlurPercent": 0,
+
+  // How much the menu background picture is darkened
+  "menuBackgroundDimPercent": 55,
+
+  // Frame rate for video and animated GIF menu backgrounds
+  "menuBackgroundFps": 30,
+
+  // Music while this settings menu is open: a file in config/almanac/bgmusic, a link, or empty for random tracks from that folder (none turns it off). Formats other than ogg and wav need FFmpeg
+  "menuMusic": "",
+
+  // Volume of the settings menu music
+  "menuMusicVolumePercent": 30
+}

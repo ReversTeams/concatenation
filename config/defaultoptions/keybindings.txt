@@ -32,6 +32,7 @@ key_key.hotbar.6:key.keyboard.6:NONE
 key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
+key_key.dungeonconfig.open:key.keyboard.k:NONE
 key_key.entityculling.toggle:key.keyboard.unknown:NONE
 key_key.integratedterminals.terminal.tab.next:key.keyboard.tab:NONE
 key_key.integratedterminals.terminal.tab.previous:key.keyboard.tab:SHIFT

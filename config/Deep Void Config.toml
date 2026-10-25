@@ -99,6 +99,8 @@
 	FalseHydraRemovesBrainFog = true
 	#In ticks
 	BrainFogDuration = 2000.0
+	#The limit for how many modification templates can be added to an item
+	ModificationTemplateLimit = 5.0
 
 ["Gameplay Changes"]
 	#The player spawns in the Deep Void

@@ -1,125 +1,316 @@
 {
+	autofocus_id: "0822814E563A5044"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "halloween_2026"
 	group: "4AEECD5B848DA3A1"
-	icon: {
-		Count: 1
-		id: "concatenationcore:bloody_living_giant_sword"
-		tag: {
-			Damage: 0
-		}
-	}
-	id: "0206718403AA21B6"
+	hide_quest_until_deps_complete: true
+	icon: "concatenationcore:blood_pumpkin"
+	id: "603B7ADC4EC528C2"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"&fI have arrived in this strange land of Red Barar, a lively place filled with vampires... oh sorry, Sanguines, as they refer to themselves. Vampires are only artificial sanguines. I've come here in search of this Moon Cult who seem to have knowledge over the Moon Pathway. At least I acquired my Temperance card a while ago."
+				""
+				"&fIt seems they are having this grand festival around this time of year. Time to blend right in."
+				""
+				"&aThe quests in this chapter are revealed as the quests before are completed. Most quests in this chapter require items to be submitted."
+			]
 			entity_vis_size: 1.0f
-			id: "40B2C64AF8388E4B"
+			id: "0822814E563A5044"
 			rewards: [{
-				id: "1EF4706071052FF6"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "5B4CF561B6FE1579"
+				item: "hexerei:blood_bottle"
+				type: "item"
 			}]
 			tasks: [{
-				id: "5251C48E2D501A9D"
+				consume_items: true
+				id: "62C638C03777884A"
 				item: "minecraft:carved_pumpkin"
 				type: "item"
 			}]
+			title: "The Blood Festival"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["40B2C64AF8388E4B"]
+			dependencies: ["0822814E563A5044"]
+			description: ["&fIt seems that part of this festival is a competition between sanguines to determine who can harvest the most blood within 3 weeks. I would be led to believe this would be terribly skewed towards the aristocrats with a dozen of factories producing blood day and night and turns out I would be correct. There's a kid's category for manual blood collection."]
 			entity_vis_size: 1.0f
-			id: "42D60380D3D7F2C5"
+			id: "63785492CE884D72"
+			rewards: [{
+				count: 13
+				id: "3B294FAC22F44080"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			size: 1.15d
 			tasks: [{
 				consume_items: true
-				id: "7D1AF400F140462E"
+				id: "720829EB32FB31D7"
 				item: "hexerei:blood_bottle"
+				match_nbt: true
+				type: "item"
+			}]
+			title: "The Competition"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63785492CE884D72"]
+			description: [
+				"&fSometimes I forget these sanguines have to drink blood all of the time. I have a diet consisting of my own blood quite some time ago as I obtained my Temperance card. Not a pleasant experience, but I was completely broke."
+				""
+				"&fSeems like the proceeds of this festival are going to charity... are there poor sanguines? I thought everyone was rich around here. If not, why don't they just step into the sun? Their human livestock surely don't need the blood."
+			]
+			entity_vis_size: 1.0f
+			id: "0702805376964E53"
+			rewards: [{
+				count: 9
+				id: "69555A41FF67667C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "67C27B705ED5D36A"
+				item: "hexerei:blood_bottle"
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["42D60380D3D7F2C5"]
+			dependencies: ["0702805376964E53"]
+			description: [
+				"&fIn frustration, I have learned that the blood I've been donating does not actually enter into my collection count yet for the festival. In fact, this is only a twisted entrance fee, or rather a proof that one can compete."
+				""
+				"&fSo, I'm just giving blood and not receiving any vouchers! What a scam! Well, there's only about half a hundred left to produce before I can truly compete among the sanguines."
+			]
 			entity_vis_size: 1.0f
-			id: "03243FC2F7D4C485"
+			id: "1BE7F4AA8E307379"
+			rewards: [{
+				id: "2063F9B6A41D7EE5"
+				item: {
+					Count: 1
+					id: "the_deep_void:dark_steel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 20L
-				id: "66E0FCDA6D045BB1"
-				item: { Count: 20, id: "hexerei:blood_bottle" }
+				id: "633D28CD61111571"
+				item: "hexerei:blood_bottle"
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["03243FC2F7D4C485"]
+			dependencies: ["1BE7F4AA8E307379"]
+			description: ["&fAt least, I receive some smaller participation prizes from some of the items donated to the festival. I got a handy ferrum pickaxe... I don't think it holds up to my archmage's spellbook. What looks to be more enticing is an antique living blood sword. It's not the most powerful of weapons, but it is elegant."]
 			entity_vis_size: 1.0f
-			id: "30DD15AD3D7260D1"
+			id: "0E94DB0377908CD4"
+			rewards: [{
+				id: "612A2B70BF931106"
+				item: {
+					Count: 1
+					id: "concatenationcore:bloody_living_giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
-				count: 40L
-				id: "1A0DD52C9DEF6574"
-				item: { Count: 40, id: "hexerei:blood_bottle" }
+				count: 50L
+				id: "636A460D8CF9B7C4"
+				item: "hexerei:blood_bottle"
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["30DD15AD3D7260D1"]
+			dependencies: ["0E94DB0377908CD4"]
+			description: [
+				"&fFinally, I've entered the first true stage of the festival! From now on, every 5 blood bottle I donate, I get a voucher! At least, this is going to a good cause, right?"
+				""
+				"&fI've found it strange the Sanguines are not bothered with my entry. I might be the only human equal in power around here."
+			]
 			entity_vis_size: 1.0f
-			id: "0DE758C247F13660"
+			id: "4B7758AE76C7CB09"
 			rewards: [{
-				id: "7D78A91CBFEDAFA4"
+				id: "2BEE655A3FE42747"
 				item: "concatenationcore:blood_festival_fragment"
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.2d
 			tasks: [{
-				id: "3F41DE8B081D94C7"
+				consume_items: true
+				count: 3L
+				id: "09847FC80E17D858"
 				item: "hexerei:blood_bottle"
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["0DE758C247F13660"]
+			dependencies: ["4B7758AE76C7CB09"]
+			description: ["I can finally start earning fragments... the one who has the most fragments wins the competition. However, they can also be redeemed for various rewards. But if I spend them, I won't be able to win. Was this rigged?"]
 			entity_vis_size: 1.0f
-			id: "29EE54B803EFA534"
+			hide_dependent_lines: true
+			id: "6378F35C4C516CC5"
+			rewards: [{
+				id: "2C57BDF69EEEB2DA"
+				item: "concatenationcore:karma_tome"
+				type: "item"
+			}]
+			subtitle: "The Collection"
 			tasks: [{
-				id: "4CC0295B6307E918"
+				consume_items: false
+				id: "3D1B33C11E0BF298"
 				item: "concatenationcore:blood_festival_fragment"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
-			dependencies: ["42D60380D3D7F2C5"]
+			dependencies: ["0822814E563A5044"]
+			description: ["&fA tradition of this time of year is to curse pumpkins into blood pumpkins. The process is quite simple, as long as someone knows how to draw the right hex with a bucket of blood on a pumpkin, it will become cursed and slowly fill up with mystical blood."]
 			entity_vis_size: 1.0f
-			id: "5BDAFB10860924B1"
+			id: "6F7D1EDC2EF88924"
+			rewards: [{
+				id: "0709DE257E26C79B"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.15d
 			tasks: [{
-				id: "2323AABF61EB27DC"
+				id: "0625C2DF7C327E98"
 				item: "concatenationcore:blood_pumpkin"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 2.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["5BDAFB10860924B1"]
+			dependencies: ["6F7D1EDC2EF88924"]
+			description: [
+				"&fThe blood pumpkin will slowly fill up with delicious mystical blood over time. This will draw monsters who will try to consume the blood for themselves. Therefore, sanguines will have to protect valiently their blood pumpkins during the festival. Turns out, there's also all sorts of creatures that don't exactly want to eat this pumpkin, but want to destroy it to prevent accumulation of stronger predators."
+				""
+				"{@pagebreak}"
+				"&fOnce it's full, the blood pumpkin can be broken to yield some goodies, even crystalized gems such as diamonds somehow. It can also result in a net blood positive by pressing blood bubbles into blood bottles. The skin of this pumpkin is now very tough as well."
+			]
 			entity_vis_size: 1.0f
-			id: "18C06162983CD91C"
+			id: "5C65BB043F4CF436"
+			rewards: [{
+				count: 10
+				id: "139E88C39AFD23A6"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [
+				{
+					entity_vis_cycle_seconds: 0.0f
+					entity_vis_enabled: false
+					entity_vis_idle_mode: "USE_GLOBAL"
+					entity_vis_offset_x: 0.0f
+					entity_vis_offset_y: 0.0f
+					entity_vis_rotation: 0.0f
+					entity_vis_silhouette_mode: "NONE"
+					entity_vis_size: 1.0f
+					entity_vis_slim_arms: false
+					entity_vis_spin_mode: "USE_GLOBAL"
+					entity_vis_tag_cycle_mode: "USE_GLOBAL"
+					entity_vis_use_as_quest_icon: false
+					entity_vis_walk_mode: "USE_GLOBAL"
+					icon: "concatenationcore:blood_pumpkin_full"
+					id: "148778439B374E68"
+					observe_type: 0
+					timer: 0L
+					title: "Witness a Full Blood Pumpkin"
+					to_observe: "concatenationcore:blood_pumpkin_full"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					id: "23A2CC73518DE6B3"
+					item: "concatenationcore:blood_pumpkin_full"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.4d
+			y: -1.6500000000000001d
+		}
+		{
+			dependencies: ["0822814E563A5044"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cWell, Grisha, guess what! I am not alone in the world!"
+				""
+				"&4My congratulations, young Sanguine."
+				""
+				"&cUnfortunately, I found an old man who doesn't have much left for this world. While Sanguine society has collapsed, this has reminded me that this is the season of the Blood Festival. The old man said he had a tradition of making and lighting a red lantern every year, but he's now too weak to produce the materials. I will take it upon myself to fulfill his last request."
+			]
+			entity_vis_size: 1.0f
+			id: "5D8625CDFFDE31EB"
+			rewards: [{
+				id: "2AA4AEA6D71F12B5"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "31602EC342B572E9"
+				item: "strangematter:resonite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D8625CDFFDE31EB"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cGrisha, what are these strange things I keep coming across the land?"
+				""
+				"&4According to the man known as &2Prudence&4, anomalies have come into existence following an interdimensional disaster where the Moon Cult was cutoff from the land known as Limbo. These new anomalies come from the new land they reached, Purgatory, where the Moon Cult hides to this day. These anomalies can be comprised of some weirdly colourful and glowing crystals filled with anomalous energy."
+				""
+				"&cPerfect for a lamp, then."
+				""
+				"&4What"
+			]
+			entity_vis_size: 5.0f
+			id: "40AEE3EE5BF71D30"
+			rewards: [{
+				id: "04AF603CF08DE18F"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				entity_vis_cycle_seconds: 0.0f
 				entity_vis_enabled: false
@@ -134,17 +325,845 @@
 				entity_vis_tag_cycle_mode: "USE_GLOBAL"
 				entity_vis_use_as_quest_icon: false
 				entity_vis_walk_mode: "USE_GLOBAL"
-				icon: "concatenationcore:blood_pumpkin_full"
-				id: "57AF1A29764831E2"
-				observe_type: 0
+				id: "28C651E8058767D1"
+				observe_type: 5
 				timer: 0L
-				title: "Witness a Full Blood Pumpkin"
-				to_observe: "concatenationcore:blood_pumpkin_full"
+				title: "Witness an Echoing Shadow"
+				to_observe: "strangematter:echoing_shadow"
 				type: "observation"
 			}]
-			x: 2.5d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D8625CDFFDE31EB"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cGrisha, what are these strange things I keep coming across the land?"
+				""
+				"&4According to the man known as &2Prudence&4, anomalies have come into existence following an interdimensional disaster where the Moon Cult was cutoff from the land known as Limbo. These new anomalies come from the new land they reached, Purgatory, where the Moon Cult hides to this day. These anomalies can be comprised of some weirdly colourful and glowing crystals filled with anomalous energy."
+				""
+				"&cPerfect for a lamp, then."
+				""
+				"&4What"
+			]
+			entity_vis_size: 5.0f
+			id: "0502014571BDB8D6"
+			rewards: [{
+				id: "25D2340B2C74CC6A"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "2D6DD80CCE9E3857"
+				observe_type: 5
+				timer: 0L
+				title: "Witness an Energetic Rift"
+				to_observe: "strangematter:energetic_rift"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D8625CDFFDE31EB"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cGrisha, what are these strange things I keep coming across the land?"
+				""
+				"&4According to the man known as &2Prudence&4, anomalies have come into existence following an interdimensional disaster where the Moon Cult was cutoff from the land known as Limbo. These new anomalies come from the new land they reached, Purgatory, where the Moon Cult hides to this day. These anomalies can be comprised of some weirdly colourful and glowing crystals filled with anomalous energy."
+				""
+				"&cPerfect for a lamp, then."
+				""
+				"&4What"
+			]
+			entity_vis_size: 5.0f
+			id: "15CFC24FD5AB98CB"
+			rewards: [{
+				id: "0AAF84462D76225D"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "3034606D3A2D626D"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Warp Gate"
+				to_observe: "strangematter:warp_gate_anomaly"
+				type: "observation"
+			}]
+			x: -2.5d
 			y: -4.5d
 		}
+		{
+			dependencies: ["5D8625CDFFDE31EB"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cGrisha, what are these strange things I keep coming across the land?"
+				""
+				"&4According to the man known as &2Prudence&4, anomalies have come into existence following an interdimensional disaster where the Moon Cult was cutoff from the land known as Limbo. These new anomalies come from the new land they reached, Purgatory, where the Moon Cult hides to this day. These anomalies can be comprised of some weirdly colourful and glowing crystals filled with anomalous energy."
+				""
+				"&cPerfect for a lamp, then."
+				""
+				"&4What"
+			]
+			entity_vis_size: 5.0f
+			id: "676BABB43F5A68D5"
+			rewards: [{
+				id: "5CAEFBDFC85579DA"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "02C36987C4D42BB9"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Gravity Anomaly"
+				to_observe: "strangematter:gravity_anomaly"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5D8625CDFFDE31EB"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cGrisha, what are these strange things I keep coming across the land?"
+				""
+				"&4According to the man known as &2Prudence&4, anomalies have come into existence following an interdimensional disaster where the Moon Cult was cutoff from the land known as Limbo. These new anomalies come from the new land they reached, Purgatory, where the Moon Cult hides to this day. These anomalies can be comprised of some weirdly colourful and glowing crystals filled with anomalous energy."
+				""
+				"&cPerfect for a lamp, then."
+				""
+				"&4What"
+			]
+			entity_vis_size: 5.0f
+			id: "36D4ADE304E0CC4C"
+			rewards: [{
+				id: "223D6D8C0D16FA14"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "633D81EA07B10707"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Temporal Bloom"
+				to_observe: "strangematter:temporal_bloom"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D8625CDFFDE31EB"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cGrisha, what are these strange things I keep coming across the land?"
+				""
+				"&4According to the man known as &2Prudence&4, anomalies have come into existence following an interdimensional disaster where the Moon Cult was cutoff from the land known as Limbo. These new anomalies come from the new land they reached, Purgatory, where the Moon Cult hides to this day. These anomalies can be comprised of some weirdly colourful and glowing crystals filled with anomalous energy."
+				""
+				"&cPerfect for a lamp, then."
+				""
+				"&4What"
+			]
+			entity_vis_size: 5.0f
+			id: "5A5E85989BA440B2"
+			rewards: [{
+				id: "79A06C863563DB5F"
+				item: "hexerei:blood_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				entity_vis_cycle_seconds: 0.0f
+				entity_vis_enabled: false
+				entity_vis_idle_mode: "USE_GLOBAL"
+				entity_vis_offset_x: 0.0f
+				entity_vis_offset_y: 0.0f
+				entity_vis_rotation: 0.0f
+				entity_vis_silhouette_mode: "NONE"
+				entity_vis_size: 1.0f
+				entity_vis_slim_arms: false
+				entity_vis_spin_mode: "USE_GLOBAL"
+				entity_vis_tag_cycle_mode: "USE_GLOBAL"
+				entity_vis_use_as_quest_icon: false
+				entity_vis_walk_mode: "USE_GLOBAL"
+				id: "495B5CA74566F52C"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Thoughtwell"
+				to_observe: "strangematter:thoughtwell"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"40AEE3EE5BF71D30"
+				"676BABB43F5A68D5"
+				"0502014571BDB8D6"
+				"15CFC24FD5AB98CB"
+				"5A5E85989BA440B2"
+				"36D4ADE304E0CC4C"
+			]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cI collected all of these anomalous shards... that should be all. But what colour fits best the blood festival? This red shard, of course!"
+				""
+				"&4That appears to be a gravitic shard."
+				""
+				"&cFrom the gravity anomaly? It didn't even look red. That doesn't make sense."
+			]
+			entity_vis_size: 1.0f
+			id: "6BCA62AEFAFA13C0"
+			rewards: [{
+				count: 3
+				id: "6EC00181DD85C84A"
+				item: "hexerei:blood_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "03A0030B3E818BD0"
+					item: "strangematter:gravitic_shard"
+					type: "item"
+				}
+				{
+					id: "22E0784AA2A219EE"
+					item: "strangematter:chrono_shard"
+					type: "item"
+				}
+				{
+					id: "15615537E9B3C706"
+					item: "strangematter:spatial_shard"
+					type: "item"
+				}
+				{
+					id: "52E5750E9ACCFD41"
+					item: "strangematter:shade_shard"
+					type: "item"
+				}
+				{
+					id: "584D0FAF456D2729"
+					item: "strangematter:insight_shard"
+					type: "item"
+				}
+				{
+					id: "65FDBF8D64C91BC9"
+					item: "strangematter:energetic_shard"
+					type: "item"
+				}
+			]
+			title: "Anomalous Shards"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BCA62AEFAFA13C0"]
+			description: [
+				"&o&7Ethereal pages slip through the chapter."
+				""
+				"&cI've done it. I made the red lamp. Unfortunately, I was too late. When I went back, the old man was already gone."
+				""
+				"&4My condolences."
+				""
+				"&cI barely knew him. Besides, his corpse was left in peace. It's not like finding one of my countrymen hung upside down by a tree amidst rubble."
+			]
+			entity_vis_size: 1.0f
+			id: "5D6CAD89DE8D49DE"
+			rewards: [
+				{
+					count: 8
+					id: "3832353D27B89D38"
+					item: "hexerei:blood_bottle"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "7E64EFE15D6C6DBD"
+					item: "concatenationcore:rython"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55CE193D6E74DC73"
+				item: "strangematter:gravitic_shard_lantern"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0822814E563A5044"]
+			description: ["&fThis young sanguine girl is terribly scared of spirits. She's apparently asked everyone for a protection charm, but all of the adults laughed her off, that there's no ghosts to be afraid of in a sanguine city. So I am her only hope, I guess?"]
+			entity_vis_size: 1.0f
+			id: "1AAB788A86287E44"
+			rewards: [{
+				count: 4
+				id: "24EA0A18175B07D6"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76A17F883371381B"
+				item: {
+					Count: 1
+					id: "concatenationcore:protection_charm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AAB788A86287E44"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fI noticed a ship's captain looking to buy wither skulls at the market. Now, those are rare and dangerous items, obviously no one has them. I asked him why he was ready to pay such a high price for only one skull. He said that he had inherited a wither skull from his previous captain. This skull was kept on his desk for the longest of times and he had grown sentimental. "
+				""
+				"&fHowever, the skull was stolen in a raid and he's looking for a replacement. Now, I'm not sure about the sentimental value considering it clearly won't be the same skull, but with how rare they are, he might just end up finding the right one. Let's see if I can help him..."
+			]
+			entity_vis_size: 1.0f
+			id: "66D3355BB0B54F4B"
+			rewards: [{
+				count: 8
+				id: "1A018350A462FCE2"
+				item: "hexerei:blood_bottle"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6142AB99B855A09B"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1AAB788A86287E44"]
+			description: ["&fI've come across a shop selling some.. macabre equipment. Bone tools and bone armour. This made me wonder, can I make a bone shield myself? I have to try that out tonight."]
+			entity_vis_size: 1.0f
+			id: "362713A059D9B040"
+			rewards: [{
+				count: 4
+				id: "6C6B3ECAF6922200"
+				item: "hexerei:blood_bottle"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "363CED46CC6469CD"
+				item: {
+					Count: 1
+					id: "asr:skull_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66D3355BB0B54F4B"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fI was surprised to find an old witch around these parts. Well, she was still a sanguine, but a surprise nonetheless. Well, now that I think about it, witches should be more common around here. The Temperance Pathway evolves into the Moon Pathway. I wonder why I haven't seen witches in Red Barar yet? I almost did not recognize her without her hat, which has flown away in the wind somewhere. I can find that."
+			]
+			entity_vis_size: 1.0f
+			id: "45B2D49DE7310E16"
+			rewards: [
+				{
+					count: 12
+					id: "0F698623711B6A6B"
+					item: "hexerei:blood_bottle"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "33D80667D16E0C43"
+					item: "concatenationcore:candle_candies"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "4EB09C07C91DB840"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "butchery:witches_clothes_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reliquary:witch_hat"
+							}
+							{
+								Count: 1b
+								id: "goety:witch_hat"
+							}
+							{
+								Count: 1b
+								id: "goety:witch_hat_hedge"
+							}
+							{
+								Count: 1b
+								id: "goety:crone_hat"
+							}
+						]
+					}
+				}
+				title: "Any Witch Hat"
+				type: "item"
+			}]
+			title: "The Old Witch"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66D3355BB0B54F4B"]
+			description: [
+				"&o&7Notes from Eleonore's Travels, Tome VII"
+				""
+				"&fDo sanguines drink blaze blood? That sounds very dangerous. Isn't that used in blacksmithing to replace lava? Well, if it's like a spicy drink, who am I to object fetching it for an eccentric young sanguine lord."
+			]
+			entity_vis_size: 1.0f
+			id: "440BB50959B73C9E"
+			rewards: [{
+				count: 12
+				id: "33A33E85206106F5"
+				item: "hexerei:blood_bottle"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2E6FE5BDE9D1876C"
+				item: "reliquary:molten_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["362713A059D9B040"]
+			description: ["&fA young sanguine lord recognized me as a witch, somehow. When I'm dressed as an archmage from Sparkon. Now, I won't question his eyes, but I do have a witch license. He asked for a slowness potion to prank his friends. Who can say no to such mischief?"]
+			entity_vis_size: 1.0f
+			id: "5F08210A0C2A7304"
+			rewards: [{
+				count: 8
+				id: "1BD9C8A29127719E"
+				item: "hexerei:blood_bottle"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7C374FF3BD673474"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_slowness"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F08210A0C2A7304"]
+			description: ["&fThe young sanguine lord I met yesterday had realized a fatal mistake. Everyone would know it's him that splashed the slowness potion. Therefore, he needs to be invisible. I won't complain, that's more commissions for me. Although, I think these sanguines have forgotten I don't exactly drink blood myself, or I would rather not, in fact."]
+			entity_vis_size: 1.0f
+			id: "610504B3244FF4C1"
+			rewards: [
+				{
+					count: 12
+					id: "3F14A9A062592682"
+					item: "hexerei:blood_bottle"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "173CC83A45BCA804"
+					item: "concatenationcore:candle_candies"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "002284F43A70FA42"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_invisibility"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["An adventurer is selling these ruby helmets he found... somewhere. They are quite fancy and can protect an entire body from the sun and fire. The helmet itself isn't quite sturdy though."]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "concatenationcore:bloody_ruby_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "41284553FB44B619"
+			rewards: [{
+				id: "15F619DBD3570908"
+				item: {
+					Count: 1
+					id: "concatenationcore:bloody_ruby_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 10L
+				id: "2B3DA1B0D45D2E39"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Bloody Ruby Helmet"
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["A group of younglings are selling these candies that look like candles. How adorable. They brewed some potions they learned in their brewing classes and mixed some in there. I think some of them are definitely lethal but others are really good."]
+			entity_vis_size: 1.0f
+			icon: "concatenationcore:candle_candies"
+			id: "4D2427F150C26331"
+			rewards: [{
+				id: "38B7329123145E6C"
+				item: "concatenationcore:candle_candies"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 10L
+				id: "2021CCAE5B22913D"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Molten Candle Candies"
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["Stay healthy. The sanguines collectively came together to offer these apples of health to everyone for a relatively cheap ticket price. They're still made of gold after all. You never know when vampire hunters are going to start an incursion."]
+			entity_vis_size: 1.0f
+			icon: "minecraft:golden_apple"
+			id: "1969D2BE0D5496AF"
+			rewards: [{
+				id: "723202696287D1D5"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 2L
+				id: "133C45601D47A5E3"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Golden Apple"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["The miners are selling some redstone. I guess I might use this for some rituals or for circuitry?"]
+			entity_vis_size: 1.0f
+			icon: "minecraft:redstone"
+			id: "6BD6DA74C2A38093"
+			rewards: [{
+				count: 4
+				id: "688DCA6BF0730CCB"
+				item: "minecraft:redstone"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "20C99EDF839DDBAF"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Redstone"
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["I wouldn't expect anything less from candy sellers on such an event. A randomized bag of goodies for just a fragment? What a deal. And they're limited edition too!"]
+			entity_vis_size: 1.0f
+			icon: "born_in_chaos_v1:bagof_candy"
+			id: "3831ED705B5EC64B"
+			rewards: [{
+				id: "10828096E3C327ED"
+				item: "born_in_chaos_v1:bagof_candy"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 2L
+				id: "7731D0D16D8D9385"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Bag of Candy"
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["I've been surprised to find Death Card holders in Red Barar, but it fits the country. They sell more protection items."]
+			entity_vis_size: 1.0f
+			icon: "born_in_chaos_v1:death_totem"
+			id: "3D5940FC22894C4A"
+			rewards: [{
+				id: "26B3EAD384DC00C7"
+				item: "born_in_chaos_v1:death_totem"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 8L
+				id: "2617C3EFE53803FC"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Death Totem"
+			x: 1.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["Pumpkin pies fit the season. It's no surprise they're being sold here, both for tickets, and for gold."]
+			entity_vis_size: 1.0f
+			icon: "minecraft:pumpkin_pie"
+			id: "7D321CDE4A739D89"
+			rewards: [{
+				count: 8
+				id: "4E51ABF8FE1A2FC7"
+				item: "minecraft:pumpkin_pie"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "3C2E3FD43448B6BA"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Pumpkin Pie"
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: [
+				"If I can escape death, I guess this would be useful. The people who make these kinds of items are seen as some sort of lunatic. This can help you return to where you died. But if I'm dead, I can't exactly come back to where I died. "
+				""
+				"What, do they think some sort of &6Demiurge &rwho can resurrect  themselves infinitely will come around and buy a ton of these? Even sanguines cannot come back if they're permanently killed."
+			]
+			entity_vis_size: 1.0f
+			icon: {
+				Count: 1
+				id: "tangiblecommands:back_item"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "287A428333408BD2"
+			rewards: [{
+				id: "648D714DB142EC94"
+				item: {
+					Count: 1
+					id: "tangiblecommands:back_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				id: "28228CA7BCB255C6"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Soul Scroll"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6378F35C4C516CC5"]
+			description: ["Endermen like to come and harvest bloody pumpkins for themselves. As a result, sanguines have slain a lot of them and put up their intact hearts as rewards."]
+			entity_vis_size: 1.0f
+			icon: "reliquary:nebulous_heart"
+			id: "68F563E750171BAA"
+			rewards: [{
+				id: "1B7E47668EF4BED6"
+				item: "reliquary:nebulous_heart"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.1d
+			tasks: [{
+				count: 2L
+				id: "4AE136256C66870F"
+				item: "concatenationcore:blood_festival_fragment"
+				type: "item"
+			}]
+			title: "Nebulous Heart"
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5C65BB043F4CF436"]
+			entity_vis_size: 1.0f
+			id: "1AEB944C1C6CF35C"
+			tasks: [{
+				id: "708A274486B815A2"
+				item: "concatenationcore:hexed_seeds"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C65BB043F4CF436"]
+			entity_vis_size: 1.0f
+			id: "04B311684715F847"
+			rewards: [{
+				id: "2CE044DD64DD30E8"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "655014142E73CA37"
+				item: "concatenationcore:dread_treat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
 	]
+	subtitle: ["Seasonal Event"]
 	title: "Halloween 2026"
 }

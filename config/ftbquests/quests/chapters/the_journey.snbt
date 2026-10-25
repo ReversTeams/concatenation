@@ -24,7 +24,7 @@
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
 			entity_vis_silhouette_mode: "NONE"
-			entity_vis_size: 1.0f
+			entity_vis_size: 5.0f
 			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
 			entity_vis_tag_cycle_mode: "USE_GLOBAL"
@@ -46,7 +46,7 @@
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
 			entity_vis_silhouette_mode: "NONE"
-			entity_vis_size: 1.0f
+			entity_vis_size: 5.0f
 			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
 			entity_vis_tag_cycle_mode: "USE_GLOBAL"
@@ -68,7 +68,7 @@
 			entity_vis_offset_y: 0.0f
 			entity_vis_rotation: 0.0f
 			entity_vis_silhouette_mode: "NONE"
-			entity_vis_size: 1.0f
+			entity_vis_size: 5.0f
 			entity_vis_slim_arms: false
 			entity_vis_spin_mode: "USE_GLOBAL"
 			entity_vis_tag_cycle_mode: "USE_GLOBAL"
@@ -19483,7 +19483,7 @@
 				"{@pagebreak}"
 				"The megatorch helps to keep Nightmare Stalkers away, but is not infallible."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			id: "64655F5EE797B52B"
 			rewards: [
 				{
@@ -29622,7 +29622,7 @@
 				""
 				"Experienced mages and fighters will have no issue dispatching these small lords, with a greater emphasis on ranged attacks."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			hide_dependency_lines: true
 			id: "7792C9C4083B5E66"
 			rewards: [
@@ -29672,7 +29672,23 @@
 				""
 				"It has several ranged and magical attacks."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
+			ftbquestsentityvis_icon: {
+				cycle_seconds: 0.0f
+				enabled: 0b
+				entity: "minecraft:pig"
+				idle_mode: "USE_GLOBAL"
+				offset_x: 0.0f
+				offset_y: 0.0f
+				rotation: 0.0f
+				silhouette_mode: "NONE"
+				size: 2.0f
+				slim_arms: 0b
+				spin_mode: "USE_GLOBAL"
+				tag_cycle_mode: "USE_GLOBAL"
+				use_as_quest_icon: 0b
+				walk_mode: "USE_GLOBAL"
+			}
 			hide_dependency_lines: true
 			id: "331B463F56B12F4C"
 			rewards: [
@@ -29717,7 +29733,7 @@
 		{
 			dependencies: ["0D70725FEAF0DC7B"]
 			description: ["A mythical creature from the cold and frozen wastelands. It is often angered by the slaughtering of small and defenseless animals."]
-			entity_vis_size: 1.25f
+			entity_vis_size: 2.0f
 			hide_dependency_lines: true
 			id: "067237DD7132D829"
 			rewards: [{
@@ -29760,7 +29776,7 @@
 				""
 				"&4It is unknown whether the multiple sightings of Sir Pumpkinhead are the same entity, a weaker entity than Lord Pumpkinhead, or one of 'His' avatars. I believe they're avatars, though. I should hunt one of these as my contribution to the festivities. We'll have a night of drinking once I'm back."
 			]
-			entity_vis_size: 1.2f
+			entity_vis_size: 2.0f
 			hide_dependency_lines: true
 			id: "410C0B331F8A12F2"
 			rewards: [{
@@ -29801,7 +29817,7 @@
 				""
 				"It can take possession of your enemies, strengthening them considerably. It makes them move much faster and hit a lot harder, but on their own, these spirits are quite weak. An exorcism through death is needed to get them out of someone. The condition is lethal."
 			]
-			entity_vis_size: 1.0f
+			entity_vis_size: 1.5f
 			hide_dependency_lines: true
 			id: "2DC88F1D0EDBD7B7"
 			rewards: [

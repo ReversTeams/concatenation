@@ -61,6 +61,7 @@ lightspeed-cache
 /oei
 config/QuantifiedAPI/cache
 particular_cache
+/entities_list.json
 
 # explicitly included config
 !config/ProjectE/client.toml

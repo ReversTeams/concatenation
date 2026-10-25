@@ -503,7 +503,7 @@ element {
 
 element {
   interactable = true
-  source = First Anniversary Update.
+  source = Halloween 2026 Event. Content from Vanilla 1.21.9, 1.21.11 and 26.3 backported. Various fixes. Anomalous ore now sometimes spawns in craters. Added trash cans.
   source_mode = direct
   shadow = true
   scale = 0.5
@@ -649,7 +649,7 @@ element {
 
 element {
   interactable = true
-  source = First Anniversary Event! All former events are now active along with new revamped quest rewards and a brand new Eleonore plushie and valuable end reward!
+  source = The Blood Festival is now opened! Collect as much blood as you can! Redeem rewards! Curse pumpkins into blood pumpkins and defend them to your last dying breath!
   source_mode = direct
   shadow = true
   scale = 0.5
